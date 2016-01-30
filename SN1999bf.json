@@ -36,7 +36,16 @@
 			}
 		],
 		"discoverday":"10",
-		"discoverer":"Supernova Cosmology Project",
+		"discoverer":[
+			{
+				"value":"SCP,Spacewatch program",
+				"source":"1"
+			},
+			{
+				"value":"Supernova Cosmology Project",
+				"source":"2,3"
+			}
+		],
 		"discovermonth":"3",
 		"discoveryear":"1999",
 		"galdec":[
@@ -69,7 +78,9 @@
 				"source":"D"
 			}
 		],
-		"maxday":"25",
+		"maxabsmag":"-20",
+		"maxappmag":"20.8",
+		"maxday":"10",
 		"maxmonth":"3",
 		"maxyear":"1999",
 		"redshift":[
@@ -94,7 +105,6 @@
 			{
 				"timeunit":"MJD",
 				"time":"51247.0",
-				"band":"",
 				"abmag":"20.8",
 				"source":"4"
 			}

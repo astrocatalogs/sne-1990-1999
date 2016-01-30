@@ -54,7 +54,16 @@
 			}
 		],
 		"discoverday":"5",
-		"discoverer":"BAO Supernova Survey",
+		"discoverer":[
+			{
+				"value":"BAOSS",
+				"source":"1"
+			},
+			{
+				"value":"BAO Supernova Survey",
+				"source":"2,3"
+			}
+		],
 		"discovermonth":"8",
 		"discoveryear":"1997",
 		"galdec":[
@@ -87,6 +96,11 @@
 				"source":"4"
 			}
 		],
+		"maxabsmag":"-15",
+		"maxappmag":"18.3",
+		"maxday":"5",
+		"maxmonth":"8",
+		"maxyear":"1997",
 		"redshift":[
 			{
 				"value":"0.012",
@@ -109,7 +123,6 @@
 			{
 				"timeunit":"MJD",
 				"time":"50665.0",
-				"band":"",
 				"abmag":"18.3",
 				"source":"4"
 			}

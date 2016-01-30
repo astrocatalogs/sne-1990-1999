@@ -47,8 +47,17 @@
 				"source":"2,3,4,1,6"
 			}
 		],
-		"discoverday":"2",
-		"discoverer":"Mike Schwartz",
+		"discoverday":"3",
+		"discoverer":[
+			{
+				"value":"Schwartz",
+				"source":"2"
+			},
+			{
+				"value":"Mike Schwartz",
+				"source":"3,4"
+			}
+		],
 		"discovermonth":"6",
 		"discoveryear":"1998",
 		"ebv":[
@@ -75,15 +84,11 @@
 				"source":"1"
 			},
 			{
-				"value":"Mrk261",
-				"source":"2"
-			},
-			{
 				"value":"MRK 261",
-				"source":"3,4"
+				"source":"2,3,4"
 			},
 			{
-				"value":"PGC47417",
+				"value":"PGC 47417",
 				"source":"5"
 			}
 		],
@@ -130,7 +135,6 @@
 			{
 				"timeunit":"MJD",
 				"time":"50966.5",
-				"band":"",
 				"abmag":"17.0",
 				"source":"3,4"
 			}
