@@ -6,38 +6,50 @@
 		],
 		"sources":[
 			{
+				"name":"2004A&A...415..863G",
+				"url":"http://adsabs.harvard.edu/abs/2004A&A...415..863G",
+				"bibcode":"2004A&A...415..863G",
+				"alias":"1"
+			},
+			{
 				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"1",
+				"alias":"2",
 				"secondary":true
 			},
 			{
 				"name":"IAUC 7039",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07000/07039.html",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
 			},
 			{
 				"name":"2012A&A...538A.120L",
 				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
+				"alias":"5"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"nIa",
+				"source":"1"
 			}
 		],
 		"discoverday":"22",
 		"discoverer":[
 			{
 				"value":"MSACSST",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"value":"Mount Stromlo",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"discovermonth":"10",
@@ -45,23 +57,27 @@
 		"galdec":[
 			{
 				"value":"-41:33:06",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"03:21:01",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"host":[
 			{
-				"value":"A032101-4133",
+				"value":"Abell 3122",
 				"source":"1"
 			},
 			{
+				"value":"A032101-4133",
+				"source":"2"
+			},
+			{
 				"value":"PGC 110984",
-				"source":"4"
+				"source":"5"
 			}
 		],
 		"hvel":[
@@ -84,19 +100,19 @@
 		"redshift":[
 			{
 				"value":"0.1",
-				"source":"4"
+				"source":"5"
 			}
 		],
 		"sndec":[
 			{
 				"value":"-41:33:06.6",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"snra":[
 			{
 				"value":"03:21:01.21",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"photometry":[
@@ -104,7 +120,7 @@
 				"timeunit":"MJD",
 				"time":"51107.5",
 				"abmag":"20.5",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		]
 	}

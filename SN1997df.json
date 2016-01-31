@@ -6,38 +6,50 @@
 		],
 		"sources":[
 			{
+				"name":"2004A&A...415..863G",
+				"url":"http://adsabs.harvard.edu/abs/2004A&A...415..863G",
+				"bibcode":"2004A&A...415..863G",
+				"alias":"1"
+			},
+			{
 				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"1",
+				"alias":"2",
 				"secondary":true
 			},
 			{
 				"name":"IAUC 6745",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06700/06745.html",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
 			},
 			{
 				"name":"2012A&A...538A.120L",
 				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
+				"alias":"5"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"nIa",
+				"source":"1"
 			}
 		],
 		"discoverday":"15",
 		"discoverer":[
 			{
 				"value":"MSACSST",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"value":"Mount Stromlo",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"discovermonth":"8",
@@ -45,23 +57,27 @@
 		"galdec":[
 			{
 				"value":"-30:42:23",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"04:09:13",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"host":[
 			{
-				"value":"A040913-3042",
+				"value":"Abell 3223",
 				"source":"1"
 			},
 			{
+				"value":"A040913-3042",
+				"source":"2"
+			},
+			{
 				"value":"PGC 176992",
-				"source":"4"
+				"source":"5"
 			}
 		],
 		"hvel":[
@@ -84,23 +100,27 @@
 		"redshift":[
 			{
 				"value":"0.06",
-				"source":"4"
+				"source":"5"
 			}
 		],
 		"sndec":[
 			{
+				"value":"-30:42:23.2",
+				"source":"1"
+			},
+			{
 				"value":"-30:42:23.3",
-				"source":"1,2,3"
+				"source":"2,3,4"
 			}
 		],
 		"snra":[
 			{
-				"value":"04:09:13.8",
-				"source":"1"
+				"value":"04:09:13.80",
+				"source":"1,3,4"
 			},
 			{
-				"value":"04:09:13.80",
-				"source":"2,3"
+				"value":"04:09:13.8",
+				"source":"2"
 			}
 		],
 		"photometry":[
@@ -108,7 +128,7 @@
 				"timeunit":"MJD",
 				"time":"50674.5",
 				"abmag":"19.0",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		]
 	}

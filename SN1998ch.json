@@ -6,44 +6,50 @@
 		],
 		"sources":[
 			{
+				"name":"2004A&A...415..863G",
+				"url":"http://adsabs.harvard.edu/abs/2004A&A...415..863G",
+				"bibcode":"2004A&A...415..863G",
+				"alias":"1"
+			},
+			{
 				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"1",
+				"alias":"2",
 				"secondary":true
 			},
 			{
 				"name":"IAUC 6917",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06900/06917.html",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
 			},
 			{
 				"name":"2012A&A...538A.120L",
 				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
+				"alias":"5"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"discoverday":"18",
 		"discoverer":[
 			{
 				"value":"MSACSST",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"value":"Mount Stromlo",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"discovermonth":"5",
@@ -51,25 +57,29 @@
 		"galdec":[
 			{
 				"value":"-29:17:26",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"13:29:13",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"host":[
 			{
-				"value":"A132913-2917",
+				"value":"Abell 3559",
 				"source":"1"
+			},
+			{
+				"value":"A132913-2917",
+				"source":"2"
 			}
 		],
 		"hvel":[
 			{
 				"value":"14100",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"lumdist":[
@@ -86,19 +96,19 @@
 		"redshift":[
 			{
 				"value":"0.047",
-				"source":"2,3,4"
+				"source":"3,4,5"
 			}
 		],
 		"sndec":[
 			{
 				"value":"-29:17:26.8",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"snra":[
 			{
 				"value":"13:29:13.31",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"photometry":[
@@ -106,7 +116,7 @@
 				"timeunit":"MJD",
 				"time":"50950.5",
 				"abmag":"20.3",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		]
 	}

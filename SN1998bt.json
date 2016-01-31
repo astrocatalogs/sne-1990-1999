@@ -6,38 +6,50 @@
 		],
 		"sources":[
 			{
+				"name":"2004A&A...415..863G",
+				"url":"http://adsabs.harvard.edu/abs/2004A&A...415..863G",
+				"bibcode":"2004A&A...415..863G",
+				"alias":"1"
+			},
+			{
 				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"1",
+				"alias":"2",
 				"secondary":true
 			},
 			{
 				"name":"IAUC 6893",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06800/06893.html",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
 			},
 			{
 				"name":"2012A&A...538A.120L",
 				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
+				"alias":"5"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"nIa",
+				"source":"1"
 			}
 		],
 		"discoverday":"10",
 		"discoverer":[
 			{
 				"value":"MSACSST",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"value":"Mount Stromlo",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"discovermonth":"3",
@@ -45,19 +57,23 @@
 		"galdec":[
 			{
 				"value":"-26:46:55",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"13:25:41",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"host":[
 			{
-				"value":"A132541-2646",
+				"value":"Abell 1736",
 				"source":"1"
+			},
+			{
+				"value":"A132541-2646",
+				"source":"2"
 			}
 		],
 		"maxappmag":"19.7",
@@ -67,13 +83,13 @@
 		"sndec":[
 			{
 				"value":"-26:46:55.7",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"snra":[
 			{
 				"value":"13:25:41.93",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"photometry":[
@@ -81,7 +97,7 @@
 				"timeunit":"MJD",
 				"time":"50881.5",
 				"abmag":"19.7",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		]
 	}

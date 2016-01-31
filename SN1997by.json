@@ -6,50 +6,56 @@
 		],
 		"sources":[
 			{
+				"name":"2004A&A...415..863G",
+				"url":"http://adsabs.harvard.edu/abs/2004A&A...415..863G",
+				"bibcode":"2004A&A...415..863G",
+				"alias":"1"
+			},
+			{
 				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"1",
+				"alias":"2",
 				"secondary":true
 			},
 			{
 				"name":"IAUC 6639",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06600/06639.html#Item1",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
 			},
 			{
 				"name":"2012A&A...538A.120L",
 				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
+				"alias":"5"
 			},
 			{
 				"name":"CfA Supernova Archive",
 				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
-				"alias":"5",
+				"alias":"6",
 				"secondary":true
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"discoverday":"27",
 		"discoverer":[
 			{
 				"value":"MSACSST",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"value":"Mount Stromlo",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"discovermonth":"4",
@@ -57,25 +63,29 @@
 		"galdec":[
 			{
 				"value":"-27:19:26",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"13:27:28",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"host":[
 			{
+				"value":"Abell 1736",
+				"source":"1"
+			},
+			{
 				"value":"IC 4252",
-				"source":"1,2,3,4"
+				"source":"2,3,4,5"
 			}
 		],
 		"hvel":[
 			{
 				"value":"13582",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"lumdist":[
@@ -92,19 +102,19 @@
 		"redshift":[
 			{
 				"value":"0.045",
-				"source":"2,3,4"
+				"source":"3,4,5"
 			}
 		],
 		"sndec":[
 			{
 				"value":"-27:19:21.7",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"snra":[
 			{
 				"value":"13:27:27.54",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"photometry":[
@@ -112,7 +122,7 @@
 				"timeunit":"MJD",
 				"time":"50564.5",
 				"abmag":"16.2",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"spectra":[
@@ -13267,7 +13277,7 @@
 						"2.6405638e-17"
 					]
 				],
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"deredshifted":false,
@@ -26420,7 +26430,7 @@
 						"2.3751732e-17"
 					]
 				],
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"deredshifted":false,
@@ -39513,7 +39523,7 @@
 						"2.3633625e-17"
 					]
 				],
-				"source":"5"
+				"source":"6"
 			}
 		]
 	}
