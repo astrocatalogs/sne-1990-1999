@@ -57,7 +57,12 @@
 				"source":"3,4,1,6"
 			}
 		],
-		"discoverday":"30",
+		"discoverday":[
+			{
+				"value":"30",
+				"source":"2,3,4"
+			}
+		],
 		"discoverer":[
 			{
 				"value":"Pollas",
@@ -68,8 +73,18 @@
 				"source":"3,4"
 			}
 		],
-		"discovermonth":"12",
-		"discoveryear":"1991",
+		"discovermonth":[
+			{
+				"value":"12",
+				"source":"2,3,4"
+			}
+		],
+		"discoveryear":[
+			{
+				"value":"1991",
+				"source":"2,3,4"
+			}
+		],
 		"ebv":[
 			{
 				"value":"0.052",
@@ -106,11 +121,44 @@
 				"source":"5"
 			}
 		],
-		"maxabsmag":"-15",
-		"maxappmag":"18.8",
-		"maxday":"29",
-		"maxmonth":"12",
-		"maxyear":"1991",
+		"maxabsmag":[
+			{
+				"value":"-15",
+				"source":"D"
+			}
+		],
+		"maxappmag":[
+			{
+				"value":"18.8",
+				"source":"D"
+			}
+		],
+		"maxday":[
+			{
+				"value":"30",
+				"source":"5"
+			},
+			{
+				"value":"29",
+				"source":"D"
+			}
+		],
+		"maxmonth":[
+			{
+				"value":"11",
+				"source":"5"
+			},
+			{
+				"value":"12",
+				"source":"D"
+			}
+		],
+		"maxyear":[
+			{
+				"value":"1991",
+				"source":"5,D"
+			}
+		],
 		"redshift":[
 			{
 				"value":"0.018",

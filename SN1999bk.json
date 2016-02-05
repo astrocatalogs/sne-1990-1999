@@ -35,7 +35,12 @@
 				"source":"1,2,3"
 			}
 		],
-		"discoverday":"15",
+		"discoverday":[
+			{
+				"value":"15",
+				"source":"1,2,3"
+			}
+		],
 		"discoverer":[
 			{
 				"value":"EROS,SCP",
@@ -46,8 +51,18 @@
 				"source":"2,3"
 			}
 		],
-		"discovermonth":"3",
-		"discoveryear":"1999",
+		"discovermonth":[
+			{
+				"value":"3",
+				"source":"1,2,3"
+			}
+		],
+		"discoveryear":[
+			{
+				"value":"1999",
+				"source":"1,2,3"
+			}
+		],
 		"galdec":[
 			{
 				"value":"-12:18:08",
@@ -78,11 +93,40 @@
 				"source":"D"
 			}
 		],
-		"maxabsmag":"-19",
-		"maxappmag":"19.1",
-		"maxday":"14",
-		"maxmonth":"3",
-		"maxyear":"1999",
+		"maxabsmag":[
+			{
+				"value":"-19",
+				"source":"D"
+			}
+		],
+		"maxappmag":[
+			{
+				"value":"19.1",
+				"source":"D"
+			}
+		],
+		"maxday":[
+			{
+				"value":"13",
+				"source":"4"
+			},
+			{
+				"value":"14",
+				"source":"D"
+			}
+		],
+		"maxmonth":[
+			{
+				"value":"3",
+				"source":"4,D"
+			}
+		],
+		"maxyear":[
+			{
+				"value":"1999",
+				"source":"4,D"
+			}
+		],
 		"redshift":[
 			{
 				"value":"0.096",

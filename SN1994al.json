@@ -57,7 +57,12 @@
 				"source":"2,3"
 			}
 		],
-		"discoverday":"8",
+		"discoverday":[
+			{
+				"value":"8",
+				"source":"1,2,3"
+			}
+		],
 		"discoverer":[
 			{
 				"value":"SCP",
@@ -68,8 +73,18 @@
 				"source":"2,3"
 			}
 		],
-		"discovermonth":"1",
-		"discoveryear":"1994",
+		"discovermonth":[
+			{
+				"value":"1",
+				"source":"1,2,3"
+			}
+		],
+		"discoveryear":[
+			{
+				"value":"1994",
+				"source":"1,2,3"
+			}
+		],
 		"galdec":[
 			{
 				"value":"+17:18:33",
@@ -101,11 +116,40 @@
 				"source":"7,5"
 			}
 		],
-		"maxabsmag":"-18.8",
-		"maxappmag":"22.6",
-		"maxday":"7",
-		"maxmonth":"1",
-		"maxyear":"1994",
+		"maxabsmag":[
+			{
+				"value":"-18.8",
+				"source":"D"
+			}
+		],
+		"maxappmag":[
+			{
+				"value":"22.6",
+				"source":"D"
+			}
+		],
+		"maxday":[
+			{
+				"value":"2",
+				"source":"4"
+			},
+			{
+				"value":"7",
+				"source":"D"
+			}
+		],
+		"maxmonth":[
+			{
+				"value":"1",
+				"source":"4,D"
+			}
+		],
+		"maxyear":[
+			{
+				"value":"1994",
+				"source":"4,D"
+			}
+		],
 		"redshift":[
 			{
 				"value":"0.42",

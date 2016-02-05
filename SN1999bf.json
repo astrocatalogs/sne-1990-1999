@@ -35,7 +35,12 @@
 				"source":"1"
 			}
 		],
-		"discoverday":"10",
+		"discoverday":[
+			{
+				"value":"10",
+				"source":"1,2,3"
+			}
+		],
 		"discoverer":[
 			{
 				"value":"SCP,Spacewatch program",
@@ -46,8 +51,18 @@
 				"source":"2,3"
 			}
 		],
-		"discovermonth":"3",
-		"discoveryear":"1999",
+		"discovermonth":[
+			{
+				"value":"3",
+				"source":"1,2,3"
+			}
+		],
+		"discoveryear":[
+			{
+				"value":"1999",
+				"source":"1,2,3"
+			}
+		],
 		"galdec":[
 			{
 				"value":"-00:41:19",
@@ -78,11 +93,40 @@
 				"source":"D"
 			}
 		],
-		"maxabsmag":"-20",
-		"maxappmag":"20.8",
-		"maxday":"10",
-		"maxmonth":"3",
-		"maxyear":"1999",
+		"maxabsmag":[
+			{
+				"value":"-20",
+				"source":"D"
+			}
+		],
+		"maxappmag":[
+			{
+				"value":"20.8",
+				"source":"D"
+			}
+		],
+		"maxday":[
+			{
+				"value":"25",
+				"source":"4"
+			},
+			{
+				"value":"10",
+				"source":"D"
+			}
+		],
+		"maxmonth":[
+			{
+				"value":"3",
+				"source":"4,D"
+			}
+		],
+		"maxyear":[
+			{
+				"value":"1999",
+				"source":"4,D"
+			}
+		],
 		"redshift":[
 			{
 				"value":"0.24",

@@ -59,7 +59,12 @@
 				"source":"2,3,4,6,7,1"
 			}
 		],
-		"discoverday":"15",
+		"discoverday":[
+			{
+				"value":"15",
+				"source":"2,3,4"
+			}
+		],
 		"discoverer":[
 			{
 				"value":"Evans",
@@ -70,8 +75,18 @@
 				"source":"3,4"
 			}
 		],
-		"discovermonth":"6",
-		"discoveryear":"1990",
+		"discovermonth":[
+			{
+				"value":"6",
+				"source":"2,3,4"
+			}
+		],
+		"discoveryear":[
+			{
+				"value":"1990",
+				"source":"2,3,4"
+			}
+		],
 		"ebv":[
 			{
 				"value":"0.036",
@@ -108,11 +123,40 @@
 				"source":"5"
 			}
 		],
-		"maxabsmag":"-19",
-		"maxappmag":"13.5",
-		"maxday":"14",
-		"maxmonth":"6",
-		"maxyear":"1990",
+		"maxabsmag":[
+			{
+				"value":"-19",
+				"source":"D"
+			}
+		],
+		"maxappmag":[
+			{
+				"value":"13.5",
+				"source":"D"
+			}
+		],
+		"maxday":[
+			{
+				"value":"15",
+				"source":"5"
+			},
+			{
+				"value":"14",
+				"source":"D"
+			}
+		],
+		"maxmonth":[
+			{
+				"value":"6",
+				"source":"5,D"
+			}
+		],
+		"maxyear":[
+			{
+				"value":"1990",
+				"source":"5,D"
+			}
+		],
 		"redshift":[
 			{
 				"value":"0.009",

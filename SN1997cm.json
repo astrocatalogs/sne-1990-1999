@@ -41,7 +41,16 @@
 				"source":"1"
 			}
 		],
-		"discoverday":"6",
+		"discoverday":[
+			{
+				"value":"2",
+				"source":"1"
+			},
+			{
+				"value":"6",
+				"source":"2,3,4"
+			}
+		],
 		"discoverer":[
 			{
 				"value":"MSACSST",
@@ -52,8 +61,18 @@
 				"source":"3,4"
 			}
 		],
-		"discovermonth":"5",
-		"discoveryear":"1997",
+		"discovermonth":[
+			{
+				"value":"5",
+				"source":"1,2,3,4"
+			}
+		],
+		"discoveryear":[
+			{
+				"value":"1997",
+				"source":"1,2,3,4"
+			}
+		],
 		"galdec":[
 			{
 				"value":"-28:48:48",
@@ -88,11 +107,36 @@
 				"source":"D"
 			}
 		],
-		"maxabsmag":"-20",
-		"maxappmag":"20.6",
-		"maxday":"5",
-		"maxmonth":"5",
-		"maxyear":"1997",
+		"maxabsmag":[
+			{
+				"value":"-20",
+				"source":"D"
+			}
+		],
+		"maxappmag":[
+			{
+				"value":"20.6",
+				"source":"D"
+			}
+		],
+		"maxday":[
+			{
+				"value":"5",
+				"source":"D"
+			}
+		],
+		"maxmonth":[
+			{
+				"value":"5",
+				"source":"D"
+			}
+		],
+		"maxyear":[
+			{
+				"value":"1997",
+				"source":"D"
+			}
+		],
 		"redshift":[
 			{
 				"value":"0.07",

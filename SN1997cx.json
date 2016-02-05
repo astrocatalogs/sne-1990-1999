@@ -49,7 +49,12 @@
 				"source":"4,5,6"
 			}
 		],
-		"discoverday":"12",
+		"discoverday":[
+			{
+				"value":"12",
+				"source":"4,5,6"
+			}
+		],
 		"discoverer":[
 			{
 				"value":"Schwartz",
@@ -60,8 +65,18 @@
 				"source":"5,6"
 			}
 		],
-		"discovermonth":"7",
-		"discoveryear":"1997",
+		"discovermonth":[
+			{
+				"value":"7",
+				"source":"4,5,6"
+			}
+		],
+		"discoveryear":[
+			{
+				"value":"1997",
+				"source":"1,4,5,6"
+			}
+		],
 		"galdec":[
 			{
 				"value":"+80:17:08",
@@ -92,11 +107,44 @@
 				"source":"7"
 			}
 		],
-		"maxabsmag":"-17",
-		"maxappmag":"15",
-		"maxday":"12",
-		"maxmonth":"7",
-		"maxyear":"1997",
+		"maxabsmag":[
+			{
+				"value":"-17",
+				"source":"D"
+			}
+		],
+		"maxappmag":[
+			{
+				"value":"15",
+				"source":"D"
+			}
+		],
+		"maxday":[
+			{
+				"value":"29",
+				"source":"7"
+			},
+			{
+				"value":"12",
+				"source":"D"
+			}
+		],
+		"maxmonth":[
+			{
+				"value":"5",
+				"source":"7"
+			},
+			{
+				"value":"7",
+				"source":"D"
+			}
+		],
+		"maxyear":[
+			{
+				"value":"1997",
+				"source":"7,D"
+			}
+		],
 		"redshift":[
 			{
 				"value":"0.0051",

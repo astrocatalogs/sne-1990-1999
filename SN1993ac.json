@@ -153,7 +153,12 @@
 				"source":"6,7,8,1,24"
 			}
 		],
-		"discoverday":"13",
+		"discoverday":[
+			{
+				"value":"13",
+				"source":"7,8"
+			}
+		],
 		"discoverer":[
 			{
 				"value":"Mueller",
@@ -164,8 +169,18 @@
 				"source":"7,8"
 			}
 		],
-		"discovermonth":"10",
-		"discoveryear":"1993",
+		"discovermonth":[
+			{
+				"value":"10",
+				"source":"7,8"
+			}
+		],
+		"discoveryear":[
+			{
+				"value":"1993",
+				"source":"2,4,6,7,8"
+			}
+		],
 		"ebv":[
 			{
 				"value":"0.162",
@@ -211,11 +226,40 @@
 				"source":"14,10"
 			}
 		],
-		"maxabsmag":"-20",
-		"maxappmag":"18",
-		"maxday":"12",
-		"maxmonth":"10",
-		"maxyear":"1993",
+		"maxabsmag":[
+			{
+				"value":"-20",
+				"source":"D"
+			}
+		],
+		"maxappmag":[
+			{
+				"value":"18",
+				"source":"D"
+			}
+		],
+		"maxday":[
+			{
+				"value":"10",
+				"source":"6"
+			},
+			{
+				"value":"12",
+				"source":"D"
+			}
+		],
+		"maxmonth":[
+			{
+				"value":"10",
+				"source":"6,D"
+			}
+		],
+		"maxyear":[
+			{
+				"value":"1993",
+				"source":"D"
+			}
+		],
 		"redshift":[
 			{
 				"value":"0.049",

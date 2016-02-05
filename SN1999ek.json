@@ -189,15 +189,30 @@
 				"source":"8,9,10,1,30"
 			}
 		],
-		"discoverday":"20",
+		"discoverday":[
+			{
+				"value":"20",
+				"source":"9,10"
+			}
+		],
 		"discoverer":[
 			{
 				"value":"LOSS",
 				"source":"8,9,10"
 			}
 		],
-		"discovermonth":"10",
-		"discoveryear":"1999",
+		"discovermonth":[
+			{
+				"value":"10",
+				"source":"9,10"
+			}
+		],
+		"discoveryear":[
+			{
+				"value":"1999",
+				"source":"2,4,8,9,10"
+			}
+		],
 		"ebv":[
 			{
 				"value":"0.568",
@@ -239,11 +254,40 @@
 				"source":"20,12"
 			}
 		],
-		"maxabsmag":"-18.2",
-		"maxappmag":"16.48",
-		"maxday":"28",
-		"maxmonth":"10",
-		"maxyear":"1999",
+		"maxabsmag":[
+			{
+				"value":"-18.2",
+				"source":"D"
+			}
+		],
+		"maxappmag":[
+			{
+				"value":"16.48",
+				"source":"D"
+			}
+		],
+		"maxday":[
+			{
+				"value":"30",
+				"source":"8"
+			},
+			{
+				"value":"28",
+				"source":"D"
+			}
+		],
+		"maxmonth":[
+			{
+				"value":"10",
+				"source":"8,D"
+			}
+		],
+		"maxyear":[
+			{
+				"value":"1999",
+				"source":"D"
+			}
+		],
 		"redshift":[
 			{
 				"value":"0.018",

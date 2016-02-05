@@ -179,7 +179,12 @@
 				"source":"3,4,5"
 			}
 		],
-		"discoverday":"24",
+		"discoverday":[
+			{
+				"value":"24",
+				"source":"4,5"
+			}
+		],
 		"discoverer":[
 			{
 				"value":"Antezana",
@@ -190,8 +195,18 @@
 				"source":"4,5"
 			}
 		],
-		"discovermonth":"10",
-		"discoveryear":"1990",
+		"discovermonth":[
+			{
+				"value":"10",
+				"source":"4,5"
+			}
+		],
+		"discoveryear":[
+			{
+				"value":"1990",
+				"source":"1,3,4,5"
+			}
+		],
 		"galdec":[
 			{
 				"value":"-62:44:07",
@@ -227,11 +242,40 @@
 				"source":"16,7,13"
 			}
 		],
-		"maxabsmag":"-19.5",
-		"maxappmag":"17",
-		"maxday":"23",
-		"maxmonth":"10",
-		"maxyear":"1990",
+		"maxabsmag":[
+			{
+				"value":"-19.5",
+				"source":"D"
+			}
+		],
+		"maxappmag":[
+			{
+				"value":"17",
+				"source":"D"
+			}
+		],
+		"maxday":[
+			{
+				"value":"31",
+				"source":"3"
+			},
+			{
+				"value":"23",
+				"source":"D"
+			}
+		],
+		"maxmonth":[
+			{
+				"value":"10",
+				"source":"3,D"
+			}
+		],
+		"maxyear":[
+			{
+				"value":"1990",
+				"source":"D"
+			}
+		],
 		"redshift":[
 			{
 				"value":"0.051",
