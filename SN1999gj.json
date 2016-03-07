@@ -39,28 +39,37 @@
 				"alias":"6"
 			},
 			{
+				"name":"WISeREP",
+				"url":"http://wiserep.weizmann.ac.il/",
+				"alias":"7",
+				"secondary":true
+			},
+			{
+				"name":"2012AJ....143..126B",
+				"url":"http://adsabs.harvard.edu/abs/2012AJ....143..126B",
+				"bibcode":"2012AJ....143..126B",
+				"alias":"8"
+			},
+			{
 				"name":"CfA Supernova Archive",
 				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
-				"alias":"7",
+				"alias":"9",
 				"secondary":true
 			}
 		],
-		"claimedtype":[
+		"discoverdate":[
 			{
-				"value":"Ia",
-				"source":"3,4,5"
+				"value":"1999/11/17",
+				"source":"4,5,6"
 			}
 		],
-		"comovingdist":[
+		"photometry":[
 			{
-				"value":"79",
-				"source":"D"
-			}
-		],
-		"dec":[
-			{
-				"value":"+26:06:20.2",
-				"source":"3,4,5"
+				"timeunit":"MJD",
+				"time":"51552.99",
+				"band":"C",
+				"magnitude":"17.3",
+				"source":"1,2"
 			}
 		],
 		"discover":[
@@ -69,10 +78,46 @@
 				"source":"3"
 			}
 		],
-		"discoverdate":[
+		"host":[
 			{
-				"value":"1999/11/17",
-				"source":"4,5,6"
+				"value":"NGC 3251",
+				"source":"3,4,5,6"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"3,4,5,8,7"
+			}
+		],
+		"hvel":[
+			{
+				"value":"5131",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"10:29:17",
+				"source":"3"
+			}
+		],
+		"galdec":[
+			{
+				"value":"+26:05:58",
+				"source":"3"
+			}
+		],
+		"ra":[
+			{
+				"value":"10:29:19.20",
+				"source":"3,4,5"
+			}
+		],
+		"dec":[
+			{
+				"value":"+26:06:20.2",
+				"source":"3,4,5"
 			}
 		],
 		"discoverer":[
@@ -85,77 +130,10 @@
 				"source":"4,5"
 			}
 		],
-		"galdec":[
-			{
-				"value":"+26:05:58",
-				"source":"3"
-			}
-		],
-		"galra":[
-			{
-				"value":"10:29:17",
-				"source":"3"
-			}
-		],
-		"host":[
-			{
-				"value":"NGC 3251",
-				"source":"3,4,5,6"
-			}
-		],
-		"hvel":[
-			{
-				"value":"5131",
-				"source":"3"
-			}
-		],
-		"lumdist":[
-			{
-				"value":"81",
-				"source":"D"
-			}
-		],
-		"maxabsmag":[
-			{
-				"value":"-17",
-				"source":"D"
-			}
-		],
-		"maxappmag":[
-			{
-				"value":"17.3",
-				"source":"D"
-			}
-		],
-		"maxdate":[
-			{
-				"value":"2000/01/09",
-				"source":"D"
-			}
-		],
-		"ra":[
-			{
-				"value":"10:29:19.20",
-				"source":"3,4,5"
-			}
-		],
 		"redshift":[
 			{
-				"value":"0.018",
-				"source":"4,5"
-			},
-			{
-				"value":"0.017",
-				"source":"6"
-			}
-		],
-		"photometry":[
-			{
-				"timeunit":"MJD",
-				"time":"51552.99",
-				"band":"C",
-				"magnitude":"17.3",
-				"source":"1,2"
+				"value":"0.0172",
+				"source":"8,7"
 			}
 		],
 		"spectra":[
@@ -12910,7 +12888,7 @@
 						"3.793075e-17"
 					]
 				],
-				"source":"7"
+				"source":"9"
 			}
 		]
 	}

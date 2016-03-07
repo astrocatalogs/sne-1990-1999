@@ -35,68 +35,16 @@
 				"alias":"5"
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
-				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"name":"WISeREP",
+				"url":"http://wiserep.weizmann.ac.il/",
 				"alias":"6",
 				"secondary":true
-			}
-		],
-		"claimedtype":[
-			{
-				"value":"Ia",
-				"source":"2,3,4,1,6"
-			}
-		],
-		"comovingdist":[
-			{
-				"value":"62",
-				"source":"D"
-			}
-		],
-		"dec":[
-			{
-				"value":"+42:34:53.0",
-				"source":"3,4"
-			}
-		],
-		"discover":[
-			{
-				"value":"1993/9/24",
-				"source":"2"
-			}
-		],
-		"discoverdate":[
-			{
-				"value":"1993/09/24",
-				"source":"3,4,5"
-			}
-		],
-		"discoverer":[
-			{
-				"value":"Mueller",
-				"source":"2"
 			},
 			{
-				"value":"Jean Mueller",
-				"source":"3,4"
-			}
-		],
-		"ebv":[
-			{
-				"value":"0.155",
-				"source":"1"
-			}
-		],
-		"galdec":[
-			{
-				"value":"+42:35:07",
-				"source":"2"
-			}
-		],
-		"galra":[
-			{
-				"value":"03:02:00",
-				"source":"2"
+				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
+				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"alias":"7",
+				"secondary":true
 			}
 		],
 		"host":[
@@ -115,28 +63,50 @@
 				"source":"2"
 			}
 		],
-		"lumdist":[
+		"ebv":[
 			{
-				"value":"63",
-				"source":"D"
+				"value":"0.155",
+				"source":"1"
 			}
 		],
-		"maxabsmag":[
+		"discoverdate":[
 			{
-				"value":"-16",
-				"source":"D"
+				"value":"1993/09/24",
+				"source":"3,4,5"
 			}
 		],
-		"maxappmag":[
+		"discover":[
 			{
-				"value":"18",
-				"source":"D"
+				"value":"1993/9/24",
+				"source":"2"
 			}
 		],
-		"maxdate":[
+		"claimedtype":[
 			{
-				"value":"1993/09/23",
-				"source":"D"
+				"value":"Ia",
+				"source":"2,3,4,1,6,7"
+			}
+		],
+		"galra":[
+			{
+				"value":"03:02:00",
+				"source":"2"
+			}
+		],
+		"galdec":[
+			{
+				"value":"+42:35:07",
+				"source":"2"
+			}
+		],
+		"discoverer":[
+			{
+				"value":"Mueller",
+				"source":"2"
+			},
+			{
+				"value":"Jean Mueller",
+				"source":"3,4"
 			}
 		],
 		"ra":[
@@ -145,10 +115,10 @@
 				"source":"3,4"
 			}
 		],
-		"redshift":[
+		"dec":[
 			{
-				"value":"0.014",
-				"source":"5"
+				"value":"+42:34:53.0",
+				"source":"3,4"
 			}
 		],
 		"photometry":[
@@ -157,6 +127,12 @@
 				"time":"49253.5",
 				"magnitude":"18.0",
 				"source":"3,4"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.01393",
+				"source":"1,6"
 			}
 		],
 		"spectra":[

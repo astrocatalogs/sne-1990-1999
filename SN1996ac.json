@@ -29,28 +29,28 @@
 				"alias":"4"
 			},
 			{
+				"name":"WISeREP",
+				"url":"http://wiserep.weizmann.ac.il/",
+				"alias":"5",
+				"secondary":true
+			},
+			{
+				"name":"2012AJ....143..126B",
+				"url":"http://adsabs.harvard.edu/abs/2012AJ....143..126B",
+				"bibcode":"2012AJ....143..126B",
+				"alias":"6"
+			},
+			{
 				"name":"CfA Supernova Archive",
 				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
-				"alias":"5",
+				"alias":"7",
 				"secondary":true
 			}
 		],
-		"claimedtype":[
+		"discoverdate":[
 			{
-				"value":"Ia",
-				"source":"1,2,3"
-			}
-		],
-		"comovingdist":[
-			{
-				"value":"110",
-				"source":"D"
-			}
-		],
-		"dec":[
-			{
-				"value":"+01:24:14.7",
-				"source":"1,2,3"
+				"value":"1996/05/21",
+				"source":"2,3,4"
 			}
 		],
 		"discover":[
@@ -59,10 +59,50 @@
 				"source":"1"
 			}
 		],
-		"discoverdate":[
+		"host":[
 			{
-				"value":"1996/05/21",
-				"source":"2,3,4"
+				"value":"PGC 40346",
+				"source":"1,4"
+			},
+			{
+				"value":"CGCG 014-025",
+				"source":"2,3"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2,3,6,5"
+			}
+		],
+		"hvel":[
+			{
+				"value":"7665",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"12:24:11",
+				"source":"1"
+			}
+		],
+		"galdec":[
+			{
+				"value":"+01:24:11",
+				"source":"1"
+			}
+		],
+		"ra":[
+			{
+				"value":"12:24:11.24",
+				"source":"1,2,3"
+			}
+		],
+		"dec":[
+			{
+				"value":"+01:24:14.7",
+				"source":"1,2,3"
 			}
 		],
 		"discoverer":[
@@ -75,80 +115,18 @@
 				"source":"2,3"
 			}
 		],
-		"galdec":[
-			{
-				"value":"+01:24:11",
-				"source":"1"
-			}
-		],
-		"galra":[
-			{
-				"value":"12:24:11",
-				"source":"1"
-			}
-		],
-		"host":[
-			{
-				"value":"PGC 0040346",
-				"source":"1"
-			},
-			{
-				"value":"CGCG 014-025",
-				"source":"2,3"
-			},
-			{
-				"value":"PGC 40346",
-				"source":"4"
-			}
-		],
-		"hvel":[
-			{
-				"value":"7665",
-				"source":"1"
-			}
-		],
-		"lumdist":[
-			{
-				"value":"120",
-				"source":"D"
-			}
-		],
-		"maxabsmag":[
-			{
-				"value":"-19",
-				"source":"D"
-			}
-		],
-		"maxappmag":[
-			{
-				"value":"16.5",
-				"source":"D"
-			}
-		],
-		"maxdate":[
-			{
-				"value":"1996/05/20",
-				"source":"D"
-			}
-		],
-		"ra":[
-			{
-				"value":"12:24:11.24",
-				"source":"1,2,3"
-			}
-		],
-		"redshift":[
-			{
-				"value":"0.026",
-				"source":"4"
-			}
-		],
 		"photometry":[
 			{
 				"timeunit":"MJD",
 				"time":"50223.5",
 				"magnitude":"16.5",
 				"source":"2,3"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.0255",
+				"source":"6,5"
 			}
 		],
 		"spectra":[
@@ -13293,7 +13271,7 @@
 						"3.7242885e-17"
 					]
 				],
-				"source":"5"
+				"source":"7"
 			}
 		]
 	}

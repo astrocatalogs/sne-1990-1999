@@ -29,34 +29,22 @@
 				"alias":"4"
 			},
 			{
-				"name":"CfA Supernova Archive",
-				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
+				"name":"WISeREP",
+				"url":"http://wiserep.weizmann.ac.il/",
 				"alias":"5",
 				"secondary":true
-			}
-		],
-		"claimedtype":[
+			},
 			{
-				"value":"Ia",
-				"source":"1,2,3"
-			}
-		],
-		"comovingdist":[
+				"name":"2012AJ....143..126B",
+				"url":"http://adsabs.harvard.edu/abs/2012AJ....143..126B",
+				"bibcode":"2012AJ....143..126B",
+				"alias":"6"
+			},
 			{
-				"value":"218",
-				"source":"D"
-			}
-		],
-		"dec":[
-			{
-				"value":"+72:25:15.5",
-				"source":"1,2,3"
-			}
-		],
-		"discover":[
-			{
-				"value":"1999/4/9",
-				"source":"1"
+				"name":"CfA Supernova Archive",
+				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
+				"alias":"7",
+				"secondary":true
 			}
 		],
 		"discoverdate":[
@@ -65,25 +53,9 @@
 				"source":"2,3,4"
 			}
 		],
-		"discoverer":[
+		"discover":[
 			{
-				"value":"Boles",
-				"source":"1"
-			},
-			{
-				"value":"Tom Boles",
-				"source":"2,3"
-			}
-		],
-		"galdec":[
-			{
-				"value":"+72:25:15",
-				"source":"1"
-			}
-		],
-		"galra":[
-			{
-				"value":"17:11:37",
+				"value":"1999/4/9",
 				"source":"1"
 			}
 		],
@@ -97,34 +69,28 @@
 				"source":"4"
 			}
 		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2,3,6,5"
+			}
+		],
 		"hvel":[
 			{
 				"value":"14960",
 				"source":"1"
 			}
 		],
-		"lumdist":[
+		"galra":[
 			{
-				"value":"229",
-				"source":"D"
+				"value":"17:11:37",
+				"source":"1"
 			}
 		],
-		"maxabsmag":[
+		"galdec":[
 			{
-				"value":"-19.8",
-				"source":"D"
-			}
-		],
-		"maxappmag":[
-			{
-				"value":"17",
-				"source":"D"
-			}
-		],
-		"maxdate":[
-			{
-				"value":"2016/01/03",
-				"source":"D"
+				"value":"+72:25:15",
+				"source":"1"
 			}
 		],
 		"ra":[
@@ -133,10 +99,26 @@
 				"source":"1,2,3"
 			}
 		],
+		"dec":[
+			{
+				"value":"+72:25:15.5",
+				"source":"1,2,3"
+			}
+		],
+		"discoverer":[
+			{
+				"value":"Boles",
+				"source":"1"
+			},
+			{
+				"value":"Tom Boles",
+				"source":"2,3"
+			}
+		],
 		"redshift":[
 			{
 				"value":"0.0499",
-				"source":"2,3"
+				"source":"2,3,6,5"
 			}
 		],
 		"photometry":[
@@ -12899,7 +12881,7 @@
 						"1.7432991e-17"
 					]
 				],
-				"source":"5"
+				"source":"7"
 			},
 			{
 				"deredshifted":false,
@@ -25652,7 +25634,7 @@
 						"1.7452334e-17"
 					]
 				],
-				"source":"5"
+				"source":"7"
 			}
 		]
 	}

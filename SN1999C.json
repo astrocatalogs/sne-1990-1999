@@ -35,68 +35,28 @@
 				"alias":"5"
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
-				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"name":"WISeREP",
+				"url":"http://wiserep.weizmann.ac.il/",
 				"alias":"6",
 				"secondary":true
-			}
-		],
-		"claimedtype":[
-			{
-				"value":"Ia",
-				"source":"2,3,4,1,6"
-			}
-		],
-		"comovingdist":[
-			{
-				"value":"537",
-				"source":"D"
-			}
-		],
-		"dec":[
-			{
-				"value":"+71:10:42.9",
-				"source":"2,3,4"
-			}
-		],
-		"discover":[
-			{
-				"value":"1999/1/14",
-				"source":"2"
-			}
-		],
-		"discoverdate":[
-			{
-				"value":"1999/01/14",
-				"source":"3,4,5"
-			}
-		],
-		"discoverer":[
-			{
-				"value":"Gal-Yam, Maoz",
-				"source":"2"
 			},
 			{
-				"value":"Wise Observatory",
-				"source":"3,4"
-			}
-		],
-		"ebv":[
+				"name":"2008ApJ...680..550G",
+				"url":"http://adsabs.harvard.edu/abs/2008ApJ...680..550G",
+				"bibcode":"2008ApJ...680..550G",
+				"alias":"7"
+			},
 			{
-				"value":"0.082",
-				"source":"1"
-			}
-		],
-		"galdec":[
+				"name":"2000AJ....119.2303M",
+				"url":"http://adsabs.harvard.edu/abs/2000AJ....119.2303M",
+				"bibcode":"2000AJ....119.2303M",
+				"alias":"8"
+			},
 			{
-				"value":"+71:10:42",
-				"source":"2"
-			}
-		],
-		"galra":[
-			{
-				"value":"10:08:51",
-				"source":"2"
+				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
+				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"alias":"9",
+				"secondary":true
 			}
 		],
 		"host":[
@@ -115,28 +75,46 @@
 				"source":"1"
 			}
 		],
-		"lumdist":[
+		"ebv":[
 			{
-				"value":"604",
-				"source":"D"
+				"value":"0.082",
+				"source":"1"
 			}
 		],
-		"maxabsmag":[
+		"discoverdate":[
 			{
-				"value":"-19.3",
-				"source":"D"
+				"value":"1999/01/14",
+				"source":"3,4,5"
 			}
 		],
-		"maxappmag":[
+		"discover":[
 			{
-				"value":"19.6",
-				"source":"D"
+				"value":"1999/1/14",
+				"source":"2"
 			}
 		],
-		"maxdate":[
+		"claimedtype":[
 			{
-				"value":"2016/01/03",
-				"source":"D"
+				"value":"Ia",
+				"source":"2,3,4,7,6,1,8,9"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.026318",
+				"source":"7,6,1,8"
+			}
+		],
+		"galra":[
+			{
+				"value":"10:08:51",
+				"source":"2"
+			}
+		],
+		"galdec":[
+			{
+				"value":"+71:10:42",
+				"source":"2"
 			}
 		],
 		"ra":[
@@ -145,10 +123,20 @@
 				"source":"2,3,4"
 			}
 		],
-		"redshift":[
+		"dec":[
 			{
-				"value":"0.125",
+				"value":"+71:10:42.9",
 				"source":"2,3,4"
+			}
+		],
+		"discoverer":[
+			{
+				"value":"Gal-Yam, Maoz",
+				"source":"2"
+			},
+			{
+				"value":"Wise Observatory",
+				"source":"3,4"
 			}
 		],
 		"photometry":[

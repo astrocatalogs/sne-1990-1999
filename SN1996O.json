@@ -35,72 +35,16 @@
 				"alias":"5"
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
-				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"name":"WISeREP",
+				"url":"http://wiserep.weizmann.ac.il/",
 				"alias":"6",
 				"secondary":true
-			}
-		],
-		"claimedtype":[
-			{
-				"value":"Ia",
-				"source":"2,3,4,1,6"
-			}
-		],
-		"comovingdist":[
-			{
-				"value":"160",
-				"source":"D"
-			}
-		],
-		"dec":[
-			{
-				"value":"+18:11:48.",
-				"source":"2"
 			},
 			{
-				"value":"+18:12:00.0",
-				"source":"3,4"
-			}
-		],
-		"discover":[
-			{
-				"value":"1996/3/21",
-				"source":"2"
-			}
-		],
-		"discoverdate":[
-			{
-				"value":"1996/03/21",
-				"source":"3,4,5"
-			}
-		],
-		"discoverer":[
-			{
-				"value":"Evans",
-				"source":"2"
-			},
-			{
-				"value":"Robert Evans",
-				"source":"3,4"
-			}
-		],
-		"ebv":[
-			{
-				"value":"0.05",
-				"source":"1"
-			}
-		],
-		"galdec":[
-			{
-				"value":"+18:11:46",
-				"source":"2"
-			}
-		],
-		"galra":[
-			{
-				"value":"16:06:00",
-				"source":"2"
+				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
+				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"alias":"7",
+				"secondary":true
 			}
 		],
 		"host":[
@@ -123,28 +67,40 @@
 				"source":"2"
 			}
 		],
-		"lumdist":[
+		"ebv":[
 			{
-				"value":"160",
-				"source":"5"
+				"value":"0.05",
+				"source":"1"
 			}
 		],
-		"maxabsmag":[
+		"discoverdate":[
 			{
-				"value":"-18",
-				"source":"D"
+				"value":"1996/03/21",
+				"source":"3,4,5"
 			}
 		],
-		"maxappmag":[
+		"discover":[
 			{
-				"value":"18",
-				"source":"D"
+				"value":"1996/3/21",
+				"source":"2"
 			}
 		],
-		"maxdate":[
+		"claimedtype":[
 			{
-				"value":"1996/03/20",
-				"source":"D"
+				"value":"Ia",
+				"source":"2,3,4,1,6,7"
+			}
+		],
+		"galra":[
+			{
+				"value":"16:06:00",
+				"source":"2"
+			}
+		],
+		"galdec":[
+			{
+				"value":"+18:11:46",
+				"source":"2"
 			}
 		],
 		"ra":[
@@ -157,10 +113,24 @@
 				"source":"3,4"
 			}
 		],
-		"redshift":[
+		"dec":[
 			{
-				"value":"0.037",
-				"source":"5"
+				"value":"+18:11:48.",
+				"source":"2"
+			},
+			{
+				"value":"+18:12:00.0",
+				"source":"3,4"
+			}
+		],
+		"discoverer":[
+			{
+				"value":"Evans",
+				"source":"2"
+			},
+			{
+				"value":"Robert Evans",
+				"source":"3,4"
 			}
 		],
 		"photometry":[
@@ -169,6 +139,18 @@
 				"time":"50162.5",
 				"magnitude":"18.0",
 				"source":"3,4"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.03725",
+				"source":"1,6"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"160",
+				"source":"5"
 			}
 		],
 		"spectra":[

@@ -101,98 +101,16 @@
 				"alias":"16"
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
-				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"name":"WISeREP",
+				"url":"http://wiserep.weizmann.ac.il/",
 				"alias":"17",
 				"secondary":true
-			}
-		],
-		"claimedtype":[
-			{
-				"value":"Ia*",
-				"source":"4"
 			},
 			{
-				"value":"Ia",
-				"source":"1,17"
-			}
-		],
-		"comovingdist":[
-			{
-				"value":"104",
-				"source":"9,8"
-			},
-			{
-				"value":"135",
-				"source":"10,8"
-			},
-			{
-				"value":"142",
-				"source":"11,8"
-			},
-			{
-				"value":"155",
-				"source":"12,8"
-			},
-			{
-				"value":"163",
-				"source":"13,8"
-			},
-			{
-				"value":"176",
-				"source":"14,8"
-			},
-			{
-				"value":"195",
-				"source":"15,8"
-			},
-			{
-				"value":"197",
-				"source":"16,8"
-			}
-		],
-		"dec":[
-			{
-				"value":"-33:02:40.1",
-				"source":"4"
-			},
-			{
-				"value":"-33:02:33.0",
-				"source":"5,6"
-			}
-		],
-		"discoverdate":[
-			{
-				"value":"1990/08/22",
-				"source":"5,6,7"
-			}
-		],
-		"discoverer":[
-			{
-				"value":"Wischnjewsky",
-				"source":"4"
-			},
-			{
-				"value":"Marina Wischnjewsky",
-				"source":"5,6"
-			}
-		],
-		"ebv":[
-			{
-				"value":"0.008",
-				"source":"1"
-			}
-		],
-		"galdec":[
-			{
-				"value":"-33:02:35",
-				"source":"4"
-			}
-		],
-		"galra":[
-			{
-				"value":"03:37:23",
-				"source":"4"
+				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
+				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"alias":"18",
+				"secondary":true
 			}
 		],
 		"host":[
@@ -215,55 +133,19 @@
 				"source":"1"
 			}
 		],
-		"lumdist":[
+		"ebv":[
 			{
-				"value":"160",
-				"source":"D"
+				"value":"0.008",
+				"source":"1"
 			}
 		],
-		"max":[
+		"discoverdate":[
 			{
-				"value":"1990/8/13",
-				"source":"4"
-			}
-		],
-		"maxabsmag":[
-			{
-				"value":"-18",
-				"source":"D"
-			}
-		],
-		"maxappmag":[
-			{
-				"value":"17.81",
-				"source":"D"
-			}
-		],
-		"maxdate":[
-			{
-				"value":"1990/08/13",
-				"source":"7"
-			}
-		],
-		"ra":[
-			{
-				"value":"03:37:22.64",
-				"source":"4,5,6"
-			}
-		],
-		"redshift":[
-			{
-				"value":"0.036",
-				"source":"7"
+				"value":"1990/08/22",
+				"source":"5,6,7"
 			}
 		],
 		"photometry":[
-			{
-				"timeunit":"MJD",
-				"time":"48124.5",
-				"magnitude":"18.0",
-				"source":"5,6"
-			},
 			{
 				"timeunit":"MJD",
 				"time":"48132.4",
@@ -471,14 +353,14 @@
 				"timeunit":"MJD",
 				"time":"48178.33",
 				"band":"B",
-				"magnitude":"21.05",
+				"magnitude":"21.07",
 				"source":"2,3"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"48178.33",
 				"band":"B",
-				"magnitude":"21.07",
+				"magnitude":"21.05",
 				"source":"2,3"
 			},
 			{
@@ -492,7 +374,7 @@
 				"timeunit":"MJD",
 				"time":"48178.33",
 				"band":"I",
-				"magnitude":"19.67",
+				"magnitude":"19.7",
 				"source":"2,3"
 			},
 			{
@@ -506,7 +388,7 @@
 				"timeunit":"MJD",
 				"time":"48178.33",
 				"band":"I",
-				"magnitude":"19.7",
+				"magnitude":"19.67",
 				"source":"2,3"
 			},
 			{
@@ -576,14 +458,14 @@
 				"timeunit":"MJD",
 				"time":"48218.3",
 				"band":"B",
-				"magnitude":"21.42",
+				"magnitude":"21.55",
 				"source":"2,3"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"48218.3",
 				"band":"B",
-				"magnitude":"21.55",
+				"magnitude":"21.42",
 				"source":"2,3"
 			},
 			{
@@ -592,6 +474,108 @@
 				"band":"V",
 				"magnitude":"20.89",
 				"source":"2,3"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"48124.5",
+				"magnitude":"18.0",
+				"source":"5,6"
+			}
+		],
+		"max":[
+			{
+				"value":"1990/8/13",
+				"source":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"4,1,17,18"
+			}
+		],
+		"galra":[
+			{
+				"value":"03:37:23",
+				"source":"4"
+			}
+		],
+		"galdec":[
+			{
+				"value":"-33:02:35",
+				"source":"4"
+			}
+		],
+		"ra":[
+			{
+				"value":"03:37:22.64",
+				"source":"4,5,6"
+			}
+		],
+		"dec":[
+			{
+				"value":"-33:02:40.1",
+				"source":"4"
+			},
+			{
+				"value":"-33:02:33.0",
+				"source":"5,6"
+			}
+		],
+		"discoverer":[
+			{
+				"value":"Wischnjewsky",
+				"source":"4"
+			},
+			{
+				"value":"Marina Wischnjewsky",
+				"source":"5,6"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.039034",
+				"source":"1,17"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"1990/08/13",
+				"source":"7"
+			}
+		],
+		"comovingdist":[
+			{
+				"value":"104",
+				"source":"9,8"
+			},
+			{
+				"value":"135",
+				"source":"10,8"
+			},
+			{
+				"value":"142",
+				"source":"11,8"
+			},
+			{
+				"value":"155",
+				"source":"12,8"
+			},
+			{
+				"value":"163",
+				"source":"13,8"
+			},
+			{
+				"value":"176",
+				"source":"14,8"
+			},
+			{
+				"value":"195",
+				"source":"15,8"
+			},
+			{
+				"value":"197",
+				"source":"16,8"
 			}
 		],
 		"spectra":[

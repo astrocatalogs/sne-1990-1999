@@ -35,72 +35,16 @@
 				"alias":"5"
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
-				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"name":"WISeREP",
+				"url":"http://wiserep.weizmann.ac.il/",
 				"alias":"6",
 				"secondary":true
-			}
-		],
-		"claimedtype":[
-			{
-				"value":"Ia",
-				"source":"2,3,4,1,6"
-			}
-		],
-		"comovingdist":[
-			{
-				"value":"40",
-				"source":"D"
-			}
-		],
-		"dec":[
-			{
-				"value":"+37:47:31.7",
-				"source":"2"
 			},
 			{
-				"value":"+37:47:31.6",
-				"source":"3,4"
-			}
-		],
-		"discover":[
-			{
-				"value":"1991/7/15",
-				"source":"2"
-			}
-		],
-		"discoverdate":[
-			{
-				"value":"1991/07/15",
-				"source":"3,4,5"
-			}
-		],
-		"discoverer":[
-			{
-				"value":"Wild",
-				"source":"2"
-			},
-			{
-				"value":"Paul Wild",
-				"source":"3,4"
-			}
-		],
-		"ebv":[
-			{
-				"value":"0.013",
-				"source":"1"
-			}
-		],
-		"galdec":[
-			{
-				"value":"+37:47:50",
-				"source":"2"
-			}
-		],
-		"galra":[
-			{
-				"value":"13:56:51",
-				"source":"2"
+				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
+				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"alias":"7",
+				"secondary":true
 			}
 		],
 		"host":[
@@ -119,28 +63,40 @@
 				"source":"2"
 			}
 		],
-		"lumdist":[
+		"ebv":[
 			{
-				"value":"40",
-				"source":"D"
+				"value":"0.013",
+				"source":"1"
 			}
 		],
-		"maxabsmag":[
+		"discoverdate":[
 			{
-				"value":"-20",
-				"source":"D"
+				"value":"1991/07/15",
+				"source":"3,4,5"
 			}
 		],
-		"maxappmag":[
+		"discover":[
 			{
-				"value":"15.5",
-				"source":"D"
+				"value":"1991/7/15",
+				"source":"2"
 			}
 		],
-		"maxdate":[
+		"claimedtype":[
 			{
-				"value":"1991/07/14",
-				"source":"D"
+				"value":"Ia",
+				"source":"2,3,4,1,6,7"
+			}
+		],
+		"galra":[
+			{
+				"value":"13:56:51",
+				"source":"2"
+			}
+		],
+		"galdec":[
+			{
+				"value":"+37:47:50",
+				"source":"2"
 			}
 		],
 		"ra":[
@@ -153,10 +109,24 @@
 				"source":"3,4"
 			}
 		],
-		"redshift":[
+		"dec":[
 			{
-				"value":"0.01",
-				"source":"5"
+				"value":"+37:47:31.7",
+				"source":"2"
+			},
+			{
+				"value":"+37:47:31.6",
+				"source":"3,4"
+			}
+		],
+		"discoverer":[
+			{
+				"value":"Wild",
+				"source":"2"
+			},
+			{
+				"value":"Paul Wild",
+				"source":"3,4"
 			}
 		],
 		"photometry":[
@@ -165,6 +135,12 @@
 				"time":"48451.5",
 				"magnitude":"15.5",
 				"source":"3,4"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.01015",
+				"source":"1,6"
 			}
 		],
 		"spectra":[

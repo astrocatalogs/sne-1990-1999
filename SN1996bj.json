@@ -29,34 +29,28 @@
 				"alias":"4"
 			},
 			{
+				"name":"WISeREP",
+				"url":"http://wiserep.weizmann.ac.il/",
+				"alias":"5",
+				"secondary":true
+			},
+			{
 				"name":"1997AJ....114..722R",
 				"url":"http://adsabs.harvard.edu/abs/1997AJ....114..722R",
 				"bibcode":"1997AJ....114..722R",
-				"alias":"5"
+				"alias":"6"
 			},
 			{
 				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
 				"url":"http://heracles.astro.berkeley.edu/sndb/info",
-				"alias":"6",
+				"alias":"7",
 				"secondary":true
 			}
 		],
-		"claimedtype":[
+		"discoverdate":[
 			{
-				"value":"Ia",
-				"source":"1,2,3,5,6"
-			}
-		],
-		"comovingdist":[
-			{
-				"value":"2200",
-				"source":"D"
-			}
-		],
-		"dec":[
-			{
-				"value":"+01:24:51.0",
-				"source":"1,2,3"
+				"value":"1996/10/09",
+				"source":"2,3,4"
 			}
 		],
 		"discover":[
@@ -65,10 +59,46 @@
 				"source":"1"
 			}
 		],
-		"discoverdate":[
+		"host":[
 			{
-				"value":"1996/10/09",
-				"source":"2,3,4"
+				"value":"A021149+0124",
+				"source":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2,3,6,5,7"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.57",
+				"source":"1,4,6,5"
+			}
+		],
+		"galra":[
+			{
+				"value":"02:11:49",
+				"source":"1"
+			}
+		],
+		"galdec":[
+			{
+				"value":"+01:24:51",
+				"source":"1"
+			}
+		],
+		"ra":[
+			{
+				"value":"02:11:49.53",
+				"source":"1,2,3"
+			}
+		],
+		"dec":[
+			{
+				"value":"+01:24:51.0",
+				"source":"1,2,3"
 			}
 		],
 		"discoverer":[
@@ -79,66 +109,6 @@
 			{
 				"value":"High Z Supernova Search",
 				"source":"2,3"
-			}
-		],
-		"galdec":[
-			{
-				"value":"+01:24:51",
-				"source":"1"
-			}
-		],
-		"galra":[
-			{
-				"value":"02:11:49",
-				"source":"1"
-			}
-		],
-		"host":[
-			{
-				"value":"A021149+0124",
-				"source":"1"
-			}
-		],
-		"hvel":[
-			{
-				"value":"130000",
-				"source":"D"
-			}
-		],
-		"lumdist":[
-			{
-				"value":"3400",
-				"source":"D"
-			}
-		],
-		"maxabsmag":[
-			{
-				"value":"-20",
-				"source":"D"
-			}
-		],
-		"maxappmag":[
-			{
-				"value":"22.6",
-				"source":"D"
-			}
-		],
-		"maxdate":[
-			{
-				"value":"1996/10/08",
-				"source":"D"
-			}
-		],
-		"ra":[
-			{
-				"value":"02:11:49.53",
-				"source":"1,2,3"
-			}
-		],
-		"redshift":[
-			{
-				"value":"0.57",
-				"source":"1,4"
 			}
 		],
 		"photometry":[
@@ -7973,7 +7943,7 @@
 						"0.000178522"
 					]
 				],
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"instrument":"LRIS",
@@ -15530,7 +15500,7 @@
 						"0.165389"
 					]
 				],
-				"source":"5"
+				"source":"6"
 			}
 		]
 	}

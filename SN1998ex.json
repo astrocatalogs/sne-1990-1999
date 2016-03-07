@@ -29,34 +29,22 @@
 				"alias":"4"
 			},
 			{
-				"name":"CfA Supernova Archive",
-				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
+				"name":"WISeREP",
+				"url":"http://wiserep.weizmann.ac.il/",
 				"alias":"5",
 				"secondary":true
-			}
-		],
-		"claimedtype":[
+			},
 			{
-				"value":"Ia",
-				"source":"1,2,3"
-			}
-		],
-		"comovingdist":[
+				"name":"2012AJ....143..126B",
+				"url":"http://adsabs.harvard.edu/abs/2012AJ....143..126B",
+				"bibcode":"2012AJ....143..126B",
+				"alias":"6"
+			},
 			{
-				"value":"160",
-				"source":"D"
-			}
-		],
-		"dec":[
-			{
-				"value":"+64:44:02.3",
-				"source":"1,2,3"
-			}
-		],
-		"discover":[
-			{
-				"value":"1998/11/25",
-				"source":"1"
+				"name":"CfA Supernova Archive",
+				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
+				"alias":"7",
+				"secondary":true
 			}
 		],
 		"discoverdate":[
@@ -65,25 +53,9 @@
 				"source":"2,3,4"
 			}
 		],
-		"discoverer":[
+		"discover":[
 			{
-				"value":"Mueller",
-				"source":"1"
-			},
-			{
-				"value":"Jean Mueller",
-				"source":"2,3"
-			}
-		],
-		"galdec":[
-			{
-				"value":"+64:43:52",
-				"source":"1"
-			}
-		],
-		"galra":[
-			{
-				"value":"07:41:43",
+				"value":"1998/11/25",
 				"source":"1"
 			}
 		],
@@ -97,34 +69,28 @@
 				"source":"4"
 			}
 		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2,3,6,5"
+			}
+		],
 		"hvel":[
 			{
 				"value":"11200",
 				"source":"1"
 			}
 		],
-		"lumdist":[
+		"galra":[
 			{
-				"value":"170",
-				"source":"D"
+				"value":"07:41:43",
+				"source":"1"
 			}
 		],
-		"maxabsmag":[
+		"galdec":[
 			{
-				"value":"-18",
-				"source":"D"
-			}
-		],
-		"maxappmag":[
-			{
-				"value":"18.5",
-				"source":"D"
-			}
-		],
-		"maxdate":[
-			{
-				"value":"1998/11/24",
-				"source":"D"
+				"value":"+64:43:52",
+				"source":"1"
 			}
 		],
 		"ra":[
@@ -137,10 +103,20 @@
 				"source":"2,3"
 			}
 		],
-		"redshift":[
+		"dec":[
 			{
-				"value":"0.037",
-				"source":"2,3,4"
+				"value":"+64:44:02.3",
+				"source":"1,2,3"
+			}
+		],
+		"discoverer":[
+			{
+				"value":"Mueller",
+				"source":"1"
+			},
+			{
+				"value":"Jean Mueller",
+				"source":"2,3"
 			}
 		],
 		"photometry":[
@@ -149,6 +125,12 @@
 				"time":"51141.5",
 				"magnitude":"18.5",
 				"source":"2,3"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.0365",
+				"source":"6,5"
 			}
 		],
 		"spectra":[
@@ -12903,7 +12885,7 @@
 						"1.2574735e-17"
 					]
 				],
-				"source":"5"
+				"source":"7"
 			}
 		]
 	}

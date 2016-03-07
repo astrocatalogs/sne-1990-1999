@@ -29,34 +29,22 @@
 				"alias":"4"
 			},
 			{
-				"name":"CfA Supernova Archive",
-				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
+				"name":"WISeREP",
+				"url":"http://wiserep.weizmann.ac.il/",
 				"alias":"5",
 				"secondary":true
-			}
-		],
-		"claimedtype":[
+			},
 			{
-				"value":"Ia",
-				"source":"1,2,3"
-			}
-		],
-		"comovingdist":[
+				"name":"2012AJ....143..126B",
+				"url":"http://adsabs.harvard.edu/abs/2012AJ....143..126B",
+				"bibcode":"2012AJ....143..126B",
+				"alias":"6"
+			},
 			{
-				"value":"340",
-				"source":"D"
-			}
-		],
-		"dec":[
-			{
-				"value":"+57:08:04.0",
-				"source":"1,2,3"
-			}
-		],
-		"discover":[
-			{
-				"value":"1999/5/16",
-				"source":"1"
+				"name":"CfA Supernova Archive",
+				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
+				"alias":"7",
+				"secondary":true
 			}
 		],
 		"discoverdate":[
@@ -65,21 +53,9 @@
 				"source":"2,3"
 			}
 		],
-		"discoverer":[
+		"discover":[
 			{
-				"value":"LOSS",
-				"source":"1,2,3"
-			}
-		],
-		"galdec":[
-			{
-				"value":"+57:08:04",
-				"source":"1"
-			}
-		],
-		"galra":[
-			{
-				"value":"11:28:51",
+				"value":"1999/5/16",
 				"source":"1"
 			}
 		],
@@ -89,34 +65,28 @@
 				"source":"1"
 			}
 		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2,3,6,5"
+			}
+		],
 		"hvel":[
 			{
 				"value":"23400",
 				"source":"1"
 			}
 		],
-		"lumdist":[
+		"galra":[
 			{
-				"value":"370",
-				"source":"D"
+				"value":"11:28:51",
+				"source":"1"
 			}
 		],
-		"maxabsmag":[
+		"galdec":[
 			{
-				"value":"-20",
-				"source":"D"
-			}
-		],
-		"maxappmag":[
-			{
-				"value":"18.3",
-				"source":"D"
-			}
-		],
-		"maxdate":[
-			{
-				"value":"2016/01/03",
-				"source":"D"
+				"value":"+57:08:04",
+				"source":"1"
 			}
 		],
 		"ra":[
@@ -125,10 +95,22 @@
 				"source":"1,2,3"
 			}
 		],
+		"dec":[
+			{
+				"value":"+57:08:04.0",
+				"source":"1,2,3"
+			}
+		],
+		"discoverer":[
+			{
+				"value":"LOSS",
+				"source":"1,2,3"
+			}
+		],
 		"redshift":[
 			{
-				"value":"0.078",
-				"source":"4"
+				"value":"0.0775",
+				"source":"6,5"
 			}
 		],
 		"photometry":[
@@ -12891,7 +12873,7 @@
 						"2.2457849e-17"
 					]
 				],
-				"source":"5"
+				"source":"7"
 			}
 		]
 	}

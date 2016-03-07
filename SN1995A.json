@@ -35,68 +35,16 @@
 				"alias":"5"
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
-				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"name":"WISeREP",
+				"url":"http://wiserep.weizmann.ac.il/",
 				"alias":"6",
 				"secondary":true
-			}
-		],
-		"claimedtype":[
-			{
-				"value":"Ia",
-				"source":"2,3,4,1,6"
-			}
-		],
-		"comovingdist":[
-			{
-				"value":"140",
-				"source":"D"
-			}
-		],
-		"dec":[
-			{
-				"value":"+26:22:51.0",
-				"source":"2,3,4"
-			}
-		],
-		"discover":[
-			{
-				"value":"1995/1/2",
-				"source":"2"
-			}
-		],
-		"discoverdate":[
-			{
-				"value":"1995/01/02",
-				"source":"3,4,5"
-			}
-		],
-		"discoverer":[
-			{
-				"value":"Pollas",
-				"source":"2"
 			},
 			{
-				"value":"Christian Pollas",
-				"source":"3,4"
-			}
-		],
-		"ebv":[
-			{
-				"value":"0.085",
-				"source":"1"
-			}
-		],
-		"galdec":[
-			{
-				"value":"+26:22:51",
-				"source":"2"
-			}
-		],
-		"galra":[
-			{
-				"value":"06:50:04",
-				"source":"2"
+				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
+				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"alias":"7",
+				"secondary":true
 			}
 		],
 		"host":[
@@ -119,28 +67,40 @@
 				"source":"2"
 			}
 		],
-		"lumdist":[
+		"ebv":[
 			{
-				"value":"150",
-				"source":"D"
+				"value":"0.085",
+				"source":"1"
 			}
 		],
-		"maxabsmag":[
+		"discoverdate":[
 			{
-				"value":"-18",
-				"source":"D"
+				"value":"1995/01/02",
+				"source":"3,4,5"
 			}
 		],
-		"maxappmag":[
+		"discover":[
 			{
-				"value":"18",
-				"source":"D"
+				"value":"1995/1/2",
+				"source":"2"
 			}
 		],
-		"maxdate":[
+		"claimedtype":[
 			{
-				"value":"1995/01/01",
-				"source":"D"
+				"value":"Ia",
+				"source":"2,3,4,1,6,7"
+			}
+		],
+		"galra":[
+			{
+				"value":"06:50:04",
+				"source":"2"
+			}
+		],
+		"galdec":[
+			{
+				"value":"+26:22:51",
+				"source":"2"
 			}
 		],
 		"ra":[
@@ -149,10 +109,20 @@
 				"source":"2,3,4"
 			}
 		],
-		"redshift":[
+		"dec":[
 			{
-				"value":"0.032",
-				"source":"5"
+				"value":"+26:22:51.0",
+				"source":"2,3,4"
+			}
+		],
+		"discoverer":[
+			{
+				"value":"Pollas",
+				"source":"2"
+			},
+			{
+				"value":"Christian Pollas",
+				"source":"3,4"
 			}
 		],
 		"photometry":[
@@ -161,6 +131,12 @@
 				"time":"49718.5",
 				"magnitude":"18.0",
 				"source":"3,4"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.03161",
+				"source":"1,6"
 			}
 		],
 		"spectra":[

@@ -29,38 +29,22 @@
 				"alias":"4"
 			},
 			{
+				"name":"WISeREP",
+				"url":"http://wiserep.weizmann.ac.il/",
+				"alias":"5",
+				"secondary":true
+			},
+			{
 				"name":"2008ApJ...680..550G",
 				"url":"http://adsabs.harvard.edu/abs/2008ApJ...680..550G",
 				"bibcode":"2008ApJ...680..550G",
-				"alias":"5"
-			},
-			{
-				"name":"WISeREP",
-				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"6",
-				"secondary":true
+				"alias":"6"
 			}
 		],
-		"claimedtype":[
+		"discoverdate":[
 			{
-				"value":"Ia",
-				"source":"1"
-			},
-			{
-				"value":"II",
-				"source":"2,3"
-			}
-		],
-		"comovingdist":[
-			{
-				"value":"400",
-				"source":"D"
-			}
-		],
-		"dec":[
-			{
-				"value":"+15:51:09.2",
-				"source":"1,2,3"
+				"value":"1999/03/20",
+				"source":"2,3,4"
 			}
 		],
 		"discover":[
@@ -69,10 +53,50 @@
 				"source":"1"
 			}
 		],
-		"discoverdate":[
+		"host":[
 			{
-				"value":"1999/03/20",
-				"source":"2,3,4"
+				"value":"A140357+1551",
+				"source":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,6,5"
+			},
+			{
+				"value":"II",
+				"source":"2,3"
+			}
+		],
+		"hvel":[
+			{
+				"value":"15000",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"14:03:57",
+				"source":"1"
+			}
+		],
+		"galdec":[
+			{
+				"value":"+15:51:09",
+				"source":"1"
+			}
+		],
+		"ra":[
+			{
+				"value":"14:03:57.92",
+				"source":"1,2,3"
+			}
+		],
+		"dec":[
+			{
+				"value":"+15:51:09.2",
+				"source":"1,2,3"
 			}
 		],
 		"discoverer":[
@@ -85,58 +109,12 @@
 				"source":"2,3"
 			}
 		],
-		"galdec":[
+		"photometry":[
 			{
-				"value":"+15:51:09",
-				"source":"1"
-			}
-		],
-		"galra":[
-			{
-				"value":"14:03:57",
-				"source":"1"
-			}
-		],
-		"host":[
-			{
-				"value":"A140357+1551",
-				"source":"1"
-			}
-		],
-		"hvel":[
-			{
-				"value":"15000",
-				"source":"1"
-			}
-		],
-		"lumdist":[
-			{
-				"value":"500",
-				"source":"D"
-			}
-		],
-		"maxabsmag":[
-			{
-				"value":"-20",
-				"source":"D"
-			}
-		],
-		"maxappmag":[
-			{
-				"value":"18.5",
-				"source":"D"
-			}
-		],
-		"maxdate":[
-			{
-				"value":"1999/03/19",
-				"source":"D"
-			}
-		],
-		"ra":[
-			{
-				"value":"14:03:57.92",
-				"source":"1,2,3"
+				"timeunit":"MJD",
+				"time":"51256.5",
+				"magnitude":"18.5",
+				"source":"2,3"
 			}
 		],
 		"redshift":[
@@ -146,15 +124,7 @@
 			},
 			{
 				"value":"0.05",
-				"source":"4"
-			}
-		],
-		"photometry":[
-			{
-				"timeunit":"MJD",
-				"time":"51256.5",
-				"magnitude":"18.5",
-				"source":"2,3"
+				"source":"4,6,5"
 			}
 		],
 		"spectra":[
@@ -5772,7 +5742,7 @@
 						"-6.010574"
 					]
 				],
-				"source":"5,6"
+				"source":"6,5"
 			}
 		]
 	}

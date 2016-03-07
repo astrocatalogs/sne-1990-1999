@@ -39,34 +39,22 @@
 				"alias":"6"
 			},
 			{
-				"name":"CfA Supernova Archive",
-				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
+				"name":"WISeREP",
+				"url":"http://wiserep.weizmann.ac.il/",
 				"alias":"7",
 				"secondary":true
-			}
-		],
-		"claimedtype":[
+			},
 			{
-				"value":"Ia",
-				"source":"3,4,5"
-			}
-		],
-		"comovingdist":[
+				"name":"2012AJ....143..126B",
+				"url":"http://adsabs.harvard.edu/abs/2012AJ....143..126B",
+				"bibcode":"2012AJ....143..126B",
+				"alias":"8"
+			},
 			{
-				"value":"80.6",
-				"source":"D"
-			}
-		],
-		"dec":[
-			{
-				"value":"+18:18:20.4",
-				"source":"3,4,5"
-			}
-		],
-		"discover":[
-			{
-				"value":"1999/3/10",
-				"source":"3"
+				"name":"CfA Supernova Archive",
+				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
+				"alias":"9",
+				"secondary":true
 			}
 		],
 		"discoverdate":[
@@ -75,25 +63,18 @@
 				"source":"4,5"
 			}
 		],
-		"discoverer":[
+		"photometry":[
 			{
-				"value":"SCP,Spacewatch program",
-				"source":"3"
-			},
-			{
-				"value":"Supernova Cosmology Project",
-				"source":"4,5"
+				"timeunit":"MJD",
+				"time":"51268.53",
+				"band":"C",
+				"magnitude":"16.5",
+				"source":"1,2"
 			}
 		],
-		"galdec":[
+		"discover":[
 			{
-				"value":"+18:18:00",
-				"source":"3"
-			}
-		],
-		"galra":[
-			{
-				"value":"08:23:40",
+				"value":"1999/3/10",
 				"source":"3"
 			}
 		],
@@ -111,34 +92,28 @@
 				"source":"6"
 			}
 		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"3,4,5,8,7"
+			}
+		],
 		"hvel":[
 			{
 				"value":"5657",
 				"source":"3"
 			}
 		],
-		"lumdist":[
+		"galra":[
 			{
-				"value":"82.1",
-				"source":"D"
+				"value":"08:23:40",
+				"source":"3"
 			}
 		],
-		"maxabsmag":[
+		"galdec":[
 			{
-				"value":"-18.1",
-				"source":"D"
-			}
-		],
-		"maxappmag":[
-			{
-				"value":"16.5",
-				"source":"D"
-			}
-		],
-		"maxdate":[
-			{
-				"value":"1999/03/31",
-				"source":"D"
+				"value":"+18:18:00",
+				"source":"3"
 			}
 		],
 		"ra":[
@@ -147,19 +122,30 @@
 				"source":"3,4,5"
 			}
 		],
+		"dec":[
+			{
+				"value":"+18:18:20.4",
+				"source":"3,4,5"
+			}
+		],
+		"discoverer":[
+			{
+				"value":"SCP,Spacewatch program",
+				"source":"3"
+			},
+			{
+				"value":"Supernova Cosmology Project",
+				"source":"4,5"
+			}
+		],
 		"redshift":[
 			{
 				"value":"0.0183",
 				"source":"4,5"
-			}
-		],
-		"photometry":[
+			},
 			{
-				"timeunit":"MJD",
-				"time":"51268.53",
-				"band":"C",
-				"magnitude":"16.5",
-				"source":"1,2"
+				"value":"0.0189",
+				"source":"8,7"
 			}
 		],
 		"spectra":[
@@ -12914,7 +12900,7 @@
 						"7.8485034e-17"
 					]
 				],
-				"source":"7"
+				"source":"9"
 			},
 			{
 				"deredshifted":false,
@@ -25667,7 +25653,7 @@
 						"2.2318088e-17"
 					]
 				],
-				"source":"7"
+				"source":"9"
 			},
 			{
 				"deredshifted":false,
@@ -38420,7 +38406,7 @@
 						"1.9086822e-17"
 					]
 				],
-				"source":"7"
+				"source":"9"
 			}
 		]
 	}

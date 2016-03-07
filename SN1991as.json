@@ -35,62 +35,16 @@
 				"alias":"5"
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
-				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"name":"WISeREP",
+				"url":"http://wiserep.weizmann.ac.il/",
 				"alias":"6",
 				"secondary":true
-			}
-		],
-		"claimedtype":[
-			{
-				"value":"Ia",
-				"source":"2,3,4,1,6"
-			}
-		],
-		"dec":[
-			{
-				"value":"+08:10:41.0",
-				"source":"3,4"
-			}
-		],
-		"discover":[
-			{
-				"value":"1991/8/19",
-				"source":"2"
-			}
-		],
-		"discoverdate":[
-			{
-				"value":"1991/08/19",
-				"source":"3,4,5"
-			}
-		],
-		"discoverer":[
-			{
-				"value":"Mueller",
-				"source":"2"
 			},
 			{
-				"value":"Jean Mueller",
-				"source":"3,4"
-			}
-		],
-		"ebv":[
-			{
-				"value":"0.107",
-				"source":"1"
-			}
-		],
-		"galdec":[
-			{
-				"value":"+08:10",
-				"source":"2"
-			}
-		],
-		"galra":[
-			{
-				"value":"22:48:42",
-				"source":"2"
+				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
+				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"alias":"7",
+				"secondary":true
 			}
 		],
 		"host":[
@@ -103,21 +57,61 @@
 				"source":"2"
 			}
 		],
-		"maxappmag":[
+		"ebv":[
 			{
-				"value":"18",
-				"source":"D"
+				"value":"0.107",
+				"source":"1"
 			}
 		],
-		"maxdate":[
+		"discoverdate":[
 			{
-				"value":"1991/08/18",
-				"source":"D"
+				"value":"1991/08/19",
+				"source":"3,4,5"
+			}
+		],
+		"discover":[
+			{
+				"value":"1991/8/19",
+				"source":"2"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"2,3,4,1,6,7"
+			}
+		],
+		"galra":[
+			{
+				"value":"22:48:42",
+				"source":"2"
+			}
+		],
+		"galdec":[
+			{
+				"value":"+08:10",
+				"source":"2"
+			}
+		],
+		"discoverer":[
+			{
+				"value":"Mueller",
+				"source":"2"
+			},
+			{
+				"value":"Jean Mueller",
+				"source":"3,4"
 			}
 		],
 		"ra":[
 			{
 				"value":"22:48:41.5",
+				"source":"3,4"
+			}
+		],
+		"dec":[
+			{
+				"value":"+08:10:41.0",
 				"source":"3,4"
 			}
 		],
@@ -127,6 +121,12 @@
 				"time":"48486.5",
 				"magnitude":"18.0",
 				"source":"3,4"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.010706",
+				"source":"1,6"
 			}
 		],
 		"spectra":[

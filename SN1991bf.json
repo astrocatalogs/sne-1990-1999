@@ -35,72 +35,16 @@
 				"alias":"5"
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
-				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"name":"WISeREP",
+				"url":"http://wiserep.weizmann.ac.il/",
 				"alias":"6",
 				"secondary":true
-			}
-		],
-		"claimedtype":[
-			{
-				"value":"Ia",
-				"source":"2,1,6"
-			}
-		],
-		"comovingdist":[
-			{
-				"value":"100",
-				"source":"D"
-			}
-		],
-		"dec":[
-			{
-				"value":"-29:26:29.12",
-				"source":"2"
 			},
 			{
-				"value":"-29:26:29.1",
-				"source":"3,4"
-			}
-		],
-		"discover":[
-			{
-				"value":"1991/11/13",
-				"source":"2"
-			}
-		],
-		"discoverdate":[
-			{
-				"value":"1991/11/13",
-				"source":"3,4,5"
-			}
-		],
-		"discoverer":[
-			{
-				"value":"McNaught",
-				"source":"2"
-			},
-			{
-				"value":"Robert McNaught",
-				"source":"3,4"
-			}
-		],
-		"ebv":[
-			{
-				"value":"0.016",
-				"source":"1"
-			}
-		],
-		"galdec":[
-			{
-				"value":"-29:26:48",
-				"source":"2"
-			}
-		],
-		"galra":[
-			{
-				"value":"23:52:16",
-				"source":"2"
+				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
+				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"alias":"7",
+				"secondary":true
 			}
 		],
 		"host":[
@@ -127,28 +71,40 @@
 				"source":"2"
 			}
 		],
-		"lumdist":[
+		"ebv":[
 			{
-				"value":"130",
-				"source":"5"
+				"value":"0.016",
+				"source":"1"
 			}
 		],
-		"maxabsmag":[
+		"discoverdate":[
 			{
-				"value":"-18",
-				"source":"D"
+				"value":"1991/11/13",
+				"source":"3,4,5"
 			}
 		],
-		"maxappmag":[
+		"discover":[
 			{
-				"value":"17.5",
-				"source":"D"
+				"value":"1991/11/13",
+				"source":"2"
 			}
 		],
-		"maxdate":[
+		"claimedtype":[
 			{
-				"value":"1991/11/12",
-				"source":"D"
+				"value":"Ia",
+				"source":"2,1,6,7"
+			}
+		],
+		"galra":[
+			{
+				"value":"23:52:16",
+				"source":"2"
+			}
+		],
+		"galdec":[
+			{
+				"value":"-29:26:48",
+				"source":"2"
 			}
 		],
 		"ra":[
@@ -161,10 +117,24 @@
 				"source":"3,4"
 			}
 		],
-		"redshift":[
+		"dec":[
 			{
-				"value":"0.03",
-				"source":"5"
+				"value":"-29:26:29.12",
+				"source":"2"
+			},
+			{
+				"value":"-29:26:29.1",
+				"source":"3,4"
+			}
+		],
+		"discoverer":[
+			{
+				"value":"McNaught",
+				"source":"2"
+			},
+			{
+				"value":"Robert McNaught",
+				"source":"3,4"
 			}
 		],
 		"photometry":[
@@ -173,6 +143,18 @@
 				"time":"48572.5",
 				"magnitude":"17.5",
 				"source":"3,4"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.03009",
+				"source":"1,6"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"130",
+				"source":"5"
 			}
 		],
 		"spectra":[

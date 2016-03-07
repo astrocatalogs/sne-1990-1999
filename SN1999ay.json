@@ -29,40 +29,16 @@
 				"alias":"4"
 			},
 			{
+				"name":"WISeREP",
+				"url":"http://wiserep.weizmann.ac.il/",
+				"alias":"5",
+				"secondary":true
+			},
+			{
 				"name":"2008ApJ...680..550G",
 				"url":"http://adsabs.harvard.edu/abs/2008ApJ...680..550G",
 				"bibcode":"2008ApJ...680..550G",
-				"alias":"5"
-			},
-			{
-				"name":"WISeREP",
-				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"6",
-				"secondary":true
-			}
-		],
-		"claimedtype":[
-			{
-				"value":"II",
-				"source":"1"
-			}
-		],
-		"comovingdist":[
-			{
-				"value":"644",
-				"source":"D"
-			}
-		],
-		"dec":[
-			{
-				"value":"+58:55:42.3",
-				"source":"1,2,3"
-			}
-		],
-		"discover":[
-			{
-				"value":"1999/3/21",
-				"source":"1"
+				"alias":"6"
 			}
 		],
 		"discoverdate":[
@@ -71,25 +47,9 @@
 				"source":"2,3,4"
 			}
 		],
-		"discoverer":[
+		"discover":[
 			{
-				"value":"Gal-Yam, Maoz",
-				"source":"1"
-			},
-			{
-				"value":"Wise Observatory",
-				"source":"2,3"
-			}
-		],
-		"galdec":[
-			{
-				"value":"+58:55:42",
-				"source":"1"
-			}
-		],
-		"galra":[
-			{
-				"value":"14:44:43",
+				"value":"1999/3/21",
 				"source":"1"
 			}
 		],
@@ -103,34 +63,32 @@
 				"source":"4"
 			}
 		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1"
+			},
+			{
+				"value":"IIb",
+				"source":"6,5"
+			}
+		],
 		"hvel":[
 			{
 				"value":"12000",
 				"source":"1"
 			}
 		],
-		"lumdist":[
+		"galra":[
 			{
-				"value":"742",
-				"source":"D"
+				"value":"14:44:43",
+				"source":"1"
 			}
 		],
-		"maxabsmag":[
+		"galdec":[
 			{
-				"value":"-21.4",
-				"source":"D"
-			}
-		],
-		"maxappmag":[
-			{
-				"value":"18",
-				"source":"D"
-			}
-		],
-		"maxdate":[
-			{
-				"value":"1999/03/20",
-				"source":"D"
+				"value":"+58:55:42",
+				"source":"1"
 			}
 		],
 		"ra":[
@@ -139,9 +97,19 @@
 				"source":"1,2,3"
 			}
 		],
-		"redshift":[
+		"dec":[
 			{
-				"value":"0.151",
+				"value":"+58:55:42.3",
+				"source":"1,2,3"
+			}
+		],
+		"discoverer":[
+			{
+				"value":"Gal-Yam, Maoz",
+				"source":"1"
+			},
+			{
+				"value":"Wise Observatory",
 				"source":"2,3"
 			}
 		],
@@ -150,6 +118,12 @@
 				"timeunit":"MJD",
 				"time":"51257.5",
 				"magnitude":"18.0",
+				"source":"2,3"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.151",
 				"source":"2,3"
 			}
 		],
@@ -5768,7 +5742,7 @@
 						"-10.09646"
 					]
 				],
-				"source":"5,6"
+				"source":"6,5"
 			}
 		]
 	}

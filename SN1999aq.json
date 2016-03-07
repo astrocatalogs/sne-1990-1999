@@ -35,72 +35,16 @@
 				"alias":"5"
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
-				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"name":"WISeREP",
+				"url":"http://wiserep.weizmann.ac.il/",
 				"alias":"6",
 				"secondary":true
-			}
-		],
-		"claimedtype":[
-			{
-				"value":"Ia",
-				"source":"2,3,4,1,6"
-			}
-		],
-		"comovingdist":[
-			{
-				"value":"200",
-				"source":"D"
-			}
-		],
-		"dec":[
-			{
-				"value":"-05:08:56.2",
-				"source":"2"
 			},
 			{
-				"value":"-04:55:23.2",
-				"source":"3,4"
-			}
-		],
-		"discover":[
-			{
-				"value":"1999/2/20",
-				"source":"2"
-			}
-		],
-		"discoverdate":[
-			{
-				"value":"1999/02/20",
-				"source":"3,4,5"
-			}
-		],
-		"discoverer":[
-			{
-				"value":"NGSST,SCP",
-				"source":"2"
-			},
-			{
-				"value":"Nearby Galaxy Supernova Search",
-				"source":"3,4"
-			}
-		],
-		"ebv":[
-			{
-				"value":"0.033",
-				"source":"1"
-			}
-		],
-		"galdec":[
-			{
-				"value":"-05:08:56",
-				"source":"2"
-			}
-		],
-		"galra":[
-			{
-				"value":"09:38:10",
-				"source":"2"
+				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
+				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"alias":"7",
+				"secondary":true
 			}
 		],
 		"host":[
@@ -123,28 +67,40 @@
 				"source":"1"
 			}
 		],
-		"lumdist":[
+		"ebv":[
 			{
-				"value":"200",
-				"source":"D"
+				"value":"0.033",
+				"source":"1"
 			}
 		],
-		"maxabsmag":[
+		"discoverdate":[
 			{
-				"value":"-20",
-				"source":"D"
+				"value":"1999/02/20",
+				"source":"3,4,5"
 			}
 		],
-		"maxappmag":[
+		"discover":[
 			{
-				"value":"18.8",
-				"source":"D"
+				"value":"1999/2/20",
+				"source":"2"
 			}
 		],
-		"maxdate":[
+		"claimedtype":[
 			{
-				"value":"1999/02/19",
-				"source":"D"
+				"value":"Ia",
+				"source":"2,3,4,1,6,7"
+			}
+		],
+		"galra":[
+			{
+				"value":"09:38:10",
+				"source":"2"
+			}
+		],
+		"galdec":[
+			{
+				"value":"-05:08:56",
+				"source":"2"
 			}
 		],
 		"ra":[
@@ -157,10 +113,24 @@
 				"source":"3,4"
 			}
 		],
-		"redshift":[
+		"dec":[
 			{
-				"value":"0.05",
-				"source":"3,4,5"
+				"value":"-05:08:56.2",
+				"source":"2"
+			},
+			{
+				"value":"-04:55:23.2",
+				"source":"3,4"
+			}
+		],
+		"discoverer":[
+			{
+				"value":"NGSST,SCP",
+				"source":"2"
+			},
+			{
+				"value":"Nearby Galaxy Supernova Search",
+				"source":"3,4"
 			}
 		],
 		"photometry":[
@@ -169,6 +139,12 @@
 				"time":"51228.5",
 				"magnitude":"18.8",
 				"source":"3,4"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.05",
+				"source":"3,4,5,1,6"
 			}
 		],
 		"spectra":[

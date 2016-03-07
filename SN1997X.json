@@ -51,38 +51,28 @@
 				"alias":"8"
 			},
 			{
-				"name":"CfA Supernova Archive",
-				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
+				"name":"WISeREP",
+				"url":"http://wiserep.weizmann.ac.il/",
 				"alias":"9",
 				"secondary":true
-			}
-		],
-		"claimedtype":[
-			{
-				"value":"Ib",
-				"source":"5"
 			},
 			{
-				"value":"Ic",
-				"source":"6,7"
-			}
-		],
-		"comovingdist":[
+				"name":"2014AJ....147...99M",
+				"url":"http://adsabs.harvard.edu/abs/2014AJ....147...99M",
+				"bibcode":"2014AJ....147...99M",
+				"alias":"10"
+			},
 			{
-				"value":"16",
-				"source":"D"
-			}
-		],
-		"dec":[
+				"name":"2009MNRAS.397..677T",
+				"url":"http://adsabs.harvard.edu/abs/2009MNRAS.397..677T",
+				"bibcode":"2009MNRAS.397..677T",
+				"alias":"11"
+			},
 			{
-				"value":"-03:19:58.5",
-				"source":"5,6,7"
-			}
-		],
-		"discover":[
-			{
-				"value":"1997/2/1",
-				"source":"5"
+				"name":"CfA Supernova Archive",
+				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
+				"alias":"12",
+				"secondary":true
 			}
 		],
 		"discoverdate":[
@@ -91,83 +81,7 @@
 				"source":"6,7,8"
 			}
 		],
-		"discoverer":[
-			{
-				"value":"Aoki",
-				"source":"5"
-			},
-			{
-				"value":"Masakatsu Aoki",
-				"source":"6,7"
-			}
-		],
-		"galdec":[
-			{
-				"value":"-03:19:59",
-				"source":"5"
-			}
-		],
-		"galra":[
-			{
-				"value":"12:48:13",
-				"source":"5"
-			}
-		],
-		"host":[
-			{
-				"value":"NGC 4691",
-				"source":"5,6,7,8"
-			}
-		],
-		"hvel":[
-			{
-				"value":"1108",
-				"source":"5"
-			}
-		],
-		"lumdist":[
-			{
-				"value":"5.2",
-				"source":"8"
-			}
-		],
-		"maxabsmag":[
-			{
-				"value":"-16",
-				"source":"D"
-			}
-		],
-		"maxappmag":[
-			{
-				"value":"12.73",
-				"source":"D"
-			}
-		],
-		"maxdate":[
-			{
-				"value":"1997/02/08",
-				"source":"D"
-			}
-		],
-		"ra":[
-			{
-				"value":"12:48:14.28",
-				"source":"5,6,7"
-			}
-		],
-		"redshift":[
-			{
-				"value":"0.0037",
-				"source":"8"
-			}
-		],
 		"photometry":[
-			{
-				"timeunit":"MJD",
-				"time":"50479.5",
-				"magnitude":"13.5",
-				"source":"6,7"
-			},
 			{
 				"timeunit":"MJD",
 				"time":"50483.3",
@@ -300,6 +214,90 @@
 				"band":"V",
 				"magnitude":"17",
 				"source":"1,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"50479.5",
+				"magnitude":"13.5",
+				"source":"6,7"
+			}
+		],
+		"discover":[
+			{
+				"value":"1997/2/1",
+				"source":"5"
+			}
+		],
+		"host":[
+			{
+				"value":"NGC 4691",
+				"source":"5,6,7,8"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ib",
+				"source":"5"
+			},
+			{
+				"value":"Ic",
+				"source":"6,7,10,9,11"
+			}
+		],
+		"hvel":[
+			{
+				"value":"1108",
+				"source":"5"
+			}
+		],
+		"galra":[
+			{
+				"value":"12:48:13",
+				"source":"5"
+			}
+		],
+		"galdec":[
+			{
+				"value":"-03:19:59",
+				"source":"5"
+			}
+		],
+		"ra":[
+			{
+				"value":"12:48:14.28",
+				"source":"5,6,7"
+			}
+		],
+		"dec":[
+			{
+				"value":"-03:19:58.5",
+				"source":"5,6,7"
+			}
+		],
+		"discoverer":[
+			{
+				"value":"Aoki",
+				"source":"5"
+			},
+			{
+				"value":"Masakatsu Aoki",
+				"source":"6,7"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.0037",
+				"source":"8"
+			},
+			{
+				"value":"0.0036",
+				"source":"10,9,11"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"5.2",
+				"source":"8"
 			}
 		],
 		"spectra":[
@@ -10276,7 +10274,7 @@
 						"1.4668614"
 					]
 				],
-				"source":"9"
+				"source":"12"
 			},
 			{
 				"deredshifted":false,
@@ -20787,7 +20785,7 @@
 						"4.0824480"
 					]
 				],
-				"source":"9"
+				"source":"12"
 			},
 			{
 				"deredshifted":false,
@@ -31294,7 +31292,7 @@
 						"2.1872592"
 					]
 				],
-				"source":"9"
+				"source":"12"
 			},
 			{
 				"deredshifted":false,
@@ -41337,7 +41335,7 @@
 						"3.4964104"
 					]
 				],
-				"source":"9"
+				"source":"12"
 			},
 			{
 				"deredshifted":false,
@@ -51848,7 +51846,7 @@
 						"2.1676676"
 					]
 				],
-				"source":"9"
+				"source":"12"
 			},
 			{
 				"deredshifted":false,
@@ -62355,7 +62353,7 @@
 						"1.6409372"
 					]
 				],
-				"source":"9"
+				"source":"12"
 			}
 		]
 	}
