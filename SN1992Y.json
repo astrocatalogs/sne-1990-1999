@@ -29,15 +29,49 @@
 				"alias":"4"
 			}
 		],
+		"comovingdist":[
+			{
+				"value":"150",
+				"source":"D"
+			}
+		],
+		"dec":[
+			{
+				"value":"+28:31:30.0",
+				"source":"2,3"
+			}
+		],
+		"discover":[
+			{
+				"value":"1992/5/2",
+				"source":"1"
+			}
+		],
 		"discoverdate":[
 			{
 				"value":"1992/05/02",
 				"source":"2,3,4"
 			}
 		],
-		"discover":[
+		"discoverer":[
 			{
-				"value":"1992/5/2",
+				"value":"Mueller",
+				"source":"1"
+			},
+			{
+				"value":"Jean Mueller",
+				"source":"2,3"
+			}
+		],
+		"galdec":[
+			{
+				"value":"+28:31:40",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"11:07:18",
 				"source":"1"
 			}
 		],
@@ -53,45 +87,33 @@
 				"source":"1"
 			}
 		],
-		"galra":[
+		"lumdist":[
 			{
-				"value":"11:07:18",
-				"source":"1"
+				"value":"107",
+				"source":"4"
 			}
 		],
-		"galdec":[
+		"maxabsmag":[
 			{
-				"value":"+28:31:40",
-				"source":"1"
+				"value":"-16.1",
+				"source":"D"
 			}
 		],
-		"discoverer":[
+		"maxappmag":[
 			{
-				"value":"Mueller",
-				"source":"1"
-			},
+				"value":"19",
+				"source":"D"
+			}
+		],
+		"maxdate":[
 			{
-				"value":"Jean Mueller",
-				"source":"2,3"
+				"value":"1992/05/01",
+				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"11:07:19.3",
-				"source":"2,3"
-			}
-		],
-		"dec":[
-			{
-				"value":"+28:31:30.0",
-				"source":"2,3"
-			}
-		],
-		"photometry":[
-			{
-				"timeunit":"MJD",
-				"time":"48743.5",
-				"magnitude":"19.0",
 				"source":"2,3"
 			}
 		],
@@ -101,10 +123,12 @@
 				"source":"4"
 			}
 		],
-		"lumdist":[
+		"photometry":[
 			{
-				"value":"107",
-				"source":"4"
+				"timeunit":"MJD",
+				"time":"48743.5",
+				"magnitude":"19.0",
+				"source":"2,3"
 			}
 		]
 	}

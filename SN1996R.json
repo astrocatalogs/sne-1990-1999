@@ -53,15 +53,59 @@
 				"alias":"8"
 			}
 		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2,3"
+			}
+		],
+		"comovingdist":[
+			{
+				"value":"493",
+				"source":"6,5"
+			},
+			{
+				"value":"566",
+				"source":"7,5,8"
+			}
+		],
+		"dec":[
+			{
+				"value":"-00:11:39.3",
+				"source":"1,2,3"
+			}
+		],
+		"discover":[
+			{
+				"value":"1996/3/15",
+				"source":"1"
+			}
+		],
 		"discoverdate":[
 			{
 				"value":"1996/03/15",
 				"source":"2,3,4"
 			}
 		],
-		"discover":[
+		"discoverer":[
 			{
-				"value":"1996/3/15",
+				"value":"HZSST",
+				"source":"1"
+			},
+			{
+				"value":"High Z Supernova Search",
+				"source":"2,3"
+			}
+		],
+		"galdec":[
+			{
+				"value":"-00:11:39",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"11:16:10",
 				"source":"1"
 			}
 		],
@@ -75,9 +119,39 @@
 				"source":"4"
 			}
 		],
-		"claimedtype":[
+		"hvel":[
 			{
-				"value":"Ia",
+				"value":"42000",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"740",
+				"source":"D"
+			}
+		],
+		"maxabsmag":[
+			{
+				"value":"-19",
+				"source":"D"
+			}
+		],
+		"maxappmag":[
+			{
+				"value":"20.6",
+				"source":"D"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"1996/03/14",
+				"source":"D"
+			}
+		],
+		"ra":[
+			{
+				"value":"11:16:10.36",
 				"source":"1,2,3"
 			}
 		],
@@ -87,56 +161,12 @@
 				"source":"1,4"
 			}
 		],
-		"galra":[
-			{
-				"value":"11:16:10",
-				"source":"1"
-			}
-		],
-		"galdec":[
-			{
-				"value":"-00:11:39",
-				"source":"1"
-			}
-		],
-		"ra":[
-			{
-				"value":"11:16:10.36",
-				"source":"1,2,3"
-			}
-		],
-		"dec":[
-			{
-				"value":"-00:11:39.3",
-				"source":"1,2,3"
-			}
-		],
-		"discoverer":[
-			{
-				"value":"HZSST",
-				"source":"1"
-			},
-			{
-				"value":"High Z Supernova Search",
-				"source":"2,3"
-			}
-		],
 		"photometry":[
 			{
 				"timeunit":"MJD",
 				"time":"50156.5",
 				"magnitude":"20.6",
 				"source":"2,3"
-			}
-		],
-		"comovingdist":[
-			{
-				"value":"493",
-				"source":"6,5"
-			},
-			{
-				"value":"566",
-				"source":"7,5,8"
 			}
 		]
 	}

@@ -149,13 +149,189 @@
 				"alias":"24"
 			}
 		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"3,4,5"
+			}
+		],
+		"comovingdist":[
+			{
+				"value":"208",
+				"source":"8,7"
+			},
+			{
+				"value":"287",
+				"source":"9,7"
+			},
+			{
+				"value":"288",
+				"source":"10,7"
+			},
+			{
+				"value":"290",
+				"source":"11,7,12"
+			},
+			{
+				"value":"296",
+				"source":"13,7,14"
+			},
+			{
+				"value":"301",
+				"source":"15,7"
+			},
+			{
+				"value":"311",
+				"source":"16,7,17"
+			},
+			{
+				"value":"314",
+				"source":"18,7,19"
+			},
+			{
+				"value":"316",
+				"source":"20,7"
+			},
+			{
+				"value":"319",
+				"source":"19,7"
+			},
+			{
+				"value":"321",
+				"source":"21,7"
+			},
+			{
+				"value":"329",
+				"source":"19,7"
+			},
+			{
+				"value":"333",
+				"source":"20,7,9"
+			},
+			{
+				"value":"334",
+				"source":"21,7"
+			},
+			{
+				"value":"337",
+				"source":"19,7"
+			},
+			{
+				"value":"340",
+				"source":"22,7,20"
+			},
+			{
+				"value":"345",
+				"source":"23,7"
+			},
+			{
+				"value":"359",
+				"source":"24,7"
+			},
+			{
+				"value":"362",
+				"source":"18,7"
+			}
+		],
+		"dec":[
+			{
+				"value":"-18:21:13.7",
+				"source":"3,4,5"
+			}
+		],
 		"discoverdate":[
 			{
 				"value":"1992/12/20",
 				"source":"4,5,6"
 			}
 		],
+		"discoverer":[
+			{
+				"value":"Wischnjewsky",
+				"source":"3"
+			},
+			{
+				"value":"Roberto Antezana",
+				"source":"4,5"
+			}
+		],
+		"galdec":[
+			{
+				"value":"-18:21:13",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"03:36:37",
+				"source":"3"
+			}
+		],
+		"host":[
+			{
+				"value":"A033637-1821",
+				"source":"3"
+			},
+			{
+				"value":"PGC 869197",
+				"source":"6"
+			}
+		],
+		"hvel":[
+			{
+				"value":"23790",
+				"source":"3"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"370",
+				"source":"D"
+			}
+		],
+		"max":[
+			{
+				"value":"1992/12/24",
+				"source":"3"
+			}
+		],
+		"maxabsmag":[
+			{
+				"value":"-20",
+				"source":"D"
+			}
+		],
+		"maxappmag":[
+			{
+				"value":"18",
+				"source":"D"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"1992/12/24",
+				"source":"6"
+			}
+		],
+		"ra":[
+			{
+				"value":"03:36:37.95",
+				"source":"3,4,5"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.079",
+				"source":"6"
+			}
+		],
 		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"48975.5",
+				"magnitude":"18.0",
+				"source":"4,5"
+			},
 			{
 				"timeunit":"MJD",
 				"time":"48978.19",
@@ -258,14 +434,14 @@
 				"timeunit":"MJD",
 				"time":"48987.17",
 				"band":"B",
-				"magnitude":"18.94",
+				"magnitude":"18.92",
 				"source":"1,2"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"48987.17",
 				"band":"B",
-				"magnitude":"18.92",
+				"magnitude":"18.94",
 				"source":"1,2"
 			},
 			{
@@ -300,21 +476,14 @@
 				"timeunit":"MJD",
 				"time":"48991.22",
 				"band":"V",
-				"magnitude":"18.98",
+				"magnitude":"18.91",
 				"source":"1,2"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"48991.22",
 				"band":"V",
-				"magnitude":"18.91",
-				"source":"1,2"
-			},
-			{
-				"timeunit":"MJD",
-				"time":"48994.15",
-				"band":"B",
-				"magnitude":"19.97",
+				"magnitude":"18.98",
 				"source":"1,2"
 			},
 			{
@@ -327,8 +496,8 @@
 			{
 				"timeunit":"MJD",
 				"time":"48994.15",
-				"band":"V",
-				"magnitude":"18.99",
+				"band":"B",
+				"magnitude":"19.97",
 				"source":"1,2"
 			},
 			{
@@ -340,9 +509,9 @@
 			},
 			{
 				"timeunit":"MJD",
-				"time":"48997.12",
-				"band":"B",
-				"magnitude":"20.15",
+				"time":"48994.15",
+				"band":"V",
+				"magnitude":"18.99",
 				"source":"1,2"
 			},
 			{
@@ -355,8 +524,8 @@
 			{
 				"timeunit":"MJD",
 				"time":"48997.12",
-				"band":"I",
-				"magnitude":"19.47",
+				"band":"B",
+				"magnitude":"20.15",
 				"source":"1,2"
 			},
 			{
@@ -364,6 +533,13 @@
 				"time":"48997.12",
 				"band":"I",
 				"magnitude":"19.38",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"48997.12",
+				"band":"I",
+				"magnitude":"19.47",
 				"source":"1,2"
 			},
 			{
@@ -384,21 +560,14 @@
 				"timeunit":"MJD",
 				"time":"48998.19",
 				"band":"B",
-				"magnitude":"20.33",
-				"source":"1,2"
-			},
-			{
-				"timeunit":"MJD",
-				"time":"48998.19",
-				"band":"B",
 				"magnitude":"20.14",
 				"source":"1,2"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"48998.19",
-				"band":"I",
-				"magnitude":"19.47",
+				"band":"B",
+				"magnitude":"20.33",
 				"source":"1,2"
 			},
 			{
@@ -406,6 +575,13 @@
 				"time":"48998.19",
 				"band":"I",
 				"magnitude":"19.38",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"48998.19",
+				"band":"I",
+				"magnitude":"19.47",
 				"source":"1,2"
 			},
 			{
@@ -454,14 +630,14 @@
 				"timeunit":"MJD",
 				"time":"48999.18",
 				"band":"V",
-				"magnitude":"19.43",
+				"magnitude":"19.4",
 				"source":"1,2"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"48999.18",
 				"band":"V",
-				"magnitude":"19.4",
+				"magnitude":"19.43",
 				"source":"1,2"
 			},
 			{
@@ -561,164 +737,6 @@
 				"band":"V",
 				"magnitude":"21.38",
 				"source":"1,2"
-			},
-			{
-				"timeunit":"MJD",
-				"time":"48975.5",
-				"magnitude":"18.0",
-				"source":"4,5"
-			}
-		],
-		"max":[
-			{
-				"value":"1992/12/24",
-				"source":"3"
-			}
-		],
-		"host":[
-			{
-				"value":"A033637-1821",
-				"source":"3"
-			},
-			{
-				"value":"PGC 869197",
-				"source":"6"
-			}
-		],
-		"claimedtype":[
-			{
-				"value":"Ia",
-				"source":"3,4,5"
-			}
-		],
-		"hvel":[
-			{
-				"value":"23790",
-				"source":"3"
-			}
-		],
-		"galra":[
-			{
-				"value":"03:36:37",
-				"source":"3"
-			}
-		],
-		"galdec":[
-			{
-				"value":"-18:21:13",
-				"source":"3"
-			}
-		],
-		"ra":[
-			{
-				"value":"03:36:37.95",
-				"source":"3,4,5"
-			}
-		],
-		"dec":[
-			{
-				"value":"-18:21:13.7",
-				"source":"3,4,5"
-			}
-		],
-		"discoverer":[
-			{
-				"value":"Wischnjewsky",
-				"source":"3"
-			},
-			{
-				"value":"Roberto Antezana",
-				"source":"4,5"
-			}
-		],
-		"redshift":[
-			{
-				"value":"0.079",
-				"source":"6"
-			}
-		],
-		"maxdate":[
-			{
-				"value":"1992/12/24",
-				"source":"6"
-			}
-		],
-		"comovingdist":[
-			{
-				"value":"208",
-				"source":"8,7"
-			},
-			{
-				"value":"287",
-				"source":"9,7"
-			},
-			{
-				"value":"288",
-				"source":"10,7"
-			},
-			{
-				"value":"290",
-				"source":"11,7,12"
-			},
-			{
-				"value":"296",
-				"source":"13,7,14"
-			},
-			{
-				"value":"301",
-				"source":"15,7"
-			},
-			{
-				"value":"311",
-				"source":"16,7,17"
-			},
-			{
-				"value":"314",
-				"source":"18,7,19"
-			},
-			{
-				"value":"316",
-				"source":"20,7"
-			},
-			{
-				"value":"319",
-				"source":"19,7"
-			},
-			{
-				"value":"321",
-				"source":"21,7"
-			},
-			{
-				"value":"329",
-				"source":"19,7"
-			},
-			{
-				"value":"333",
-				"source":"20,7,9"
-			},
-			{
-				"value":"334",
-				"source":"21,7"
-			},
-			{
-				"value":"337",
-				"source":"19,7"
-			},
-			{
-				"value":"340",
-				"source":"22,7,20"
-			},
-			{
-				"value":"345",
-				"source":"23,7"
-			},
-			{
-				"value":"359",
-				"source":"24,7"
-			},
-			{
-				"value":"362",
-				"source":"18,7"
 			}
 		]
 	}
