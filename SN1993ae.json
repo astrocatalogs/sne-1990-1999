@@ -42,21 +42,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"7"
+			},
+			{
 				"name":"IAUC 5888",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05800/05888.html",
-				"alias":"7"
+				"alias":"8"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"8",
+				"alias":"9",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"9"
 			},
 			{
 				"name":"NED-D",
@@ -152,7 +152,7 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"6,7,8,1,22,23,24"
+				"source":"6,7,8,9,1,22,23,24"
 			}
 		],
 		"comovingdist":[
@@ -215,8 +215,12 @@
 				"source":"6"
 			},
 			{
+				"value":"-01:58:37.1",
+				"source":"7"
+			},
+			{
 				"value":"-01:58:37.2",
-				"source":"7,8"
+				"source":"8,9"
 			}
 		],
 		"discoverdate":[
@@ -232,7 +236,7 @@
 			},
 			{
 				"value":"Christian Pollas",
-				"source":"7,8"
+				"source":"8,9"
 			}
 		],
 		"ebv":[
@@ -245,12 +249,20 @@
 			{
 				"value":"-01:59:01",
 				"source":"6"
+			},
+			{
+				"value":"-01:59:01.5",
+				"source":"7"
 			}
 		],
 		"galra":[
 			{
 				"value":"01:29:48",
 				"source":"6"
+			},
+			{
+				"value":"01:29:47.88",
+				"source":"7"
 			}
 		],
 		"host":[
@@ -276,7 +288,8 @@
 		"lumdist":[
 			{
 				"value":"70",
-				"source":"9"
+				"error":"7",
+				"source":"7"
 			}
 		],
 		"max":[
@@ -300,17 +313,17 @@
 		"maxdate":[
 			{
 				"value":"1993/11/01",
-				"source":"9"
+				"source":"7"
 			}
 		],
 		"ra":[
 			{
 				"value":"01:29:48.88",
-				"source":"6"
+				"source":"6,7"
 			},
 			{
 				"value":"01:29:48.92",
-				"source":"7,8"
+				"source":"8,9"
 			}
 		],
 		"redshift":[
@@ -324,7 +337,7 @@
 				"timeunit":"MJD",
 				"time":"49297.5",
 				"magnitude":"16.5",
-				"source":"7,8"
+				"source":"8,9"
 			},
 			{
 				"timeunit":"MJD",

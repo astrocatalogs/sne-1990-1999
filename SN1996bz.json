@@ -12,27 +12,27 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 6523",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06500/06523.html",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			}
 		],
 		"dec":[
 			{
 				"value":"+39:43:51.3",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"discover":[
@@ -43,8 +43,8 @@
 		],
 		"discoverdate":[
 			{
-				"value":"1996/11/03",
-				"source":"2,3"
+				"value":"1996/10/12",
+				"source":"2"
 			}
 		],
 		"discoverer":[
@@ -54,19 +54,27 @@
 			},
 			{
 				"value":"Christian Pollas",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+39:43:51",
 				"source":"1"
+			},
+			{
+				"value":"+39:43:51.0",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"02:31:24",
 				"source":"1"
+			},
+			{
+				"value":"02:31:24.00",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -76,7 +84,7 @@
 			},
 			{
 				"value":"PGC 2154710",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"maxappmag":[
@@ -94,15 +102,22 @@
 		"ra":[
 			{
 				"value":"02:31:24.13",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"photometry":[
 			{
 				"timeunit":"MJD",
+				"time":"50368.0",
+				"band":"V",
+				"magnitude":"21.0",
+				"source":"2"
+			},
+			{
+				"timeunit":"MJD",
 				"time":"50389.5",
 				"magnitude":"19.3",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		]
 	}

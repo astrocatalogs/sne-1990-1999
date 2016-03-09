@@ -30,27 +30,27 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"5"
+			},
+			{
 				"name":"IAUC 5574",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05500/05574.html",
-				"alias":"5"
+				"alias":"6"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"6",
+				"alias":"7",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"7"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ic",
-				"source":"1,4"
+				"source":"1,4,5"
 			}
 		],
 		"comovingdist":[
@@ -65,8 +65,12 @@
 				"source":"4"
 			},
 			{
+				"value":"-44:38:53.8",
+				"source":"5"
+			},
+			{
 				"value":"-44:39:00.0",
-				"source":"5,6"
+				"source":"6,7"
 			}
 		],
 		"discover":[
@@ -77,8 +81,8 @@
 		],
 		"discoverdate":[
 			{
-				"value":"1992/07/27",
-				"source":"5,6"
+				"value":"1992/07/26",
+				"source":"5"
 			}
 		],
 		"discoverer":[
@@ -88,19 +92,27 @@
 			},
 			{
 				"value":"Roberto Antezana",
-				"source":"5,6"
+				"source":"6,7"
 			}
 		],
 		"galdec":[
 			{
 				"value":"-44:38:53",
 				"source":"4"
+			},
+			{
+				"value":"-44:38:53.0",
+				"source":"5"
 			}
 		],
 		"galra":[
 			{
 				"value":"23:17:28",
 				"source":"4"
+			},
+			{
+				"value":"23:17:28.00",
+				"source":"5"
 			}
 		],
 		"host":[
@@ -146,11 +158,11 @@
 		"ra":[
 			{
 				"value":"23:17:28.40",
-				"source":"4"
+				"source":"4,5"
 			},
 			{
 				"value":"23:17:30.00",
-				"source":"5,6"
+				"source":"6,7"
 			}
 		],
 		"redshift":[
@@ -164,7 +176,7 @@
 				"timeunit":"MJD",
 				"time":"48829.5",
 				"magnitude":"19.0",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"timeunit":"MJD",

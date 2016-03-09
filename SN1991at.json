@@ -18,21 +18,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"3"
+			},
+			{
 				"name":"IAUC 5336",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05300/05336.html",
-				"alias":"3"
+				"alias":"4"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4",
+				"alias":"5",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"5"
 			},
 			{
 				"name":"WISeREP",
@@ -50,7 +50,7 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,4,1,6,7"
+				"source":"2,3,4,5,1,6,7"
 			}
 		],
 		"comovingdist":[
@@ -61,8 +61,12 @@
 		],
 		"dec":[
 			{
+				"value":"+16:36:24.6",
+				"source":"3"
+			},
+			{
 				"value":"+16:36:31.0",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"discover":[
@@ -84,7 +88,7 @@
 			},
 			{
 				"value":"Jean Mueller",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"ebv":[
@@ -97,12 +101,20 @@
 			{
 				"value":"+16:35:56",
 				"source":"2"
+			},
+			{
+				"value":"+16:35:50.6",
+				"source":"3"
 			}
 		],
 		"galra":[
 			{
 				"value":"01:10:40",
 				"source":"2"
+			},
+			{
+				"value":"01:10:39.04",
+				"source":"3"
 			}
 		],
 		"host":[
@@ -141,14 +153,18 @@
 		],
 		"maxdate":[
 			{
-				"value":"1991/08/18",
+				"value":"1991/08/19",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
+				"value":"01:10:40.43",
+				"source":"3"
+			},
+			{
 				"value":"01:10:40.9",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"redshift":[
@@ -162,7 +178,14 @@
 				"timeunit":"MJD",
 				"time":"48486.5",
 				"magnitude":"18.0",
-				"source":"3,4"
+				"source":"4,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"48487.0",
+				"band":"B",
+				"magnitude":"18.0",
+				"source":"3"
 			}
 		],
 		"spectra":[

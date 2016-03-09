@@ -30,27 +30,31 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"5"
+			},
+			{
 				"name":"IAUC 6122",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06100/06122.html",
-				"alias":"5"
+				"alias":"6"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"6",
+				"alias":"7",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"7"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"IIn",
-				"source":"4,5,6"
+				"source":"4,6,7"
+			},
+			{
+				"value":"II",
+				"source":"5"
 			}
 		],
 		"comovingdist":[
@@ -66,7 +70,7 @@
 			},
 			{
 				"value":"+40:06:21.5",
-				"source":"5,6"
+				"source":"5,6,7"
 			}
 		],
 		"discover":[
@@ -88,19 +92,27 @@
 			},
 			{
 				"value":"Reiki Kushida",
-				"source":"5,6"
+				"source":"6,7"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+40:06:52",
 				"source":"4"
+			},
+			{
+				"value":"+40:06:49.7",
+				"source":"5"
 			}
 		],
 		"galra":[
 			{
 				"value":"09:14:05",
 				"source":"4"
+			},
+			{
+				"value":"09:14:05.05",
+				"source":"5"
 			}
 		],
 		"host":[
@@ -118,7 +130,8 @@
 		"lumdist":[
 			{
 				"value":"37",
-				"source":"7"
+				"error":"13",
+				"source":"5"
 			}
 		],
 		"maxabsmag":[
@@ -142,13 +155,13 @@
 		"ra":[
 			{
 				"value":"09:14:01.47",
-				"source":"4,5,6"
+				"source":"4,5,6,7"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0088",
-				"source":"7"
+				"source":"5"
 			}
 		],
 		"photometry":[
@@ -163,7 +176,7 @@
 				"timeunit":"MJD",
 				"time":"49709.5",
 				"magnitude":"16.3",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"timeunit":"MJD",

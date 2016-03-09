@@ -12,21 +12,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 7034",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07000/07034.html",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			}
 		],
 		"comovingdist":[
@@ -38,7 +38,7 @@
 		"dec":[
 			{
 				"value":"-39:33:18.4",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"discover":[
@@ -60,19 +60,27 @@
 			},
 			{
 				"value":"Roberto Antezana",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"-39:33:18",
 				"source":"1"
+			},
+			{
+				"value":"-39:33:18.0",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"23:32:03",
 				"source":"1"
+			},
+			{
+				"value":"23:32:03.00",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -82,7 +90,7 @@
 			},
 			{
 				"value":"PGC 131771",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"hvel":[
@@ -111,20 +119,20 @@
 		],
 		"maxdate":[
 			{
-				"value":"1998/10/14",
+				"value":"1998/10/15",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"23:32:03.75",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.055",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"photometry":[
@@ -132,7 +140,14 @@
 				"timeunit":"MJD",
 				"time":"51100.5",
 				"magnitude":"18.5",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51101.0",
+				"band":"B",
+				"magnitude":"18.5",
+				"source":"2"
 			}
 		]
 	}

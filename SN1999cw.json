@@ -46,21 +46,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"8"
+			},
+			{
 				"name":"IAUC 7211",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07200/07211.html#Item2",
-				"alias":"8"
+				"alias":"9"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"9",
+				"alias":"10",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"10"
 			},
 			{
 				"name":"NED-D",
@@ -114,11 +114,11 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"7,1,16,17"
+				"source":"7,8,1,16,17"
 			},
 			{
 				"value":"Ia P",
-				"source":"8,9,1,18"
+				"source":"9,10,1,18"
 			}
 		],
 		"comovingdist":[
@@ -142,7 +142,7 @@
 		"dec":[
 			{
 				"value":"-06:20:03.6",
-				"source":"7,8,9"
+				"source":"7,8,9,10"
 			}
 		],
 		"discover":[
@@ -160,7 +160,7 @@
 		"discoverer":[
 			{
 				"value":"LOSS",
-				"source":"7,8,9"
+				"source":"7,9,10"
 			}
 		],
 		"ebv":[
@@ -173,22 +173,30 @@
 			{
 				"value":"-06:20:07",
 				"source":"7"
+			},
+			{
+				"value":"-06:20:01.5",
+				"source":"8"
 			}
 		],
 		"galra":[
 			{
 				"value":"00:20:00",
 				"source":"7"
+			},
+			{
+				"value":"00:20:00.10",
+				"source":"8"
 			}
 		],
 		"host":[
 			{
 				"value":"MCG -01-02-01",
-				"source":"1,7,8,9"
+				"source":"1,7,9,10"
 			},
 			{
 				"value":"PGC 1288",
-				"source":"10"
+				"source":"8"
 			}
 		],
 		"hvel":[
@@ -204,7 +212,8 @@
 		"lumdist":[
 			{
 				"value":"41",
-				"source":"10"
+				"error":"6",
+				"source":"8"
 			}
 		],
 		"maxabsmag":[
@@ -222,13 +231,13 @@
 		"maxdate":[
 			{
 				"value":"1999/06/25",
-				"source":"10"
+				"source":"8"
 			}
 		],
 		"ra":[
 			{
 				"value":"00:20:01.46",
-				"source":"7,8,9"
+				"source":"7,8,9,10"
 			}
 		],
 		"redshift":[

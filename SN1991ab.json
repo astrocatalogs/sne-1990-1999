@@ -12,27 +12,27 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 5267",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05200/05267.html",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"comovingdist":[
@@ -47,8 +47,12 @@
 				"source":"1"
 			},
 			{
+				"value":"+19:41:06.3",
+				"source":"2"
+			},
+			{
 				"value":"+19:41:06.6",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"discover":[
@@ -70,25 +74,33 @@
 			},
 			{
 				"value":"Christian Pollas",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+19:40:56",
 				"source":"1"
+			},
+			{
+				"value":"+19:40:56.3",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"13:59:21",
 				"source":"1"
+			},
+			{
+				"value":"13:59:21.21",
+				"source":"2"
 			}
 		],
 		"host":[
 			{
 				"value":"PGC 86449",
-				"source":"1,4"
+				"source":"1,2"
 			}
 		],
 		"hvel":[
@@ -117,24 +129,24 @@
 		],
 		"maxdate":[
 			{
-				"value":"1991/05/07",
+				"value":"1991/05/08",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"13:59:21.63",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"13:59:21.68",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.064",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"photometry":[
@@ -142,7 +154,13 @@
 				"timeunit":"MJD",
 				"time":"48383.5",
 				"magnitude":"19.5",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"48384.0",
+				"magnitude":"19.5",
+				"source":"2"
 			}
 		]
 	}

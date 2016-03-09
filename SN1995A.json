@@ -18,21 +18,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"3"
+			},
+			{
 				"name":"IAUC 6131",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06100/06131.html",
-				"alias":"3"
+				"alias":"4"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4",
+				"alias":"5",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"5"
 			},
 			{
 				"name":"WISeREP",
@@ -50,7 +50,7 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,4,1,6,7"
+				"source":"2,3,4,5,1,6,7"
 			}
 		],
 		"comovingdist":[
@@ -62,7 +62,7 @@
 		"dec":[
 			{
 				"value":"+26:22:51.0",
-				"source":"2,3,4"
+				"source":"2,3,4,5"
 			}
 		],
 		"discover":[
@@ -84,7 +84,7 @@
 			},
 			{
 				"value":"Christian Pollas",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"ebv":[
@@ -97,22 +97,30 @@
 			{
 				"value":"+26:22:51",
 				"source":"2"
+			},
+			{
+				"value":"+26:22:54.8",
+				"source":"3"
 			}
 		],
 		"galra":[
 			{
 				"value":"06:50:04",
 				"source":"2"
+			},
+			{
+				"value":"06:50:03.76",
+				"source":"3"
 			}
 		],
 		"host":[
 			{
 				"value":"MCG +04-16-06",
-				"source":"1,2,3,4"
+				"source":"1,2,4,5"
 			},
 			{
 				"value":"PGC 19685",
-				"source":"5"
+				"source":"3"
 			}
 		],
 		"hvel":[
@@ -145,14 +153,14 @@
 		],
 		"maxdate":[
 			{
-				"value":"1995/01/01",
+				"value":"1995/01/02",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"06:50:04.63",
-				"source":"2,3,4"
+				"source":"2,3,4,5"
 			}
 		],
 		"redshift":[
@@ -166,7 +174,14 @@
 				"timeunit":"MJD",
 				"time":"49718.5",
 				"magnitude":"18.0",
-				"source":"3,4"
+				"source":"4,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"49719.0",
+				"band":"V",
+				"magnitude":"18.0",
+				"source":"3"
 			}
 		],
 		"spectra":[

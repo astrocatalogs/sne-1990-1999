@@ -72,21 +72,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"12"
+			},
+			{
 				"name":"IAUC 6105",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06100/06105.html",
-				"alias":"12"
+				"alias":"13"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"13",
+				"alias":"14",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"14"
 			},
 			{
 				"name":"NED-D",
@@ -152,7 +152,7 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"11,12,13,1,24"
+				"source":"11,12,13,14,1,24"
 			}
 		],
 		"comovingdist":[
@@ -203,8 +203,12 @@
 				"source":"11"
 			},
 			{
+				"value":"+17:16:30.7",
+				"source":"12"
+			},
+			{
 				"value":"+17:16:31.0",
-				"source":"12,13"
+				"source":"13,14"
 			}
 		],
 		"discoverdate":[
@@ -220,7 +224,7 @@
 			},
 			{
 				"value":"Van Dyk, Treffers, Filippenko, Paik",
-				"source":"12,13"
+				"source":"13,14"
 			}
 		],
 		"ebv":[
@@ -233,12 +237,20 @@
 			{
 				"value":"+17:16:26",
 				"source":"11"
+			},
+			{
+				"value":"+17:16:25.5",
+				"source":"12"
 			}
 		],
 		"galra":[
 			{
 				"value":"10:47:04",
 				"source":"11"
+			},
+			{
+				"value":"10:47:04.04",
+				"source":"12"
 			}
 		],
 		"host":[
@@ -256,7 +268,8 @@
 		"lumdist":[
 			{
 				"value":"26.5",
-				"source":"14"
+				"error":"1",
+				"source":"12"
 			}
 		],
 		"max":[
@@ -280,23 +293,23 @@
 		"maxdate":[
 			{
 				"value":"1994/11/28",
-				"source":"14"
+				"source":"12"
 			}
 		],
 		"ra":[
 			{
 				"value":"10:47:01.92",
-				"source":"11"
+				"source":"11,12"
 			},
 			{
 				"value":"10:47:01.95",
-				"source":"12,13"
+				"source":"13,14"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0043",
-				"source":"14"
+				"source":"12"
 			}
 		],
 		"photometry":[
@@ -304,7 +317,7 @@
 				"timeunit":"MJD",
 				"time":"49669.5",
 				"magnitude":"15.4",
-				"source":"12,13"
+				"source":"13,14"
 			},
 			{
 				"timeunit":"MJD",

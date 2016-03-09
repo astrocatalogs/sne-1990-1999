@@ -12,27 +12,27 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 6252",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06200/06252.html",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"comovingdist":[
@@ -44,7 +44,7 @@
 		"dec":[
 			{
 				"value":"+10:43:23.9",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"discover":[
@@ -55,8 +55,8 @@
 		],
 		"discoverdate":[
 			{
-				"value":"1995/10/23",
-				"source":"2,3"
+				"value":"1995/10/24",
+				"source":"2"
 			}
 		],
 		"discoverer":[
@@ -66,19 +66,27 @@
 			},
 			{
 				"value":"Christian Pollas",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+10:43:40",
 				"source":"1"
+			},
+			{
+				"value":"+10:43:41.5",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"23:58:34",
 				"source":"1"
+			},
+			{
+				"value":"23:58:34.08",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -113,20 +121,20 @@
 		],
 		"maxdate":[
 			{
-				"value":"1995/10/22",
+				"value":"1995/10/24",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"23:58:33.06",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.017",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"photometry":[
@@ -134,7 +142,14 @@
 				"timeunit":"MJD",
 				"time":"50012.5",
 				"magnitude":"18.3",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"50014.0",
+				"band":"V",
+				"magnitude":"18.3",
+				"source":"2"
 			}
 		]
 	}

@@ -52,21 +52,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"9"
+			},
+			{
 				"name":"IAUC 7286",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07200/07286.html#Item2",
-				"alias":"9"
+				"alias":"10"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"10",
+				"alias":"11",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"11"
 			},
 			{
 				"name":"NED-D",
@@ -198,7 +198,7 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"8,9,10,31,30,1,32"
+				"source":"8,9,10,11,31,30,1,32"
 			}
 		],
 		"comovingdist":[
@@ -282,7 +282,7 @@
 		"dec":[
 			{
 				"value":"+16:38:17.8",
-				"source":"8,9,10"
+				"source":"8,9,10,11"
 			}
 		],
 		"discoverdate":[
@@ -294,7 +294,7 @@
 		"discoverer":[
 			{
 				"value":"LOSS",
-				"source":"8,9,10"
+				"source":"8,10,11"
 			}
 		],
 		"ebv":[
@@ -307,12 +307,20 @@
 			{
 				"value":"+16:38:30",
 				"source":"8"
+			},
+			{
+				"value":"+16:38:29.1",
+				"source":"9"
 			}
 		],
 		"galra":[
 			{
 				"value":"05:36:33",
 				"source":"8"
+			},
+			{
+				"value":"05:36:32.37",
+				"source":"9"
 			}
 		],
 		"host":[
@@ -334,7 +342,8 @@
 		"lumdist":[
 			{
 				"value":"70",
-				"source":"11"
+				"error":"2",
+				"source":"9"
 			}
 		],
 		"max":[
@@ -358,13 +367,13 @@
 		"maxdate":[
 			{
 				"value":"1999/10/30",
-				"source":"11"
+				"source":"9"
 			}
 		],
 		"ra":[
 			{
 				"value":"05:36:31.60",
-				"source":"8,9,10"
+				"source":"8,9,10,11"
 			}
 		],
 		"redshift":[

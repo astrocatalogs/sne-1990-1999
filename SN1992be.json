@@ -12,33 +12,33 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 5640",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05600/05640.html",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"dec":[
 			{
 				"value":"+27:47:14.4",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"discover":[
@@ -60,19 +60,27 @@
 			},
 			{
 				"value":"Jean Mueller",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+27:47:14",
 				"source":"1"
+			},
+			{
+				"value":"+27:47:14.0",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"04:02:32",
 				"source":"1"
+			},
+			{
+				"value":"04:02:32.00",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -82,7 +90,7 @@
 			},
 			{
 				"value":"PGC 1817897",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"maxappmag":[
@@ -93,14 +101,14 @@
 		],
 		"maxdate":[
 			{
-				"value":"1992/09/29",
+				"value":"1992/09/30",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"04:02:32.69",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"photometry":[
@@ -108,7 +116,14 @@
 				"timeunit":"MJD",
 				"time":"48894.5",
 				"magnitude":"17.0",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"48895.0",
+				"band":"R",
+				"magnitude":"17.0",
+				"source":"2"
 			}
 		]
 	}

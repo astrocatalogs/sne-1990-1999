@@ -12,21 +12,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 5956",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05900/05956.html",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			},
 			{
 				"name":"NED-D",
@@ -50,7 +50,7 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"comovingdist":[
@@ -69,8 +69,12 @@
 				"source":"1"
 			},
 			{
+				"value":"-01:34:06.4",
+				"source":"2"
+			},
+			{
 				"value":"-01:34:06.5",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"discover":[
@@ -92,19 +96,27 @@
 			},
 			{
 				"value":"Saul Perlmutter",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"-01:34:06",
 				"source":"1"
+			},
+			{
+				"value":"-01:34:06.0",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"02:40:04",
 				"source":"1"
+			},
+			{
+				"value":"02:40:04.00",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -140,17 +152,17 @@
 		"maxdate":[
 			{
 				"value":"1994/01/12",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"ra":[
 			{
 				"value":"02:40:04.70",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"02:40:04.73",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"redshift":[
@@ -164,7 +176,13 @@
 				"timeunit":"MJD",
 				"time":"49359.5",
 				"magnitude":"21.9",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"49360.0",
+				"magnitude":"21.9",
+				"source":"2"
 			}
 		]
 	}

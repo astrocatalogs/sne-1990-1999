@@ -22,21 +22,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			},
+			{
 				"name":"IAUC 7268",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07200/07268.html#Item2",
-				"alias":"4"
+				"alias":"5"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"5",
+				"alias":"6",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"6"
 			},
 			{
 				"name":"WISeREP",
@@ -66,11 +66,11 @@
 		"claimedtype":[
 			{
 				"value":"Iac",
-				"source":"3"
+				"source":"3,4"
 			},
 			{
 				"value":"Ib",
-				"source":"4,5,8,7,9"
+				"source":"4,5,6,8,7,9"
 			}
 		],
 		"comovingdist":[
@@ -82,11 +82,11 @@
 		"dec":[
 			{
 				"value":"-21:22:10.1",
-				"source":"3"
+				"source":"3,4"
 			},
 			{
 				"value":"-21:22:09.8",
-				"source":"4,5"
+				"source":"5,6"
 			}
 		],
 		"discover":[
@@ -97,26 +97,34 @@
 		],
 		"discoverdate":[
 			{
-				"value":"1999/09/20",
-				"source":"4,5"
+				"value":"1999/10/02",
+				"source":"4"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"LOSS",
-				"source":"3,4,5"
+				"source":"3,5,6"
 			}
 		],
 		"galdec":[
 			{
 				"value":"-21:22:21",
 				"source":"3"
+			},
+			{
+				"value":"-21:22:21.7",
+				"source":"4"
 			}
 		],
 		"galra":[
 			{
 				"value":"06:16:22",
 				"source":"3"
+			},
+			{
+				"value":"06:16:22.04",
+				"source":"4"
 			}
 		],
 		"host":[
@@ -134,7 +142,8 @@
 		"lumdist":[
 			{
 				"value":"16",
-				"source":"6"
+				"error":"3",
+				"source":"4"
 			}
 		],
 		"maxabsmag":[
@@ -158,11 +167,11 @@
 		"ra":[
 			{
 				"value":"06:16:16.18",
-				"source":"3"
+				"source":"3,4"
 			},
 			{
 				"value":"06:16:16.16",
-				"source":"4,5"
+				"source":"5,6"
 			}
 		],
 		"redshift":[

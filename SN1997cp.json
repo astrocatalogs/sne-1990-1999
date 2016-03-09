@@ -18,21 +18,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"3"
+			},
+			{
 				"name":"IAUC 6673",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06600/06673.html",
-				"alias":"3"
+				"alias":"4"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4",
+				"alias":"5",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"5"
 			}
 		],
 		"claimedtype":[
@@ -50,7 +50,7 @@
 		"dec":[
 			{
 				"value":"-57:25:30.4",
-				"source":"1,2,3,4"
+				"source":"1,2,3,4,5"
 			}
 		],
 		"discover":[
@@ -72,19 +72,27 @@
 			},
 			{
 				"value":"Mount Stromlo",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"galdec":[
 			{
 				"value":"-57:25:30",
 				"source":"2"
+			},
+			{
+				"value":"-57:25:30.0",
+				"source":"3"
 			}
 		],
 		"galra":[
 			{
 				"value":"21:44:36",
 				"source":"2"
+			},
+			{
+				"value":"21:44:36.00",
+				"source":"3"
 			}
 		],
 		"host":[
@@ -123,20 +131,20 @@
 		],
 		"maxdate":[
 			{
-				"value":"1997/06/01",
+				"value":"1997/06/02",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"21:44:36.50",
-				"source":"1,2,3,4"
+				"source":"1,2,3,4,5"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.16",
-				"source":"2,5"
+				"source":"2,3"
 			}
 		],
 		"photometry":[
@@ -144,7 +152,14 @@
 				"timeunit":"MJD",
 				"time":"50600.5",
 				"magnitude":"20.3",
-				"source":"3,4"
+				"source":"4,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"50601.0",
+				"band":"R",
+				"magnitude":"20.3",
+				"source":"3"
 			}
 		]
 	}

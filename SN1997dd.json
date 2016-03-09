@@ -12,21 +12,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 6724",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06700/06724.html#Item1",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			},
 			{
 				"name":"WISeREP",
@@ -59,8 +59,12 @@
 				"source":"1,6,5,7"
 			},
 			{
+				"value":"II",
+				"source":"2"
+			},
+			{
 				"value":"Ib/c",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"comovingdist":[
@@ -72,11 +76,11 @@
 		"dec":[
 			{
 				"value":"+21:29:14.2",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"+21:29:14.3",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"discover":[
@@ -98,19 +102,27 @@
 			},
 			{
 				"value":"Masakatsu Aoki",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+21:29:05",
 				"source":"1"
+			},
+			{
+				"value":"+21:29:06.0",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"16:05:52",
 				"source":"1"
+			},
+			{
+				"value":"16:05:51.98",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -128,7 +140,8 @@
 		"lumdist":[
 			{
 				"value":"51",
-				"source":"4"
+				"error":"9",
+				"source":"2"
 			}
 		],
 		"maxabsmag":[
@@ -145,18 +158,18 @@
 		],
 		"maxdate":[
 			{
-				"value":"2016/01/03",
+				"value":"1997/08/20",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"16:05:46.33",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"16:05:46.32",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"redshift":[
@@ -168,10 +181,10 @@
 		"photometry":[
 			{
 				"timeunit":"MJD",
-				"time":"57390.5",
+				"time":"50680.0",
 				"band":"V",
 				"magnitude":"16.4",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"spectra":[

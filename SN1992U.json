@@ -12,27 +12,27 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 5499",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05400/05499.html",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"comovingdist":[
@@ -43,8 +43,12 @@
 		],
 		"dec":[
 			{
+				"value":"-70:41:37.8",
+				"source":"2"
+			},
+			{
 				"value":"-70:41:33.0",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"discover":[
@@ -66,19 +70,27 @@
 			},
 			{
 				"value":"Roberto Antezana",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"-70:41:46",
 				"source":"1"
+			},
+			{
+				"value":"-70:41:46.8",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"20:40:43",
 				"source":"1"
+			},
+			{
+				"value":"20:40:41.88",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -113,20 +125,24 @@
 		],
 		"maxdate":[
 			{
-				"value":"1992/04/08",
+				"value":"1992/04/09",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
+				"value":"20:40:45.51",
+				"source":"2"
+			},
+			{
 				"value":"20:40:46.5",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.010919",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"photometry":[
@@ -134,7 +150,13 @@
 				"timeunit":"MJD",
 				"time":"48720.5",
 				"magnitude":"18.5",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"48721.0",
+				"magnitude":"18.5",
+				"source":"2"
 			}
 		]
 	}

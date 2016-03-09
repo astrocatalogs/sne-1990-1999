@@ -12,27 +12,27 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 6809",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06800/06809.html",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"comovingdist":[
@@ -43,8 +43,12 @@
 		],
 		"dec":[
 			{
+				"value":"+18:43:00.1",
+				"source":"2"
+			},
+			{
 				"value":"+18:43:02.0",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"discover":[
@@ -66,19 +70,27 @@
 			},
 			{
 				"value":"Jean Mueller",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+18:43:02",
 				"source":"1"
+			},
+			{
+				"value":"+18:43:01.6",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"07:46:02",
 				"source":"1"
+			},
+			{
+				"value":"07:46:02.42",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -88,7 +100,7 @@
 			},
 			{
 				"value":"PGC 1568040",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"hvel":[
@@ -117,24 +129,28 @@
 		],
 		"maxdate":[
 			{
-				"value":"1997/12/31",
+				"value":"1998/01/01",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
+				"value":"07:46:02.91",
+				"source":"2"
+			},
+			{
 				"value":"07:46:02.10",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"redshift":[
 			{
-				"value":"0.045",
-				"source":"2,3"
+				"value":"0.046",
+				"source":"2"
 			},
 			{
-				"value":"0.046",
-				"source":"4"
+				"value":"0.045",
+				"source":"3,4"
 			}
 		],
 		"photometry":[
@@ -142,7 +158,13 @@
 				"timeunit":"MJD",
 				"time":"50813.5",
 				"magnitude":"18.5",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"50814.0",
+				"magnitude":"18.5",
+				"source":"2"
 			}
 		]
 	}

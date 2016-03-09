@@ -18,21 +18,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"3"
+			},
+			{
 				"name":"IAUC 6011",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06000/06011.html",
-				"alias":"3"
+				"alias":"4"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4",
+				"alias":"5",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"5"
 			},
 			{
 				"name":"NED-D",
@@ -62,7 +62,7 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,4,1,8"
+				"source":"2,3,4,5,1,8"
 			}
 		],
 		"comovingdist":[
@@ -77,8 +77,12 @@
 				"source":"2"
 			},
 			{
+				"value":"-07:56:51.7",
+				"source":"3"
+			},
+			{
 				"value":"-07:56:51.5",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"discover":[
@@ -100,7 +104,7 @@
 			},
 			{
 				"value":"Barker",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"ebv":[
@@ -113,12 +117,20 @@
 			{
 				"value":"-07:56:48",
 				"source":"2"
+			},
+			{
+				"value":"-07:56:51.5",
+				"source":"3"
 			}
 		],
 		"galra":[
 			{
 				"value":"13:04:56",
 				"source":"2"
+			},
+			{
+				"value":"13:04:55.99",
+				"source":"3"
 			}
 		],
 		"host":[
@@ -140,7 +152,8 @@
 		"lumdist":[
 			{
 				"value":"22",
-				"source":"5"
+				"error":"1",
+				"source":"3"
 			}
 		],
 		"maxabsmag":[
@@ -158,23 +171,23 @@
 		"maxdate":[
 			{
 				"value":"1994/06/27",
-				"source":"5"
+				"source":"3,D"
 			}
 		],
 		"ra":[
 			{
 				"value":"13:04:56.09",
-				"source":"2"
+				"source":"2,3"
 			},
 			{
 				"value":"13:04:56.13",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0044",
-				"source":"5"
+				"source":"3"
 			}
 		],
 		"photometry":[
@@ -182,7 +195,13 @@
 				"timeunit":"MJD",
 				"time":"49529.5",
 				"magnitude":"14.0",
-				"source":"3,4"
+				"source":"4,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"49530.0",
+				"magnitude":"14.0",
+				"source":"3"
 			}
 		],
 		"spectra":[

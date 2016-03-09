@@ -58,21 +58,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"10"
+			},
+			{
 				"name":"IAUC 7185",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07100/07185.html#Item1",
-				"alias":"10"
+				"alias":"11"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"11",
+				"alias":"12",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"12"
 			},
 			{
 				"name":"NED-D",
@@ -168,7 +168,7 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"9,10,11,27,26,1,4"
+				"source":"9,10,11,12,27,26,1,4"
 			}
 		],
 		"comovingdist":[
@@ -220,7 +220,7 @@
 		"dec":[
 			{
 				"value":"+14:25:35.3",
-				"source":"9,10,11"
+				"source":"9,10,11,12"
 			}
 		],
 		"discoverdate":[
@@ -232,7 +232,7 @@
 		"discoverer":[
 			{
 				"value":"LOSS",
-				"source":"9,10,11"
+				"source":"9,11,12"
 			}
 		],
 		"ebv":[
@@ -245,22 +245,30 @@
 			{
 				"value":"+14:25:17",
 				"source":"9"
+			},
+			{
+				"value":"+14:25:13.6",
+				"source":"10"
 			}
 		],
 		"galra":[
 			{
 				"value":"12:32:00",
 				"source":"9"
+			},
+			{
+				"value":"12:31:59.22",
+				"source":"10"
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 4501",
-				"source":"1,9,12"
+				"source":"1,9,10"
 			},
 			{
 				"value":"M88",
-				"source":"10,11"
+				"source":"11,12"
 			}
 		],
 		"hvel":[
@@ -272,7 +280,8 @@
 		"lumdist":[
 			{
 				"value":"11",
-				"source":"12"
+				"error":"1",
+				"source":"10"
 			}
 		],
 		"max":[
@@ -296,23 +305,23 @@
 		"maxdate":[
 			{
 				"value":"1999/06/15",
-				"source":"12"
+				"source":"10"
 			}
 		],
 		"ra":[
 			{
 				"value":"12:31:56.01",
-				"source":"9,10,11"
+				"source":"9,10,11,12"
 			}
 		],
 		"redshift":[
 			{
-				"value":"0.0068",
-				"source":"10,11"
+				"value":"0.0076",
+				"source":"10"
 			},
 			{
-				"value":"0.0076",
-				"source":"12"
+				"value":"0.0068",
+				"source":"11,12"
 			},
 			{
 				"value":"0.0078",
@@ -373,7 +382,7 @@
 				"timeunit":"MJD",
 				"time":"51332.5",
 				"magnitude":"13.6",
-				"source":"10,11"
+				"source":"11,12"
 			},
 			{
 				"timeunit":"MJD",

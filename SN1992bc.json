@@ -24,21 +24,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			},
+			{
 				"name":"IAUC 5630",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05600/05630.html",
-				"alias":"4"
+				"alias":"5"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"5",
+				"alias":"6",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"6"
 			},
 			{
 				"name":"NED-D",
@@ -170,7 +170,7 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"3,4,5"
+				"source":"3,4,5,6"
 			}
 		],
 		"comovingdist":[
@@ -274,7 +274,7 @@
 		"dec":[
 			{
 				"value":"-39:33:39.7",
-				"source":"3,4,5"
+				"source":"3,4,5,6"
 			}
 		],
 		"discoverdate":[
@@ -290,19 +290,27 @@
 			},
 			{
 				"value":"Roberto Antezana",
-				"source":"4,5"
+				"source":"5,6"
 			}
 		],
 		"galdec":[
 			{
 				"value":"-39:33:41",
 				"source":"3"
+			},
+			{
+				"value":"-39:33:39.8",
+				"source":"4"
 			}
 		],
 		"galra":[
 			{
 				"value":"03:05:16",
 				"source":"3"
+			},
+			{
+				"value":"03:05:15.81",
+				"source":"4"
 			}
 		],
 		"host":[
@@ -320,7 +328,8 @@
 		"lumdist":[
 			{
 				"value":"77",
-				"source":"6"
+				"error":"3",
+				"source":"4"
 			}
 		],
 		"max":[
@@ -344,19 +353,19 @@
 		"maxdate":[
 			{
 				"value":"1992/10/17",
-				"source":"6"
+				"source":"4"
 			}
 		],
 		"ra":[
 			{
 				"value":"03:05:17.28",
-				"source":"3,4,5"
+				"source":"3,4,5,6"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.019",
-				"source":"4,5"
+				"source":"5,6"
 			}
 		],
 		"photometry":[
@@ -364,7 +373,7 @@
 				"timeunit":"MJD",
 				"time":"48898.5",
 				"magnitude":"15.0",
-				"source":"4,5"
+				"source":"5,6"
 			},
 			{
 				"timeunit":"MJD",

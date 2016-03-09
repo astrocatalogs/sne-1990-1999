@@ -30,21 +30,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"5"
+			},
+			{
 				"name":"IAUC 6317",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06300/06317.html",
-				"alias":"5"
+				"alias":"6"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"6",
+				"alias":"7",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"7"
 			},
 			{
 				"name":"NED-D",
@@ -170,7 +170,7 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"4,5,6,27,26"
+				"source":"4,5,6,7,27,26"
 			}
 		],
 		"comovingdist":[
@@ -254,7 +254,7 @@
 		"dec":[
 			{
 				"value":"+49:19:07.1",
-				"source":"4,5,6"
+				"source":"4,5,6,7"
 			}
 		],
 		"discoverdate":[
@@ -270,29 +270,37 @@
 			},
 			{
 				"value":"Jean Mueller",
-				"source":"5,6"
+				"source":"6,7"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+49:18:55",
 				"source":"4"
+			},
+			{
+				"value":"+49:18:50.3",
+				"source":"5"
 			}
 		],
 		"galra":[
 			{
 				"value":"13:50:49",
 				"source":"4"
+			},
+			{
+				"value":"13:50:48.86",
+				"source":"5"
 			}
 		],
 		"host":[
 			{
 				"value":"MCG +08-25-47",
-				"source":"4,5,6"
+				"source":"4,6,7"
 			},
 			{
 				"value":"PGC 49153",
-				"source":"7"
+				"source":"5"
 			}
 		],
 		"hvel":[
@@ -304,7 +312,8 @@
 		"lumdist":[
 			{
 				"value":"115",
-				"source":"7"
+				"error":"9",
+				"source":"5"
 			}
 		],
 		"max":[
@@ -328,19 +337,19 @@
 		"maxdate":[
 			{
 				"value":"1996/02/13",
-				"source":"7"
+				"source":"5"
 			}
 		],
 		"ra":[
 			{
 				"value":"13:50:48.60",
-				"source":"4,5,6"
+				"source":"4,5,6,7"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.027",
-				"source":"7,27,26"
+				"source":"5,27,26"
 			}
 		],
 		"photometry":[
@@ -348,7 +357,7 @@
 				"timeunit":"MJD",
 				"time":"50127.5",
 				"magnitude":"18.0",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"timeunit":"MJD",

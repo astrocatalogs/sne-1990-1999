@@ -12,27 +12,27 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 6633",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06600/06633.html",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			}
 		],
 		"dec":[
 			{
 				"value":"-07:16:30.1",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"discover":[
@@ -54,19 +54,27 @@
 			},
 			{
 				"value":"High Z Supernova Search",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"-07:16:30",
 				"source":"1"
+			},
+			{
+				"value":"-07:16:30.0",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"10:06:09",
 				"source":"1"
+			},
+			{
+				"value":"10:06:09.00",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -83,14 +91,14 @@
 		],
 		"maxdate":[
 			{
-				"value":"1997/04/02",
+				"value":"1997/04/03",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"10:06:09.99",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"photometry":[
@@ -98,7 +106,14 @@
 				"timeunit":"MJD",
 				"time":"50540.5",
 				"magnitude":"23.0",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"50541.0",
+				"band":"R",
+				"magnitude":"23.0",
+				"source":"2"
 			}
 		]
 	}

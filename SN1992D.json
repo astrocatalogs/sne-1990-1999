@@ -12,21 +12,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 5444",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05400/05444.html",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			}
 		],
 		"claimedtype":[
@@ -35,8 +35,12 @@
 				"source":"1"
 			},
 			{
+				"value":"II",
+				"source":"2"
+			},
+			{
 				"value":"II P",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"comovingdist":[
@@ -51,8 +55,12 @@
 				"source":"1"
 			},
 			{
+				"value":"-20:22:08.9",
+				"source":"2"
+			},
+			{
 				"value":"-20:22:08.8",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"discover":[
@@ -74,19 +82,27 @@
 			},
 			{
 				"value":"Robert McNaught, Drinkwater",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"-20:22:08",
 				"source":"1"
+			},
+			{
+				"value":"-20:22:08.0",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"06:00:59",
 				"source":"1"
+			},
+			{
+				"value":"06:00:59.00",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -96,7 +112,7 @@
 			},
 			{
 				"value":"PGC 842727",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"hvel":[
@@ -119,24 +135,24 @@
 		],
 		"maxappmag":[
 			{
-				"value":"19",
+				"value":"18.7",
 				"source":"D"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"1992/01/27",
+				"value":"1992/01/28",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"06:00:59.85",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"06:00:59.87",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"redshift":[
@@ -150,7 +166,14 @@
 				"timeunit":"MJD",
 				"time":"48648.5",
 				"magnitude":"19.0",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"48649.0",
+				"band":"R",
+				"magnitude":"18.7",
+				"source":"2"
 			}
 		]
 	}

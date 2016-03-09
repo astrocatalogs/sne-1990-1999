@@ -12,21 +12,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 6715",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06700/06715.html#Item1",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			},
 			{
 				"name":"WISeREP",
@@ -56,7 +56,7 @@
 		"claimedtype":[
 			{
 				"value":"Ib",
-				"source":"1,2,3,6,5,7"
+				"source":"1,2,3,4,6,5,7"
 			}
 		],
 		"comovingdist":[
@@ -68,7 +68,7 @@
 		"dec":[
 			{
 				"value":"+22:25:23.0",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"discover":[
@@ -90,19 +90,27 @@
 			},
 			{
 				"value":"BAO Supernova Survey",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+22:25:14",
 				"source":"1"
+			},
+			{
+				"value":"+22:25:14.0",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"23:28:28",
 				"source":"1"
+			},
+			{
+				"value":"23:28:27.87",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -120,7 +128,8 @@
 		"lumdist":[
 			{
 				"value":"49",
-				"source":"4"
+				"error":"6",
+				"source":"2"
 			}
 		],
 		"maxabsmag":[
@@ -137,14 +146,14 @@
 		],
 		"maxdate":[
 			{
-				"value":"2016/01/03",
+				"value":"1997/08/05",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"23:28:28.41",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"redshift":[
@@ -156,9 +165,9 @@
 		"photometry":[
 			{
 				"timeunit":"MJD",
-				"time":"57390.5",
+				"time":"50665.0",
 				"magnitude":"18.3",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"spectra":[

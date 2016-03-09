@@ -12,27 +12,27 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 6087",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06000/06087.html",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"comovingdist":[
@@ -47,8 +47,12 @@
 				"source":"1"
 			},
 			{
+				"value":"-48:37:49.6",
+				"source":"2"
+			},
+			{
 				"value":"-48:37:49.5",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"discover":[
@@ -70,19 +74,27 @@
 			},
 			{
 				"value":"Alexander Wassilieff",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"-48:37:42",
 				"source":"1"
+			},
+			{
+				"value":"-48:37:45.0",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"00:21:14",
 				"source":"1"
+			},
+			{
+				"value":"00:21:15.00",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -117,24 +129,24 @@
 		],
 		"maxdate":[
 			{
-				"value":"1994/10/01",
+				"value":"1994/10/02",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"00:21:16.55",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"00:21:16.60",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.012",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"photometry":[
@@ -142,7 +154,13 @@
 				"timeunit":"MJD",
 				"time":"49626.5",
 				"magnitude":"14.6",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"49627.0",
+				"magnitude":"14.6",
+				"source":"2"
 			}
 		]
 	}

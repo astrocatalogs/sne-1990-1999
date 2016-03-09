@@ -12,27 +12,27 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 6403",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06400/06403.html#Item1",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"comovingdist":[
@@ -47,8 +47,12 @@
 				"source":"1"
 			},
 			{
+				"value":"+36:29:38.7",
+				"source":"2"
+			},
+			{
 				"value":"+36:29:39.0",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"discover":[
@@ -70,19 +74,27 @@
 			},
 			{
 				"value":"Wayne Johnson (aka Mr. Galaxy)",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+36:29:38",
 				"source":"1"
+			},
+			{
+				"value":"+36:29:39.0",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"14:18:26",
 				"source":"1"
+			},
+			{
+				"value":"14:18:25.59",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -100,7 +112,8 @@
 		"lumdist":[
 			{
 				"value":"32",
-				"source":"4"
+				"error":"4",
+				"source":"2"
 			}
 		],
 		"maxabsmag":[
@@ -117,32 +130,32 @@
 		],
 		"maxdate":[
 			{
-				"value":"2016/01/03",
+				"value":"1996/05/16",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"14:18:25.41",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"14:18:25.4",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.011",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"photometry":[
 			{
 				"timeunit":"MJD",
-				"time":"57390.5",
+				"time":"50219.0",
 				"magnitude":"17.0",
-				"source":"4"
+				"source":"2"
 			}
 		]
 	}

@@ -12,21 +12,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 7096",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07000/07096.html#Item2",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			}
 		],
 		"claimedtype":[
@@ -36,7 +36,7 @@
 			},
 			{
 				"value":"Ia",
-				"source":"2,3"
+				"source":"2,3,4"
 			}
 		],
 		"comovingdist":[
@@ -48,13 +48,13 @@
 		"dec":[
 			{
 				"value":"-69:29:52.1",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"discoverdate":[
 			{
-				"value":"1998/12/28",
-				"source":"2,3"
+				"value":"1999/01/11",
+				"source":"2"
 			}
 		],
 		"discoverer":[
@@ -64,19 +64,27 @@
 			},
 			{
 				"value":"MACHO collaboration",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"-69:29:52",
 				"source":"1"
+			},
+			{
+				"value":"-69:29:52.0",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"05:35:32",
 				"source":"1"
+			},
+			{
+				"value":"05:35:32.00",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -118,13 +126,13 @@
 		"maxdate":[
 			{
 				"value":"1999/01/17",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"ra":[
 			{
 				"value":"05:35:32.27",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"redshift":[
@@ -136,10 +144,10 @@
 		"photometry":[
 			{
 				"timeunit":"MJD",
-				"time":"57390.5",
+				"time":"51189.0",
 				"band":"V",
 				"magnitude":"17.0",
-				"source":"4"
+				"source":"2"
 			}
 		]
 	}

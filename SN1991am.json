@@ -18,21 +18,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"3"
+			},
+			{
 				"name":"IAUC 5312",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05300/05312.html",
-				"alias":"3"
+				"alias":"4"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4",
+				"alias":"5",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"5"
 			},
 			{
 				"name":"WISeREP",
@@ -50,7 +50,7 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,4,1,6,7"
+				"source":"2,3,4,5,1,6,7"
 			}
 		],
 		"comovingdist":[
@@ -65,8 +65,12 @@
 				"source":"2"
 			},
 			{
+				"value":"+37:44:10.9",
+				"source":"3"
+			},
+			{
 				"value":"+37:44:11.0",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"discover":[
@@ -77,8 +81,8 @@
 		],
 		"discoverdate":[
 			{
-				"value":"1991/07/14",
-				"source":"3,4"
+				"value":"1991/07/24",
+				"source":"3"
 			}
 		],
 		"discoverer":[
@@ -88,7 +92,7 @@
 			},
 			{
 				"value":"Christian Pollas",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"ebv":[
@@ -101,22 +105,30 @@
 			{
 				"value":"+37:44:05",
 				"source":"2"
+			},
+			{
+				"value":"+37:44:05.3",
+				"source":"3"
 			}
 		],
 		"galra":[
 			{
 				"value":"16:41:50",
 				"source":"2"
+			},
+			{
+				"value":"16:41:50.42",
+				"source":"3"
 			}
 		],
 		"host":[
 			{
 				"value":"MCG +06-37-06",
-				"source":"1,2,3,4"
+				"source":"1,2,4,5"
 			},
 			{
 				"value":"PGC 58786",
-				"source":"5"
+				"source":"3"
 			}
 		],
 		"hvel":[
@@ -133,30 +145,30 @@
 		],
 		"maxabsmag":[
 			{
-				"value":"-18.26",
+				"value":"-19.26",
 				"source":"D"
 			}
 		],
 		"maxappmag":[
 			{
-				"value":"19",
+				"value":"18",
 				"source":"D"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"1991/07/13",
+				"value":"1991/07/24",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"16:41:50.71",
-				"source":"2"
+				"source":"2,3"
 			},
 			{
 				"value":"16:41:50.72",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"redshift":[
@@ -170,7 +182,14 @@
 				"timeunit":"MJD",
 				"time":"48450.5",
 				"magnitude":"19.0",
-				"source":"3,4"
+				"source":"4,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"48461.0",
+				"band":"R",
+				"magnitude":"18.0",
+				"source":"3"
 			}
 		],
 		"spectra":[

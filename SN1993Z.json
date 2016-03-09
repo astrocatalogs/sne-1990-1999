@@ -36,21 +36,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"6"
+			},
+			{
 				"name":"IAUC 5870",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05800/05870.html",
-				"alias":"6"
+				"alias":"7"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"7",
+				"alias":"8",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"8"
 			},
 			{
 				"name":"WISeREP",
@@ -68,7 +68,7 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,5,6,7,1,9,10"
+				"source":"2,5,6,7,8,1,9,10"
 			}
 		],
 		"comovingdist":[
@@ -83,8 +83,12 @@
 				"source":"5"
 			},
 			{
+				"value":"+07:01:40.1",
+				"source":"6"
+			},
+			{
 				"value":"+07:01:40.3",
-				"source":"6,7"
+				"source":"7,8"
 			}
 		],
 		"discover":[
@@ -106,7 +110,7 @@
 			},
 			{
 				"value":"Treffers, Filippenko, Leibundgut,",
-				"source":"6,7"
+				"source":"7,8"
 			}
 		],
 		"ebv":[
@@ -119,12 +123,20 @@
 			{
 				"value":"+07:02:19",
 				"source":"5"
+			},
+			{
+				"value":"+07:02:16.7",
+				"source":"6"
 			}
 		],
 		"galra":[
 			{
 				"value":"09:10:20",
 				"source":"5"
+			},
+			{
+				"value":"09:10:20.12",
+				"source":"6"
 			}
 		],
 		"host":[
@@ -146,7 +158,8 @@
 		"lumdist":[
 			{
 				"value":"26",
-				"source":"8"
+				"error":"5",
+				"source":"6"
 			}
 		],
 		"maxabsmag":[
@@ -170,11 +183,11 @@
 		"ra":[
 			{
 				"value":"09:10:19.58",
-				"source":"5"
+				"source":"5,6"
 			},
 			{
 				"value":"09:10:19.60",
-				"source":"6,7"
+				"source":"7,8"
 			}
 		],
 		"redshift":[
@@ -188,7 +201,7 @@
 				"timeunit":"MJD",
 				"time":"49252.5",
 				"magnitude":"13.9",
-				"source":"6,7"
+				"source":"7,8"
 			},
 			{
 				"timeunit":"MJD",

@@ -12,21 +12,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 6454",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06400/06454.html#Item1",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			},
 			{
 				"name":"WISeREP",
@@ -44,7 +44,7 @@
 		"claimedtype":[
 			{
 				"value":"Ic",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			},
 			{
 				"value":"Ib",
@@ -60,11 +60,11 @@
 		"dec":[
 			{
 				"value":"-00:23:23.8",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"-00:23:24.3",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"discover":[
@@ -86,19 +86,27 @@
 			},
 			{
 				"value":"Masakatsu Aoki",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"-00:23:16",
 				"source":"1"
+			},
+			{
+				"value":"-00:23:15.1",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"14:22:24",
 				"source":"1"
+			},
+			{
+				"value":"14:22:23.79",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -116,7 +124,8 @@
 		"lumdist":[
 			{
 				"value":"19",
-				"source":"4"
+				"error":"4",
+				"source":"2"
 			}
 		],
 		"maxabsmag":[
@@ -133,24 +142,24 @@
 		],
 		"maxdate":[
 			{
-				"value":"2016/01/03",
+				"value":"1996/08/17",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"14:22:22.72",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"14:22:22.73",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0055",
-				"source":"4"
+				"source":"2"
 			},
 			{
 				"value":"0.0056",
@@ -160,10 +169,10 @@
 		"photometry":[
 			{
 				"timeunit":"MJD",
-				"time":"57390.5",
+				"time":"50312.0",
 				"band":"V",
 				"magnitude":"14.7",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"spectra":[

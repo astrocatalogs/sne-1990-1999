@@ -12,27 +12,27 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 6978",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06900/06978.html#Item2",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"comovingdist":[
@@ -44,11 +44,11 @@
 		"dec":[
 			{
 				"value":"-16:56:08.1",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"+16:56:08.11",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"discover":[
@@ -70,29 +70,37 @@
 			},
 			{
 				"value":"Marina Wischnjewsky",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"-16:55:57",
 				"source":"1"
+			},
+			{
+				"value":"-16:55:57.2",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"13:10:25",
 				"source":"1"
+			},
+			{
+				"value":"13:10:24.94",
+				"source":"2"
 			}
 		],
 		"host":[
 			{
 				"value":"MCG -03-34-08",
-				"source":"1,2,3"
+				"source":"1,3,4"
 			},
 			{
 				"value":"PGC 45711",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"hvel":[
@@ -121,29 +129,29 @@
 		],
 		"maxdate":[
 			{
-				"value":"2016/01/03",
+				"value":"1998/07/19",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"13:10:23.85",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0081",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"photometry":[
 			{
 				"timeunit":"MJD",
-				"time":"57390.5",
+				"time":"51013.0",
 				"band":"B",
 				"magnitude":"17.5",
-				"source":"4"
+				"source":"2"
 			}
 		]
 	}

@@ -12,21 +12,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 5076",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05000/05076.html",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			},
 			{
 				"name":"WISeREP",
@@ -44,7 +44,11 @@
 		"claimedtype":[
 			{
 				"value":"Ib/c",
-				"source":"1,6,5"
+				"source":"1,2,6,5"
+			},
+			{
+				"value":"Ic",
+				"source":"2"
 			}
 		],
 		"comovingdist":[
@@ -59,8 +63,12 @@
 				"source":"1"
 			},
 			{
+				"value":"-59:12:55.0",
+				"source":"2"
+			},
+			{
 				"value":"-59:12:55.1",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"discover":[
@@ -82,19 +90,27 @@
 			},
 			{
 				"value":"Robert Evans",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"-59:12:59",
 				"source":"1"
+			},
+			{
+				"value":"-59:13:03.9",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"16:52:47",
 				"source":"1"
+			},
+			{
+				"value":"16:52:46.10",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -112,7 +128,8 @@
 		"lumdist":[
 			{
 				"value":"11",
-				"source":"4"
+				"error":"1",
+				"source":"2"
 			}
 		],
 		"maxabsmag":[
@@ -123,24 +140,24 @@
 		],
 		"maxappmag":[
 			{
-				"value":"15",
+				"value":"14.9",
 				"source":"D"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"1990/08/15",
+				"value":"1990/08/16",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"16:52:47.18",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"16:52:47.25",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"redshift":[
@@ -154,7 +171,14 @@
 				"timeunit":"MJD",
 				"time":"48118.5",
 				"magnitude":"15.0",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"48119.0",
+				"band":"V",
+				"magnitude":"14.9",
+				"source":"2"
 			}
 		],
 		"spectra":[

@@ -22,27 +22,27 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			},
+			{
 				"name":"IAUC 6763",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06700/06763.html#Item3",
-				"alias":"4"
+				"alias":"5"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"5",
+				"alias":"6",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"6"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"3,4,5"
+				"source":"3,4,5,6"
 			}
 		],
 		"comovingdist":[
@@ -54,7 +54,7 @@
 		"dec":[
 			{
 				"value":"+27:14:07.3",
-				"source":"3,4,5"
+				"source":"3,4,5,6"
 			}
 		],
 		"discover":[
@@ -76,29 +76,37 @@
 			},
 			{
 				"value":"Tom Boles",
-				"source":"4,5"
+				"source":"5,6"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+27:14:24",
 				"source":"3"
+			},
+			{
+				"value":"+27:14:23.9",
+				"source":"4"
 			}
 		],
 		"galra":[
 			{
 				"value":"10:54:21",
 				"source":"3"
+			},
+			{
+				"value":"10:54:20.93",
+				"source":"4"
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 3451",
-				"source":"3,4,5"
+				"source":"3,5,6"
 			},
 			{
 				"value":"UGC 6023",
-				"source":"6"
+				"source":"4"
 			}
 		],
 		"hvel":[
@@ -110,7 +118,8 @@
 		"lumdist":[
 			{
 				"value":"27",
-				"source":"6"
+				"error":"5",
+				"source":"4"
 			}
 		],
 		"maxabsmag":[
@@ -134,17 +143,17 @@
 		"ra":[
 			{
 				"value":"10:54:18.95",
-				"source":"3,4,5"
+				"source":"3,4,5,6"
 			}
 		],
 		"redshift":[
 			{
-				"value":"0.0043",
-				"source":"4,5"
+				"value":"0.0044",
+				"source":"4"
 			},
 			{
-				"value":"0.0044",
-				"source":"6"
+				"value":"0.0043",
+				"source":"5,6"
 			}
 		],
 		"photometry":[

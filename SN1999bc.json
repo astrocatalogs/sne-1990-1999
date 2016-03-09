@@ -12,39 +12,39 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 7134",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07100/07134.html#Item2",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ic",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"comovingdist":[
 			{
-				"value":"97",
+				"value":"92",
 				"source":"D"
 			}
 		],
 		"dec":[
 			{
 				"value":"+17:28:15.4",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"discover":[
@@ -66,19 +66,27 @@
 			},
 			{
 				"value":"Supernova Cosmology Project",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+17:27:58",
 				"source":"1"
+			},
+			{
+				"value":"+17:28:02.2",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"08:28:31",
 				"source":"1"
+			},
+			{
+				"value":"08:28:30.97",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -99,7 +107,7 @@
 		],
 		"lumdist":[
 			{
-				"value":"99",
+				"value":"94",
 				"source":"D"
 			}
 		],
@@ -117,24 +125,24 @@
 		],
 		"maxdate":[
 			{
-				"value":"1999/02/18",
+				"value":"1999/02/19",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"08:28:31.08",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"redshift":[
 			{
-				"value":"0.022",
-				"source":"2,3"
+				"value":"0.021",
+				"source":"2"
 			},
 			{
-				"value":"0.021",
-				"source":"4"
+				"value":"0.022",
+				"source":"3,4"
 			}
 		],
 		"photometry":[
@@ -142,7 +150,13 @@
 				"timeunit":"MJD",
 				"time":"51227.5",
 				"magnitude":"18.9",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51228.0",
+				"magnitude":"18.9",
+				"source":"2"
 			}
 		]
 	}

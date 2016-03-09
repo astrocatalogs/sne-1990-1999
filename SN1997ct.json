@@ -12,21 +12,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 6690",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06600/06690.html",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			},
 			{
 				"name":"WISeREP",
@@ -50,7 +50,7 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,6,5"
+				"source":"1,2,6,5"
 			}
 		],
 		"comovingdist":[
@@ -62,7 +62,7 @@
 		"dec":[
 			{
 				"value":"+70:26:05.9",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"discover":[
@@ -84,19 +84,27 @@
 			},
 			{
 				"value":"Jean Mueller",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+70:26:05",
 				"source":"1"
+			},
+			{
+				"value":"+70:26:05.0",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"14:07:26",
 				"source":"1"
+			},
+			{
+				"value":"14:07:26.00",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -106,7 +114,7 @@
 			},
 			{
 				"value":"PGC 2736111",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"hvel":[
@@ -142,7 +150,7 @@
 		"ra":[
 			{
 				"value":"14:07:26.88",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"redshift":[
@@ -156,7 +164,14 @@
 				"timeunit":"MJD",
 				"time":"50627.5",
 				"magnitude":"17.0",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"50628.0",
+				"band":"V",
+				"magnitude":"18.6",
+				"source":"2"
 			}
 		],
 		"spectra":[

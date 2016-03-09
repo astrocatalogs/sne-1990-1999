@@ -12,21 +12,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 5334",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05300/05334.html",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			},
 			{
 				"name":"WISeREP",
@@ -56,7 +56,7 @@
 		"claimedtype":[
 			{
 				"value":"Ib",
-				"source":"1,2,3,6,5,7"
+				"source":"1,2,3,4,6,5,7"
 			}
 		],
 		"comovingdist":[
@@ -71,8 +71,12 @@
 				"source":"1"
 			},
 			{
+				"value":"+01:51:13.5",
+				"source":"2"
+			},
+			{
 				"value":"+01:51:13.4",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"discover":[
@@ -94,19 +98,27 @@
 			},
 			{
 				"value":"Robert McNaught, Russell",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+01:51:01",
 				"source":"1"
+			},
+			{
+				"value":"+01:50:52.0",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"00:43:56",
 				"source":"1"
+			},
+			{
+				"value":"00:43:56.00",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -141,18 +153,18 @@
 		],
 		"maxdate":[
 			{
-				"value":"1991/09/01",
+				"value":"1991/09/02",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"00:43:56.68",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"00:43:56.72",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"redshift":[
@@ -166,7 +178,14 @@
 				"timeunit":"MJD",
 				"time":"48500.5",
 				"magnitude":"17.0",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"48501.0",
+				"band":"J",
+				"magnitude":"17.0",
+				"source":"2"
 			}
 		],
 		"spectra":[

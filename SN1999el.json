@@ -28,27 +28,31 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"5"
+			},
+			{
 				"name":"IAUC 7288",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07200/07288.html#Item1",
-				"alias":"5"
+				"alias":"6"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"6",
+				"alias":"7",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"7"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"IIn",
-				"source":"4,5,6"
+				"source":"4,6,7"
+			},
+			{
+				"value":"II",
+				"source":"5"
 			}
 		],
 		"comovingdist":[
@@ -60,7 +64,7 @@
 		"dec":[
 			{
 				"value":"+66:06:11.5",
-				"source":"4,5,6"
+				"source":"4,5,6,7"
 			}
 		],
 		"discover":[
@@ -71,8 +75,8 @@
 		],
 		"discoverdate":[
 			{
-				"value":"1999/10/21",
-				"source":"5,6"
+				"value":"1999/10/20",
+				"source":"5"
 			}
 		],
 		"discoverer":[
@@ -82,19 +86,27 @@
 			},
 			{
 				"value":"BAO",
-				"source":"5,6"
+				"source":"6,7"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+66:06:20",
 				"source":"4"
+			},
+			{
+				"value":"+66:06:20.3",
+				"source":"5"
 			}
 		],
 		"galra":[
 			{
 				"value":"20:37:14",
 				"source":"4"
+			},
+			{
+				"value":"20:37:14.12",
+				"source":"5"
 			}
 		],
 		"host":[
@@ -112,7 +124,8 @@
 		"lumdist":[
 			{
 				"value":"24",
-				"source":"7"
+				"error":"2",
+				"source":"5"
 			}
 		],
 		"maxabsmag":[
@@ -130,19 +143,19 @@
 		"maxdate":[
 			{
 				"value":"1999/11/08",
-				"source":"7"
+				"source":"5"
 			}
 		],
 		"ra":[
 			{
 				"value":"20:37:17.72",
-				"source":"4,5,6"
+				"source":"4,5,6,7"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0047",
-				"source":"7"
+				"source":"5"
 			}
 		],
 		"photometry":[
@@ -311,7 +324,7 @@
 				"timeunit":"MJD",
 				"time":"51483.5",
 				"magnitude":"14.5",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"timeunit":"MJD",

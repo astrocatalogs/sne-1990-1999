@@ -18,21 +18,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"3"
+			},
+			{
 				"name":"IAUC 7124",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07100/07124.html#Item2",
-				"alias":"3"
+				"alias":"4"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4",
+				"alias":"5",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"5"
 			},
 			{
 				"name":"NED-D",
@@ -68,7 +68,7 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2,3,4"
+				"source":"1,2,3,4,5"
 			}
 		],
 		"comovingdist":[
@@ -92,7 +92,7 @@
 		"dec":[
 			{
 				"value":"-35:50:24.2",
-				"source":"1,2,3,4"
+				"source":"1,2,3,4,5"
 			}
 		],
 		"discover":[
@@ -114,19 +114,27 @@
 			},
 			{
 				"value":"The Mount Stromlo Abell Cluster SN Search",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"galdec":[
 			{
 				"value":"-35:50:24",
 				"source":"2"
+			},
+			{
+				"value":"-35:50:24.0",
+				"source":"3"
 			}
 		],
 		"galra":[
 			{
 				"value":"06:27:26",
 				"source":"2"
+			},
+			{
+				"value":"06:27:26.00",
+				"source":"3"
 			}
 		],
 		"host":[
@@ -140,7 +148,7 @@
 			},
 			{
 				"value":"PGC 643983",
-				"source":"5"
+				"source":"3"
 			}
 		],
 		"hvel":[
@@ -169,33 +177,33 @@
 		],
 		"maxdate":[
 			{
-				"value":"2016/01/03",
+				"value":"1999/03/03",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"06:27:26.37",
-				"source":"1,2,3,4"
+				"source":"1,2,3,4,5"
 			}
 		],
 		"redshift":[
 			{
-				"value":"0.055",
-				"source":"3,4"
+				"value":"0.054",
+				"source":"3"
 			},
 			{
-				"value":"0.054",
-				"source":"5"
+				"value":"0.055",
+				"source":"4,5"
 			}
 		],
 		"photometry":[
 			{
 				"timeunit":"MJD",
-				"time":"57390.5",
+				"time":"51240.0",
 				"band":"V",
 				"magnitude":"18.2",
-				"source":"5"
+				"source":"3"
 			}
 		]
 	}

@@ -12,21 +12,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 5063",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05000/05063.html",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			},
 			{
 				"name":"WISeREP",
@@ -65,12 +65,12 @@
 				"source":"1"
 			},
 			{
-				"value":"Ia",
-				"source":"2,3"
+				"value":"Ic",
+				"source":"2,6,5,7,8"
 			},
 			{
-				"value":"Ic",
-				"source":"6,5,7,8"
+				"value":"Ia",
+				"source":"3,4"
 			}
 		],
 		"comovingdist":[
@@ -82,7 +82,7 @@
 		"dec":[
 			{
 				"value":"+12:18:20.1",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"discover":[
@@ -104,19 +104,27 @@
 			},
 			{
 				"value":"Saul Perlmutter",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+12:19:22",
 				"source":"1"
+			},
+			{
+				"value":"+12:19:21.9",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"23:04:57",
 				"source":"1"
+			},
+			{
+				"value":"23:04:56.67",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -134,31 +142,32 @@
 		"lumdist":[
 			{
 				"value":"31",
-				"source":"4"
+				"error":"1",
+				"source":"2"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-16",
+				"value":"-17",
 				"source":"D"
 			}
 		],
 		"maxappmag":[
 			{
-				"value":"16",
+				"value":"15.9",
 				"source":"D"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"1990/07/26",
+				"value":"1990/07/27",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"23:04:54.92",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"redshift":[
@@ -172,7 +181,14 @@
 				"timeunit":"MJD",
 				"time":"48098.5",
 				"magnitude":"16.0",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"48099.0",
+				"band":"R",
+				"magnitude":"15.9",
+				"source":"2"
 			}
 		],
 		"spectra":[

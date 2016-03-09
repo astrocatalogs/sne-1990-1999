@@ -12,27 +12,27 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 6889",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06800/06889.html",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ic",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"comovingdist":[
@@ -44,7 +44,7 @@
 		"dec":[
 			{
 				"value":"-55:08:18.4",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"discover":[
@@ -66,19 +66,27 @@
 			},
 			{
 				"value":"Marina Wischnjewsky",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"-55:08:15",
 				"source":"1"
+			},
+			{
+				"value":"-55:08:13.6",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"19:57:22",
 				"source":"1"
+			},
+			{
+				"value":"19:57:22.18",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -96,7 +104,8 @@
 		"lumdist":[
 			{
 				"value":"63",
-				"source":"4"
+				"error":"12",
+				"source":"2"
 			}
 		],
 		"maxabsmag":[
@@ -113,14 +122,14 @@
 		],
 		"maxdate":[
 			{
-				"value":"1998/04/21",
+				"value":"1998/04/22",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"19:57:22.55",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"redshift":[
@@ -134,7 +143,14 @@
 				"timeunit":"MJD",
 				"time":"50924.5",
 				"magnitude":"18.0",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"50925.0",
+				"band":"B",
+				"magnitude":"18.0",
+				"source":"2"
 			}
 		]
 	}

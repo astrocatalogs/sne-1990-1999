@@ -12,21 +12,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 6535",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06500/06535.html#Item1",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			},
 			{
 				"name":"WISeREP",
@@ -44,7 +44,11 @@
 		"claimedtype":[
 			{
 				"value":"Ic",
-				"source":"1,2,3,6,5"
+				"source":"1,2,3,4,6,5"
+			},
+			{
+				"value":"Ib/c",
+				"source":"2"
 			}
 		],
 		"comovingdist":[
@@ -56,11 +60,11 @@
 		"dec":[
 			{
 				"value":"-17:52:23.5",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"-17:51:55.7",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"discover":[
@@ -82,19 +86,27 @@
 			},
 			{
 				"value":"Alessandro Gabrijelcic",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"-17:52:37",
 				"source":"1"
+			},
+			{
+				"value":"-17:52:33.6",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"05:53:00",
 				"source":"1"
+			},
+			{
+				"value":"05:53:00.10",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -112,7 +124,8 @@
 		"lumdist":[
 			{
 				"value":"36",
-				"source":"4"
+				"error":"7",
+				"source":"2"
 			}
 		],
 		"maxabsmag":[
@@ -129,18 +142,18 @@
 		],
 		"maxdate":[
 			{
-				"value":"2016/01/03",
+				"value":"1997/01/13",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"05:53:02.97",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"05:53:01.95",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"redshift":[
@@ -152,10 +165,10 @@
 		"photometry":[
 			{
 				"timeunit":"MJD",
-				"time":"57390.5",
+				"time":"50461.0",
 				"band":"R",
 				"magnitude":"16.6",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"spectra":[

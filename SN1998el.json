@@ -18,21 +18,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"3"
+			},
+			{
 				"name":"IAUC 7039",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07000/07039.html",
-				"alias":"3"
+				"alias":"4"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4",
+				"alias":"5",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"5"
 			}
 		],
 		"claimedtype":[
@@ -50,7 +50,7 @@
 		"dec":[
 			{
 				"value":"-41:33:06.6",
-				"source":"1,2,3,4"
+				"source":"1,2,3,4,5"
 			}
 		],
 		"discover":[
@@ -72,19 +72,27 @@
 			},
 			{
 				"value":"Mount Stromlo",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"galdec":[
 			{
 				"value":"-41:33:06",
 				"source":"2"
+			},
+			{
+				"value":"-41:33:06.0",
+				"source":"3"
 			}
 		],
 		"galra":[
 			{
 				"value":"03:21:01",
 				"source":"2"
+			},
+			{
+				"value":"03:21:01.00",
+				"source":"3"
 			}
 		],
 		"host":[
@@ -98,7 +106,7 @@
 			},
 			{
 				"value":"PGC 110984",
-				"source":"5"
+				"source":"3"
 			}
 		],
 		"hvel":[
@@ -121,26 +129,26 @@
 		],
 		"maxappmag":[
 			{
-				"value":"20.5",
+				"value":"19.6",
 				"source":"D"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"1998/10/21",
+				"value":"1998/10/22",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"03:21:01.21",
-				"source":"1,2,3,4"
+				"source":"1,2,3,4,5"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.1",
-				"source":"5"
+				"source":"3"
 			}
 		],
 		"photometry":[
@@ -148,7 +156,14 @@
 				"timeunit":"MJD",
 				"time":"51107.5",
 				"magnitude":"20.5",
-				"source":"3,4"
+				"source":"4,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51108.0",
+				"band":"V",
+				"magnitude":"19.6",
+				"source":"3"
 			}
 		]
 	}

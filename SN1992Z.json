@@ -12,33 +12,37 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 5533",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05500/05533.html",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"dec":[
 			{
+				"value":"-30:00:56.0",
+				"source":"2"
+			},
+			{
 				"value":"-30:00:43.0",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"discover":[
@@ -60,19 +64,27 @@
 			},
 			{
 				"value":"Roberto Antezana",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"-30:01",
 				"source":"1"
+			},
+			{
+				"value":"-30:01:00.0",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"13:28:54",
 				"source":"1"
+			},
+			{
+				"value":"13:28:54.00",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -82,7 +94,7 @@
 			},
 			{
 				"value":"PGC 722509",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"maxappmag":[
@@ -93,14 +105,18 @@
 		],
 		"maxdate":[
 			{
-				"value":"1992/05/28",
+				"value":"1992/05/29",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
+				"value":"13:28:54.23",
+				"source":"2"
+			},
+			{
 				"value":"13:28:57.3",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"photometry":[
@@ -108,7 +124,13 @@
 				"timeunit":"MJD",
 				"time":"48770.5",
 				"magnitude":"19.0",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"48771.0",
+				"magnitude":"19.0",
+				"source":"2"
 			}
 		]
 	}

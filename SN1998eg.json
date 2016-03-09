@@ -52,21 +52,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"9"
+			},
+			{
 				"name":"IAUC 7033",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07000/07033.html",
-				"alias":"9"
+				"alias":"10"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"10",
+				"alias":"11",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"11"
 			},
 			{
 				"name":"NED-D",
@@ -180,7 +180,7 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"8,9,10,29,28,1,4"
+				"source":"8,9,10,11,29,28,1,4"
 			}
 		],
 		"comovingdist":[
@@ -248,11 +248,11 @@
 		"dec":[
 			{
 				"value":"+08:36:20.6",
-				"source":"8"
+				"source":"8,9"
 			},
 			{
 				"value":"+08:36:21.3",
-				"source":"9,10"
+				"source":"10,11"
 			}
 		],
 		"discoverdate":[
@@ -268,7 +268,7 @@
 			},
 			{
 				"value":"Tom Boles",
-				"source":"9,10"
+				"source":"10,11"
 			}
 		],
 		"ebv":[
@@ -281,12 +281,20 @@
 			{
 				"value":"+08:36:45",
 				"source":"8"
+			},
+			{
+				"value":"+08:36:44.8",
+				"source":"9"
 			}
 		],
 		"galra":[
 			{
 				"value":"22:39:32",
 				"source":"8"
+			},
+			{
+				"value":"22:39:32.01",
+				"source":"9"
 			}
 		],
 		"host":[
@@ -312,7 +320,8 @@
 		"lumdist":[
 			{
 				"value":"98",
-				"source":"11"
+				"error":"10",
+				"source":"9"
 			}
 		],
 		"max":[
@@ -336,17 +345,17 @@
 		"maxdate":[
 			{
 				"value":"1998/10/24",
-				"source":"11"
+				"source":"9"
 			}
 		],
 		"ra":[
 			{
 				"value":"22:39:30.29",
-				"source":"8"
+				"source":"8,9"
 			},
 			{
 				"value":"22:39:30.26",
-				"source":"9,10"
+				"source":"10,11"
 			}
 		],
 		"redshift":[
@@ -360,7 +369,7 @@
 				"timeunit":"MJD",
 				"time":"51104.5",
 				"magnitude":"16.0",
-				"source":"9,10"
+				"source":"10,11"
 			},
 			{
 				"timeunit":"MJD",

@@ -18,21 +18,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"3"
+			},
+			{
 				"name":"IAUC 5033",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05000/05033.html",
-				"alias":"3"
+				"alias":"4"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4",
+				"alias":"5",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"5"
 			},
 			{
 				"name":"WISeREP",
@@ -68,7 +68,7 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,4,1,6,7,8,9"
+				"source":"2,3,4,5,1,6,7,8,9"
 			}
 		],
 		"comovingdist":[
@@ -83,8 +83,12 @@
 				"source":"2"
 			},
 			{
+				"value":"-05:02:35.9",
+				"source":"3"
+			},
+			{
 				"value":"-05:02:36.0",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"discover":[
@@ -106,7 +110,7 @@
 			},
 			{
 				"value":"Robert Evans",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"ebv":[
@@ -119,12 +123,20 @@
 			{
 				"value":"-05:02:39",
 				"source":"2"
+			},
+			{
+				"value":"-05:02:36.9",
+				"source":"3"
 			}
 		],
 		"galra":[
 			{
 				"value":"14:11:29",
 				"source":"2"
+			},
+			{
+				"value":"14:11:29.39",
+				"source":"3"
 			}
 		],
 		"host":[
@@ -142,7 +154,8 @@
 		"lumdist":[
 			{
 				"value":"38",
-				"source":"5"
+				"error":"14",
+				"source":"3"
 			}
 		],
 		"maxabsmag":[
@@ -160,17 +173,17 @@
 		"maxdate":[
 			{
 				"value":"1990/06/15",
-				"source":"5"
+				"source":"3,D"
 			}
 		],
 		"ra":[
 			{
 				"value":"14:11:29.22",
-				"source":"2"
+				"source":"2,3"
 			},
 			{
 				"value":"14:11:29.30",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"redshift":[
@@ -184,7 +197,13 @@
 				"timeunit":"MJD",
 				"time":"48056.5",
 				"magnitude":"13.5",
-				"source":"3,4"
+				"source":"4,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"48057.0",
+				"magnitude":"13.5",
+				"source":"3"
 			}
 		],
 		"spectra":[

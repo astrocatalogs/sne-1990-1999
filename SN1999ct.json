@@ -12,27 +12,27 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 7210",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07200/07210.html#Item2",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1"
+				"source":"1,2"
 			}
 		],
 		"comovingdist":[
@@ -44,7 +44,7 @@
 		"dec":[
 			{
 				"value":"+46:15:52.7",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"discover":[
@@ -66,19 +66,27 @@
 			},
 			{
 				"value":"Wise Observatory",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+46:15:52",
 				"source":"1"
+			},
+			{
+				"value":"+46:15:52.0",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"13:13:04",
 				"source":"1"
+			},
+			{
+				"value":"13:13:04.00",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -113,20 +121,20 @@
 		],
 		"maxdate":[
 			{
-				"value":"1999/06/12",
+				"value":"1999/06/13",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"13:13:04.56",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.183",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"photometry":[
@@ -134,7 +142,14 @@
 				"timeunit":"MJD",
 				"time":"51341.5",
 				"magnitude":"20.8",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51342.0",
+				"band":"R",
+				"magnitude":"20.8",
+				"source":"2"
 			}
 		]
 	}

@@ -24,21 +24,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			},
+			{
 				"name":"IAUC 5570",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05500/05570.html",
-				"alias":"4"
+				"alias":"5"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"5",
+				"alias":"6",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"6"
 			},
 			{
 				"name":"NED-D",
@@ -84,7 +84,7 @@
 			},
 			{
 				"value":"II",
-				"source":"4,5"
+				"source":"4,5,6"
 			}
 		],
 		"comovingdist":[
@@ -103,8 +103,12 @@
 		],
 		"dec":[
 			{
+				"value":"-04:39:00.6",
+				"source":"4"
+			},
+			{
 				"value":"-04:39:01.0",
-				"source":"4,5"
+				"source":"5,6"
 			}
 		],
 		"discover":[
@@ -126,29 +130,37 @@
 			},
 			{
 				"value":"Roberto Antezana",
-				"source":"4,5"
+				"source":"5,6"
 			}
 		],
 		"galdec":[
 			{
 				"value":"-04:37:24",
 				"source":"3"
+			},
+			{
+				"value":"-04:38:59.2",
+				"source":"4"
 			}
 		],
 		"galra":[
 			{
 				"value":"01:25:08",
 				"source":"3"
+			},
+			{
+				"value":"01:25:04.32",
+				"source":"4"
 			}
 		],
 		"host":[
 			{
 				"value":"PGC 5247",
-				"source":"3,6"
+				"source":"3,4"
 			},
 			{
 				"value":"MCG -01-04-38",
-				"source":"4,5"
+				"source":"5,6"
 			}
 		],
 		"hvel":[
@@ -160,7 +172,8 @@
 		"lumdist":[
 			{
 				"value":"171",
-				"source":"6"
+				"error":"8",
+				"source":"4"
 			}
 		],
 		"maxabsmag":[
@@ -183,18 +196,22 @@
 		],
 		"ra":[
 			{
+				"value":"01:25:03.03",
+				"source":"4"
+			},
+			{
 				"value":"01:25:02.7",
-				"source":"4,5"
+				"source":"5,6"
 			}
 		],
 		"redshift":[
 			{
-				"value":"0.048",
-				"source":"4,5"
+				"value":"0.049",
+				"source":"4"
 			},
 			{
-				"value":"0.049",
-				"source":"6"
+				"value":"0.048",
+				"source":"5,6"
 			}
 		],
 		"photometry":[
@@ -202,7 +219,7 @@
 				"timeunit":"MJD",
 				"time":"48828.5",
 				"magnitude":"18.5",
-				"source":"4,5"
+				"source":"5,6"
 			},
 			{
 				"timeunit":"MJD",

@@ -12,21 +12,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 5087",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05000/05087.html",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			},
 			{
 				"name":"WISeREP",
@@ -56,7 +56,11 @@
 		"claimedtype":[
 			{
 				"value":"Ic",
-				"source":"1,2,3,6,5,7"
+				"source":"1,2,3,4,6,5,7"
+			},
+			{
+				"value":"Ib/c",
+				"source":"2"
 			},
 			{
 				"value":"Ia",
@@ -75,8 +79,12 @@
 		],
 		"dec":[
 			{
+				"value":"+29:01:48.3",
+				"source":"2"
+			},
+			{
 				"value":"+29:01:09.0",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"discover":[
@@ -98,19 +106,27 @@
 			},
 			{
 				"value":"Saul Perlmutter",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+29:01:57",
 				"source":"1"
+			},
+			{
+				"value":"+29:01:56.3",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"00:52:58",
 				"source":"1"
+			},
+			{
+				"value":"00:52:58.31",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -132,7 +148,8 @@
 		"lumdist":[
 			{
 				"value":"47",
-				"source":"4"
+				"error":"8",
+				"source":"2"
 			}
 		],
 		"maxabsmag":[
@@ -149,20 +166,24 @@
 		],
 		"maxdate":[
 			{
-				"value":"1990/09/03",
+				"value":"1990/09/04",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
+				"value":"00:52:59.22",
+				"source":"2"
+			},
+			{
 				"value":"00:52:54.9",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.017",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"photometry":[
@@ -170,7 +191,13 @@
 				"timeunit":"MJD",
 				"time":"48137.5",
 				"magnitude":"17.0",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"48138.0",
+				"magnitude":"17.0",
+				"source":"2"
 			}
 		],
 		"spectra":[

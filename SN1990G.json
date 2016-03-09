@@ -18,21 +18,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"3"
+			},
+			{
 				"name":"IAUC 4982",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/04900/04982.html",
-				"alias":"3"
+				"alias":"4"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4",
+				"alias":"5",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"5"
 			},
 			{
 				"name":"WISeREP",
@@ -62,7 +62,7 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,4,1,8"
+				"source":"2,3,4,5,1,8"
 			},
 			{
 				"value":"Ic",
@@ -82,11 +82,11 @@
 		"dec":[
 			{
 				"value":"+34:20:51.6",
-				"source":"2"
+				"source":"2,3"
 			},
 			{
 				"value":"+34:20:51.0",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"discover":[
@@ -108,7 +108,7 @@
 			},
 			{
 				"value":"Jean Mueller",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"ebv":[
@@ -121,12 +121,20 @@
 			{
 				"value":"+34:20:39",
 				"source":"2"
+			},
+			{
+				"value":"+34:20:38.9",
+				"source":"3"
 			}
 		],
 		"galra":[
 			{
 				"value":"11:21:04",
 				"source":"2"
+			},
+			{
+				"value":"11:21:03.89",
+				"source":"3"
 			}
 		],
 		"host":[
@@ -148,7 +156,8 @@
 		"lumdist":[
 			{
 				"value":"122",
-				"source":"5"
+				"error":"18",
+				"source":"3"
 			}
 		],
 		"maxabsmag":[
@@ -172,17 +181,17 @@
 		"ra":[
 			{
 				"value":"11:21:01.19",
-				"source":"2"
+				"source":"2,3"
 			},
 			{
 				"value":"11:21:03.9",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.036",
-				"source":"5"
+				"source":"3"
 			}
 		],
 		"photometry":[
@@ -190,7 +199,14 @@
 				"timeunit":"MJD",
 				"time":"47968.5",
 				"magnitude":"15.0",
-				"source":"3,4"
+				"source":"4,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"47969.0",
+				"band":"R",
+				"magnitude":"16.3",
+				"source":"3"
 			}
 		],
 		"spectra":[

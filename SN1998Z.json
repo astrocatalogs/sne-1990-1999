@@ -18,27 +18,27 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"3"
+			},
+			{
 				"name":"IAUC 6850",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06800/06850.html",
-				"alias":"3"
+				"alias":"4"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4",
+				"alias":"5",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"5"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2,3,4"
+				"source":"1,2,3,4,5"
 			}
 		],
 		"comovingdist":[
@@ -50,7 +50,7 @@
 		"dec":[
 			{
 				"value":"-31:21:38.1",
-				"source":"1,2,3,4"
+				"source":"1,2,3,4,5"
 			}
 		],
 		"discover":[
@@ -72,19 +72,27 @@
 			},
 			{
 				"value":"Mount Stromlo",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"galdec":[
 			{
 				"value":"-31:21:38",
 				"source":"2"
+			},
+			{
+				"value":"-31:21:38.0",
+				"source":"3"
 			}
 		],
 		"galra":[
 			{
 				"value":"05:24:58",
 				"source":"2"
+			},
+			{
+				"value":"05:24:58.00",
+				"source":"3"
 			}
 		],
 		"host":[
@@ -98,7 +106,7 @@
 			},
 			{
 				"value":"PGC 2799877",
-				"source":"5"
+				"source":"3"
 			}
 		],
 		"hvel":[
@@ -127,20 +135,20 @@
 		],
 		"maxdate":[
 			{
-				"value":"1998/03/15",
+				"value":"1998/03/16",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"05:24:58.78",
-				"source":"1,2,3,4"
+				"source":"1,2,3,4,5"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.039",
-				"source":"5"
+				"source":"3"
 			}
 		],
 		"photometry":[
@@ -148,7 +156,14 @@
 				"timeunit":"MJD",
 				"time":"50887.5",
 				"magnitude":"19.6",
-				"source":"3,4"
+				"source":"4,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"50888.0",
+				"band":"V",
+				"magnitude":"19.6",
+				"source":"3"
 			}
 		]
 	}

@@ -18,21 +18,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"3"
+			},
+			{
 				"name":"IAUC 6195",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06100/06195.html",
-				"alias":"3"
+				"alias":"4"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4",
+				"alias":"5",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"5"
 			},
 			{
 				"name":"WISeREP",
@@ -50,7 +50,7 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,4,1,6,7"
+				"source":"2,3,4,5,1,6,7"
 			}
 		],
 		"comovingdist":[
@@ -62,7 +62,7 @@
 		"dec":[
 			{
 				"value":"-09:29:44.4",
-				"source":"2,3,4"
+				"source":"2,3,4,5"
 			}
 		],
 		"discover":[
@@ -84,7 +84,7 @@
 			},
 			{
 				"value":"Christian Pollas",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"ebv":[
@@ -97,12 +97,20 @@
 			{
 				"value":"-09:29:44",
 				"source":"2"
+			},
+			{
+				"value":"-09:29:44.0",
+				"source":"3"
 			}
 		],
 		"galra":[
 			{
 				"value":"22:27:12",
 				"source":"2"
+			},
+			{
+				"value":"22:27:12.00",
+				"source":"3"
 			}
 		],
 		"host":[
@@ -116,7 +124,7 @@
 			},
 			{
 				"value":"PGC 990332",
-				"source":"5"
+				"source":"3"
 			}
 		],
 		"hvel":[
@@ -145,14 +153,14 @@
 		],
 		"maxdate":[
 			{
-				"value":"1995/07/24",
+				"value":"1995/07/25",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"22:27:12.41",
-				"source":"2,3,4"
+				"source":"2,3,4,5"
 			}
 		],
 		"redshift":[
@@ -166,7 +174,14 @@
 				"timeunit":"MJD",
 				"time":"49922.5",
 				"magnitude":"18.0",
-				"source":"3,4"
+				"source":"4,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"49923.0",
+				"band":"V",
+				"magnitude":"18.0",
+				"source":"3"
 			}
 		],
 		"spectra":[

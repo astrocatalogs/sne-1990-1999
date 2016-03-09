@@ -52,21 +52,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"10"
+			},
+			{
 				"name":"IAUC 6042",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06000/06042.html",
-				"alias":"10"
+				"alias":"11"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"11",
+				"alias":"12",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"12"
 			}
 		],
 		"claimedtype":[
@@ -75,8 +75,12 @@
 				"source":"9"
 			},
 			{
+				"value":"II",
+				"source":"10"
+			},
+			{
 				"value":"II P",
-				"source":"10,11"
+				"source":"11,12"
 			}
 		],
 		"comovingdist":[
@@ -91,8 +95,12 @@
 				"source":"9"
 			},
 			{
+				"value":"+62:08:32.3",
+				"source":"10"
+			},
+			{
 				"value":"+62:08:32.8",
-				"source":"10,11"
+				"source":"11,12"
 			}
 		],
 		"discoverdate":[
@@ -104,19 +112,27 @@
 		"discoverer":[
 			{
 				"value":"Cortini, Villi",
-				"source":"9,10,11"
+				"source":"9,11,12"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+62:08:14",
 				"source":"9"
+			},
+			{
+				"value":"+62:08:14.3",
+				"source":"10"
 			}
 		],
 		"galra":[
 			{
 				"value":"12:02:12",
 				"source":"9"
+			},
+			{
+				"value":"12:02:12.21",
+				"source":"10"
 			}
 		],
 		"host":[
@@ -134,7 +150,8 @@
 		"lumdist":[
 			{
 				"value":"26",
-				"source":"12"
+				"error":"3",
+				"source":"10"
 			}
 		],
 		"max":[
@@ -158,23 +175,23 @@
 		"maxdate":[
 			{
 				"value":"1994/08/13",
-				"source":"12"
+				"source":"10"
 			}
 		],
 		"ra":[
 			{
 				"value":"12:02:10.89",
-				"source":"9"
+				"source":"9,10"
 			},
 			{
 				"value":"12:02:10.93",
-				"source":"10,11"
+				"source":"11,12"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0041",
-				"source":"12"
+				"source":"10"
 			}
 		],
 		"photometry":[
@@ -210,7 +227,7 @@
 				"timeunit":"MJD",
 				"time":"49561.5",
 				"magnitude":"13.5",
-				"source":"10,11"
+				"source":"11,12"
 			},
 			{
 				"timeunit":"MJD",

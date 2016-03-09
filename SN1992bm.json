@@ -12,27 +12,27 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 5672",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05600/05672.html",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"comovingdist":[
@@ -44,11 +44,11 @@
 		"dec":[
 			{
 				"value":"+50:28:09.4",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"+50:28:09.3",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"discover":[
@@ -70,19 +70,27 @@
 			},
 			{
 				"value":"Jean Mueller",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+50:28:09",
 				"source":"1"
+			},
+			{
+				"value":"+50:28:09.0",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"07:33:18",
 				"source":"1"
+			},
+			{
+				"value":"07:33:18.00",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -92,7 +100,7 @@
 			},
 			{
 				"value":"PGC 2374060",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"hvel":[
@@ -121,20 +129,20 @@
 		],
 		"maxdate":[
 			{
-				"value":"1992/11/24",
+				"value":"1992/11/25",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"07:33:18.88",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.05",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"photometry":[
@@ -142,7 +150,14 @@
 				"timeunit":"MJD",
 				"time":"48950.5",
 				"magnitude":"18.0",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"48951.0",
+				"band":"B",
+				"magnitude":"18.0",
+				"source":"2"
 			}
 		]
 	}

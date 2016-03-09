@@ -36,21 +36,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"6"
+			},
+			{
 				"name":"IAUC 5428",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05400/05428.html",
-				"alias":"6"
+				"alias":"7"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"7",
+				"alias":"8",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"8"
 			},
 			{
 				"name":"NED-D",
@@ -128,7 +128,7 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"5,6,7,19,20"
+				"source":"5,6,7,8,19,20"
 			}
 		],
 		"comovingdist":[
@@ -175,8 +175,12 @@
 				"source":"5"
 			},
 			{
+				"value":"-34:57:31.6",
+				"source":"6"
+			},
+			{
 				"value":"-34:57:31.5",
-				"source":"6,7"
+				"source":"7,8"
 			}
 		],
 		"discoverdate":[
@@ -192,19 +196,27 @@
 			},
 			{
 				"value":"Liller, Brown",
-				"source":"6,7"
+				"source":"7,8"
 			}
 		],
 		"galdec":[
 			{
 				"value":"-34:58:33",
 				"source":"5"
+			},
+			{
+				"value":"-34:58:34.2",
+				"source":"6"
 			}
 		],
 		"galra":[
 			{
 				"value":"03:36:27",
 				"source":"5"
+			},
+			{
+				"value":"03:36:27.60",
+				"source":"6"
 			}
 		],
 		"host":[
@@ -222,7 +234,8 @@
 		"lumdist":[
 			{
 				"value":"17.5",
-				"source":"8"
+				"error":"0.6",
+				"source":"6"
 			}
 		],
 		"max":[
@@ -246,23 +259,23 @@
 		"maxdate":[
 			{
 				"value":"1992/01/19",
-				"source":"8"
+				"source":"6"
 			}
 		],
 		"ra":[
 			{
 				"value":"03:36:27.40",
-				"source":"5"
+				"source":"5,6"
 			},
 			{
 				"value":"03:36:27.43",
-				"source":"6,7"
+				"source":"7,8"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0062",
-				"source":"8"
+				"source":"6"
 			}
 		],
 		"photometry":[
@@ -270,7 +283,7 @@
 				"timeunit":"MJD",
 				"time":"48631.5",
 				"magnitude":"12.8",
-				"source":"6,7"
+				"source":"7,8"
 			},
 			{
 				"timeunit":"MJD",

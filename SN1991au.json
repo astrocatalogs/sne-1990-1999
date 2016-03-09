@@ -12,31 +12,31 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 5336",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05300/05336.html",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"II?",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"comovingdist":[
@@ -47,8 +47,12 @@
 		],
 		"dec":[
 			{
+				"value":"+63:30:36.3",
+				"source":"2"
+			},
+			{
 				"value":"+63:29:44.0",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"discover":[
@@ -70,19 +74,27 @@
 			},
 			{
 				"value":"Jean Mueller",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+63:29:47",
 				"source":"1"
+			},
+			{
+				"value":"+63:30:38.3",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"20:41:10",
 				"source":"1"
+			},
+			{
+				"value":"20:41:13.57",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -117,20 +129,24 @@
 		],
 		"maxdate":[
 			{
-				"value":"1991/08/31",
+				"value":"1991/09/01",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
+				"value":"20:41:11.48",
+				"source":"2"
+			},
+			{
 				"value":"20:41:07.7",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0088",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"photometry":[
@@ -138,7 +154,14 @@
 				"timeunit":"MJD",
 				"time":"48499.5",
 				"magnitude":"18.5",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"48500.0",
+				"band":"R",
+				"magnitude":"18.5",
+				"source":"2"
 			}
 		]
 	}

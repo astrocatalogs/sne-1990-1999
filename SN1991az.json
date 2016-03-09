@@ -12,27 +12,27 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 5356",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05300/05356.html",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"comovingdist":[
@@ -43,8 +43,12 @@
 		],
 		"dec":[
 			{
+				"value":"+24:15:49.5",
+				"source":"2"
+			},
+			{
 				"value":"+24:15:27.0",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"discover":[
@@ -66,19 +70,27 @@
 			},
 			{
 				"value":"Jean Mueller",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+24:15:44",
 				"source":"1"
+			},
+			{
+				"value":"+24:15:52.9",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"02:25:16",
 				"source":"1"
+			},
+			{
+				"value":"02:25:16.35",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -87,12 +99,12 @@
 				"source":"1"
 			},
 			{
-				"value":"CGCG 483-035",
-				"source":"2,3"
+				"value":"PGC 9187",
+				"source":"2"
 			},
 			{
-				"value":"PGC 9187",
-				"source":"4"
+				"value":"CGCG 483-035",
+				"source":"3,4"
 			}
 		],
 		"hvel":[
@@ -121,20 +133,24 @@
 		],
 		"maxdate":[
 			{
-				"value":"1991/09/14",
+				"value":"1991/09/15",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
+				"value":"02:25:15.61",
+				"source":"2"
+			},
+			{
 				"value":"02:25:14.5",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.032",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"photometry":[
@@ -142,7 +158,14 @@
 				"timeunit":"MJD",
 				"time":"48513.5",
 				"magnitude":"18.0",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"48514.0",
+				"band":"B",
+				"magnitude":"18.0",
+				"source":"2"
 			}
 		]
 	}

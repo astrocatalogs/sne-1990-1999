@@ -22,21 +22,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			},
+			{
 				"name":"IAUC 6770",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06700/06770.html#Item2",
-				"alias":"4"
+				"alias":"5"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"5",
+				"alias":"6",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"6"
 			},
 			{
 				"name":"WISeREP",
@@ -84,11 +84,11 @@
 		"claimedtype":[
 			{
 				"value":"Ic",
-				"source":"3"
+				"source":"3,4"
 			},
 			{
 				"value":"Ib",
-				"source":"4,5,9,12"
+				"source":"4,5,6,9,12"
 			},
 			{
 				"value":"Ib/c",
@@ -104,7 +104,7 @@
 		"dec":[
 			{
 				"value":"+11:28:45.7",
-				"source":"3,4,5"
+				"source":"3,4,5,6"
 			}
 		],
 		"discover":[
@@ -126,19 +126,27 @@
 			},
 			{
 				"value":"Masakatsu Aoki",
-				"source":"4,5"
+				"source":"5,6"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+11:28:17",
 				"source":"3"
+			},
+			{
+				"value":"+11:28:16.7",
+				"source":"4"
 			}
 		],
 		"galra":[
 			{
 				"value":"11:40:59",
 				"source":"3"
+			},
+			{
+				"value":"11:40:58.78",
+				"source":"4"
 			}
 		],
 		"host":[
@@ -156,7 +164,8 @@
 		"lumdist":[
 			{
 				"value":"16",
-				"source":"6"
+				"error":"2",
+				"source":"4"
 			}
 		],
 		"maxabsmag":[
@@ -180,7 +189,7 @@
 		"ra":[
 			{
 				"value":"11:40:55.90",
-				"source":"3,4,5"
+				"source":"3,4,5,6"
 			}
 		],
 		"redshift":[

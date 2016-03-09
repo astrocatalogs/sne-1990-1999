@@ -24,21 +24,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			},
+			{
 				"name":"IAUC 6805",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06800/06805.html#Item2",
-				"alias":"4"
+				"alias":"5"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"5",
+				"alias":"6",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"6"
 			},
 			{
 				"name":"WISeREP",
@@ -66,7 +66,7 @@
 			},
 			{
 				"value":"II",
-				"source":"4,5"
+				"source":"4,5,6"
 			}
 		],
 		"comovingdist":[
@@ -78,7 +78,7 @@
 		"dec":[
 			{
 				"value":"-23:43:43.1",
-				"source":"3,4,5"
+				"source":"3,4,5,6"
 			}
 		],
 		"discover":[
@@ -100,19 +100,27 @@
 			},
 			{
 				"value":"Perth Astronomical Research Group",
-				"source":"4,5"
+				"source":"5,6"
 			}
 		],
 		"galdec":[
 			{
 				"value":"-23:43:35",
 				"source":"3"
+			},
+			{
+				"value":"-23:43:33.2",
+				"source":"4"
 			}
 		],
 		"galra":[
 			{
 				"value":"11:09:53",
 				"source":"3"
+			},
+			{
+				"value":"11:09:53.39",
+				"source":"4"
 			}
 		],
 		"host":[
@@ -130,7 +138,8 @@
 		"lumdist":[
 			{
 				"value":"29",
-				"source":"6"
+				"error":"5",
+				"source":"4"
 			}
 		],
 		"maxabsmag":[
@@ -154,7 +163,7 @@
 		"ra":[
 			{
 				"value":"11:09:50.33",
-				"source":"3,4,5"
+				"source":"3,4,5,6"
 			}
 		],
 		"redshift":[
@@ -168,7 +177,7 @@
 				"timeunit":"MJD",
 				"time":"50818.5",
 				"magnitude":"17.0",
-				"source":"4,5"
+				"source":"5,6"
 			},
 			{
 				"timeunit":"MJD",

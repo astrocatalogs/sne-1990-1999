@@ -52,21 +52,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"9"
+			},
+			{
 				"name":"IAUC 6993",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06900/06993.html#Item1",
-				"alias":"9"
+				"alias":"10"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"10",
+				"alias":"11",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"11"
 			},
 			{
 				"name":"NED-D",
@@ -126,7 +126,7 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"8,9,10,1,19,20,4"
+				"source":"8,9,10,11,1,19,20,4"
 			}
 		],
 		"comovingdist":[
@@ -158,7 +158,7 @@
 		"dec":[
 			{
 				"value":"-06:06:14.0",
-				"source":"8,9,10"
+				"source":"8,9,10,11"
 			}
 		],
 		"discoverdate":[
@@ -170,7 +170,7 @@
 		"discoverer":[
 			{
 				"value":"LOSS",
-				"source":"8,9,10"
+				"source":"8,10,11"
 			}
 		],
 		"ebv":[
@@ -183,22 +183,30 @@
 			{
 				"value":"-06:05:39",
 				"source":"8"
+			},
+			{
+				"value":"-06:05:38.7",
+				"source":"9"
 			}
 		],
 		"galra":[
 			{
 				"value":"01:26:15",
 				"source":"8"
+			},
+			{
+				"value":"01:26:14.55",
+				"source":"9"
 			}
 		],
 		"host":[
 			{
 				"value":"MCG -01-04-44",
-				"source":"1,8,9,10"
+				"source":"1,8,10,11"
 			},
 			{
 				"value":"PGC 5341",
-				"source":"11"
+				"source":"9"
 			}
 		],
 		"hvel":[
@@ -214,7 +222,8 @@
 		"lumdist":[
 			{
 				"value":"23",
-				"source":"11"
+				"error":"4",
+				"source":"9"
 			}
 		],
 		"max":[
@@ -238,19 +247,19 @@
 		"maxdate":[
 			{
 				"value":"1998/09/04",
-				"source":"11"
+				"source":"9"
 			}
 		],
 		"ra":[
 			{
 				"value":"01:26:13.97",
-				"source":"8,9,10"
+				"source":"8,9,10,11"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0065",
-				"source":"11,1,19,20"
+				"source":"9,1,19,20"
 			}
 		],
 		"photometry":[

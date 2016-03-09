@@ -18,21 +18,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"3"
+			},
+			{
 				"name":"IAUC 5420",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05400/05420.html",
-				"alias":"3"
+				"alias":"4"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4",
+				"alias":"5",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"5"
 			},
 			{
 				"name":"WISeREP",
@@ -66,7 +66,7 @@
 			},
 			{
 				"value":"Ia",
-				"source":"3,4,1,8"
+				"source":"3,4,5,1,8"
 			}
 		],
 		"comovingdist":[
@@ -82,7 +82,7 @@
 			},
 			{
 				"value":"-04:39:49.6",
-				"source":"3,4"
+				"source":"3,4,5"
 			}
 		],
 		"discover":[
@@ -104,7 +104,7 @@
 			},
 			{
 				"value":"Christian Pollas",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"ebv":[
@@ -117,12 +117,20 @@
 			{
 				"value":"-04:39:56",
 				"source":"2"
+			},
+			{
+				"value":"-04:39:56.9",
+				"source":"3"
 			}
 		],
 		"galra":[
 			{
 				"value":"03:41:29",
 				"source":"2"
+			},
+			{
+				"value":"03:41:29.60",
+				"source":"3"
 			}
 		],
 		"host":[
@@ -140,7 +148,8 @@
 		"lumdist":[
 			{
 				"value":"68",
-				"source":"5"
+				"error":"12",
+				"source":"3"
 			}
 		],
 		"maxabsmag":[
@@ -158,17 +167,17 @@
 		"maxdate":[
 			{
 				"value":"1991/11/30",
-				"source":"5"
+				"source":"3"
 			}
 		],
 		"ra":[
 			{
 				"value":"03:41:30.45",
-				"source":"2"
+				"source":"2,3"
 			},
 			{
 				"value":"03:41:30.48",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"redshift":[
@@ -182,7 +191,13 @@
 				"timeunit":"MJD",
 				"time":"48619.5",
 				"magnitude":"18.8",
-				"source":"3,4"
+				"source":"4,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"48620.0",
+				"magnitude":"18.8",
+				"source":"3"
 			}
 		],
 		"spectra":[

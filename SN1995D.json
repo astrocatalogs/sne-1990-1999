@@ -58,21 +58,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"10"
+			},
+			{
 				"name":"IAUC 6134",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06100/06134.html",
-				"alias":"10"
+				"alias":"11"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"11",
+				"alias":"12",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"12"
 			},
 			{
 				"name":"NED-D",
@@ -168,7 +168,7 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"9,10,11,26,25,1,27"
+				"source":"9,10,11,12,26,25,1,27"
 			}
 		],
 		"comovingdist":[
@@ -232,11 +232,11 @@
 		"dec":[
 			{
 				"value":"+05:08:26.6",
-				"source":"9"
+				"source":"9,10"
 			},
 			{
 				"value":"+05:08:26.2",
-				"source":"10,11"
+				"source":"11,12"
 			}
 		],
 		"discoverdate":[
@@ -252,7 +252,7 @@
 			},
 			{
 				"value":"Reiki Kushida",
-				"source":"10,11"
+				"source":"11,12"
 			}
 		],
 		"ebv":[
@@ -265,12 +265,20 @@
 			{
 				"value":"+05:10:00",
 				"source":"9"
+			},
+			{
+				"value":"+05:09:57.1",
+				"source":"10"
 			}
 		],
 		"galra":[
 			{
 				"value":"09:40:54",
 				"source":"9"
+			},
+			{
+				"value":"09:40:53.91",
+				"source":"10"
 			}
 		],
 		"host":[
@@ -288,7 +296,8 @@
 		"lumdist":[
 			{
 				"value":"30",
-				"source":"12"
+				"error":"2",
+				"source":"10"
 			}
 		],
 		"max":[
@@ -312,23 +321,23 @@
 		"maxdate":[
 			{
 				"value":"1995/02/19",
-				"source":"12"
+				"source":"10"
 			}
 		],
 		"ra":[
 			{
 				"value":"09:40:54.79",
-				"source":"9"
+				"source":"9,10"
 			},
 			{
 				"value":"09:40:54.75",
-				"source":"10,11"
+				"source":"11,12"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0066",
-				"source":"12"
+				"source":"10"
 			},
 			{
 				"value":"0.0067",
@@ -340,7 +349,7 @@
 				"timeunit":"MJD",
 				"time":"49757.5",
 				"magnitude":"14.0",
-				"source":"10,11"
+				"source":"11,12"
 			},
 			{
 				"timeunit":"MJD",

@@ -36,21 +36,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"6"
+			},
+			{
 				"name":"IAUC 6005",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06000/06005.html",
-				"alias":"6"
+				"alias":"7"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"7",
+				"alias":"8",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"8"
 			},
 			{
 				"name":"NED-D",
@@ -182,7 +182,7 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"5,6,7,1,28"
+				"source":"5,6,7,8,1,28"
 			}
 		],
 		"comovingdist":[
@@ -290,7 +290,7 @@
 			},
 			{
 				"value":"+29:08:04.2",
-				"source":"6,7"
+				"source":"6,7,8"
 			}
 		],
 		"discoverdate":[
@@ -302,7 +302,7 @@
 		"discoverer":[
 			{
 				"value":"Mitchell",
-				"source":"5,6,7"
+				"source":"5,7,8"
 			}
 		],
 		"ebv":[
@@ -315,12 +315,20 @@
 			{
 				"value":"+29:08:11",
 				"source":"5"
+			},
+			{
+				"value":"+29:08:11.2",
+				"source":"6"
 			}
 		],
 		"galra":[
 			{
 				"value":"12:31:23",
 				"source":"5"
+			},
+			{
+				"value":"12:31:22.89",
+				"source":"6"
 			}
 		],
 		"host":[
@@ -338,7 +346,8 @@
 		"lumdist":[
 			{
 				"value":"64",
-				"source":"8"
+				"error":"4",
+				"source":"6"
 			}
 		],
 		"max":[
@@ -362,23 +371,23 @@
 		"maxdate":[
 			{
 				"value":"1994/06/14",
-				"source":"8"
+				"source":"6"
 			}
 		],
 		"ra":[
 			{
 				"value":"12:31:21.82",
-				"source":"5"
+				"source":"5,6"
 			},
 			{
 				"value":"12:31:21.86",
-				"source":"6,7"
+				"source":"7,8"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0152",
-				"source":"6,7"
+				"source":"7,8"
 			}
 		],
 		"photometry":[
@@ -386,7 +395,7 @@
 				"timeunit":"MJD",
 				"time":"49506.5",
 				"magnitude":"14.5",
-				"source":"6,7"
+				"source":"7,8"
 			},
 			{
 				"timeunit":"MJD",
