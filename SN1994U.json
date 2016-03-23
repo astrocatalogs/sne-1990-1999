@@ -57,6 +57,12 @@
 				"url":"https://www.nhn.ou.edu/~suspect/",
 				"alias":"9",
 				"secondary":true
+			},
+			{
+				"name":"Gómez & López (1998)",
+				"url":"http://adsabs.harvard.edu/abs/1998AJ....115.1096G",
+				"bibcode":"1998AJ....115.1096G",
+				"alias":"10"
 			}
 		],
 		"claimedtype":[
@@ -156,10 +162,22 @@
 				"source":"3"
 			}
 		],
+		"maxabsmag":[
+			{
+				"value":"-18",
+				"source":"D"
+			}
+		],
+		"maxappmag":[
+			{
+				"value":"14",
+				"source":"D"
+			}
+		],
 		"maxdate":[
 			{
 				"value":"1994/06/27",
-				"source":"3"
+				"source":"3,D"
 			}
 		],
 		"ra":[
@@ -45825,7 +45843,7 @@
 						"2.204397104e-15"
 					]
 				],
-				"source":"9"
+				"source":"9,1,0"
 			},
 			{
 				"instrument":"Kast",
