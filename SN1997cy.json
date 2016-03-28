@@ -19,9 +19,9 @@
 				"secondary":true
 			},
 			{
-				"name":"Germany et al. (1999)",
-				"url":"http://adsabs.harvard.edu/abs/1999astro.ph..6096G",
-				"bibcode":"1999astro.ph..6096G",
+				"name":"Germany et al. (2000)",
+				"url":"http://adsabs.harvard.edu/abs/2000ApJ...533..320G",
+				"bibcode":"2000ApJ...533..320G",
 				"alias":"3"
 			},
 			{
@@ -68,16 +68,16 @@
 		],
 		"claimedtype":[
 			{
+				"value":"II",
+				"source":"5,6,7"
+			},
+			{
 				"value":"II P",
 				"source":"1"
 			},
 			{
 				"value":"IIn",
 				"source":"4,8"
-			},
-			{
-				"value":"II",
-				"source":"5,6,7"
 			}
 		],
 		"comovingdist":[
@@ -89,7 +89,8 @@
 		"dec":[
 			{
 				"value":"-61:42:57.5",
-				"source":"1,4,5,6,7"
+				"source":"1,4,5,6,7",
+				"unit":"degrees"
 			}
 		],
 		"discover":[
@@ -117,7 +118,8 @@
 		"galdec":[
 			{
 				"value":"-61:42:57",
-				"source":"4"
+				"source":"4",
+				"unit":"nospace"
 			},
 			{
 				"value":"-61:42:57.0",
@@ -127,7 +129,8 @@
 		"galra":[
 			{
 				"value":"04:32:54",
-				"source":"4"
+				"source":"4",
+				"unit":"nospace"
 			},
 			{
 				"value":"04:32:54.00",
@@ -141,12 +144,6 @@
 			},
 			{
 				"value":"A043254-6142",
-				"source":"4"
-			}
-		],
-		"hvel":[
-			{
-				"value":"19260",
 				"source":"4"
 			}
 		],
@@ -183,17 +180,27 @@
 		"ra":[
 			{
 				"value":"04:32:54.81",
-				"source":"1"
+				"source":"1",
+				"unit":"hours"
 			},
 			{
 				"value":"04:32:54.86",
-				"source":"4,5,6,7"
+				"source":"4,5,6,7",
+				"unit":"nospace"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0642",
 				"source":"6,7"
+			}
+		],
+		"velocity":[
+			{
+				"value":"19260",
+				"source":"4",
+				"kind":"host",
+				"unit":"km/s"
 			}
 		],
 		"photometry":[

@@ -28,160 +28,153 @@
 				"alias":"4"
 			},
 			{
-				"name":"Jha et al. (2005)",
-				"url":"http://adsabs.harvard.edu/abs/2005astro.ph..9234J",
-				"bibcode":"2005astro.ph..9234J",
-				"alias":"5"
-			},
-			{
 				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"6",
+				"alias":"5",
 				"secondary":true
 			},
 			{
 				"name":"Lennarz, Altmann, & Wiebusch (2012)",
 				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"7"
+				"alias":"6"
 			},
 			{
 				"name":"IAUC 6815",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06800/06815.html#Item1",
-				"alias":"8"
+				"alias":"7"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"9",
+				"alias":"8",
 				"secondary":true
 			},
 			{
 				"name":"NED-D",
 				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"10",
+				"alias":"9",
 				"secondary":true
 			},
 			{
 				"name":"Takanashi, Doi, & Yasuda (2008)",
 				"url":"http://adsabs.harvard.edu/abs/2008MNRAS.389.1577T",
 				"bibcode":"2008MNRAS.389.1577T",
-				"alias":"11"
+				"alias":"10"
 			},
 			{
 				"name":"Prieto, Rest, & Suntzeff (2006)",
 				"url":"http://adsabs.harvard.edu/abs/2006ApJ...647..501P",
 				"bibcode":"2006ApJ...647..501P",
-				"alias":"12"
+				"alias":"11"
 			},
 			{
 				"name":"Jha, Riess, & Kirshner (2007)",
 				"url":"http://adsabs.harvard.edu/abs/2007ApJ...659..122J",
 				"bibcode":"2007ApJ...659..122J",
-				"alias":"13"
+				"alias":"12"
 			},
 			{
 				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"14",
+				"alias":"13",
 				"secondary":true
 			},
 			{
 				"name":"Blondin et al. (2012)",
 				"url":"http://adsabs.harvard.edu/abs/2012AJ....143..126B",
 				"bibcode":"2012AJ....143..126B",
-				"alias":"15"
+				"alias":"14"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"6,7,8,9,14"
+				"source":"5,6,7,8,13"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"18.2",
-				"source":"11,10"
+				"source":"10,9"
 			},
 			{
 				"value":"53.6",
-				"source":"12,10"
+				"source":"11,9"
 			},
 			{
 				"value":"64.2",
-				"source":"13,10"
+				"source":"12,9"
 			}
 		],
 		"dec":[
 			{
 				"value":"+34:44:54.3",
-				"source":"6,7"
+				"source":"5,6",
+				"unit":"nospace"
 			},
 			{
 				"value":"+34:44:54.37",
-				"source":"8,9"
+				"source":"7,8",
+				"unit":"degrees"
 			}
 		],
 		"discover":[
 			{
 				"value":"1998/1/28",
-				"source":"6"
+				"source":"5"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1998/01/28",
-				"source":"7,8,9"
+				"source":"6,7,8"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Qiu,Qiao,Li,Hu (BAO)",
-				"source":"6"
+				"source":"5"
 			},
 			{
 				"value":"BAO Supernova Survey",
-				"source":"8,9"
+				"source":"7,8"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+34:45:29",
-				"source":"6"
+				"source":"5",
+				"unit":"nospace"
 			},
 			{
 				"value":"+34:45:28.9",
-				"source":"7"
+				"source":"6"
 			}
 		],
 		"galra":[
 			{
 				"value":"14:03:01",
-				"source":"6"
+				"source":"5",
+				"unit":"nospace"
 			},
 			{
 				"value":"14:03:01.07",
-				"source":"7"
+				"source":"6"
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 5440",
-				"source":"6,7,8,9"
-			}
-		],
-		"hvel":[
-			{
-				"value":"3754",
-				"source":"6"
+				"source":"5,6,7,8"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"18",
 				"error":"1",
-				"source":"7"
+				"source":"6",
+				"kind":"host"
 			}
 		],
 		"maxabsmag":[
@@ -205,19 +198,28 @@
 		"maxdate":[
 			{
 				"value":"1998/01/31",
-				"source":"7"
+				"source":"6"
 			}
 		],
 		"ra":[
 			{
 				"value":"14:02:59.28",
-				"source":"6,7,8,9"
+				"source":"5,6,7,8",
+				"unit":"nospace"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0126",
-				"source":"14"
+				"source":"13"
+			}
+		],
+		"velocity":[
+			{
+				"value":"3754",
+				"source":"5",
+				"kind":"host",
+				"unit":"km/s"
 			}
 		],
 		"photometry":[
@@ -332,14 +334,14 @@
 				"time":"50873.54",
 				"band":"B",
 				"magnitude":"18.59",
-				"source":"3,5"
+				"source":"3,2"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"50873.54",
 				"band":"I",
 				"magnitude":"16.57",
-				"source":"3,5"
+				"source":"3,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -354,7 +356,7 @@
 				"time":"50873.54",
 				"band":"R",
 				"magnitude":"16.97",
-				"source":"3,5"
+				"source":"3,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -369,7 +371,7 @@
 				"time":"50873.54",
 				"band":"U",
 				"magnitude":"18.9",
-				"source":"3,5"
+				"source":"3,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -384,7 +386,7 @@
 				"time":"50873.54",
 				"band":"V",
 				"magnitude":"17.43",
-				"source":"3,5"
+				"source":"3,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -413,7 +415,7 @@
 				"time":"50893.43",
 				"band":"B",
 				"magnitude":"19.09",
-				"source":"3,5"
+				"source":"3,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -436,14 +438,14 @@
 				"time":"50893.43",
 				"band":"I",
 				"magnitude":"17.56",
-				"source":"3,5"
+				"source":"3,2"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"50893.43",
 				"band":"R",
 				"magnitude":"17.8",
-				"source":"3,5"
+				"source":"3,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -466,7 +468,7 @@
 				"time":"50893.43",
 				"band":"U",
 				"magnitude":"19.45",
-				"source":"3,5"
+				"source":"3,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -481,14 +483,14 @@
 				"time":"50893.43",
 				"band":"V",
 				"magnitude":"18.16",
-				"source":"3,5"
+				"source":"3,2"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"50925.39",
 				"band":"B",
 				"magnitude":"19.7",
-				"source":"3,5"
+				"source":"3,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -511,7 +513,7 @@
 				"time":"50925.39",
 				"band":"I",
 				"magnitude":"18.8",
-				"source":"3,5"
+				"source":"3,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -526,14 +528,14 @@
 				"time":"50925.39",
 				"band":"R",
 				"magnitude":"19.1",
-				"source":"3,5"
+				"source":"3,2"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"50925.39",
 				"band":"V",
 				"magnitude":"19.08",
-				"source":"3,5"
+				"source":"3,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -548,7 +550,7 @@
 				"time":"50980.3",
 				"band":"B",
 				"magnitude":"20.6",
-				"source":"3,5"
+				"source":"3,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -563,7 +565,7 @@
 				"time":"50980.3",
 				"band":"I",
 				"magnitude":"20.13",
-				"source":"3,5"
+				"source":"3,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -578,7 +580,7 @@
 				"time":"50980.3",
 				"band":"R",
 				"magnitude":"20.69",
-				"source":"3,5"
+				"source":"3,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -593,7 +595,7 @@
 				"time":"50980.3",
 				"band":"V",
 				"magnitude":"20.49",
-				"source":"3,5"
+				"source":"3,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -616,7 +618,7 @@
 				"time":"50987.28",
 				"band":"B",
 				"magnitude":"20.81",
-				"source":"3,5"
+				"source":"3,2"
 			},
 			{
 				"timeunit":"MJD",

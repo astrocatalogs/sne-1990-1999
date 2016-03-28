@@ -13,8 +13,8 @@
 			},
 			{
 				"name":"Elmhamdi et al. (2004)",
-				"url":"http://adsabs.harvard.edu/abs/2004astro.ph..7145E",
-				"bibcode":"2004astro.ph..7145E",
+				"url":"http://adsabs.harvard.edu/abs/2004A&A...426..963E",
+				"bibcode":"2004A&A...426..963E",
 				"alias":"2"
 			},
 			{
@@ -47,15 +47,9 @@
 				"secondary":true
 			},
 			{
-				"name":"Elmhamdi et al. (2004)",
-				"url":"http://adsabs.harvard.edu/abs/2004A&A...426..963E",
-				"bibcode":"2004A&A...426..963E",
-				"alias":"8"
-			},
-			{
 				"name":"SUSPECT",
 				"url":"https://www.nhn.ou.edu/~suspect/",
-				"alias":"9",
+				"alias":"8",
 				"secondary":true
 			}
 		],
@@ -74,11 +68,13 @@
 		"dec":[
 			{
 				"value":"-40:43:36.79",
-				"source":"3"
+				"source":"3",
+				"unit":"nospace"
 			},
 			{
 				"value":"-40:43:36.8",
-				"source":"4,5,6"
+				"source":"4,5,6",
+				"unit":"degrees"
 			}
 		],
 		"discover":[
@@ -106,7 +102,8 @@
 		"galdec":[
 			{
 				"value":"-40:42:54",
-				"source":"3"
+				"source":"3",
+				"unit":"nospace"
 			},
 			{
 				"value":"-40:42:50.6",
@@ -116,7 +113,8 @@
 		"galra":[
 			{
 				"value":"12:44:50",
-				"source":"3"
+				"source":"3",
+				"unit":"nospace"
 			},
 			{
 				"value":"12:44:49.03",
@@ -133,17 +131,12 @@
 				"source":"5,6"
 			}
 		],
-		"hvel":[
-			{
-				"value":"2909",
-				"source":"3"
-			}
-		],
 		"lumdist":[
 			{
 				"value":"46",
 				"error":"17",
-				"source":"4"
+				"source":"4",
+				"kind":"host"
 			}
 		],
 		"maxabsmag":[
@@ -173,17 +166,27 @@
 		"ra":[
 			{
 				"value":"12:44:50.25",
-				"source":"3,4"
+				"source":"3,4",
+				"unit":"nospace"
 			},
 			{
 				"value":"12:44:50.29",
-				"source":"5,6"
+				"source":"5,6",
+				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.009703",
 				"source":"7"
+			}
+		],
+		"velocity":[
+			{
+				"value":"2909",
+				"source":"3",
+				"kind":"host",
+				"unit":"km/s"
 			}
 		],
 		"photometry":[
@@ -15759,7 +15762,7 @@
 						"1.469762327"
 					]
 				],
-				"source":"9,8"
+				"source":"8,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -47917,7 +47920,7 @@
 						"4.371385961e-09"
 					]
 				],
-				"source":"9,8"
+				"source":"8,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -50223,7 +50226,7 @@
 						"5.071993356"
 					]
 				],
-				"source":"9,8"
+				"source":"8,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -52529,7 +52532,7 @@
 						"3.381555322"
 					]
 				],
-				"source":"9,8"
+				"source":"8,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -55931,7 +55934,7 @@
 						"-1.154301945e-07"
 					]
 				],
-				"source":"9,8"
+				"source":"8,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -58237,7 +58240,7 @@
 						"2.787047387"
 					]
 				],
-				"source":"9,8"
+				"source":"8,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -60543,7 +60546,7 @@
 						"1.628521448"
 					]
 				],
-				"source":"9,8"
+				"source":"8,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -63197,7 +63200,7 @@
 						"-4.637364912e-06"
 					]
 				],
-				"source":"9,8"
+				"source":"8,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -87891,7 +87894,7 @@
 						"0.312672674"
 					]
 				],
-				"source":"9,8"
+				"source":"8,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -101717,7 +101720,7 @@
 						"0.1022170782"
 					]
 				],
-				"source":"9,8"
+				"source":"8,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -115667,7 +115670,7 @@
 						"0.193515286"
 					]
 				],
-				"source":"9,8"
+				"source":"8,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -129025,7 +129028,7 @@
 						"0.1389249866"
 					]
 				],
-				"source":"9,8"
+				"source":"8,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -155119,7 +155122,7 @@
 						"0.01341569907"
 					]
 				],
-				"source":"9,8"
+				"source":"8,2"
 			}
 		]
 	}

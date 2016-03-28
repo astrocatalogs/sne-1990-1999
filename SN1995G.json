@@ -13,8 +13,8 @@
 			},
 			{
 				"name":"Pastorello et al. (2002)",
-				"url":"http://adsabs.harvard.edu/abs/2002astro.ph..1483P",
-				"bibcode":"2002astro.ph..1483P",
+				"url":"http://adsabs.harvard.edu/abs/2002MNRAS.333...27P",
+				"bibcode":"2002MNRAS.333...27P",
 				"alias":"2"
 			},
 			{
@@ -47,26 +47,20 @@
 				"secondary":true
 			},
 			{
-				"name":"Pastorello et al. (2002)",
-				"url":"http://adsabs.harvard.edu/abs/2002MNRAS.333...27P",
-				"bibcode":"2002MNRAS.333...27P",
-				"alias":"8"
-			},
-			{
 				"name":"SUSPECT",
 				"url":"https://www.nhn.ou.edu/~suspect/",
-				"alias":"9",
+				"alias":"8",
 				"secondary":true
 			}
 		],
 		"claimedtype":[
 			{
-				"value":"IIn",
-				"source":"3,7"
-			},
-			{
 				"value":"II",
 				"source":"4"
+			},
+			{
+				"value":"IIn",
+				"source":"3,7"
 			},
 			{
 				"value":"II P",
@@ -82,7 +76,8 @@
 		"dec":[
 			{
 				"value":"-05:18:53.8",
-				"source":"3,4,5,6"
+				"source":"3,4,5,6",
+				"unit":"nospace"
 			}
 		],
 		"discover":[
@@ -110,7 +105,8 @@
 		"galdec":[
 			{
 				"value":"-05:19:10",
-				"source":"3"
+				"source":"3",
+				"unit":"nospace"
 			},
 			{
 				"value":"-05:19:10.1",
@@ -120,7 +116,8 @@
 		"galra":[
 			{
 				"value":"04:43:44",
-				"source":"3"
+				"source":"3",
+				"unit":"nospace"
 			},
 			{
 				"value":"04:43:43.97",
@@ -131,12 +128,6 @@
 			{
 				"value":"NGC 1643",
 				"source":"3,4,5,6"
-			}
-		],
-		"hvel":[
-			{
-				"value":"4873",
-				"source":"3"
 			}
 		],
 		"lumdist":[
@@ -172,13 +163,22 @@
 		"ra":[
 			{
 				"value":"04:43:44.22",
-				"source":"3,4,5,6"
+				"source":"3,4,5,6",
+				"unit":"nospace"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.016254",
 				"source":"7"
+			}
+		],
+		"velocity":[
+			{
+				"value":"4873",
+				"source":"3",
+				"kind":"host",
+				"unit":"km/s"
 			}
 		],
 		"photometry":[
@@ -8476,7 +8476,7 @@
 						"9.283610274e-16"
 					]
 				],
-				"source":"9,8"
+				"source":"8,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -15582,7 +15582,7 @@
 						"3.520720239e-16"
 					]
 				],
-				"source":"9,8"
+				"source":"8,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -17608,7 +17608,7 @@
 						"1.26780649e-16"
 					]
 				],
-				"source":"9,8"
+				"source":"8,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -19602,7 +19602,7 @@
 						"4.896789054e-16"
 					]
 				],
-				"source":"9,8"
+				"source":"8,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -28564,7 +28564,7 @@
 						"1.553828795e-18"
 					]
 				],
-				"source":"9,8"
+				"source":"8,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -32566,7 +32566,7 @@
 						"4.725595158e-17"
 					]
 				],
-				"source":"9,8"
+				"source":"8,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -40524,7 +40524,7 @@
 						"2.460506635e-17"
 					]
 				],
-				"source":"9,8"
+				"source":"8,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -47710,7 +47710,7 @@
 						"5.109906249e-17"
 					]
 				],
-				"source":"9,8"
+				"source":"8,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -63304,7 +63304,7 @@
 						"2.696279083e-17"
 					]
 				],
-				"source":"9,8"
+				"source":"8,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -71278,7 +71278,7 @@
 						"2.8380408e-17"
 					]
 				],
-				"source":"9,8"
+				"source":"8,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -79464,7 +79464,7 @@
 						"1.139117171e-16"
 					]
 				],
-				"source":"9,8"
+				"source":"8,2"
 			},
 			{
 				"timeunit":"MJD",
@@ -87646,7 +87646,7 @@
 						"6.620059453e-17"
 					]
 				],
-				"source":"9,8"
+				"source":"8,2"
 			}
 		]
 	}

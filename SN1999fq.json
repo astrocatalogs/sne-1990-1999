@@ -33,7 +33,13 @@
 		"dec":[
 			{
 				"value":"+00:17:49.2",
-				"source":"1,2,3,4"
+				"source":"1",
+				"unit":"nospace"
+			},
+			{
+				"value":"-00:17:49.2",
+				"source":"2,3,4",
+				"unit":"degrees"
 			}
 		],
 		"discover":[
@@ -61,17 +67,19 @@
 		"galdec":[
 			{
 				"value":"+00:17:49",
-				"source":"1"
+				"source":"1",
+				"unit":"nospace"
 			},
 			{
-				"value":"+00:17:49.0",
+				"value":"-00:17:49.0",
 				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"23:25:46",
-				"source":"1"
+				"source":"1",
+				"unit":"nospace"
 			},
 			{
 				"value":"23:25:46.00",
@@ -99,7 +107,8 @@
 		"ra":[
 			{
 				"value":"23:25:46.50",
-				"source":"1,2,3,4"
+				"source":"1,2,3,4",
+				"unit":"nospace"
 			}
 		],
 		"photometry":[

@@ -17,8 +17,8 @@
 			},
 			{
 				"name":"Matheson et al. (2000)",
-				"url":"http://adsabs.harvard.edu/abs/2000astro.ph..1270M",
-				"bibcode":"2000astro.ph..1270M",
+				"url":"http://adsabs.harvard.edu/abs/2000AJ....119.2303M",
+				"bibcode":"2000AJ....119.2303M",
 				"alias":"3"
 			},
 			{
@@ -61,12 +61,6 @@
 				"url":"https://www.nhn.ou.edu/~suspect/",
 				"alias":"10",
 				"secondary":true
-			},
-			{
-				"name":"Matheson et al. (2000)",
-				"url":"http://adsabs.harvard.edu/abs/2000AJ....119.2303M",
-				"bibcode":"2000AJ....119.2303M",
-				"alias":"11"
 			}
 		],
 		"claimedtype":[
@@ -88,7 +82,8 @@
 		"dec":[
 			{
 				"value":"+37:36:44.3",
-				"source":"4,5,6,7"
+				"source":"4,5,6,7",
+				"unit":"nospace"
 			}
 		],
 		"discover":[
@@ -112,7 +107,8 @@
 		"galdec":[
 			{
 				"value":"+37:36:47",
-				"source":"4"
+				"source":"4",
+				"unit":"nospace"
 			},
 			{
 				"value":"+37:36:48.2",
@@ -122,7 +118,8 @@
 		"galra":[
 			{
 				"value":"18:32:07",
-				"source":"4"
+				"source":"4",
+				"unit":"nospace"
 			},
 			{
 				"value":"18:32:06.99",
@@ -135,17 +132,12 @@
 				"source":"4,5,6,7"
 			}
 		],
-		"hvel":[
-			{
-				"value":"7890",
-				"source":"4"
-			}
-		],
 		"lumdist":[
 			{
 				"value":"98",
 				"error":"13",
-				"source":"5"
+				"source":"5",
+				"kind":"host"
 			}
 		],
 		"maxabsmag":[
@@ -175,13 +167,23 @@
 		"ra":[
 			{
 				"value":"18:32:07.10",
-				"source":"4,5,6,7"
+				"source":"4,5,6,7",
+				"unit":"nospace"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.026",
-				"source":"5"
+				"source":"5",
+				"kind":"host"
+			}
+		],
+		"velocity":[
+			{
+				"value":"7890",
+				"source":"4",
+				"kind":"host",
+				"unit":"km/s"
 			}
 		],
 		"photometry":[
@@ -34670,7 +34672,7 @@
 						"0.03465504944"
 					]
 				],
-				"source":"10,1,1"
+				"source":"10,3"
 			},
 			{
 				"instrument":"Kast",
@@ -77918,7 +77920,7 @@
 						"-0.01376486011"
 					]
 				],
-				"source":"10,1,1"
+				"source":"10,3"
 			}
 		]
 	}

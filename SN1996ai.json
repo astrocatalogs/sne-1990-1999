@@ -160,7 +160,8 @@
 		"dec":[
 			{
 				"value":"+37:03:35.4",
-				"source":"7,8,9,10"
+				"source":"7,8,9,10",
+				"unit":"nospace"
 			}
 		],
 		"discoverdate":[
@@ -188,7 +189,8 @@
 		"galdec":[
 			{
 				"value":"+37:03:29",
-				"source":"7"
+				"source":"7",
+				"unit":"nospace"
 			},
 			{
 				"value":"+37:03:33.5",
@@ -198,7 +200,8 @@
 		"galra":[
 			{
 				"value":"13:10:56",
-				"source":"7"
+				"source":"7",
+				"unit":"nospace"
 			},
 			{
 				"value":"13:10:56.29",
@@ -211,21 +214,12 @@
 				"source":"1,7,8,9,10"
 			}
 		],
-		"hvel":[
-			{
-				"value":"947",
-				"source":"1"
-			},
-			{
-				"value":"992",
-				"source":"7"
-			}
-		],
 		"lumdist":[
 			{
 				"value":"14",
 				"error":"1",
-				"source":"8"
+				"source":"8",
+				"kind":"host"
 			}
 		],
 		"max":[
@@ -261,17 +255,23 @@
 		"ra":[
 			{
 				"value":"13:10:58.13",
-				"source":"7,8,9,10"
+				"source":"7,8,9,10",
+				"unit":"nospace"
 			}
 		],
 		"redshift":[
 			{
-				"value":"0.0032",
-				"source":"8"
-			},
+				"value":"0.00316",
+				"source":"1",
+				"kind":"heliocentric"
+			}
+		],
+		"velocity":[
 			{
-				"value":"0.0029",
-				"source":"18"
+				"value":"992",
+				"source":"7",
+				"kind":"host",
+				"unit":"km/s"
 			}
 		],
 		"photometry":[

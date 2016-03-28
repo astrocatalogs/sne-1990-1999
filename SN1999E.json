@@ -43,12 +43,12 @@
 		],
 		"claimedtype":[
 			{
-				"value":"IIn",
-				"source":"1,5"
-			},
-			{
 				"value":"II",
 				"source":"2"
+			},
+			{
+				"value":"IIn",
+				"source":"1,5"
 			},
 			{
 				"value":"IIn P",
@@ -64,7 +64,8 @@
 		"dec":[
 			{
 				"value":"-18:33:13.4",
-				"source":"1,2,3,4"
+				"source":"1,2,3,4",
+				"unit":"nospace"
 			}
 		],
 		"discover":[
@@ -92,7 +93,8 @@
 		"galdec":[
 			{
 				"value":"-18:33:13",
-				"source":"1"
+				"source":"1",
+				"unit":"nospace"
 			},
 			{
 				"value":"-18:33:13.0",
@@ -102,7 +104,8 @@
 		"galra":[
 			{
 				"value":"13:17:16",
-				"source":"1"
+				"source":"1",
+				"unit":"nospace"
 			},
 			{
 				"value":"13:17:16.00",
@@ -121,12 +124,6 @@
 			{
 				"value":"IRAS 13145-1817",
 				"source":"3,4"
-			}
-		],
-		"hvel":[
-			{
-				"value":"7800",
-				"source":"1"
 			}
 		],
 		"lumdist":[
@@ -162,13 +159,22 @@
 		"ra":[
 			{
 				"value":"13:17:16.37",
-				"source":"1,2,3,4"
+				"source":"1,2,3,4",
+				"unit":"nospace"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0258",
 				"source":"5"
+			}
+		],
+		"velocity":[
+			{
+				"value":"7800",
+				"source":"1",
+				"kind":"host",
+				"unit":"km/s"
 			}
 		],
 		"photometry":[
