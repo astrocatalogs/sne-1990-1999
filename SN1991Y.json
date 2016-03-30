@@ -6,89 +6,101 @@
 		],
 		"sources":[
 			{
+				"name":"Aramyan et al. (2013)",
+				"url":"http://adsabs.harvard.edu/abs/2013Ap.....56..153A",
+				"bibcode":"2013Ap.....56..153A",
+				"alias":"1"
+			},
+			{
 				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"1",
+				"alias":"2",
 				"secondary":true
 			},
 			{
 				"name":"Lennarz, Altmann, & Wiebusch (2012)",
 				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"IAUC 5259",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05200/05259.html",
-				"alias":"3"
+				"alias":"4"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4",
+				"alias":"5",
 				"secondary":true
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia?",
+				"source":"1"
 			}
 		],
 		"dec":[
 			{
 				"value":"+57:19:07.0",
-				"source":"2",
+				"source":"3",
 				"unit":"degrees"
 			},
 			{
 				"value":"+57:18:48.0",
-				"source":"3,4",
+				"source":"4,5",
 				"unit":"degrees"
 			}
 		],
 		"discover":[
 			{
 				"value":"1991/4/17",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1991/04/17",
-				"source":"2,3,4"
+				"source":"3,4,5"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Mueller",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"value":"Jean Mueller",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+57:19",
-				"source":"1",
+				"source":"2",
 				"unit":"nospace"
 			},
 			{
 				"value":"+57:19:00.0",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"galra":[
 			{
 				"value":"17:14:36",
-				"source":"1",
+				"source":"2",
 				"unit":"nospace"
 			},
 			{
 				"value":"17:14:36.00",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"host":[
 			{
 				"value":"A171436+5719",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"maxappmag":[
@@ -112,12 +124,12 @@
 		"ra":[
 			{
 				"value":"17:14:36.00",
-				"source":"2",
+				"source":"3",
 				"unit":"hours"
 			},
 			{
 				"value":"17:14:33.6",
-				"source":"3,4",
+				"source":"4,5",
 				"unit":"hours"
 			}
 		],
@@ -126,14 +138,14 @@
 				"timeunit":"MJD",
 				"time":"48362.5",
 				"magnitude":"19.0",
-				"source":"3,4"
+				"source":"4,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"48363.0",
 				"band":"B",
 				"magnitude":"19.0",
-				"source":"2"
+				"source":"3"
 			}
 		]
 	}
