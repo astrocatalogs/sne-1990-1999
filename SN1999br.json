@@ -6,197 +6,214 @@
 		],
 		"sources":[
 			{
+				"name":"Galbany et al. (2016)",
+				"url":"http://adsabs.harvard.edu/abs/2016AJ....151...33G",
+				"bibcode":"2016AJ....151...33G",
+				"alias":"1"
+			},
+			{
 				"name":"Anderson et al. (2014)",
 				"url":"http://adsabs.harvard.edu/abs/2014ApJ...786...67A",
 				"bibcode":"2014ApJ...786...67A",
-				"alias":"1"
+				"alias":"2"
 			},
 			{
 				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
 				"url":"http://dau.itep.ru/sn/node/72",
-				"alias":"2",
+				"alias":"3",
 				"secondary":true
 			},
 			{
 				"name":"VSNET 2001",
-				"alias":"3"
+				"alias":"4"
 			},
 			{
 				"name":"Hamuy (2001)",
 				"url":"http://adsabs.harvard.edu/abs/2001PhDT.......173H",
 				"bibcode":"2001PhDT.......173H",
-				"alias":"4"
+				"alias":"5"
 			},
 			{
 				"name":"Pastorello et al. (2004)",
 				"url":"http://adsabs.harvard.edu/abs/2004MNRAS.347...74P",
 				"bibcode":"2004MNRAS.347...74P",
-				"alias":"5"
+				"alias":"6"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"6",
+				"alias":"7",
 				"secondary":true
 			},
 			{
 				"name":"Lennarz, Altmann, & Wiebusch (2012)",
 				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"7"
+				"alias":"8"
 			},
 			{
 				"name":"IAUC 7141",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07100/07141.html#Item1",
-				"alias":"8"
+				"alias":"9"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"9",
+				"alias":"10",
 				"secondary":true
 			},
 			{
 				"name":"NED-D",
 				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"10",
+				"alias":"11",
 				"secondary":true
 			},
 			{
 				"name":"Poznanski et al. (2009)",
 				"url":"http://adsabs.harvard.edu/abs/2009ApJ...694.1067P",
 				"bibcode":"2009ApJ...694.1067P",
-				"alias":"11"
+				"alias":"12"
 			},
 			{
 				"name":"Olivares E. et al. (2010)",
 				"url":"http://adsabs.harvard.edu/abs/2010ApJ...715..833O",
 				"bibcode":"2010ApJ...715..833O",
-				"alias":"12"
+				"alias":"13"
 			},
 			{
 				"name":"Rodríguez, Clocchiatti, & Hamuy (2014)",
 				"url":"http://adsabs.harvard.edu/abs/2014AJ....148..107R",
 				"bibcode":"2014AJ....148..107R",
-				"alias":"13"
+				"alias":"14"
 			},
 			{
 				"name":"Jones et al. (2009)",
 				"url":"http://adsabs.harvard.edu/abs/2009ApJ...696.1176J",
 				"bibcode":"2009ApJ...696.1176J",
-				"alias":"14"
+				"alias":"15"
 			},
 			{
 				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"15",
+				"alias":"16",
 				"secondary":true
 			},
 			{
 				"name":"SUSPECT",
 				"url":"https://www.nhn.ou.edu/~suspect/",
-				"alias":"16",
+				"alias":"17",
 				"secondary":true
 			}
 		],
 		"claimedtype":[
 			{
-				"value":"II",
-				"source":"7"
+				"value":"II P",
+				"source":"1,7,9,10,16"
 			},
 			{
-				"value":"II P",
-				"source":"6,8,9,15"
+				"value":"II",
+				"source":"8"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"20.8",
-				"source":"11,10",
+				"source":"12,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"21.6",
-				"source":"12,10",
+				"source":"13,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"23.6",
-				"source":"12,10",
+				"source":"13,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"23.9",
-				"source":"12,10",
+				"source":"13,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"26.3",
-				"source":"12,10",
+				"source":"13,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"26.4",
-				"source":"13,10",
+				"source":"14,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"39.5",
-				"source":"14,10",
+				"source":"15,11",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
+				"value":"+02:29:45.816",
+				"source":"1",
+				"unit":"degrees"
+			},
+			{
 				"value":"+02:29:45.4",
-				"source":"6,7",
+				"source":"7,8",
 				"unit":"degrees"
 			},
 			{
 				"value":"+02:29:45.8",
-				"source":"8,9",
+				"source":"9,10",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1999/04/12",
-				"source":"6,7,8,9"
+				"source":"7,8,9,10"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"LOSS",
-				"source":"6,8,9"
+				"source":"7,9,10"
+			}
+		],
+		"ebv":[
+			{
+				"value":"0.024",
+				"source":"1"
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 4900",
-				"source":"6,7,8,9"
+				"source":"1,7,8,9,10"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+02:30:02",
-				"source":"6",
+				"source":"7",
 				"unit":"degrees"
 			},
 			{
 				"value":"+02:30:03.5",
-				"source":"7",
+				"source":"8",
 				"unit":"degrees"
 			}
 		],
 		"hostra":[
 			{
 				"value":"13:00:39",
-				"source":"6",
+				"source":"7",
 				"unit":"hours"
 			},
 			{
 				"value":"13:00:39.22",
-				"source":"7",
+				"source":"8",
 				"unit":"hours"
 			}
 		],
@@ -204,7 +221,7 @@
 			{
 				"value":"20",
 				"error":"4",
-				"source":"7",
+				"source":"8",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -218,43 +235,50 @@
 		"maxappmag":[
 			{
 				"value":"17.57",
-				"source":"D,2,4"
+				"source":"D,1"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"D,2,4"
+				"source":"D,1"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1999/04/16",
-				"source":"D,2,4"
+				"source":"D,1"
 			}
 		],
 		"ra":[
 			{
+				"value":"13:00:41.76",
+				"source":"1",
+				"unit":"hours"
+			},
+			{
 				"value":"13:00:41.82",
-				"source":"6,7",
+				"source":"7,8",
 				"unit":"hours"
 			},
 			{
 				"value":"13:00:41.80",
-				"source":"8,9",
+				"source":"9,10",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
-				"value":"0.003406",
-				"source":"15"
+				"value":"0.0032",
+				"error":"1e-05",
+				"source":"1",
+				"kind":"heliocentric"
 			}
 		],
 		"velocity":[
 			{
 				"value":"1021",
-				"source":"6",
+				"source":"7",
 				"kind":"host",
 				"unit":"km/s"
 			}
@@ -265,14 +289,24 @@
 				"time":"51280.4",
 				"band":"C",
 				"magnitude":"17.5",
-				"source":"2,3"
+				"source":"3,4"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51281.2",
 				"band":"C",
 				"magnitude":"17.5",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51283.00",
+				"band":"B",
+				"system":"Landolt",
+				"magnitude":"17.573",
+				"telescope":"CTIO-0.9m",
+				"e_magnitude":"0.014",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -280,6 +314,7 @@
 				"band":"V",
 				"system":"Landolt",
 				"magnitude":"17.617",
+				"telescope":"CTIO-0.9m",
 				"e_magnitude":"0.015",
 				"source":"1"
 			},
@@ -288,14 +323,34 @@
 				"time":"51283.2",
 				"band":"B",
 				"magnitude":"17.58",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51283.2",
 				"band":"V",
 				"magnitude":"17.61",
-				"source":"2,4"
+				"source":"3,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51284.00",
+				"band":"B",
+				"system":"Landolt",
+				"magnitude":"17.570",
+				"telescope":"CTIO-0.9m",
+				"e_magnitude":"0.014",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51284.00",
+				"band":"I",
+				"system":"Landolt",
+				"magnitude":"17.296",
+				"telescope":"CTIO-0.9m",
+				"e_magnitude":"0.015",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -303,6 +358,7 @@
 				"band":"V",
 				"system":"Landolt",
 				"magnitude":"17.537",
+				"telescope":"CTIO-0.9m",
 				"e_magnitude":"0.015",
 				"source":"1"
 			},
@@ -311,21 +367,51 @@
 				"time":"51284.22",
 				"band":"B",
 				"magnitude":"17.57",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51284.22",
 				"band":"I",
 				"magnitude":"17.3",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51284.22",
 				"band":"V",
 				"magnitude":"17.54",
-				"source":"2,4"
+				"source":"3,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51285.00",
+				"band":"B",
+				"system":"Landolt",
+				"magnitude":"17.576",
+				"telescope":"CTIO-0.9m",
+				"e_magnitude":"0.014",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51285.00",
+				"band":"I",
+				"system":"Landolt",
+				"magnitude":"17.263",
+				"telescope":"CTIO-0.9m",
+				"e_magnitude":"0.018",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51285.00",
+				"band":"R",
+				"system":"Landolt",
+				"magnitude":"17.331",
+				"telescope":"CTIO-0.9m",
+				"e_magnitude":"0.015",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -333,6 +419,7 @@
 				"band":"V",
 				"system":"Landolt",
 				"magnitude":"17.517",
+				"telescope":"CTIO-0.9m",
 				"e_magnitude":"0.015",
 				"source":"1"
 			},
@@ -341,35 +428,65 @@
 				"time":"51285.21",
 				"band":"B",
 				"magnitude":"17.59",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51285.21",
 				"band":"I",
 				"magnitude":"17.27",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51285.21",
 				"band":"R",
 				"magnitude":"17.34",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51285.21",
 				"band":"V",
 				"magnitude":"17.51",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51285.53",
 				"band":"C",
 				"magnitude":"16.54",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51286.00",
+				"band":"B",
+				"system":"Landolt",
+				"magnitude":"17.638",
+				"telescope":"CTIO-0.9m",
+				"e_magnitude":"0.014",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51286.00",
+				"band":"I",
+				"system":"Landolt",
+				"magnitude":"17.239",
+				"telescope":"CTIO-0.9m",
+				"e_magnitude":"0.015",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51286.00",
+				"band":"R",
+				"system":"Landolt",
+				"magnitude":"17.339",
+				"telescope":"CTIO-0.9m",
+				"e_magnitude":"0.015",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -377,6 +494,7 @@
 				"band":"V",
 				"system":"Landolt",
 				"magnitude":"17.571",
+				"telescope":"CTIO-0.9m",
 				"e_magnitude":"0.015",
 				"source":"1"
 			},
@@ -385,42 +503,72 @@
 				"time":"51286.05",
 				"band":"C",
 				"magnitude":"16.6",
-				"source":"2,3"
+				"source":"3,4"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51286.19",
 				"band":"B",
 				"magnitude":"17.63",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51286.19",
 				"band":"I",
 				"magnitude":"17.22",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51286.19",
 				"band":"R",
 				"magnitude":"17.32",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51286.19",
 				"band":"V",
 				"magnitude":"17.54",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51288.58",
 				"band":"C",
 				"magnitude":"16.53",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51291.00",
+				"band":"B",
+				"system":"Landolt",
+				"magnitude":"17.743",
+				"telescope":"CTIO-1.5m",
+				"e_magnitude":"0.014",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51291.00",
+				"band":"I",
+				"system":"Landolt",
+				"magnitude":"17.034",
+				"telescope":"CTIO-1.5m",
+				"e_magnitude":"0.017",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51291.00",
+				"band":"R",
+				"system":"Landolt",
+				"magnitude":"17.194",
+				"telescope":"CTIO-1.5m",
+				"e_magnitude":"0.015",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -428,6 +576,7 @@
 				"band":"V",
 				"system":"Landolt",
 				"magnitude":"17.486",
+				"telescope":"CTIO-1.5m",
 				"e_magnitude":"0.015",
 				"source":"1"
 			},
@@ -436,28 +585,98 @@
 				"time":"51291.3",
 				"band":"B",
 				"magnitude":"17.75",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51291.3",
 				"band":"I",
 				"magnitude":"17.05",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51291.3",
 				"band":"R",
 				"magnitude":"17.21",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51291.3",
 				"band":"V",
 				"magnitude":"17.5",
-				"source":"2,4"
+				"source":"3,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51294.00",
+				"band":"B",
+				"system":"Landolt",
+				"magnitude":"17.934",
+				"telescope":"CTIO-0.9m",
+				"e_magnitude":"0.011",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51294.00",
+				"band":"B",
+				"system":"Landolt",
+				"magnitude":"17.939",
+				"telescope":"ESO-1.54m",
+				"e_magnitude":"0.028",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51294.00",
+				"band":"I",
+				"system":"Landolt",
+				"magnitude":"17.037",
+				"telescope":"CTIO-0.9m",
+				"e_magnitude":"0.011",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51294.00",
+				"band":"I",
+				"system":"Landolt",
+				"magnitude":"17.097",
+				"telescope":"ESO-1.54m",
+				"e_magnitude":"0.024",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51294.00",
+				"band":"R",
+				"system":"Landolt",
+				"magnitude":"17.205",
+				"telescope":"CTIO-0.9m",
+				"e_magnitude":"0.011",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51294.00",
+				"band":"R",
+				"system":"Landolt",
+				"magnitude":"17.233",
+				"telescope":"ESO-1.54m",
+				"e_magnitude":"0.011",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51294.00",
+				"band":"U",
+				"system":"Landolt",
+				"magnitude":"17.825",
+				"telescope":"ESO-1.54m",
+				"e_magnitude":"0.025",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -465,6 +684,7 @@
 				"band":"V",
 				"system":"Landolt",
 				"magnitude":"17.502",
+				"telescope":"ESO-1.54m",
 				"e_magnitude":"0.011",
 				"source":"1"
 			},
@@ -474,7 +694,18 @@
 				"band":"V",
 				"system":"Landolt",
 				"magnitude":"17.515",
+				"telescope":"CTIO-0.9m",
 				"e_magnitude":"0.012",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51294.00",
+				"band":"Z",
+				"system":"Landolt",
+				"magnitude":"16.902",
+				"telescope":"ESO-1.54m",
+				"e_magnitude":"0.020",
 				"source":"1"
 			},
 			{
@@ -482,126 +713,156 @@
 				"time":"51294.17",
 				"band":"B",
 				"magnitude":"17.94",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51294.17",
 				"band":"I",
 				"magnitude":"17.04",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51294.17",
 				"band":"R",
 				"magnitude":"17.23",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51294.17",
 				"band":"V",
 				"magnitude":"17.51",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51294.19",
 				"band":"B",
 				"magnitude":"17.92",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51294.19",
 				"band":"I",
 				"magnitude":"17.03",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51294.19",
 				"band":"R",
 				"magnitude":"17.21",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51294.19",
 				"band":"V",
 				"magnitude":"17.53",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51294.23",
 				"band":"B",
 				"magnitude":"17.92",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51294.23",
 				"band":"I",
 				"magnitude":"17.09",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51294.23",
 				"band":"R",
 				"magnitude":"17.24",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51294.23",
 				"band":"U",
 				"magnitude":"17.85",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51294.23",
 				"band":"V",
 				"magnitude":"17.51",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51294.24",
 				"band":"B",
 				"magnitude":"17.96",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51294.24",
 				"band":"I",
 				"magnitude":"17.07",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51294.24",
 				"band":"R",
 				"magnitude":"17.25",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51294.24",
 				"band":"U",
 				"magnitude":"17.75",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51294.24",
 				"band":"V",
 				"magnitude":"17.52",
-				"source":"2,4"
+				"source":"3,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51295.00",
+				"band":"B",
+				"system":"Landolt",
+				"magnitude":"18.117",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.032",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51295.00",
+				"band":"I",
+				"system":"Landolt",
+				"magnitude":"16.988",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.042",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51295.00",
+				"band":"R",
+				"system":"Landolt",
+				"magnitude":"17.277",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.020",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -609,6 +870,7 @@
 				"band":"V",
 				"system":"Landolt",
 				"magnitude":"17.515",
+				"telescope":"CTIO-1.0m",
 				"e_magnitude":"0.029",
 				"source":"1"
 			},
@@ -617,28 +879,58 @@
 				"time":"51295.09",
 				"band":"B",
 				"magnitude":"18.11",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51295.09",
 				"band":"I",
 				"magnitude":"17.1",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51295.09",
 				"band":"R",
 				"magnitude":"17.31",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51295.09",
 				"band":"V",
 				"magnitude":"17.55",
-				"source":"2,4"
+				"source":"3,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51296.00",
+				"band":"B",
+				"system":"Landolt",
+				"magnitude":"18.067",
+				"telescope":"CTIO-1.5m",
+				"e_magnitude":"0.017",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51296.00",
+				"band":"I",
+				"system":"Landolt",
+				"magnitude":"17.036",
+				"telescope":"CTIO-1.5m",
+				"e_magnitude":"0.020",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51296.00",
+				"band":"R",
+				"system":"Landolt",
+				"magnitude":"17.263",
+				"telescope":"CTIO-1.5m",
+				"e_magnitude":"0.017",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -646,6 +938,7 @@
 				"band":"V",
 				"system":"Landolt",
 				"magnitude":"17.604",
+				"telescope":"CTIO-1.5m",
 				"e_magnitude":"0.023",
 				"source":"1"
 			},
@@ -654,77 +947,107 @@
 				"time":"51296.17",
 				"band":"B",
 				"magnitude":"18.04",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51296.17",
 				"band":"I",
 				"magnitude":"17.07",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51296.17",
 				"band":"R",
 				"magnitude":"17.28",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51296.17",
 				"band":"V",
 				"magnitude":"17.64",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51296.18",
 				"band":"B",
 				"magnitude":"18.07",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51296.18",
 				"band":"R",
 				"magnitude":"17.29",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51296.18",
 				"band":"V",
 				"magnitude":"17.61",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51298.98",
 				"band":"B",
 				"magnitude":"18.16",
-				"source":"2,4"
+				"source":"3,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51298.98",
+				"band":"B",
+				"system":"Landolt",
+				"magnitude":"18.202",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.066",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51298.98",
+				"band":"I",
+				"system":"Landolt",
+				"magnitude":"16.991",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.053",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51298.98",
 				"band":"I",
 				"magnitude":"17.07",
-				"source":"2,4"
+				"source":"3,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51298.98",
+				"band":"R",
+				"system":"Landolt",
+				"magnitude":"17.244",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.024",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51298.98",
 				"band":"R",
 				"magnitude":"17.27",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51298.98",
 				"band":"V",
 				"magnitude":"17.6",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
@@ -732,6 +1055,7 @@
 				"band":"V",
 				"system":"Landolt",
 				"magnitude":"17.603",
+				"telescope":"CTIO-1.0m",
 				"e_magnitude":"0.042",
 				"source":"1"
 			},
@@ -740,7 +1064,77 @@
 				"time":"51300.58",
 				"band":"C",
 				"magnitude":"16.11",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51301.00",
+				"band":"B",
+				"system":"Landolt",
+				"magnitude":"18.262",
+				"telescope":"ESO-NTT",
+				"e_magnitude":"0.013",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51301.00",
+				"band":"B",
+				"system":"Landolt",
+				"magnitude":"18.292",
+				"telescope":"CTIO-1.5m",
+				"e_magnitude":"0.019",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51301.00",
+				"band":"I",
+				"system":"Landolt",
+				"magnitude":"17.000",
+				"telescope":"CTIO-1.5m",
+				"e_magnitude":"0.016",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51301.00",
+				"band":"I",
+				"system":"Landolt",
+				"magnitude":"17.038",
+				"telescope":"ESO-NTT",
+				"e_magnitude":"0.016",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51301.00",
+				"band":"R",
+				"system":"Landolt",
+				"magnitude":"17.251",
+				"telescope":"ESO-NTT",
+				"e_magnitude":"0.015",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51301.00",
+				"band":"R",
+				"system":"Landolt",
+				"magnitude":"17.265",
+				"telescope":"CTIO-1.5m",
+				"e_magnitude":"0.015",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51301.00",
+				"band":"U",
+				"system":"Landolt",
+				"magnitude":"18.779",
+				"telescope":"ESO-NTT",
+				"e_magnitude":"0.028",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -748,6 +1142,7 @@
 				"band":"V",
 				"system":"Landolt",
 				"magnitude":"17.602",
+				"telescope":"ESO-NTT",
 				"e_magnitude":"0.015",
 				"source":"1"
 			},
@@ -757,7 +1152,18 @@
 				"band":"V",
 				"system":"Landolt",
 				"magnitude":"17.609",
+				"telescope":"CTIO-1.5m",
 				"e_magnitude":"0.011",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51301.00",
+				"band":"Z",
+				"system":"Landolt",
+				"magnitude":"16.859",
+				"telescope":"ESO-NTT",
+				"e_magnitude":"0.015",
 				"source":"1"
 			},
 			{
@@ -765,28 +1171,58 @@
 				"time":"51301.01",
 				"band":"B",
 				"magnitude":"18.19",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51301.01",
 				"band":"I",
 				"magnitude":"17.02",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51301.01",
 				"band":"R",
 				"magnitude":"17.23",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51301.01",
 				"band":"V",
 				"magnitude":"17.55",
-				"source":"2,4"
+				"source":"3,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51301.02",
+				"band":"B",
+				"system":"Landolt",
+				"magnitude":"18.166",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.025",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51301.02",
+				"band":"I",
+				"system":"Landolt",
+				"magnitude":"17.031",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.040",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51301.02",
+				"band":"R",
+				"system":"Landolt",
+				"magnitude":"17.214",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.016",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -794,6 +1230,7 @@
 				"band":"V",
 				"system":"Landolt",
 				"magnitude":"17.571",
+				"telescope":"CTIO-1.0m",
 				"e_magnitude":"0.026",
 				"source":"1"
 			},
@@ -802,70 +1239,100 @@
 				"time":"51301.03",
 				"band":"V",
 				"magnitude":"17.62",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51301.04",
 				"band":"B",
 				"magnitude":"18.28",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51301.04",
 				"band":"I",
 				"magnitude":"17.01",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51301.04",
 				"band":"R",
 				"magnitude":"17.26",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51301.04",
 				"band":"V",
 				"magnitude":"17.63",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51301.11",
 				"band":"B",
 				"magnitude":"18.27",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51301.11",
 				"band":"I",
 				"magnitude":"17.05",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51301.11",
 				"band":"R",
 				"magnitude":"17.26",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51301.11",
 				"band":"U",
 				"magnitude":"18.79",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51301.11",
 				"band":"V",
 				"magnitude":"17.61",
-				"source":"2,4"
+				"source":"3,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51304.00",
+				"band":"B",
+				"system":"Landolt",
+				"magnitude":"18.371",
+				"telescope":"CTIO-1.5m",
+				"e_magnitude":"0.020",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51304.00",
+				"band":"I",
+				"system":"Landolt",
+				"magnitude":"16.977",
+				"telescope":"CTIO-1.5m",
+				"e_magnitude":"0.017",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51304.00",
+				"band":"R",
+				"system":"Landolt",
+				"magnitude":"17.213",
+				"telescope":"CTIO-1.5m",
+				"e_magnitude":"0.015",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -873,6 +1340,7 @@
 				"band":"V",
 				"system":"Landolt",
 				"magnitude":"17.596",
+				"telescope":"CTIO-1.5m",
 				"e_magnitude":"0.015",
 				"source":"1"
 			},
@@ -881,28 +1349,68 @@
 				"time":"51304.23",
 				"band":"B",
 				"magnitude":"18.37",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51304.23",
 				"band":"I",
 				"magnitude":"16.98",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51304.23",
 				"band":"R",
 				"magnitude":"17.21",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51304.23",
 				"band":"V",
 				"magnitude":"17.61",
-				"source":"2,4"
+				"source":"3,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51305.00",
+				"band":"B",
+				"system":"Landolt",
+				"magnitude":"18.416",
+				"telescope":"ESO-NTT",
+				"e_magnitude":"0.014",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51305.00",
+				"band":"I",
+				"system":"Landolt",
+				"magnitude":"16.985",
+				"telescope":"ESO-NTT",
+				"e_magnitude":"0.016",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51305.00",
+				"band":"R",
+				"system":"Landolt",
+				"magnitude":"17.230",
+				"telescope":"ESO-NTT",
+				"e_magnitude":"0.015",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51305.00",
+				"band":"U",
+				"system":"Landolt",
+				"magnitude":"19.035",
+				"telescope":"ESO-NTT",
+				"e_magnitude":"0.027",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -910,6 +1418,17 @@
 				"band":"V",
 				"system":"Landolt",
 				"magnitude":"17.602",
+				"telescope":"ESO-NTT",
+				"e_magnitude":"0.015",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51305.00",
+				"band":"Z",
+				"system":"Landolt",
+				"magnitude":"16.796",
+				"telescope":"ESO-NTT",
 				"e_magnitude":"0.015",
 				"source":"1"
 			},
@@ -918,49 +1437,59 @@
 				"time":"51305.2",
 				"band":"B",
 				"magnitude":"18.41",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51305.2",
 				"band":"I",
 				"magnitude":"16.99",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51305.2",
 				"band":"R",
 				"magnitude":"17.24",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51305.2",
 				"band":"U",
 				"magnitude":"19.04",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51305.2",
 				"band":"V",
 				"magnitude":"17.61",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51305.24",
 				"band":"B",
 				"magnitude":"18.5",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51305.24",
 				"band":"V",
 				"magnitude":"17.61",
-				"source":"2,4"
+				"source":"3,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51305.25",
+				"band":"B",
+				"system":"Landolt",
+				"magnitude":"18.465",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.024",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -968,6 +1497,7 @@
 				"band":"V",
 				"system":"Landolt",
 				"magnitude":"17.603",
+				"telescope":"CTIO-1.0m",
 				"e_magnitude":"0.016",
 				"source":"1"
 			},
@@ -976,21 +1506,51 @@
 				"time":"51305.48",
 				"band":"C",
 				"magnitude":"17.8",
-				"source":"2,3"
+				"source":"3,4"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51306.16",
 				"band":"I",
 				"magnitude":"16.95",
-				"source":"2,4"
+				"source":"3,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51306.16",
+				"band":"I",
+				"system":"Landolt",
+				"magnitude":"16.960",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.023",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51306.16",
+				"band":"R",
+				"system":"Landolt",
+				"magnitude":"17.181",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.012",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51306.16",
 				"band":"R",
 				"magnitude":"17.2",
-				"source":"2,4"
+				"source":"3,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51309.00",
+				"band":"B",
+				"system":"Landolt",
+				"magnitude":"18.503",
+				"telescope":"ESO-1.54m",
+				"e_magnitude":"0.017",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -998,6 +1558,7 @@
 				"band":"V",
 				"system":"Landolt",
 				"magnitude":"17.605",
+				"telescope":"ESO-1.54m",
 				"e_magnitude":"0.007",
 				"source":"1"
 			},
@@ -1005,22 +1566,52 @@
 				"timeunit":"MJD",
 				"time":"51309.11",
 				"band":"B",
+				"system":"Landolt",
+				"magnitude":"18.507",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.020",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51309.11",
+				"band":"B",
 				"magnitude":"18.59",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51309.11",
 				"band":"I",
 				"magnitude":"16.87",
-				"source":"2,4"
+				"source":"3,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51309.11",
+				"band":"I",
+				"system":"Landolt",
+				"magnitude":"16.892",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.028",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51309.11",
+				"band":"R",
+				"system":"Landolt",
+				"magnitude":"17.162",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.012",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51309.11",
 				"band":"R",
 				"magnitude":"17.18",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
@@ -1028,6 +1619,7 @@
 				"band":"V",
 				"system":"Landolt",
 				"magnitude":"17.589",
+				"telescope":"CTIO-1.0m",
 				"e_magnitude":"0.016",
 				"source":"1"
 			},
@@ -1036,91 +1628,114 @@
 				"time":"51309.11",
 				"band":"V",
 				"magnitude":"17.59",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51309.16",
 				"band":"B",
 				"magnitude":"18.51",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51309.16",
 				"band":"V",
 				"magnitude":"17.61",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51309.16",
 				"band":"V",
 				"magnitude":"17.62",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51309.17",
 				"band":"V",
 				"magnitude":"17.62",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51309.23",
 				"band":"V",
 				"magnitude":"17.59",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51309.24",
 				"band":"V",
 				"magnitude":"17.61",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51309.25",
 				"band":"V",
 				"magnitude":"17.62",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51310.55",
 				"band":"C",
 				"magnitude":"16.01",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51314.07",
+				"band":"B",
+				"system":"Landolt",
+				"magnitude":"18.548",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.017",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51314.07",
 				"band":"B",
 				"magnitude":"18.65",
-				"source":"2,4"
+				"source":"3,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51314.07",
+				"band":"I",
+				"system":"Landolt",
+				"magnitude":"16.869",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.025",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51314.07",
 				"band":"I",
 				"magnitude":"16.89",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51314.07",
 				"band":"R",
-				"magnitude":"17.11",
-				"source":"2,4"
+				"system":"Landolt",
+				"magnitude":"17.110",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.012",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51314.07",
 				"band":"V",
 				"magnitude":"17.54",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
@@ -1128,7 +1743,48 @@
 				"band":"V",
 				"system":"Landolt",
 				"magnitude":"17.544",
+				"telescope":"CTIO-1.0m",
 				"e_magnitude":"0.015",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51317.00",
+				"band":"B",
+				"system":"Landolt",
+				"magnitude":"18.711",
+				"telescope":"ESO-NTT",
+				"e_magnitude":"0.018",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51317.00",
+				"band":"I",
+				"system":"Landolt",
+				"magnitude":"16.824",
+				"telescope":"ESO-NTT",
+				"e_magnitude":"0.016",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51317.00",
+				"band":"R",
+				"system":"Landolt",
+				"magnitude":"17.122",
+				"telescope":"ESO-NTT",
+				"e_magnitude":"0.015",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51317.00",
+				"band":"U",
+				"system":"Landolt",
+				"magnitude":"19.625",
+				"telescope":"ESO-NTT",
+				"e_magnitude":"0.036",
 				"source":"1"
 			},
 			{
@@ -1137,6 +1793,17 @@
 				"band":"V",
 				"system":"Landolt",
 				"magnitude":"17.612",
+				"telescope":"ESO-NTT",
+				"e_magnitude":"0.015",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51317.00",
+				"band":"Z",
+				"system":"Landolt",
+				"magnitude":"16.597",
+				"telescope":"ESO-NTT",
 				"e_magnitude":"0.015",
 				"source":"1"
 			},
@@ -1145,35 +1812,65 @@
 				"time":"51317.15",
 				"band":"B",
 				"magnitude":"18.69",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51317.15",
 				"band":"I",
 				"magnitude":"16.8",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51317.15",
 				"band":"R",
 				"magnitude":"17.14",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51317.15",
 				"band":"U",
 				"magnitude":"19.64",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51317.15",
 				"band":"V",
 				"magnitude":"17.62",
-				"source":"2,4"
+				"source":"3,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51318.09",
+				"band":"B",
+				"system":"Landolt",
+				"magnitude":"18.668",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.021",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51318.09",
+				"band":"I",
+				"system":"Landolt",
+				"magnitude":"16.792",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.026",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51318.09",
+				"band":"R",
+				"system":"Landolt",
+				"magnitude":"17.114",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.012",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -1181,6 +1878,7 @@
 				"band":"V",
 				"system":"Landolt",
 				"magnitude":"17.523",
+				"telescope":"CTIO-1.0m",
 				"e_magnitude":"0.015",
 				"source":"1"
 			},
@@ -1189,28 +1887,28 @@
 				"time":"51318.1",
 				"band":"B",
 				"magnitude":"18.74",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51318.1",
 				"band":"I",
 				"magnitude":"16.76",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51318.1",
 				"band":"R",
 				"magnitude":"17.13",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51318.1",
 				"band":"V",
 				"magnitude":"17.57",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
@@ -1218,35 +1916,65 @@
 				"band":"R",
 				"magnitude":"17.14",
 				"e_magnitude":"0.04",
-				"source":"2,5"
+				"source":"3,6"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51322.99",
 				"band":"B",
 				"magnitude":"18.83",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51322.99",
 				"band":"I",
 				"magnitude":"16.66",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51322.99",
 				"band":"R",
 				"magnitude":"17.1",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51322.99",
 				"band":"V",
 				"magnitude":"17.59",
-				"source":"2,4"
+				"source":"3,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51323.00",
+				"band":"B",
+				"system":"Landolt",
+				"magnitude":"18.837",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.071",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51323.00",
+				"band":"I",
+				"system":"Landolt",
+				"magnitude":"16.663",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.044",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51323.00",
+				"band":"R",
+				"system":"Landolt",
+				"magnitude":"17.111",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.022",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -1254,6 +1982,7 @@
 				"band":"V",
 				"system":"Landolt",
 				"magnitude":"17.625",
+				"telescope":"CTIO-1.0m",
 				"e_magnitude":"0.040",
 				"source":"1"
 			},
@@ -1261,22 +1990,32 @@
 				"timeunit":"MJD",
 				"time":"51327.99",
 				"band":"B",
+				"system":"Landolt",
+				"magnitude":"19.011",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.080",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51327.99",
+				"band":"B",
 				"magnitude":"19.13",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51327.99",
 				"band":"I",
 				"magnitude":"16.73",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51327.99",
 				"band":"R",
 				"magnitude":"17.1",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
@@ -1284,6 +2023,7 @@
 				"band":"V",
 				"system":"Landolt",
 				"magnitude":"17.527",
+				"telescope":"CTIO-1.0m",
 				"e_magnitude":"0.022",
 				"source":"1"
 			},
@@ -1292,7 +2032,57 @@
 				"time":"51327.99",
 				"band":"V",
 				"magnitude":"17.55",
-				"source":"2,4"
+				"source":"3,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51328.09",
+				"band":"I",
+				"system":"Landolt",
+				"magnitude":"16.679",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.021",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51328.09",
+				"band":"R",
+				"system":"Landolt",
+				"magnitude":"17.061",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.012",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51329.98",
+				"band":"B",
+				"system":"Landolt",
+				"magnitude":"18.830",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.022",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51329.98",
+				"band":"I",
+				"system":"Landolt",
+				"magnitude":"16.615",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.019",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51329.98",
+				"band":"R",
+				"system":"Landolt",
+				"magnitude":"17.040",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.012",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -1300,6 +2090,7 @@
 				"band":"V",
 				"system":"Landolt",
 				"magnitude":"17.552",
+				"telescope":"CTIO-1.0m",
 				"e_magnitude":"0.015",
 				"source":"1"
 			},
@@ -1308,49 +2099,79 @@
 				"time":"51329.99",
 				"band":"B",
 				"magnitude":"18.87",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51329.99",
 				"band":"I",
 				"magnitude":"16.62",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51329.99",
 				"band":"R",
 				"magnitude":"17.06",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51329.99",
 				"band":"V",
 				"magnitude":"17.57",
-				"source":"2,4"
+				"source":"3,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51334.99",
+				"band":"B",
+				"system":"Landolt",
+				"magnitude":"18.894",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.026",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51334.99",
 				"band":"B",
 				"magnitude":"18.98",
-				"source":"2,4"
+				"source":"3,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51334.99",
+				"band":"I",
+				"system":"Landolt",
+				"magnitude":"16.600",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.025",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51334.99",
 				"band":"I",
 				"magnitude":"16.65",
-				"source":"2,4"
+				"source":"3,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51334.99",
+				"band":"R",
+				"system":"Landolt",
+				"magnitude":"17.057",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.012",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51334.99",
 				"band":"R",
 				"magnitude":"17.07",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
@@ -1358,6 +2179,7 @@
 				"band":"V",
 				"system":"Landolt",
 				"magnitude":"17.569",
+				"telescope":"CTIO-1.0m",
 				"e_magnitude":"0.016",
 				"source":"1"
 			},
@@ -1366,7 +2188,7 @@
 				"time":"51334.99",
 				"band":"V",
 				"magnitude":"17.59",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
@@ -1374,7 +2196,7 @@
 				"band":"B",
 				"magnitude":"18.92",
 				"e_magnitude":"0.01",
-				"source":"2,5"
+				"source":"3,6"
 			},
 			{
 				"timeunit":"MJD",
@@ -1382,7 +2204,7 @@
 				"band":"I",
 				"magnitude":"16.72",
 				"e_magnitude":"0.01",
-				"source":"2,5"
+				"source":"3,6"
 			},
 			{
 				"timeunit":"MJD",
@@ -1390,7 +2212,7 @@
 				"band":"R",
 				"magnitude":"17.02",
 				"e_magnitude":"0.01",
-				"source":"2,5"
+				"source":"3,6"
 			},
 			{
 				"timeunit":"MJD",
@@ -1398,7 +2220,7 @@
 				"band":"U",
 				"magnitude":"20.49",
 				"e_magnitude":"0.29",
-				"source":"2,5"
+				"source":"3,6"
 			},
 			{
 				"timeunit":"MJD",
@@ -1406,21 +2228,51 @@
 				"band":"V",
 				"magnitude":"17.63",
 				"e_magnitude":"0.01",
-				"source":"2,5"
+				"source":"3,6"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51337.98",
 				"band":"C",
 				"magnitude":"16.9",
-				"source":"2,3"
+				"source":"3,4"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51341.04",
 				"band":"C",
 				"magnitude":"15.8",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51344.98",
+				"band":"B",
+				"system":"Landolt",
+				"magnitude":"19.002",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.017",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51344.98",
+				"band":"I",
+				"system":"Landolt",
+				"magnitude":"16.626",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.085",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51344.98",
+				"band":"R",
+				"system":"Landolt",
+				"magnitude":"17.021",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.015",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -1428,6 +2280,7 @@
 				"band":"V",
 				"system":"Landolt",
 				"magnitude":"17.570",
+				"telescope":"CTIO-1.0m",
 				"e_magnitude":"0.019",
 				"source":"1"
 			},
@@ -1436,56 +2289,86 @@
 				"time":"51344.99",
 				"band":"B",
 				"magnitude":"19.07",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51344.99",
 				"band":"I",
 				"magnitude":"16.67",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51344.99",
 				"band":"R",
 				"magnitude":"17.03",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51344.99",
 				"band":"V",
 				"magnitude":"17.57",
-				"source":"2,4"
+				"source":"3,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51351.96",
+				"band":"B",
+				"system":"Landolt",
+				"magnitude":"19.159",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.044",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51351.96",
 				"band":"B",
 				"magnitude":"19.27",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51351.96",
 				"band":"I",
 				"magnitude":"16.52",
-				"source":"2,4"
+				"source":"3,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51351.96",
+				"band":"I",
+				"system":"Landolt",
+				"magnitude":"16.545",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.023",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51351.96",
+				"band":"R",
+				"system":"Landolt",
+				"magnitude":"17.022",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.012",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51351.96",
 				"band":"R",
 				"magnitude":"17.03",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51351.96",
 				"band":"V",
 				"magnitude":"17.6",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
@@ -1493,6 +2376,7 @@
 				"band":"V",
 				"system":"Landolt",
 				"magnitude":"17.603",
+				"telescope":"CTIO-1.0m",
 				"e_magnitude":"0.018",
 				"source":"1"
 			},
@@ -1501,21 +2385,51 @@
 				"time":"51355.98",
 				"band":"B",
 				"magnitude":"19.16",
-				"source":"2,4"
+				"source":"3,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51355.98",
+				"band":"B",
+				"system":"Landolt",
+				"magnitude":"19.162",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.058",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51355.98",
 				"band":"I",
 				"magnitude":"16.57",
-				"source":"2,4"
+				"source":"3,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51355.98",
+				"band":"I",
+				"system":"Landolt",
+				"magnitude":"16.575",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.026",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51355.98",
+				"band":"R",
+				"system":"Landolt",
+				"magnitude":"17.056",
+				"telescope":"CTIO-1.0m",
+				"e_magnitude":"0.013",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"51355.98",
 				"band":"R",
 				"magnitude":"17.07",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
@@ -1523,6 +2437,7 @@
 				"band":"V",
 				"system":"Landolt",
 				"magnitude":"17.659",
+				"telescope":"CTIO-1.0m",
 				"e_magnitude":"0.025",
 				"source":"1"
 			},
@@ -1531,7 +2446,7 @@
 				"time":"51355.98",
 				"band":"V",
 				"magnitude":"17.66",
-				"source":"2,4"
+				"source":"3,5"
 			},
 			{
 				"timeunit":"MJD",
@@ -1539,7 +2454,7 @@
 				"band":"B",
 				"magnitude":"19.17",
 				"e_magnitude":"0.09",
-				"source":"2,5"
+				"source":"3,6"
 			},
 			{
 				"timeunit":"MJD",
@@ -1547,7 +2462,7 @@
 				"band":"I",
 				"magnitude":"16.62",
 				"e_magnitude":"0.01",
-				"source":"2,5"
+				"source":"3,6"
 			},
 			{
 				"timeunit":"MJD",
@@ -1555,7 +2470,7 @@
 				"band":"R",
 				"magnitude":"17.04",
 				"e_magnitude":"0.01",
-				"source":"2,5"
+				"source":"3,6"
 			},
 			{
 				"timeunit":"MJD",
@@ -1563,7 +2478,7 @@
 				"band":"U",
 				"magnitude":"20.82",
 				"e_magnitude":"0.37",
-				"source":"2,5"
+				"source":"3,6"
 			},
 			{
 				"timeunit":"MJD",
@@ -1572,7 +2487,7 @@
 				"system":"Landolt",
 				"magnitude":"17.677",
 				"e_magnitude":"0.008",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -1580,7 +2495,7 @@
 				"band":"V",
 				"magnitude":"17.68",
 				"e_magnitude":"0.01",
-				"source":"2,5"
+				"source":"3,6"
 			},
 			{
 				"timeunit":"MJD",
@@ -1588,7 +2503,7 @@
 				"band":"B",
 				"magnitude":"19.18",
 				"e_magnitude":"0.03",
-				"source":"2,5"
+				"source":"3,6"
 			},
 			{
 				"timeunit":"MJD",
@@ -1596,7 +2511,7 @@
 				"band":"I",
 				"magnitude":"16.66",
 				"e_magnitude":"0.01",
-				"source":"2,5"
+				"source":"3,6"
 			},
 			{
 				"timeunit":"MJD",
@@ -1604,7 +2519,7 @@
 				"band":"R",
 				"magnitude":"16.98",
 				"e_magnitude":"0.02",
-				"source":"2,5"
+				"source":"3,6"
 			},
 			{
 				"timeunit":"MJD",
@@ -1612,7 +2527,7 @@
 				"band":"U",
 				"magnitude":"21.46",
 				"e_magnitude":"0.55",
-				"source":"2,5"
+				"source":"3,6"
 			},
 			{
 				"timeunit":"MJD",
@@ -1621,7 +2536,7 @@
 				"system":"Landolt",
 				"magnitude":"17.686",
 				"e_magnitude":"0.039",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -1629,7 +2544,7 @@
 				"band":"V",
 				"magnitude":"17.69",
 				"e_magnitude":"0.04",
-				"source":"2,5"
+				"source":"3,6"
 			},
 			{
 				"timeunit":"MJD",
@@ -1637,7 +2552,7 @@
 				"band":"B",
 				"magnitude":"19.2",
 				"e_magnitude":"0.03",
-				"source":"2,5"
+				"source":"3,6"
 			},
 			{
 				"timeunit":"MJD",
@@ -1645,7 +2560,7 @@
 				"band":"I",
 				"magnitude":"16.62",
 				"e_magnitude":"0.01",
-				"source":"2,5"
+				"source":"3,6"
 			},
 			{
 				"timeunit":"MJD",
@@ -1653,7 +2568,7 @@
 				"band":"R",
 				"magnitude":"17.04",
 				"e_magnitude":"0.02",
-				"source":"2,5"
+				"source":"3,6"
 			},
 			{
 				"timeunit":"MJD",
@@ -1661,7 +2576,7 @@
 				"band":"U",
 				"magnitude":"21.01",
 				"e_magnitude":"0.31",
-				"source":"2,5"
+				"source":"3,6"
 			},
 			{
 				"timeunit":"MJD",
@@ -1669,7 +2584,7 @@
 				"band":"V",
 				"magnitude":"17.69",
 				"e_magnitude":"0.01",
-				"source":"2,5"
+				"source":"3,6"
 			},
 			{
 				"timeunit":"MJD",
@@ -1678,7 +2593,7 @@
 				"system":"Landolt",
 				"magnitude":"17.693",
 				"e_magnitude":"0.014",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -1686,7 +2601,7 @@
 				"band":"I",
 				"magnitude":"21.18",
 				"e_magnitude":"0.24",
-				"source":"2,5"
+				"source":"3,6"
 			},
 			{
 				"timeunit":"MJD",
@@ -1694,7 +2609,17 @@
 				"band":"V",
 				"magnitude":"22.6",
 				"e_magnitude":"0.15",
-				"source":"2,5"
+				"source":"3,6"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51643.00",
+				"band":"V",
+				"system":"Landolt",
+				"magnitude":"22.188",
+				"telescope":"ESO-NTT",
+				"e_magnitude":"0.068",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -1702,7 +2627,7 @@
 				"band":"V",
 				"magnitude":"22.68",
 				"e_magnitude":"0.08",
-				"source":"2,5"
+				"source":"3,6"
 			},
 			{
 				"timeunit":"MJD",
@@ -1711,6 +2636,16 @@
 				"system":"Landolt",
 				"magnitude":"22.681",
 				"e_magnitude":"0.081",
+				"source":"2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51666.00",
+				"band":"R",
+				"system":"Landolt",
+				"magnitude":"21.815",
+				"telescope":"ESO-NTT",
+				"e_magnitude":"0.060",
 				"source":"1"
 			},
 			{
@@ -1719,7 +2654,7 @@
 				"band":"R",
 				"magnitude":"21.98",
 				"e_magnitude":"0.05",
-				"source":"2,5"
+				"source":"3,6"
 			}
 		],
 		"spectra":[
@@ -9495,7 +10430,7 @@
 						"0"
 					]
 				],
-				"source":"16,5"
+				"source":"17,6"
 			},
 			{
 				"timeunit":"MJD",
@@ -34869,7 +35804,7 @@
 						"0"
 					]
 				],
-				"source":"16,5"
+				"source":"17,6"
 			},
 			{
 				"timeunit":"MJD",
@@ -61575,7 +62510,7 @@
 						"0"
 					]
 				],
-				"source":"16,5"
+				"source":"17,6"
 			},
 			{
 				"timeunit":"MJD",
@@ -88757,7 +89692,7 @@
 						"0"
 					]
 				],
-				"source":"16,5"
+				"source":"17,6"
 			},
 			{
 				"timeunit":"MJD",
@@ -114523,7 +115458,7 @@
 						"0"
 					]
 				],
-				"source":"16,5"
+				"source":"17,6"
 			},
 			{
 				"timeunit":"MJD",
@@ -141393,7 +142328,7 @@
 						"0"
 					]
 				],
-				"source":"16,5"
+				"source":"17,6"
 			},
 			{
 				"timeunit":"MJD",
@@ -148183,7 +149118,7 @@
 						"3.037456708e-16"
 					]
 				],
-				"source":"16,5"
+				"source":"17,6"
 			},
 			{
 				"instrument":"Danish-1.54m - DFOSC",
@@ -156002,7 +156937,7 @@
 						"1.845707E-16"
 					]
 				],
-				"source":"5,15"
+				"source":"6,16"
 			}
 		]
 	}
