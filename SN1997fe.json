@@ -118,7 +118,7 @@
 			{
 				"value":"270",
 				"source":"D",
-				"kind":"host",
+				"kind":"spectroscopic",
 				"unit":"Mpc"
 			}
 		],
@@ -130,20 +130,20 @@
 		],
 		"maxappmag":[
 			{
-				"value":"19.5",
-				"source":"D,3"
+				"value":"19.36",
+				"source":"D,1"
 			}
 		],
 		"maxband":[
 			{
-				"value":"V",
-				"source":"D,3"
+				"value":"RM",
+				"source":"D,1"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1997/12/31",
-				"source":"D,3"
+				"source":"D,1"
 			}
 		],
 		"ra":[
@@ -161,8 +161,8 @@
 		"redshift":[
 			{
 				"value":"0.059",
-				"source":"3",
-				"kind":"host"
+				"source":"1",
+				"kind":"spectroscopic"
 			}
 		],
 		"velocity":[
@@ -175,17 +175,131 @@
 		],
 		"photometry":[
 			{
+				"time":"50759.18",
+				"u_time":"MJD",
+				"band":"VM",
+				"magnitude":"24.652",
+				"e_lower_magnitude":"1.360",
+				"upperlimit":true,
+				"telescope":"MSSSO 1.3m",
+				"instrument":"MaCHO",
+				"source":"1"
+			},
+			{
+				"time":"50774.15",
+				"u_time":"MJD",
+				"band":"VM",
+				"magnitude":"20.131",
+				"e_lower_magnitude":"0.136",
+				"e_upper_magnitude":"0.156",
+				"telescope":"MSSSO 1.3m",
+				"instrument":"MaCHO",
+				"source":"1"
+			},
+			{
 				"time":"50812.5",
 				"u_time":"MJD",
 				"magnitude":"19.5",
 				"source":"4,5"
 			},
 			{
-				"time":"50813.0",
+				"time":"50813.15",
 				"u_time":"MJD",
-				"band":"V",
-				"magnitude":"19.5",
-				"source":"3"
+				"band":"RM",
+				"magnitude":"19.360",
+				"e_lower_magnitude":"0.051",
+				"e_upper_magnitude":"0.053",
+				"telescope":"MSSSO 1.3m",
+				"instrument":"MaCHO",
+				"source":"1"
+			},
+			{
+				"time":"50813.15",
+				"u_time":"MJD",
+				"band":"VM",
+				"magnitude":"20.239",
+				"e_lower_magnitude":"0.083",
+				"e_upper_magnitude":"0.090",
+				"telescope":"MSSSO 1.3m",
+				"instrument":"MaCHO",
+				"source":"1"
+			},
+			{
+				"time":"50825.05",
+				"u_time":"MJD",
+				"band":"RM",
+				"magnitude":"20.232",
+				"e_lower_magnitude":"0.168",
+				"e_upper_magnitude":"0.199",
+				"telescope":"MSSSO 1.3m",
+				"instrument":"MaCHO",
+				"source":"1"
+			},
+			{
+				"time":"50834.13",
+				"u_time":"MJD",
+				"band":"RM",
+				"magnitude":"20.336",
+				"e_lower_magnitude":"0.099",
+				"e_upper_magnitude":"0.109",
+				"telescope":"MSSSO 1.3m",
+				"instrument":"MaCHO",
+				"source":"1"
+			},
+			{
+				"time":"50834.13",
+				"u_time":"MJD",
+				"band":"VM",
+				"magnitude":"20.973",
+				"e_lower_magnitude":"0.109",
+				"e_upper_magnitude":"0.121",
+				"telescope":"MSSSO 1.3m",
+				"instrument":"MaCHO",
+				"source":"1"
+			},
+			{
+				"time":"50862.06",
+				"u_time":"MJD",
+				"band":"RM",
+				"magnitude":"21.412",
+				"e_lower_magnitude":"0.426",
+				"e_upper_magnitude":"0.711",
+				"telescope":"MSSSO 1.3m",
+				"instrument":"MaCHO",
+				"source":"1"
+			},
+			{
+				"time":"50862.06",
+				"u_time":"MJD",
+				"band":"VM",
+				"magnitude":"21.464",
+				"e_lower_magnitude":"0.160",
+				"e_upper_magnitude":"0.188",
+				"telescope":"MSSSO 1.3m",
+				"instrument":"MaCHO",
+				"source":"1"
+			},
+			{
+				"time":"50870.06",
+				"u_time":"MJD",
+				"band":"RM",
+				"magnitude":"21.940",
+				"e_lower_magnitude":"0.631",
+				"e_upper_magnitude":"1.688",
+				"telescope":"MSSSO 1.3m",
+				"instrument":"MaCHO",
+				"source":"1"
+			},
+			{
+				"time":"50870.06",
+				"u_time":"MJD",
+				"band":"VM",
+				"magnitude":"21.992",
+				"e_lower_magnitude":"0.537",
+				"e_upper_magnitude":"1.107",
+				"telescope":"MSSSO 1.3m",
+				"instrument":"MaCHO",
+				"source":"1"
 			}
 		]
 	}
