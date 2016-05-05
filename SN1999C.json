@@ -22,8 +22,9 @@
 				"alias":"3"
 			},
 			{
-				"name":"IAUC 7088",
+				"name":"Jha et al. (1999)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07000/07088.html#Item1",
+				"bibcode":"1999IAUC.7088....3J",
 				"alias":"4"
 			},
 			{
@@ -63,7 +64,11 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,4,5,6,1,9"
+				"source":"2,3,4,5,6,9,1"
+			},
+			{
+				"value":"Ia-99aa",
+				"source":"9,1"
 			}
 		],
 		"comovingdist":[
@@ -83,7 +88,7 @@
 		"discoverdate":[
 			{
 				"value":"1999/01/14",
-				"source":"2,3,4,5"
+				"source":"2,3,4,5,9,1"
 			}
 		],
 		"discoverer":[
@@ -106,7 +111,7 @@
 		"host":[
 			{
 				"value":"WOOTS J100851.03+711042.9",
-				"source":"1"
+				"source":"1,9"
 			},
 			{
 				"value":"A100851+7110",
@@ -199,6 +204,7 @@
 		],
 		"spectra":[
 			{
+				"deredshifted":false,
 				"instrument":"LRIS",
 				"u_time":"MJD",
 				"time":"51198",
@@ -9516,7 +9522,7 @@
 						"1.00000"
 					]
 				],
-				"source":"1,9"
+				"source":"9,1"
 			}
 		]
 	}

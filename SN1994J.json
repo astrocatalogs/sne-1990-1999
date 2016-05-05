@@ -22,8 +22,9 @@
 				"alias":"3"
 			},
 			{
-				"name":"IAUC 5971",
+				"name":"Meusinger (1994)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05900/05971.html",
+				"bibcode":"1994IAUC.5971....3M",
 				"alias":"4"
 			},
 			{
@@ -47,7 +48,11 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,4,5,1,6"
+				"source":"2,3,4,5"
+			},
+			{
+				"value":"IIb",
+				"source":"6,1"
 			}
 		],
 		"comovingdist":[
@@ -67,7 +72,7 @@
 		"discoverdate":[
 			{
 				"value":"1994/03/05",
-				"source":"2,3,4,5"
+				"source":"2,3,4,5,6,1"
 			}
 		],
 		"discoverer":[
@@ -90,7 +95,7 @@
 		"host":[
 			{
 				"value":"[P94] 095815.51+544427.4",
-				"source":"1"
+				"source":"1,6"
 			},
 			{
 				"value":"PGC 29040",
@@ -192,6 +197,7 @@
 		],
 		"spectra":[
 			{
+				"deredshifted":false,
 				"instrument":"Kast",
 				"u_time":"MJD",
 				"time":"49446",
@@ -7134,7 +7140,7 @@
 						"1.00000"
 					]
 				],
-				"source":"1,6"
+				"source":"6,1"
 			}
 		]
 	}

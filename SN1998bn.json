@@ -32,8 +32,9 @@
 				"alias":"5"
 			},
 			{
-				"name":"IAUC 6886",
+				"name":"Miyamoto et al. (1998)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06800/06886.html#Item1",
+				"bibcode":"1998IAUC.6886....3M",
 				"alias":"6"
 			},
 			{
@@ -74,7 +75,15 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"4,5,6,7,8,1,11"
+				"source":"4,5,6,7,8,11,1"
+			},
+			{
+				"value":"IIb",
+				"source":"11,1"
+			},
+			{
+				"value":"Ia-99aa",
+				"source":"11,1"
 			}
 		],
 		"comovingdist":[
@@ -99,7 +108,7 @@
 		"discoverdate":[
 			{
 				"value":"1998/04/17",
-				"source":"4,5,6,7"
+				"source":"4,5,6,7,11,1"
 			}
 		],
 		"discoverer":[
@@ -118,7 +127,7 @@
 		"host":[
 			{
 				"value":"NGC 4462",
-				"source":"1,4,5,6,7"
+				"source":"1,4,5,6,7,11"
 			}
 		],
 		"hostdec":[
@@ -76731,6 +76740,7 @@
 				"source":"10"
 			},
 			{
+				"deredshifted":false,
 				"instrument":"Kast",
 				"u_time":"MJD",
 				"time":"50955",
@@ -81542,9 +81552,10 @@
 						"2.50786"
 					]
 				],
-				"source":"1,11"
+				"source":"11,1"
 			},
 			{
+				"deredshifted":false,
 				"instrument":"Kast",
 				"u_time":"MJD",
 				"time":"50955",
@@ -86356,9 +86367,10 @@
 						"3.12582"
 					]
 				],
-				"source":"1,11"
+				"source":"11,1"
 			},
 			{
+				"deredshifted":false,
 				"instrument":"Kast",
 				"u_time":"MJD",
 				"time":"50982",
@@ -91974,7 +91986,7 @@
 						"0.350008"
 					]
 				],
-				"source":"1,11"
+				"source":"11,1"
 			}
 		]
 	}

@@ -17,8 +17,9 @@
 				"alias":"2"
 			},
 			{
-				"name":"IAUC 6490",
+				"name":"Suntzeff et al. (1996)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06400/06490.html",
+				"bibcode":"1996IAUC.6490....1S",
 				"alias":"3"
 			},
 			{
@@ -53,7 +54,15 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2,3,4,5,6,7"
+				"source":"1,2,3,4,5,7,6"
+			},
+			{
+				"value":"Gal",
+				"source":"7,6"
+			},
+			{
+				"value":"IIn",
+				"source":"7,6"
 			}
 		],
 		"comovingdist":[
@@ -73,7 +82,7 @@
 		"discoverdate":[
 			{
 				"value":"1996/10/09",
-				"source":"1,2,3,4"
+				"source":"1,2,3,4,7,6"
 			}
 		],
 		"discoverer":[
@@ -97,6 +106,10 @@
 			{
 				"value":"A021149+0124",
 				"source":"1"
+			},
+			{
+				"value":"H-ZSNS J021149.53+012551.0",
+				"source":"7,6"
 			}
 		],
 		"hostdec":[
@@ -194,6 +207,7 @@
 		],
 		"spectra":[
 			{
+				"deredshifted":false,
 				"instrument":"LRIS",
 				"u_time":"MJD",
 				"time":"50366",
@@ -8017,9 +8031,10 @@
 						"0.000178522"
 					]
 				],
-				"source":"6,7"
+				"source":"7,6"
 			},
 			{
+				"deredshifted":false,
 				"instrument":"LRIS",
 				"u_time":"MJD",
 				"time":"50377",
@@ -15575,7 +15590,7 @@
 						"0.165389"
 					]
 				],
-				"source":"6,7"
+				"source":"7,6"
 			}
 		]
 	}

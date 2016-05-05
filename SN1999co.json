@@ -27,8 +27,9 @@
 				"alias":"4"
 			},
 			{
-				"name":"IAUC 7205",
+				"name":"Mukai & Ishida (1999)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07200/07205.html#Item1",
+				"bibcode":"1999IAUC.7205....2M",
 				"alias":"5"
 			},
 			{
@@ -38,15 +39,15 @@
 				"secondary":true
 			},
 			{
-				"name":"Faran et al. (2014)",
-				"bibcode":"2014MNRAS.445..554F",
-				"alias":"7"
-			},
-			{
 				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
 				"url":"http://heracles.astro.berkeley.edu/sndb/info",
-				"alias":"8",
+				"alias":"7",
 				"secondary":true
+			},
+			{
+				"name":"Faran et al. (2014)",
+				"bibcode":"2014MNRAS.445..554F",
+				"alias":"8"
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
@@ -56,8 +57,12 @@
 		],
 		"claimedtype":[
 			{
+				"value":"II P",
+				"source":"7,8"
+			},
+			{
 				"value":"II",
-				"source":"3,4,5,6,7,8"
+				"source":"3,4,5,6"
 			}
 		],
 		"comovingdist":[
@@ -77,7 +82,7 @@
 		"discoverdate":[
 			{
 				"value":"1999/06/18",
-				"source":"3,4,5,6"
+				"source":"3,4,5,6,7,8"
 			}
 		],
 		"discoverer":[
@@ -97,6 +102,10 @@
 			{
 				"value":"A210319-1432",
 				"source":"3"
+			},
+			{
+				"value":"LOSS J210319.12-143249.0",
+				"source":"7,8"
 			}
 		],
 		"hostdec":[
@@ -202,6 +211,7 @@
 		],
 		"spectra":[
 			{
+				"deredshifted":false,
 				"instrument":"Kast",
 				"u_time":"MJD",
 				"time":"51368",

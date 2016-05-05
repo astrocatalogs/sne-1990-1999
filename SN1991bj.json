@@ -22,8 +22,9 @@
 				"alias":"3"
 			},
 			{
-				"name":"IAUC 5420",
+				"name":"Pollas et al. (1992)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05400/05420.html",
+				"bibcode":"1992IAUC.5420....2P",
 				"alias":"4"
 			},
 			{
@@ -64,7 +65,11 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"3,4,5,1,7"
+				"source":"3,4,5,7,1"
+			},
+			{
+				"value":"Ia-02cx",
+				"source":"7,1"
 			},
 			{
 				"value":"Ia P",
@@ -93,7 +98,7 @@
 		"discoverdate":[
 			{
 				"value":"1991/12/30",
-				"source":"2,3,4,5"
+				"source":"2,3,4,5,7,1"
 			}
 		],
 		"discoverer":[
@@ -116,7 +121,7 @@
 		"host":[
 			{
 				"value":"IC 344",
-				"source":"1,2,3,4,5"
+				"source":"1,2,3,4,5,7"
 			}
 		],
 		"hostdec":[
@@ -212,6 +217,7 @@
 		],
 		"spectra":[
 			{
+				"deredshifted":false,
 				"instrument":"UV Schmidt",
 				"u_time":"MJD",
 				"time":"48622",
@@ -3427,7 +3433,7 @@
 						"0.298028"
 					]
 				],
-				"source":"1,7"
+				"source":"7,1"
 			},
 			{
 				"u_time":"MJD",

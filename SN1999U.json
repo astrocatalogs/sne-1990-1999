@@ -17,8 +17,9 @@
 				"alias":"2"
 			},
 			{
-				"name":"IAUC 7097",
+				"name":"Hale et al. (1999)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07000/07097.html#Item1",
+				"bibcode":"1999IAUC.7097....2H",
 				"alias":"3"
 			},
 			{
@@ -64,7 +65,15 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2,3,4,8,6,9"
+				"source":"1,2,3,4,8,9,6"
+			},
+			{
+				"value":"Ib",
+				"source":"9,6"
+			},
+			{
+				"value":"Ia P",
+				"source":"9,6"
 			}
 		],
 		"comovingdist":[
@@ -94,7 +103,7 @@
 		"discoverdate":[
 			{
 				"value":"1999/01/14",
-				"source":"1,2,3,4"
+				"source":"1,2,3,4,9,6"
 			}
 		],
 		"discoverer":[
@@ -118,6 +127,10 @@
 			{
 				"value":"A092642-0537",
 				"source":"1"
+			},
+			{
+				"value":"H-ZSNS J092642.96-053757.8",
+				"source":"9,6"
 			}
 		],
 		"hostdec":[
@@ -215,6 +228,7 @@
 		],
 		"spectra":[
 			{
+				"deredshifted":false,
 				"instrument":"LRIS",
 				"u_time":"MJD",
 				"time":"51196",
@@ -7750,9 +7764,10 @@
 						"0.00134415"
 					]
 				],
-				"source":"6,9"
+				"source":"9,6"
 			},
 			{
+				"deredshifted":false,
 				"instrument":"LRIS",
 				"u_time":"MJD",
 				"time":"51199",
@@ -15148,9 +15163,10 @@
 						"0.00183940"
 					]
 				],
-				"source":"6,9"
+				"source":"9,6"
 			},
 			{
+				"deredshifted":false,
 				"instrument":"LRIS",
 				"u_time":"MJD",
 				"time":"51200",
@@ -21126,7 +21142,7 @@
 						"3.16564"
 					]
 				],
-				"source":"6,9"
+				"source":"9,6"
 			}
 		]
 	}

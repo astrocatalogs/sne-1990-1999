@@ -22,8 +22,9 @@
 				"alias":"3"
 			},
 			{
-				"name":"IAUC 5366",
+				"name":"Rabinowitz & Scotti (1991)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05300/05366.html",
+				"bibcode":"1991IAUC.5366....3R",
 				"alias":"4"
 			},
 			{
@@ -64,7 +65,11 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,4,5,6,1,8"
+				"source":"2,3,4,5,6,8,1"
+			},
+			{
+				"value":"Ia-99aa",
+				"source":"8,1"
 			}
 		],
 		"comovingdist":[
@@ -89,7 +94,7 @@
 		"discoverdate":[
 			{
 				"value":"1991/10/12",
-				"source":"2,3,4,5"
+				"source":"2,3,4,5,8,1"
 			}
 		],
 		"discoverer":[
@@ -112,7 +117,7 @@
 		"host":[
 			{
 				"value":"UGC 2691",
-				"source":"1,2,4,5"
+				"source":"1,2,4,5,8"
 			},
 			{
 				"value":"PGC 12539",
@@ -212,6 +217,7 @@
 		],
 		"spectra":[
 			{
+				"deredshifted":false,
 				"instrument":"UV Schmidt",
 				"u_time":"MJD",
 				"time":"48560",
@@ -6027,9 +6033,10 @@
 						"0.474812"
 					]
 				],
-				"source":"1,8"
+				"source":"8,1"
 			},
 			{
+				"deredshifted":false,
 				"instrument":"UV Schmidt",
 				"u_time":"MJD",
 				"time":"48604",
@@ -9205,7 +9212,7 @@
 						"0.0626872"
 					]
 				],
-				"source":"1,8"
+				"source":"8,1"
 			},
 			{
 				"u_time":"MJD",

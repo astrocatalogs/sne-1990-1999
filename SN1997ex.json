@@ -17,8 +17,9 @@
 				"alias":"2"
 			},
 			{
-				"name":"IAUC 6804",
+				"name":"Lehky (1998)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06800/06804.html",
+				"bibcode":"1998IAUC.6804....2L",
 				"alias":"3"
 			},
 			{
@@ -53,7 +54,11 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2,3,4,5,6,7"
+				"source":"1,2,3,4,5,7,6"
+			},
+			{
+				"value":"Ia-99aa",
+				"source":"7,6"
 			}
 		],
 		"comovingdist":[
@@ -73,7 +78,7 @@
 		"discoverdate":[
 			{
 				"value":"1997/12/28",
-				"source":"1,2,3,4"
+				"source":"1,2,3,4,7,6"
 			}
 		],
 		"discoverer":[
@@ -97,6 +102,10 @@
 			{
 				"value":"A082427+0352",
 				"source":"1"
+			},
+			{
+				"value":"H-ZSNS J082427.87+035205.8",
+				"source":"7,6"
 			}
 		],
 		"hostdec":[
@@ -194,6 +203,7 @@
 		],
 		"spectra":[
 			{
+				"deredshifted":false,
 				"instrument":"LRIS",
 				"u_time":"MJD",
 				"time":"50814",
@@ -10129,9 +10139,10 @@
 						"0.00638704"
 					]
 				],
-				"source":"6,7"
+				"source":"7,6"
 			},
 			{
+				"deredshifted":false,
 				"instrument":"LRIS",
 				"u_time":"MJD",
 				"time":"50839",
@@ -17695,9 +17706,10 @@
 						"0.00296408"
 					]
 				],
-				"source":"6,7"
+				"source":"7,6"
 			},
 			{
+				"deredshifted":false,
 				"instrument":"LRIS",
 				"u_time":"MJD",
 				"time":"50845",
@@ -25293,9 +25305,10 @@
 						"0.00167476"
 					]
 				],
-				"source":"6,7"
+				"source":"7,6"
 			},
 			{
+				"deredshifted":false,
 				"instrument":"LRIS",
 				"u_time":"MJD",
 				"time":"50877",
@@ -32843,7 +32856,7 @@
 						"0.00410460"
 					]
 				],
-				"source":"6,7"
+				"source":"7,6"
 			}
 		]
 	}

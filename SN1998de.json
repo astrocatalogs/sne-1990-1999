@@ -55,8 +55,9 @@
 				"alias":"9"
 			},
 			{
-				"name":"IAUC 6977",
+				"name":"Hale et al. (1998)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06900/06977.html#Item1",
+				"bibcode":"1998IAUC.6977....3H",
 				"alias":"10"
 			},
 			{
@@ -111,15 +112,19 @@
 		"claimedtype":[
 			{
 				"value":"Ia-91bg",
-				"source":"2"
+				"source":"2,5,7"
 			},
 			{
 				"value":"Ia",
-				"source":"9,17"
+				"source":"9,17,5,7"
+			},
+			{
+				"value":"Ic",
+				"source":"5,7"
 			},
 			{
 				"value":"Ia P",
-				"source":"8,10,11,7,5"
+				"source":"8,10,11"
 			}
 		],
 		"comovingdist":[
@@ -159,7 +164,7 @@
 		"discoverdate":[
 			{
 				"value":"1998/07/23",
-				"source":"9,10,11"
+				"source":"9,10,11,5,7"
 			}
 		],
 		"discoverer":[
@@ -178,7 +183,7 @@
 		"host":[
 			{
 				"value":"NGC 252",
-				"source":"1,8,9,10,11"
+				"source":"1,8,9,10,11,5,7"
 			}
 		],
 		"hostdec":[
@@ -90202,6 +90207,7 @@
 				"source":"3"
 			},
 			{
+				"deredshifted":false,
 				"instrument":"Kast",
 				"u_time":"MJD",
 				"time":"51056",
@@ -104017,9 +104023,10 @@
 						"0.0755233"
 					]
 				],
-				"source":"7,5"
+				"source":"5,7"
 			},
 			{
+				"deredshifted":false,
 				"instrument":"Kast",
 				"u_time":"MJD",
 				"time":"51076",
@@ -118235,9 +118242,10 @@
 						"0.0651730"
 					]
 				],
-				"source":"7,5"
+				"source":"5,7"
 			},
 			{
+				"deredshifted":false,
 				"instrument":"Kast",
 				"u_time":"MJD",
 				"time":"51101",
@@ -132013,7 +132021,7 @@
 						"2.29801e-05"
 					]
 				],
-				"source":"7,5"
+				"source":"5,7"
 			}
 		]
 	}

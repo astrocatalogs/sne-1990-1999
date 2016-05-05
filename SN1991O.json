@@ -22,8 +22,9 @@
 				"alias":"3"
 			},
 			{
-				"name":"IAUC 5233",
+				"name":"Harrison (1991)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05200/05233.html",
+				"bibcode":"1991IAUC.5233....3H",
 				"alias":"4"
 			},
 			{
@@ -53,7 +54,11 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,4,5,6,1,7"
+				"source":"2,3,4,5,6"
+			},
+			{
+				"value":"Ia-91bg",
+				"source":"7,1"
 			}
 		],
 		"dec":[
@@ -76,7 +81,7 @@
 		"discoverdate":[
 			{
 				"value":"1991/03/18",
-				"source":"2,3,4,5"
+				"source":"2,3,4,5,7,1"
 			}
 		],
 		"discoverer":[
@@ -99,7 +104,7 @@
 		"host":[
 			{
 				"value":"2MASX J14243792+6545294",
-				"source":"1"
+				"source":"1,7"
 			},
 			{
 				"value":"A142439+6545",
@@ -181,6 +186,7 @@
 		],
 		"spectra":[
 			{
+				"deredshifted":false,
 				"instrument":"UV Schmidt",
 				"u_time":"MJD",
 				"time":"48353",
@@ -3276,7 +3282,7 @@
 						"0.169517"
 					]
 				],
-				"source":"1,7"
+				"source":"7,1"
 			}
 		]
 	}

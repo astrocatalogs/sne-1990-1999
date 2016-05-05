@@ -38,8 +38,9 @@
 				"alias":"6"
 			},
 			{
-				"name":"IAUC 5238",
+				"name":"Bortle et al. (1991)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05200/05238.html",
+				"bibcode":"1991IAUC.5238....3B",
 				"alias":"7"
 			},
 			{
@@ -131,7 +132,11 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"5,6,7,8,19,1,21"
+				"source":"5,6,7,8,19,21,1"
+			},
+			{
+				"value":"Ia-91T",
+				"source":"21,1"
 			}
 		],
 		"comovingdist":[
@@ -196,7 +201,7 @@
 		"discoverdate":[
 			{
 				"value":"1991/04/10",
-				"source":"6,7,8"
+				"source":"6,7,8,21,1"
 			}
 		],
 		"discoverer":[
@@ -222,7 +227,7 @@
 		"host":[
 			{
 				"value":"UGC 5691",
-				"source":"1,5,6,7,8"
+				"source":"1,5,6,7,8,21"
 			}
 		],
 		"hostdec":[
@@ -12268,6 +12273,7 @@
 				"source":"22,2,0"
 			},
 			{
+				"deredshifted":false,
 				"instrument":"UV Schmidt",
 				"u_time":"MJD",
 				"time":"48381",
@@ -16160,7 +16166,7 @@
 						"1.00000"
 					]
 				],
-				"source":"1,21"
+				"source":"21,1"
 			}
 		]
 	}

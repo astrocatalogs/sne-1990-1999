@@ -22,8 +22,9 @@
 				"alias":"3"
 			},
 			{
-				"name":"IAUC 7082",
+				"name":"Kahabka (1999)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07000/07082.html",
+				"bibcode":"1999IAUC.7082....3K",
 				"alias":"4"
 			},
 			{
@@ -58,7 +59,15 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,4,5,6,7,8"
+				"source":"2,3,4,5,6"
+			},
+			{
+				"value":"Ic",
+				"source":"8,7"
+			},
+			{
+				"value":"Ic BL",
+				"source":"8,7"
 			}
 		],
 		"comovingdist":[
@@ -78,7 +87,7 @@
 		"discoverdate":[
 			{
 				"value":"1998/12/20",
-				"source":"2,3,4,5"
+				"source":"2,3,4,5,8,7"
 			}
 		],
 		"discoverer":[
@@ -101,7 +110,7 @@
 		"host":[
 			{
 				"value":"2MASX J02591406+0329563",
-				"source":"1"
+				"source":"1,8,7"
 			},
 			{
 				"value":"A025912+0329",
@@ -203,6 +212,7 @@
 		],
 		"spectra":[
 			{
+				"deredshifted":false,
 				"instrument":"LRIS",
 				"u_time":"MJD",
 				"time":"51198",
@@ -7718,7 +7728,7 @@
 						"0.00365746"
 					]
 				],
-				"source":"7,8"
+				"source":"8,7"
 			}
 		]
 	}

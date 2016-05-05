@@ -22,8 +22,9 @@
 				"alias":"3"
 			},
 			{
-				"name":"IAUC 6131",
+				"name":"Pollas (1995)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06100/06131.html",
+				"bibcode":"1995IAUC.6131....2P",
 				"alias":"4"
 			},
 			{
@@ -53,7 +54,11 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,4,5,6,1,7"
+				"source":"2,3,4,5,6,7,1"
+			},
+			{
+				"value":"Ic",
+				"source":"7,1"
 			}
 		],
 		"comovingdist":[
@@ -73,7 +78,7 @@
 		"discoverdate":[
 			{
 				"value":"1995/01/02",
-				"source":"2,3,4,5"
+				"source":"2,3,4,5,7,1"
 			}
 		],
 		"discoverer":[
@@ -96,7 +101,7 @@
 		"host":[
 			{
 				"value":"MCG +04-16-06",
-				"source":"1,2,4,5"
+				"source":"1,2,4,5,7"
 			},
 			{
 				"value":"PGC 19685",
@@ -198,6 +203,7 @@
 		],
 		"spectra":[
 			{
+				"deredshifted":false,
 				"instrument":"Kast",
 				"u_time":"MJD",
 				"time":"49772",
@@ -5753,7 +5759,7 @@
 						"0.0607606"
 					]
 				],
-				"source":"1,7"
+				"source":"7,1"
 			}
 		]
 	}

@@ -6,56 +6,62 @@
 		],
 		"sources":[
 			{
+				"name":"Chomiuk et al. (2016)",
+				"bibcode":"2016ApJ...821..119C",
+				"alias":"1"
+			},
+			{
 				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"1",
+				"alias":"2",
 				"secondary":true
 			},
 			{
 				"name":"Lennarz, Altmann, & Wiebusch (2012)",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
-				"name":"IAUC 7088",
+				"name":"Jha et al. (1999)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07000/07088.html#Item1",
-				"alias":"3"
+				"bibcode":"1999IAUC.7088....3J",
+				"alias":"4"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4",
+				"alias":"5",
 				"secondary":true
 			},
 			{
 				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"5",
+				"alias":"6",
 				"secondary":true
 			},
 			{
 				"name":"Silverman et al. (2013)",
 				"bibcode":"2013ApJS..207....3S",
-				"alias":"6"
+				"alias":"7"
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"7"
+				"alias":"8"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"2"
-			},
-			{
-				"value":"IIn",
-				"source":"1,5"
+				"source":"3"
 			},
 			{
 				"value":"IIn P",
-				"source":"3,4"
+				"source":"4,5"
+			},
+			{
+				"value":"IIn",
+				"source":"2,6"
 			}
 		],
 		"comovingdist":[
@@ -68,68 +74,68 @@
 		"dec":[
 			{
 				"value":"-18:33:13.4",
-				"source":"1,2,3,4",
+				"source":"2,3,4,5",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1999/01/15",
-				"source":"1,2,3,4"
+				"source":"2,3,4,5"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Antezana",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"value":"Roberto Antezana",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0755",
 				"error":"0.0005",
-				"source":"7"
+				"source":"8"
 			}
 		],
 		"host":[
 			{
 				"value":"A131716-1833",
-				"source":"1"
-			},
-			{
-				"value":"PGC 3098299",
 				"source":"2"
 			},
 			{
+				"value":"PGC 3098299",
+				"source":"3"
+			},
+			{
 				"value":"IRAS 13145-1817",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-18:33:13",
-				"source":"1",
+				"source":"2",
 				"unit":"degrees"
 			},
 			{
 				"value":"-18:33:13.0",
-				"source":"2",
+				"source":"3",
 				"unit":"degrees"
 			}
 		],
 		"hostra":[
 			{
 				"value":"13:17:16",
-				"source":"1",
+				"source":"2",
 				"unit":"hours"
 			},
 			{
 				"value":"13:17:16.00",
-				"source":"2",
+				"source":"3",
 				"unit":"hours"
 			}
 		],
@@ -140,58 +146,126 @@
 				"unit":"Mpc"
 			}
 		],
-		"maxabsmag":[
-			{
-				"value":"-17.3",
-				"source":"D"
-			}
-		],
-		"maxappmag":[
-			{
-				"value":"18",
-				"source":"D,2"
-			}
-		],
-		"maxband":[
-			{
-				"value":"B",
-				"source":"D,2"
-			}
-		],
-		"maxdate":[
-			{
-				"value":"1999/01/15",
-				"source":"D,2"
-			}
-		],
 		"ra":[
 			{
 				"value":"13:17:16.37",
-				"source":"1,2,3,4",
+				"source":"2,3,4,5",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0258",
-				"source":"5"
+				"source":"6"
 			}
 		],
 		"velocity":[
 			{
 				"value":"7800",
-				"source":"1",
+				"source":"2",
 				"kind":"host",
 				"unit":"km/s"
 			}
 		],
 		"photometry":[
 			{
-				"time":"51193.0",
+				"time":"51200.30",
 				"u_time":"MJD",
-				"band":"B",
-				"magnitude":"18.0",
-				"source":"2"
+				"frequency":"8.4",
+				"u_frequency":"GHz",
+				"fluxdensity":"145.0",
+				"e_fluxdensity":"80.0",
+				"u_fluxdensity":"µJy",
+				"instrument":"VLA",
+				"source":"1"
+			},
+			{
+				"time":"51200.30",
+				"u_time":"MJD",
+				"frequency":"14.9",
+				"u_frequency":"GHz",
+				"fluxdensity":"439.0",
+				"e_fluxdensity":"319.0",
+				"u_fluxdensity":"µJy",
+				"instrument":"VLA",
+				"source":"1"
+			},
+			{
+				"time":"51217.39",
+				"u_time":"MJD",
+				"frequency":"8.4",
+				"u_frequency":"GHz",
+				"fluxdensity":"50.0",
+				"e_fluxdensity":"46.0",
+				"u_fluxdensity":"µJy",
+				"instrument":"VLA",
+				"source":"1"
+			},
+			{
+				"time":"51217.39",
+				"u_time":"MJD",
+				"frequency":"14.9",
+				"u_frequency":"GHz",
+				"fluxdensity":"140.0",
+				"e_fluxdensity":"172.0",
+				"u_fluxdensity":"µJy",
+				"instrument":"VLA",
+				"source":"1"
+			},
+			{
+				"time":"51217.39",
+				"u_time":"MJD",
+				"frequency":"22.4",
+				"u_frequency":"GHz",
+				"fluxdensity":"-295.0",
+				"e_fluxdensity":"281.0",
+				"u_fluxdensity":"µJy",
+				"instrument":"VLA",
+				"source":"1"
+			},
+			{
+				"time":"51236.30",
+				"u_time":"MJD",
+				"frequency":"8.4",
+				"u_frequency":"GHz",
+				"fluxdensity":"23.0",
+				"e_fluxdensity":"50.0",
+				"u_fluxdensity":"µJy",
+				"instrument":"VLA",
+				"source":"1"
+			},
+			{
+				"time":"51236.30",
+				"u_time":"MJD",
+				"frequency":"14.9",
+				"u_frequency":"GHz",
+				"fluxdensity":"-226.0",
+				"e_fluxdensity":"169.0",
+				"u_fluxdensity":"µJy",
+				"instrument":"VLA",
+				"source":"1"
+			},
+			{
+				"time":"51236.30",
+				"u_time":"MJD",
+				"frequency":"22.4",
+				"u_frequency":"GHz",
+				"fluxdensity":"-169.0",
+				"e_fluxdensity":"175.0",
+				"u_fluxdensity":"µJy",
+				"instrument":"VLA",
+				"source":"1"
+			},
+			{
+				"time":"51479.80",
+				"u_time":"MJD",
+				"frequency":"8.4",
+				"u_frequency":"GHz",
+				"fluxdensity":"-36.0",
+				"e_fluxdensity":"47.0",
+				"u_fluxdensity":"µJy",
+				"instrument":"VLA",
+				"source":"1"
 			}
 		],
 		"spectra":[
@@ -7668,7 +7742,7 @@
 						"0.887321"
 					]
 				],
-				"source":"6,5"
+				"source":"7,6"
 			},
 			{
 				"instrument":"Keck1 - LRIS",
@@ -12643,7 +12717,7 @@
 						"0.780237"
 					]
 				],
-				"source":"6,5"
+				"source":"7,6"
 			},
 			{
 				"instrument":"Keck1 - LRIS",
@@ -20122,7 +20196,7 @@
 						"0.00000"
 					]
 				],
-				"source":"6,5"
+				"source":"7,6"
 			},
 			{
 				"instrument":"Lick 3m - KAST",
@@ -37884,7 +37958,7 @@
 						"0.0888502"
 					]
 				],
-				"source":"6,5"
+				"source":"7,6"
 			},
 			{
 				"instrument":"Lick 3m - KAST",
@@ -55861,7 +55935,7 @@
 						"0.129873"
 					]
 				],
-				"source":"6,5"
+				"source":"7,6"
 			},
 			{
 				"instrument":"Lick 3m - KAST",
@@ -73428,7 +73502,7 @@
 						"0.0603227"
 					]
 				],
-				"source":"6,5"
+				"source":"7,6"
 			}
 		]
 	}

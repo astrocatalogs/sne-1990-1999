@@ -22,8 +22,9 @@
 				"alias":"3"
 			},
 			{
-				"name":"IAUC 5871",
+				"name":"Kato et al. (1993)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05800/05871.html",
+				"bibcode":"1993IAUC.5871....3K",
 				"alias":"4"
 			},
 			{
@@ -53,7 +54,11 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,4,5,6,1,7"
+				"source":"2,3,4,5,6,7,1"
+			},
+			{
+				"value":"Ia-91bg",
+				"source":"7,1"
 			}
 		],
 		"dec":[
@@ -76,7 +81,7 @@
 		"discoverdate":[
 			{
 				"value":"1993/09/19",
-				"source":"2,3,4,5"
+				"source":"2,3,4,5,7,1"
 			}
 		],
 		"discoverer":[
@@ -99,7 +104,7 @@
 		"host":[
 			{
 				"value":"APMUKS(BJ) B230046.41-063708.1",
-				"source":"1"
+				"source":"1,7"
 			},
 			{
 				"value":"A230322-0620",
@@ -181,6 +186,7 @@
 		],
 		"spectra":[
 			{
+				"deredshifted":false,
 				"instrument":"Kast",
 				"u_time":"MJD",
 				"time":"49255",
@@ -13996,7 +14002,7 @@
 						"0.231864"
 					]
 				],
-				"source":"1,7"
+				"source":"7,1"
 			}
 		]
 	}

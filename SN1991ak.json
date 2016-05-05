@@ -22,8 +22,9 @@
 				"alias":"3"
 			},
 			{
-				"name":"IAUC 5309",
+				"name":"Gilmore (1991)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05300/05309.html",
+				"bibcode":"1991IAUC.5309....5G",
 				"alias":"4"
 			},
 			{
@@ -53,7 +54,11 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,4,5,6,1,7"
+				"source":"2,3,4,5,6,7,1"
+			},
+			{
+				"value":"Ia-99aa",
+				"source":"7,1"
 			}
 		],
 		"comovingdist":[
@@ -78,7 +83,7 @@
 		"discoverdate":[
 			{
 				"value":"1991/07/15",
-				"source":"2,3,4,5"
+				"source":"2,3,4,5,7,1"
 			}
 		],
 		"discoverer":[
@@ -101,7 +106,7 @@
 		"host":[
 			{
 				"value":"NGC 5378",
-				"source":"1,2,3,4,5"
+				"source":"1,2,3,4,5,7"
 			}
 		],
 		"hostdec":[
@@ -197,6 +202,7 @@
 		],
 		"spectra":[
 			{
+				"deredshifted":false,
 				"instrument":"UV Schmidt",
 				"u_time":"MJD",
 				"time":"48457",
@@ -3272,9 +3278,10 @@
 						"0.366972"
 					]
 				],
-				"source":"1,7"
+				"source":"7,1"
 			},
 			{
+				"deredshifted":false,
 				"instrument":"UV Schmidt",
 				"u_time":"MJD",
 				"time":"48473",
@@ -6270,9 +6277,10 @@
 						"0.226496"
 					]
 				],
-				"source":"1,7"
+				"source":"7,1"
 			},
 			{
+				"deredshifted":false,
 				"instrument":"UV Schmidt",
 				"u_time":"MJD",
 				"time":"48488",
@@ -9440,7 +9448,7 @@
 						"0.156121"
 					]
 				],
-				"source":"1,7"
+				"source":"7,1"
 			}
 		]
 	}

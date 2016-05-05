@@ -32,8 +32,9 @@
 				"alias":"5"
 			},
 			{
-				"name":"IAUC 7209",
+				"name":"Rae et al. (1999)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07200/07209.html#Item1",
+				"bibcode":"1999IAUC.7209....4R",
 				"alias":"6"
 			},
 			{
@@ -43,15 +44,15 @@
 				"secondary":true
 			},
 			{
-				"name":"Foley et al. (2007)",
-				"bibcode":"2007ApJ...657L.105F",
-				"alias":"8"
-			},
-			{
 				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
 				"url":"http://heracles.astro.berkeley.edu/sndb/info",
-				"alias":"9",
+				"alias":"8",
 				"secondary":true
+			},
+			{
+				"name":"Foley et al. (2007)",
+				"bibcode":"2007ApJ...657L.105F",
+				"alias":"9"
 			},
 			{
 				"name":"SUSPECT",
@@ -71,7 +72,7 @@
 				"source":"4,5,6,7"
 			},
 			{
-				"value":"Ibn",
+				"value":"Ib",
 				"source":"8,9"
 			}
 		],
@@ -92,7 +93,7 @@
 		"discoverdate":[
 			{
 				"value":"1999/06/25",
-				"source":"4,5,6,7"
+				"source":"4,5,6,7,8,9"
 			}
 		],
 		"discoverer":[
@@ -111,7 +112,7 @@
 		"host":[
 			{
 				"value":"UGC 11268",
-				"source":"4,5,6,7"
+				"source":"4,5,6,7,8,9"
 			}
 		],
 		"hostdec":[
@@ -302,6 +303,7 @@
 		],
 		"spectra":[
 			{
+				"deredshifted":false,
 				"instrument":"Kast",
 				"u_time":"MJD",
 				"time":"51368",
@@ -34682,6 +34684,7 @@
 				"source":"10,3"
 			},
 			{
+				"deredshifted":false,
 				"instrument":"Kast",
 				"u_time":"MJD",
 				"time":"51407",

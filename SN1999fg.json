@@ -17,8 +17,9 @@
 				"alias":"2"
 			},
 			{
-				"name":"IAUC 7346",
+				"name":"Cappellaro et al. (2000)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07300/0712.html#Item1",
+				"bibcode":"2000IAUC.7346....2C",
 				"alias":"3"
 			},
 			{
@@ -50,7 +51,16 @@
 				"alias":"8"
 			}
 		],
-		"claimedtype":[],
+		"claimedtype":[
+			{
+				"value":"Gal",
+				"source":"7,6"
+			},
+			{
+				"value":"II P",
+				"source":"7,6"
+			}
+		],
 		"comovingdist":[
 			{
 				"value":"1700",
@@ -73,7 +83,7 @@
 		"discoverdate":[
 			{
 				"value":"1999/11/03",
-				"source":"1,2,3,4"
+				"source":"1,2,3,4,7,6"
 			}
 		],
 		"discoverer":[
@@ -97,6 +107,10 @@
 			{
 				"value":"A022741+0039",
 				"source":"1"
+			},
+			{
+				"value":"SDSS J022741.89+003913.8",
+				"source":"7,6"
 			}
 		],
 		"hostdec":[
@@ -187,6 +201,7 @@
 		],
 		"spectra":[
 			{
+				"deredshifted":false,
 				"instrument":"LRIS",
 				"u_time":"MJD",
 				"time":"51490",
@@ -5794,7 +5809,7 @@
 						"0.656838"
 					]
 				],
-				"source":"6,7"
+				"source":"7,6"
 			}
 		]
 	}

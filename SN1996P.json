@@ -22,8 +22,9 @@
 				"alias":"3"
 			},
 			{
-				"name":"IAUC 6357",
+				"name":"Hornoch, Hale, & Carvajal (1996)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06300/06357.html#Item1",
+				"bibcode":"1996IAUC.6357....3H",
 				"alias":"4"
 			},
 			{
@@ -53,7 +54,11 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,4,5,6,1,7"
+				"source":"2,3,4,5,6,7,1"
+			},
+			{
+				"value":"Ia-91T",
+				"source":"7,1"
 			}
 		],
 		"comovingdist":[
@@ -73,7 +78,7 @@
 		"discoverdate":[
 			{
 				"value":"1996/03/25",
-				"source":"2,3,4,5"
+				"source":"2,3,4,5,7,1"
 			}
 		],
 		"discoverer":[
@@ -96,7 +101,7 @@
 		"host":[
 			{
 				"value":"NGC 5335",
-				"source":"1,2,3,4,5"
+				"source":"1,2,3,4,5,7"
 			}
 		],
 		"hostdec":[
@@ -186,6 +191,7 @@
 		],
 		"spectra":[
 			{
+				"deredshifted":false,
 				"instrument":"Kast",
 				"u_time":"MJD",
 				"time":"50169",
@@ -5601,7 +5607,7 @@
 						"0.0943964"
 					]
 				],
-				"source":"1,7"
+				"source":"7,1"
 			}
 		]
 	}
