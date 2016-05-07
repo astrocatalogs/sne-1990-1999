@@ -1,9 +1,6 @@
 {
 	"SN1996P":{
 		"name":"SN1996P",
-		"aliases":[
-			"SN1996P"
-		],
 		"sources":[
 			{
 				"name":"Silverman et al. (2012)",
@@ -11,8 +8,9 @@
 				"alias":"1"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"2",
 				"secondary":true
 			},
@@ -34,14 +32,16 @@
 				"secondary":true
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"6",
 				"secondary":true
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
-				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
 				"alias":"7",
 				"secondary":true
 			},
@@ -51,34 +51,40 @@
 				"alias":"8"
 			}
 		],
+		"alias":[
+			{
+				"value":"SN1996P",
+				"source":"1,2,3,5,4,6"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,4,5,6,7,1"
+				"source":"2,3,5,4,6,1"
 			},
 			{
 				"value":"Ia-91T",
-				"source":"7,1"
+				"source":"1"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"68.39",
-				"source":"D",
+				"source":"7",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"+02:48:30.2",
-				"source":"2,3,4,5",
+				"source":"2,3,5,4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1996/03/25",
-				"source":"2,3,4,5,7,1"
+				"source":"2,3,5,4,1"
 			}
 		],
 		"discoverer":[
@@ -88,7 +94,7 @@
 			},
 			{
 				"value":"Jean Mueller",
-				"source":"4,5"
+				"source":"5,4"
 			}
 		],
 		"ebv":[
@@ -101,7 +107,7 @@
 		"host":[
 			{
 				"value":"NGC 5335",
-				"source":"1,2,3,4,5,7"
+				"source":"1,2,3,5,4"
 			}
 		],
 		"hostdec":[
@@ -131,38 +137,38 @@
 		"lumdist":[
 			{
 				"value":"69.45",
-				"source":"D",
+				"source":"7",
 				"unit":"Mpc"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-17.21",
-				"source":"D"
+				"source":"7"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17",
-				"source":"D,3"
+				"source":"3,7"
 			}
 		],
 		"maxband":[
 			{
 				"value":"J",
-				"source":"D,3"
+				"source":"3,7"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1996/03/25",
-				"source":"D,3"
+				"source":"3,7"
 			}
 		],
 		"ra":[
 			{
 				"value":"13:52:52.61",
-				"source":"2,3,4,5",
+				"source":"2,3,5,4",
 				"unit":"hours"
 			}
 		],
@@ -5607,7 +5613,7 @@
 						"0.0943964"
 					]
 				],
-				"source":"7,1"
+				"source":"1"
 			}
 		]
 	}

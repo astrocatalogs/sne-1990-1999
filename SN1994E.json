@@ -1,9 +1,6 @@
 {
 	"SN1994E":{
 		"name":"SN1994E",
-		"aliases":[
-			"SN1994E"
-		],
 		"sources":[
 			{
 				"name":"Silverman et al. (2012)",
@@ -11,8 +8,9 @@
 				"alias":"1"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"2",
 				"secondary":true
 			},
@@ -34,8 +32,9 @@
 				"secondary":true
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
-				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
 				"alias":"6",
 				"secondary":true
 			},
@@ -45,34 +44,40 @@
 				"alias":"7"
 			}
 		],
+		"alias":[
+			{
+				"value":"SN1994E",
+				"source":"1,2,3,5,4"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,4,5,6,1"
+				"source":"2,3,5,4,1"
 			},
 			{
 				"value":"Ia-91T",
-				"source":"6,1"
+				"source":"1"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"278.44",
-				"source":"D",
+				"source":"6",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"+55:21:34.7",
-				"source":"2,3,4,5",
+				"source":"2,3,5,4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1994/03/05",
-				"source":"2,3,4,5,6,1"
+				"source":"2,3,5,4,1"
 			}
 		],
 		"discoverer":[
@@ -82,7 +87,7 @@
 			},
 			{
 				"value":"Christian Pollas",
-				"source":"4,5"
+				"source":"5,4"
 			}
 		],
 		"ebv":[
@@ -107,7 +112,7 @@
 			},
 			{
 				"value":"*SDSS J113207.01+552138.0",
-				"source":"6,1"
+				"source":"1"
 			}
 		],
 		"hostdec":[
@@ -137,7 +142,7 @@
 		"lumdist":[
 			{
 				"value":"296.22",
-				"source":"D",
+				"source":"6",
 				"kind":"heliocentric",
 				"unit":"Mpc"
 			}
@@ -145,25 +150,25 @@
 		"maxabsmag":[
 			{
 				"value":"-18.358",
-				"source":"D"
+				"source":"6"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19",
-				"source":"D,3"
+				"source":"3,6"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1994/03/05",
-				"source":"D,3"
+				"source":"3,6"
 			}
 		],
 		"ra":[
 			{
 				"value":"11:32:06.96",
-				"source":"2,3,4,5",
+				"source":"2,3,5,4",
 				"unit":"hours"
 			}
 		],
@@ -187,7 +192,7 @@
 				"time":"49415.5",
 				"u_time":"MJD",
 				"magnitude":"19.0",
-				"source":"4,5"
+				"source":"5,4"
 			},
 			{
 				"time":"49416.0",
@@ -10034,7 +10039,7 @@
 						"-0.00271205"
 					]
 				],
-				"source":"6,1"
+				"source":"1"
 			}
 		]
 	}

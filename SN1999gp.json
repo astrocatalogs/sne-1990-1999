@@ -1,9 +1,6 @@
 {
 	"SN1999gp":{
 		"name":"SN1999gp",
-		"aliases":[
-			"SN1999gp"
-		],
 		"sources":[
 			{
 				"name":"Blondin et al. (2012)",
@@ -22,8 +19,9 @@
 				"alias":"3"
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
+				"name":"Silverman et al. (2012)",
 				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"bibcode":"2012MNRAS.425.1789S",
 				"alias":"4",
 				"secondary":true
 			},
@@ -43,8 +41,9 @@
 				"alias":"7"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"8",
 				"secondary":true
 			},
@@ -167,8 +166,9 @@
 				"alias":"31"
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"32",
 				"secondary":true
 			},
@@ -178,9 +178,22 @@
 				"alias":"33"
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"34",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"34"
+				"alias":"35"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN1999gp",
+				"source":"1,2,4,5,8,9,11,10,12,32"
 			}
 		],
 		"claimedtype":[
@@ -190,7 +203,7 @@
 			},
 			{
 				"value":"Ia",
-				"source":"8,9,10,11,32"
+				"source":"8,9,11,10,32"
 			}
 		],
 		"comovingdist":[
@@ -201,7 +214,7 @@
 			},
 			{
 				"value":"101",
-				"source":"14,12",
+				"source":"12,14",
 				"unit":"Mpc"
 			},
 			{
@@ -231,12 +244,12 @@
 			},
 			{
 				"value":"114",
-				"source":"24,12,25",
+				"source":"12,24,25",
 				"unit":"Mpc"
 			},
 			{
 				"value":"115",
-				"source":"26,12",
+				"source":"12,26",
 				"unit":"Mpc"
 			},
 			{
@@ -288,27 +301,27 @@
 		"dec":[
 			{
 				"value":"+39:22:52.3",
-				"source":"8,9,10,11",
+				"source":"8,9,11,10",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1999/12/23",
-				"source":"9,10,11"
+				"source":"9,11,10"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"LOSS",
-				"source":"8,10,11"
+				"source":"8,11,10"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0472",
 				"error":"0.0007",
-				"source":"34"
+				"source":"35"
 			}
 		],
 		"host":[
@@ -318,7 +331,7 @@
 			},
 			{
 				"value":"UGC 1993",
-				"source":"9,10,11"
+				"source":"9,11,10"
 			}
 		],
 		"hostdec":[
@@ -357,19 +370,19 @@
 		"maxabsmag":[
 			{
 				"value":"-18.9",
-				"source":"D"
+				"source":"34"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"16.17",
-				"source":"D,4"
+				"source":"34,4"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"D,4"
+				"source":"34,4"
 			}
 		],
 		"maxdate":[
@@ -381,7 +394,7 @@
 		"ra":[
 			{
 				"value":"02:31:39.15",
-				"source":"8,9,10,11",
+				"source":"8,9,11,10",
 				"unit":"hours"
 			}
 		],
@@ -1184,7 +1197,7 @@
 				"time":"51548.5",
 				"u_time":"MJD",
 				"magnitude":"15.4",
-				"source":"10,11"
+				"source":"11,10"
 			},
 			{
 				"time":"51549.91",
@@ -15243,7 +15256,7 @@
 						"4.3438719e-17"
 					]
 				],
-				"source":"2"
+				"source":"1,2,33"
 			},
 			{
 				"deredshifted":false,
@@ -27997,7 +28010,7 @@
 						"2.3654482e-17"
 					]
 				],
-				"source":"2"
+				"source":"1,2,33"
 			},
 			{
 				"deredshifted":false,
@@ -40751,7 +40764,7 @@
 						"5.3979259e-17"
 					]
 				],
-				"source":"2"
+				"source":"1,2,33"
 			},
 			{
 				"deredshifted":false,
@@ -53505,7 +53518,7 @@
 						"1.7921603e-17"
 					]
 				],
-				"source":"2"
+				"source":"1,2,33"
 			},
 			{
 				"deredshifted":false,
@@ -66259,7 +66272,7 @@
 						"3.1021311e-17"
 					]
 				],
-				"source":"2"
+				"source":"1,2,33"
 			},
 			{
 				"deredshifted":false,
@@ -79013,7 +79026,7 @@
 						"2.6937656e-17"
 					]
 				],
-				"source":"2"
+				"source":"1,2,33"
 			},
 			{
 				"deredshifted":false,
@@ -91767,7 +91780,7 @@
 						"3.0894117e-17"
 					]
 				],
-				"source":"2"
+				"source":"1,2,33"
 			},
 			{
 				"deredshifted":false,
@@ -104456,7 +104469,7 @@
 						"3.5641867e-17"
 					]
 				],
-				"source":"2"
+				"source":"1,2,33"
 			},
 			{
 				"deredshifted":false,
@@ -117210,7 +117223,7 @@
 						"2.0234454e-17"
 					]
 				],
-				"source":"2"
+				"source":"1,2,33"
 			},
 			{
 				"deredshifted":false,
@@ -129964,7 +129977,7 @@
 						"2.4888014e-17"
 					]
 				],
-				"source":"2"
+				"source":"1,2,33"
 			}
 		]
 	}

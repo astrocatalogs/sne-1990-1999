@@ -1,9 +1,6 @@
 {
 	"SN1991K":{
 		"name":"SN1991K",
-		"aliases":[
-			"SN1991K"
-		],
 		"sources":[
 			{
 				"name":"Silverman et al. (2012)",
@@ -11,8 +8,9 @@
 				"alias":"1"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"2",
 				"secondary":true
 			},
@@ -34,8 +32,9 @@
 				"secondary":true
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"6",
 				"secondary":true
 			},
@@ -50,20 +49,22 @@
 				"alias":"8"
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
-				"url":"http://heracles.astro.berkeley.edu/sndb/info",
-				"alias":"9",
-				"secondary":true
-			},
-			{
-				"name":"SUSPECT",
+				"name":"Richardson et al. (2001)",
 				"url":"https://www.nhn.ou.edu/~suspect/",
-				"alias":"10",
+				"bibcode":"2001AAS...199.8408R",
+				"alias":"9",
 				"secondary":true
 			},
 			{
 				"name":"Superfit",
 				"url":"http://www.dahowell.com/superfit.html",
+				"alias":"10",
+				"secondary":true
+			},
+			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
 				"alias":"11",
 				"secondary":true
 			},
@@ -73,24 +74,30 @@
 				"alias":"12"
 			}
 		],
+		"alias":[
+			{
+				"value":"SN1991K",
+				"source":"1,2,3,5,4,6,9,10"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,6,9,7"
+				"source":"2,3,6,1,7"
 			},
 			{
 				"value":"Ia P",
-				"source":"9,7"
+				"source":"1,7"
 			},
 			{
 				"value":"Ib",
-				"source":"4,5"
+				"source":"5,4"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"74.991",
-				"source":"D",
+				"source":"11",
 				"unit":"Mpc"
 			}
 		],
@@ -107,7 +114,7 @@
 			},
 			{
 				"value":"-16:30:01.8",
-				"source":"4,5",
+				"source":"5,4",
 				"unit":"degrees"
 			}
 		],
@@ -124,7 +131,7 @@
 			},
 			{
 				"value":"Robert McNaught",
-				"source":"4,5"
+				"source":"5,4"
 			}
 		],
 		"ebv":[
@@ -137,7 +144,7 @@
 		"host":[
 			{
 				"value":"NGC 2851",
-				"source":"1,2,3,4,5,9,7"
+				"source":"1,2,3,5,4,7"
 			}
 		],
 		"hostdec":[
@@ -167,32 +174,32 @@
 		"lumdist":[
 			{
 				"value":"76.267",
-				"source":"D",
+				"source":"11",
 				"unit":"Mpc"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-17.412",
-				"source":"D"
+				"source":"11"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17",
-				"source":"D,3"
+				"source":"3,11"
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
-				"source":"D,3"
+				"source":"3,11"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1991/12/15",
-				"source":"D,3"
+				"source":"3,11"
 			}
 		],
 		"ra":[
@@ -203,7 +210,7 @@
 			},
 			{
 				"value":"09:20:30.46",
-				"source":"4,5",
+				"source":"5,4",
 				"unit":"hours"
 			}
 		],
@@ -226,7 +233,7 @@
 				"time":"48306.5",
 				"u_time":"MJD",
 				"magnitude":"16.5",
-				"source":"4,5"
+				"source":"5,4"
 			},
 			{
 				"time":"48605.0",
@@ -6494,7 +6501,7 @@
 						"0.0370931"
 					]
 				],
-				"source":"9,7"
+				"source":"1,7"
 			},
 			{
 				"u_time":"MJD",
@@ -18976,7 +18983,7 @@
 						"0.03233199939"
 					]
 				],
-				"source":"10,7"
+				"source":"7,9"
 			},
 			{
 				"deredshifted":false,
@@ -25235,7 +25242,7 @@
 						"0.00927160"
 					]
 				],
-				"source":"9,7"
+				"source":"1,7"
 			},
 			{
 				"u_time":"MJD",
@@ -37717,7 +37724,7 @@
 						"0.009075745009"
 					]
 				],
-				"source":"10,7"
+				"source":"7,9"
 			},
 			{
 				"u_time":"MJD",
@@ -82995,7 +83002,7 @@
 						"6.770587051e-18"
 					]
 				],
-				"source":"10,8"
+				"source":"8,9"
 			},
 			{
 				"u_time":"MJD",
@@ -96837,7 +96844,7 @@
 						"3.203925946e-17"
 					]
 				],
-				"source":"10,8"
+				"source":"8,9"
 			},
 			{
 				"u_time":"MJD",
@@ -103090,7 +103097,7 @@
 						"0.0092716"
 					]
 				],
-				"source":"11"
+				"source":"10"
 			}
 		]
 	}

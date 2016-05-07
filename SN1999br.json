@@ -1,9 +1,6 @@
 {
 	"SN1999br":{
 		"name":"SN1999br",
-		"aliases":[
-			"SN1999br"
-		],
 		"sources":[
 			{
 				"name":"Galbany et al. (2016)",
@@ -36,8 +33,9 @@
 				"alias":"6"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"7",
 				"secondary":true
 			},
@@ -85,27 +83,42 @@
 				"alias":"15"
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"16",
 				"secondary":true
 			},
 			{
-				"name":"SUSPECT",
+				"name":"Richardson et al. (2001)",
 				"url":"https://www.nhn.ou.edu/~suspect/",
+				"bibcode":"2001AAS...199.8408R",
 				"alias":"17",
+				"secondary":true
+			},
+			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"18",
 				"secondary":true
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"18"
+				"alias":"19"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN1999br",
+				"source":"1,2,3,7,8,10,9,11,16,17"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II P",
-				"source":"1,7,9,10,16"
+				"source":"1,7,10,9,16"
 			},
 			{
 				"value":"II",
@@ -115,32 +128,32 @@
 		"comovingdist":[
 			{
 				"value":"20.8",
-				"source":"12,11",
+				"source":"11,12",
 				"unit":"Mpc"
 			},
 			{
 				"value":"21.6",
-				"source":"13,11",
+				"source":"11,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"23.6",
-				"source":"13,11",
+				"source":"11,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"23.9",
-				"source":"13,11",
+				"source":"11,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"26.3",
-				"source":"13,11",
+				"source":"11,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"26.4",
-				"source":"14,11",
+				"source":"11,14",
 				"unit":"Mpc"
 			},
 			{
@@ -162,33 +175,33 @@
 			},
 			{
 				"value":"+02:29:45.8",
-				"source":"9,10",
+				"source":"10,9",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1999/04/12",
-				"source":"7,8,9,10"
+				"source":"7,8,10,9"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"LOSS",
-				"source":"7,9,10"
+				"source":"7,10,9"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0204",
 				"error":"0.0002",
-				"source":"18"
+				"source":"19"
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 4900",
-				"source":"1,7,8,9,10"
+				"source":"1,7,8,10,9"
 			}
 		],
 		"hostdec":[
@@ -227,25 +240,25 @@
 		"maxabsmag":[
 			{
 				"value":"-10",
-				"source":"D"
+				"source":"18"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.57",
-				"source":"D,1"
+				"source":"1,18"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"D,1"
+				"source":"1,18"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1999/04/16",
-				"source":"D,1"
+				"source":"1,18"
 			}
 		],
 		"ra":[
@@ -261,7 +274,7 @@
 			},
 			{
 				"value":"13:00:41.80",
-				"source":"9,10",
+				"source":"10,9",
 				"unit":"hours"
 			}
 		],
@@ -10428,7 +10441,7 @@
 						"0"
 					]
 				],
-				"source":"17,6"
+				"source":"6,17"
 			},
 			{
 				"u_time":"MJD",
@@ -35802,7 +35815,7 @@
 						"0"
 					]
 				],
-				"source":"17,6"
+				"source":"6,17"
 			},
 			{
 				"u_time":"MJD",
@@ -62508,7 +62521,7 @@
 						"0"
 					]
 				],
-				"source":"17,6"
+				"source":"6,17"
 			},
 			{
 				"u_time":"MJD",
@@ -89690,7 +89703,7 @@
 						"0"
 					]
 				],
-				"source":"17,6"
+				"source":"6,17"
 			},
 			{
 				"u_time":"MJD",
@@ -115456,7 +115469,7 @@
 						"0"
 					]
 				],
-				"source":"17,6"
+				"source":"6,17"
 			},
 			{
 				"u_time":"MJD",
@@ -142326,7 +142339,7 @@
 						"0"
 					]
 				],
-				"source":"17,6"
+				"source":"6,17"
 			},
 			{
 				"u_time":"MJD",
@@ -149116,7 +149129,7 @@
 						"3.037456708e-16"
 					]
 				],
-				"source":"17,6"
+				"source":"6,17"
 			},
 			{
 				"instrument":"Danish-1.54m - DFOSC",

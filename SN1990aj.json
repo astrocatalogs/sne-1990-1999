@@ -1,13 +1,11 @@
 {
 	"SN1990aj":{
 		"name":"SN1990aj",
-		"aliases":[
-			"SN1990aj"
-		],
 		"sources":[
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"1",
 				"secondary":true
 			},
@@ -29,8 +27,9 @@
 				"secondary":true
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"5",
 				"secondary":true
 			},
@@ -45,21 +44,36 @@
 				"alias":"7"
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
+				"name":"Silverman et al. (2012)",
 				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"bibcode":"2012MNRAS.425.1789S",
 				"alias":"8",
 				"secondary":true
 			},
 			{
-				"name":"SUSPECT",
+				"name":"Richardson et al. (2001)",
 				"url":"https://www.nhn.ou.edu/~suspect/",
+				"bibcode":"2001AAS...199.8408R",
 				"alias":"9",
+				"secondary":true
+			},
+			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"10",
 				"secondary":true
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"10"
+				"alias":"11"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN1990aj",
+				"source":"1,2,4,3,5,8,9"
 			}
 		],
 		"claimedtype":[
@@ -72,18 +86,18 @@
 				"source":"2,3,4"
 			},
 			{
-				"value":"Ic BL",
-				"source":"8,7"
-			},
-			{
 				"value":"Ib/c",
 				"source":"5"
+			},
+			{
+				"value":"Ic BL",
+				"source":"8,7"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"23.62",
-				"source":"D",
+				"source":"10",
 				"unit":"Mpc"
 			}
 		],
@@ -114,7 +128,7 @@
 			{
 				"value":"0.0301",
 				"error":"0.001",
-				"source":"10"
+				"source":"11"
 			}
 		],
 		"host":[
@@ -159,25 +173,25 @@
 		"maxabsmag":[
 			{
 				"value":"-12",
-				"source":"D"
+				"source":"10"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19.1",
-				"source":"D,2"
+				"source":"2,10"
 			}
 		],
 		"maxband":[
 			{
 				"value":"V",
-				"source":"D,2"
+				"source":"2,10"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1990/12/18",
-				"source":"D,2"
+				"source":"2,10"
 			}
 		],
 		"ra":[
@@ -22590,7 +22604,7 @@
 						"1.803547E-17"
 					]
 				],
-				"source":"6,5"
+				"source":"5,6"
 			},
 			{
 				"instrument":"ESO-3.6m - EFOSC2-3.6",
@@ -35949,7 +35963,7 @@
 						"6.074581E-17"
 					]
 				],
-				"source":"6,5"
+				"source":"5,6"
 			},
 			{
 				"deredshifted":false,
@@ -54854,7 +54868,7 @@
 						"0.008089175448"
 					]
 				],
-				"source":"9,7"
+				"source":"7,9"
 			}
 		]
 	}

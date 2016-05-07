@@ -1,9 +1,6 @@
 {
 	"SN1999aq":{
 		"name":"SN1999aq",
-		"aliases":[
-			"SN1999aq"
-		],
 		"sources":[
 			{
 				"name":"Silverman et al. (2012)",
@@ -11,8 +8,9 @@
 				"alias":"1"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"2",
 				"secondary":true
 			},
@@ -34,14 +32,16 @@
 				"secondary":true
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"6",
 				"secondary":true
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
-				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
 				"alias":"7",
 				"secondary":true
 			},
@@ -51,16 +51,22 @@
 				"alias":"8"
 			}
 		],
+		"alias":[
+			{
+				"value":"SN1999aq",
+				"source":"1,2,3,5,4,6"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,4,5,6,7,1"
+				"source":"2,3,5,4,6,1"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"200",
-				"source":"D",
+				"source":"7",
 				"unit":"Mpc"
 			}
 		],
@@ -72,14 +78,14 @@
 			},
 			{
 				"value":"-04:55:23.2",
-				"source":"4,5",
+				"source":"5,4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1999/02/20",
-				"source":"2,3,4,5,7,1"
+				"source":"2,3,5,4,1"
 			}
 		],
 		"discoverer":[
@@ -89,7 +95,7 @@
 			},
 			{
 				"value":"Nearby Galaxy Supernova Search",
-				"source":"4,5"
+				"source":"5,4"
 			}
 		],
 		"ebv":[
@@ -114,7 +120,7 @@
 			},
 			{
 				"value":"*NGSS B093540.48-045523.2",
-				"source":"7,1"
+				"source":"1"
 			}
 		],
 		"hostdec":[
@@ -144,7 +150,7 @@
 		"lumdist":[
 			{
 				"value":"200",
-				"source":"D",
+				"source":"7",
 				"kind":"heliocentric",
 				"unit":"Mpc"
 			}
@@ -152,25 +158,25 @@
 		"maxabsmag":[
 			{
 				"value":"-20",
-				"source":"D"
+				"source":"7"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.8",
-				"source":"D,3"
+				"source":"3,7"
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
-				"source":"D,3"
+				"source":"3,7"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1999/02/20",
-				"source":"D,3"
+				"source":"3,7"
 			}
 		],
 		"ra":[
@@ -181,14 +187,14 @@
 			},
 			{
 				"value":"09:35:40.48",
-				"source":"4,5",
+				"source":"5,4",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.05",
-				"source":"1,4,5,6",
+				"source":"1,5,4,6",
 				"kind":"heliocentric"
 			}
 		],
@@ -205,7 +211,7 @@
 				"time":"51228.5",
 				"u_time":"MJD",
 				"magnitude":"18.8",
-				"source":"4,5"
+				"source":"5,4"
 			},
 			{
 				"time":"51229.0",
@@ -5273,7 +5279,7 @@
 						"0.352035"
 					]
 				],
-				"source":"7,1"
+				"source":"1"
 			}
 		]
 	}

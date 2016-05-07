@@ -1,13 +1,11 @@
 {
 	"SN1999fj":{
 		"name":"SN1999fj",
-		"aliases":[
-			"SN1999fj"
-		],
 		"sources":[
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"1",
 				"secondary":true
 			},
@@ -65,21 +63,36 @@
 				"alias":"11"
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"12",
 				"secondary":true
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
+				"name":"Silverman et al. (2012)",
 				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"bibcode":"2012MNRAS.425.1789S",
 				"alias":"13",
+				"secondary":true
+			},
+			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"14",
 				"secondary":true
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"14"
+				"alias":"15"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN1999fj",
+				"source":"1,2,4,3,5,12,13"
 			}
 		],
 		"claimedtype":[
@@ -91,47 +104,47 @@
 		"comovingdist":[
 			{
 				"value":"1800",
-				"source":"6,5",
+				"source":"5,6",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2180",
-				"source":"7,5",
+				"source":"5,7",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2830",
-				"source":"8,5",
+				"source":"5,8",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2890",
-				"source":"8,5",
+				"source":"5,8",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2990",
-				"source":"8,5",
+				"source":"5,8",
 				"unit":"Mpc"
 			},
 			{
 				"value":"3120",
-				"source":"9,5,8",
+				"source":"5,9,8",
 				"unit":"Mpc"
 			},
 			{
 				"value":"3180",
-				"source":"10,5",
+				"source":"5,10",
 				"unit":"Mpc"
 			},
 			{
 				"value":"3480",
-				"source":"11,5",
+				"source":"5,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"3530",
-				"source":"8,5",
+				"source":"5,8",
 				"unit":"Mpc"
 			}
 		],
@@ -167,7 +180,7 @@
 			{
 				"value":"0.0255",
 				"error":"0.001",
-				"source":"14"
+				"source":"15"
 			}
 		],
 		"host":[
@@ -207,26 +220,26 @@
 		"lumdist":[
 			{
 				"value":"5302.91",
-				"source":"D",
+				"source":"14",
 				"unit":"Mpc"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-20.1226",
-				"source":"D"
+				"source":"14"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"23.5",
-				"source":"D,2"
+				"source":"2,14"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1999/11/03",
-				"source":"D,2"
+				"source":"2,14"
 			}
 		],
 		"ra":[
@@ -245,7 +258,7 @@
 		"velocity":[
 			{
 				"value":"160497",
-				"source":"D",
+				"source":"14",
 				"unit":"km/s"
 			}
 		],

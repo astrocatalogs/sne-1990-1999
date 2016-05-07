@@ -1,9 +1,6 @@
 {
 	"SN1997cl":{
 		"name":"SN1997cl",
-		"aliases":[
-			"SN1997cl"
-		],
 		"sources":[
 			{
 				"name":"Germany et al. (2004)",
@@ -11,8 +8,9 @@
 				"alias":"1"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"2",
 				"secondary":true
 			},
@@ -34,9 +32,22 @@
 				"secondary":true
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"6",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"6"
+				"alias":"7"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN1997cl",
+				"source":"1,2,3,5,4"
 			}
 		],
 		"claimedtype":[
@@ -46,27 +57,27 @@
 			},
 			{
 				"value":"IIn",
-				"source":"1,2,4,5"
+				"source":"1,2,5,4"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"210",
-				"source":"D",
+				"source":"6",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"-27:44:27.9",
-				"source":"1,2,3,4,5",
+				"source":"1,2,3,5,4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1997/05/02",
-				"source":"1,2,3,4,5"
+				"source":"1,2,3,5,4"
 			}
 		],
 		"discoverer":[
@@ -76,14 +87,14 @@
 			},
 			{
 				"value":"Mount Stromlo",
-				"source":"4,5"
+				"source":"5,4"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0583",
 				"error":"0.0009",
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"host":[
@@ -127,7 +138,7 @@
 		"lumdist":[
 			{
 				"value":"220",
-				"source":"D",
+				"source":"6",
 				"kind":"spectroscopic",
 				"unit":"Mpc"
 			}
@@ -135,38 +146,38 @@
 		"maxabsmag":[
 			{
 				"value":"-16",
-				"source":"D"
+				"source":"6"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"20.4",
-				"source":"D,1"
+				"source":"1,6"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"D,1"
+				"source":"1,6"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1997/05/20",
-				"source":"D,1"
+				"source":"1,6"
 			}
 		],
 		"ra":[
 			{
 				"value":"13:54:18.71",
-				"source":"1,2,3,4,5",
+				"source":"1,2,3,5,4",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.047",
-				"source":"1,4,5",
+				"source":"1,5,4",
 				"kind":"spectroscopic"
 			}
 		],
@@ -205,7 +216,7 @@
 				"time":"50569.5",
 				"u_time":"MJD",
 				"magnitude":"18.3",
-				"source":"4,5"
+				"source":"5,4"
 			},
 			{
 				"time":"50570.14",

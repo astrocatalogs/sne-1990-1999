@@ -1,9 +1,6 @@
 {
 	"SN1998Z":{
 		"name":"SN1998Z",
-		"aliases":[
-			"SN1998Z"
-		],
 		"sources":[
 			{
 				"name":"Germany et al. (2004)",
@@ -11,8 +8,9 @@
 				"alias":"1"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"2",
 				"secondary":true
 			},
@@ -34,35 +32,48 @@
 				"secondary":true
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"6",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"6"
+				"alias":"7"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN1998Z",
+				"source":"1,2,3,5,4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2,3,4,5"
+				"source":"1,2,3,5,4"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"170",
-				"source":"D",
+				"source":"6",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"-31:21:38.1",
-				"source":"1,2,3,4,5",
+				"source":"1,2,3,5,4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1998/03/16",
-				"source":"1,2,3,4,5"
+				"source":"1,2,3,5,4"
 			}
 		],
 		"discoverer":[
@@ -72,14 +83,14 @@
 			},
 			{
 				"value":"Mount Stromlo",
-				"source":"4,5"
+				"source":"5,4"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0161",
 				"error":"0.0013",
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"host":[
@@ -123,7 +134,7 @@
 		"lumdist":[
 			{
 				"value":"170",
-				"source":"D",
+				"source":"6",
 				"kind":"spectroscopic",
 				"unit":"Mpc"
 			}
@@ -131,31 +142,31 @@
 		"maxabsmag":[
 			{
 				"value":"-18",
-				"source":"D"
+				"source":"6"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.14",
-				"source":"D,1"
+				"source":"1,6"
 			}
 		],
 		"maxband":[
 			{
 				"value":"RM",
-				"source":"D,1"
+				"source":"1,6"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1998/04/13",
-				"source":"D,1"
+				"source":"1,6"
 			}
 		],
 		"ra":[
 			{
 				"value":"05:24:58.78",
-				"source":"1,2,3,4,5",
+				"source":"1,2,3,5,4",
 				"unit":"hours"
 			}
 		],
@@ -174,7 +185,7 @@
 		"velocity":[
 			{
 				"value":"11000",
-				"source":"D",
+				"source":"6",
 				"kind":"spectroscopic",
 				"unit":"km/s"
 			}
@@ -195,7 +206,7 @@
 				"time":"50887.5",
 				"u_time":"MJD",
 				"magnitude":"19.6",
-				"source":"4,5"
+				"source":"5,4"
 			},
 			{
 				"time":"50888.04",

@@ -1,9 +1,6 @@
 {
 	"SN1998bq":{
 		"name":"SN1998bq",
-		"aliases":[
-			"SN1998bq"
-		],
 		"sources":[
 			{
 				"name":"Germany et al. (2004)",
@@ -11,8 +8,9 @@
 				"alias":"1"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"2",
 				"secondary":true
 			},
@@ -34,9 +32,22 @@
 				"secondary":true
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"6",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"6"
+				"alias":"7"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN1998bq",
+				"source":"1,2,3,5,4"
 			}
 		],
 		"claimedtype":[
@@ -48,7 +59,7 @@
 		"comovingdist":[
 			{
 				"value":"410",
-				"source":"D",
+				"source":"6",
 				"unit":"Mpc"
 			}
 		],
@@ -60,7 +71,7 @@
 			},
 			{
 				"value":"+05:51:16.5",
-				"source":"2,3,4,5",
+				"source":"2,3,5,4",
 				"unit":"degrees"
 			}
 		],
@@ -77,14 +88,14 @@
 			},
 			{
 				"value":"Mount Stromlo",
-				"source":"4,5"
+				"source":"5,4"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0364",
 				"error":"0.0005",
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"host":[
@@ -124,7 +135,7 @@
 		"lumdist":[
 			{
 				"value":"450",
-				"source":"D",
+				"source":"6",
 				"kind":"spectroscopic",
 				"unit":"Mpc"
 			}
@@ -132,19 +143,19 @@
 		"maxabsmag":[
 			{
 				"value":"-19",
-				"source":"D"
+				"source":"6"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19.2",
-				"source":"D,4,5"
+				"source":"5,4,6"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1998/04/27",
-				"source":"D,4,5"
+				"source":"5,4,6"
 			}
 		],
 		"ra":[
@@ -155,7 +166,7 @@
 			},
 			{
 				"value":"15:10:20.53",
-				"source":"2,3,4,5",
+				"source":"2,3,5,4",
 				"unit":"hours"
 			}
 		],
@@ -169,7 +180,7 @@
 		"velocity":[
 			{
 				"value":"27000",
-				"source":"D",
+				"source":"6",
 				"kind":"spectroscopic",
 				"unit":"km/s"
 			}
@@ -223,7 +234,7 @@
 				"time":"50930.5",
 				"u_time":"MJD",
 				"magnitude":"19.2",
-				"source":"4,5"
+				"source":"5,4"
 			},
 			{
 				"time":"50931.15",

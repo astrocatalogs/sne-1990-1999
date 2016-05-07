@@ -1,13 +1,11 @@
 {
 	"SN1997dd":{
 		"name":"SN1997dd",
-		"aliases":[
-			"SN1997dd"
-		],
 		"sources":[
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"1",
 				"secondary":true
 			},
@@ -29,8 +27,9 @@
 				"secondary":true
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"5",
 				"secondary":true
 			},
@@ -40,14 +39,16 @@
 				"alias":"6"
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
+				"name":"Silverman et al. (2012)",
 				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"bibcode":"2012MNRAS.425.1789S",
 				"alias":"7",
 				"secondary":true
 			},
 			{
-				"name":"SUSPECT",
+				"name":"Richardson et al. (2001)",
 				"url":"https://www.nhn.ou.edu/~suspect/",
+				"bibcode":"2001AAS...199.8408R",
 				"alias":"8",
 				"secondary":true
 			},
@@ -58,19 +59,32 @@
 				"secondary":true
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"10",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"10"
+				"alias":"11"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN1997dd",
+				"source":"1,2,4,3,5,7,8,9"
 			}
 		],
 		"claimedtype":[
 			{
-				"value":"II",
-				"source":"2"
-			},
-			{
 				"value":"IIb",
 				"source":"1,5,7,6"
+			},
+			{
+				"value":"II",
+				"source":"2"
 			},
 			{
 				"value":"Ib/c",
@@ -80,7 +94,7 @@
 		"comovingdist":[
 			{
 				"value":"66.99",
-				"source":"D",
+				"source":"10",
 				"unit":"Mpc"
 			}
 		],
@@ -116,7 +130,7 @@
 			{
 				"value":"0.0701",
 				"error":"0.0047",
-				"source":"10"
+				"source":"11"
 			}
 		],
 		"host":[
@@ -161,25 +175,25 @@
 		"maxabsmag":[
 			{
 				"value":"-17",
-				"source":"D"
+				"source":"10"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"16.4",
-				"source":"D,2"
+				"source":"2,10"
 			}
 		],
 		"maxband":[
 			{
 				"value":"V",
-				"source":"D,2"
+				"source":"2,10"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1997/08/20",
-				"source":"D,2"
+				"source":"2,10"
 			}
 		],
 		"ra":[

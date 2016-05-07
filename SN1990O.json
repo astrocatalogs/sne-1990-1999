@@ -1,9 +1,6 @@
 {
 	"SN1990O":{
 		"name":"SN1990O",
-		"aliases":[
-			"SN1990O"
-		],
 		"sources":[
 			{
 				"name":"Silverman et al. (2012)",
@@ -22,8 +19,9 @@
 				"alias":"3"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"4",
 				"secondary":true
 			},
@@ -131,27 +129,30 @@
 				"alias":"24"
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"25",
 				"secondary":true
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
-				"url":"http://heracles.astro.berkeley.edu/sndb/info",
-				"alias":"26",
-				"secondary":true
-			},
-			{
-				"name":"SUSPECT",
+				"name":"Richardson et al. (2001)",
 				"url":"https://www.nhn.ou.edu/~suspect/",
-				"alias":"27",
+				"bibcode":"2001AAS...199.8408R",
+				"alias":"26",
 				"secondary":true
 			},
 			{
 				"name":"López et al. (1991)",
 				"bibcode":"1991ESOC...37..721L",
-				"alias":"28"
+				"alias":"27"
+			},
+			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"28",
+				"secondary":true
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
@@ -159,25 +160,31 @@
 				"alias":"29"
 			}
 		],
+		"alias":[
+			{
+				"value":"SN1990O",
+				"source":"1,2,4,5,7,6,8,25,26"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"4,5,25,26,1"
+				"source":"4,5,25,1"
 			},
 			{
 				"value":"Ia-99aa",
-				"source":"26,1"
+				"source":"1"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"89.3",
-				"source":"9,8",
+				"source":"8,9",
 				"unit":"Mpc"
 			},
 			{
 				"value":"114",
-				"source":"10,8",
+				"source":"8,10",
 				"unit":"Mpc"
 			},
 			{
@@ -187,7 +194,7 @@
 			},
 			{
 				"value":"119",
-				"source":"12,8",
+				"source":"8,12",
 				"unit":"Mpc"
 			},
 			{
@@ -197,22 +204,22 @@
 			},
 			{
 				"value":"124",
-				"source":"14,8,15,16",
+				"source":"8,14,15,16",
 				"unit":"Mpc"
 			},
 			{
 				"value":"126",
-				"source":"17,8",
+				"source":"8,17",
 				"unit":"Mpc"
 			},
 			{
 				"value":"127",
-				"source":"18,8",
+				"source":"8,18",
 				"unit":"Mpc"
 			},
 			{
 				"value":"128",
-				"source":"12,8",
+				"source":"8,12",
 				"unit":"Mpc"
 			},
 			{
@@ -252,7 +259,7 @@
 			},
 			{
 				"value":"153",
-				"source":"24,8",
+				"source":"8,24",
 				"unit":"Mpc"
 			}
 		],
@@ -266,7 +273,7 @@
 		"discoverdate":[
 			{
 				"value":"1990/06/22",
-				"source":"5,6,7,26,1"
+				"source":"5,6,7,1"
 			}
 		],
 		"discoverer":[
@@ -289,7 +296,7 @@
 		"host":[
 			{
 				"value":"MCG +03-44-03",
-				"source":"1,4,6,7,26"
+				"source":"1,4,6,7"
 			},
 			{
 				"value":"PGC 59955",
@@ -332,25 +339,25 @@
 		"maxabsmag":[
 			{
 				"value":"-18.8",
-				"source":"D"
+				"source":"28"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"16.6",
-				"source":"D,2,3"
+				"source":"28,2,3"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"D,2,3"
+				"source":"28,2,3"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1990/07/04",
-				"source":"4,5,D,2,3"
+				"source":"4,5,28,2,3"
 			}
 		],
 		"ra":[
@@ -3847,7 +3854,7 @@
 						"0.202732"
 					]
 				],
-				"source":"26,1"
+				"source":"1"
 			},
 			{
 				"u_time":"MJD",
@@ -13353,7 +13360,7 @@
 						"1.071344279e-16"
 					]
 				],
-				"source":"27,2,8"
+				"source":"7,2,26"
 			},
 			{
 				"deredshifted":false,
@@ -19612,7 +19619,7 @@
 						"0.163498"
 					]
 				],
-				"source":"26,1"
+				"source":"1"
 			},
 			{
 				"deredshifted":false,
@@ -25871,7 +25878,7 @@
 						"0.0330825"
 					]
 				],
-				"source":"26,1"
+				"source":"1"
 			}
 		]
 	}

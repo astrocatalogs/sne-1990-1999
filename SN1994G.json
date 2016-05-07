@@ -1,13 +1,11 @@
 {
 	"SN1994G":{
 		"name":"SN1994G",
-		"aliases":[
-			"SN1994G"
-		],
 		"sources":[
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"1",
 				"secondary":true
 			},
@@ -55,9 +53,22 @@
 				"alias":"9"
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"10",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"10"
+				"alias":"11"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN1994G",
+				"source":"1,2,4,3,5"
 			}
 		],
 		"claimedtype":[
@@ -73,22 +84,22 @@
 		"comovingdist":[
 			{
 				"value":"875",
-				"source":"6,5",
+				"source":"5,6",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1000",
-				"source":"7,5",
+				"source":"5,7",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1280",
-				"source":"8,5",
+				"source":"5,8",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1370",
-				"source":"9,5",
+				"source":"5,9",
 				"unit":"Mpc"
 			}
 		],
@@ -124,7 +135,7 @@
 			{
 				"value":"0.0066",
 				"error":"0.0007",
-				"source":"10"
+				"source":"11"
 			}
 		],
 		"host":[
@@ -160,7 +171,7 @@
 		"lumdist":[
 			{
 				"value":"2410",
-				"source":"D",
+				"source":"10",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -168,25 +179,25 @@
 		"maxabsmag":[
 			{
 				"value":"-20.1",
-				"source":"D"
+				"source":"10"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"21.8",
-				"source":"D,2"
+				"source":"2,10"
 			}
 		],
 		"maxband":[
 			{
 				"value":"I",
-				"source":"D,2"
+				"source":"2,10"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1994/02/13",
-				"source":"D,2"
+				"source":"2,10"
 			}
 		],
 		"ra":[
@@ -206,7 +217,7 @@
 		"velocity":[
 			{
 				"value":"102000",
-				"source":"D",
+				"source":"10",
 				"kind":"host",
 				"unit":"km/s"
 			}

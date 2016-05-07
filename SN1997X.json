@@ -1,9 +1,6 @@
 {
 	"SN1997X":{
 		"name":"SN1997X",
-		"aliases":[
-			"SN1997X"
-		],
 		"sources":[
 			{
 				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
@@ -26,8 +23,9 @@
 				"alias":"4"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"5",
 				"secondary":true
 			},
@@ -49,8 +47,9 @@
 				"secondary":true
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"9",
 				"secondary":true
 			},
@@ -71,9 +70,22 @@
 				"secondary":true
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"13",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"13"
+				"alias":"14"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN1997X",
+				"source":"1,5,6,8,7,9,12"
 			}
 		],
 		"claimedtype":[
@@ -93,7 +105,7 @@
 		"comovingdist":[
 			{
 				"value":"16",
-				"source":"D",
+				"source":"13",
 				"unit":"Mpc"
 			}
 		],
@@ -124,7 +136,7 @@
 			{
 				"value":"0.0239",
 				"error":"0.0004",
-				"source":"13"
+				"source":"14"
 			}
 		],
 		"host":[
@@ -169,25 +181,25 @@
 		"maxabsmag":[
 			{
 				"value":"-14",
-				"source":"D"
+				"source":"13"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"14.73",
-				"source":"D,1,2"
+				"source":"1,2,13"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"D,1,2"
+				"source":"1,2,13"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1997/02/07",
-				"source":"D,1,2"
+				"source":"1,2,13"
 			}
 		],
 		"ra":[
@@ -365,7 +377,7 @@
 				"time":50483.0,
 				"filename":"sn1997X-19970204.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3898.4500",
@@ -10332,7 +10344,7 @@
 						"1.4668614"
 					]
 				],
-				"source":"12"
+				"source":"10,12"
 			},
 			{
 				"deredshifted":false,
@@ -10341,7 +10353,7 @@
 				"time":50485.0,
 				"filename":"sn1997X-19970206.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3700.0000",
@@ -20844,7 +20856,7 @@
 						"4.0824480"
 					]
 				],
-				"source":"12"
+				"source":"10,12"
 			},
 			{
 				"deredshifted":false,
@@ -20853,7 +20865,7 @@
 				"time":50488.0,
 				"filename":"sn1997X-19970209.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3700.0000",
@@ -31352,7 +31364,7 @@
 						"2.1872592"
 					]
 				],
-				"source":"12"
+				"source":"10,12"
 			},
 			{
 				"deredshifted":false,
@@ -31361,7 +31373,7 @@
 				"time":50490.0,
 				"filename":"sn1997X-19970211.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3867.5800",
@@ -41396,7 +41408,7 @@
 						"3.4964104"
 					]
 				],
-				"source":"12"
+				"source":"10,12"
 			},
 			{
 				"deredshifted":false,
@@ -41405,7 +41417,7 @@
 				"time":50493.0,
 				"filename":"sn1997X-19970214.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3700.0000",
@@ -51908,7 +51920,7 @@
 						"2.1676676"
 					]
 				],
-				"source":"12"
+				"source":"10,12"
 			},
 			{
 				"deredshifted":false,
@@ -51917,7 +51929,7 @@
 				"time":50509.0,
 				"filename":"sn1997X-19970302.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3700.0000",
@@ -62416,7 +62428,7 @@
 						"1.6409372"
 					]
 				],
-				"source":"12"
+				"source":"10,12"
 			}
 		]
 	}

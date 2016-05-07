@@ -1,9 +1,6 @@
 {
 	"SN1999ef":{
 		"name":"SN1999ef",
-		"aliases":[
-			"SN1999ef"
-		],
 		"sources":[
 			{
 				"name":"CfA Supernova Archive",
@@ -23,8 +20,9 @@
 				"secondary":true
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"4",
 				"secondary":true
 			},
@@ -97,8 +95,9 @@
 				"alias":"17"
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"18",
 				"secondary":true
 			},
@@ -108,9 +107,27 @@
 				"alias":"19"
 			},
 			{
+				"name":"Matheson et al. (2008)",
+				"bibcode":"2008AJ....135.1598M",
+				"alias":"20"
+			},
+			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"21",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"20"
+				"alias":"22"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN1999ef",
+				"source":"1,3,4,5,7,6,8,18"
 			}
 		],
 		"claimedtype":[
@@ -122,12 +139,12 @@
 		"comovingdist":[
 			{
 				"value":"123",
-				"source":"9,8",
+				"source":"8,9",
 				"unit":"Mpc"
 			},
 			{
 				"value":"162",
-				"source":"10,8",
+				"source":"8,10",
 				"unit":"Mpc"
 			},
 			{
@@ -142,7 +159,7 @@
 			},
 			{
 				"value":"193",
-				"source":"14,8",
+				"source":"8,14",
 				"unit":"Mpc"
 			},
 			{
@@ -152,22 +169,22 @@
 			},
 			{
 				"value":"201",
-				"source":"14,8",
+				"source":"8,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"207",
-				"source":"14,8",
+				"source":"8,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"208",
-				"source":"16,8",
+				"source":"8,16",
 				"unit":"Mpc"
 			},
 			{
 				"value":"224",
-				"source":"17,8",
+				"source":"8,17",
 				"unit":"Mpc"
 			}
 		],
@@ -203,7 +220,7 @@
 			{
 				"value":"0.0728",
 				"error":"0.0017",
-				"source":"20"
+				"source":"22"
 			}
 		],
 		"host":[
@@ -248,19 +265,19 @@
 		"maxabsmag":[
 			{
 				"value":"-18.3",
-				"source":"D"
+				"source":"21"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.72",
-				"source":"D,1,2"
+				"source":"21,1,2"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"D,1,2"
+				"source":"21,1,2"
 			}
 		],
 		"maxdate":[
@@ -13478,7 +13495,7 @@
 						"1.4221285e-17"
 					]
 				],
-				"source":"1"
+				"source":"1,19,20"
 			},
 			{
 				"deredshifted":false,
@@ -26232,7 +26249,7 @@
 						"1.1559495e-17"
 					]
 				],
-				"source":"1"
+				"source":"1,19,20"
 			},
 			{
 				"deredshifted":false,
@@ -38986,7 +39003,7 @@
 						"1.263783e-17"
 					]
 				],
-				"source":"1"
+				"source":"1,19,20"
 			}
 		]
 	}

@@ -1,9 +1,6 @@
 {
 	"SN1990af":{
 		"name":"SN1990af",
-		"aliases":[
-			"SN1990af"
-		],
 		"sources":[
 			{
 				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
@@ -17,8 +14,9 @@
 				"alias":"2"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"3",
 				"secondary":true
 			},
@@ -151,9 +149,22 @@
 				"alias":"28"
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"29",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"29"
+				"alias":"30"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN1990af",
+				"source":"1,3,4,6,5,7"
 			}
 		],
 		"claimedtype":[
@@ -170,12 +181,12 @@
 			},
 			{
 				"value":"190",
-				"source":"9,7",
+				"source":"7,9",
 				"unit":"Mpc"
 			},
 			{
 				"value":"193",
-				"source":"10,7",
+				"source":"7,10",
 				"unit":"Mpc"
 			},
 			{
@@ -185,12 +196,12 @@
 			},
 			{
 				"value":"199",
-				"source":"12,7,13",
+				"source":"7,12,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"200",
-				"source":"14,7",
+				"source":"7,14",
 				"unit":"Mpc"
 			},
 			{
@@ -200,17 +211,17 @@
 			},
 			{
 				"value":"203",
-				"source":"16,7,13",
+				"source":"7,16,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"205",
-				"source":"10,7",
+				"source":"7,10",
 				"unit":"Mpc"
 			},
 			{
 				"value":"207",
-				"source":"17,7,18",
+				"source":"7,17,18",
 				"unit":"Mpc"
 			},
 			{
@@ -250,27 +261,27 @@
 			},
 			{
 				"value":"227",
-				"source":"17,7",
+				"source":"7,17",
 				"unit":"Mpc"
 			},
 			{
 				"value":"237",
-				"source":"24,7",
+				"source":"7,24",
 				"unit":"Mpc"
 			},
 			{
 				"value":"242",
-				"source":"12,7",
+				"source":"7,12",
 				"unit":"Mpc"
 			},
 			{
 				"value":"249",
-				"source":"25,7",
+				"source":"7,25",
 				"unit":"Mpc"
 			},
 			{
 				"value":"263",
-				"source":"26,7",
+				"source":"7,26",
 				"unit":"Mpc"
 			},
 			{
@@ -280,12 +291,12 @@
 			},
 			{
 				"value":"267",
-				"source":"26,7",
+				"source":"7,26",
 				"unit":"Mpc"
 			},
 			{
 				"value":"281",
-				"source":"28,7",
+				"source":"7,28",
 				"unit":"Mpc"
 			}
 		],
@@ -316,7 +327,7 @@
 			{
 				"value":"0.0302",
 				"error":"0.0009",
-				"source":"29"
+				"source":"30"
 			}
 		],
 		"host":[
@@ -356,7 +367,7 @@
 		"lumdist":[
 			{
 				"value":"230",
-				"source":"D",
+				"source":"29",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -364,19 +375,19 @@
 		"maxabsmag":[
 			{
 				"value":"-19",
-				"source":"D"
+				"source":"29"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.91",
-				"source":"D,1,2"
+				"source":"1,2,29"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"D,1,2"
+				"source":"1,2,29"
 			}
 		],
 		"maxdate":[

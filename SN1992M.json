@@ -1,9 +1,6 @@
 {
 	"SN1992M":{
 		"name":"SN1992M",
-		"aliases":[
-			"SN1992M"
-		],
 		"sources":[
 			{
 				"name":"Silverman et al. (2012)",
@@ -11,8 +8,9 @@
 				"alias":"1"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"2",
 				"secondary":true
 			},
@@ -34,8 +32,9 @@
 				"secondary":true
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
-				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
 				"alias":"6",
 				"secondary":true
 			},
@@ -45,16 +44,22 @@
 				"alias":"7"
 			}
 		],
+		"alias":[
+			{
+				"value":"SN1992M",
+				"source":"1,2,3,5,4"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,4,5,6,1"
+				"source":"2,3,5,4,1"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"227.33",
-				"source":"D",
+				"source":"6",
 				"unit":"Mpc"
 			}
 		],
@@ -71,14 +76,14 @@
 			},
 			{
 				"value":"+45:25:50.0",
-				"source":"4,5",
+				"source":"5,4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1992/02/25",
-				"source":"2,3,4,5,6,1"
+				"source":"2,3,5,4,1"
 			}
 		],
 		"discoverer":[
@@ -88,7 +93,7 @@
 			},
 			{
 				"value":"Jean Mueller",
-				"source":"4,5"
+				"source":"5,4"
 			}
 		],
 		"ebv":[
@@ -113,7 +118,7 @@
 			},
 			{
 				"value":"*2MASX J07150996+4525556",
-				"source":"6,1"
+				"source":"1"
 			}
 		],
 		"hostdec":[
@@ -143,7 +148,7 @@
 		"lumdist":[
 			{
 				"value":"239.15",
-				"source":"D",
+				"source":"6",
 				"kind":"heliocentric",
 				"unit":"Mpc"
 			}
@@ -151,19 +156,19 @@
 		"maxabsmag":[
 			{
 				"value":"-18.893",
-				"source":"D"
+				"source":"6"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18",
-				"source":"D,4,5"
+				"source":"5,4,6"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1992/02/24",
-				"source":"D,4,5"
+				"source":"5,4,6"
 			}
 		],
 		"ra":[
@@ -174,7 +179,7 @@
 			},
 			{
 				"value":"07:15:09.6",
-				"source":"4,5",
+				"source":"5,4",
 				"unit":"hours"
 			}
 		],
@@ -188,7 +193,7 @@
 		"velocity":[
 			{
 				"value":"15184",
-				"source":"D",
+				"source":"6",
 				"kind":"heliocentric",
 				"unit":"km/s"
 			}
@@ -198,7 +203,7 @@
 				"time":"48676.5",
 				"u_time":"MJD",
 				"magnitude":"18.0",
-				"source":"4,5"
+				"source":"5,4"
 			},
 			{
 				"time":"48677.0",
@@ -3914,7 +3919,7 @@
 						"0.120326"
 					]
 				],
-				"source":"6,1"
+				"source":"1"
 			},
 			{
 				"deredshifted":false,
@@ -8133,7 +8138,7 @@
 						"0.146047"
 					]
 				],
-				"source":"6,1"
+				"source":"1"
 			}
 		]
 	}

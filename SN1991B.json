@@ -1,9 +1,6 @@
 {
 	"SN1991B":{
 		"name":"SN1991B",
-		"aliases":[
-			"SN1991B"
-		],
 		"sources":[
 			{
 				"name":"Silverman et al. (2012)",
@@ -11,8 +8,9 @@
 				"alias":"1"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"2",
 				"secondary":true
 			},
@@ -34,27 +32,30 @@
 				"secondary":true
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"6",
 				"secondary":true
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
-				"url":"http://heracles.astro.berkeley.edu/sndb/info",
-				"alias":"7",
-				"secondary":true
-			},
-			{
-				"name":"SUSPECT",
+				"name":"Richardson et al. (2001)",
 				"url":"https://www.nhn.ou.edu/~suspect/",
-				"alias":"8",
+				"bibcode":"2001AAS...199.8408R",
+				"alias":"7",
 				"secondary":true
 			},
 			{
 				"name":"López et al. (1991)",
 				"bibcode":"1991ESOC...37..721L",
-				"alias":"9"
+				"alias":"8"
+			},
+			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"9",
+				"secondary":true
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
@@ -62,20 +63,26 @@
 				"alias":"10"
 			}
 		],
+		"alias":[
+			{
+				"value":"SN1991B",
+				"source":"1,2,3,5,4,6,7"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,4,5,7,1"
+				"source":"2,3,5,4,1"
 			},
 			{
 				"value":"Ia-99aa",
-				"source":"7,1"
+				"source":"1"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"37.89",
-				"source":"D",
+				"source":"9",
 				"unit":"Mpc"
 			}
 		],
@@ -87,14 +94,14 @@
 			},
 			{
 				"value":"-06:04:21.0",
-				"source":"4,5",
+				"source":"5,4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1991/01/11",
-				"source":"2,4,5,7,1"
+				"source":"2,5,4,1"
 			}
 		],
 		"discoverer":[
@@ -104,7 +111,7 @@
 			},
 			{
 				"value":"Saul Perlmutter",
-				"source":"4,5"
+				"source":"5,4"
 			}
 		],
 		"ebv":[
@@ -117,7 +124,7 @@
 		"host":[
 			{
 				"value":"NGC 5426",
-				"source":"1,2,3,4,5,7"
+				"source":"1,2,3,5,4"
 			}
 		],
 		"hostdec":[
@@ -156,25 +163,25 @@
 		"maxabsmag":[
 			{
 				"value":"-17",
-				"source":"D"
+				"source":"9"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"16",
-				"source":"D,3"
+				"source":"3,9"
 			}
 		],
 		"maxband":[
 			{
 				"value":"V",
-				"source":"D,3"
+				"source":"3,9"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1990/12/23",
-				"source":"D,3"
+				"source":"3,9"
 			}
 		],
 		"ra":[
@@ -185,7 +192,7 @@
 			},
 			{
 				"value":"14:03:24.4",
-				"source":"4,5",
+				"source":"5,4",
 				"unit":"hours"
 			}
 		],
@@ -216,7 +223,7 @@
 				"time":"48266.5",
 				"u_time":"MJD",
 				"magnitude":"16.0",
-				"source":"4,5"
+				"source":"5,4"
 			}
 		],
 		"spectra":[
@@ -6477,7 +6484,7 @@
 						"0.947927"
 					]
 				],
-				"source":"7,1"
+				"source":"1"
 			},
 			{
 				"deredshifted":false,
@@ -18296,7 +18303,7 @@
 						"0.244920"
 					]
 				],
-				"source":"7,1"
+				"source":"1"
 			},
 			{
 				"deredshifted":false,
@@ -24555,7 +24562,7 @@
 						"0.0830215"
 					]
 				],
-				"source":"7,1"
+				"source":"1"
 			},
 			{
 				"u_time":"MJD",
@@ -85289,7 +85296,7 @@
 						"3.784397294e-17"
 					]
 				],
-				"source":"8,9"
+				"source":"7,8"
 			},
 			{
 				"u_time":"MJD",
@@ -100863,7 +100870,7 @@
 						"4.208046778e-17"
 					]
 				],
-				"source":"8,9"
+				"source":"7,8"
 			}
 		]
 	}

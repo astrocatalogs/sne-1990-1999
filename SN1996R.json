@@ -1,13 +1,11 @@
 {
 	"SN1996R":{
 		"name":"SN1996R",
-		"aliases":[
-			"SN1996R"
-		],
 		"sources":[
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"1",
 				"secondary":true
 			},
@@ -50,9 +48,22 @@
 				"alias":"8"
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"9",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"9"
+				"alias":"10"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN1996R",
+				"source":"1,2,4,3,5"
 			}
 		],
 		"claimedtype":[
@@ -64,12 +75,12 @@
 		"comovingdist":[
 			{
 				"value":"493",
-				"source":"6,5",
+				"source":"5,6",
 				"unit":"Mpc"
 			},
 			{
 				"value":"566",
-				"source":"7,5,8",
+				"source":"5,7,8",
 				"unit":"Mpc"
 			}
 		],
@@ -100,7 +111,7 @@
 			{
 				"value":"0.0516",
 				"error":"0.001",
-				"source":"9"
+				"source":"10"
 			}
 		],
 		"host":[
@@ -140,7 +151,7 @@
 		"lumdist":[
 			{
 				"value":"740",
-				"source":"D",
+				"source":"9",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -148,25 +159,25 @@
 		"maxabsmag":[
 			{
 				"value":"-19",
-				"source":"D"
+				"source":"9"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"20.6",
-				"source":"D,2"
+				"source":"2,9"
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
-				"source":"D,2"
+				"source":"2,9"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1996/03/15",
-				"source":"D,2"
+				"source":"2,9"
 			}
 		],
 		"ra":[
@@ -186,7 +197,7 @@
 		"velocity":[
 			{
 				"value":"42000",
-				"source":"D",
+				"source":"9",
 				"kind":"host",
 				"unit":"km/s"
 			}

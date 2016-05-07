@@ -1,129 +1,143 @@
 {
 	"SN1999gl":{
 		"name":"SN1999gl",
-		"aliases":[
-			"SN1999gl"
-		],
 		"sources":[
 			{
-				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
-				"url":"http://dau.itep.ru/sn/node/72",
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
 				"alias":"1",
 				"secondary":true
 			},
 			{
-				"name":"VSNET 2001",
-				"alias":"2"
+				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
+				"url":"http://dau.itep.ru/sn/node/72",
+				"alias":"2",
+				"secondary":true
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"VSNET 2001",
+				"alias":"3"
+			},
+			{
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"3",
+				"bibcode":"1989A&AS...81..421B",
+				"alias":"4",
 				"secondary":true
 			},
 			{
 				"name":"Lennarz, Altmann, & Wiebusch (2012)",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
+				"alias":"5"
 			},
 			{
 				"name":"Bremer et al. (1999)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07300/07333.html#Item1",
 				"bibcode":"1999IAUC.7333....3B",
-				"alias":"5"
+				"alias":"6"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"6",
+				"alias":"7",
 				"secondary":true
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"7"
+				"alias":"8"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN1999gl",
+				"source":"2,4,5,7,6"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"3,4,5,6"
+				"source":"4,5,6,7"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"79",
-				"source":"D",
+				"source":"1",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"+43:47:35.6",
-				"source":"3,4,5,6",
+				"source":"4,5,6,7",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1999/12/14",
-				"source":"3,4,5,6"
+				"source":"4,5,6,7"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Boles",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"value":"Tom Boles",
-				"source":"5,6"
+				"source":"6,7"
 			}
 		],
 		"distinctfrom":[
-			"SN2014dj"
+			{
+				"value":"SN2014dj",
+				"source":"1"
+			}
 		],
 		"ebv":[
 			{
 				"value":"0.0689",
 				"error":"0.0005",
-				"source":"7"
+				"source":"8"
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 317B",
-				"source":"3,4,5,6"
+				"source":"4,5,6,7"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+43:47:31",
-				"source":"3",
+				"source":"4",
 				"unit":"degrees"
 			},
 			{
 				"value":"+43:47:32.6",
-				"source":"4",
+				"source":"5",
 				"unit":"degrees"
 			}
 		],
 		"hostra":[
 			{
 				"value":"00:57:40",
-				"source":"3",
+				"source":"4",
 				"unit":"hours"
 			},
 			{
 				"value":"00:57:41.67",
-				"source":"4",
+				"source":"5",
 				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"81",
-				"source":"D",
+				"source":"1",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -131,45 +145,45 @@
 		"maxabsmag":[
 			{
 				"value":"-17",
-				"source":"D"
+				"source":"1"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.41",
-				"source":"D,1,2"
+				"source":"1,2,3"
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
-				"source":"D,1,2"
+				"source":"1,2,3"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1999/12/20",
-				"source":"D,1,2"
+				"source":"1,2,3"
 			}
 		],
 		"ra":[
 			{
 				"value":"00:57:40.07",
-				"source":"3,4,5,6",
+				"source":"4,5,6,7",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.018",
-				"source":"4,5,6",
+				"source":"5,6,7",
 				"kind":"host"
 			}
 		],
 		"velocity":[
 			{
 				"value":"5083",
-				"source":"3",
+				"source":"4",
 				"kind":"host",
 				"unit":"km/s"
 			}
@@ -179,28 +193,28 @@
 				"time":"51532.5",
 				"u_time":"MJD",
 				"magnitude":"16.2",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"51532.95",
 				"u_time":"MJD",
 				"band":"R",
 				"magnitude":"17.41",
-				"source":"1,2"
+				"source":"2,3"
 			},
 			{
 				"time":"51543.79",
 				"u_time":"MJD",
 				"band":"C",
 				"magnitude":"17.8",
-				"source":"1,2"
+				"source":"2,3"
 			},
 			{
 				"time":"51571.77",
 				"u_time":"MJD",
 				"band":"R",
 				"magnitude":"17.9",
-				"source":"1,2"
+				"source":"2,3"
 			}
 		]
 	}

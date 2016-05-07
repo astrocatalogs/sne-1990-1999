@@ -1,9 +1,6 @@
 {
 	"SN1999eu":{
 		"name":"SN1999eu",
-		"aliases":[
-			"SN1999eu"
-		],
 		"sources":[
 			{
 				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
@@ -21,8 +18,9 @@
 				"alias":"3"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"4",
 				"secondary":true
 			},
@@ -44,37 +42,52 @@
 				"secondary":true
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"8",
 				"secondary":true
 			},
 			{
-				"name":"SUSPECT",
+				"name":"Richardson et al. (2001)",
 				"url":"https://www.nhn.ou.edu/~suspect/",
+				"bibcode":"2001AAS...199.8408R",
 				"alias":"9",
+				"secondary":true
+			},
+			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"10",
 				"secondary":true
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"10"
+				"alias":"11"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN1999eu",
+				"source":"1,4,5,7,6,8,9"
 			}
 		],
 		"claimedtype":[
 			{
-				"value":"II",
-				"source":"5"
-			},
-			{
 				"value":"II P",
 				"source":"4,6,7,8"
+			},
+			{
+				"value":"II",
+				"source":"5"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"18.8",
-				"source":"D",
+				"source":"10",
 				"unit":"Mpc"
 			}
 		],
@@ -105,7 +118,7 @@
 			{
 				"value":"0.0221",
 				"error":"0.001",
-				"source":"10"
+				"source":"11"
 			}
 		],
 		"host":[
@@ -150,25 +163,25 @@
 		"maxabsmag":[
 			{
 				"value":"-13",
-				"source":"D"
+				"source":"10"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.84",
-				"source":"D,1,2"
+				"source":"1,2,10"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"D,1,2"
+				"source":"1,2,10"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1999/11/10",
-				"source":"D,1,2"
+				"source":"1,2,10"
 			}
 		],
 		"ra":[
@@ -8359,7 +8372,7 @@
 						"7.276955709e-143"
 					]
 				],
-				"source":"9,2"
+				"source":"2,9"
 			},
 			{
 				"u_time":"MJD",
@@ -12449,7 +12462,7 @@
 						"2.953571329e-16"
 					]
 				],
-				"source":"9,2"
+				"source":"2,9"
 			},
 			{
 				"u_time":"MJD",
@@ -19279,7 +19292,7 @@
 						"2.618210604e-17"
 					]
 				],
-				"source":"9,2"
+				"source":"2,9"
 			},
 			{
 				"u_time":"MJD",
@@ -23333,7 +23346,7 @@
 						"1.491593422e-17"
 					]
 				],
-				"source":"9,2"
+				"source":"2,9"
 			}
 		]
 	}

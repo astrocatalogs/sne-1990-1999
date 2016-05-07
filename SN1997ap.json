@@ -1,13 +1,11 @@
 {
 	"SN1997ap":{
 		"name":"SN1997ap",
-		"aliases":[
-			"SN1997ap"
-		],
 		"sources":[
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"1",
 				"secondary":true
 			},
@@ -70,9 +68,22 @@
 				"alias":"12"
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"13",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"13"
+				"alias":"14"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN1997ap",
+				"source":"1,2,4,3,5"
 			}
 		],
 		"claimedtype":[
@@ -84,37 +95,37 @@
 		"comovingdist":[
 			{
 				"value":"1910",
-				"source":"6,5",
+				"source":"5,6",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2010",
-				"source":"7,5",
+				"source":"5,7",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2730",
-				"source":"8,5",
+				"source":"5,8",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2930",
-				"source":"9,5",
+				"source":"5,9",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2960",
-				"source":"10,5",
+				"source":"5,10",
 				"unit":"Mpc"
 			},
 			{
 				"value":"3220",
-				"source":"11,5",
+				"source":"5,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"5420",
-				"source":"12,5",
+				"source":"5,12",
 				"unit":"Mpc"
 			}
 		],
@@ -145,7 +156,7 @@
 			{
 				"value":"0.0222",
 				"error":"0.0005",
-				"source":"13"
+				"source":"14"
 			}
 		],
 		"host":[
@@ -181,7 +192,7 @@
 		"lumdist":[
 			{
 				"value":"5400",
-				"source":"D",
+				"source":"13",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -189,19 +200,19 @@
 		"maxabsmag":[
 			{
 				"value":"-19",
-				"source":"D"
+				"source":"13"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"24.2",
-				"source":"D,2"
+				"source":"13,2"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1997/03/05",
-				"source":"D,2"
+				"source":"13,2"
 			}
 		],
 		"ra":[
@@ -221,7 +232,7 @@
 		"velocity":[
 			{
 				"value":"160000",
-				"source":"D",
+				"source":"13",
 				"kind":"host",
 				"unit":"km/s"
 			}

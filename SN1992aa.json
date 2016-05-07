@@ -1,13 +1,11 @@
 {
 	"SN1992aa":{
 		"name":"SN1992aa",
-		"aliases":[
-			"SN1992aa"
-		],
 		"sources":[
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"1",
 				"secondary":true
 			},
@@ -29,8 +27,9 @@
 				"secondary":true
 			},
 			{
-				"name":"SUSPECT",
+				"name":"Richardson et al. (2001)",
 				"url":"https://www.nhn.ou.edu/~suspect/",
+				"bibcode":"2001AAS...199.8408R",
 				"alias":"5",
 				"secondary":true
 			},
@@ -40,9 +39,22 @@
 				"alias":"6"
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"7",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"7"
+				"alias":"8"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN1992aa",
+				"source":"1,2,4,3,5"
 			}
 		],
 		"claimedtype":[
@@ -54,7 +66,7 @@
 		"comovingdist":[
 			{
 				"value":"140",
-				"source":"D",
+				"source":"7",
 				"unit":"Mpc"
 			}
 		],
@@ -95,7 +107,7 @@
 			{
 				"value":"0.042",
 				"error":"0.0021",
-				"source":"7"
+				"source":"8"
 			}
 		],
 		"host":[
@@ -131,7 +143,7 @@
 		"lumdist":[
 			{
 				"value":"150",
-				"source":"D",
+				"source":"7",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -139,25 +151,25 @@
 		"maxabsmag":[
 			{
 				"value":"-18",
-				"source":"D"
+				"source":"7"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18",
-				"source":"D,2"
+				"source":"7,2"
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
-				"source":"D,2"
+				"source":"7,2"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1992/05/10",
-				"source":"D,2"
+				"source":"7,2"
 			}
 		],
 		"ra":[

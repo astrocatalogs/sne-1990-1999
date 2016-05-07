@@ -1,9 +1,6 @@
 {
 	"SN1991O":{
 		"name":"SN1991O",
-		"aliases":[
-			"SN1991O"
-		],
 		"sources":[
 			{
 				"name":"Silverman et al. (2012)",
@@ -11,8 +8,9 @@
 				"alias":"1"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"2",
 				"secondary":true
 			},
@@ -34,14 +32,16 @@
 				"secondary":true
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"6",
 				"secondary":true
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
-				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
 				"alias":"7",
 				"secondary":true
 			},
@@ -51,14 +51,20 @@
 				"alias":"8"
 			}
 		],
+		"alias":[
+			{
+				"value":"SN1991O",
+				"source":"1,2,3,5,4,6"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,4,5,6"
+				"source":"2,3,5,4,6"
 			},
 			{
 				"value":"Ia-91bg",
-				"source":"7,1"
+				"source":"1"
 			}
 		],
 		"dec":[
@@ -74,14 +80,14 @@
 			},
 			{
 				"value":"+65:45:36.7",
-				"source":"4,5",
+				"source":"5,4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1991/03/18",
-				"source":"2,3,4,5,7,1"
+				"source":"2,3,5,4,1"
 			}
 		],
 		"discoverer":[
@@ -91,7 +97,7 @@
 			},
 			{
 				"value":"Jean Mueller",
-				"source":"4,5"
+				"source":"5,4"
 			}
 		],
 		"ebv":[
@@ -104,7 +110,7 @@
 		"host":[
 			{
 				"value":"2MASX J14243792+6545294",
-				"source":"1,7"
+				"source":"1"
 			},
 			{
 				"value":"A142439+6545",
@@ -142,19 +148,19 @@
 		"maxappmag":[
 			{
 				"value":"18",
-				"source":"D,3"
+				"source":"3,7"
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
-				"source":"D,3"
+				"source":"3,7"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1991/03/18",
-				"source":"D,3"
+				"source":"3,7"
 			}
 		],
 		"ra":[
@@ -165,7 +171,7 @@
 			},
 			{
 				"value":"14:24:40.00",
-				"source":"4,5",
+				"source":"5,4",
 				"unit":"hours"
 			}
 		],
@@ -174,7 +180,7 @@
 				"time":"48332.5",
 				"u_time":"MJD",
 				"magnitude":"18.0",
-				"source":"4,5"
+				"source":"5,4"
 			},
 			{
 				"time":"48333.0",
@@ -3282,7 +3288,7 @@
 						"0.169517"
 					]
 				],
-				"source":"7,1"
+				"source":"1"
 			}
 		]
 	}

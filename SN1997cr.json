@@ -1,9 +1,6 @@
 {
 	"SN1997cr":{
 		"name":"SN1997cr",
-		"aliases":[
-			"SN1997cr"
-		],
 		"sources":[
 			{
 				"name":"Germany et al. (2004)",
@@ -11,8 +8,9 @@
 				"alias":"1"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"2",
 				"secondary":true
 			},
@@ -34,28 +32,41 @@
 				"secondary":true
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"6",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"6"
+				"alias":"7"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN1997cr",
+				"source":"1,2,3,5,4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"1,2,3,4,5"
+				"source":"1,2,3,5,4"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"330",
-				"source":"D",
+				"source":"6",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"-25:13:29.8",
-				"source":"1,2,3,4,5",
+				"source":"1,2,3,5,4",
 				"unit":"degrees"
 			}
 		],
@@ -72,14 +83,14 @@
 			},
 			{
 				"value":"Mount Stromlo",
-				"source":"4,5"
+				"source":"5,4"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0615",
 				"error":"0.0008",
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"host":[
@@ -119,7 +130,7 @@
 		"lumdist":[
 			{
 				"value":"360",
-				"source":"D",
+				"source":"6",
 				"kind":"spectroscopic",
 				"unit":"Mpc"
 			}
@@ -127,38 +138,38 @@
 		"maxabsmag":[
 			{
 				"value":"-17",
-				"source":"D"
+				"source":"6"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"20.55",
-				"source":"D,1"
+				"source":"1,6"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"D,1"
+				"source":"1,6"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1997/06/10",
-				"source":"D,1"
+				"source":"1,6"
 			}
 		],
 		"ra":[
 			{
 				"value":"21:05:48.21",
-				"source":"1,2,3,4,5",
+				"source":"1,2,3,5,4",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.077",
-				"source":"1,4,5",
+				"source":"1,5,4",
 				"kind":"spectroscopic"
 			}
 		],
@@ -208,7 +219,7 @@
 				"time":"50605.5",
 				"u_time":"MJD",
 				"magnitude":"20.4",
-				"source":"4,5"
+				"source":"5,4"
 			},
 			{
 				"time":"50606.30",

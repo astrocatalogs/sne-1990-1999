@@ -1,9 +1,6 @@
 {
 	"SN1999E":{
 		"name":"SN1999E",
-		"aliases":[
-			"SN1999E"
-		],
 		"sources":[
 			{
 				"name":"Chomiuk et al. (2016)",
@@ -11,8 +8,9 @@
 				"alias":"1"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"2",
 				"secondary":true
 			},
@@ -34,8 +32,9 @@
 				"secondary":true
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"6",
 				"secondary":true
 			},
@@ -48,40 +47,53 @@
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
 				"alias":"8"
+			},
+			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"9",
+				"secondary":true
+			}
+		],
+		"alias":[
+			{
+				"value":"SN1999E",
+				"source":"1,2,3,5,4,6"
 			}
 		],
 		"claimedtype":[
+			{
+				"value":"IIn",
+				"source":"2,6"
+			},
 			{
 				"value":"II",
 				"source":"3"
 			},
 			{
 				"value":"IIn P",
-				"source":"4,5"
-			},
-			{
-				"value":"IIn",
-				"source":"2,6"
+				"source":"5,4"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"113",
-				"source":"D",
+				"source":"9",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"-18:33:13.4",
-				"source":"2,3,4,5",
+				"source":"2,3,5,4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1999/01/15",
-				"source":"2,3,4,5"
+				"source":"2,3,5,4"
 			}
 		],
 		"discoverer":[
@@ -91,7 +103,7 @@
 			},
 			{
 				"value":"Roberto Antezana",
-				"source":"4,5"
+				"source":"5,4"
 			}
 		],
 		"ebv":[
@@ -112,7 +124,7 @@
 			},
 			{
 				"value":"IRAS 13145-1817",
-				"source":"4,5"
+				"source":"5,4"
 			}
 		],
 		"hostdec":[
@@ -142,14 +154,14 @@
 		"lumdist":[
 			{
 				"value":"116",
-				"source":"D",
+				"source":"9",
 				"unit":"Mpc"
 			}
 		],
 		"ra":[
 			{
 				"value":"13:17:16.37",
-				"source":"2,3,4,5",
+				"source":"2,3,5,4",
 				"unit":"hours"
 			}
 		],

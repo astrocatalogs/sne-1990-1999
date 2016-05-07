@@ -1,9 +1,6 @@
 {
 	"SN1998cm":{
 		"name":"SN1998cm",
-		"aliases":[
-			"SN1998cm"
-		],
 		"sources":[
 			{
 				"name":"Germany et al. (2004)",
@@ -16,8 +13,9 @@
 				"alias":"2"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"3",
 				"secondary":true
 			},
@@ -39,14 +37,16 @@
 				"secondary":true
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"7",
 				"secondary":true
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
-				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
 				"alias":"8",
 				"secondary":true
 			},
@@ -56,20 +56,26 @@
 				"alias":"9"
 			}
 		],
+		"alias":[
+			{
+				"value":"SN1998cm",
+				"source":"1,2,3,4,6,5,7"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,3,4,5,6,7,8,2"
+				"source":"1,3,4,5,6,7,2"
 			},
 			{
 				"value":"Ia-91T",
-				"source":"8,2"
+				"source":"2"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"347.39",
-				"source":"D",
+				"source":"8",
 				"unit":"Mpc"
 			}
 		],
@@ -83,7 +89,7 @@
 		"discoverdate":[
 			{
 				"value":"1998/06/10",
-				"source":"1,3,4,5,6,8,2"
+				"source":"1,3,4,5,6,2"
 			}
 		],
 		"discoverer":[
@@ -110,7 +116,7 @@
 			},
 			{
 				"value":"MSACSS J134412.96+030039.9",
-				"source":"2,8"
+				"source":"2"
 			},
 			{
 				"value":"A134412+0300",
@@ -144,7 +150,7 @@
 		"lumdist":[
 			{
 				"value":"375.18",
-				"source":"D",
+				"source":"8",
 				"kind":"heliocentric",
 				"unit":"Mpc"
 			}
@@ -152,25 +158,25 @@
 		"maxabsmag":[
 			{
 				"value":"-19.551",
-				"source":"D"
+				"source":"8"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.32",
-				"source":"D,1"
+				"source":"1,8"
 			}
 		],
 		"maxband":[
 			{
 				"value":"RM",
-				"source":"D,1"
+				"source":"1,8"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1998/06/14",
-				"source":"D,1"
+				"source":"1,8"
 			}
 		],
 		"ra":[
@@ -5578,7 +5584,7 @@
 						"-0.113198"
 					]
 				],
-				"source":"8,2"
+				"source":"2"
 			}
 		]
 	}

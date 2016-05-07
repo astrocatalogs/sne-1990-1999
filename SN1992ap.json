@@ -1,9 +1,6 @@
 {
 	"SN1992ap":{
 		"name":"SN1992ap",
-		"aliases":[
-			"SN1992ap"
-		],
 		"sources":[
 			{
 				"name":"Silverman et al. (2012)",
@@ -11,8 +8,9 @@
 				"alias":"1"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"2",
 				"secondary":true
 			},
@@ -34,8 +32,9 @@
 				"secondary":true
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
-				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
 				"alias":"6",
 				"secondary":true
 			},
@@ -45,16 +44,22 @@
 				"alias":"7"
 			}
 		],
+		"alias":[
+			{
+				"value":"SN1992ap",
+				"source":"1,2,3,5,4"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,4,5,6,1"
+				"source":"2,3,5,4,1"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"131.3",
-				"source":"D",
+				"source":"6",
 				"unit":"Mpc"
 			}
 		],
@@ -66,20 +71,20 @@
 			},
 			{
 				"value":"+41:29:00.0",
-				"source":"4,5",
+				"source":"5,4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1992/07/29",
-				"source":"2,3,4,5,6,1"
+				"source":"2,3,5,4,1"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Birkle",
-				"source":"2,4,5"
+				"source":"2,5,4"
 			}
 		],
 		"ebv":[
@@ -92,7 +97,7 @@
 		"host":[
 			{
 				"value":"UGC 10430",
-				"source":"1,2,3,4,5,6"
+				"source":"1,2,3,5,4"
 			}
 		],
 		"hostdec":[
@@ -122,7 +127,7 @@
 		"lumdist":[
 			{
 				"value":"135.2",
-				"source":"D",
+				"source":"6",
 				"kind":"heliocentric",
 				"unit":"Mpc"
 			}
@@ -130,25 +135,25 @@
 		"maxabsmag":[
 			{
 				"value":"-17.66",
-				"source":"D"
+				"source":"6"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18",
-				"source":"D,3"
+				"source":"3,6"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"D,3"
+				"source":"3,6"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1992/07/29",
-				"source":"D,3"
+				"source":"3,6"
 			}
 		],
 		"ra":[
@@ -159,7 +164,7 @@
 			},
 			{
 				"value":"16:30:30.00",
-				"source":"4,5",
+				"source":"5,4",
 				"unit":"hours"
 			}
 		],
@@ -183,7 +188,7 @@
 				"time":"48831.5",
 				"u_time":"MJD",
 				"magnitude":"18.0",
-				"source":"4,5"
+				"source":"5,4"
 			},
 			{
 				"time":"48832.0",
@@ -5779,7 +5784,7 @@
 						"0.268568"
 					]
 				],
-				"source":"6,1"
+				"source":"1"
 			}
 		]
 	}

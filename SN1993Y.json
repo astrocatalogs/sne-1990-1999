@@ -1,9 +1,6 @@
 {
 	"SN1993Y":{
 		"name":"SN1993Y",
-		"aliases":[
-			"SN1993Y"
-		],
 		"sources":[
 			{
 				"name":"Silverman et al. (2012)",
@@ -28,8 +25,9 @@
 				"secondary":true
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"5",
 				"secondary":true
 			},
@@ -51,14 +49,16 @@
 				"secondary":true
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"9",
 				"secondary":true
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
-				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
 				"alias":"10",
 				"secondary":true
 			},
@@ -68,16 +68,22 @@
 				"alias":"11"
 			}
 		],
+		"alias":[
+			{
+				"value":"SN1993Y",
+				"source":"1,3,4,5,6,8,7,9"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"3,5,6,7,8,9,10,1"
+				"source":"3,5,6,7,8,9,1"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"88.01",
-				"source":"D",
+				"source":"10",
 				"unit":"Mpc"
 			}
 		],
@@ -101,7 +107,7 @@
 		"discoverdate":[
 			{
 				"value":"1993/09/18",
-				"source":"5,6,7,8,10,1"
+				"source":"5,6,7,8,1"
 			}
 		],
 		"discoverer":[
@@ -124,7 +130,7 @@
 		"host":[
 			{
 				"value":"UGC 2771",
-				"source":"1,3,5,6,7,8,10"
+				"source":"1,3,5,6,7,8"
 			}
 		],
 		"hostdec":[
@@ -154,32 +160,32 @@
 		"lumdist":[
 			{
 				"value":"89.77",
-				"source":"D",
+				"source":"10",
 				"unit":"Mpc"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-15.63",
-				"source":"D"
+				"source":"10"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19.14",
-				"source":"D,3,2"
+				"source":"3,2,10"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"D,3,2"
+				"source":"3,2,10"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1993/10/18",
-				"source":"D,3,2"
+				"source":"3,2,10"
 			}
 		],
 		"ra":[
@@ -14681,7 +14687,7 @@
 						"0.205366"
 					]
 				],
-				"source":"10,1"
+				"source":"1"
 			}
 		]
 	}

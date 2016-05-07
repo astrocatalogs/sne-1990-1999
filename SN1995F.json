@@ -1,9 +1,6 @@
 {
 	"SN1995F":{
 		"name":"SN1995F",
-		"aliases":[
-			"SN1995F"
-		],
 		"sources":[
 			{
 				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
@@ -21,8 +18,9 @@
 				"alias":"3"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"4",
 				"secondary":true
 			},
@@ -44,8 +42,9 @@
 				"secondary":true
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"8",
 				"secondary":true
 			},
@@ -66,14 +65,16 @@
 				"secondary":true
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
+				"name":"Silverman et al. (2012)",
 				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"bibcode":"2012MNRAS.425.1789S",
 				"alias":"12",
 				"secondary":true
 			},
 			{
-				"name":"SUSPECT",
+				"name":"Richardson et al. (2001)",
 				"url":"https://www.nhn.ou.edu/~suspect/",
+				"bibcode":"2001AAS...199.8408R",
 				"alias":"13",
 				"secondary":true
 			},
@@ -84,29 +85,42 @@
 				"secondary":true
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"15",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"15"
+				"alias":"16"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN1995F",
+				"source":"1,4,5,7,6,8,11,12,13,14"
 			}
 		],
 		"claimedtype":[
 			{
+				"value":"Ib",
+				"source":"4,9,12"
+			},
+			{
 				"value":"Ic",
-				"source":"5,6,7,8,12,9"
+				"source":"5,6,7,8,9,12"
 			},
 			{
 				"value":"Ib/c",
 				"source":"5"
-			},
-			{
-				"value":"Ib",
-				"source":"4,12,9"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"22.3",
-				"source":"D",
+				"source":"15",
 				"unit":"Mpc"
 			}
 		],
@@ -133,13 +147,13 @@
 			{
 				"value":"0.0311",
 				"error":"0.0003",
-				"source":"15"
+				"source":"16"
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 2726",
-				"source":"4,5,6,7,12,9"
+				"source":"4,5,6,7,9,12"
 			}
 		],
 		"hostdec":[
@@ -178,25 +192,25 @@
 		"maxabsmag":[
 			{
 				"value":"-17",
-				"source":"D"
+				"source":"15"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"14.7",
-				"source":"D,1,2"
+				"source":"15,1,2"
 			}
 		],
 		"maxband":[
 			{
 				"value":"V",
-				"source":"D,1,2"
+				"source":"15,1,2"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1995/02/14",
-				"source":"D,1,2"
+				"source":"15,1,2"
 			}
 		],
 		"ra":[
@@ -62170,7 +62184,7 @@
 				"time":49772.0,
 				"filename":"sn1995F-19950224.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3500.0000",
@@ -71153,7 +71167,7 @@
 						"5.3613115e-16"
 					]
 				],
-				"source":"11"
+				"source":"11,10"
 			},
 			{
 				"deredshifted":false,
@@ -87632,7 +87646,7 @@
 						"0.451779"
 					]
 				],
-				"source":"12,9"
+				"source":"9,12"
 			},
 			{
 				"u_time":"MJD",
@@ -120571,7 +120585,7 @@
 				"time":49774.0,
 				"filename":"sn1995F-19950226.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3740.0000",
@@ -131042,7 +131056,7 @@
 						"0.44940165"
 					]
 				],
-				"source":"11"
+				"source":"11,10"
 			},
 			{
 				"deredshifted":false,
@@ -131051,7 +131065,7 @@
 				"time":49776.0,
 				"filename":"sn1995F-19950228.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3740.0000",
@@ -141526,7 +141540,7 @@
 						"0.43114749"
 					]
 				],
-				"source":"11"
+				"source":"11,10"
 			},
 			{
 				"deredshifted":false,
@@ -141535,7 +141549,7 @@
 				"time":49783.0,
 				"filename":"sn1995F-19950307.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3499.9600",
@@ -151226,7 +151240,7 @@
 						"0.22575258"
 					]
 				],
-				"source":"11"
+				"source":"11,10"
 			},
 			{
 				"deredshifted":false,
@@ -167205,7 +167219,7 @@
 						"0.378340"
 					]
 				],
-				"source":"12,9"
+				"source":"9,12"
 			},
 			{
 				"u_time":"MJD",
@@ -199145,7 +199159,7 @@
 				"time":49808.0,
 				"filename":"sn1995F-19950401-mmt.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3195.0156",
@@ -209440,7 +209454,7 @@
 						"0.27686802"
 					]
 				],
-				"source":"11"
+				"source":"11,10"
 			},
 			{
 				"deredshifted":false,
@@ -224219,7 +224233,7 @@
 						"0.0549353"
 					]
 				],
-				"source":"12,9"
+				"source":"9,12"
 			},
 			{
 				"u_time":"MJD",
@@ -268428,7 +268442,7 @@
 						"-0.172770"
 					]
 				],
-				"source":"12,9"
+				"source":"9,12"
 			},
 			{
 				"u_time":"MJD",

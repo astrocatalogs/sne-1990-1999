@@ -1,13 +1,11 @@
 {
 	"SN1991ad":{
 		"name":"SN1991ad",
-		"aliases":[
-			"SN1991ad"
-		],
 		"sources":[
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"1",
 				"secondary":true
 			},
@@ -29,8 +27,9 @@
 				"secondary":true
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"5",
 				"secondary":true
 			},
@@ -40,8 +39,9 @@
 				"alias":"6"
 			},
 			{
-				"name":"SUSPECT",
+				"name":"Richardson et al. (2001)",
 				"url":"https://www.nhn.ou.edu/~suspect/",
+				"bibcode":"2001AAS...199.8408R",
 				"alias":"7",
 				"secondary":true
 			},
@@ -51,9 +51,22 @@
 				"alias":"8"
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"9",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"9"
+				"alias":"10"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN1991ad",
+				"source":"1,2,4,3,5,7"
 			}
 		],
 		"claimedtype":[
@@ -65,7 +78,7 @@
 		"comovingdist":[
 			{
 				"value":"300",
-				"source":"D",
+				"source":"9",
 				"unit":"Mpc"
 			}
 		],
@@ -106,7 +119,7 @@
 			{
 				"value":"0.0345",
 				"error":"0.0009",
-				"source":"9"
+				"source":"10"
 			}
 		],
 		"host":[
@@ -146,7 +159,7 @@
 		"lumdist":[
 			{
 				"value":"300",
-				"source":"D",
+				"source":"9",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -154,25 +167,25 @@
 		"maxabsmag":[
 			{
 				"value":"-20",
-				"source":"D"
+				"source":"9"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.5",
-				"source":"D,2"
+				"source":"2,9"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"D,2"
+				"source":"2,9"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1991/05/13",
-				"source":"D,2"
+				"source":"2,9"
 			}
 		],
 		"ra":[

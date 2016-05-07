@@ -1,9 +1,6 @@
 {
 	"SN1998dn":{
 		"name":"SN1998dn",
-		"aliases":[
-			"SN1998dn"
-		],
 		"sources":[
 			{
 				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
@@ -16,8 +13,9 @@
 				"alias":"2"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"3",
 				"secondary":true
 			},
@@ -39,8 +37,9 @@
 				"secondary":true
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"7",
 				"secondary":true
 			},
@@ -50,15 +49,29 @@
 				"alias":"8"
 			},
 			{
-				"name":"SUSPECT",
+				"name":"Richardson et al. (2001)",
 				"url":"https://www.nhn.ou.edu/~suspect/",
+				"bibcode":"2001AAS...199.8408R",
 				"alias":"9",
+				"secondary":true
+			},
+			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"10",
 				"secondary":true
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"10"
+				"alias":"11"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN1998dn",
+				"source":"1,3,4,6,5,7,9"
 			}
 		],
 		"claimedtype":[
@@ -70,7 +83,7 @@
 		"comovingdist":[
 			{
 				"value":"5.725",
-				"source":"D",
+				"source":"10",
 				"unit":"Mpc"
 			}
 		],
@@ -101,7 +114,7 @@
 			{
 				"value":"0.0908",
 				"error":"0.0096",
-				"source":"10"
+				"source":"11"
 			}
 		],
 		"host":[
@@ -146,25 +159,25 @@
 		"maxabsmag":[
 			{
 				"value":"-13",
-				"source":"D"
+				"source":"10"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.3",
-				"source":"D,1,2"
+				"source":"1,2,10"
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
-				"source":"D,1,2"
+				"source":"1,2,10"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1998/12/25",
-				"source":"D,1,2"
+				"source":"1,2,10"
 			}
 		],
 		"ra":[
@@ -40214,7 +40227,7 @@
 						"1.697925982e-16"
 					]
 				],
-				"source":"9,8"
+				"source":"8,9"
 			}
 		]
 	}

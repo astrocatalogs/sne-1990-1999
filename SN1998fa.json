@@ -1,13 +1,11 @@
 {
 	"SN1998fa":{
 		"name":"SN1998fa",
-		"aliases":[
-			"SN1998fa"
-		],
 		"sources":[
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"1",
 				"secondary":true
 			},
@@ -29,8 +27,9 @@
 				"secondary":true
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"5",
 				"secondary":true
 			},
@@ -51,47 +50,62 @@
 				"secondary":true
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
+				"name":"Silverman et al. (2012)",
 				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"bibcode":"2012MNRAS.425.1789S",
 				"alias":"9",
 				"secondary":true
 			},
 			{
-				"name":"SUSPECT",
+				"name":"Richardson et al. (2001)",
 				"url":"https://www.nhn.ou.edu/~suspect/",
+				"bibcode":"2001AAS...199.8408R",
 				"alias":"10",
+				"secondary":true
+			},
+			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"11",
 				"secondary":true
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"11"
+				"alias":"12"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN1998fa",
+				"source":"1,2,4,3,5,8,9,10"
 			}
 		],
 		"claimedtype":[
+			{
+				"value":"IIb",
+				"source":"1,5,7,9"
+			},
 			{
 				"value":"II",
 				"source":"2"
 			},
 			{
-				"value":"IIb",
-				"source":"1,5,9,7"
-			},
-			{
 				"value":"II P",
-				"source":"9,7"
+				"source":"7,9"
 			},
 			{
 				"value":"Ib",
-				"source":"9,7"
+				"source":"7,9"
 			},
 			{
 				"value":"Ia-91bg",
-				"source":"9,7"
+				"source":"7,9"
 			},
 			{
 				"value":"Ic",
-				"source":"9,7"
+				"source":"7,9"
 			},
 			{
 				"value":"IIb P",
@@ -101,7 +115,7 @@
 		"comovingdist":[
 			{
 				"value":"107.39",
-				"source":"D",
+				"source":"11",
 				"unit":"Mpc"
 			}
 		],
@@ -115,7 +129,7 @@
 		"discoverdate":[
 			{
 				"value":"1998/12/25",
-				"source":"1,2,3,4,9,7"
+				"source":"1,2,3,4,7,9"
 			}
 		],
 		"discoverer":[
@@ -128,13 +142,13 @@
 			{
 				"value":"0.1271",
 				"error":"0.0009",
-				"source":"11"
+				"source":"12"
 			}
 		],
 		"host":[
 			{
 				"value":"UGC 3513",
-				"source":"1,2,3,4,9,7"
+				"source":"1,2,3,4,7,9"
 			}
 		],
 		"hostdec":[
@@ -164,26 +178,26 @@
 		"lumdist":[
 			{
 				"value":"110.01",
-				"source":"D",
+				"source":"11",
 				"unit":"Mpc"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-17.007",
-				"source":"D"
+				"source":"11"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.2",
-				"source":"D,2"
+				"source":"11,2"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1998/12/25",
-				"source":"D,2"
+				"source":"11,2"
 			}
 		],
 		"ra":[
@@ -223,7 +237,7 @@
 				"time":51174.0,
 				"filename":"sn1998fa-19981227.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3720.00",
@@ -10418,7 +10432,7 @@
 						"0.0926555"
 					]
 				],
-				"source":"8"
+				"source":"8,6"
 			},
 			{
 				"deredshifted":false,
@@ -10427,7 +10441,7 @@
 				"time":51175.0,
 				"filename":"sn1998fa-19981228.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3720.00",
@@ -20622,7 +20636,7 @@
 						"0.0688973"
 					]
 				],
-				"source":"8"
+				"source":"8,6"
 			},
 			{
 				"deredshifted":false,
@@ -26141,7 +26155,7 @@
 						"0.0990489"
 					]
 				],
-				"source":"9,7"
+				"source":"7,9"
 			},
 			{
 				"u_time":"MJD",
@@ -37151,7 +37165,7 @@
 						"0.09971044958"
 					]
 				],
-				"source":"10,7"
+				"source":"7,10"
 			},
 			{
 				"u_time":"MJD",
@@ -48161,7 +48175,7 @@
 						"0.1760430038"
 					]
 				],
-				"source":"10,7"
+				"source":"7,10"
 			},
 			{
 				"deredshifted":false,
@@ -48170,7 +48184,7 @@
 				"time":51197.0,
 				"filename":"sn1998fa-19990119.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3720.00",
@@ -58365,7 +58379,7 @@
 						"0.0965262"
 					]
 				],
-				"source":"8"
+				"source":"8,6"
 			},
 			{
 				"deredshifted":false,
@@ -65844,7 +65858,7 @@
 						"0.0870446"
 					]
 				],
-				"source":"9,7"
+				"source":"7,9"
 			},
 			{
 				"u_time":"MJD",
@@ -80774,7 +80788,7 @@
 						"0.08922555298"
 					]
 				],
-				"source":"10,7"
+				"source":"7,10"
 			},
 			{
 				"deredshifted":false,
@@ -80783,7 +80797,7 @@
 				"time":51200.0,
 				"filename":"sn1998fa-19990122.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3720.00",
@@ -90978,7 +90992,7 @@
 						"0.168590"
 					]
 				],
-				"source":"8"
+				"source":"8,6"
 			},
 			{
 				"deredshifted":false,
@@ -98437,7 +98451,7 @@
 						"0.0437540"
 					]
 				],
-				"source":"9,7"
+				"source":"7,9"
 			},
 			{
 				"u_time":"MJD",
@@ -113327,7 +113341,7 @@
 						"0.04797419906"
 					]
 				],
-				"source":"10,7"
+				"source":"7,10"
 			},
 			{
 				"deredshifted":false,
@@ -127746,7 +127760,7 @@
 						"0.0937385"
 					]
 				],
-				"source":"9,7"
+				"source":"7,9"
 			},
 			{
 				"u_time":"MJD",
@@ -156548,7 +156562,7 @@
 						"0.06619805098"
 					]
 				],
-				"source":"10,7"
+				"source":"7,10"
 			},
 			{
 				"deredshifted":false,
@@ -171067,7 +171081,7 @@
 						"0.0274092"
 					]
 				],
-				"source":"9,7"
+				"source":"7,9"
 			},
 			{
 				"u_time":"MJD",
@@ -200077,7 +200091,7 @@
 						"0.0510770008"
 					]
 				],
-				"source":"10,7"
+				"source":"7,10"
 			},
 			{
 				"deredshifted":false,
@@ -214544,7 +214558,7 @@
 						"0.0209214"
 					]
 				],
-				"source":"9,7"
+				"source":"7,9"
 			},
 			{
 				"u_time":"MJD",
@@ -243450,7 +243464,7 @@
 						"0.04195024818"
 					]
 				],
-				"source":"10,7"
+				"source":"7,10"
 			}
 		]
 	}
