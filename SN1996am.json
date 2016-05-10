@@ -15,21 +15,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"3"
-			},
-			{
 				"name":"Nakamura et al. (1996)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06400/06441.html",
 				"bibcode":"1996IAUC.6441....3N",
-				"alias":"4"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"5",
+				"alias":"4",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"5"
 			},
 			{
 				"name":"Guillochon, Parrent, & Margutti (2016)",
@@ -47,13 +47,13 @@
 		"alias":[
 			{
 				"value":"SN1996am",
-				"source":"1,2,3,5,4"
+				"source":"1,2,4,3,5"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2,3,5,4"
+				"source":"1,2,3,4,5"
 			}
 		],
 		"comovingdist":[
@@ -71,14 +71,14 @@
 			},
 			{
 				"value":"-44:00:12.7",
-				"source":"2,3,5,4",
+				"source":"2,3,4,5",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1996/07/12",
-				"source":"1,2,3,5,4"
+				"source":"1,2,3,4,5"
 			}
 		],
 		"discoverer":[
@@ -88,7 +88,7 @@
 			},
 			{
 				"value":"Mount Stromlo",
-				"source":"5,4"
+				"source":"3,4"
 			}
 		],
 		"ebv":[
@@ -109,7 +109,7 @@
 			},
 			{
 				"value":"APMUKS(BJ) B214257.60-441405.2",
-				"source":"3"
+				"source":"5"
 			}
 		],
 		"hostdec":[
@@ -120,7 +120,7 @@
 			},
 			{
 				"value":"-44:00:12.0",
-				"source":"3",
+				"source":"5",
 				"unit":"degrees"
 			}
 		],
@@ -132,7 +132,7 @@
 			},
 			{
 				"value":"21:46:07.00",
-				"source":"3",
+				"source":"5",
 				"unit":"hours"
 			}
 		],
@@ -153,19 +153,19 @@
 		"maxappmag":[
 			{
 				"value":"18.66",
-				"source":"1,6"
+				"source":"6,1"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"1,6"
+				"source":"6,1"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1996/07/24",
-				"source":"1,6"
+				"source":"6,1"
 			}
 		],
 		"ra":[
@@ -176,7 +176,7 @@
 			},
 			{
 				"value":"21:46:07.48",
-				"source":"2,3,5,4",
+				"source":"2,3,4,5",
 				"unit":"hours"
 			}
 		],
@@ -222,7 +222,7 @@
 				"time":"50275.5",
 				"u_time":"MJD",
 				"magnitude":"19.0",
-				"source":"5,4"
+				"source":"3,4"
 			},
 			{
 				"time":"50276.26",

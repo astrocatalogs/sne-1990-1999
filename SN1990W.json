@@ -10,21 +10,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"2"
-			},
-			{
 				"name":"Pearce & Morris (1990)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05000/05076.html",
 				"bibcode":"1990IAUC.5076....4P",
-				"alias":"3"
+				"alias":"2"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4",
+				"alias":"3",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
 			},
 			{
 				"name":"Yaron & Gal-Yam (2012)",
@@ -54,17 +54,17 @@
 		"alias":[
 			{
 				"value":"SN1990W",
-				"source":"1,2,4,3,5"
+				"source":"1,3,2,4,5"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ib/c",
-				"source":"1,2,5"
+				"source":"1,4,5"
 			},
 			{
 				"value":"Ic",
-				"source":"2"
+				"source":"4"
 			}
 		],
 		"comovingdist":[
@@ -81,13 +81,13 @@
 				"unit":"degrees"
 			},
 			{
-				"value":"-59:12:55.0",
-				"source":"2",
+				"value":"-59:12:55.1",
+				"source":"3,2",
 				"unit":"degrees"
 			},
 			{
-				"value":"-59:12:55.1",
-				"source":"3,4",
+				"value":"-59:12:55.0",
+				"source":"4",
 				"unit":"degrees"
 			}
 		],
@@ -104,7 +104,7 @@
 			},
 			{
 				"value":"Robert Evans",
-				"source":"3,4"
+				"source":"3,2"
 			}
 		],
 		"ebv":[
@@ -117,7 +117,7 @@
 		"host":[
 			{
 				"value":"NGC 6221",
-				"source":"1,2,3,4"
+				"source":"1,3,2,4"
 			}
 		],
 		"hostdec":[
@@ -128,7 +128,7 @@
 			},
 			{
 				"value":"-59:13:03.9",
-				"source":"2",
+				"source":"4",
 				"unit":"degrees"
 			}
 		],
@@ -140,7 +140,7 @@
 			},
 			{
 				"value":"16:52:46.10",
-				"source":"2",
+				"source":"4",
 				"unit":"hours"
 			}
 		],
@@ -148,7 +148,7 @@
 			{
 				"value":"11",
 				"error":"1",
-				"source":"2",
+				"source":"4",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -161,31 +161,25 @@
 		],
 		"maxappmag":[
 			{
-				"value":"14.9",
-				"source":"7,2"
-			}
-		],
-		"maxband":[
-			{
-				"value":"V",
-				"source":"7,2"
+				"value":"15",
+				"source":"3,2,7"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"1990/08/16",
-				"source":"7,2"
+				"value":"1990/08/15",
+				"source":"3,2,7"
 			}
 		],
 		"ra":[
 			{
 				"value":"16:52:47.18",
-				"source":"1,2",
+				"source":"1,4",
 				"unit":"hours"
 			},
 			{
 				"value":"16:52:47.25",
-				"source":"3,4",
+				"source":"3,2",
 				"unit":"hours"
 			}
 		],
@@ -208,14 +202,7 @@
 				"time":"48118.5",
 				"u_time":"MJD",
 				"magnitude":"15.0",
-				"source":"3,4"
-			},
-			{
-				"time":"48119.0",
-				"u_time":"MJD",
-				"band":"V",
-				"magnitude":"14.9",
-				"source":"2"
+				"source":"3,2"
 			}
 		],
 		"spectra":[
@@ -25172,7 +25159,7 @@
 						"1.826879E-16"
 					]
 				],
-				"source":"5,6"
+				"source":"6,5"
 			},
 			{
 				"instrument":"ESO-3.6m - EFOSC2-3.6",
@@ -28935,7 +28922,7 @@
 						"2.310951E-18"
 					]
 				],
-				"source":"5,6"
+				"source":"6,5"
 			}
 		]
 	}

@@ -20,21 +20,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
-			},
-			{
 				"name":"Gomez et al. (1993)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05700/05733.html",
 				"bibcode":"1993IAUC.5733....2G",
-				"alias":"5"
+				"alias":"4"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"6",
+				"alias":"5",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"6"
 			},
 			{
 				"name":"Guillochon, Parrent, & Margutti (2016)",
@@ -52,7 +52,7 @@
 		"alias":[
 			{
 				"value":"SN1993K",
-				"source":"1,2,3,4,6,5"
+				"source":"1,2,3,5,4,6"
 			}
 		],
 		"claimedtype":[
@@ -79,13 +79,13 @@
 				"unit":"degrees"
 			},
 			{
-				"value":"-22:49:46.7",
-				"source":"4",
+				"value":"-22:49:51.0",
+				"source":"4,5",
 				"unit":"degrees"
 			},
 			{
-				"value":"-22:49:51.0",
-				"source":"5,6",
+				"value":"-22:49:46.7",
+				"source":"6",
 				"unit":"degrees"
 			}
 		],
@@ -98,7 +98,7 @@
 		"discoverer":[
 			{
 				"value":"Williams, Martin",
-				"source":"3,5,6"
+				"source":"3,4,5"
 			}
 		],
 		"ebv":[
@@ -122,7 +122,7 @@
 			},
 			{
 				"value":"-22:50:17.7",
-				"source":"4",
+				"source":"6",
 				"unit":"degrees"
 			}
 		],
@@ -134,7 +134,7 @@
 			},
 			{
 				"value":"06:24:35.89",
-				"source":"4",
+				"source":"6",
 				"unit":"hours"
 			}
 		],
@@ -142,7 +142,7 @@
 			{
 				"value":"33",
 				"error":"6",
-				"source":"4",
+				"source":"6",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -156,19 +156,19 @@
 		"maxappmag":[
 			{
 				"value":"15.38",
-				"source":"1,7"
+				"source":"7,1"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"1,7"
+				"source":"7,1"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1993/03/31",
-				"source":"1,7"
+				"source":"7,1"
 			}
 		],
 		"ra":[
@@ -178,13 +178,13 @@
 				"unit":"hours"
 			},
 			{
-				"value":"06:24:38.06",
-				"source":"4",
+				"value":"06:24:37.80",
+				"source":"4,5",
 				"unit":"hours"
 			},
 			{
-				"value":"06:24:37.80",
-				"source":"5,6",
+				"value":"06:24:38.06",
+				"source":"6",
 				"unit":"hours"
 			}
 		],
@@ -209,7 +209,7 @@
 				"time":"49073.5",
 				"u_time":"MJD",
 				"magnitude":"14.5",
-				"source":"5,6"
+				"source":"4,5"
 			},
 			{
 				"time":"49076.09",

@@ -21,21 +21,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
-			},
-			{
 				"name":"Wren et al. (1991)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05200/05287.html",
 				"bibcode":"1991IAUC.5287....4W",
-				"alias":"5"
+				"alias":"4"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"6",
+				"alias":"5",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"6"
 			},
 			{
 				"name":"NED-D",
@@ -129,7 +129,7 @@
 		"alias":[
 			{
 				"value":"SN1991ag",
-				"source":"1,3,4,6,5,7"
+				"source":"1,3,5,4,6,7"
 			}
 		],
 		"claimedtype":[
@@ -151,7 +151,7 @@
 			},
 			{
 				"value":"54.2",
-				"source":"7,10",
+				"source":"10,7",
 				"unit":"Mpc"
 			},
 			{
@@ -166,32 +166,32 @@
 			},
 			{
 				"value":"55.3",
-				"source":"11,7",
+				"source":"7,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"56.2",
-				"source":"7,12",
+				"source":"12,7",
 				"unit":"Mpc"
 			},
 			{
 				"value":"56.3",
-				"source":"13,7",
+				"source":"7,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"58.3",
-				"source":"7,14",
+				"source":"14,7",
 				"unit":"Mpc"
 			},
 			{
 				"value":"60.3",
-				"source":"15,7",
+				"source":"7,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"61.4",
-				"source":"7,16",
+				"source":"16,7",
 				"unit":"Mpc"
 			},
 			{
@@ -201,12 +201,12 @@
 			},
 			{
 				"value":"62",
-				"source":"7,14",
+				"source":"14,7",
 				"unit":"Mpc"
 			},
 			{
 				"value":"62.3",
-				"source":"7,14",
+				"source":"14,7",
 				"unit":"Mpc"
 			},
 			{
@@ -216,7 +216,7 @@
 			},
 			{
 				"value":"66.1",
-				"source":"19,7",
+				"source":"7,19",
 				"unit":"Mpc"
 			},
 			{
@@ -233,12 +233,12 @@
 		"dec":[
 			{
 				"value":"-55:22:03.4",
-				"source":"3,4",
+				"source":"3,6",
 				"unit":"degrees"
 			},
 			{
 				"value":"-55:22:03.2",
-				"source":"5,6",
+				"source":"4,5",
 				"unit":"degrees"
 			}
 		],
@@ -255,7 +255,7 @@
 			},
 			{
 				"value":"Roberto Antezana",
-				"source":"5,6"
+				"source":"4,5"
 			}
 		],
 		"ebv":[
@@ -279,7 +279,7 @@
 			},
 			{
 				"value":"-55:22:22.0",
-				"source":"4",
+				"source":"6",
 				"unit":"degrees"
 			}
 		],
@@ -291,7 +291,7 @@
 			},
 			{
 				"value":"20:00:09.32",
-				"source":"4",
+				"source":"6",
 				"unit":"hours"
 			}
 		],
@@ -299,7 +299,7 @@
 			{
 				"value":"54",
 				"error":"4",
-				"source":"4",
+				"source":"6",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -313,37 +313,37 @@
 		"maxappmag":[
 			{
 				"value":"14.9",
-				"source":"22,1,2"
+				"source":"1,2,22"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"22,1,2"
+				"source":"1,2,22"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1991/06/05",
-				"source":"3,4"
+				"source":"3,6"
 			}
 		],
 		"ra":[
 			{
 				"value":"20:00:08.65",
-				"source":"3,4",
+				"source":"3,6",
 				"unit":"hours"
 			},
 			{
 				"value":"20:00:08.60",
-				"source":"5,6",
+				"source":"4,5",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.014",
-				"source":"4",
+				"source":"6",
 				"kind":"host"
 			}
 		],
@@ -360,7 +360,7 @@
 				"time":"48415.5",
 				"u_time":"MJD",
 				"magnitude":"15.0",
-				"source":"5,6"
+				"source":"4,5"
 			},
 			{
 				"time":"48419.33",

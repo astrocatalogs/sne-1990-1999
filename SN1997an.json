@@ -10,21 +10,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"2"
-			},
-			{
 				"name":"Supernova Cosmology Project, Walton, & Ruiz-Lapuente (1997)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06500/06596.html",
 				"bibcode":"1997IAUC.6596....1W",
-				"alias":"3"
+				"alias":"2"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4",
+				"alias":"3",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
 			},
 			{
 				"name":"Guillochon, Parrent, & Margutti (2016)",
@@ -42,7 +42,7 @@
 		"alias":[
 			{
 				"value":"SN1997an",
-				"source":"1,2,4,3"
+				"source":"1,3,2,4"
 			}
 		],
 		"comovingdist":[
@@ -55,14 +55,14 @@
 		"dec":[
 			{
 				"value":"-03:47:18.2",
-				"source":"1,2,3,4",
+				"source":"1,3,2,4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1997/03/05",
-				"source":"1,2,3,4"
+				"source":"1,3,2,4"
 			}
 		],
 		"discoverer":[
@@ -72,7 +72,7 @@
 			},
 			{
 				"value":"Supernova Cosmology Project",
-				"source":"3,4"
+				"source":"3,2"
 			}
 		],
 		"ebv":[
@@ -96,7 +96,7 @@
 			},
 			{
 				"value":"-03:47:18.0",
-				"source":"2",
+				"source":"4",
 				"unit":"degrees"
 			}
 		],
@@ -108,7 +108,7 @@
 			},
 			{
 				"value":"10:57:43.00",
-				"source":"2",
+				"source":"4",
 				"unit":"hours"
 			}
 		],
@@ -129,32 +129,26 @@
 		"maxappmag":[
 			{
 				"value":"24.3",
-				"source":"5,2"
-			}
-		],
-		"maxband":[
-			{
-				"value":"R",
-				"source":"5,2"
+				"source":"3,2,5"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"1997/03/05",
-				"source":"5,2"
+				"value":"1997/03/04",
+				"source":"3,2,5"
 			}
 		],
 		"ra":[
 			{
 				"value":"10:57:43.97",
-				"source":"1,2,3,4",
+				"source":"1,3,2,4",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.49",
-				"source":"1,2",
+				"source":"1,4",
 				"kind":"host"
 			}
 		],
@@ -171,14 +165,7 @@
 				"time":"50511.5",
 				"u_time":"MJD",
 				"magnitude":"24.3",
-				"source":"3,4"
-			},
-			{
-				"time":"50512.0",
-				"u_time":"MJD",
-				"band":"R",
-				"magnitude":"24.3",
-				"source":"2"
+				"source":"3,2"
 			}
 		]
 	}

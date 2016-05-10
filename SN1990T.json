@@ -21,21 +21,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
-			},
-			{
 				"name":"Pearce (1990)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05000/05061.html",
 				"bibcode":"1990IAUC.5061....4P",
-				"alias":"5"
+				"alias":"4"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"6",
+				"alias":"5",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"6"
 			},
 			{
 				"name":"NED-D",
@@ -109,17 +109,17 @@
 		"alias":[
 			{
 				"value":"SN1990T",
-				"source":"1,3,4,6,5,7"
+				"source":"1,3,5,4,6,7"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"3,4"
+				"source":"3,6"
 			},
 			{
 				"value":"Ia P",
-				"source":"5,6"
+				"source":"4,5"
 			}
 		],
 		"comovingdist":[
@@ -135,42 +135,42 @@
 			},
 			{
 				"value":"172",
-				"source":"7,10",
+				"source":"10,7",
 				"unit":"Mpc"
 			},
 			{
 				"value":"177",
-				"source":"11,7",
+				"source":"7,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"180",
-				"source":"7,12",
+				"source":"12,7",
 				"unit":"Mpc"
 			},
 			{
 				"value":"181",
-				"source":"13,7",
+				"source":"7,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"182",
-				"source":"7,14",
+				"source":"14,7",
 				"unit":"Mpc"
 			},
 			{
 				"value":"184",
-				"source":"15,7",
+				"source":"7,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"185",
-				"source":"15,7",
+				"source":"7,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"189",
-				"source":"7,16",
+				"source":"16,7",
 				"unit":"Mpc"
 			},
 			{
@@ -199,7 +199,7 @@
 			},
 			{
 				"value":"Roberto Antezana",
-				"source":"5,6"
+				"source":"4,5"
 			}
 		],
 		"ebv":[
@@ -212,7 +212,7 @@
 		"host":[
 			{
 				"value":"PGC 63925",
-				"source":"3,4"
+				"source":"3,6"
 			}
 		],
 		"hostdec":[
@@ -223,7 +223,7 @@
 			},
 			{
 				"value":"-56:15:28.7",
-				"source":"4",
+				"source":"6",
 				"unit":"degrees"
 			}
 		],
@@ -235,7 +235,7 @@
 			},
 			{
 				"value":"19:58:59.24",
-				"source":"4",
+				"source":"6",
 				"unit":"hours"
 			}
 		],
@@ -243,7 +243,7 @@
 			{
 				"value":"172",
 				"error":"9",
-				"source":"4",
+				"source":"6",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -269,7 +269,7 @@
 		"maxdate":[
 			{
 				"value":"1990/07/10",
-				"source":"3,4"
+				"source":"3,6"
 			}
 		],
 		"ra":[
@@ -282,7 +282,7 @@
 		"redshift":[
 			{
 				"value":"0.04",
-				"source":"4",
+				"source":"6",
 				"kind":"host"
 			}
 		],
@@ -299,7 +299,7 @@
 				"time":"48092.5",
 				"u_time":"MJD",
 				"magnitude":"16.5",
-				"source":"5,6"
+				"source":"4,5"
 			},
 			{
 				"time":"48098.0",

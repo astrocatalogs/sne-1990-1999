@@ -10,21 +10,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"2"
-			},
-			{
 				"name":"Green (1994)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05900/05975.html",
 				"bibcode":"1994IAUC.5975....2G",
-				"alias":"3"
+				"alias":"2"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4",
+				"alias":"3",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
 			},
 			{
 				"name":"Guillochon, Parrent, & Margutti (2016)",
@@ -42,13 +42,13 @@
 		"alias":[
 			{
 				"value":"SN1994L",
-				"source":"1,2,4,3"
+				"source":"1,3,2,4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"1,2,3,4"
+				"source":"1,3,2,4"
 			}
 		],
 		"comovingdist":[
@@ -60,26 +60,26 @@
 		],
 		"dec":[
 			{
-				"value":"-16:32:28.7",
-				"source":"2",
+				"value":"-16:32:00.0",
+				"source":"3,2",
 				"unit":"degrees"
 			},
 			{
-				"value":"-16:32:00.0",
-				"source":"3,4",
+				"value":"-16:32:28.7",
+				"source":"4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1994/04/08",
-				"source":"1,2,3,4"
+				"source":"1,3,2,4"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Brown",
-				"source":"1,3,4"
+				"source":"1,3,2"
 			}
 		],
 		"ebv":[
@@ -92,7 +92,7 @@
 		"host":[
 			{
 				"value":"NGC 2848",
-				"source":"1,2,3,4"
+				"source":"1,3,2,4"
 			}
 		],
 		"hostdec":[
@@ -103,7 +103,7 @@
 			},
 			{
 				"value":"-16:31:32.7",
-				"source":"2",
+				"source":"4",
 				"unit":"degrees"
 			}
 		],
@@ -115,7 +115,7 @@
 			},
 			{
 				"value":"09:20:09.93",
-				"source":"2",
+				"source":"4",
 				"unit":"hours"
 			}
 		],
@@ -123,7 +123,7 @@
 			{
 				"value":"27",
 				"error":"5",
-				"source":"2",
+				"source":"4",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -137,37 +137,31 @@
 		"maxappmag":[
 			{
 				"value":"14.7",
-				"source":"5,2"
-			}
-		],
-		"maxband":[
-			{
-				"value":"V",
-				"source":"5,2"
+				"source":"3,2,5"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"1994/04/08",
-				"source":"5,2"
+				"value":"1994/04/07",
+				"source":"3,2,5"
 			}
 		],
 		"ra":[
 			{
-				"value":"09:20:09.03",
-				"source":"2",
+				"value":"09:20:17.100",
+				"source":"3,2",
 				"unit":"hours"
 			},
 			{
-				"value":"09:20:17.100",
-				"source":"3,4",
+				"value":"09:20:09.03",
+				"source":"4",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0068",
-				"source":"2",
+				"source":"4",
 				"kind":"host"
 			}
 		],
@@ -184,14 +178,7 @@
 				"time":"49449.5",
 				"u_time":"MJD",
 				"magnitude":"14.7",
-				"source":"3,4"
-			},
-			{
-				"time":"49450.0",
-				"u_time":"MJD",
-				"band":"V",
-				"magnitude":"14.7",
-				"source":"2"
+				"source":"3,2"
 			}
 		]
 	}

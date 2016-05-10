@@ -10,21 +10,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"2"
-			},
-			{
 				"name":"Li (1996)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06500/06523.html#Item2",
 				"bibcode":"1996IAUC.6523....3L",
-				"alias":"3"
+				"alias":"2"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4",
+				"alias":"3",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
 			},
 			{
 				"name":"Yaron & Gal-Yam (2012)",
@@ -65,13 +65,13 @@
 		"alias":[
 			{
 				"value":"SN1996ca",
-				"source":"1,2,4,3,5,7"
+				"source":"1,3,2,4,5,7"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2,3,4,5"
+				"source":"1,3,2,4,5"
 			}
 		],
 		"comovingdist":[
@@ -84,14 +84,14 @@
 		"dec":[
 			{
 				"value":"-13:59:50.9",
-				"source":"1,2,3,4",
+				"source":"1,3,2,4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1996/12/15",
-				"source":"1,2,3,4"
+				"source":"1,3,2,4"
 			}
 		],
 		"discoverer":[
@@ -101,7 +101,7 @@
 			},
 			{
 				"value":"Masakatsu Aoki",
-				"source":"3,4"
+				"source":"3,2"
 			}
 		],
 		"ebv":[
@@ -114,7 +114,7 @@
 		"host":[
 			{
 				"value":"NGC 7300",
-				"source":"1,2,3,4"
+				"source":"1,3,2,4"
 			}
 		],
 		"hostdec":[
@@ -125,7 +125,7 @@
 			},
 			{
 				"value":"-14:00:13.3",
-				"source":"2",
+				"source":"4",
 				"unit":"degrees"
 			}
 		],
@@ -137,7 +137,7 @@
 			},
 			{
 				"value":"22:30:59.93",
-				"source":"2",
+				"source":"4",
 				"unit":"hours"
 			}
 		],
@@ -145,7 +145,7 @@
 			{
 				"value":"57",
 				"error":"11",
-				"source":"2",
+				"source":"4",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -159,19 +159,19 @@
 		"maxappmag":[
 			{
 				"value":"16.5",
-				"source":"2,9"
+				"source":"4,9"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1996/12/15",
-				"source":"2,9"
+				"source":"4,9"
 			}
 		],
 		"ra":[
 			{
 				"value":"22:30:59.26",
-				"source":"1,2,3,4",
+				"source":"1,3,2,4",
 				"unit":"hours"
 			}
 		],
@@ -194,7 +194,7 @@
 				"time":"50432.0",
 				"u_time":"MJD",
 				"magnitude":"16.5",
-				"source":"2"
+				"source":"4"
 			}
 		],
 		"spectra":[
@@ -13315,7 +13315,7 @@
 						"5.6234344e-17"
 					]
 				],
-				"source":"7,6,8"
+				"source":"6,8,7"
 			},
 			{
 				"deredshifted":false,
@@ -26444,7 +26444,7 @@
 						"4.2913776e-17"
 					]
 				],
-				"source":"7,6,8"
+				"source":"6,8,7"
 			},
 			{
 				"deredshifted":false,
@@ -39588,7 +39588,7 @@
 						"3.7252116e-17"
 					]
 				],
-				"source":"7,6,8"
+				"source":"6,8,7"
 			},
 			{
 				"deredshifted":false,
@@ -52182,7 +52182,7 @@
 						"3.0343371e-17"
 					]
 				],
-				"source":"7,6,8"
+				"source":"6,8,7"
 			}
 		]
 	}

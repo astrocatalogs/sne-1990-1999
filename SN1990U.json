@@ -10,21 +10,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"2"
-			},
-			{
 				"name":"Pearce (1990)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05000/05063.html",
 				"bibcode":"1990IAUC.5063....3P",
-				"alias":"3"
+				"alias":"2"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4",
+				"alias":"3",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
 			},
 			{
 				"name":"Yaron & Gal-Yam (2012)",
@@ -79,33 +79,33 @@
 		"alias":[
 			{
 				"value":"SN1990U",
-				"source":"1,2,4,3,5,8,9,10"
+				"source":"1,3,2,4,5,8,9,10"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ib",
-				"source":"1,8,6"
-			},
-			{
-				"value":"Ic",
-				"source":"2,5"
+				"source":"1,6,8"
 			},
 			{
 				"value":"Ia",
-				"source":"3,4,8,6"
+				"source":"3,2,6,8"
+			},
+			{
+				"value":"Ic",
+				"source":"4,5"
 			},
 			{
 				"value":"II P",
-				"source":"8,6"
+				"source":"6,8"
 			},
 			{
 				"value":"IIb",
-				"source":"8,6"
+				"source":"6,8"
 			},
 			{
 				"value":"Gal",
-				"source":"8,6"
+				"source":"6,8"
 			}
 		],
 		"comovingdist":[
@@ -118,7 +118,7 @@
 		"dec":[
 			{
 				"value":"+12:18:20.1",
-				"source":"1,2,3,4",
+				"source":"1,3,2,4",
 				"unit":"degrees"
 			}
 		],
@@ -135,7 +135,7 @@
 			},
 			{
 				"value":"Saul Perlmutter",
-				"source":"3,4"
+				"source":"3,2"
 			}
 		],
 		"ebv":[
@@ -148,7 +148,7 @@
 		"host":[
 			{
 				"value":"NGC 7479",
-				"source":"1,2,3,4,8,6"
+				"source":"1,3,2,4,6,8"
 			}
 		],
 		"hostdec":[
@@ -159,7 +159,7 @@
 			},
 			{
 				"value":"+12:19:21.9",
-				"source":"2",
+				"source":"4",
 				"unit":"degrees"
 			}
 		],
@@ -171,7 +171,7 @@
 			},
 			{
 				"value":"23:04:56.67",
-				"source":"2",
+				"source":"4",
 				"unit":"hours"
 			}
 		],
@@ -179,39 +179,33 @@
 			{
 				"value":"31",
 				"error":"1",
-				"source":"2",
+				"source":"4",
 				"kind":"host",
 				"unit":"Mpc"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-17",
+				"value":"-16",
 				"source":"11"
 			}
 		],
 		"maxappmag":[
 			{
-				"value":"15.9",
-				"source":"11,2"
-			}
-		],
-		"maxband":[
-			{
-				"value":"R",
-				"source":"11,2"
+				"value":"16",
+				"source":"3,2,11"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"1990/07/27",
-				"source":"11,2"
+				"value":"1990/07/26",
+				"source":"3,2,11"
 			}
 		],
 		"ra":[
 			{
 				"value":"23:04:54.92",
-				"source":"1,2,3,4",
+				"source":"1,3,2,4",
 				"unit":"hours"
 			}
 		],
@@ -234,14 +228,7 @@
 				"time":"48098.5",
 				"u_time":"MJD",
 				"magnitude":"16.0",
-				"source":"3,4"
-			},
-			{
-				"time":"48099.0",
-				"u_time":"MJD",
-				"band":"R",
-				"magnitude":"15.9",
-				"source":"2"
+				"source":"3,2"
 			}
 		],
 		"spectra":[
@@ -9022,7 +9009,7 @@
 						"1.12561"
 					]
 				],
-				"source":"8,6"
+				"source":"6,8"
 			},
 			{
 				"u_time":"MJD",
@@ -40031,7 +40018,7 @@
 						"0.692672"
 					]
 				],
-				"source":"8,6"
+				"source":"6,8"
 			},
 			{
 				"u_time":"MJD",
@@ -63845,7 +63832,7 @@
 			},
 			{
 				"u_time":"MJD",
-				"time":"48111",
+				"time":"48110",
 				"waveunit":"Angstrom",
 				"fluxunit":"Uncalibrated",
 				"data":[
@@ -105523,7 +105510,7 @@
 						"0.229254"
 					]
 				],
-				"source":"8,6"
+				"source":"6,8"
 			},
 			{
 				"u_time":"MJD",
@@ -129313,7 +129300,7 @@
 			},
 			{
 				"u_time":"MJD",
-				"time":"48140",
+				"time":"48139",
 				"waveunit":"Angstrom",
 				"fluxunit":"Uncalibrated",
 				"data":[
@@ -153141,7 +153128,7 @@
 						"0.0729871"
 					]
 				],
-				"source":"8,6"
+				"source":"6,8"
 			},
 			{
 				"u_time":"MJD",
@@ -176955,7 +176942,7 @@
 			},
 			{
 				"u_time":"MJD",
-				"time":"48169",
+				"time":"48168",
 				"waveunit":"Angstrom",
 				"fluxunit":"Uncalibrated",
 				"data":[
@@ -200783,7 +200770,7 @@
 						"0.361455"
 					]
 				],
-				"source":"8,6"
+				"source":"6,8"
 			},
 			{
 				"u_time":"MJD",
@@ -236412,7 +236399,7 @@
 						"0.0580505"
 					]
 				],
-				"source":"8,6"
+				"source":"6,8"
 			},
 			{
 				"u_time":"MJD",
@@ -263801,7 +263788,7 @@
 						"5.691826E-17"
 					]
 				],
-				"source":"5,7"
+				"source":"7,5"
 			},
 			{
 				"deredshifted":false,
@@ -270020,7 +270007,7 @@
 						"0.152162"
 					]
 				],
-				"source":"8,6"
+				"source":"6,8"
 			},
 			{
 				"u_time":"MJD",
@@ -296589,7 +296576,7 @@
 						"6.145313E-17"
 					]
 				],
-				"source":"5,7"
+				"source":"7,5"
 			},
 			{
 				"deredshifted":false,
@@ -302968,7 +302955,7 @@
 						"0.0969845"
 					]
 				],
-				"source":"8,6"
+				"source":"6,8"
 			},
 			{
 				"u_time":"MJD",
@@ -318837,7 +318824,7 @@
 						"0.0949376"
 					]
 				],
-				"source":"8,6"
+				"source":"6,8"
 			},
 			{
 				"u_time":"MJD",

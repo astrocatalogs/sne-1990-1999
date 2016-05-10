@@ -37,21 +37,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"7"
-			},
-			{
 				"name":"Green (1994)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06000/06007.html",
 				"bibcode":"1994IAUC.6007....3G",
-				"alias":"8"
+				"alias":"7"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"9",
+				"alias":"8",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"9"
 			},
 			{
 				"name":"NED-D",
@@ -150,7 +150,7 @@
 		"alias":[
 			{
 				"value":"SN1994T",
-				"source":"1,2,3,5,6,7,9,8,10"
+				"source":"1,2,3,5,6,8,7,9,10"
 			}
 		],
 		"claimedtype":[
@@ -160,33 +160,33 @@
 			},
 			{
 				"value":"Ia",
-				"source":"6,7,8,9,1"
+				"source":"6,8,7,9,1"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"108",
-				"source":"11,10",
+				"source":"10,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"138",
-				"source":"10,12",
+				"source":"12,10",
 				"unit":"Mpc"
 			},
 			{
 				"value":"140",
-				"source":"13,10",
+				"source":"10,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"144",
-				"source":"10,14",
+				"source":"14,10",
 				"unit":"Mpc"
 			},
 			{
 				"value":"145",
-				"source":"15,10",
+				"source":"10,15",
 				"unit":"Mpc"
 			},
 			{
@@ -196,32 +196,32 @@
 			},
 			{
 				"value":"150",
-				"source":"13,10",
+				"source":"10,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"153",
-				"source":"10,14",
+				"source":"14,10",
 				"unit":"Mpc"
 			},
 			{
 				"value":"154",
-				"source":"17,10",
+				"source":"10,17",
 				"unit":"Mpc"
 			},
 			{
 				"value":"155",
-				"source":"18,10",
+				"source":"10,18",
 				"unit":"Mpc"
 			},
 			{
 				"value":"161",
-				"source":"19,10",
+				"source":"10,19",
 				"unit":"Mpc"
 			},
 			{
 				"value":"162",
-				"source":"10,14",
+				"source":"14,10",
 				"unit":"Mpc"
 			},
 			{
@@ -241,17 +241,17 @@
 			},
 			{
 				"value":"173",
-				"source":"10,14",
+				"source":"14,10",
 				"unit":"Mpc"
 			},
 			{
 				"value":"176",
-				"source":"18,10",
+				"source":"10,18",
 				"unit":"Mpc"
 			},
 			{
 				"value":"188",
-				"source":"23,10",
+				"source":"10,23",
 				"unit":"Mpc"
 			},
 			{
@@ -282,26 +282,26 @@
 				"unit":"degrees"
 			},
 			{
-				"value":"-02:08:58.1",
-				"source":"7",
+				"value":"-02:09:01.6",
+				"source":"8,7",
 				"unit":"degrees"
 			},
 			{
-				"value":"-02:09:01.6",
-				"source":"8,9",
+				"value":"-02:08:58.1",
+				"source":"9",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1994/06/11",
-				"source":"7,8,9,1"
+				"source":"8,7,9,1"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Peters, Challis",
-				"source":"6,8,9"
+				"source":"6,8,7"
 			}
 		],
 		"ebv":[
@@ -318,7 +318,7 @@
 			},
 			{
 				"value":"PGC 46640",
-				"source":"6,7"
+				"source":"6,9"
 			}
 		],
 		"hostdec":[
@@ -329,7 +329,7 @@
 			},
 			{
 				"value":"-02:08:43.7",
-				"source":"7",
+				"source":"9",
 				"unit":"degrees"
 			}
 		],
@@ -341,7 +341,7 @@
 			},
 			{
 				"value":"13:21:30.51",
-				"source":"7",
+				"source":"9",
 				"unit":"hours"
 			}
 		],
@@ -349,7 +349,7 @@
 			{
 				"value":"137",
 				"error":"17",
-				"source":"7",
+				"source":"9",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -375,18 +375,18 @@
 		"maxdate":[
 			{
 				"value":"1994/06/08",
-				"source":"6,7"
+				"source":"6,9"
 			}
 		],
 		"ra":[
 			{
 				"value":"13:21:30.69",
-				"source":"6,7",
+				"source":"6,9",
 				"unit":"hours"
 			},
 			{
 				"value":"13:18:59.84",
-				"source":"8,9",
+				"source":"8,7",
 				"unit":"hours"
 			}
 		],
@@ -410,7 +410,7 @@
 				"time":"49513.5",
 				"u_time":"MJD",
 				"magnitude":"16.0",
-				"source":"8,9"
+				"source":"8,7"
 			},
 			{
 				"time":"49514.30",

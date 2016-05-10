@@ -27,21 +27,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"5"
-			},
-			{
 				"name":"Kiss, Sarneczky, & Szabo (1999)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07200/07275.html#Item1",
 				"bibcode":"1999IAUC.7275....4K",
-				"alias":"6"
+				"alias":"5"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"7",
+				"alias":"6",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"7"
 			},
 			{
 				"name":"NED-D",
@@ -127,13 +127,13 @@
 		"alias":[
 			{
 				"value":"SN1999ef",
-				"source":"1,3,4,5,7,6,8,18"
+				"source":"1,3,4,6,5,7,8,18"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"4,5,6,7,18"
+				"source":"4,6,5,7,18"
 			}
 		],
 		"comovingdist":[
@@ -149,37 +149,37 @@
 			},
 			{
 				"value":"176",
-				"source":"11,8,12",
+				"source":"8,11,12",
 				"unit":"Mpc"
 			},
 			{
 				"value":"185",
-				"source":"13,8",
+				"source":"8,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"193",
-				"source":"8,14",
+				"source":"14,8",
 				"unit":"Mpc"
 			},
 			{
 				"value":"198",
-				"source":"15,8",
+				"source":"8,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"201",
-				"source":"8,14",
+				"source":"14,8",
 				"unit":"Mpc"
 			},
 			{
 				"value":"207",
-				"source":"8,14",
+				"source":"14,8",
 				"unit":"Mpc"
 			},
 			{
 				"value":"208",
-				"source":"8,16",
+				"source":"16,8",
 				"unit":"Mpc"
 			},
 			{
@@ -196,14 +196,14 @@
 			},
 			{
 				"value":"+12:44:45.0",
-				"source":"5,6,7",
+				"source":"6,5,7",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1999/10/09",
-				"source":"5,6,7"
+				"source":"6,5,7"
 			}
 		],
 		"discoverer":[
@@ -213,7 +213,7 @@
 			},
 			{
 				"value":"Jean Mueller and K. Rykoski",
-				"source":"6,7"
+				"source":"6,5"
 			}
 		],
 		"ebv":[
@@ -226,7 +226,7 @@
 		"host":[
 			{
 				"value":"UGC 607",
-				"source":"4,5,6,7"
+				"source":"4,6,5,7"
 			}
 		],
 		"hostdec":[
@@ -237,7 +237,7 @@
 			},
 			{
 				"value":"+12:44:53.8",
-				"source":"5",
+				"source":"7",
 				"unit":"degrees"
 			}
 		],
@@ -249,7 +249,7 @@
 			},
 			{
 				"value":"00:58:44.92",
-				"source":"5",
+				"source":"7",
 				"unit":"hours"
 			}
 		],
@@ -257,7 +257,7 @@
 			{
 				"value":"162",
 				"error":"12",
-				"source":"5",
+				"source":"7",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -283,18 +283,18 @@
 		"maxdate":[
 			{
 				"value":"1999/10/06",
-				"source":"4,5"
+				"source":"4,7"
 			}
 		],
 		"ra":[
 			{
 				"value":"00:58:46.2",
-				"source":"4,6,7",
+				"source":"4,6,5",
 				"unit":"hours"
 			},
 			{
 				"value":"00:58:46.20",
-				"source":"5",
+				"source":"7",
 				"unit":"hours"
 			}
 		],
@@ -13495,7 +13495,7 @@
 						"1.4221285e-17"
 					]
 				],
-				"source":"1,19,20"
+				"source":"20,1,19"
 			},
 			{
 				"deredshifted":false,
@@ -26249,7 +26249,7 @@
 						"1.1559495e-17"
 					]
 				],
-				"source":"1,19,20"
+				"source":"20,1,19"
 			},
 			{
 				"deredshifted":false,
@@ -39003,7 +39003,7 @@
 						"1.263783e-17"
 					]
 				],
-				"source":"1,19,20"
+				"source":"20,1,19"
 			}
 		]
 	}

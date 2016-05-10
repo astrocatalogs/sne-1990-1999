@@ -10,21 +10,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"2"
-			},
-			{
 				"name":"Lee et al. (1999)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07200/07237.html#Item2",
 				"bibcode":"1999IAUC.7237....3L",
-				"alias":"3"
+				"alias":"2"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4",
+				"alias":"3",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
 			},
 			{
 				"name":"Guillochon, Parrent, & Margutti (2016)",
@@ -42,20 +42,20 @@
 		"alias":[
 			{
 				"value":"SN1999dl",
-				"source":"1,2,4,3"
+				"source":"1,3,2,4"
 			}
 		],
 		"dec":[
 			{
 				"value":"+27:07:07.3",
-				"source":"1,2,3,4",
+				"source":"1,3,2,4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1999/08/11",
-				"source":"1,2,3,4"
+				"source":"1,3,2,4"
 			}
 		],
 		"discoverer":[
@@ -65,7 +65,7 @@
 			},
 			{
 				"value":"Tim Puckett et al.",
-				"source":"3,4"
+				"source":"3,2"
 			}
 		],
 		"ebv":[
@@ -89,7 +89,7 @@
 			},
 			{
 				"value":"+27:07:07.0",
-				"source":"2",
+				"source":"4",
 				"unit":"degrees"
 			}
 		],
@@ -101,26 +101,26 @@
 			},
 			{
 				"value":"23:04:11.00",
-				"source":"2",
+				"source":"4",
 				"unit":"hours"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19.1",
-				"source":"5,2"
+				"source":"4,5"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1999/08/11",
-				"source":"5,2"
+				"source":"4,5"
 			}
 		],
 		"ra":[
 			{
 				"value":"23:04:11.70",
-				"source":"1,2,3,4",
+				"source":"1,3,2,4",
 				"unit":"hours"
 			}
 		],
@@ -129,7 +129,7 @@
 				"time":"51401.0",
 				"u_time":"MJD",
 				"magnitude":"19.1",
-				"source":"2"
+				"source":"4"
 			}
 		]
 	}

@@ -15,21 +15,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"3"
-			},
-			{
 				"name":"Kronk et al. (1997)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06700/06773.html",
 				"bibcode":"1997IAUC.6773....4K",
-				"alias":"4"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"5",
+				"alias":"4",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"5"
 			},
 			{
 				"name":"Guillochon, Parrent, & Margutti (2016)",
@@ -47,7 +47,7 @@
 		"alias":[
 			{
 				"value":"SN1997dr",
-				"source":"1,2,3,5,4"
+				"source":"1,2,4,3,5"
 			}
 		],
 		"claimedtype":[
@@ -66,14 +66,14 @@
 		"dec":[
 			{
 				"value":"-44:28:13.4",
-				"source":"1,2,3,5,4",
+				"source":"1,2,3,4,5",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1997/11/07",
-				"source":"1,2,3,5,4"
+				"source":"1,2,3,4,5"
 			}
 		],
 		"discoverer":[
@@ -83,7 +83,7 @@
 			},
 			{
 				"value":"Mount Stromlo",
-				"source":"5,4"
+				"source":"3,4"
 			}
 		],
 		"ebv":[
@@ -104,7 +104,7 @@
 			},
 			{
 				"value":"PGC 536964",
-				"source":"3"
+				"source":"5"
 			}
 		],
 		"hostdec":[
@@ -115,7 +115,7 @@
 			},
 			{
 				"value":"-44:28:13.0",
-				"source":"3",
+				"source":"5",
 				"unit":"degrees"
 			}
 		],
@@ -127,7 +127,7 @@
 			},
 			{
 				"value":"03:18:49.00",
-				"source":"3",
+				"source":"5",
 				"unit":"hours"
 			}
 		],
@@ -148,25 +148,25 @@
 		"maxappmag":[
 			{
 				"value":"19.41",
-				"source":"1,6"
+				"source":"6,1"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"1,6"
+				"source":"6,1"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1997/11/17",
-				"source":"1,6"
+				"source":"6,1"
 			}
 		],
 		"ra":[
 			{
 				"value":"03:18:49.21",
-				"source":"1,2,3,5,4",
+				"source":"1,2,3,4,5",
 				"unit":"hours"
 			}
 		],
@@ -201,7 +201,7 @@
 				"time":"50758.5",
 				"u_time":"MJD",
 				"magnitude":"18.7",
-				"source":"5,4"
+				"source":"3,4"
 			},
 			{
 				"time":"50759.20",

@@ -20,21 +20,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
-			},
-			{
 				"name":"Bortle, Hale, & Morris (1990)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05000/05033.html",
 				"bibcode":"1990IAUC.5033....5B",
-				"alias":"5"
+				"alias":"4"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"6",
+				"alias":"5",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"6"
 			},
 			{
 				"name":"Yaron & Gal-Yam (2012)",
@@ -76,7 +76,7 @@
 		"alias":[
 			{
 				"value":"SN1990M",
-				"source":"1,2,3,4,6,5,7,10"
+				"source":"1,2,3,5,4,6,7,10"
 			}
 		],
 		"claimedtype":[
@@ -111,20 +111,20 @@
 				"unit":"degrees"
 			},
 			{
-				"value":"-05:02:35.9",
-				"source":"4",
+				"value":"-05:02:36.0",
+				"source":"4,5",
 				"unit":"degrees"
 			},
 			{
-				"value":"-05:02:36.0",
-				"source":"5,6",
+				"value":"-05:02:35.9",
+				"source":"6",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1990/06/15",
-				"source":"3,4,5,6,9,2"
+				"source":"3,4,5,6,2,9"
 			}
 		],
 		"discoverer":[
@@ -134,7 +134,7 @@
 			},
 			{
 				"value":"Robert Evans",
-				"source":"5,6"
+				"source":"4,5"
 			}
 		],
 		"ebv":[
@@ -158,7 +158,7 @@
 			},
 			{
 				"value":"-05:02:36.9",
-				"source":"4",
+				"source":"6",
 				"unit":"degrees"
 			}
 		],
@@ -170,7 +170,7 @@
 			},
 			{
 				"value":"14:11:29.39",
-				"source":"4",
+				"source":"6",
 				"unit":"hours"
 			}
 		],
@@ -178,7 +178,7 @@
 			{
 				"value":"38",
 				"error":"14",
-				"source":"4",
+				"source":"6",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -192,24 +192,24 @@
 		"maxappmag":[
 			{
 				"value":"13.5",
-				"source":"11,5,6"
+				"source":"4,5,11"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1990/06/15",
-				"source":"4"
+				"source":"6"
 			}
 		],
 		"ra":[
 			{
 				"value":"14:11:29.22",
-				"source":"3,4",
+				"source":"3,6",
 				"unit":"hours"
 			},
 			{
 				"value":"14:11:29.30",
-				"source":"5,6",
+				"source":"4,5",
 				"unit":"hours"
 			}
 		],
@@ -232,7 +232,7 @@
 				"time":"48056.5",
 				"u_time":"MJD",
 				"magnitude":"13.5",
-				"source":"5,6"
+				"source":"4,5"
 			},
 			{
 				"time":"48071.00",
@@ -2277,7 +2277,7 @@
 						"1.18183e-14"
 					]
 				],
-				"source":"9,2"
+				"source":"2,9"
 			},
 			{
 				"deredshifted":false,
@@ -4310,7 +4310,7 @@
 						"2.3367e-14"
 					]
 				],
-				"source":"9,2"
+				"source":"2,9"
 			},
 			{
 				"deredshifted":false,

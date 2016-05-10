@@ -15,21 +15,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"3"
-			},
-			{
 				"name":"Green (1994)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05900/05952.html",
 				"bibcode":"1994IAUC.5952....4G",
-				"alias":"4"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"5",
+				"alias":"4",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"5"
 			},
 			{
 				"name":"Guillochon, Parrent, & Margutti (2016)",
@@ -47,13 +47,13 @@
 		"alias":[
 			{
 				"value":"SN1994E",
-				"source":"1,2,3,5,4"
+				"source":"1,2,4,3,5"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,5,4,1"
+				"source":"2,3,4,5,1"
 			},
 			{
 				"value":"Ia-91T",
@@ -70,14 +70,14 @@
 		"dec":[
 			{
 				"value":"+55:21:34.7",
-				"source":"2,3,5,4",
+				"source":"2,3,4,5",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1994/03/05",
-				"source":"2,3,5,4,1"
+				"source":"2,3,4,5,1"
 			}
 		],
 		"discoverer":[
@@ -87,7 +87,7 @@
 			},
 			{
 				"value":"Christian Pollas",
-				"source":"5,4"
+				"source":"3,4"
 			}
 		],
 		"ebv":[
@@ -108,7 +108,7 @@
 			},
 			{
 				"value":"PGC 2499309",
-				"source":"3"
+				"source":"5"
 			},
 			{
 				"value":"*SDSS J113207.01+552138.0",
@@ -123,7 +123,7 @@
 			},
 			{
 				"value":"+55:21:34.0",
-				"source":"3",
+				"source":"5",
 				"unit":"degrees"
 			}
 		],
@@ -135,7 +135,7 @@
 			},
 			{
 				"value":"11:32:06.00",
-				"source":"3",
+				"source":"5",
 				"unit":"hours"
 			}
 		],
@@ -156,19 +156,19 @@
 		"maxappmag":[
 			{
 				"value":"19",
-				"source":"3,6"
+				"source":"6,3,4"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"1994/03/05",
-				"source":"3,6"
+				"value":"1994/03/04",
+				"source":"6,3,4"
 			}
 		],
 		"ra":[
 			{
 				"value":"11:32:06.96",
-				"source":"2,3,5,4",
+				"source":"2,3,4,5",
 				"unit":"hours"
 			}
 		],
@@ -192,13 +192,7 @@
 				"time":"49415.5",
 				"u_time":"MJD",
 				"magnitude":"19.0",
-				"source":"5,4"
-			},
-			{
-				"time":"49416.0",
-				"u_time":"MJD",
-				"magnitude":"19.0",
-				"source":"3"
+				"source":"3,4"
 			}
 		],
 		"spectra":[

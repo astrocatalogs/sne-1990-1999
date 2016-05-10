@@ -31,21 +31,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"6"
-			},
-			{
 				"name":"Green (1993)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05600/05693.html",
 				"bibcode":"1993IAUC.5693....2G",
-				"alias":"7"
+				"alias":"6"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"8",
+				"alias":"7",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"8"
 			},
 			{
 				"name":"NED-D",
@@ -79,7 +79,7 @@
 		"alias":[
 			{
 				"value":"SN1993A",
-				"source":"1,2,3,5,6,8,7,9"
+				"source":"1,2,3,5,7,6,8,9"
 			}
 		],
 		"claimedtype":[
@@ -89,13 +89,13 @@
 			},
 			{
 				"value":"II",
-				"source":"5,6"
+				"source":"5,8"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"129",
-				"source":"9,10",
+				"source":"10,9",
 				"unit":"Mpc"
 			},
 			{
@@ -116,13 +116,13 @@
 				"unit":"degrees"
 			},
 			{
-				"value":"-62:03:03.5",
-				"source":"6",
+				"value":"-61:56:11.0",
+				"source":"6,7",
 				"unit":"degrees"
 			},
 			{
-				"value":"-61:56:11.0",
-				"source":"7,8",
+				"value":"-62:03:03.5",
+				"source":"8",
 				"unit":"degrees"
 			}
 		],
@@ -139,7 +139,7 @@
 			},
 			{
 				"value":"Marina Wischnjewsky",
-				"source":"7,8"
+				"source":"6,7"
 			}
 		],
 		"ebv":[
@@ -160,7 +160,7 @@
 			},
 			{
 				"value":"2MASXJ07391822-6203095",
-				"source":"6"
+				"source":"8"
 			}
 		],
 		"hostdec":[
@@ -171,7 +171,7 @@
 			},
 			{
 				"value":"-62:03:00.0",
-				"source":"6",
+				"source":"8",
 				"unit":"degrees"
 			}
 		],
@@ -183,7 +183,7 @@
 			},
 			{
 				"value":"07:39:18.00",
-				"source":"6",
+				"source":"8",
 				"unit":"hours"
 			}
 		],
@@ -204,19 +204,19 @@
 		"maxappmag":[
 			{
 				"value":"19.91",
-				"source":"1,12"
+				"source":"12,1"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"1,12"
+				"source":"12,1"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1993/01/25",
-				"source":"1,12"
+				"source":"12,1"
 			}
 		],
 		"ra":[
@@ -226,13 +226,13 @@
 				"unit":"hours"
 			},
 			{
-				"value":"07:39:17.22",
-				"source":"6",
+				"value":"07:38:38.4",
+				"source":"6,7",
 				"unit":"hours"
 			},
 			{
-				"value":"07:38:38.4",
-				"source":"7,8",
+				"value":"07:39:17.22",
+				"source":"8",
 				"unit":"hours"
 			}
 		],
@@ -257,7 +257,7 @@
 				"time":"49003.5",
 				"u_time":"MJD",
 				"magnitude":"18.5",
-				"source":"7,8"
+				"source":"6,7"
 			},
 			{
 				"time":"49007.24",

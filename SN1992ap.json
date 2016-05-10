@@ -15,21 +15,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"3"
-			},
-			{
 				"name":"Birkle et al. (1992)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05500/05573.html",
 				"bibcode":"1992IAUC.5573....2B",
-				"alias":"4"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"5",
+				"alias":"4",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"5"
 			},
 			{
 				"name":"Guillochon, Parrent, & Margutti (2016)",
@@ -47,13 +47,13 @@
 		"alias":[
 			{
 				"value":"SN1992ap",
-				"source":"1,2,3,5,4"
+				"source":"1,2,4,3,5"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,5,4,1"
+				"source":"2,3,4,5,1"
 			}
 		],
 		"comovingdist":[
@@ -65,26 +65,26 @@
 		],
 		"dec":[
 			{
-				"value":"+41:29:18.2",
-				"source":"3",
+				"value":"+41:29:00.0",
+				"source":"3,4",
 				"unit":"degrees"
 			},
 			{
-				"value":"+41:29:00.0",
-				"source":"5,4",
+				"value":"+41:29:18.2",
+				"source":"5",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1992/07/29",
-				"source":"2,3,5,4,1"
+				"source":"2,3,4,5,1"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Birkle",
-				"source":"2,5,4"
+				"source":"2,3,4"
 			}
 		],
 		"ebv":[
@@ -97,7 +97,7 @@
 		"host":[
 			{
 				"value":"UGC 10430",
-				"source":"1,2,3,5,4"
+				"source":"1,2,3,4,5"
 			}
 		],
 		"hostdec":[
@@ -108,7 +108,7 @@
 			},
 			{
 				"value":"+41:29:02.2",
-				"source":"3",
+				"source":"5",
 				"unit":"degrees"
 			}
 		],
@@ -120,7 +120,7 @@
 			},
 			{
 				"value":"16:30:26.88",
-				"source":"3",
+				"source":"5",
 				"unit":"hours"
 			}
 		],
@@ -141,30 +141,24 @@
 		"maxappmag":[
 			{
 				"value":"18",
-				"source":"3,6"
-			}
-		],
-		"maxband":[
-			{
-				"value":"B",
-				"source":"3,6"
+				"source":"6,3,4"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"1992/07/29",
-				"source":"3,6"
+				"value":"1992/07/28",
+				"source":"6,3,4"
 			}
 		],
 		"ra":[
 			{
-				"value":"16:30:27.50",
-				"source":"3",
+				"value":"16:30:30.00",
+				"source":"3,4",
 				"unit":"hours"
 			},
 			{
-				"value":"16:30:30.00",
-				"source":"5,4",
+				"value":"16:30:27.50",
+				"source":"5",
 				"unit":"hours"
 			}
 		],
@@ -188,14 +182,7 @@
 				"time":"48831.5",
 				"u_time":"MJD",
 				"magnitude":"18.0",
-				"source":"5,4"
-			},
-			{
-				"time":"48832.0",
-				"u_time":"MJD",
-				"band":"B",
-				"magnitude":"18.0",
-				"source":"3"
+				"source":"3,4"
 			}
 		],
 		"spectra":[

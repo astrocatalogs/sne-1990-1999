@@ -20,21 +20,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
-			},
-			{
 				"name":"Schmeer (1993)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05700/05718.html",
 				"bibcode":"1993IAUC.5718....3S",
-				"alias":"5"
+				"alias":"4"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"6",
+				"alias":"5",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"6"
 			},
 			{
 				"name":"Guillochon, Parrent, & Margutti (2016)",
@@ -52,7 +52,7 @@
 		"alias":[
 			{
 				"value":"SN1993G",
-				"source":"1,3,4,6,5"
+				"source":"1,3,5,4,6"
 			}
 		],
 		"claimedtype":[
@@ -79,20 +79,20 @@
 				"unit":"degrees"
 			},
 			{
-				"value":"+58:33:31.0",
-				"source":"4",
+				"value":"+58:33:31.2",
+				"source":"4,5",
 				"unit":"degrees"
 			},
 			{
-				"value":"+58:33:31.2",
-				"source":"5,6",
+				"value":"+58:33:31.0",
+				"source":"6",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1993/03/06",
-				"source":"3,4"
+				"source":"3,6"
 			}
 		],
 		"discoverer":[
@@ -102,7 +102,7 @@
 			},
 			{
 				"value":"Treffers, Filippenko, Leibundgut,",
-				"source":"5,6"
+				"source":"4,5"
 			}
 		],
 		"ebv":[
@@ -126,7 +126,7 @@
 			},
 			{
 				"value":"+58:33:47.0",
-				"source":"4",
+				"source":"6",
 				"unit":"degrees"
 			}
 		],
@@ -138,7 +138,7 @@
 			},
 			{
 				"value":"11:28:33.62",
-				"source":"4",
+				"source":"6",
 				"unit":"hours"
 			}
 		],
@@ -177,19 +177,19 @@
 		"ra":[
 			{
 				"value":"11:28:33.37",
-				"source":"3,4",
+				"source":"3,6",
 				"unit":"hours"
 			},
 			{
 				"value":"11:28:33.44",
-				"source":"5,6",
+				"source":"4,5",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.01",
-				"source":"4",
+				"source":"6",
 				"kind":"host"
 			}
 		],
@@ -206,7 +206,7 @@
 				"time":"49050.5",
 				"u_time":"MJD",
 				"magnitude":"16.6",
-				"source":"5,6"
+				"source":"4,5"
 			},
 			{
 				"time":"49058.9",

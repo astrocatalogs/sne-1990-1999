@@ -15,21 +15,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"3"
-			},
-			{
 				"name":"Hornoch, Hale, & Carvajal (1996)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06300/06357.html#Item1",
 				"bibcode":"1996IAUC.6357....3H",
-				"alias":"4"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"5",
+				"alias":"4",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"5"
 			},
 			{
 				"name":"Yaron & Gal-Yam (2012)",
@@ -54,13 +54,13 @@
 		"alias":[
 			{
 				"value":"SN1996P",
-				"source":"1,2,3,5,4,6"
+				"source":"1,2,4,3,5,6"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,5,4,6,1"
+				"source":"2,3,4,5,6,1"
 			},
 			{
 				"value":"Ia-91T",
@@ -77,14 +77,14 @@
 		"dec":[
 			{
 				"value":"+02:48:30.2",
-				"source":"2,3,5,4",
+				"source":"2,3,4,5",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1996/03/25",
-				"source":"2,3,5,4,1"
+				"source":"2,3,4,5,1"
 			}
 		],
 		"discoverer":[
@@ -94,7 +94,7 @@
 			},
 			{
 				"value":"Jean Mueller",
-				"source":"5,4"
+				"source":"3,4"
 			}
 		],
 		"ebv":[
@@ -107,7 +107,7 @@
 		"host":[
 			{
 				"value":"NGC 5335",
-				"source":"1,2,3,5,4"
+				"source":"1,2,3,4,5"
 			}
 		],
 		"hostdec":[
@@ -118,7 +118,7 @@
 			},
 			{
 				"value":"+02:48:51.8",
-				"source":"3",
+				"source":"5",
 				"unit":"degrees"
 			}
 		],
@@ -130,7 +130,7 @@
 			},
 			{
 				"value":"13:52:56.58",
-				"source":"3",
+				"source":"5",
 				"unit":"hours"
 			}
 		],
@@ -150,25 +150,25 @@
 		"maxappmag":[
 			{
 				"value":"17",
-				"source":"3,7"
+				"source":"7,5"
 			}
 		],
 		"maxband":[
 			{
 				"value":"J",
-				"source":"3,7"
+				"source":"7,5"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1996/03/25",
-				"source":"3,7"
+				"source":"7,5"
 			}
 		],
 		"ra":[
 			{
 				"value":"13:52:52.61",
-				"source":"2,3,5,4",
+				"source":"2,3,4,5",
 				"unit":"hours"
 			}
 		],
@@ -192,7 +192,7 @@
 				"u_time":"MJD",
 				"band":"J",
 				"magnitude":"17.0",
-				"source":"3"
+				"source":"5"
 			}
 		],
 		"spectra":[

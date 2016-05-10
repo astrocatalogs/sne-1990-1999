@@ -41,21 +41,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"8"
-			},
-			{
 				"name":"Zhao et al. (1993)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05800/05879.html",
 				"bibcode":"1993IAUC.5879....3Z",
-				"alias":"9"
+				"alias":"8"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"10",
+				"alias":"9",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"10"
 			},
 			{
 				"name":"NED-D",
@@ -156,7 +156,7 @@
 		"alias":[
 			{
 				"value":"SN1993ac",
-				"source":"1,2,3,5,7,8,10,9,11,25"
+				"source":"1,2,3,5,7,9,8,10,11,25"
 			}
 		],
 		"claimedtype":[
@@ -166,13 +166,13 @@
 			},
 			{
 				"value":"Ia",
-				"source":"7,8,10,9,25,1"
+				"source":"7,8,9,10,25,1"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"151",
-				"source":"11,12",
+				"source":"12,11",
 				"unit":"Mpc"
 			},
 			{
@@ -182,17 +182,17 @@
 			},
 			{
 				"value":"195",
-				"source":"11,14",
+				"source":"14,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"200",
-				"source":"15,11",
+				"source":"11,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"203",
-				"source":"11,16",
+				"source":"16,11",
 				"unit":"Mpc"
 			},
 			{
@@ -212,7 +212,7 @@
 			},
 			{
 				"value":"216",
-				"source":"19,11",
+				"source":"11,19",
 				"unit":"Mpc"
 			},
 			{
@@ -242,7 +242,7 @@
 			},
 			{
 				"value":"254",
-				"source":"23,11",
+				"source":"11,23",
 				"unit":"Mpc"
 			},
 			{
@@ -258,20 +258,20 @@
 				"unit":"degrees"
 			},
 			{
-				"value":"+63:22:07.1",
-				"source":"8",
+				"value":"+63:22:07.0",
+				"source":"8,9",
 				"unit":"degrees"
 			},
 			{
-				"value":"+63:22:07.0",
-				"source":"10,9",
+				"value":"+63:22:07.1",
+				"source":"10",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1993/10/13",
-				"source":"8,10,9,1"
+				"source":"8,9,10,1"
 			}
 		],
 		"discoverer":[
@@ -281,7 +281,7 @@
 			},
 			{
 				"value":"Jean Mueller",
-				"source":"10,9"
+				"source":"8,9"
 			}
 		],
 		"ebv":[
@@ -298,7 +298,7 @@
 			},
 			{
 				"value":"PGC 17787",
-				"source":"7,8"
+				"source":"7,10"
 			}
 		],
 		"hostdec":[
@@ -309,7 +309,7 @@
 			},
 			{
 				"value":"+63:21:32.9",
-				"source":"8",
+				"source":"10",
 				"unit":"degrees"
 			}
 		],
@@ -321,7 +321,7 @@
 			},
 			{
 				"value":"05:46:24.55",
-				"source":"8",
+				"source":"10",
 				"unit":"hours"
 			}
 		],
@@ -329,7 +329,7 @@
 			{
 				"value":"204",
 				"error":"26",
-				"source":"8",
+				"source":"10",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -355,18 +355,18 @@
 		"maxdate":[
 			{
 				"value":"1993/10/10",
-				"source":"7,8"
+				"source":"7,10"
 			}
 		],
 		"ra":[
 			{
 				"value":"05:46:23.58",
-				"source":"7,8",
+				"source":"7,10",
 				"unit":"hours"
 			},
 			{
 				"value":"05:46:23.55",
-				"source":"10,9",
+				"source":"8,9",
 				"unit":"hours"
 			}
 		],
@@ -389,7 +389,7 @@
 				"time":"49272.5",
 				"u_time":"MJD",
 				"magnitude":"18.0",
-				"source":"10,9"
+				"source":"8,9"
 			},
 			{
 				"time":"49276.50",
@@ -10904,7 +10904,7 @@
 						"5.6171151e-18"
 					]
 				],
-				"source":"3,2,26"
+				"source":"3,26,2"
 			},
 			{
 				"deredshifted":false,
@@ -15429,7 +15429,7 @@
 						"6.5751402e-17"
 					]
 				],
-				"source":"3,2,26"
+				"source":"3,26,2"
 			},
 			{
 				"deredshifted":false,

@@ -26,21 +26,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"5"
-			},
-			{
 				"name":"Schmeer (1993)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05700/05723.html",
 				"bibcode":"1993IAUC.5723....3S",
-				"alias":"6"
+				"alias":"5"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"7",
+				"alias":"6",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"7"
 			},
 			{
 				"name":"NED-D",
@@ -139,13 +139,13 @@
 		"alias":[
 			{
 				"value":"SN1993H",
-				"source":"1,4,5,7,6,8"
+				"source":"1,4,6,5,7,8"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"4,5,6,7"
+				"source":"4,6,5,7"
 			}
 		],
 		"comovingdist":[
@@ -161,12 +161,12 @@
 			},
 			{
 				"value":"97.8",
-				"source":"11,8",
+				"source":"8,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"99.3",
-				"source":"11,8",
+				"source":"8,11",
 				"unit":"Mpc"
 			},
 			{
@@ -176,17 +176,17 @@
 			},
 			{
 				"value":"101",
-				"source":"13,8",
+				"source":"8,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"102",
-				"source":"8,14,15",
+				"source":"14,8,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"103",
-				"source":"8,16",
+				"source":"16,8",
 				"unit":"Mpc"
 			},
 			{
@@ -201,7 +201,7 @@
 			},
 			{
 				"value":"107",
-				"source":"19,8,20,21",
+				"source":"8,19,20,21",
 				"unit":"Mpc"
 			},
 			{
@@ -211,31 +211,31 @@
 			},
 			{
 				"value":"110",
-				"source":"13,8",
+				"source":"8,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"122",
-				"source":"22,8,15",
+				"source":"8,22,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"237",
-				"source":"23,8",
+				"source":"8,23",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"-30:42:23.3",
-				"source":"4,5,6,7",
+				"source":"4,6,5,7",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1993/03/18",
-				"source":"5,6,7"
+				"source":"6,5,7"
 			}
 		],
 		"discoverer":[
@@ -245,7 +245,7 @@
 			},
 			{
 				"value":"Marina Wischnjewsky",
-				"source":"6,7"
+				"source":"6,5"
 			}
 		],
 		"ebv":[
@@ -258,7 +258,7 @@
 		"host":[
 			{
 				"value":"ESO 445-G66",
-				"source":"4,5,6,7"
+				"source":"4,6,5,7"
 			}
 		],
 		"hostdec":[
@@ -269,7 +269,7 @@
 			},
 			{
 				"value":"-30:42:35.9",
-				"source":"5",
+				"source":"7",
 				"unit":"degrees"
 			}
 		],
@@ -281,7 +281,7 @@
 			},
 			{
 				"value":"13:52:50.26",
-				"source":"5",
+				"source":"7",
 				"unit":"hours"
 			}
 		],
@@ -289,7 +289,7 @@
 			{
 				"value":"95",
 				"error":"1",
-				"source":"5",
+				"source":"7",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -315,20 +315,20 @@
 		"maxdate":[
 			{
 				"value":"1993/03/20",
-				"source":"4,5"
+				"source":"4,7"
 			}
 		],
 		"ra":[
 			{
 				"value":"13:52:50.34",
-				"source":"4,5,6,7",
+				"source":"4,6,5,7",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.024",
-				"source":"5",
+				"source":"7",
 				"kind":"host"
 			}
 		],
@@ -345,7 +345,7 @@
 				"time":"49063.5",
 				"u_time":"MJD",
 				"magnitude":"16.5",
-				"source":"6,7"
+				"source":"6,5"
 			},
 			{
 				"time":"49067.28",

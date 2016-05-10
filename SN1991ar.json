@@ -10,21 +10,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"2"
-			},
-			{
 				"name":"Marsden (1991)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05300/05334.html",
 				"bibcode":"1991IAUC.5334....3M",
-				"alias":"3"
+				"alias":"2"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4",
+				"alias":"3",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
 			},
 			{
 				"name":"Yaron & Gal-Yam (2012)",
@@ -74,13 +74,13 @@
 		"alias":[
 			{
 				"value":"SN1991ar",
-				"source":"1,2,4,3,5,7,8,9"
+				"source":"1,3,2,4,5,7,8,9"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ib",
-				"source":"1,2,3,4,5,7,6"
+				"source":"1,3,2,4,5,6,7"
 			}
 		],
 		"comovingdist":[
@@ -97,20 +97,20 @@
 				"unit":"degrees"
 			},
 			{
-				"value":"+01:51:13.5",
-				"source":"2",
+				"value":"+01:51:13.4",
+				"source":"3,2",
 				"unit":"degrees"
 			},
 			{
-				"value":"+01:51:13.4",
-				"source":"3,4",
+				"value":"+01:51:13.5",
+				"source":"4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1991/09/02",
-				"source":"1,2,3,4,7,6"
+				"source":"1,3,2,4,6,7"
 			}
 		],
 		"discoverer":[
@@ -120,7 +120,7 @@
 			},
 			{
 				"value":"Robert McNaught, Russell",
-				"source":"3,4"
+				"source":"3,2"
 			}
 		],
 		"ebv":[
@@ -133,7 +133,7 @@
 		"host":[
 			{
 				"value":"IC 49",
-				"source":"1,2,3,4,7,6"
+				"source":"1,3,2,4,6,7"
 			}
 		],
 		"hostdec":[
@@ -144,7 +144,7 @@
 			},
 			{
 				"value":"+01:50:52.0",
-				"source":"2",
+				"source":"4",
 				"unit":"degrees"
 			}
 		],
@@ -156,7 +156,7 @@
 			},
 			{
 				"value":"00:43:56.00",
-				"source":"2",
+				"source":"4",
 				"unit":"hours"
 			}
 		],
@@ -176,30 +176,24 @@
 		"maxappmag":[
 			{
 				"value":"17",
-				"source":"2,10"
-			}
-		],
-		"maxband":[
-			{
-				"value":"J",
-				"source":"2,10"
+				"source":"3,2,10"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"1991/09/02",
-				"source":"2,10"
+				"value":"1991/09/01",
+				"source":"3,2,10"
 			}
 		],
 		"ra":[
 			{
 				"value":"00:43:56.68",
-				"source":"1,2",
+				"source":"1,4",
 				"unit":"hours"
 			},
 			{
 				"value":"00:43:56.72",
-				"source":"3,4",
+				"source":"3,2",
 				"unit":"hours"
 			}
 		],
@@ -222,20 +216,13 @@
 				"time":"48500.5",
 				"u_time":"MJD",
 				"magnitude":"17.0",
-				"source":"3,4"
-			},
-			{
-				"time":"48501.0",
-				"u_time":"MJD",
-				"band":"J",
-				"magnitude":"17.0",
-				"source":"2"
+				"source":"3,2"
 			}
 		],
 		"spectra":[
 			{
 				"u_time":"MJD",
-				"time":"48485",
+				"time":"48484",
 				"waveunit":"Angstrom",
 				"fluxunit":"Uncalibrated",
 				"data":[
@@ -9251,7 +9238,7 @@
 						"0.208915"
 					]
 				],
-				"source":"7,6"
+				"source":"6,7"
 			},
 			{
 				"u_time":"MJD",
@@ -15477,7 +15464,7 @@
 						"0.1413879991"
 					]
 				],
-				"source":"8,6"
+				"source":"6,8"
 			},
 			{
 				"deredshifted":false,
@@ -21376,7 +21363,7 @@
 						"0.0300097"
 					]
 				],
-				"source":"7,6"
+				"source":"6,7"
 			},
 			{
 				"u_time":"MJD",
@@ -33146,7 +33133,7 @@
 						"0.03673920035"
 					]
 				],
-				"source":"8,6"
+				"source":"6,8"
 			}
 		]
 	}

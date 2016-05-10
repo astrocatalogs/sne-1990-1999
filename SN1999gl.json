@@ -27,21 +27,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"5"
-			},
-			{
 				"name":"Bremer et al. (1999)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07300/07333.html#Item1",
 				"bibcode":"1999IAUC.7333....3B",
-				"alias":"6"
+				"alias":"5"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"7",
+				"alias":"6",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"7"
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
@@ -52,13 +52,13 @@
 		"alias":[
 			{
 				"value":"SN1999gl",
-				"source":"2,4,5,7,6"
+				"source":"2,4,6,5,7"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"4,5,6,7"
+				"source":"4,6,5,7"
 			}
 		],
 		"comovingdist":[
@@ -71,14 +71,14 @@
 		"dec":[
 			{
 				"value":"+43:47:35.6",
-				"source":"4,5,6,7",
+				"source":"4,6,5,7",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1999/12/14",
-				"source":"4,5,6,7"
+				"source":"4,6,5,7"
 			}
 		],
 		"discoverer":[
@@ -88,7 +88,7 @@
 			},
 			{
 				"value":"Tom Boles",
-				"source":"6,7"
+				"source":"6,5"
 			}
 		],
 		"distinctfrom":[
@@ -107,7 +107,7 @@
 		"host":[
 			{
 				"value":"NGC 317B",
-				"source":"4,5,6,7"
+				"source":"4,6,5,7"
 			}
 		],
 		"hostdec":[
@@ -118,7 +118,7 @@
 			},
 			{
 				"value":"+43:47:32.6",
-				"source":"5",
+				"source":"7",
 				"unit":"degrees"
 			}
 		],
@@ -130,7 +130,7 @@
 			},
 			{
 				"value":"00:57:41.67",
-				"source":"5",
+				"source":"7",
 				"unit":"hours"
 			}
 		],
@@ -138,7 +138,6 @@
 			{
 				"value":"81",
 				"source":"1",
-				"kind":"host",
 				"unit":"Mpc"
 			}
 		],
@@ -169,15 +168,14 @@
 		"ra":[
 			{
 				"value":"00:57:40.07",
-				"source":"4,5,6,7",
+				"source":"4,6,5,7",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.018",
-				"source":"5,6,7",
-				"kind":"host"
+				"source":"6,5,7"
 			}
 		],
 		"velocity":[
@@ -193,7 +191,7 @@
 				"time":"51532.5",
 				"u_time":"MJD",
 				"magnitude":"16.2",
-				"source":"6,7"
+				"source":"6,5"
 			},
 			{
 				"time":"51532.95",

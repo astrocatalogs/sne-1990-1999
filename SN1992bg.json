@@ -21,21 +21,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
-			},
-			{
 				"name":"Nakano et al. (1992)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05600/05645.html",
 				"bibcode":"1992IAUC.5645....2N",
-				"alias":"5"
+				"alias":"4"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"6",
+				"alias":"5",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"6"
 			},
 			{
 				"name":"NED-D",
@@ -124,17 +124,17 @@
 		"alias":[
 			{
 				"value":"SN1992bg",
-				"source":"1,3,4,6,5,7"
+				"source":"1,3,5,4,6,7"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"3,4"
+				"source":"3,6"
 			},
 			{
 				"value":"Ia-92bg",
-				"source":"5,6"
+				"source":"4,5"
 			}
 		],
 		"comovingdist":[
@@ -160,22 +160,22 @@
 			},
 			{
 				"value":"146",
-				"source":"7,10,11,12",
+				"source":"10,7,11,12",
 				"unit":"Mpc"
 			},
 			{
 				"value":"149",
-				"source":"13,7,14",
+				"source":"7,13,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"151",
-				"source":"15,7",
+				"source":"7,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"157",
-				"source":"7,16",
+				"source":"16,7",
 				"unit":"Mpc"
 			},
 			{
@@ -195,7 +195,7 @@
 			},
 			{
 				"value":"172",
-				"source":"19,7",
+				"source":"7,19",
 				"unit":"Mpc"
 			},
 			{
@@ -205,7 +205,7 @@
 			},
 			{
 				"value":"192",
-				"source":"19,7",
+				"source":"7,19",
 				"unit":"Mpc"
 			}
 		],
@@ -229,7 +229,7 @@
 			},
 			{
 				"value":"Roberto Antezana",
-				"source":"5,6"
+				"source":"4,5"
 			}
 		],
 		"ebv":[
@@ -246,7 +246,7 @@
 			},
 			{
 				"value":"PGC 343503",
-				"source":"4"
+				"source":"6"
 			}
 		],
 		"hostdec":[
@@ -257,7 +257,7 @@
 			},
 			{
 				"value":"-62:31:08.0",
-				"source":"4",
+				"source":"6",
 				"unit":"degrees"
 			}
 		],
@@ -269,7 +269,7 @@
 			},
 			{
 				"value":"07:41:56.00",
-				"source":"4",
+				"source":"6",
 				"unit":"hours"
 			}
 		],
@@ -277,7 +277,6 @@
 			{
 				"value":"160",
 				"source":"21",
-				"kind":"host",
 				"unit":"Mpc"
 			}
 		],
@@ -302,7 +301,7 @@
 		"maxdate":[
 			{
 				"value":"1992/10/19",
-				"source":"3,4"
+				"source":"3,6"
 			}
 		],
 		"ra":[
@@ -315,8 +314,7 @@
 		"redshift":[
 			{
 				"value":"0.035",
-				"source":"4,5,6",
-				"kind":"host"
+				"source":"4,5,6"
 			}
 		],
 		"velocity":[
@@ -332,7 +330,7 @@
 				"time":"48915.5",
 				"u_time":"MJD",
 				"magnitude":"17.8",
-				"source":"5,6"
+				"source":"4,5"
 			},
 			{
 				"time":"48919.3",

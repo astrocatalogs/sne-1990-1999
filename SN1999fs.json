@@ -10,21 +10,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"2"
-			},
-			{
 				"name":"Cappellaro et al. (2000)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07300/0712.html#Item1",
 				"bibcode":"2000IAUC.7346....2C",
-				"alias":"3"
+				"alias":"2"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4",
+				"alias":"3",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
 			},
 			{
 				"name":"Yaron & Gal-Yam (2012)",
@@ -61,7 +61,7 @@
 		"alias":[
 			{
 				"value":"SN1999fs",
-				"source":"1,2,4,3,5,7"
+				"source":"1,3,2,4,5,7"
 			}
 		],
 		"claimedtype":[],
@@ -80,14 +80,14 @@
 			},
 			{
 				"value":"-00:07:50.3",
-				"source":"2,3,4",
+				"source":"3,2,4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1999/11/03",
-				"source":"1,2,3,4,7,6"
+				"source":"1,3,2,4,6,7"
 			}
 		],
 		"discoverer":[
@@ -97,7 +97,7 @@
 			},
 			{
 				"value":"High Z Supernova Search",
-				"source":"3,4"
+				"source":"3,2"
 			}
 		],
 		"ebv":[
@@ -114,7 +114,7 @@
 			},
 			{
 				"value":"DEEP2 31026496",
-				"source":"7,6"
+				"source":"6,7"
 			}
 		],
 		"hostdec":[
@@ -125,7 +125,7 @@
 			},
 			{
 				"value":"-00:07:50.0",
-				"source":"2",
+				"source":"4",
 				"unit":"degrees"
 			}
 		],
@@ -137,7 +137,7 @@
 			},
 			{
 				"value":"23:27:17.00",
-				"source":"2",
+				"source":"4",
 				"unit":"hours"
 			}
 		],
@@ -157,19 +157,19 @@
 		"maxappmag":[
 			{
 				"value":"21.3",
-				"source":"8,2"
+				"source":"8,3,2"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"1999/11/03",
-				"source":"8,2"
+				"value":"1999/11/02",
+				"source":"8,3,2"
 			}
 		],
 		"ra":[
 			{
 				"value":"23:27:17.17",
-				"source":"1,2,3,4",
+				"source":"1,3,2,4",
 				"unit":"hours"
 			}
 		],
@@ -191,13 +191,7 @@
 				"time":"51484.5",
 				"u_time":"MJD",
 				"magnitude":"21.3",
-				"source":"3,4"
-			},
-			{
-				"time":"51485.0",
-				"u_time":"MJD",
-				"magnitude":"21.3",
-				"source":"2"
+				"source":"3,2"
 			}
 		],
 		"spectra":[
@@ -4486,7 +4480,7 @@
 						"0.0270668"
 					]
 				],
-				"source":"7,6"
+				"source":"6,7"
 			}
 		]
 	}

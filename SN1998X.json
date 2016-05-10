@@ -10,21 +10,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"2"
-			},
-			{
 				"name":"Merlin (1998)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06800/06847.html#Item1",
 				"bibcode":"1998IAUC.6847....3M",
-				"alias":"3"
+				"alias":"2"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4",
+				"alias":"3",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
 			},
 			{
 				"name":"Guillochon, Parrent, & Margutti (2016)",
@@ -42,13 +42,13 @@
 		"alias":[
 			{
 				"value":"SN1998X",
-				"source":"1,2,4,3"
+				"source":"1,3,2,4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"1,2,3,4"
+				"source":"1,3,2,4"
 			}
 		],
 		"comovingdist":[
@@ -61,19 +61,19 @@
 		"dec":[
 			{
 				"value":"-50:38:33.8",
-				"source":"1,2",
+				"source":"1,4",
 				"unit":"degrees"
 			},
 			{
 				"value":"-50:38:34.0",
-				"source":"3,4",
+				"source":"3,2",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1998/03/13",
-				"source":"1,2,3,4"
+				"source":"1,3,2,4"
 			}
 		],
 		"discoverer":[
@@ -83,7 +83,7 @@
 			},
 			{
 				"value":"Perth Astronomical Research Group",
-				"source":"3,4"
+				"source":"3,2"
 			}
 		],
 		"ebv":[
@@ -96,7 +96,7 @@
 		"host":[
 			{
 				"value":"NGC 6754",
-				"source":"1,2,3,4"
+				"source":"1,3,2,4"
 			}
 		],
 		"hostdec":[
@@ -107,7 +107,7 @@
 			},
 			{
 				"value":"-50:38:32.0",
-				"source":"2",
+				"source":"4",
 				"unit":"degrees"
 			}
 		],
@@ -119,7 +119,7 @@
 			},
 			{
 				"value":"19:11:25.74",
-				"source":"2",
+				"source":"4",
 				"unit":"hours"
 			}
 		],
@@ -127,7 +127,7 @@
 			{
 				"value":"41",
 				"error":"8",
-				"source":"2",
+				"source":"4",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -141,37 +141,37 @@
 		"maxappmag":[
 			{
 				"value":"17",
-				"source":"5,2"
+				"source":"4,5"
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
-				"source":"5,2"
+				"source":"4,5"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1998/03/13",
-				"source":"5,2"
+				"source":"4,5"
 			}
 		],
 		"ra":[
 			{
 				"value":"19:11:23.19",
-				"source":"1,2",
+				"source":"1,4",
 				"unit":"hours"
 			},
 			{
 				"value":"19:11:23.2",
-				"source":"3,4",
+				"source":"3,2",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0104",
-				"source":"3,4"
+				"source":"3,2"
 			}
 		],
 		"velocity":[
@@ -188,7 +188,7 @@
 				"u_time":"MJD",
 				"band":"R",
 				"magnitude":"17.0",
-				"source":"2"
+				"source":"4"
 			}
 		]
 	}

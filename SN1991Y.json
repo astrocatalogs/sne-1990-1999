@@ -22,21 +22,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
-			},
-			{
 				"name":"Pearce et al. (1991)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05200/05259.html",
 				"bibcode":"1991IAUC.5259....3P",
-				"alias":"5"
+				"alias":"4"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"6",
+				"alias":"5",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"6"
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
@@ -47,7 +47,7 @@
 		"alias":[
 			{
 				"value":"SN1991Y",
-				"source":"2,3,4,6,5"
+				"source":"2,3,5,4,6"
 			}
 		],
 		"claimedtype":[
@@ -58,13 +58,13 @@
 		],
 		"dec":[
 			{
-				"value":"+57:19:07.0",
-				"source":"4",
+				"value":"+57:18:48.0",
+				"source":"4,5",
 				"unit":"degrees"
 			},
 			{
-				"value":"+57:18:48.0",
-				"source":"5,6",
+				"value":"+57:19:07.0",
+				"source":"6",
 				"unit":"degrees"
 			}
 		],
@@ -81,7 +81,7 @@
 			},
 			{
 				"value":"Jean Mueller",
-				"source":"5,6"
+				"source":"4,5"
 			}
 		],
 		"ebv":[
@@ -105,7 +105,7 @@
 			},
 			{
 				"value":"+57:19:00.0",
-				"source":"4",
+				"source":"6",
 				"unit":"degrees"
 			}
 		],
@@ -117,37 +117,31 @@
 			},
 			{
 				"value":"17:14:36.00",
-				"source":"4",
+				"source":"6",
 				"unit":"hours"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19",
-				"source":"4,2"
-			}
-		],
-		"maxband":[
-			{
-				"value":"B",
-				"source":"4,2"
+				"source":"4,5,2"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"1991/04/17",
-				"source":"4,2"
+				"value":"1991/04/16",
+				"source":"4,5,2"
 			}
 		],
 		"ra":[
 			{
-				"value":"17:14:36.00",
-				"source":"4",
+				"value":"17:14:33.6",
+				"source":"4,5",
 				"unit":"hours"
 			},
 			{
-				"value":"17:14:33.6",
-				"source":"5,6",
+				"value":"17:14:36.00",
+				"source":"6",
 				"unit":"hours"
 			}
 		],
@@ -156,14 +150,7 @@
 				"time":"48362.5",
 				"u_time":"MJD",
 				"magnitude":"19.0",
-				"source":"5,6"
-			},
-			{
-				"time":"48363.0",
-				"u_time":"MJD",
-				"band":"B",
-				"magnitude":"19.0",
-				"source":"4"
+				"source":"4,5"
 			}
 		]
 	}

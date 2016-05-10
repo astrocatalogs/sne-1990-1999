@@ -15,21 +15,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"3"
-			},
-			{
 				"name":"Halderson et al. (1998)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07000/07015.html",
 				"bibcode":"1998IAUC.7015....2H",
-				"alias":"4"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"5",
+				"alias":"4",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"5"
 			},
 			{
 				"name":"Guillochon, Parrent, & Margutti (2016)",
@@ -47,7 +47,7 @@
 		"alias":[
 			{
 				"value":"SN1998dy",
-				"source":"1,2,3,5,4"
+				"source":"1,2,4,3,5"
 			}
 		],
 		"claimedtype":[
@@ -66,7 +66,7 @@
 		"dec":[
 			{
 				"value":"-61:12:43.1",
-				"source":"1,2,3,5,4",
+				"source":"1,2,3,4,5",
 				"unit":"degrees"
 			}
 		],
@@ -83,7 +83,7 @@
 			},
 			{
 				"value":"Mount Stromlo",
-				"source":"5,4"
+				"source":"3,4"
 			}
 		],
 		"ebv":[
@@ -111,7 +111,7 @@
 			},
 			{
 				"value":"-61:12:43.0",
-				"source":"3",
+				"source":"5",
 				"unit":"degrees"
 			}
 		],
@@ -123,7 +123,7 @@
 			},
 			{
 				"value":"04:29:54.00",
-				"source":"3",
+				"source":"5",
 				"unit":"hours"
 			}
 		],
@@ -144,19 +144,19 @@
 		"maxappmag":[
 			{
 				"value":"19",
-				"source":"5,4,6"
+				"source":"6,3,4"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1998/07/31",
-				"source":"5,4,6"
+				"source":"6,3,4"
 			}
 		],
 		"ra":[
 			{
 				"value":"04:29:54.24",
-				"source":"1,2,3,5,4",
+				"source":"1,2,3,4,5",
 				"unit":"hours"
 			}
 		],
@@ -224,7 +224,7 @@
 				"time":"51025.5",
 				"u_time":"MJD",
 				"magnitude":"19.0",
-				"source":"5,4"
+				"source":"3,4"
 			},
 			{
 				"time":"51026.38",

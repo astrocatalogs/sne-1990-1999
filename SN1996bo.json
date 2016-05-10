@@ -42,21 +42,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"8"
-			},
-			{
 				"name":"Keen et al. (1996)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06400/06497.html#Item1",
 				"bibcode":"1996IAUC.6497....2K",
-				"alias":"9"
+				"alias":"8"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"10",
+				"alias":"9",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"10"
 			},
 			{
 				"name":"NED-D",
@@ -142,7 +142,7 @@
 		"alias":[
 			{
 				"value":"SN1996bo",
-				"source":"1,2,4,7,8,10,9,11,22"
+				"source":"1,2,4,7,9,8,10,11,22"
 			}
 		],
 		"claimedtype":[
@@ -152,13 +152,13 @@
 			},
 			{
 				"value":"Ia",
-				"source":"7,8,10,9,22"
+				"source":"7,8,9,10,22"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"44.3",
-				"source":"11,12",
+				"source":"12,11",
 				"unit":"Mpc"
 			},
 			{
@@ -168,17 +168,17 @@
 			},
 			{
 				"value":"59.2",
-				"source":"11,14",
+				"source":"14,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"61.5",
-				"source":"15,11",
+				"source":"11,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"62.1",
-				"source":"11,16",
+				"source":"16,11",
 				"unit":"Mpc"
 			},
 			{
@@ -193,22 +193,22 @@
 			},
 			{
 				"value":"65.2",
-				"source":"19,11",
+				"source":"11,19",
 				"unit":"Mpc"
 			},
 			{
 				"value":"66.9",
-				"source":"11,16",
+				"source":"16,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"67.4",
-				"source":"11,16",
+				"source":"16,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"71.3",
-				"source":"11,16",
+				"source":"16,11",
 				"unit":"Mpc"
 			},
 			{
@@ -223,26 +223,26 @@
 			},
 			{
 				"value":"82.2",
-				"source":"15,11",
+				"source":"11,15",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"+11:31:15.1",
-				"source":"7,8",
+				"source":"7,10",
 				"unit":"degrees"
 			},
 			{
 				"value":"+11:31:15.8",
-				"source":"10,9",
+				"source":"8,9",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1996/10/18",
-				"source":"8,10,9"
+				"source":"8,9,10"
 			}
 		],
 		"discoverer":[
@@ -252,7 +252,7 @@
 			},
 			{
 				"value":"BAO Supernova Survey",
-				"source":"10,9"
+				"source":"8,9"
 			}
 		],
 		"ebv":[
@@ -265,7 +265,7 @@
 		"host":[
 			{
 				"value":"NGC 673",
-				"source":"7,8,10,9"
+				"source":"7,8,9,10"
 			}
 		],
 		"hostdec":[
@@ -276,7 +276,7 @@
 			},
 			{
 				"value":"+11:31:17.4",
-				"source":"8",
+				"source":"10",
 				"unit":"degrees"
 			}
 		],
@@ -288,7 +288,7 @@
 			},
 			{
 				"value":"01:48:22.47",
-				"source":"8",
+				"source":"10",
 				"unit":"hours"
 			}
 		],
@@ -296,7 +296,7 @@
 			{
 				"value":"57",
 				"error":"7",
-				"source":"8",
+				"source":"10",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -310,30 +310,30 @@
 		"maxappmag":[
 			{
 				"value":"16.15",
-				"source":"2,3,24"
+				"source":"24,2,3"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"2,3,24"
+				"source":"24,2,3"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1996/10/30",
-				"source":"7,8,2,3,24"
+				"source":"7,10,24,2,3"
 			}
 		],
 		"ra":[
 			{
 				"value":"01:48:22.86",
-				"source":"7,8",
+				"source":"7,10",
 				"unit":"hours"
 			},
 			{
 				"value":"01:48:22.80",
-				"source":"10,9",
+				"source":"8,9",
 				"unit":"hours"
 			}
 		],
@@ -14070,7 +14070,7 @@
 						"2.7744233e-17"
 					]
 				],
-				"source":"1,23,2"
+				"source":"23,1,2"
 			},
 			{
 				"deredshifted":false,
@@ -27199,7 +27199,7 @@
 						"3.1475745e-17"
 					]
 				],
-				"source":"1,23,2"
+				"source":"23,1,2"
 			},
 			{
 				"deredshifted":false,
@@ -40323,7 +40323,7 @@
 						"2.6869947e-17"
 					]
 				],
-				"source":"1,23,2"
+				"source":"23,1,2"
 			},
 			{
 				"deredshifted":false,
@@ -53442,7 +53442,7 @@
 						"2.4820223e-17"
 					]
 				],
-				"source":"1,23,2"
+				"source":"23,1,2"
 			},
 			{
 				"deredshifted":false,
@@ -66566,7 +66566,7 @@
 						"3.0351263e-17"
 					]
 				],
-				"source":"1,23,2"
+				"source":"23,1,2"
 			}
 		]
 	}

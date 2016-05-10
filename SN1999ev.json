@@ -20,21 +20,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
-			},
-			{
 				"name":"Owen et al. (1999)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07300/07306.html#Item1",
 				"bibcode":"1999IAUC.7306....3O",
-				"alias":"5"
+				"alias":"4"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"6",
+				"alias":"5",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"6"
 			},
 			{
 				"name":"Guillochon, Parrent, & Margutti (2016)",
@@ -52,7 +52,7 @@
 		"alias":[
 			{
 				"value":"SN1999ev",
-				"source":"1,3,4,6,5"
+				"source":"1,3,5,4,6"
 			}
 		],
 		"claimedtype":[
@@ -75,12 +75,12 @@
 		"dec":[
 			{
 				"value":"+29:37:21.7",
-				"source":"3,4",
+				"source":"3,6",
 				"unit":"degrees"
 			},
 			{
 				"value":"+29:37:20.4",
-				"source":"5,6",
+				"source":"4,5",
 				"unit":"degrees"
 			}
 		],
@@ -97,7 +97,7 @@
 			},
 			{
 				"value":"Tom Boles",
-				"source":"5,6"
+				"source":"4,5"
 			}
 		],
 		"ebv":[
@@ -121,7 +121,7 @@
 			},
 			{
 				"value":"+29:36:51.7",
-				"source":"4",
+				"source":"6",
 				"unit":"degrees"
 			}
 		],
@@ -133,7 +133,7 @@
 			},
 			{
 				"value":"12:19:50.58",
-				"source":"4",
+				"source":"6",
 				"unit":"hours"
 			}
 		],
@@ -141,7 +141,7 @@
 			{
 				"value":"21",
 				"error":"2",
-				"source":"4",
+				"source":"6",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -173,19 +173,19 @@
 		"ra":[
 			{
 				"value":"12:19:48.20",
-				"source":"3,4",
+				"source":"3,6",
 				"unit":"hours"
 			},
 			{
 				"value":"12:19:48.31",
-				"source":"5,6",
+				"source":"4,5",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0031",
-				"source":"4",
+				"source":"6",
 				"kind":"host"
 			}
 		],
@@ -230,7 +230,7 @@
 				"time":"51502.5",
 				"u_time":"MJD",
 				"magnitude":"15.2",
-				"source":"5,6"
+				"source":"4,5"
 			},
 			{
 				"time":"51503.17",

@@ -10,21 +10,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"2"
-			},
-			{
 				"name":"Aldering, Deustua, & Nugent (1999)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07100/07130.html#Item1",
 				"bibcode":"1999IAUC.7130....2A",
-				"alias":"3"
+				"alias":"2"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4",
+				"alias":"3",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
 			},
 			{
 				"name":"Yaron & Gal-Yam (2012)",
@@ -54,22 +54,22 @@
 		"alias":[
 			{
 				"value":"SN1999ax",
-				"source":"1,2,4,3,5"
+				"source":"1,3,2,4,5"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2,5"
+				"source":"1,4,5"
 			},
 			{
 				"value":"II",
-				"source":"3,4"
+				"source":"3,2"
 			}
 		],
 		"comovingdist":[
 			{
-				"value":"200",
+				"value":"400",
 				"source":"7",
 				"unit":"Mpc"
 			}
@@ -77,14 +77,14 @@
 		"dec":[
 			{
 				"value":"+15:51:09.2",
-				"source":"1,2,3,4",
+				"source":"1,3,2,4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1999/03/20",
-				"source":"1,2,3,4"
+				"source":"1,3,2,4"
 			}
 		],
 		"discoverer":[
@@ -94,7 +94,7 @@
 			},
 			{
 				"value":"Wise Observatory",
-				"source":"3,4"
+				"source":"3,2"
 			}
 		],
 		"ebv":[
@@ -118,7 +118,7 @@
 			},
 			{
 				"value":"+15:51:09.0",
-				"source":"2",
+				"source":"4",
 				"unit":"degrees"
 			}
 		],
@@ -130,15 +130,14 @@
 			},
 			{
 				"value":"14:03:57.00",
-				"source":"2",
+				"source":"4",
 				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
-				"value":"200",
+				"value":"500",
 				"source":"7",
-				"kind":"host",
 				"unit":"Mpc"
 			}
 		],
@@ -151,37 +150,31 @@
 		"maxappmag":[
 			{
 				"value":"18.5",
-				"source":"7,2"
-			}
-		],
-		"maxband":[
-			{
-				"value":"R",
-				"source":"7,2"
+				"source":"3,2,7"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"1999/03/20",
-				"source":"7,2"
+				"value":"1999/03/19",
+				"source":"3,2,7"
 			}
 		],
 		"ra":[
 			{
 				"value":"14:03:57.92",
-				"source":"1,2,3,4",
+				"source":"1,3,2,4",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.05",
-				"source":"2,5",
+				"source":"4,5",
 				"kind":"host"
 			},
 			{
 				"value":"0.1",
-				"source":"3,4"
+				"source":"3,2"
 			}
 		],
 		"velocity":[
@@ -197,14 +190,7 @@
 				"time":"51256.5",
 				"u_time":"MJD",
 				"magnitude":"18.5",
-				"source":"3,4"
-			},
-			{
-				"time":"51257.0",
-				"u_time":"MJD",
-				"band":"R",
-				"magnitude":"18.5",
-				"source":"2"
+				"source":"3,2"
 			}
 		],
 		"spectra":[
@@ -5823,7 +5809,7 @@
 						"-6.010574"
 					]
 				],
-				"source":"5,6"
+				"source":"6,5"
 			}
 		]
 	}

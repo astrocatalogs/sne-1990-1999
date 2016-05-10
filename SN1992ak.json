@@ -10,21 +10,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"2"
-			},
-			{
 				"name":"Cline et al. (1992)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05500/05565.html",
 				"bibcode":"1992IAUC.5565....3C",
-				"alias":"3"
+				"alias":"2"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4",
+				"alias":"3",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
 			},
 			{
 				"name":"Guillochon, Parrent, & Margutti (2016)",
@@ -42,7 +42,7 @@
 		"alias":[
 			{
 				"value":"SN1992ak",
-				"source":"1,2,4,3"
+				"source":"1,3,2,4"
 			}
 		],
 		"comovingdist":[
@@ -59,26 +59,26 @@
 				"unit":"degrees"
 			},
 			{
-				"value":"+20:23:31.7",
-				"source":"2",
+				"value":"+20:23:31.8",
+				"source":"3,2",
 				"unit":"degrees"
 			},
 			{
-				"value":"+20:23:31.8",
-				"source":"3,4",
+				"value":"+20:23:31.7",
+				"source":"4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1992/01/09",
-				"source":"1,2,3,4"
+				"source":"1,3,2,4"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Moraru",
-				"source":"1,3,4"
+				"source":"1,3,2"
 			}
 		],
 		"ebv":[
@@ -91,7 +91,7 @@
 		"host":[
 			{
 				"value":"UGC 3862",
-				"source":"1,2,3,4"
+				"source":"1,3,2,4"
 			}
 		],
 		"hostdec":[
@@ -102,7 +102,7 @@
 			},
 			{
 				"value":"+20:23:53.6",
-				"source":"2",
+				"source":"4",
 				"unit":"degrees"
 			}
 		],
@@ -114,7 +114,7 @@
 			},
 			{
 				"value":"07:27:47.90",
-				"source":"2",
+				"source":"4",
 				"unit":"hours"
 			}
 		],
@@ -122,7 +122,7 @@
 			{
 				"value":"120",
 				"error":"17",
-				"source":"2",
+				"source":"4",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -136,31 +136,31 @@
 		"maxappmag":[
 			{
 				"value":"16",
-				"source":"5,2"
+				"source":"3,2,5"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"1992/01/09",
-				"source":"5,2"
+				"value":"1992/01/08",
+				"source":"3,2,5"
 			}
 		],
 		"ra":[
 			{
 				"value":"07:27:47.41",
-				"source":"1,2",
+				"source":"1,4",
 				"unit":"hours"
 			},
 			{
 				"value":"07:27:47.42",
-				"source":"3,4",
+				"source":"3,2",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.027",
-				"source":"2",
+				"source":"4",
 				"kind":"host"
 			}
 		],
@@ -177,13 +177,7 @@
 				"time":"48629.5",
 				"u_time":"MJD",
 				"magnitude":"16.0",
-				"source":"3,4"
-			},
-			{
-				"time":"48630.0",
-				"u_time":"MJD",
-				"magnitude":"16.0",
-				"source":"2"
+				"source":"3,2"
 			}
 		]
 	}

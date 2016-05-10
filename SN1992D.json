@@ -10,21 +10,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"2"
-			},
-			{
 				"name":"Levy et al. (1992)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05400/05444.html",
 				"bibcode":"1992IAUC.5444....3L",
-				"alias":"3"
+				"alias":"2"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4",
+				"alias":"3",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
 			},
 			{
 				"name":"Guillochon, Parrent, & Margutti (2016)",
@@ -42,17 +42,17 @@
 		"alias":[
 			{
 				"value":"SN1992D",
-				"source":"1,2,4,3"
+				"source":"1,3,2,4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"2"
+				"source":"4"
 			},
 			{
 				"value":"II P",
-				"source":"3,4"
+				"source":"3,2"
 			},
 			{
 				"value":"IIn",
@@ -73,20 +73,20 @@
 				"unit":"degrees"
 			},
 			{
-				"value":"-20:22:08.9",
-				"source":"2",
+				"value":"-20:22:08.8",
+				"source":"3,2",
 				"unit":"degrees"
 			},
 			{
-				"value":"-20:22:08.8",
-				"source":"3,4",
+				"value":"-20:22:08.9",
+				"source":"4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1992/01/28",
-				"source":"1,2,3,4"
+				"source":"1,3,2,4"
 			}
 		],
 		"discoverer":[
@@ -96,7 +96,7 @@
 			},
 			{
 				"value":"Robert McNaught, Drinkwater",
-				"source":"3,4"
+				"source":"3,2"
 			}
 		],
 		"ebv":[
@@ -113,7 +113,7 @@
 			},
 			{
 				"value":"PGC 842727",
-				"source":"2"
+				"source":"4"
 			}
 		],
 		"hostdec":[
@@ -124,7 +124,7 @@
 			},
 			{
 				"value":"-20:22:08.0",
-				"source":"2",
+				"source":"4",
 				"unit":"degrees"
 			}
 		],
@@ -136,7 +136,7 @@
 			},
 			{
 				"value":"06:00:59.00",
-				"source":"2",
+				"source":"4",
 				"unit":"hours"
 			}
 		],
@@ -144,7 +144,6 @@
 			{
 				"value":"200",
 				"source":"5",
-				"kind":"host",
 				"unit":"Mpc"
 			}
 		],
@@ -156,39 +155,32 @@
 		],
 		"maxappmag":[
 			{
-				"value":"18.7",
-				"source":"5,2"
-			}
-		],
-		"maxband":[
-			{
-				"value":"R",
-				"source":"5,2"
+				"value":"19",
+				"source":"3,2,5"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"1992/01/28",
-				"source":"5,2"
+				"value":"1992/01/27",
+				"source":"3,2,5"
 			}
 		],
 		"ra":[
 			{
 				"value":"06:00:59.85",
-				"source":"1,2",
+				"source":"1,4",
 				"unit":"hours"
 			},
 			{
 				"value":"06:00:59.87",
-				"source":"3,4",
+				"source":"3,2",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.05",
-				"source":"2,3,4",
-				"kind":"host"
+				"source":"3,2,4"
 			}
 		],
 		"velocity":[
@@ -204,14 +196,7 @@
 				"time":"48648.5",
 				"u_time":"MJD",
 				"magnitude":"19.0",
-				"source":"3,4"
-			},
-			{
-				"time":"48649.0",
-				"u_time":"MJD",
-				"band":"R",
-				"magnitude":"18.7",
-				"source":"2"
+				"source":"3,2"
 			}
 		]
 	}

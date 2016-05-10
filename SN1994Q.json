@@ -37,21 +37,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"7"
-			},
-			{
 				"name":"Bortle, Szentasko, & Spratt (1994)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06000/06001.html",
 				"bibcode":"1994IAUC.6001....3B",
-				"alias":"8"
+				"alias":"7"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"9",
+				"alias":"8",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"9"
 			},
 			{
 				"name":"NED-D",
@@ -152,13 +152,13 @@
 		"alias":[
 			{
 				"value":"SN1994Q",
-				"source":"1,2,4,6,7,9,8,10,24"
+				"source":"1,2,4,6,8,7,9,10,24"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"6,7,8,9,1"
+				"source":"6,8,7,9,1"
 			},
 			{
 				"value":"Ia-99aa",
@@ -172,22 +172,22 @@
 		"comovingdist":[
 			{
 				"value":"81.5",
-				"source":"11,10",
+				"source":"10,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"117",
-				"source":"10,12,13",
+				"source":"12,10,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"124",
-				"source":"10,14",
+				"source":"14,10",
 				"unit":"Mpc"
 			},
 			{
 				"value":"127",
-				"source":"15,10",
+				"source":"10,15",
 				"unit":"Mpc"
 			},
 			{
@@ -197,17 +197,17 @@
 			},
 			{
 				"value":"139",
-				"source":"18,10",
+				"source":"10,18",
 				"unit":"Mpc"
 			},
 			{
 				"value":"140",
-				"source":"18,10",
+				"source":"10,18",
 				"unit":"Mpc"
 			},
 			{
 				"value":"149",
-				"source":"19,10",
+				"source":"10,19",
 				"unit":"Mpc"
 			},
 			{
@@ -228,20 +228,20 @@
 				"unit":"degrees"
 			},
 			{
-				"value":"+40:25:55.5",
-				"source":"7",
+				"value":"+40:25:55.8",
+				"source":"8,7",
 				"unit":"degrees"
 			},
 			{
-				"value":"+40:25:55.8",
-				"source":"8,9",
+				"value":"+40:25:55.5",
+				"source":"9",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1994/06/02",
-				"source":"7,8,9,1"
+				"source":"8,7,9,1"
 			}
 		],
 		"discoverer":[
@@ -251,7 +251,7 @@
 			},
 			{
 				"value":"Christian Pollas",
-				"source":"8,9"
+				"source":"8,7"
 			}
 		],
 		"ebv":[
@@ -268,7 +268,7 @@
 			},
 			{
 				"value":"PGC 59076",
-				"source":"6,7"
+				"source":"6,9"
 			}
 		],
 		"hostdec":[
@@ -279,7 +279,7 @@
 			},
 			{
 				"value":"+40:26:00.0",
-				"source":"7",
+				"source":"9",
 				"unit":"degrees"
 			}
 		],
@@ -291,7 +291,7 @@
 			},
 			{
 				"value":"16:49:51.18",
-				"source":"7",
+				"source":"9",
 				"unit":"hours"
 			}
 		],
@@ -299,7 +299,7 @@
 			{
 				"value":"117",
 				"error":"2",
-				"source":"7",
+				"source":"9",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -313,30 +313,30 @@
 		"maxappmag":[
 			{
 				"value":"17.08",
-				"source":"2,3,26"
+				"source":"26,2,3"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"2,3,26"
+				"source":"26,2,3"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1994/05/26",
-				"source":"6,7"
+				"source":"6,9"
 			}
 		],
 		"ra":[
 			{
 				"value":"16:49:51.06",
-				"source":"6,7",
+				"source":"6,9",
 				"unit":"hours"
 			},
 			{
 				"value":"16:49:51.14",
-				"source":"8,9",
+				"source":"8,7",
 				"unit":"hours"
 			}
 		],
@@ -360,7 +360,7 @@
 				"time":"49504.5",
 				"u_time":"MJD",
 				"magnitude":"16.5",
-				"source":"8,9"
+				"source":"8,7"
 			},
 			{
 				"time":"49507.30",
@@ -23989,7 +23989,7 @@
 						"2.8786862e-17"
 					]
 				],
-				"source":"22,23,2"
+				"source":"23,22,2"
 			},
 			{
 				"u_time":"MJD",
@@ -35347,7 +35347,7 @@
 						"9.236760617e-17"
 					]
 				],
-				"source":"5,2,24"
+				"source":"2,24,5"
 			},
 			{
 				"deredshifted":false,
@@ -48716,7 +48716,7 @@
 						"3.0637992e-17"
 					]
 				],
-				"source":"22,23,2"
+				"source":"23,22,2"
 			},
 			{
 				"deredshifted":false,
@@ -62085,7 +62085,7 @@
 						"4.6849731e-17"
 					]
 				],
-				"source":"22,23,2"
+				"source":"23,22,2"
 			},
 			{
 				"deredshifted":false,
@@ -72094,7 +72094,7 @@
 						"1.0700749e-16"
 					]
 				],
-				"source":"22,23,2"
+				"source":"23,22,2"
 			},
 			{
 				"u_time":"MJD",
@@ -121444,7 +121444,7 @@
 						"8.415929443e-17"
 					]
 				],
-				"source":"5,2,24"
+				"source":"2,24,5"
 			},
 			{
 				"deredshifted":false,
