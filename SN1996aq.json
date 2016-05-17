@@ -3,17 +3,19 @@
 		"name":"SN1996aq",
 		"sources":[
 			{
-				"name":"Barbon, Cappellaro, & Turatto (1989)",
+				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
 				"bibcode":"1989A&AS...81..421B",
 				"alias":"1",
-				"secondary":true
+				"secondary":true,
+				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
-				"name":"Sostero (1996)",
+				"name":"IAUC 6454",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06400/06454.html#Item1",
 				"bibcode":"1996IAUC.6454....2S",
-				"alias":"2"
+				"alias":"2",
+				"reference":"Sostero (1996)"
 			},
 			{
 				"name":"Latest Supernovae",
@@ -22,33 +24,38 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
+				"alias":"4",
+				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
-				"name":"Yaron & Gal-Yam (2012)",
+				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
 				"bibcode":"2012PASP..124..668Y",
 				"alias":"5",
-				"secondary":true
+				"secondary":true,
+				"reference":"Yaron & Gal-Yam (2012)"
 			},
 			{
-				"name":"Taubenberger et al. (2009)",
+				"name":"2009MNRAS.397..677T",
 				"bibcode":"2009MNRAS.397..677T",
-				"alias":"6"
+				"alias":"6",
+				"reference":"Taubenberger et al. (2009)"
 			},
 			{
-				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
 				"alias":"7",
-				"secondary":true
+				"secondary":true,
+				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
-				"name":"Schlafly & Finkbeiner (2011)",
+				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"8"
+				"alias":"8",
+				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
@@ -60,7 +67,7 @@
 		"claimedtype":[
 			{
 				"value":"Ic",
-				"source":"1,3,2,4"
+				"source":"1,2,3,4"
 			},
 			{
 				"value":"Ib",
@@ -82,14 +89,14 @@
 			},
 			{
 				"value":"-00:23:24.3",
-				"source":"3,2",
+				"source":"2,3",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1996/08/17",
-				"source":"1,3,2,4"
+				"source":"1,2,3,4"
 			}
 		],
 		"discoverer":[
@@ -99,7 +106,7 @@
 			},
 			{
 				"value":"Masakatsu Aoki",
-				"source":"3,2"
+				"source":"2,3"
 			}
 		],
 		"ebv":[
@@ -112,7 +119,7 @@
 		"host":[
 			{
 				"value":"NGC 5584",
-				"source":"1,3,2,4"
+				"source":"1,2,3,4"
 			}
 		],
 		"hostdec":[
@@ -157,19 +164,19 @@
 		"maxappmag":[
 			{
 				"value":"14.7",
-				"source":"7,4"
+				"source":"4,7"
 			}
 		],
 		"maxband":[
 			{
 				"value":"V",
-				"source":"7,4"
+				"source":"4,7"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1996/08/17",
-				"source":"7,4"
+				"source":"4,7"
 			}
 		],
 		"ra":[
@@ -180,7 +187,7 @@
 			},
 			{
 				"value":"14:22:22.73",
-				"source":"3,2",
+				"source":"2,3",
 				"unit":"hours"
 			}
 		],
@@ -2198,7 +2205,7 @@
 						"1.087826E-17"
 					]
 				],
-				"source":"5,6"
+				"source":"6,5"
 			},
 			{
 				"instrument":"ESO-1.5m - B&C-ESO-1.5",
@@ -9193,7 +9200,7 @@
 						"1.263453E-17"
 					]
 				],
-				"source":"5,6"
+				"source":"6,5"
 			},
 			{
 				"instrument":"ESO-2.2m - EFOSC-2.2",
@@ -20832,7 +20839,7 @@
 						"8.071134E-18"
 					]
 				],
-				"source":"5,6"
+				"source":"6,5"
 			}
 		]
 	}

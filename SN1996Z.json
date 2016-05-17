@@ -3,9 +3,10 @@
 		"name":"SN1996Z",
 		"sources":[
 			{
-				"name":"Blondin et al. (2012)",
+				"name":"2012AJ....143..126B",
 				"bibcode":"2012AJ....143..126B",
-				"alias":"1"
+				"alias":"1",
+				"reference":"Blondin et al. (2012)"
 			},
 			{
 				"name":"CfA Supernova Archive",
@@ -14,9 +15,10 @@
 				"secondary":true
 			},
 			{
-				"name":"Riess et al. (1999)",
+				"name":"1999AJ....117..707R",
 				"bibcode":"1999AJ....117..707R",
-				"alias":"3"
+				"alias":"3",
+				"reference":"Riess et al. (1999)"
 			},
 			{
 				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
@@ -25,17 +27,19 @@
 				"secondary":true
 			},
 			{
-				"name":"Barbon, Cappellaro, & Turatto (1989)",
+				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
 				"bibcode":"1989A&AS...81..421B",
 				"alias":"5",
-				"secondary":true
+				"secondary":true,
+				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
-				"name":"Seargent et al. (1996)",
+				"name":"IAUC 6401",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06400/06401.html#Item1",
 				"bibcode":"1996IAUC.6401....2S",
-				"alias":"6"
+				"alias":"6",
+				"reference":"Seargent et al. (1996)"
 			},
 			{
 				"name":"Latest Supernovae",
@@ -44,9 +48,10 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"8"
+				"alias":"8",
+				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
 				"name":"NED-D",
@@ -55,58 +60,68 @@
 				"secondary":true
 			},
 			{
-				"name":"Amanullah et al. (2010)",
+				"name":"2010ApJ...716..712A",
 				"bibcode":"2010ApJ...716..712A",
-				"alias":"10"
+				"alias":"10",
+				"reference":"Amanullah et al. (2010)"
 			},
 			{
-				"name":"Wang et al. (2006)",
+				"name":"2006ApJ...645..488W",
 				"bibcode":"2006ApJ...645..488W",
-				"alias":"11"
+				"alias":"11",
+				"reference":"Wang et al. (2006)"
 			},
 			{
-				"name":"Reindl et al. (2005)",
+				"name":"2005ApJ...624..532R",
 				"bibcode":"2005ApJ...624..532R",
-				"alias":"12"
+				"alias":"12",
+				"reference":"Reindl et al. (2005)"
 			},
 			{
-				"name":"Jha, Riess, & Kirshner (2007)",
+				"name":"2007ApJ...659..122J",
 				"bibcode":"2007ApJ...659..122J",
-				"alias":"13"
+				"alias":"13",
+				"reference":"Jha, Riess, & Kirshner (2007)"
 			},
 			{
-				"name":"Kowalski et al. (2008)",
+				"name":"2008ApJ...686..749K",
 				"bibcode":"2008ApJ...686..749K",
-				"alias":"14"
+				"alias":"14",
+				"reference":"Kowalski et al. (2008)"
 			},
 			{
-				"name":"Takanashi, Doi, & Yasuda (2008)",
+				"name":"2008MNRAS.389.1577T",
 				"bibcode":"2008MNRAS.389.1577T",
-				"alias":"15"
+				"alias":"15",
+				"reference":"Takanashi, Doi, & Yasuda (2008)"
 			},
 			{
-				"name":"Yaron & Gal-Yam (2012)",
+				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
 				"bibcode":"2012PASP..124..668Y",
 				"alias":"16",
-				"secondary":true
+				"secondary":true,
+				"reference":"Yaron & Gal-Yam (2012)"
 			},
 			{
-				"name":"Matheson et al. (2008)",
+				"name":"2008AJ....135.1598M",
 				"bibcode":"2008AJ....135.1598M",
-				"alias":"17"
+				"alias":"17",
+				"reference":"Matheson et al. (2008)"
 			},
 			{
-				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
 				"alias":"18",
-				"secondary":true
+				"secondary":true,
+				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
-				"name":"Schlafly & Finkbeiner (2011)",
+				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"19"
+				"alias":"19",
+				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
@@ -122,23 +137,23 @@
 			},
 			{
 				"value":"Ia",
-				"source":"5,7,6,8,16"
+				"source":"5,6,7,8,16"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"24.7",
-				"source":"10,9",
+				"source":"9,10",
 				"unit":"Mpc"
 			},
 			{
 				"value":"30.2",
-				"source":"11,9",
+				"source":"9,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"33.7",
-				"source":"12,9",
+				"source":"9,12",
 				"unit":"Mpc"
 			},
 			{
@@ -148,26 +163,26 @@
 			},
 			{
 				"value":"35.2",
-				"source":"14,9",
+				"source":"9,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"36.6",
-				"source":"15,9",
+				"source":"9,15",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"-21:08:51.7",
-				"source":"5,7,6,8",
+				"source":"5,6,7,8",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1996/05/16",
-				"source":"7,6,8"
+				"source":"6,7,8"
 			}
 		],
 		"discoverer":[
@@ -177,7 +192,7 @@
 			},
 			{
 				"value":"Wayne Johnson (aka Mr. Galaxy)",
-				"source":"7,6"
+				"source":"6,7"
 			}
 		],
 		"ebv":[
@@ -190,7 +205,7 @@
 		"host":[
 			{
 				"value":"NGC 2935",
-				"source":"5,7,6,8"
+				"source":"5,6,7,8"
 			}
 		],
 		"hostdec":[
@@ -235,13 +250,13 @@
 		"maxappmag":[
 			{
 				"value":"14.8",
-				"source":"18,2,3"
+				"source":"2,3,18"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"18,2,3"
+				"source":"2,3,18"
 			}
 		],
 		"maxdate":[
@@ -253,7 +268,7 @@
 		"ra":[
 			{
 				"value":"09:36:44.82",
-				"source":"5,7,6,8",
+				"source":"5,6,7,8",
 				"unit":"hours"
 			}
 		],

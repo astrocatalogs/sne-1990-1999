@@ -3,17 +3,19 @@
 		"name":"SN1996E",
 		"sources":[
 			{
-				"name":"Barbon, Cappellaro, & Turatto (1989)",
+				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
 				"bibcode":"1989A&AS...81..421B",
 				"alias":"1",
-				"secondary":true
+				"secondary":true,
+				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
-				"name":"West et al. (1996)",
+				"name":"IAUC 6332",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06300/06332.html",
 				"bibcode":"1996IAUC.6332....2W",
-				"alias":"2"
+				"alias":"2",
+				"reference":"West et al. (1996)"
 			},
 			{
 				"name":"Latest Supernovae",
@@ -22,9 +24,10 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
+				"alias":"4",
+				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
 				"name":"NED-D",
@@ -33,36 +36,42 @@
 				"secondary":true
 			},
 			{
-				"name":"Amanullah et al. (2010)",
+				"name":"2010ApJ...716..712A",
 				"bibcode":"2010ApJ...716..712A",
-				"alias":"6"
+				"alias":"6",
+				"reference":"Amanullah et al. (2010)"
 			},
 			{
-				"name":"Kowalski et al. (2008)",
+				"name":"2008ApJ...686..749K",
 				"bibcode":"2008ApJ...686..749K",
-				"alias":"7"
+				"alias":"7",
+				"reference":"Kowalski et al. (2008)"
 			},
 			{
-				"name":"Riess et al. (2004)",
+				"name":"2004ApJ...607..665R",
 				"bibcode":"2004ApJ...607..665R",
-				"alias":"8"
+				"alias":"8",
+				"reference":"Riess et al. (2004)"
 			},
 			{
-				"name":"Riess et al. (1998)",
+				"name":"1998AJ....116.1009R",
 				"bibcode":"1998AJ....116.1009R",
-				"alias":"9"
+				"alias":"9",
+				"reference":"Riess et al. (1998)"
 			},
 			{
-				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
 				"alias":"10",
-				"secondary":true
+				"secondary":true,
+				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
-				"name":"Schlafly & Finkbeiner (2011)",
+				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"11"
+				"alias":"11",
+				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
@@ -74,47 +83,47 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,3,2,4"
+				"source":"1,2,3,4"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"922",
-				"source":"5,6",
+				"source":"6,5",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1340",
-				"source":"7,5",
+				"source":"5,7",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1530",
-				"source":"5,8",
+				"source":"8,5",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1560",
-				"source":"5,9",
+				"source":"9,5",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1780",
-				"source":"5,9",
+				"source":"9,5",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"-12:33:09.2",
-				"source":"1,3,2,4",
+				"source":"1,2,3,4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1996/02/14",
-				"source":"1,3,2,4"
+				"source":"1,2,3,4"
 			}
 		],
 		"discoverer":[
@@ -124,7 +133,7 @@
 			},
 			{
 				"value":"High Z Supernova Search",
-				"source":"3,2"
+				"source":"2,3"
 			}
 		],
 		"ebv":[
@@ -181,19 +190,19 @@
 		"maxappmag":[
 			{
 				"value":"22.2",
-				"source":"3,2,10"
+				"source":"2,3,10"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1996/02/13",
-				"source":"3,2,10"
+				"source":"2,3,10"
 			}
 		],
 		"ra":[
 			{
 				"value":"10:10:20.28",
-				"source":"1,3,2,4",
+				"source":"1,2,3,4",
 				"unit":"hours"
 			}
 		],
@@ -217,7 +226,7 @@
 				"time":"50126.5",
 				"u_time":"MJD",
 				"magnitude":"22.2",
-				"source":"3,2"
+				"source":"2,3"
 			}
 		]
 	}

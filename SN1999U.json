@@ -3,17 +3,19 @@
 		"name":"SN1999U",
 		"sources":[
 			{
-				"name":"Barbon, Cappellaro, & Turatto (1989)",
+				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
 				"bibcode":"1989A&AS...81..421B",
 				"alias":"1",
-				"secondary":true
+				"secondary":true,
+				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
-				"name":"Hale et al. (1999)",
+				"name":"IAUC 7097",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07000/07097.html#Item1",
 				"bibcode":"1999IAUC.7097....2H",
-				"alias":"2"
+				"alias":"2",
+				"reference":"Hale et al. (1999)"
 			},
 			{
 				"name":"Latest Supernovae",
@@ -22,9 +24,10 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
+				"alias":"4",
+				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
 				"name":"NED-D",
@@ -33,40 +36,46 @@
 				"secondary":true
 			},
 			{
-				"name":"Clocchiatti et al. (2006)",
+				"name":"2006ApJ...642....1C",
 				"bibcode":"2006ApJ...642....1C",
-				"alias":"6"
+				"alias":"6",
+				"reference":"Clocchiatti et al. (2006)"
 			},
 			{
-				"name":"Riess et al. (2004)",
+				"name":"2004ApJ...607..665R",
 				"bibcode":"2004ApJ...607..665R",
-				"alias":"7"
+				"alias":"7",
+				"reference":"Riess et al. (2004)"
 			},
 			{
-				"name":"Yaron & Gal-Yam (2012)",
+				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
 				"bibcode":"2012PASP..124..668Y",
 				"alias":"8",
-				"secondary":true
+				"secondary":true,
+				"reference":"Yaron & Gal-Yam (2012)"
 			},
 			{
-				"name":"Silverman et al. (2012)",
+				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
 				"url":"http://heracles.astro.berkeley.edu/sndb/info",
 				"bibcode":"2012MNRAS.425.1789S",
 				"alias":"9",
-				"secondary":true
+				"secondary":true,
+				"reference":"Silverman et al. (2012)"
 			},
 			{
-				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
 				"alias":"10",
-				"secondary":true
+				"secondary":true,
+				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
-				"name":"Schlafly & Finkbeiner (2011)",
+				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"11"
+				"alias":"11",
+				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
@@ -78,37 +87,37 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,3,2,4,8,6,9"
+				"source":"1,2,3,4,8,9,6"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"2090",
-				"source":"5,6",
+				"source":"6,5",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2370",
-				"source":"7,5",
+				"source":"5,7",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2420",
-				"source":"5,6",
+				"source":"6,5",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"-05:37:57.8",
-				"source":"1,3,2,4",
+				"source":"1,2,3,4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1999/01/14",
-				"source":"1,3,2,4,6,9"
+				"source":"1,2,3,4,9,6"
 			}
 		],
 		"discoverer":[
@@ -118,7 +127,7 @@
 			},
 			{
 				"value":"High Z Supernova Search",
-				"source":"3,2"
+				"source":"2,3"
 			}
 		],
 		"ebv":[
@@ -135,7 +144,7 @@
 			},
 			{
 				"value":"H-ZSNS J092642.96-053757.8",
-				"source":"6,9"
+				"source":"9,6"
 			}
 		],
 		"hostdec":[
@@ -179,26 +188,26 @@
 		"maxappmag":[
 			{
 				"value":"23.1",
-				"source":"3,2,10"
+				"source":"2,3,10"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1999/01/13",
-				"source":"3,2,10"
+				"source":"2,3,10"
 			}
 		],
 		"ra":[
 			{
 				"value":"09:26:42.96",
-				"source":"1,3,2,4",
+				"source":"1,2,3,4",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.5",
-				"source":"1,3,2,4,8",
+				"source":"1,2,3,4,8",
 				"kind":"host"
 			}
 		],
@@ -215,7 +224,7 @@
 				"time":"51191.5",
 				"u_time":"MJD",
 				"magnitude":"23.1",
-				"source":"3,2"
+				"source":"2,3"
 			}
 		],
 		"spectra":[
@@ -7756,7 +7765,7 @@
 						"0.00134415"
 					]
 				],
-				"source":"6,9"
+				"source":"9,6"
 			},
 			{
 				"deredshifted":false,
@@ -15155,7 +15164,7 @@
 						"0.00183940"
 					]
 				],
-				"source":"6,9"
+				"source":"9,6"
 			},
 			{
 				"deredshifted":false,
@@ -21134,7 +21143,7 @@
 						"3.16564"
 					]
 				],
-				"source":"6,9"
+				"source":"9,6"
 			}
 		]
 	}

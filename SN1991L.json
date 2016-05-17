@@ -3,17 +3,19 @@
 		"name":"SN1991L",
 		"sources":[
 			{
-				"name":"Barbon, Cappellaro, & Turatto (1989)",
+				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
 				"bibcode":"1989A&AS...81..421B",
 				"alias":"1",
-				"secondary":true
+				"secondary":true,
+				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
-				"name":"Green (1991)",
+				"name":"IAUC 5200",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05200/05200.html",
 				"bibcode":"1991IAUC.5200....3G",
-				"alias":"2"
+				"alias":"2",
+				"reference":"Green (1991)"
 			},
 			{
 				"name":"Latest Supernovae",
@@ -22,35 +24,40 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
+				"alias":"4",
+				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
-				"name":"Yaron & Gal-Yam (2012)",
+				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
 				"bibcode":"2012PASP..124..668Y",
 				"alias":"5",
-				"secondary":true
+				"secondary":true,
+				"reference":"Yaron & Gal-Yam (2012)"
 			},
 			{
-				"name":"Matheson et al. (2001)",
+				"name":"2001AJ....121.1648M",
 				"bibcode":"2001AJ....121.1648M",
-				"alias":"6"
+				"alias":"6",
+				"reference":"Matheson et al. (2001)"
 			},
 			{
-				"name":"Silverman et al. (2012)",
+				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
 				"url":"http://heracles.astro.berkeley.edu/sndb/info",
 				"bibcode":"2012MNRAS.425.1789S",
 				"alias":"7",
-				"secondary":true
+				"secondary":true,
+				"reference":"Silverman et al. (2012)"
 			},
 			{
-				"name":"Richardson et al. (2001)",
+				"name":"SUSPECT",
 				"url":"https://www.nhn.ou.edu/~suspect/",
 				"bibcode":"2001AAS...199.8408R",
 				"alias":"8",
-				"secondary":true
+				"secondary":true,
+				"reference":"Richardson et al. (2001)"
 			},
 			{
 				"name":"Superfit",
@@ -59,16 +66,18 @@
 				"secondary":true
 			},
 			{
-				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
 				"alias":"10",
-				"secondary":true
+				"secondary":true,
+				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
-				"name":"Schlafly & Finkbeiner (2011)",
+				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"11"
+				"alias":"11",
+				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
@@ -80,11 +89,11 @@
 		"claimedtype":[
 			{
 				"value":"Ib/c",
-				"source":"1,3,2,4,5"
+				"source":"1,2,3,4,5"
 			},
 			{
 				"value":"Ib/c?",
-				"source":"7,6"
+				"source":"6,7"
 			}
 		],
 		"comovingdist":[
@@ -102,7 +111,7 @@
 			},
 			{
 				"value":"+39:17:32.6",
-				"source":"3,2",
+				"source":"2,3",
 				"unit":"degrees"
 			},
 			{
@@ -114,7 +123,7 @@
 		"discoverdate":[
 			{
 				"value":"1991/02/24",
-				"source":"1,3,2,4,7,6"
+				"source":"1,2,3,4,6,7"
 			}
 		],
 		"discoverer":[
@@ -124,7 +133,7 @@
 			},
 			{
 				"value":"Christian Pollas",
-				"source":"3,2"
+				"source":"2,3"
 			}
 		],
 		"ebv":[
@@ -137,7 +146,7 @@
 		"host":[
 			{
 				"value":"MCG +07-34-134",
-				"source":"1,3,2,7,6"
+				"source":"1,2,3,6,7"
 			},
 			{
 				"value":"PGC 58760",
@@ -184,13 +193,13 @@
 		"maxappmag":[
 			{
 				"value":"18",
-				"source":"3,2,10"
+				"source":"2,3,10"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1991/02/23",
-				"source":"3,2,10"
+				"source":"2,3,10"
 			}
 		],
 		"ra":[
@@ -201,7 +210,7 @@
 			},
 			{
 				"value":"16:41:15.03",
-				"source":"3,2",
+				"source":"2,3",
 				"unit":"hours"
 			}
 		],
@@ -224,7 +233,7 @@
 				"time":"48310.5",
 				"u_time":"MJD",
 				"magnitude":"18.0",
-				"source":"3,2"
+				"source":"2,3"
 			}
 		],
 		"spectra":[
@@ -12738,7 +12747,7 @@
 						"0.0424320"
 					]
 				],
-				"source":"7,6"
+				"source":"6,7"
 			},
 			{
 				"u_time":"MJD",
@@ -25228,7 +25237,7 @@
 						"0.0415084511"
 					]
 				],
-				"source":"6,8"
+				"source":"8,6"
 			}
 		]
 	}

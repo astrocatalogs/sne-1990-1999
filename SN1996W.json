@@ -3,17 +3,19 @@
 		"name":"SN1996W",
 		"sources":[
 			{
-				"name":"Barbon, Cappellaro, & Turatto (1989)",
+				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
 				"bibcode":"1989A&AS...81..421B",
 				"alias":"1",
-				"secondary":true
+				"secondary":true,
+				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
-				"name":"Hornoch et al. (1996)",
+				"name":"IAUC 6379",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06300/06379.html#Item1",
 				"bibcode":"1996IAUC.6379....4H",
-				"alias":"2"
+				"alias":"2",
+				"reference":"Hornoch et al. (1996)"
 			},
 			{
 				"name":"Latest Supernovae",
@@ -22,9 +24,10 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
+				"alias":"4",
+				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
 				"name":"NED-D",
@@ -33,33 +36,38 @@
 				"secondary":true
 			},
 			{
-				"name":"Pejcha & Prieto (2015)",
+				"name":"2015ApJ...799..215P",
 				"bibcode":"2015ApJ...799..215P",
-				"alias":"6"
+				"alias":"6",
+				"reference":"Pejcha & Prieto (2015)"
 			},
 			{
-				"name":"Yaron & Gal-Yam (2012)",
+				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
 				"bibcode":"2012PASP..124..668Y",
 				"alias":"7",
-				"secondary":true
+				"secondary":true,
+				"reference":"Yaron & Gal-Yam (2012)"
 			},
 			{
-				"name":"Inserra et al. (2013)",
+				"name":"2013A&A...555A.142I",
 				"bibcode":"2013A&A...555A.142I",
-				"alias":"8"
+				"alias":"8",
+				"reference":"Inserra et al. (2013)"
 			},
 			{
-				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
 				"alias":"9",
-				"secondary":true
+				"secondary":true,
+				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
-				"name":"Schlafly & Finkbeiner (2011)",
+				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"10"
+				"alias":"10",
+				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
@@ -71,13 +79,13 @@
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"1,3,2,4,7"
+				"source":"1,2,3,4,7"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"19.6",
-				"source":"5,6",
+				"source":"6,5",
 				"unit":"Mpc"
 			}
 		],
@@ -89,14 +97,14 @@
 			},
 			{
 				"value":"-19:15:22.0",
-				"source":"3,2",
+				"source":"2,3",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1996/04/10",
-				"source":"1,3,2,4"
+				"source":"1,2,3,4"
 			}
 		],
 		"discoverer":[
@@ -106,7 +114,7 @@
 			},
 			{
 				"value":"BAO Supernova Survey",
-				"source":"3,2"
+				"source":"2,3"
 			}
 		],
 		"ebv":[
@@ -119,7 +127,7 @@
 		"host":[
 			{
 				"value":"NGC 4027",
-				"source":"1,3,2,4"
+				"source":"1,2,3,4"
 			}
 		],
 		"hostdec":[
@@ -164,19 +172,19 @@
 		"maxappmag":[
 			{
 				"value":"16",
-				"source":"4,9"
+				"source":"9,4"
 			}
 		],
 		"maxband":[
 			{
 				"value":"V",
-				"source":"4,9"
+				"source":"9,4"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1996/04/10",
-				"source":"4,9"
+				"source":"9,4"
 			}
 		],
 		"ra":[
@@ -187,7 +195,7 @@
 			},
 			{
 				"value":"11:59:29.03",
-				"source":"3,2",
+				"source":"2,3",
 				"unit":"hours"
 			}
 		],
@@ -8263,7 +8271,7 @@
 						"7.493749E-16"
 					]
 				],
-				"source":"7,8"
+				"source":"8,7"
 			},
 			{
 				"instrument":"FLWO 1.5m - FAST",
@@ -16296,7 +16304,7 @@
 						"9.28636e-16"
 					]
 				],
-				"source":"7,8"
+				"source":"8,7"
 			},
 			{
 				"instrument":"SST - IRS",
@@ -18601,7 +18609,7 @@
 						"1.069772E-15"
 					]
 				],
-				"source":"7,8"
+				"source":"8,7"
 			},
 			{
 				"instrument":"FLWO 1.5m - FAST",
@@ -26546,7 +26554,7 @@
 						"3.992298E-16"
 					]
 				],
-				"source":"7,8"
+				"source":"8,7"
 			},
 			{
 				"instrument":"FLWO 1.5m - FAST",
@@ -34495,7 +34503,7 @@
 						"3.451516E-16"
 					]
 				],
-				"source":"7,8"
+				"source":"8,7"
 			},
 			{
 				"instrument":"FLWO 1.5m - FAST",
@@ -42596,7 +42604,7 @@
 						"1.070085E-15"
 					]
 				],
-				"source":"7,8"
+				"source":"8,7"
 			},
 			{
 				"instrument":"FLWO 1.5m - FAST",
@@ -50697,7 +50705,7 @@
 						"1.105214E-15"
 					]
 				],
-				"source":"7,8"
+				"source":"8,7"
 			},
 			{
 				"instrument":"ESO-NTT - EFOSC2-NTT",
@@ -60398,7 +60406,7 @@
 						"1.634335E-15"
 					]
 				],
-				"source":"7,8"
+				"source":"8,7"
 			},
 			{
 				"instrument":"FLWO 1.5m - FAST",
@@ -68487,7 +68495,7 @@
 						"3.581657E-17"
 					]
 				],
-				"source":"7,8"
+				"source":"8,7"
 			},
 			{
 				"instrument":"ESO-NTT - EFOSC2-NTT",
@@ -76796,7 +76804,7 @@
 						"8.70478e-17"
 					]
 				],
-				"source":"7,8"
+				"source":"8,7"
 			},
 			{
 				"instrument":"Ekar - AFOSC",
@@ -83689,7 +83697,7 @@
 						"2.798196E-17"
 					]
 				],
-				"source":"7,8"
+				"source":"8,7"
 			},
 			{
 				"instrument":"ESO-NTT - EFOSC2-NTT",
@@ -91822,7 +91830,7 @@
 						"5.489478E-18"
 					]
 				],
-				"source":"7,8"
+				"source":"8,7"
 			}
 		]
 	}

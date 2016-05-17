@@ -3,17 +3,19 @@
 		"name":"SN1992D",
 		"sources":[
 			{
-				"name":"Barbon, Cappellaro, & Turatto (1989)",
+				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
 				"bibcode":"1989A&AS...81..421B",
 				"alias":"1",
-				"secondary":true
+				"secondary":true,
+				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
-				"name":"Levy et al. (1992)",
+				"name":"IAUC 5444",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05400/05444.html",
 				"bibcode":"1992IAUC.5444....3L",
-				"alias":"2"
+				"alias":"2",
+				"reference":"Levy et al. (1992)"
 			},
 			{
 				"name":"Latest Supernovae",
@@ -22,21 +24,24 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
+				"alias":"4",
+				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
-				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
 				"alias":"5",
-				"secondary":true
+				"secondary":true,
+				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
-				"name":"Schlafly & Finkbeiner (2011)",
+				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"6"
+				"alias":"6",
+				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
@@ -52,7 +57,7 @@
 			},
 			{
 				"value":"II P",
-				"source":"3,2"
+				"source":"2,3"
 			},
 			{
 				"value":"IIn",
@@ -74,7 +79,7 @@
 			},
 			{
 				"value":"-20:22:08.8",
-				"source":"3,2",
+				"source":"2,3",
 				"unit":"degrees"
 			},
 			{
@@ -86,7 +91,7 @@
 		"discoverdate":[
 			{
 				"value":"1992/01/28",
-				"source":"1,3,2,4"
+				"source":"1,2,3,4"
 			}
 		],
 		"discoverer":[
@@ -96,7 +101,7 @@
 			},
 			{
 				"value":"Robert McNaught, Drinkwater",
-				"source":"3,2"
+				"source":"2,3"
 			}
 		],
 		"ebv":[
@@ -156,13 +161,13 @@
 		"maxappmag":[
 			{
 				"value":"19",
-				"source":"3,2,5"
+				"source":"2,3,5"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1992/01/27",
-				"source":"3,2,5"
+				"source":"2,3,5"
 			}
 		],
 		"ra":[
@@ -173,14 +178,14 @@
 			},
 			{
 				"value":"06:00:59.87",
-				"source":"3,2",
+				"source":"2,3",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.05",
-				"source":"3,2,4"
+				"source":"2,3,4"
 			}
 		],
 		"velocity":[
@@ -196,7 +201,7 @@
 				"time":"48648.5",
 				"u_time":"MJD",
 				"magnitude":"19.0",
-				"source":"3,2"
+				"source":"2,3"
 			}
 		]
 	}

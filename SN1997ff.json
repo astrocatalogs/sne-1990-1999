@@ -3,17 +3,19 @@
 		"name":"SN1997ff",
 		"sources":[
 			{
-				"name":"Barbon, Cappellaro, & Turatto (1989)",
+				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
 				"bibcode":"1989A&AS...81..421B",
 				"alias":"1",
-				"secondary":true
+				"secondary":true,
+				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
-				"name":"Marshall et al. (1998)",
+				"name":"IAUC 6810",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06800/06810.html",
 				"bibcode":"1998IAUC.6810....2M",
-				"alias":"2"
+				"alias":"2",
+				"reference":"Marshall et al. (1998)"
 			},
 			{
 				"name":"Latest Supernovae",
@@ -22,9 +24,10 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
+				"alias":"4",
+				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
 				"name":"NED-D",
@@ -33,36 +36,42 @@
 				"secondary":true
 			},
 			{
-				"name":"Riess et al. (2001)",
+				"name":"2001ApJ...560...49R",
 				"bibcode":"2001ApJ...560...49R",
-				"alias":"6"
+				"alias":"6",
+				"reference":"Riess et al. (2001)"
 			},
 			{
-				"name":"Riess et al. (2007)",
+				"name":"2007ApJ...659...98R",
 				"bibcode":"2007ApJ...659...98R",
-				"alias":"7"
+				"alias":"7",
+				"reference":"Riess et al. (2007)"
 			},
 			{
-				"name":"Benítez et al. (2002)",
+				"name":"2002ApJ...577L...1B",
 				"bibcode":"2002ApJ...577L...1B",
-				"alias":"8"
+				"alias":"8",
+				"reference":"Benítez et al. (2002)"
 			},
 			{
-				"name":"Riess et al. (2004)",
+				"name":"2004ApJ...607..665R",
 				"bibcode":"2004ApJ...607..665R",
-				"alias":"9"
+				"alias":"9",
+				"reference":"Riess et al. (2004)"
 			},
 			{
-				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
 				"alias":"10",
-				"secondary":true
+				"secondary":true,
+				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
-				"name":"Schlafly & Finkbeiner (2011)",
+				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"11"
+				"alias":"11",
+				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
@@ -80,22 +89,22 @@
 		"comovingdist":[
 			{
 				"value":"4620",
-				"source":"5,6",
+				"source":"6,5",
 				"unit":"Mpc"
 			},
 			{
 				"value":"5060",
-				"source":"7,5",
+				"source":"5,7",
 				"unit":"Mpc"
 			},
 			{
 				"value":"5400",
-				"source":"5,8",
+				"source":"8,5",
 				"unit":"Mpc"
 			},
 			{
 				"value":"5500",
-				"source":"5,9",
+				"source":"9,5",
 				"unit":"Mpc"
 			}
 		],
@@ -107,20 +116,20 @@
 			},
 			{
 				"value":"+62:12:44.7",
-				"source":"3,2,4",
+				"source":"2,3,4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1997/12/23",
-				"source":"1,3,2,4"
+				"source":"1,2,3,4"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Gilliland, Phillips",
-				"source":"1,3,2"
+				"source":"1,2,3"
 			}
 		],
 		"ebv":[
@@ -177,13 +186,13 @@
 		"maxappmag":[
 			{
 				"value":"26.8",
-				"source":"3,2,10"
+				"source":"2,3,10"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1997/12/22",
-				"source":"3,2,10"
+				"source":"2,3,10"
 			}
 		],
 		"ra":[
@@ -194,7 +203,7 @@
 			},
 			{
 				"value":"12:36:44.00",
-				"source":"3,2",
+				"source":"2,3",
 				"unit":"hours"
 			}
 		],
@@ -218,7 +227,7 @@
 				"time":"50804.5",
 				"u_time":"MJD",
 				"magnitude":"26.8",
-				"source":"3,2"
+				"source":"2,3"
 			}
 		]
 	}

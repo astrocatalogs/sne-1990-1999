@@ -3,17 +3,19 @@
 		"name":"SN1990ae",
 		"sources":[
 			{
-				"name":"Barbon, Cappellaro, & Turatto (1989)",
+				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
 				"bibcode":"1989A&AS...81..421B",
 				"alias":"1",
-				"secondary":true
+				"secondary":true,
+				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
-				"name":"McNaught & Green (1990)",
+				"name":"IAUC 5119",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05100/05119.html",
 				"bibcode":"1990IAUC.5119....2M",
-				"alias":"2"
+				"alias":"2",
+				"reference":"McNaught & Green (1990)"
 			},
 			{
 				"name":"Latest Supernovae",
@@ -22,9 +24,10 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
+				"alias":"4",
+				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
 				"name":"NED-D",
@@ -33,45 +36,52 @@
 				"secondary":true
 			},
 			{
-				"name":"Schmidt et al. (1994)",
+				"name":"1994ApJ...432...42S",
 				"bibcode":"1994ApJ...432...42S",
-				"alias":"6"
+				"alias":"6",
+				"reference":"Schmidt et al. (1994)"
 			},
 			{
-				"name":"Schmidt, Kirshner, & Eastman (1992)",
+				"name":"1992ApJ...395..366S",
 				"bibcode":"1992ApJ...395..366S",
-				"alias":"7"
+				"alias":"7",
+				"reference":"Schmidt, Kirshner, & Eastman (1992)"
 			},
 			{
-				"name":"Yaron & Gal-Yam (2012)",
+				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
 				"bibcode":"2012PASP..124..668Y",
 				"alias":"8",
-				"secondary":true
+				"secondary":true,
+				"reference":"Yaron & Gal-Yam (2012)"
 			},
 			{
-				"name":"Gómez & López (2000)",
+				"name":"2000AJ....120..367G",
 				"bibcode":"2000AJ....120..367G",
-				"alias":"9"
+				"alias":"9",
+				"reference":"Gómez & López (2000)"
 			},
 			{
-				"name":"Richardson et al. (2001)",
+				"name":"SUSPECT",
 				"url":"https://www.nhn.ou.edu/~suspect/",
 				"bibcode":"2001AAS...199.8408R",
 				"alias":"10",
-				"secondary":true
+				"secondary":true,
+				"reference":"Richardson et al. (2001)"
 			},
 			{
-				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
 				"alias":"11",
-				"secondary":true
+				"secondary":true,
+				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
-				"name":"Schlafly & Finkbeiner (2011)",
+				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"12"
+				"alias":"12",
+				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
@@ -83,18 +93,18 @@
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"1,3,2,4"
+				"source":"1,2,3,4"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"115",
-				"source":"5,6",
+				"source":"6,5",
 				"unit":"Mpc"
 			},
 			{
 				"value":"117",
-				"source":"7,5",
+				"source":"5,7",
 				"unit":"Mpc"
 			}
 		],
@@ -106,7 +116,7 @@
 			},
 			{
 				"value":"+06:49:36.0",
-				"source":"3,2",
+				"source":"2,3",
 				"unit":"degrees"
 			},
 			{
@@ -118,7 +128,7 @@
 		"discoverdate":[
 			{
 				"value":"1990/10/15",
-				"source":"1,3,2,4"
+				"source":"1,2,3,4"
 			}
 		],
 		"discoverer":[
@@ -128,7 +138,7 @@
 			},
 			{
 				"value":"Jean Mueller",
-				"source":"3,2"
+				"source":"2,3"
 			}
 		],
 		"ebv":[
@@ -189,13 +199,13 @@
 		"maxappmag":[
 			{
 				"value":"18",
-				"source":"3,2,11"
+				"source":"2,3,11"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1990/10/14",
-				"source":"3,2,11"
+				"source":"2,3,11"
 			}
 		],
 		"ra":[
@@ -206,7 +216,7 @@
 			},
 			{
 				"value":"00:22:53.7",
-				"source":"3,2",
+				"source":"2,3",
 				"unit":"hours"
 			},
 			{
@@ -235,7 +245,7 @@
 				"time":"48178.5",
 				"u_time":"MJD",
 				"magnitude":"18.0",
-				"source":"3,2"
+				"source":"2,3"
 			}
 		],
 		"spectra":[
@@ -4247,7 +4257,7 @@
 						"5.503342796e-17"
 					]
 				],
-				"source":"10,9"
+				"source":"9,10"
 			}
 		]
 	}

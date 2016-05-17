@@ -3,17 +3,19 @@
 		"name":"SN1999cn",
 		"sources":[
 			{
-				"name":"Barbon, Cappellaro, & Turatto (1989)",
+				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
 				"bibcode":"1989A&AS...81..421B",
 				"alias":"1",
-				"secondary":true
+				"secondary":true,
+				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
-				"name":"Williams & Pereira (1999)",
+				"name":"IAUC 7202",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07200/07202.html#Item1",
 				"bibcode":"1999IAUC.7202....3W",
-				"alias":"2"
+				"alias":"2",
+				"reference":"Williams & Pereira (1999)"
 			},
 			{
 				"name":"Latest Supernovae",
@@ -22,33 +24,38 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
+				"alias":"4",
+				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
-				"name":"Yaron & Gal-Yam (2012)",
+				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
 				"bibcode":"2012PASP..124..668Y",
 				"alias":"5",
-				"secondary":true
+				"secondary":true,
+				"reference":"Yaron & Gal-Yam (2012)"
 			},
 			{
-				"name":"Taubenberger et al. (2009)",
+				"name":"2009MNRAS.397..677T",
 				"bibcode":"2009MNRAS.397..677T",
-				"alias":"6"
+				"alias":"6",
+				"reference":"Taubenberger et al. (2009)"
 			},
 			{
-				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
 				"alias":"7",
-				"secondary":true
+				"secondary":true,
+				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
-				"name":"Schlafly & Finkbeiner (2011)",
+				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"8"
+				"alias":"8",
+				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
@@ -60,7 +67,7 @@
 		"claimedtype":[
 			{
 				"value":"Ic",
-				"source":"1,3,2,4,5"
+				"source":"1,2,3,4,5"
 			}
 		],
 		"comovingdist":[
@@ -78,14 +85,14 @@
 			},
 			{
 				"value":"+12:51:29.0",
-				"source":"3,2",
+				"source":"2,3",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1999/06/14",
-				"source":"1,3,2,4"
+				"source":"1,2,3,4"
 			}
 		],
 		"discoverer":[
@@ -95,7 +102,7 @@
 			},
 			{
 				"value":"Telescopio Nazionale Galileo",
-				"source":"3,2"
+				"source":"2,3"
 			}
 		],
 		"ebv":[
@@ -108,7 +115,7 @@
 		"host":[
 			{
 				"value":"MCG +02-38-43",
-				"source":"1,3,2"
+				"source":"1,2,3"
 			},
 			{
 				"value":"PGC 53961",
@@ -155,13 +162,13 @@
 		"maxappmag":[
 			{
 				"value":"17.9",
-				"source":"7,4"
+				"source":"4,7"
 			}
 		],
 		"maxband":[
 			{
 				"value":"V",
-				"source":"7,4"
+				"source":"4,7"
 			}
 		],
 		"maxdate":[
@@ -178,7 +185,7 @@
 			},
 			{
 				"value":"15:06:46.6",
-				"source":"3,2",
+				"source":"2,3",
 				"unit":"hours"
 			},
 			{
@@ -4288,7 +4295,7 @@
 						"3.069733E-18"
 					]
 				],
-				"source":"5,6"
+				"source":"6,5"
 			}
 		]
 	}

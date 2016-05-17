@@ -3,17 +3,19 @@
 		"name":"SN1996cp",
 		"sources":[
 			{
-				"name":"Barbon, Cappellaro, & Turatto (1989)",
+				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
 				"bibcode":"1989A&AS...81..421B",
 				"alias":"1",
-				"secondary":true
+				"secondary":true,
+				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
-				"name":"Biver (2001)",
+				"name":"IAUC 7701",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07700/07701.html",
 				"bibcode":"2001IAUC.7701....4B",
-				"alias":"2"
+				"alias":"2",
+				"reference":"Biver (2001)"
 			},
 			{
 				"name":"Latest Supernovae",
@@ -22,21 +24,24 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
+				"alias":"4",
+				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
-				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
 				"alias":"5",
-				"secondary":true
+				"secondary":true,
+				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
-				"name":"Schlafly & Finkbeiner (2011)",
+				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"6"
+				"alias":"6",
+				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
@@ -60,20 +65,20 @@
 			},
 			{
 				"value":"-03:37:41.0",
-				"source":"3,2,4",
+				"source":"2,3,4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1996/03/13",
-				"source":"1,3,2,4"
+				"source":"1,2,3,4"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Gal-Yam, Sharon, Maoz",
-				"source":"1,3,2"
+				"source":"1,2,3"
 			}
 		],
 		"ebv":[
@@ -130,13 +135,13 @@
 		"maxappmag":[
 			{
 				"value":"26.2",
-				"source":"3,2,5"
+				"source":"2,3,5"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1996/03/12",
-				"source":"3,2,5"
+				"source":"2,3,5"
 			}
 		],
 		"ra":[
@@ -147,14 +152,14 @@
 			},
 			{
 				"value":"10:57:03.50",
-				"source":"3,2,4",
+				"source":"2,3,4",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.83",
-				"source":"1,3,2,4",
+				"source":"1,2,3,4",
 				"kind":"host"
 			}
 		],
@@ -171,7 +176,7 @@
 				"time":"50154.5",
 				"u_time":"MJD",
 				"magnitude":"26.2",
-				"source":"3,2"
+				"source":"2,3"
 			}
 		]
 	}

@@ -3,17 +3,19 @@
 		"name":"SN1990U",
 		"sources":[
 			{
-				"name":"Barbon, Cappellaro, & Turatto (1989)",
+				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
 				"bibcode":"1989A&AS...81..421B",
 				"alias":"1",
-				"secondary":true
+				"secondary":true,
+				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
-				"name":"Pearce (1990)",
+				"name":"IAUC 5063",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05000/05063.html",
 				"bibcode":"1990IAUC.5063....3P",
-				"alias":"2"
+				"alias":"2",
+				"reference":"Pearce (1990)"
 			},
 			{
 				"name":"Latest Supernovae",
@@ -22,40 +24,46 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
+				"alias":"4",
+				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
-				"name":"Yaron & Gal-Yam (2012)",
+				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
 				"bibcode":"2012PASP..124..668Y",
 				"alias":"5",
-				"secondary":true
+				"secondary":true,
+				"reference":"Yaron & Gal-Yam (2012)"
 			},
 			{
-				"name":"Matheson et al. (2001)",
+				"name":"2001AJ....121.1648M",
 				"bibcode":"2001AJ....121.1648M",
-				"alias":"6"
+				"alias":"6",
+				"reference":"Matheson et al. (2001)"
 			},
 			{
-				"name":"Taubenberger et al. (2009)",
+				"name":"2009MNRAS.397..677T",
 				"bibcode":"2009MNRAS.397..677T",
-				"alias":"7"
+				"alias":"7",
+				"reference":"Taubenberger et al. (2009)"
 			},
 			{
-				"name":"Silverman et al. (2012)",
+				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
 				"url":"http://heracles.astro.berkeley.edu/sndb/info",
 				"bibcode":"2012MNRAS.425.1789S",
 				"alias":"8",
-				"secondary":true
+				"secondary":true,
+				"reference":"Silverman et al. (2012)"
 			},
 			{
-				"name":"Richardson et al. (2001)",
+				"name":"SUSPECT",
 				"url":"https://www.nhn.ou.edu/~suspect/",
 				"bibcode":"2001AAS...199.8408R",
 				"alias":"9",
-				"secondary":true
+				"secondary":true,
+				"reference":"Richardson et al. (2001)"
 			},
 			{
 				"name":"Superfit",
@@ -64,16 +72,18 @@
 				"secondary":true
 			},
 			{
-				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
 				"alias":"11",
-				"secondary":true
+				"secondary":true,
+				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
-				"name":"Schlafly & Finkbeiner (2011)",
+				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"12"
+				"alias":"12",
+				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
@@ -85,11 +95,11 @@
 		"claimedtype":[
 			{
 				"value":"Ic",
-				"source":"4,5,6,8"
+				"source":"4,5,8,6"
 			},
 			{
 				"value":"Ia",
-				"source":"3,2"
+				"source":"2,3"
 			},
 			{
 				"value":"Ib",
@@ -106,7 +116,7 @@
 		"dec":[
 			{
 				"value":"+12:18:20.1",
-				"source":"1,3,2,4",
+				"source":"1,2,3,4",
 				"unit":"degrees"
 			}
 		],
@@ -123,7 +133,7 @@
 			},
 			{
 				"value":"Saul Perlmutter",
-				"source":"3,2"
+				"source":"2,3"
 			}
 		],
 		"ebv":[
@@ -136,7 +146,7 @@
 		"host":[
 			{
 				"value":"NGC 7479",
-				"source":"1,3,2,4,6,8"
+				"source":"1,2,3,4,8,6"
 			}
 		],
 		"hostdec":[
@@ -181,19 +191,19 @@
 		"maxappmag":[
 			{
 				"value":"16",
-				"source":"3,2,11"
+				"source":"2,3,11"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1990/07/26",
-				"source":"3,2,11"
+				"source":"2,3,11"
 			}
 		],
 		"ra":[
 			{
 				"value":"23:04:54.92",
-				"source":"1,3,2,4",
+				"source":"1,2,3,4",
 				"unit":"hours"
 			}
 		],
@@ -216,7 +226,7 @@
 				"time":"48098.5",
 				"u_time":"MJD",
 				"magnitude":"16.0",
-				"source":"3,2"
+				"source":"2,3"
 			}
 		],
 		"spectra":[
@@ -8997,7 +9007,7 @@
 						"1.12561"
 					]
 				],
-				"source":"6,8"
+				"source":"8,6"
 			},
 			{
 				"u_time":"MJD",
@@ -26527,7 +26537,7 @@
 						"1.095510006"
 					]
 				],
-				"source":"6,9"
+				"source":"9,6"
 			},
 			{
 				"deredshifted":false,
@@ -40006,7 +40016,7 @@
 						"0.692672"
 					]
 				],
-				"source":"6,8"
+				"source":"8,6"
 			},
 			{
 				"u_time":"MJD",
@@ -63816,7 +63826,7 @@
 						"0.7271144986"
 					]
 				],
-				"source":"6,9"
+				"source":"9,6"
 			},
 			{
 				"u_time":"MJD",
@@ -93579,7 +93589,7 @@
 						"0.2977870107"
 					]
 				],
-				"source":"6,9"
+				"source":"9,6"
 			},
 			{
 				"deredshifted":false,
@@ -105498,7 +105508,7 @@
 						"0.229254"
 					]
 				],
-				"source":"6,8"
+				"source":"8,6"
 			},
 			{
 				"u_time":"MJD",
@@ -129284,7 +129294,7 @@
 						"0.220195502"
 					]
 				],
-				"source":"6,9"
+				"source":"9,6"
 			},
 			{
 				"u_time":"MJD",
@@ -153116,7 +153126,7 @@
 						"0.0729871"
 					]
 				],
-				"source":"6,8"
+				"source":"8,6"
 			},
 			{
 				"u_time":"MJD",
@@ -176926,7 +176936,7 @@
 						"0.08683154732"
 					]
 				],
-				"source":"6,9"
+				"source":"9,6"
 			},
 			{
 				"u_time":"MJD",
@@ -200758,7 +200768,7 @@
 						"0.361455"
 					]
 				],
-				"source":"6,8"
+				"source":"8,6"
 			},
 			{
 				"u_time":"MJD",
@@ -224568,7 +224578,7 @@
 						"0.3218514919"
 					]
 				],
-				"source":"6,9"
+				"source":"9,6"
 			},
 			{
 				"deredshifted":false,
@@ -236387,7 +236397,7 @@
 						"0.0580505"
 					]
 				],
-				"source":"6,8"
+				"source":"8,6"
 			},
 			{
 				"u_time":"MJD",
@@ -259997,7 +260007,7 @@
 						"0.08246125281"
 					]
 				],
-				"source":"6,9"
+				"source":"9,6"
 			},
 			{
 				"instrument":"ESO-3.6m - EFOSC2-3.6",
@@ -263776,7 +263786,7 @@
 						"5.691826E-17"
 					]
 				],
-				"source":"7,5"
+				"source":"5,7"
 			},
 			{
 				"deredshifted":false,
@@ -269995,7 +270005,7 @@
 						"0.152162"
 					]
 				],
-				"source":"6,8"
+				"source":"8,6"
 			},
 			{
 				"u_time":"MJD",
@@ -282405,7 +282415,7 @@
 						"0.1568824947"
 					]
 				],
-				"source":"6,9"
+				"source":"9,6"
 			},
 			{
 				"instrument":"ESO-3.6m - EFOSC2-3.6",
@@ -296564,7 +296574,7 @@
 						"6.145313E-17"
 					]
 				],
-				"source":"7,5"
+				"source":"5,7"
 			},
 			{
 				"deredshifted":false,
@@ -302943,7 +302953,7 @@
 						"0.0969845"
 					]
 				],
-				"source":"6,8"
+				"source":"8,6"
 			},
 			{
 				"u_time":"MJD",
@@ -315673,7 +315683,7 @@
 						"0.1024222523"
 					]
 				],
-				"source":"6,9"
+				"source":"9,6"
 			},
 			{
 				"deredshifted":false,
@@ -318812,7 +318822,7 @@
 						"0.0949376"
 					]
 				],
-				"source":"6,8"
+				"source":"8,6"
 			},
 			{
 				"u_time":"MJD",
@@ -325062,7 +325072,7 @@
 						"0.09266939759"
 					]
 				],
-				"source":"6,9"
+				"source":"9,6"
 			}
 		]
 	}
