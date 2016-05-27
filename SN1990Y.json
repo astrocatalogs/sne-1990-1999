@@ -29,83 +29,88 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
+				"name":"Transient Name Server",
+				"url":"https://wis-tns.weizmann.ac.il",
+				"alias":"5"
+			},
+			{
 				"name":"IAUC 5080",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05000/05080.html",
 				"bibcode":"1990IAUC.5080....4S",
-				"alias":"5",
+				"alias":"6",
 				"reference":"Scotti et al. (1990)"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"6",
+				"alias":"7",
 				"secondary":true
 			},
 			{
 				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"7",
+				"alias":"8",
 				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
 				"name":"NED-D",
 				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"8",
+				"alias":"9",
 				"secondary":true
 			},
 			{
 				"name":"2010ApJ...716..712A",
 				"bibcode":"2010ApJ...716..712A",
-				"alias":"9",
+				"alias":"10",
 				"reference":"Amanullah et al. (2010)"
 			},
 			{
 				"name":"2006ApJ...647..501P",
 				"bibcode":"2006ApJ...647..501P",
-				"alias":"10",
+				"alias":"11",
 				"reference":"Prieto, Rest, & Suntzeff (2006)"
 			},
 			{
 				"name":"2013MNRAS.433.2240G",
 				"bibcode":"2013MNRAS.433.2240G",
-				"alias":"11",
+				"alias":"12",
 				"reference":"Ganeshalingam, Li, & Filippenko (2013)"
 			},
 			{
 				"name":"2008MNRAS.389.1577T",
 				"bibcode":"2008MNRAS.389.1577T",
-				"alias":"12",
+				"alias":"13",
 				"reference":"Takanashi, Doi, & Yasuda (2008)"
 			},
 			{
 				"name":"2007ApJ...659..122J",
 				"bibcode":"2007ApJ...659..122J",
-				"alias":"13",
+				"alias":"14",
 				"reference":"Jha, Riess, & Kirshner (2007)"
 			},
 			{
 				"name":"2008ApJ...686..749K",
 				"bibcode":"2008ApJ...686..749K",
-				"alias":"14",
+				"alias":"15",
 				"reference":"Kowalski et al. (2008)"
 			},
 			{
 				"name":"1996ApJ...457..500H",
 				"bibcode":"1996ApJ...457..500H",
-				"alias":"15",
+				"alias":"16",
 				"reference":"Hoeflich & Khokhlov (1996)"
 			},
 			{
 				"name":"2005ApJ...624..532R",
 				"bibcode":"2005ApJ...624..532R",
-				"alias":"16",
+				"alias":"17",
 				"reference":"Reindl et al. (2005)"
 			},
 			{
 				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
 				"bibcode":"2012PASP..124..668Y",
-				"alias":"17",
+				"alias":"18",
 				"secondary":true,
 				"reference":"Yaron & Gal-Yam (2012)"
 			},
@@ -113,87 +118,92 @@
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"18",
+				"alias":"19",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"19",
+				"alias":"20",
 				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1990Y",
-				"source":"1,2,4,5,6,7,8,17"
+				"source":"1,2,4,5,6,7,8,9,18"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"4,7,17,1"
+				"source":"4,8,18,1"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"104",
-				"source":"9,8",
+				"source":"10,9",
 				"unit":"Mpc"
 			},
 			{
 				"value":"135",
-				"source":"10,8",
+				"source":"11,9",
 				"unit":"Mpc"
 			},
 			{
 				"value":"142",
-				"source":"11,8",
+				"source":"12,9",
 				"unit":"Mpc"
 			},
 			{
 				"value":"155",
-				"source":"12,8",
+				"source":"13,9",
 				"unit":"Mpc"
 			},
 			{
 				"value":"163",
-				"source":"13,8",
+				"source":"14,9",
 				"unit":"Mpc"
 			},
 			{
 				"value":"176",
-				"source":"14,8",
+				"source":"15,9",
 				"unit":"Mpc"
 			},
 			{
 				"value":"195",
-				"source":"15,8",
+				"source":"16,9",
 				"unit":"Mpc"
 			},
 			{
 				"value":"197",
-				"source":"16,8",
+				"source":"17,9",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"-33:02:40.1",
-				"source":"4,7",
+				"source":"4,8",
+				"unit":"degrees"
+			},
+			{
+				"value":"-33:02:40.09",
+				"source":"5",
 				"unit":"degrees"
 			},
 			{
 				"value":"-33:02:33.0",
-				"source":"5,6",
+				"source":"6,7",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1990/08/22",
-				"source":"5,6,7,1"
+				"source":"5,6,7,8,1"
 			}
 		],
 		"discoverer":[
@@ -203,20 +213,20 @@
 			},
 			{
 				"value":"Marina Wischnjewsky",
-				"source":"5,6"
+				"source":"6,7"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0069",
 				"error":"0.0002",
-				"source":"19"
+				"source":"20"
 			}
 		],
 		"host":[
 			{
 				"value":"FCCB 1147",
-				"source":"1,5,6"
+				"source":"1,6,7"
 			},
 			{
 				"value":"A033723-3302",
@@ -224,7 +234,7 @@
 			},
 			{
 				"value":"FCCB1147",
-				"source":"7"
+				"source":"8"
 			}
 		],
 		"hostdec":[
@@ -235,7 +245,7 @@
 			},
 			{
 				"value":"-33:02:35.0",
-				"source":"7",
+				"source":"8",
 				"unit":"degrees"
 			}
 		],
@@ -247,14 +257,14 @@
 			},
 			{
 				"value":"03:37:23.00",
-				"source":"7",
+				"source":"8",
 				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"177.86",
-				"source":"18",
+				"source":"19",
 				"kind":"heliocentric",
 				"unit":"Mpc"
 			}
@@ -262,38 +272,38 @@
 		"maxabsmag":[
 			{
 				"value":"-17.42",
-				"source":"18"
+				"source":"19"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.83",
-				"source":"18,2,3"
+				"source":"19,2,3"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"18,2,3"
+				"source":"19,2,3"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1990/08/13",
-				"source":"4,7"
+				"source":"4,8"
 			}
 		],
 		"ra":[
 			{
 				"value":"03:37:22.64",
-				"source":"4,5,6,7",
+				"source":"4,5,6,7,8",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.039034",
-				"source":"1,17",
+				"source":"1,18",
 				"kind":"heliocentric"
 			}
 		],
@@ -310,7 +320,7 @@
 				"time":"48124.5",
 				"u_time":"MJD",
 				"magnitude":"18.0",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"48132.4",

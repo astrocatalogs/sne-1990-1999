@@ -27,55 +27,61 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
+				"name":"Transient Name Server",
+				"url":"https://wis-tns.weizmann.ac.il",
+				"alias":"5"
+			},
+			{
 				"name":"IAUC 6138",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06100/06138.html",
 				"bibcode":"1995IAUC.6138....4B",
-				"alias":"5",
+				"alias":"6",
 				"reference":"Fillipenko & Barth (1995)"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"6",
+				"alias":"7",
 				"secondary":true
 			},
 			{
 				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"7",
+				"alias":"8",
 				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
 				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
 				"bibcode":"2012PASP..124..668Y",
-				"alias":"8",
+				"alias":"9",
 				"secondary":true,
 				"reference":"Yaron & Gal-Yam (2012)"
 			},
 			{
 				"name":"2001AJ....121.1648M",
 				"bibcode":"2001AJ....121.1648M",
-				"alias":"9",
+				"alias":"10",
 				"reference":"Matheson et al. (2001)"
 			},
 			{
 				"name":"2014AJ....147...99M",
 				"bibcode":"2014AJ....147...99M",
-				"alias":"10",
+				"alias":"11",
 				"reference":"Modjaz et al. (2014)"
 			},
 			{
 				"name":"CfA Supernova Archive",
 				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
-				"alias":"11",
+				"acknowledgment":"This research has made use of the CfA Supernova Archive, which is funded in part by the National Science Foundation through grant AST 0907903.",
+				"alias":"12",
 				"secondary":true
 			},
 			{
 				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
 				"url":"http://heracles.astro.berkeley.edu/sndb/info",
 				"bibcode":"2012MNRAS.425.1789S",
-				"alias":"12",
+				"alias":"13",
 				"secondary":true,
 				"reference":"Silverman et al. (2012)"
 			},
@@ -83,45 +89,45 @@
 				"name":"SUSPECT",
 				"url":"https://www.nhn.ou.edu/~suspect/",
 				"bibcode":"2001AAS...199.8408R",
-				"alias":"13",
+				"alias":"14",
 				"secondary":true,
 				"reference":"Richardson et al. (2001)"
 			},
 			{
 				"name":"Superfit",
 				"url":"http://www.dahowell.com/superfit.html",
-				"alias":"14",
+				"alias":"15",
 				"secondary":true
 			},
 			{
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"15",
+				"alias":"16",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"16",
+				"alias":"17",
 				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1995F",
-				"source":"1,4,5,6,7,8,11,12,13,14"
+				"source":"1,4,5,6,7,8,9,12,13,14,15"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ic",
-				"source":"5,6,7,8"
+				"source":"5,6,7,8,9"
 			},
 			{
 				"value":"Ib/c",
-				"source":"7,12,9"
+				"source":"8,13,10"
 			},
 			{
 				"value":"Ib",
@@ -131,14 +137,19 @@
 		"comovingdist":[
 			{
 				"value":"22.3",
-				"source":"15",
+				"source":"16",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"+59:55:58.7",
-				"source":"4,5,6,7",
+				"source":"4,6,7,8",
+				"unit":"degrees"
+			},
+			{
+				"value":"+59:55:58.69",
+				"source":"5",
 				"unit":"degrees"
 			}
 		],
@@ -151,20 +162,20 @@
 		"discoverer":[
 			{
 				"value":"Lane, Gray",
-				"source":"4,5,6"
+				"source":"4,6,7"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0311",
 				"error":"0.0003",
-				"source":"16"
+				"source":"17"
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 2726",
-				"source":"4,5,6,7,12,9"
+				"source":"4,5,6,7,8,13,10"
 			}
 		],
 		"hostdec":[
@@ -175,7 +186,7 @@
 			},
 			{
 				"value":"+59:55:59.3",
-				"source":"7",
+				"source":"8",
 				"unit":"degrees"
 			}
 		],
@@ -187,7 +198,7 @@
 			},
 			{
 				"value":"09:04:56.46",
-				"source":"7",
+				"source":"8",
 				"unit":"hours"
 			}
 		],
@@ -195,7 +206,7 @@
 			{
 				"value":"24",
 				"error":"8",
-				"source":"7",
+				"source":"8",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -203,38 +214,38 @@
 		"maxabsmag":[
 			{
 				"value":"-17",
-				"source":"15"
+				"source":"16"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"14.7",
-				"source":"15,1,2"
+				"source":"16,1,2"
 			}
 		],
 		"maxband":[
 			{
 				"value":"V",
-				"source":"15,1,2"
+				"source":"16,1,2"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1995/02/14",
-				"source":"15,1,2"
+				"source":"16,1,2"
 			}
 		],
 		"ra":[
 			{
 				"value":"09:04:57.40",
-				"source":"4,5,6,7",
+				"source":"4,5,6,7,8",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.00505",
-				"source":"8"
+				"source":"9"
 			}
 		],
 		"velocity":[
@@ -250,7 +261,7 @@
 				"time":"49757.5",
 				"u_time":"MJD",
 				"magnitude":"14.7",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"49762.04",
@@ -14967,7 +14978,7 @@
 						"-0.17277"
 					]
 				],
-				"source":"14"
+				"source":"15"
 			},
 			{
 				"u_time":"MJD",
@@ -29740,7 +29751,7 @@
 						"0.0549353"
 					]
 				],
-				"source":"14"
+				"source":"15"
 			},
 			{
 				"u_time":"MJD",
@@ -45713,7 +45724,7 @@
 						"0.37834"
 					]
 				],
-				"source":"14"
+				"source":"15"
 			},
 			{
 				"u_time":"MJD",
@@ -62186,13 +62197,13 @@
 						"0.451779"
 					]
 				],
-				"source":"14"
+				"source":"15"
 			},
 			{
 				"deredshifted":false,
 				"dereddened":false,
 				"u_time":"MJD",
-				"time":49772.0,
+				"time":"49772.0",
 				"filename":"sn1995F-19950224.flm",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
@@ -71178,7 +71189,7 @@
 						"5.3613115e-16"
 					]
 				],
-				"source":"11,10"
+				"source":"12,11"
 			},
 			{
 				"deredshifted":false,
@@ -87657,7 +87668,7 @@
 						"0.451779"
 					]
 				],
-				"source":"12,9"
+				"source":"13,10"
 			},
 			{
 				"u_time":"MJD",
@@ -120587,13 +120598,13 @@
 						"0.4578360021"
 					]
 				],
-				"source":"13,9"
+				"source":"14,1,0"
 			},
 			{
 				"deredshifted":false,
 				"dereddened":false,
 				"u_time":"MJD",
-				"time":49774.0,
+				"time":"49774.0",
 				"filename":"sn1995F-19950226.flm",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
@@ -131067,13 +131078,13 @@
 						"0.44940165"
 					]
 				],
-				"source":"11,10"
+				"source":"12,11"
 			},
 			{
 				"deredshifted":false,
 				"dereddened":false,
 				"u_time":"MJD",
-				"time":49776.0,
+				"time":"49776.0",
 				"filename":"sn1995F-19950228.flm",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
@@ -141551,13 +141562,13 @@
 						"0.43114749"
 					]
 				],
-				"source":"11,10"
+				"source":"12,11"
 			},
 			{
 				"deredshifted":false,
 				"dereddened":false,
 				"u_time":"MJD",
-				"time":49783.0,
+				"time":"49783.0",
 				"filename":"sn1995F-19950307.flm",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
@@ -151251,7 +151262,7 @@
 						"0.22575258"
 					]
 				],
-				"source":"11,10"
+				"source":"12,11"
 			},
 			{
 				"deredshifted":false,
@@ -167230,7 +167241,7 @@
 						"0.378340"
 					]
 				],
-				"source":"12,9"
+				"source":"13,10"
 			},
 			{
 				"u_time":"MJD",
@@ -199160,14 +199171,14 @@
 						"0.3709565103"
 					]
 				],
-				"source":"13,9"
+				"source":"14,1,0"
 			},
 			{
 				"deredshifted":false,
 				"dereddened":false,
 				"instrument":"mmt",
 				"u_time":"MJD",
-				"time":49808.0,
+				"time":"49808.0",
 				"filename":"sn1995F-19950401-mmt.flm",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
@@ -209465,7 +209476,7 @@
 						"0.27686802"
 					]
 				],
-				"source":"11,10"
+				"source":"12,11"
 			},
 			{
 				"deredshifted":false,
@@ -224244,7 +224255,7 @@
 						"0.0549353"
 					]
 				],
-				"source":"12,9"
+				"source":"13,10"
 			},
 			{
 				"u_time":"MJD",
@@ -253774,7 +253785,7 @@
 						"0.0549457483"
 					]
 				],
-				"source":"13,9"
+				"source":"14,1,0"
 			},
 			{
 				"deredshifted":false,
@@ -268453,7 +268464,7 @@
 						"-0.172770"
 					]
 				],
-				"source":"12,9"
+				"source":"13,10"
 			},
 			{
 				"u_time":"MJD",
@@ -297783,7 +297794,7 @@
 						"-0.2227520049"
 					]
 				],
-				"source":"13,9"
+				"source":"14,1,0"
 			}
 		]
 	}

@@ -11,92 +11,102 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
+				"name":"Transient Name Server",
+				"url":"https://wis-tns.weizmann.ac.il",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 6882",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06800/06882.html#Item1",
 				"bibcode":"1998IAUC.6882....2M",
-				"alias":"2",
+				"alias":"3",
 				"reference":"Marsden & Rothschild (1998)"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
 			},
 			{
 				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"4",
+				"alias":"5",
 				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"5",
+				"alias":"6",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"6",
+				"alias":"7",
 				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1998bm",
-				"source":"1,2,3,4"
+				"source":"1,2,3,4,5"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"1,2,3,4"
+				"source":"1,2,3,4,5"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"23",
-				"source":"5",
+				"source":"6",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"+64:14:25.4",
-				"source":"1,2,3,4",
+				"source":"1,3,4,5",
+				"unit":"degrees"
+			},
+			{
+				"value":"+64:14:25.40",
+				"source":"2",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1998/04/21",
-				"source":"1,2,3,4"
+				"source":"1,2,3,4,5"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"LOSS",
-				"source":"1,2,3"
+				"source":"1,3,4"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0469",
 				"error":"0.0012",
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"host":[
 			{
 				"value":"IC 2458",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			},
 			{
 				"value":"NGC 2820A",
-				"source":"4"
+				"source":"5"
 			}
 		],
 		"hostdec":[
@@ -107,7 +117,7 @@
 			},
 			{
 				"value":"+64:14:19.2",
-				"source":"4",
+				"source":"5",
 				"unit":"degrees"
 			}
 		],
@@ -119,7 +129,7 @@
 			},
 			{
 				"value":"09:21:30.06",
-				"source":"4",
+				"source":"5",
 				"unit":"hours"
 			}
 		],
@@ -127,7 +137,7 @@
 			{
 				"value":"24",
 				"error":"9",
-				"source":"4",
+				"source":"5",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -135,37 +145,37 @@
 		"maxabsmag":[
 			{
 				"value":"-14",
-				"source":"5"
+				"source":"6"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.6",
-				"source":"5,4"
+				"source":"6,5"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1998/04/21",
-				"source":"5,4"
+				"source":"6,5"
 			}
 		],
 		"ra":[
 			{
 				"value":"09:21:30.49",
-				"source":"1,4",
+				"source":"1,2,5",
 				"unit":"hours"
 			},
 			{
 				"value":"09:21:30.498",
-				"source":"2,3",
+				"source":"3,4",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0052",
-				"source":"4",
+				"source":"5",
 				"kind":"host"
 			}
 		],
@@ -182,7 +192,7 @@
 				"time":"50924.0",
 				"u_time":"MJD",
 				"magnitude":"17.6",
-				"source":"4"
+				"source":"5"
 			}
 		]
 	}

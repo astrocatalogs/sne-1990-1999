@@ -23,6 +23,7 @@
 			{
 				"name":"CfA Supernova Archive",
 				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
+				"acknowledgment":"This research has made use of the CfA Supernova Archive, which is funded in part by the National Science Foundation through grant AST 0907903.",
 				"alias":"4",
 				"secondary":true
 			},
@@ -57,129 +58,134 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
+				"name":"Transient Name Server",
+				"url":"https://wis-tns.weizmann.ac.il",
+				"alias":"10"
+			},
+			{
 				"name":"IAUC 7185",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07100/07185.html#Item1",
 				"bibcode":"1999IAUC.7185....4S",
-				"alias":"10",
+				"alias":"11",
 				"reference":"Szabo (1999)"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"11",
+				"alias":"12",
 				"secondary":true
 			},
 			{
 				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"12",
+				"alias":"13",
 				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
 				"name":"NED-D",
 				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"13",
+				"alias":"14",
 				"secondary":true
 			},
 			{
 				"name":"2006ApJ...645..488W",
 				"bibcode":"2006ApJ...645..488W",
-				"alias":"14",
+				"alias":"15",
 				"reference":"Wang et al. (2006)"
 			},
 			{
 				"name":"2010ApJ...716..712A",
 				"bibcode":"2010ApJ...716..712A",
-				"alias":"15",
+				"alias":"16",
 				"reference":"Amanullah et al. (2010)"
 			},
 			{
 				"name":"2007ApJ...659..122J",
 				"bibcode":"2007ApJ...659..122J",
-				"alias":"16",
+				"alias":"17",
 				"reference":"Jha, Riess, & Kirshner (2007)"
 			},
 			{
 				"name":"2008ApJ...689..377W",
 				"bibcode":"2008ApJ...689..377W",
-				"alias":"17",
+				"alias":"18",
 				"reference":"Wood-Vasey et al. (2008)"
 			},
 			{
 				"name":"2000ApJ...539..658K",
 				"bibcode":"2000ApJ...539..658K",
-				"alias":"18",
+				"alias":"19",
 				"reference":"Krisciunas et al. (2000)"
 			},
 			{
 				"name":"2008A&ARv..15..289T",
 				"bibcode":"2008A&ARv..15..289T",
-				"alias":"19",
+				"alias":"20",
 				"reference":"Tammann, Sandage, & Reindl (2008)"
 			},
 			{
 				"name":"2005ApJ...624..532R",
 				"bibcode":"2005ApJ...624..532R",
-				"alias":"20",
+				"alias":"21",
 				"reference":"Reindl et al. (2005)"
 			},
 			{
 				"name":"2011ApJ...731..120M",
 				"bibcode":"2011ApJ...731..120M",
-				"alias":"21",
+				"alias":"22",
 				"reference":"Mandel, Narayan, & Kirshner (2011)"
 			},
 			{
 				"name":"2009ApJ...704..629M",
 				"bibcode":"2009ApJ...704..629M",
-				"alias":"22",
+				"alias":"23",
 				"reference":"Mandel et al. (2009)"
 			},
 			{
 				"name":"2008ApJ...686..749K",
 				"bibcode":"2008ApJ...686..749K",
-				"alias":"23",
+				"alias":"24",
 				"reference":"Kowalski et al. (2008)"
 			},
 			{
 				"name":"2008MNRAS.389.1577T",
 				"bibcode":"2008MNRAS.389.1577T",
-				"alias":"24",
+				"alias":"25",
 				"reference":"Takanashi, Doi, & Yasuda (2008)"
 			},
 			{
 				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
 				"bibcode":"2012PASP..124..668Y",
-				"alias":"25",
+				"alias":"26",
 				"secondary":true,
 				"reference":"Yaron & Gal-Yam (2012)"
 			},
 			{
 				"name":"2008AJ....135.1598M",
 				"bibcode":"2008AJ....135.1598M",
-				"alias":"26",
+				"alias":"27",
 				"reference":"Matheson et al. (2008)"
 			},
 			{
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"27",
+				"alias":"28",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"28",
+				"alias":"29",
 				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1999cl",
-				"source":"1,2,3,4,6,9,10,11,12,13,25"
+				"source":"1,2,3,4,6,9,10,11,12,13,14,26"
 			}
 		],
 		"claimedtype":[
@@ -189,100 +195,105 @@
 			},
 			{
 				"value":"Ia",
-				"source":"9,10,11,12,25,2"
+				"source":"9,10,11,12,13,26,2"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"10.5",
-				"source":"14,13",
+				"source":"15,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"11.7",
-				"source":"15,13",
+				"source":"16,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"13",
-				"source":"16,13",
+				"source":"17,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"14.1",
-				"source":"17,13",
+				"source":"18,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"14.5",
-				"source":"18,13",
+				"source":"19,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"14.7",
-				"source":"19,13",
+				"source":"20,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"15.3",
-				"source":"20,13,21",
+				"source":"21,14,22",
 				"unit":"Mpc"
 			},
 			{
 				"value":"15.6",
-				"source":"8,13",
+				"source":"8,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"15.7",
-				"source":"22,13",
+				"source":"23,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"20.9",
-				"source":"23,13",
+				"source":"24,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"36.8",
-				"source":"24,13",
+				"source":"25,14",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"+14:25:35.3",
-				"source":"9,10,11,12",
+				"source":"9,11,12,13",
+				"unit":"degrees"
+			},
+			{
+				"value":"+14:25:35.29",
+				"source":"10",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1999/05/29",
-				"source":"10,11,12,2"
+				"source":"10,11,12,13,2"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"LOSS",
-				"source":"9,10,11"
+				"source":"9,11,12"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0325",
 				"error":"0.0003",
-				"source":"28"
+				"source":"29"
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 4501",
-				"source":"2,9,12"
+				"source":"2,9,10,13"
 			},
 			{
 				"value":"M88",
-				"source":"10,11"
+				"source":"11,12"
 			}
 		],
 		"hostdec":[
@@ -293,7 +304,7 @@
 			},
 			{
 				"value":"+14:25:13.6",
-				"source":"12",
+				"source":"13",
 				"unit":"degrees"
 			}
 		],
@@ -305,7 +316,7 @@
 			},
 			{
 				"value":"12:31:59.22",
-				"source":"12",
+				"source":"13",
 				"unit":"hours"
 			}
 		],
@@ -313,7 +324,7 @@
 			{
 				"value":"11",
 				"error":"1",
-				"source":"12",
+				"source":"13",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -321,31 +332,31 @@
 		"maxabsmag":[
 			{
 				"value":"-15",
-				"source":"27"
+				"source":"28"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"14.99",
-				"source":"27,2"
+				"source":"28,2"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"27,2"
+				"source":"28,2"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1999/06/15",
-				"source":"9,12"
+				"source":"9,13"
 			}
 		],
 		"ra":[
 			{
 				"value":"12:31:56.01",
-				"source":"9,10,11,12",
+				"source":"9,10,11,12,13",
 				"unit":"hours"
 			}
 		],
@@ -418,7 +429,7 @@
 				"time":"51332.5",
 				"u_time":"MJD",
 				"magnitude":"13.6",
-				"source":"10,11"
+				"source":"11,12"
 			},
 			{
 				"time":"51332.87",
@@ -3083,7 +3094,7 @@
 				"dereddened":false,
 				"instrument":"fast",
 				"u_time":"MJD",
-				"time":51334.19,
+				"time":"51334.19",
 				"filename":"sn1999cl-19990605.19-fast.flm",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
@@ -15830,14 +15841,14 @@
 						"5.6340509e-17"
 					]
 				],
-				"source":"4,3,26"
+				"source":"4,3,27"
 			},
 			{
 				"deredshifted":false,
 				"dereddened":false,
 				"instrument":"fast",
 				"u_time":"MJD",
-				"time":51335.18,
+				"time":"51335.18",
 				"filename":"sn1999cl-19990606.18-fast.flm",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
@@ -28169,14 +28180,14 @@
 						"6.8316622e-17"
 					]
 				],
-				"source":"4,3,26"
+				"source":"4,3,27"
 			},
 			{
 				"deredshifted":false,
 				"dereddened":false,
 				"instrument":"fast",
 				"u_time":"MJD",
-				"time":51337.24,
+				"time":"51337.24",
 				"filename":"sn1999cl-19990608.24-fast.flm",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
@@ -40293,14 +40304,14 @@
 						"9.2562179e-17"
 					]
 				],
-				"source":"4,3,26"
+				"source":"4,3,27"
 			},
 			{
 				"deredshifted":false,
 				"dereddened":false,
 				"instrument":"fast",
 				"u_time":"MJD",
-				"time":51338.24,
+				"time":"51338.24",
 				"filename":"sn1999cl-19990609.24-fast.flm",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
@@ -52417,14 +52428,14 @@
 						"8.7003724e-17"
 					]
 				],
-				"source":"4,3,26"
+				"source":"4,3,27"
 			},
 			{
 				"deredshifted":false,
 				"dereddened":false,
 				"instrument":"fast",
 				"u_time":"MJD",
-				"time":51339.22,
+				"time":"51339.22",
 				"filename":"sn1999cl-19990610.22-fast.flm",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
@@ -65036,14 +65047,14 @@
 						"8.9588465e-17"
 					]
 				],
-				"source":"4,3,26"
+				"source":"4,3,27"
 			},
 			{
 				"deredshifted":false,
 				"dereddened":false,
 				"instrument":"fast",
 				"u_time":"MJD",
-				"time":51340.18,
+				"time":"51340.18",
 				"filename":"sn1999cl-19990611.18-fast.flm",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
@@ -77140,14 +77151,14 @@
 						"9.2434998e-17"
 					]
 				],
-				"source":"4,3,26"
+				"source":"4,3,27"
 			},
 			{
 				"deredshifted":false,
 				"dereddened":false,
 				"instrument":"fast",
 				"u_time":"MJD",
-				"time":51341.17,
+				"time":"51341.17",
 				"filename":"sn1999cl-19990612.17-fast.flm",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
@@ -89249,14 +89260,14 @@
 						"1.1802388e-16"
 					]
 				],
-				"source":"4,3,26"
+				"source":"4,3,27"
 			},
 			{
 				"deredshifted":false,
 				"dereddened":false,
 				"instrument":"fast",
 				"u_time":"MJD",
-				"time":51343.18,
+				"time":"51343.18",
 				"filename":"sn1999cl-19990614.18-fast.flm",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
@@ -101993,14 +102004,14 @@
 						"6.0835713e-17"
 					]
 				],
-				"source":"4,3,26"
+				"source":"4,3,27"
 			},
 			{
 				"deredshifted":false,
 				"dereddened":false,
 				"instrument":"fast",
 				"u_time":"MJD",
-				"time":51347.17,
+				"time":"51347.17",
 				"filename":"sn1999cl-19990618.17-fast.flm",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
@@ -115197,7 +115208,7 @@
 						"1.7298063e-16"
 					]
 				],
-				"source":"4,3,26"
+				"source":"4,3,27"
 			},
 			{
 				"deredshifted":false,
@@ -126023,7 +126034,7 @@
 				"dereddened":false,
 				"instrument":"fast",
 				"u_time":"MJD",
-				"time":51350.17,
+				"time":"51350.17",
 				"filename":"sn1999cl-19990621.17-fast.flm",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
@@ -138770,7 +138781,7 @@
 						"8.9469271e-17"
 					]
 				],
-				"source":"4,3,26"
+				"source":"4,3,27"
 			},
 			{
 				"deredshifted":false,
@@ -167715,7 +167726,7 @@
 				"dereddened":false,
 				"instrument":"fast",
 				"u_time":"MJD",
-				"time":51380.17,
+				"time":"51380.17",
 				"filename":"sn1999cl-19990721.17-fast.flm",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
@@ -180462,7 +180473,7 @@
 						"1.0740233e-15"
 					]
 				],
-				"source":"4,3,26"
+				"source":"4,3,27"
 			},
 			{
 				"deredshifted":false,

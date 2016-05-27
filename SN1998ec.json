@@ -17,6 +17,7 @@
 			{
 				"name":"CfA Supernova Archive",
 				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
+				"acknowledgment":"This research has made use of the CfA Supernova Archive, which is funded in part by the National Science Foundation through grant AST 0907903.",
 				"alias":"3",
 				"secondary":true
 			},
@@ -45,105 +46,110 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
+				"name":"Transient Name Server",
+				"url":"https://wis-tns.weizmann.ac.il",
+				"alias":"8"
+			},
+			{
 				"name":"IAUC 7022",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07000/07022.html#Item1",
 				"bibcode":"1998IAUC.7022....2G",
-				"alias":"8",
+				"alias":"9",
 				"reference":"Ghavamian & Garcia (1998)"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"9",
+				"alias":"10",
 				"secondary":true
 			},
 			{
 				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"10",
+				"alias":"11",
 				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
 				"name":"NED-D",
 				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"11",
+				"alias":"12",
 				"secondary":true
 			},
 			{
 				"name":"2010ApJ...716..712A",
 				"bibcode":"2010ApJ...716..712A",
-				"alias":"12",
+				"alias":"13",
 				"reference":"Amanullah et al. (2010)"
 			},
 			{
 				"name":"2008MNRAS.389.1577T",
 				"bibcode":"2008MNRAS.389.1577T",
-				"alias":"13",
+				"alias":"14",
 				"reference":"Takanashi, Doi, & Yasuda (2008)"
 			},
 			{
 				"name":"2013MNRAS.433.2240G",
 				"bibcode":"2013MNRAS.433.2240G",
-				"alias":"14",
+				"alias":"15",
 				"reference":"Ganeshalingam, Li, & Filippenko (2013)"
 			},
 			{
 				"name":"2006ApJ...647..501P",
 				"bibcode":"2006ApJ...647..501P",
-				"alias":"15",
+				"alias":"16",
 				"reference":"Prieto, Rest, & Suntzeff (2006)"
 			},
 			{
 				"name":"2007ApJ...659..122J",
 				"bibcode":"2007ApJ...659..122J",
-				"alias":"16",
+				"alias":"17",
 				"reference":"Jha, Riess, & Kirshner (2007)"
 			},
 			{
 				"name":"2008ApJ...686..749K",
 				"bibcode":"2008ApJ...686..749K",
-				"alias":"17",
+				"alias":"18",
 				"reference":"Kowalski et al. (2008)"
 			},
 			{
 				"name":"2005ApJ...624..532R",
 				"bibcode":"2005ApJ...624..532R",
-				"alias":"18",
+				"alias":"19",
 				"reference":"Reindl et al. (2005)"
 			},
 			{
 				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
 				"bibcode":"2012PASP..124..668Y",
-				"alias":"19",
+				"alias":"20",
 				"secondary":true,
 				"reference":"Yaron & Gal-Yam (2012)"
 			},
 			{
 				"name":"2008AJ....135.1598M",
 				"bibcode":"2008AJ....135.1598M",
-				"alias":"20",
+				"alias":"21",
 				"reference":"Matheson et al. (2008)"
 			},
 			{
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"21",
+				"alias":"22",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"22",
+				"alias":"23",
 				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1998ec",
-				"source":"1,2,3,5,7,8,9,10,11,19"
+				"source":"1,2,3,5,7,8,9,10,11,12,20"
 			}
 		],
 		"claimedtype":[
@@ -153,57 +159,62 @@
 			},
 			{
 				"value":"Ia",
-				"source":"7,8,9,10,19,1"
+				"source":"7,9,10,11,20,1"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"62.4",
-				"source":"12,11",
+				"source":"13,12",
 				"unit":"Mpc"
 			},
 			{
 				"value":"85.5",
-				"source":"13,11",
+				"source":"14,12",
 				"unit":"Mpc"
 			},
 			{
 				"value":"87.1",
-				"source":"14,11",
+				"source":"15,12",
 				"unit":"Mpc"
 			},
 			{
 				"value":"87.5",
-				"source":"15,11",
+				"source":"16,12",
 				"unit":"Mpc"
 			},
 			{
 				"value":"99.8",
-				"source":"16,11",
+				"source":"17,12",
 				"unit":"Mpc"
 			},
 			{
 				"value":"100",
-				"source":"17,11",
+				"source":"18,12",
 				"unit":"Mpc"
 			},
 			{
 				"value":"108",
-				"source":"18,11",
+				"source":"19,12",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"+50:02:22.1",
-				"source":"7,8,9,10",
+				"source":"7,9,10,11",
+				"unit":"degrees"
+			},
+			{
+				"value":"+50:02:22.09",
+				"source":"8",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1998/09/26",
-				"source":"8,9,10,1"
+				"source":"8,9,10,11,1"
 			}
 		],
 		"discoverer":[
@@ -213,20 +224,20 @@
 			},
 			{
 				"value":"BAO Supernova Survey",
-				"source":"8,9"
+				"source":"9,10"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.072",
 				"error":"0.0018",
-				"source":"22"
+				"source":"23"
 			}
 		],
 		"host":[
 			{
 				"value":"UGC 3576",
-				"source":"1,7,8,9,10"
+				"source":"1,7,8,9,10,11"
 			}
 		],
 		"hostdec":[
@@ -237,7 +248,7 @@
 			},
 			{
 				"value":"+50:02:03.0",
-				"source":"10",
+				"source":"11",
 				"unit":"degrees"
 			}
 		],
@@ -249,7 +260,7 @@
 			},
 			{
 				"value":"06:53:06.90",
-				"source":"10",
+				"source":"11",
 				"unit":"hours"
 			}
 		],
@@ -257,7 +268,7 @@
 			{
 				"value":"85",
 				"error":"6",
-				"source":"10",
+				"source":"11",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -265,43 +276,43 @@
 		"maxabsmag":[
 			{
 				"value":"-18",
-				"source":"21"
+				"source":"22"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"16.7",
-				"source":"21,1"
+				"source":"22,1"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"21,1"
+				"source":"22,1"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1998/10/02",
-				"source":"7,10"
+				"source":"7,11"
 			}
 		],
 		"ra":[
 			{
 				"value":"06:53:06.11",
-				"source":"7,8,9,10",
+				"source":"7,8,9,10,11",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0199",
-				"source":"1,19",
+				"source":"1,20",
 				"kind":"heliocentric"
 			},
 			{
 				"value":"0.0198",
-				"source":"8,9"
+				"source":"9,10"
 			}
 		],
 		"velocity":[
@@ -1076,7 +1087,7 @@
 				"dereddened":false,
 				"instrument":"fast",
 				"u_time":"MJD",
-				"time":51085.52,
+				"time":"51085.52",
 				"filename":"sn1998ec-19980929.52-fast.flm",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
@@ -13628,14 +13639,14 @@
 						"2.7475145e-17"
 					]
 				],
-				"source":"3,2,20"
+				"source":"3,2,21"
 			},
 			{
 				"deredshifted":false,
 				"dereddened":false,
 				"instrument":"fast",
 				"u_time":"MJD",
-				"time":51086.5,
+				"time":"51086.5",
 				"filename":"sn1998ec-19980930.50-fast.flm",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
@@ -26317,7 +26328,7 @@
 						"2.8941503e-17"
 					]
 				],
-				"source":"3,2,20"
+				"source":"3,2,21"
 			},
 			{
 				"deredshifted":false,
@@ -40143,7 +40154,7 @@
 				"dereddened":false,
 				"instrument":"fast",
 				"u_time":"MJD",
-				"time":51101.48,
+				"time":"51101.48",
 				"filename":"sn1998ec-19981015.48-fast.flm",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
@@ -52890,14 +52901,14 @@
 						"1.7260071e-17"
 					]
 				],
-				"source":"3,2,20"
+				"source":"3,2,21"
 			},
 			{
 				"deredshifted":false,
 				"dereddened":false,
 				"instrument":"fast",
 				"u_time":"MJD",
-				"time":51109.48,
+				"time":"51109.48",
 				"filename":"sn1998ec-19981023.48-fast.flm",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
@@ -65379,14 +65390,14 @@
 						"2.1890719e-17"
 					]
 				],
-				"source":"3,2,20"
+				"source":"3,2,21"
 			},
 			{
 				"deredshifted":false,
 				"dereddened":false,
 				"instrument":"fast",
 				"u_time":"MJD",
-				"time":51115.5,
+				"time":"51115.5",
 				"filename":"sn1998ec-19981029.50-fast.flm",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
@@ -77738,14 +77749,14 @@
 						"2.2435102e-17"
 					]
 				],
-				"source":"3,2,20"
+				"source":"3,2,21"
 			},
 			{
 				"deredshifted":false,
 				"dereddened":false,
 				"instrument":"fast",
 				"u_time":"MJD",
-				"time":51128.52,
+				"time":"51128.52",
 				"filename":"sn1998ec-19981111.52-fast.flm",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
@@ -88387,7 +88398,7 @@
 						"1.9368604e-17"
 					]
 				],
-				"source":"3,2,20"
+				"source":"3,2,21"
 			}
 		]
 	}

@@ -23,29 +23,34 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
+				"name":"Transient Name Server",
+				"url":"https://wis-tns.weizmann.ac.il",
+				"alias":"4"
+			},
+			{
 				"name":"IAUC 6807",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06800/06807.html",
 				"bibcode":"1998IAUC.6807....3I",
-				"alias":"4",
+				"alias":"5",
 				"reference":"Ilovaisky (1998)"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"5",
+				"alias":"6",
 				"secondary":true
 			},
 			{
 				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"6",
+				"alias":"7",
 				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
 				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
 				"bibcode":"2012PASP..124..668Y",
-				"alias":"7",
+				"alias":"8",
 				"secondary":true,
 				"reference":"Yaron & Gal-Yam (2012)"
 			},
@@ -53,27 +58,27 @@
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"8",
+				"alias":"9",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"9",
+				"alias":"10",
 				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1997fc",
-				"source":"1,2,3,4,5,6,7"
+				"source":"1,2,3,4,5,6,7,8"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,6,7,2"
+				"source":"1,7,8,2"
 			},
 			{
 				"value":"Ia Pec",
@@ -83,21 +88,26 @@
 		"comovingdist":[
 			{
 				"value":"235.97",
-				"source":"8",
+				"source":"9",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"-38:55:04.3",
-				"source":"1,3,4,5,6",
+				"source":"1,3,5,6,7",
+				"unit":"degrees"
+			},
+			{
+				"value":"-38:55:04.30",
+				"source":"4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1997/12/31",
-				"source":"1,3,4,5,6,2"
+				"source":"1,3,4,5,6,7,2"
 			}
 		],
 		"discoverer":[
@@ -107,14 +117,14 @@
 			},
 			{
 				"value":"Mount Stromlo",
-				"source":"4,5"
+				"source":"5,6"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0177",
 				"error":"0.0003",
-				"source":"9"
+				"source":"10"
 			}
 		],
 		"host":[
@@ -124,7 +134,7 @@
 			},
 			{
 				"value":"APMUKS(BJ) B045816.80-385931.0",
-				"source":"2,6"
+				"source":"2,7"
 			},
 			{
 				"value":"A045958-3855",
@@ -139,7 +149,7 @@
 			},
 			{
 				"value":"-38:55:04.0",
-				"source":"6",
+				"source":"7",
 				"unit":"degrees"
 			}
 		],
@@ -151,14 +161,14 @@
 			},
 			{
 				"value":"04:59:58.00",
-				"source":"6",
+				"source":"7",
 				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"248.71",
-				"source":"8",
+				"source":"9",
 				"kind":"heliocentric",
 				"unit":"Mpc"
 			}
@@ -166,31 +176,31 @@
 		"maxabsmag":[
 			{
 				"value":"-18.668",
-				"source":"8"
+				"source":"9"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.31",
-				"source":"8,1"
+				"source":"9,1"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"8,1"
+				"source":"9,1"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1998/01/31",
-				"source":"8,1"
+				"source":"9,1"
 			}
 		],
 		"ra":[
 			{
 				"value":"04:59:58.81",
-				"source":"1,3,4,5,6",
+				"source":"1,3,4,5,6,7",
 				"unit":"hours"
 			}
 		],
@@ -225,7 +235,7 @@
 				"time":"50812.5",
 				"u_time":"MJD",
 				"magnitude":"20.5",
-				"source":"4,5"
+				"source":"5,6"
 			},
 			{
 				"time":"50813.15",
