@@ -3,200 +3,228 @@
 		"name":"SN1999ay",
 		"sources":[
 			{
+				"name":"2008ApJ...673..999P",
+				"bibcode":"2008ApJ...673..999P",
+				"alias":"1",
+				"reference":"Prieto, Stanek, & Beacom (2008)"
+			},
+			{
 				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
 				"bibcode":"1989A&AS...81..421B",
-				"alias":"1",
+				"alias":"2",
 				"secondary":true,
 				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"IAUC 7130",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07100/07130.html#Item1",
 				"bibcode":"1999IAUC.7130....2A",
-				"alias":"3",
+				"alias":"4",
 				"reference":"Aldering, Deustua, & Nugent (1999)"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4",
+				"alias":"5",
 				"secondary":true
 			},
 			{
 				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"5",
+				"alias":"6",
 				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
 				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
 				"bibcode":"2012PASP..124..668Y",
-				"alias":"6",
+				"alias":"7",
 				"secondary":true,
 				"reference":"Yaron & Gal-Yam (2012)"
 			},
 			{
 				"name":"2008ApJ...680..550G",
 				"bibcode":"2008ApJ...680..550G",
-				"alias":"7",
+				"alias":"8",
 				"reference":"Gal-Yam et al. (2008)"
 			},
 			{
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"8",
+				"alias":"9",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"9",
+				"alias":"10",
 				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1999ay",
-				"source":"1,2,3,4,5,6"
+				"source":"1,2,3,4,5,6,7"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"1,2,5"
+				"source":"1,2,3,6"
 			},
 			{
 				"value":"IIb",
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"comovingdist":[
 			{
-				"value":"644",
-				"source":"8",
+				"value":"191.8",
+				"source":"9",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
+				"value":"+58:55:42.24",
+				"source":"1",
+				"unit":"degrees"
+			},
+			{
 				"value":"+58:55:42.3",
-				"source":"1,3,4,5",
+				"source":"2,4,5,6",
 				"unit":"degrees"
 			},
 			{
 				"value":"+58:55:42.31",
-				"source":"2",
+				"source":"3",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1999/03/21",
-				"source":"1,2,3,4,5"
+				"source":"2,3,4,5,6"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Gal-Yam, Maoz",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"value":"Wise Observatory",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.009",
 				"error":"0.0005",
-				"source":"9"
+				"source":"10"
 			}
 		],
 		"host":[
 			{
 				"value":"A144443+5855",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"value":"PGC 2584401",
-				"source":"5"
+				"source":"6"
 			}
 		],
 		"hostdec":[
 			{
-				"value":"+58:55:42",
+				"value":"+58:55:44.4",
 				"source":"1",
 				"unit":"degrees"
 			},
 			{
+				"value":"+58:55:42",
+				"source":"2",
+				"unit":"degrees"
+			},
+			{
 				"value":"+58:55:42.0",
-				"source":"5",
+				"source":"6",
 				"unit":"degrees"
 			}
 		],
 		"hostra":[
 			{
-				"value":"14:44:43",
+				"value":"14:44:44.16",
 				"source":"1",
 				"unit":"hours"
 			},
 			{
+				"value":"14:44:43",
+				"source":"2",
+				"unit":"hours"
+			},
+			{
 				"value":"14:44:43.00",
-				"source":"5",
+				"source":"6",
 				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
-				"value":"742",
-				"source":"8",
+				"value":"200.2",
+				"source":"9",
+				"kind":"host",
 				"unit":"Mpc"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-21.4",
-				"source":"8"
+				"value":"-18.51",
+				"source":"9"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18",
-				"source":"8,3,4"
+				"source":"9,4,5"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1999/03/20",
-				"source":"8,3,4"
+				"source":"9,4,5"
 			}
 		],
 		"ra":[
 			{
+				"value":"14:44:43.92",
+				"source":"1",
+				"unit":"hours"
+			},
+			{
 				"value":"14:44:43.86",
-				"source":"1,2,3,4,5",
+				"source":"2,3,4,5,6",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
-				"value":"0.151",
-				"source":"3,4"
+				"value":"0.04379",
+				"source":"1",
+				"kind":"host"
 			}
 		],
 		"velocity":[
 			{
 				"value":"12000",
-				"source":"1",
+				"source":"2",
 				"kind":"host",
 				"unit":"km/s"
 			}
@@ -206,7 +234,7 @@
 				"time":"51257.5",
 				"u_time":"MJD",
 				"magnitude":"18.0",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"spectra":[
@@ -5825,7 +5853,7 @@
 						"-10.09646"
 					]
 				],
-				"source":"7,6"
+				"source":"8,7"
 			}
 		]
 	}
