@@ -3,164 +3,183 @@
 		"name":"SN1993G",
 		"sources":[
 			{
+				"name":"2000A&AS..143....9W",
+				"bibcode":"2000A&AS..143....9W",
+				"alias":"1",
+				"secondary":true,
+				"reference":"Wenger et al. (2000)"
+			},
+			{
+				"name":"1993IAUC.5719....1F",
+				"bibcode":"1993IAUC.5719....1F",
+				"alias":"2",
+				"reference":"Forti et al. (1993)"
+			},
+			{
+				"name":"2008yCat....1.2024B",
+				"bibcode":"2008yCat....1.2024B",
+				"alias":"3",
+				"reference":"Barbon et al. (2008)"
+			},
+			{
 				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
 				"url":"http://dau.itep.ru/sn/node/72",
-				"alias":"1",
+				"alias":"4",
 				"secondary":true
 			},
 			{
 				"name":"D.Yu.Tsvetkov, PAZh, 1994, v.20, n6, 441-444",
-				"alias":"2"
+				"alias":"5"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
 				"bibcode":"1989A&AS...81..421B",
-				"alias":"3",
+				"alias":"6",
 				"secondary":true,
 				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il",
-				"alias":"4"
+				"alias":"7"
 			},
 			{
 				"name":"IAUC 5718",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05700/05718.html",
 				"bibcode":"1993IAUC.5718....3S",
-				"alias":"5",
+				"alias":"8",
 				"reference":"Schmeer (1993)"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"6",
+				"alias":"9",
 				"secondary":true
 			},
 			{
 				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"7",
+				"alias":"10",
 				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"8",
+				"alias":"11",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"9",
+				"alias":"12",
 				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1993G",
-				"source":"1,3,4,5,6,7"
+				"source":"1,4,6,7,8,9,10"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"4,5,6,7"
+				"source":"7,8,9,10"
 			},
 			{
 				"value":"II L",
-				"source":"3"
+				"source":"1,3,6"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"40",
-				"source":"8",
+				"source":"11",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
+				"value":"+58:33:31.0",
+				"source":"1,2,10",
+				"unit":"degrees"
+			},
+			{
 				"value":"+58:33:30.97",
-				"source":"3",
+				"source":"6",
 				"unit":"degrees"
 			},
 			{
 				"value":"+58:33:31.21",
-				"source":"4",
+				"source":"7",
 				"unit":"degrees"
 			},
 			{
 				"value":"+58:33:31.2",
-				"source":"5,6",
-				"unit":"degrees"
-			},
-			{
-				"value":"+58:33:31.0",
-				"source":"7",
+				"source":"8,9",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1993/03/06",
-				"source":"3,7"
+				"source":"6,10"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Treffers et al.",
-				"source":"3"
+				"source":"6"
 			},
 			{
 				"value":"Treffers, Filippenko, Leibundgut,",
-				"source":"5,6"
+				"source":"8,9"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0145",
 				"error":"0.0002",
-				"source":"9"
+				"source":"12"
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 3690",
-				"source":"3,4,5,6,7"
+				"source":"6,7,8,9,10"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+58:33:44",
-				"source":"3",
+				"source":"6",
 				"unit":"degrees"
 			},
 			{
 				"value":"+58:33:47.0",
-				"source":"7",
+				"source":"10",
 				"unit":"degrees"
 			}
 		],
 		"hostra":[
 			{
 				"value":"11:28:32",
-				"source":"3",
+				"source":"6",
 				"unit":"hours"
 			},
 			{
 				"value":"11:28:33.62",
-				"source":"7",
+				"source":"10",
 				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"40",
-				"source":"8",
+				"source":"11",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -168,50 +187,55 @@
 		"maxabsmag":[
 			{
 				"value":"-20",
-				"source":"8"
+				"source":"11"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.2",
-				"source":"8,1,2"
+				"source":"11,4,5"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"8,1,2"
+				"source":"11,4,5"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1993/03/12",
-				"source":"8,1,2"
+				"source":"11,4,5"
 			}
 		],
 		"ra":[
 			{
+				"value":"11:28:33.43",
+				"source":"1,2",
+				"unit":"hours"
+			},
+			{
 				"value":"11:28:33.37",
-				"source":"3,7",
+				"source":"6,10",
 				"unit":"hours"
 			},
 			{
 				"value":"11:28:33.44",
-				"source":"4,5,6",
+				"source":"7,8,9",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.01",
-				"source":"7",
+				"source":"10",
 				"kind":"host"
 			}
 		],
 		"velocity":[
 			{
 				"value":"3033",
-				"source":"3",
+				"source":"6",
 				"kind":"host",
 				"unit":"km/s"
 			}
@@ -221,63 +245,63 @@
 				"time":"49050.5",
 				"u_time":"MJD",
 				"magnitude":"16.6",
-				"source":"5,6"
+				"source":"8,9"
 			},
 			{
 				"time":"49058.9",
 				"u_time":"MJD",
 				"band":"B",
 				"magnitude":"17.2",
-				"source":"1,2"
+				"source":"4,5"
 			},
 			{
 				"time":"49061.9",
 				"u_time":"MJD",
 				"band":"B",
 				"magnitude":"17.45",
-				"source":"1,2"
+				"source":"4,5"
 			},
 			{
 				"time":"49068.8",
 				"u_time":"MJD",
 				"band":"B",
 				"magnitude":"17.9",
-				"source":"1,2"
+				"source":"4,5"
 			},
 			{
 				"time":"49068.9",
 				"u_time":"MJD",
 				"band":"B",
 				"magnitude":"18.2",
-				"source":"1,2"
+				"source":"4,5"
 			},
 			{
 				"time":"49069.9",
 				"u_time":"MJD",
 				"band":"B",
 				"magnitude":"17.95",
-				"source":"1,2"
+				"source":"4,5"
 			},
 			{
 				"time":"49069.9",
 				"u_time":"MJD",
 				"band":"V",
 				"magnitude":"17.45",
-				"source":"1,2"
+				"source":"4,5"
 			},
 			{
 				"time":"49078.0",
 				"u_time":"MJD",
 				"band":"B",
 				"magnitude":"18.35",
-				"source":"1,2"
+				"source":"4,5"
 			},
 			{
 				"time":"49078.0",
 				"u_time":"MJD",
 				"band":"V",
 				"magnitude":"17.8",
-				"source":"1,2"
+				"source":"4,5"
 			}
 		]
 	}

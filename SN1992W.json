@@ -3,15 +3,21 @@
 		"name":"SN1992W",
 		"sources":[
 			{
+				"name":"2004yCat.2250....0S",
+				"bibcode":"2004yCat.2250....0S",
+				"alias":"1",
+				"reference":"Samus, Durlevich, & et al. (2004)"
+			},
+			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il",
-				"alias":"1"
+				"alias":"2"
 			},
 			{
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"2",
+				"alias":"3",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			}
@@ -19,13 +25,19 @@
 		"alias":[
 			{
 				"value":"SN1992W",
+				"source":"1,2"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Star",
 				"source":"1"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1992",
-				"source":"2"
+				"source":"3"
 			}
 		]
 	}

@@ -3,214 +3,233 @@
 		"name":"SN1999C",
 		"sources":[
 			{
+				"name":"2000A&AS..143....9W",
+				"bibcode":"2000A&AS..143....9W",
+				"alias":"1",
+				"secondary":true,
+				"reference":"Wenger et al. (2000)"
+			},
+			{
+				"name":"2008yCat.2283....0B",
+				"bibcode":"2008yCat.2283....0B",
+				"alias":"2",
+				"reference":"Barbon et al. (2008)"
+			},
+			{
+				"name":"2008yCat....1.2024B",
+				"bibcode":"2008yCat....1.2024B",
+				"alias":"3",
+				"reference":"Barbon et al. (2008)"
+			},
+			{
 				"name":"2012MNRAS.425.1789S",
 				"bibcode":"2012MNRAS.425.1789S",
-				"alias":"1",
+				"alias":"4",
 				"reference":"Silverman et al. (2012)"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
 				"bibcode":"1989A&AS...81..421B",
-				"alias":"2",
+				"alias":"5",
 				"secondary":true,
 				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il",
-				"alias":"3"
+				"alias":"6"
 			},
 			{
 				"name":"IAUC 7088",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07000/07088.html#Item1",
 				"bibcode":"1999IAUC.7088....3J",
-				"alias":"4",
+				"alias":"7",
 				"reference":"Jha et al. (1999)"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"5",
+				"alias":"8",
 				"secondary":true
 			},
 			{
 				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"6",
+				"alias":"9",
 				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
 				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
 				"bibcode":"2012PASP..124..668Y",
-				"alias":"7",
+				"alias":"10",
 				"secondary":true,
 				"reference":"Yaron & Gal-Yam (2012)"
 			},
 			{
 				"name":"2008ApJ...680..550G",
 				"bibcode":"2008ApJ...680..550G",
-				"alias":"8",
+				"alias":"11",
 				"reference":"Gal-Yam et al. (2008)"
 			},
 			{
 				"name":"2000AJ....119.2303M",
 				"bibcode":"2000AJ....119.2303M",
-				"alias":"9",
+				"alias":"12",
 				"reference":"Matheson et al. (2000)"
 			},
 			{
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"10",
+				"alias":"13",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"11",
+				"alias":"14",
 				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1999C",
-				"source":"1,2,3,4,5,6,7"
+				"source":"1,4,5,6,7,8,9,10"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,4,5,6,7,1"
+				"source":"1,3,5,6,7,8,9,10,4"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"115.76",
-				"source":"10",
+				"source":"13",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"+71:10:42.9",
-				"source":"2,4,5,6",
+				"source":"1,2,5,7,8,9",
 				"unit":"degrees"
 			},
 			{
 				"value":"+71:10:42.89",
-				"source":"3",
+				"source":"6",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1999/01/14",
-				"source":"2,3,4,5,6,1"
+				"source":"5,6,7,8,9,4"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Gal-Yam, Maoz",
-				"source":"2"
+				"source":"5"
 			},
 			{
 				"value":"Wise Observatory",
-				"source":"4,5"
+				"source":"7,8"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0719",
 				"error":"0.0036",
-				"source":"11"
+				"source":"14"
 			}
 		],
 		"host":[
 			{
 				"value":"WOOTS J100851.03+711042.9",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"value":"A100851+7110",
-				"source":"2"
+				"source":"5"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+71:10:42",
-				"source":"2",
+				"source":"5",
 				"unit":"degrees"
 			},
 			{
 				"value":"+71:10:42.0",
-				"source":"6",
+				"source":"9",
 				"unit":"degrees"
 			}
 		],
 		"hostra":[
 			{
 				"value":"10:08:51",
-				"source":"2",
+				"source":"5",
 				"unit":"hours"
 			},
 			{
 				"value":"10:08:51.00",
-				"source":"6",
+				"source":"9",
 				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"118.81",
-				"source":"10",
+				"source":"13",
 				"unit":"Mpc"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-15.774",
-				"source":"10"
+				"source":"13"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19.6",
-				"source":"10,6"
+				"source":"13,9"
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
-				"source":"10,6"
+				"source":"13,9"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1999/01/14",
-				"source":"10,6"
+				"source":"13,9"
 			}
 		],
 		"ra":[
 			{
 				"value":"10:08:51.21",
-				"source":"2,3,4,5,6",
+				"source":"1,2,5,6,7,8,9",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.026318",
-				"source":"7"
+				"source":"10"
 			}
 		],
 		"velocity":[
 			{
 				"value":"7786.1",
-				"source":"10",
+				"source":"13",
 				"unit":"km/s"
 			}
 		],
@@ -220,7 +239,7 @@
 				"u_time":"MJD",
 				"band":"R",
 				"magnitude":"19.6",
-				"source":"6"
+				"source":"9"
 			}
 		],
 		"spectra":[
@@ -9543,7 +9562,7 @@
 						"1.00000"
 					]
 				],
-				"source":"1"
+				"source":"4"
 			}
 		]
 	}

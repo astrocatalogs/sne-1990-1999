@@ -3,146 +3,197 @@
 		"name":"SN1998cc",
 		"sources":[
 			{
+				"name":"The Open Supernova Catalog",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"1",
+				"secondary":true,
+				"reference":"Guillochon, Parrent, & Margutti (2016)"
+			},
+			{
+				"name":"2000A&AS..143....9W",
+				"bibcode":"2000A&AS..143....9W",
+				"alias":"2",
+				"secondary":true,
+				"reference":"Wenger et al. (2000)"
+			},
+			{
+				"name":"2008yCat.2283....0B",
+				"bibcode":"2008yCat.2283....0B",
+				"alias":"3",
+				"reference":"Barbon et al. (2008)"
+			},
+			{
+				"name":"2008yCat....1.2024B",
+				"bibcode":"2008yCat....1.2024B",
+				"alias":"4",
+				"reference":"Barbon et al. (2008)"
+			},
+			{
 				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
 				"url":"http://dau.itep.ru/sn/node/72",
-				"alias":"1",
+				"alias":"5",
 				"secondary":true
 			},
 			{
 				"name":"VSNET 2001",
-				"alias":"2"
+				"alias":"6"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
 				"bibcode":"1989A&AS...81..421B",
-				"alias":"3",
+				"alias":"7",
 				"secondary":true,
 				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il",
-				"alias":"4"
+				"alias":"8"
 			},
 			{
 				"name":"IAUC 6907",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06900/06907.html#Item1",
 				"bibcode":"1998IAUC.6907....3F",
-				"alias":"5",
+				"alias":"9",
 				"reference":"Farrell (1998)"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"6",
+				"alias":"10",
 				"secondary":true
 			},
 			{
 				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"7",
+				"alias":"11",
 				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
 				"name":"CfA Supernova Archive",
 				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
 				"acknowledgment":"This research has made use of the CfA Supernova Archive, which is funded in part by the National Science Foundation through grant AST 0907903.",
-				"alias":"8",
+				"alias":"12",
 				"secondary":true
-			},
-			{
-				"name":"The Open Supernova Catalog",
-				"url":"https://sne.space",
-				"bibcode":"2016arXiv160501054G",
-				"alias":"9",
-				"secondary":true,
-				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"10",
+				"alias":"13",
 				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1998cc",
-				"source":"1,3,4,5,6,7,8"
+				"source":"2,5,7,8,9,10,11,12"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ib",
-				"source":"3,4,5,6,7"
+				"source":"2,4"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"60",
-				"source":"9",
+				"source":"1",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"+17:02:42.4",
-				"source":"3,5,6,7",
+				"source":"2,3,7,9,10,11",
 				"unit":"degrees"
 			},
 			{
 				"value":"+17:02:42.40",
-				"source":"4",
+				"source":"8",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1998/05/15",
-				"source":"3,4,5,6,7"
+				"source":"7,8,9,10,11"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"LOSS",
-				"source":"3,5,6"
+				"source":"7,9,10"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0167",
 				"error":"0.0004",
-				"source":"10"
+				"source":"13"
+			}
+		],
+		"errors":[
+			{
+				"value":"1989A&AS...81..421B",
+				"kind":"bibcode",
+				"extra":"claimedtype",
+				"source":"1"
+			},
+			{
+				"value":"Transient Name Server",
+				"kind":"name",
+				"extra":"claimedtype",
+				"source":"1"
+			},
+			{
+				"value":"1998IAUC.6907....3F",
+				"kind":"bibcode",
+				"extra":"claimedtype",
+				"source":"1"
+			},
+			{
+				"value":"Latest Supernovae",
+				"kind":"name",
+				"extra":"claimedtype",
+				"source":"1"
+			},
+			{
+				"value":"2012A&A...538A.120L",
+				"kind":"bibcode",
+				"extra":"claimedtype",
+				"source":"1"
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 5172",
-				"source":"3,4,5,6,7"
+				"source":"7,8,9,10,11"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+17:03:06",
-				"source":"3",
+				"source":"7",
 				"unit":"degrees"
 			},
 			{
 				"value":"+17:03:06.3",
-				"source":"7",
+				"source":"11",
 				"unit":"degrees"
 			}
 		],
 		"hostra":[
 			{
 				"value":"13:29:19",
-				"source":"3",
+				"source":"7",
 				"unit":"hours"
 			},
 			{
 				"value":"13:29:19.15",
-				"source":"7",
+				"source":"11",
 				"unit":"hours"
 			}
 		],
@@ -150,7 +201,7 @@
 			{
 				"value":"52",
 				"error":"10",
-				"source":"7",
+				"source":"11",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -158,44 +209,44 @@
 		"maxabsmag":[
 			{
 				"value":"-18",
-				"source":"9"
+				"source":"1"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"15.3",
-				"source":"9,1,2"
+				"source":"1,5,6"
 			}
 		],
 		"maxband":[
 			{
 				"value":"C",
-				"source":"9,1,2"
+				"source":"1,5,6"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1998/05/27",
-				"source":"9,1,2"
+				"source":"1,5,6"
 			}
 		],
 		"ra":[
 			{
 				"value":"13:29:19.31",
-				"source":"3,4,5,6,7",
+				"source":"2,3,7,8,9,10,11",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0136",
-				"source":"5,6"
+				"source":"9,10"
 			}
 		],
 		"velocity":[
 			{
 				"value":"4337",
-				"source":"3",
+				"source":"7",
 				"kind":"host",
 				"unit":"km/s"
 			}
@@ -206,34 +257,34 @@
 				"u_time":"MJD",
 				"band":"C",
 				"magnitude":"18.1",
-				"source":"1,2"
+				"source":"5,6"
 			},
 			{
 				"time":"50949.3",
 				"u_time":"MJD",
 				"band":"C",
 				"magnitude":"18.1",
-				"source":"1,2"
+				"source":"5,6"
 			},
 			{
 				"time":"50951.91",
 				"u_time":"MJD",
 				"band":"C",
 				"magnitude":"17.16",
-				"source":"1,2"
+				"source":"5,6"
 			},
 			{
 				"time":"50959.5",
 				"u_time":"MJD",
 				"magnitude":"15.3",
-				"source":"5,6"
+				"source":"9,10"
 			},
 			{
 				"time":"50960.14",
 				"u_time":"MJD",
 				"band":"C",
 				"magnitude":"15.3",
-				"source":"1,2"
+				"source":"5,6"
 			}
 		],
 		"spectra":[
@@ -10439,7 +10490,7 @@
 						"2.75396e-16"
 					]
 				],
-				"source":"8"
+				"source":"12"
 			}
 		]
 	}

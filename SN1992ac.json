@@ -11,68 +11,81 @@
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
+				"name":"2000A&AS..143....9W",
+				"bibcode":"2000A&AS..143....9W",
+				"alias":"2",
+				"secondary":true,
+				"reference":"Wenger et al. (2000)"
+			},
+			{
+				"name":"2008yCat....1.2024B",
+				"bibcode":"2008yCat....1.2024B",
+				"alias":"3",
+				"reference":"Barbon et al. (2008)"
+			},
+			{
 				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
 				"bibcode":"1989A&AS...81..421B",
-				"alias":"2",
+				"alias":"4",
 				"secondary":true,
 				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il",
-				"alias":"3"
+				"alias":"5"
 			},
 			{
 				"name":"IAUC 5543",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05500/05543.html",
 				"bibcode":"1992IAUC.5543....2G",
-				"alias":"4",
+				"alias":"6",
 				"reference":"Green (1992)"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"5",
+				"alias":"7",
 				"secondary":true
 			},
 			{
 				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"6",
+				"alias":"8",
 				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
 				"name":"SUSPECT",
 				"url":"https://www.nhn.ou.edu/~suspect/",
 				"bibcode":"2001AAS...199.8408R",
-				"alias":"7",
+				"alias":"9",
 				"secondary":true,
 				"reference":"Richardson et al. (2001)"
 			},
 			{
 				"name":"1998AJ....115.1096G",
 				"bibcode":"1998AJ....115.1096G",
-				"alias":"8",
+				"alias":"10",
 				"reference":"Gómez & López (1998)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"9",
+				"alias":"11",
 				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1992ac",
-				"source":"2,3,4,5,6,7"
+				"source":"2,4,5,6,7,8,9"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,4,5,6"
+				"source":"2,3,4,5,6,7,8"
 			}
 		],
 		"comovingdist":[
@@ -85,29 +98,29 @@
 		"dec":[
 			{
 				"value":"+58:10:01.0",
-				"source":"4,5",
+				"source":"6,7",
 				"unit":"degrees"
 			},
 			{
 				"value":"+58:10:04.5",
-				"source":"6",
+				"source":"8",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1992/05/30",
-				"source":"2,3,4,5,6"
+				"source":"4,5,6,7,8"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Gomez et al.",
-				"source":"2"
+				"source":"4"
 			},
 			{
 				"value":"Gomez, Lopez, Rey, Catchpole",
-				"source":"4,5"
+				"source":"6,7"
 			}
 		],
 		"distinctfrom":[
@@ -120,40 +133,40 @@
 			{
 				"value":"0.0118",
 				"error":"0.0006",
-				"source":"9"
+				"source":"11"
 			}
 		],
 		"host":[
 			{
 				"value":"MCG +10-24-07",
-				"source":"2,3,4,5"
+				"source":"4,5,6,7"
 			},
 			{
 				"value":"PGC 58618",
-				"source":"6"
+				"source":"8"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+58:10:03",
-				"source":"2",
+				"source":"4",
 				"unit":"degrees"
 			},
 			{
 				"value":"+58:10:04.5",
-				"source":"6",
+				"source":"8",
 				"unit":"degrees"
 			}
 		],
 		"hostra":[
 			{
 				"value":"16:37:09",
-				"source":"2",
+				"source":"4",
 				"unit":"hours"
 			},
 			{
 				"value":"16:37:08.79",
-				"source":"6",
+				"source":"8",
 				"unit":"hours"
 			}
 		],
@@ -174,38 +187,38 @@
 		"maxappmag":[
 			{
 				"value":"17",
-				"source":"1,4,5"
+				"source":"1,6,7"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1992/05/29",
-				"source":"1,4,5"
+				"source":"1,6,7"
 			}
 		],
 		"ra":[
 			{
 				"value":"16:37:09.4",
-				"source":"4,5",
+				"source":"6,7",
 				"unit":"hours"
 			},
 			{
 				"value":"16:37:10.43",
-				"source":"6",
+				"source":"8",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.052",
-				"source":"6",
+				"source":"8",
 				"kind":"host"
 			}
 		],
 		"velocity":[
 			{
 				"value":"15687",
-				"source":"2",
+				"source":"4",
 				"kind":"host",
 				"unit":"km/s"
 			}
@@ -215,7 +228,7 @@
 				"time":"48771.5",
 				"u_time":"MJD",
 				"magnitude":"17.0",
-				"source":"4,5"
+				"source":"6,7"
 			}
 		],
 		"spectra":[
@@ -3859,7 +3872,7 @@
 						"3.664157592e-16"
 					]
 				],
-				"source":"7,8"
+				"source":"9,1,0"
 			},
 			{
 				"u_time":"MJD",
@@ -7945,7 +7958,7 @@
 						"1.73160699e-17"
 					]
 				],
-				"source":"7,8"
+				"source":"9,1,0"
 			},
 			{
 				"u_time":"MJD",
@@ -12143,7 +12156,7 @@
 						"3.89985839e-18"
 					]
 				],
-				"source":"7,8"
+				"source":"9,1,0"
 			}
 		]
 	}

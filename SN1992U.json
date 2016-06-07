@@ -3,163 +3,187 @@
 		"name":"SN1992U",
 		"sources":[
 			{
+				"name":"2000A&AS..143....9W",
+				"bibcode":"2000A&AS..143....9W",
+				"alias":"1",
+				"secondary":true,
+				"reference":"Wenger et al. (2000)"
+			},
+			{
+				"name":"1992IAUC.5499....1M",
+				"bibcode":"1992IAUC.5499....1M",
+				"alias":"2",
+				"reference":"Maza et al. (1992)"
+			},
+			{
+				"name":"2008yCat....1.2024B",
+				"bibcode":"2008yCat....1.2024B",
+				"alias":"3",
+				"reference":"Barbon et al. (2008)"
+			},
+			{
 				"name":"2016AJ....151...33G",
 				"bibcode":"2016AJ....151...33G",
-				"alias":"1",
+				"alias":"4",
 				"reference":"Galbany et al. (2016)"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
 				"bibcode":"1989A&AS...81..421B",
-				"alias":"2",
+				"alias":"5",
 				"secondary":true,
 				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il",
-				"alias":"3"
+				"alias":"6"
 			},
 			{
 				"name":"IAUC 5499",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05400/05499.html",
 				"bibcode":"1992IAUC.5499....3P",
-				"alias":"4",
+				"alias":"7",
 				"reference":"Pollas (1992)"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"5",
+				"alias":"8",
 				"secondary":true
 			},
 			{
 				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"6",
+				"alias":"9",
 				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"7",
+				"alias":"10",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"8",
+				"alias":"11",
 				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1992U",
-				"source":"1,2,3,4,5,6"
+				"source":"1,4,5,6,7,8,9"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II P",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"value":"II",
-				"source":"2,3,4,5,6"
+				"source":"1,3,5,6,7,8,9"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"47.94",
-				"source":"7",
+				"source":"10",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
+				"value":"-70:41:33.3",
+				"source":"1,2",
+				"unit":"degrees"
+			},
+			{
 				"value":"-70:41:33.36",
-				"source":"1",
+				"source":"4",
 				"unit":"degrees"
 			},
 			{
 				"value":"-70:41:33.0",
-				"source":"4,5",
+				"source":"7,8",
 				"unit":"degrees"
 			},
 			{
 				"value":"-70:41:37.8",
-				"source":"6",
+				"source":"9",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1992/04/09",
-				"source":"2,3,4,5,6"
+				"source":"5,6,7,8,9"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Antezana",
-				"source":"2"
+				"source":"5"
 			},
 			{
 				"value":"Roberto Antezana",
-				"source":"4,5"
+				"source":"7,8"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0442",
 				"error":"0.0008",
-				"source":"8"
+				"source":"11"
 			}
 		],
 		"host":[
 			{
 				"value":"ESO 074-G004",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"value":"ESO 74-G4",
-				"source":"2,4,5,6"
+				"source":"5,7,8,9"
 			},
 			{
 				"value":"ESO 74-G04",
-				"source":"3"
+				"source":"6"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-70:41:46",
-				"source":"2",
+				"source":"5",
 				"unit":"degrees"
 			},
 			{
 				"value":"-70:41:46.8",
-				"source":"6",
+				"source":"9",
 				"unit":"degrees"
 			}
 		],
 		"hostra":[
 			{
 				"value":"20:40:43",
-				"source":"2",
+				"source":"5",
 				"unit":"hours"
 			},
 			{
 				"value":"20:40:41.88",
-				"source":"6",
+				"source":"9",
 				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"48.46",
-				"source":"7",
+				"source":"10",
 				"kind":"heliocentric",
 				"unit":"Mpc"
 			}
@@ -167,41 +191,46 @@
 		"maxabsmag":[
 			{
 				"value":"-13.84",
-				"source":"7"
+				"source":"10"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19.59",
-				"source":"7,1"
+				"source":"10,4"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"7,1"
+				"source":"10,4"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1992/04/15",
-				"source":"7,1"
+				"source":"10,4"
 			}
 		],
 		"ra":[
 			{
+				"value":"20:40:46.55",
+				"source":"1,2",
+				"unit":"hours"
+			},
+			{
 				"value":"20:40:46.56",
-				"source":"1",
+				"source":"4",
 				"unit":"hours"
 			},
 			{
 				"value":"20:40:46.5",
-				"source":"4,5",
+				"source":"7,8",
 				"unit":"hours"
 			},
 			{
 				"value":"20:40:45.51",
-				"source":"6",
+				"source":"9",
 				"unit":"hours"
 			}
 		],
@@ -209,14 +238,14 @@
 			{
 				"value":"0.01086",
 				"error":"3e-05",
-				"source":"1",
+				"source":"4",
 				"kind":"heliocentric"
 			}
 		],
 		"velocity":[
 			{
 				"value":"3298",
-				"source":"2",
+				"source":"5",
 				"kind":"host",
 				"unit":"km/s"
 			}
@@ -226,7 +255,7 @@
 				"time":"48720.5",
 				"u_time":"MJD",
 				"magnitude":"18.5",
-				"source":"4,5"
+				"source":"7,8"
 			},
 			{
 				"time":"48727.42",
@@ -236,7 +265,7 @@
 				"magnitude":"19.587",
 				"e_magnitude":"0.067",
 				"telescope":"CTIO-0.9m",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"time":"48727.42",
@@ -246,7 +275,7 @@
 				"magnitude":"18.485",
 				"e_magnitude":"0.017",
 				"telescope":"CTIO-0.9m",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"time":"48728.42",
@@ -256,7 +285,7 @@
 				"magnitude":"19.881",
 				"e_magnitude":"0.072",
 				"telescope":"CTIO-0.9m",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"time":"48728.42",
@@ -266,7 +295,7 @@
 				"magnitude":"18.535",
 				"e_magnitude":"0.035",
 				"telescope":"CTIO-0.9m",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"time":"48731.33",
@@ -276,7 +305,7 @@
 				"magnitude":"19.966",
 				"e_magnitude":"0.090",
 				"telescope":"CTIO-0.9m",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"time":"48731.33",
@@ -286,7 +315,7 @@
 				"magnitude":"18.711",
 				"e_magnitude":"0.030",
 				"telescope":"CTIO-0.9m",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"time":"48732.40",
@@ -296,7 +325,7 @@
 				"magnitude":"20.090",
 				"e_magnitude":"0.098",
 				"telescope":"CTIO-0.9m",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"time":"48732.40",
@@ -306,7 +335,7 @@
 				"magnitude":"18.758",
 				"e_magnitude":"0.035",
 				"telescope":"CTIO-0.9m",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"time":"48767.29",
@@ -316,7 +345,7 @@
 				"magnitude":"19.505",
 				"e_magnitude":"0.224",
 				"telescope":"CTIO-0.9m",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"time":"48776.37",
@@ -326,7 +355,7 @@
 				"magnitude":"20.577",
 				"e_magnitude":"0.048",
 				"telescope":"CTIO-0.9m",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"time":"48776.37",
@@ -336,7 +365,7 @@
 				"magnitude":"18.197",
 				"e_magnitude":"0.019",
 				"telescope":"CTIO-0.9m",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"time":"48776.37",
@@ -346,7 +375,7 @@
 				"magnitude":"19.303",
 				"e_magnitude":"0.015",
 				"telescope":"CTIO-0.9m",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"time":"48793.25",
@@ -356,7 +385,7 @@
 				"magnitude":"19.425",
 				"e_magnitude":"0.191",
 				"telescope":"CTIO-0.9m",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"time":"48843.20",
@@ -366,7 +395,7 @@
 				"magnitude":"18.788",
 				"e_magnitude":"0.060",
 				"telescope":"CTIO-0.9m",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"time":"48843.20",
@@ -376,7 +405,7 @@
 				"magnitude":"19.867",
 				"e_magnitude":"0.214",
 				"telescope":"CTIO-0.9m",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"time":"48846.09",
@@ -386,7 +415,7 @@
 				"magnitude":"18.817",
 				"e_magnitude":"0.038",
 				"telescope":"CTIO-0.9m",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"time":"48846.09",
@@ -396,7 +425,7 @@
 				"magnitude":"20.262",
 				"e_magnitude":"0.120",
 				"telescope":"CTIO-0.9m",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"time":"48847.06",
@@ -406,7 +435,7 @@
 				"magnitude":"18.780",
 				"e_magnitude":"0.043",
 				"telescope":"CTIO-0.9m",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"time":"48847.06",
@@ -416,7 +445,7 @@
 				"magnitude":"20.023",
 				"e_magnitude":"0.105",
 				"telescope":"CTIO-0.9m",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"time":"48848.31",
@@ -426,7 +455,7 @@
 				"magnitude":"21.019",
 				"e_magnitude":"0.331",
 				"telescope":"CTIO-0.9m",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"time":"48848.31",
@@ -436,7 +465,7 @@
 				"magnitude":"18.814",
 				"e_magnitude":"0.050",
 				"telescope":"CTIO-0.9m",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"time":"48848.31",
@@ -446,7 +475,7 @@
 				"magnitude":"20.233",
 				"e_magnitude":"0.119",
 				"telescope":"CTIO-0.9m",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"time":"48871.28",
@@ -456,7 +485,7 @@
 				"magnitude":"21.452",
 				"e_magnitude":"0.184",
 				"telescope":"CTIO-0.9m",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"time":"48871.28",
@@ -466,7 +495,7 @@
 				"magnitude":"18.998",
 				"e_magnitude":"0.033",
 				"telescope":"CTIO-0.9m",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"time":"48871.28",
@@ -476,7 +505,7 @@
 				"magnitude":"20.373",
 				"e_magnitude":"0.057",
 				"telescope":"CTIO-0.9m",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"time":"48872.12",
@@ -486,7 +515,7 @@
 				"magnitude":"18.977",
 				"e_magnitude":"0.133",
 				"telescope":"CTIO-0.9m",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"time":"48872.12",
@@ -496,7 +525,7 @@
 				"magnitude":"20.146",
 				"e_magnitude":"0.274",
 				"telescope":"CTIO-0.9m",
-				"source":"1"
+				"source":"4"
 			}
 		]
 	}
