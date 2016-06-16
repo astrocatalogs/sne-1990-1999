@@ -104,6 +104,12 @@
 				"alias":"15",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
+			},
+			{
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"alias":"16",
+				"reference":"Planck Collaboration et al. (2015)"
 			}
 		],
 		"alias":[
@@ -129,8 +135,9 @@
 		"comovingdist":[
 			{
 				"value":"25.65",
-				"source":"15",
-				"unit":"Mpc"
+				"source":"15,16,9",
+				"unit":"Mpc",
+				"derived":true
 			}
 		],
 		"dec":[
@@ -203,8 +210,9 @@
 		"lumdist":[
 			{
 				"value":"25.8",
-				"source":"15",
-				"unit":"Mpc"
+				"source":"15,16,9",
+				"unit":"Mpc",
+				"derived":true
 			}
 		],
 		"ra":[

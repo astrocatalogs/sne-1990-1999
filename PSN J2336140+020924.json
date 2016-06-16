@@ -22,16 +22,22 @@
 				"reference":"Schlafly & Finkbeiner (2011)"
 			},
 			{
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"alias":"4",
+				"reference":"Planck Collaboration et al. (2015)"
+			},
+			{
 				"name":"NED-D",
 				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"4",
+				"alias":"5",
 				"secondary":true
 			},
 			{
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"5",
+				"alias":"6",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			}
@@ -45,8 +51,9 @@
 		"comovingdist":[
 			{
 				"value":"28.6",
-				"source":"5",
-				"unit":"Mpc"
+				"source":"6,4,5",
+				"unit":"Mpc",
+				"derived":true
 			}
 		],
 		"dec":[
@@ -84,9 +91,10 @@
 		"lumdist":[
 			{
 				"value":"28.8",
-				"source":"5",
+				"source":"6,4,5",
 				"kind":"host",
-				"unit":"Mpc"
+				"unit":"Mpc",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -99,16 +107,18 @@
 		"redshift":[
 			{
 				"value":"0.00647",
-				"source":"4",
-				"kind":"host"
+				"source":"4,5",
+				"kind":"host",
+				"derived":true
 			}
 		],
 		"velocity":[
 			{
 				"value":"1930",
-				"source":"5",
+				"source":"6,4,5",
 				"kind":"host",
-				"unit":"km/s"
+				"unit":"km/s",
+				"derived":true
 			}
 		]
 	}

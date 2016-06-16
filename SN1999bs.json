@@ -22,9 +22,15 @@
 				"reference":"Schlafly & Finkbeiner (2011)"
 			},
 			{
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"alias":"4",
+				"reference":"Planck Collaboration et al. (2015)"
+			},
+			{
 				"name":"NED-D",
 				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"4",
+				"alias":"5",
 				"secondary":true
 			}
 		],
@@ -43,8 +49,9 @@
 		"comovingdist":[
 			{
 				"value":"23.3",
-				"source":"2",
-				"unit":"Mpc"
+				"source":"2,4,5",
+				"unit":"Mpc",
+				"derived":true
 			}
 		],
 		"dec":[
@@ -76,9 +83,10 @@
 		"lumdist":[
 			{
 				"value":"23.4",
-				"source":"2",
+				"source":"2,4,5",
 				"kind":"host",
-				"unit":"Mpc"
+				"unit":"Mpc",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -91,16 +99,18 @@
 		"redshift":[
 			{
 				"value":"0.00527",
-				"source":"4",
-				"kind":"host"
+				"source":"4,5",
+				"kind":"host",
+				"derived":true
 			}
 		],
 		"velocity":[
 			{
 				"value":"1580",
-				"source":"2",
+				"source":"2,4,5",
 				"kind":"host",
-				"unit":"km/s"
+				"unit":"km/s",
+				"derived":true
 			}
 		]
 	}
