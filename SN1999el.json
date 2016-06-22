@@ -101,7 +101,7 @@
 		"alias":[
 			{
 				"value":"SN1999el",
-				"source":"1,4,7,8,9,10,11,12"
+				"source":"1,4,7,8,10,9,11,12"
 			},
 			{
 				"value":"2MASS J20371802+6606118",
@@ -119,13 +119,13 @@
 			},
 			{
 				"value":"IIn",
-				"source":"1,3,7,8,9,10"
+				"source":"1,3,7,8,10,9"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"21",
-				"source":"13,15,11",
+				"source":"11,13,15",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -138,8 +138,8 @@
 			},
 			{
 				"value":"+66:06:11.5",
-				"source":"7,9,10,11",
-				"unit":"nospace"
+				"source":"7,10,9,11",
+				"unit":"degrees"
 			},
 			{
 				"value":"+66:06:11.48",
@@ -160,42 +160,59 @@
 			},
 			{
 				"value":"BAO",
-				"source":"9,10"
+				"source":"10,9"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.3174",
 				"error":"0.0088",
-				"source":"14"
+				"source":"13,14",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 6951",
-				"source":"7,8,9,10,11"
+				"source":"7,8,10,9,11"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+66:06:20",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+66:06:20.3",
-				"source":"11"
+				"source":"11",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"60.99",
+				"source":"1,13,2,7",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"6.18",
+				"source":"1,11,13,15,2,7"
 			}
 		],
 		"hostra":[
 			{
 				"value":"20:37:14",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"20:37:14.12",
-				"source":"11"
+				"source":"11",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -210,20 +227,22 @@
 		"maxabsmag":[
 			{
 				"value":"-16",
-				"source":"13,11",
+				"source":"11,13",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"15.64",
-				"source":"13,4,6"
+				"source":"13,4,6",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"13,4,6"
+				"source":"13,4,6",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -240,8 +259,8 @@
 			},
 			{
 				"value":"20:37:17.72",
-				"source":"7,8,9,10,11",
-				"unit":"nospace"
+				"source":"7,8,10,9,11",
+				"unit":"hours"
 			}
 		],
 		"redshift":[
@@ -425,7 +444,7 @@
 				"time":"51483.5",
 				"u_time":"MJD",
 				"magnitude":"14.5",
-				"source":"9,10"
+				"source":"10,9"
 			},
 			{
 				"time":"51483.75",

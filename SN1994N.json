@@ -104,13 +104,13 @@
 		"alias":[
 			{
 				"value":"SN1994N",
-				"source":"1,4,5,7,8,9,10,11,12"
+				"source":"1,4,5,7,8,10,9,11,12"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"1,3,4,7,8,9,10,11"
+				"source":"1,3,4,7,8,10,9,11"
 			}
 		],
 		"comovingdist":[
@@ -130,11 +130,11 @@
 			{
 				"value":"+13:01:15.24",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+13:01:00.0",
-				"source":"9,10",
+				"source":"10,9",
 				"unit":"degrees"
 			},
 			{
@@ -146,58 +146,75 @@
 		"discoverdate":[
 			{
 				"value":"1994/05/10",
-				"source":"7,8,9,10,11"
+				"source":"7,8,10,9,11"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Turatto",
-				"source":"7,9,10"
+				"source":"7,10,9"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0322",
 				"error":"0.0014",
-				"source":"14"
+				"source":"13,14",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"UGC 5695",
-				"source":"7,8,9,10,11"
+				"source":"7,8,10,9,11"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+13:01:05.52",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+13:01:04",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+13:01:05.4",
-				"source":"11"
+				"source":"11",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"7.48",
+				"source":"1,13,2,4",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"1.55",
+				"source":"1,13,15,2,4"
 			}
 		],
 		"hostra":[
 			{
 				"value":"10:29:46.8",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"10:29:47",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"10:29:46.80",
-				"source":"11"
+				"source":"11",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -219,19 +236,22 @@
 		"maxappmag":[
 			{
 				"value":"19.44",
-				"source":"13,5,6"
+				"source":"13,5,6",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"13,5,6"
+				"source":"13,5,6",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1994/05/09",
-				"source":"13,5,6"
+				"source":"13,5,6",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -243,11 +263,11 @@
 			{
 				"value":"10:29:47.04",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"10:29:47.100",
-				"source":"9,10",
+				"source":"10,9",
 				"unit":"hours"
 			},
 			{
@@ -276,7 +296,7 @@
 				"time":"49481.5",
 				"u_time":"MJD",
 				"magnitude":"17.5",
-				"source":"9,10"
+				"source":"10,9"
 			},
 			{
 				"time":"49481.98",

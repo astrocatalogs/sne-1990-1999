@@ -127,7 +127,7 @@
 		"comovingdist":[
 			{
 				"value":"75.8",
-				"source":"15,17,11",
+				"source":"11,15,17",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -141,7 +141,7 @@
 			{
 				"value":"+26:06:20.2",
 				"source":"6,8,9,10",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+26:06:19.19",
@@ -169,7 +169,8 @@
 			{
 				"value":"0.021",
 				"error":"0.0021",
-				"source":"16"
+				"source":"15,16",
+				"derived":true
 			}
 		],
 		"host":[
@@ -182,28 +183,44 @@
 			{
 				"value":"+26:05:58",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+26:05:57.4",
-				"source":"10"
+				"source":"10",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"40.11",
+				"source":"1,15,2,6,7",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"14.49",
+				"source":"1,11,15,17,2,6,7"
 			}
 		],
 		"hostra":[
 			{
 				"value":"10:29:17",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"10:29:16.82",
-				"source":"10"
+				"source":"10",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"77.1",
-				"source":"15,17,11",
+				"source":"11,15,17",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -211,26 +228,29 @@
 		"maxabsmag":[
 			{
 				"value":"-17.1",
-				"source":"15,17,11",
+				"source":"11,15,17",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.3",
-				"source":"15,4,5"
+				"source":"15,4,5",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"C",
-				"source":"15,4,5"
+				"source":"15,4,5",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2000/01/09",
-				"source":"15,4,5"
+				"source":"15,4,5",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -242,7 +262,7 @@
 			{
 				"value":"10:29:19.20",
 				"source":"6,8,9,10",
-				"unit":"nospace"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
@@ -13021,7 +13041,7 @@
 						"3.793075e-17"
 					]
 				],
-				"source":"13,12,14"
+				"source":"12,13,14"
 			}
 		]
 	}

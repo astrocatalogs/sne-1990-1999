@@ -127,24 +127,30 @@
 				"reference":"Riess, Press, & Kirshner (1996)"
 			},
 			{
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"alias":"21",
+				"reference":"Planck Collaboration et al. (2015)"
+			},
+			{
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"21",
+				"alias":"22",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"22",
+				"alias":"23",
 				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1992K",
-				"source":"1,4,7,8,9,10,11,12"
+				"source":"1,4,7,8,10,9,11,12"
 			}
 		],
 		"claimedtype":[
@@ -154,50 +160,50 @@
 			},
 			{
 				"value":"Ia Pec",
-				"source":"1,3,7,8,9,10"
+				"source":"1,3,7,8,10,9"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"42.7",
-				"source":"14,12",
+				"source":"12,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"42.9",
-				"source":"15,12",
+				"source":"12,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"43",
-				"source":"16,12",
+				"source":"12,16",
 				"unit":"Mpc"
 			},
 			{
 				"value":"47.2",
-				"source":"17,12",
+				"source":"12,17",
 				"unit":"Mpc"
 			},
 			{
 				"value":"49.2",
-				"source":"18,12",
+				"source":"12,18",
 				"unit":"Mpc"
 			},
 			{
 				"value":"50.7",
-				"source":"19,12",
+				"source":"12,19",
 				"unit":"Mpc"
 			},
 			{
 				"value":"50.8",
-				"source":"20,12",
+				"source":"12,20",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"-46:26:30.3",
-				"source":"1,2,7,9,10,11",
+				"source":"1,2,7,10,9,11",
 				"unit":"degrees"
 			},
 			{
@@ -209,7 +215,7 @@
 		"discoverdate":[
 			{
 				"value":"1992/03/03",
-				"source":"8,9,10"
+				"source":"8,10,9"
 			}
 		],
 		"discoverer":[
@@ -219,14 +225,15 @@
 			},
 			{
 				"value":"Roberto Antezana",
-				"source":"9,10"
+				"source":"10,9"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0861",
 				"error":"0.0014",
-				"source":"22"
+				"source":"22,23",
+				"derived":true
 			}
 		],
 		"host":[
@@ -236,29 +243,45 @@
 			},
 			{
 				"value":"ESO 269- G 057",
-				"source":"13,12,14,15,16,17,18,19,20"
+				"source":"12,13,14,15,16,17,18,19,20"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-46:26:10",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-46:26:13.5",
-				"source":"11"
+				"source":"11",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"20.52",
+				"source":"1,10,11,2,22,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"4.204",
+				"source":"1,10,11,12,14,15,18,19,2,22,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"13:10:04",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"13:10:04.40",
-				"source":"11"
+				"source":"11",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -273,20 +296,22 @@
 		"maxabsmag":[
 			{
 				"value":"-15",
-				"source":"21,11",
+				"source":"11,22",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.02",
-				"source":"21,4,5"
+				"source":"22,4,5",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"21,4,5"
+				"source":"22,4,5",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -298,30 +323,14 @@
 		"ra":[
 			{
 				"value":"13:10:04.20",
-				"source":"1,2,7,8,9,10,11",
+				"source":"1,2,7,8,10,9,11",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
-				"value":"0.00967",
-				"source":"14,12"
-			},
-			{
-				"value":"0.00972",
-				"source":"15,12"
-			},
-			{
-				"value":"0.0107",
-				"source":"17,12"
-			},
-			{
-				"value":"0.0111",
-				"source":"18,12"
-			},
-			{
-				"value":"0.0115",
-				"source":"19,12,20"
+				"value":"0.01036",
+				"source":"12,15,18,19"
 			}
 		],
 		"velocity":[
@@ -337,7 +346,7 @@
 				"time":"48683.5",
 				"u_time":"MJD",
 				"magnitude":"16.2",
-				"source":"9,10"
+				"source":"10,9"
 			},
 			{
 				"time":"48687.25",

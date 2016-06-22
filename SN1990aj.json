@@ -124,7 +124,7 @@
 			},
 			{
 				"value":"Ib",
-				"source":"5,6,7,8,12,11"
+				"source":"5,6,7,8,11,12"
 			},
 			{
 				"value":"Ib/c",
@@ -148,7 +148,7 @@
 			{
 				"value":"-20:25:18.0",
 				"source":"4,6,7,8",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-20:25:18.01",
@@ -159,7 +159,7 @@
 		"discoverdate":[
 			{
 				"value":"1990/12/18",
-				"source":"4,5,6,7,8,12,11"
+				"source":"4,5,6,7,8,11,12"
 			}
 		],
 		"discoverer":[
@@ -176,35 +176,52 @@
 			{
 				"value":"0.0301",
 				"error":"0.001",
-				"source":"15"
+				"source":"14,15",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 1640",
-				"source":"4,5,6,7,8,12,11"
+				"source":"4,5,6,7,8,11,12"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-20:26:07",
 				"source":"4",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-20:26:05.1",
-				"source":"8"
+				"source":"8",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"52.83",
+				"source":"1,14,2,4",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"6.018",
+				"source":"1,14,16,2,4,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"04:42:14",
 				"source":"4",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"04:42:14.56",
-				"source":"8"
+				"source":"8",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -226,13 +243,15 @@
 		"maxappmag":[
 			{
 				"value":"18",
-				"source":"14,6,7"
+				"source":"14,6,7",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1990/12/17",
-				"source":"14,6,7"
+				"source":"14,6,7",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -244,7 +263,7 @@
 			{
 				"value":"04:42:15.31",
 				"source":"4,5,6,7,8",
-				"unit":"nospace"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
@@ -42321,7 +42340,7 @@
 						"0.0142788"
 					]
 				],
-				"source":"12,11"
+				"source":"11,12"
 			},
 			{
 				"u_time":"MJD",
@@ -54907,7 +54926,7 @@
 						"0.008089175448"
 					]
 				],
-				"source":"13,11"
+				"source":"11,13"
 			}
 		]
 	}

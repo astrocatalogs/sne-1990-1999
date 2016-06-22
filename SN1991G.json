@@ -142,7 +142,7 @@
 		"comovingdist":[
 			{
 				"value":"21.8",
-				"source":"16,15",
+				"source":"15,16",
 				"unit":"Mpc"
 			}
 		],
@@ -155,7 +155,7 @@
 			{
 				"value":"+50:32:11.76",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+50:32:11.69",
@@ -183,45 +183,62 @@
 			{
 				"value":"0.0169",
 				"error":"0.0002",
-				"source":"19"
+				"source":"18,19",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 4088",
-				"source":"6,10,11,12,13,14,16,15"
+				"source":"6,10,11,12,13,14,15,16"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+50:32:20.4",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+50:32:23",
 				"source":"10",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+50:32:22.6",
-				"source":"14"
+				"source":"14",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"82.51",
+				"source":"1,10,11,12,13,14,18,2,4",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"8.698",
+				"source":"1,10,11,12,13,14,15,16,17,18,2,4"
 			}
 		],
 		"hostra":[
 			{
 				"value":"12:05:34.32",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"12:05:35",
 				"source":"10",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"12:05:33.73",
-				"source":"14"
+				"source":"14",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -236,20 +253,22 @@
 		"maxabsmag":[
 			{
 				"value":"-15",
-				"source":"18,14",
+				"source":"14,18",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"16.38",
-				"source":"18,6,5"
+				"source":"18,5,6",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"18,6,5"
+				"source":"18,5,6",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -267,13 +286,13 @@
 			{
 				"value":"12:05:28.8",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.002524",
-				"source":"17"
+				"source":"15,16,17"
 			}
 		],
 		"velocity":[
@@ -2958,7 +2977,7 @@
 						"5016.0000"
 					]
 				],
-				"source":"8,17"
+				"source":"17,8"
 			},
 			{
 				"instrument":"MMT - MMT-Red",
@@ -6062,7 +6081,7 @@
 						"3.0136797e-17"
 					]
 				],
-				"source":"8,17"
+				"source":"17,8"
 			}
 		]
 	}

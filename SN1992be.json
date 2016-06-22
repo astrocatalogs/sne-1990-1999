@@ -90,7 +90,7 @@
 			{
 				"value":"+27:47:14.4",
 				"source":"4,6,7,8",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+27:47:14.39",
@@ -118,7 +118,8 @@
 			{
 				"value":"0.1532",
 				"error":"0.0053",
-				"source":"10"
+				"source":"10,9",
+				"derived":true
 			}
 		],
 		"host":[
@@ -135,34 +136,46 @@
 			{
 				"value":"+27:47:14",
 				"source":"4",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+27:47:14.0",
-				"source":"8"
+				"source":"8",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"10.36",
+				"source":"1,2,4,5,6,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
 			}
 		],
 		"hostra":[
 			{
 				"value":"04:02:32",
 				"source":"4",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"04:02:32.00",
-				"source":"8"
+				"source":"8",
+				"unit":"hours"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17",
-				"source":"9,6,7"
+				"source":"6,7,9",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1992/09/29",
-				"source":"9,6,7"
+				"source":"6,7,9",
+				"derived":true
 			}
 		],
 		"ra":[

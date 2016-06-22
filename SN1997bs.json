@@ -90,7 +90,7 @@
 		"comovingdist":[
 			{
 				"value":"8.54",
-				"source":"8,10,1",
+				"source":"1,10,8",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -99,12 +99,12 @@
 			{
 				"value":"+12:58:19.56",
 				"source":"1",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+12:58:19.6",
 				"source":"4,6,7",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+12:58:19.60",
@@ -132,7 +132,8 @@
 			{
 				"value":"0.029",
 				"error":"0.0012",
-				"source":"9"
+				"source":"8,9",
+				"derived":true
 			}
 		],
 		"host":[
@@ -149,30 +150,44 @@
 			{
 				"value":"+12:59:29.4",
 				"source":"1",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+12:59:30",
 				"source":"4",
-				"unit":"nospace"
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"70.67",
+				"source":"1,8",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"2.92",
+				"source":"1,10,8"
 			}
 		],
 		"hostra":[
 			{
 				"value":"11:20:14.88",
 				"source":"1",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"11:20:15",
 				"source":"4",
-				"unit":"nospace"
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"8.55",
-				"source":"8,10,1",
+				"source":"1,10,8",
 				"kind":"host",
 				"unit":"Mpc",
 				"derived":true
@@ -181,38 +196,40 @@
 		"maxabsmag":[
 			{
 				"value":"-11.9",
-				"source":"8,10,1",
+				"source":"1,10,8",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.79",
-				"source":"8,2,3"
+				"source":"2,3,8",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"8,2,3"
+				"source":"2,3,8",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1997/04/16",
-				"source":"4,8,2,3"
+				"source":"4,2,3,8"
 			}
 		],
 		"ra":[
 			{
 				"value":"11:20:14.16",
 				"source":"1",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"11:20:14.25",
 				"source":"4,5,6,7",
-				"unit":"nospace"
+				"unit":"hours"
 			}
 		],
 		"redshift":[

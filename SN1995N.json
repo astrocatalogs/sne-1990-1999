@@ -80,28 +80,22 @@
 				"secondary":true
 			},
 			{
-				"name":"2015A&A...574A.112D",
-				"bibcode":"2015A&A...574A.112D",
-				"alias":"13",
-				"reference":"De Cicco et al. (2015)"
-			},
-			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"14",
+				"alias":"13",
 				"reference":"Schlafly & Finkbeiner (2011)"
 			},
 			{
 				"name":"2015arXiv150201589P",
 				"bibcode":"2015arXiv150201589P",
-				"alias":"15",
+				"alias":"14",
 				"reference":"Planck Collaboration et al. (2015)"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1995N",
-				"source":"2,5,7,8,9,10,11,12"
+				"source":"2,5,7,8,10,9,11,12"
 			},
 			{
 				"value":"2MASS J14492829-1010140",
@@ -123,13 +117,13 @@
 			},
 			{
 				"value":"IIn",
-				"source":"2,4,7,8,9,10"
+				"source":"2,4,7,8,10,9"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"27",
-				"source":"1,15,11",
+				"source":"1,11,14",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -142,24 +136,19 @@
 			},
 			{
 				"value":"-10:10:15.4",
-				"source":"7,9,10,11",
-				"unit":"nospace"
+				"source":"7,10,9,11",
+				"unit":"degrees"
 			},
 			{
 				"value":"-10:10:15.38",
 				"source":"8",
-				"unit":"degrees"
-			},
-			{
-				"value":"+01:42:56.3",
-				"source":"2,13",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1995/05/05",
-				"source":"7,8,9,10,11"
+				"source":"7,8,10,9,11"
 			}
 		],
 		"discoverer":[
@@ -169,14 +158,15 @@
 			},
 			{
 				"value":"Christian Pollas",
-				"source":"9,10"
+				"source":"10,9"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0991",
 				"error":"0.0017",
-				"source":"14"
+				"source":"1,13",
+				"derived":true
 			}
 		],
 		"errors":[
@@ -189,7 +179,7 @@
 		"host":[
 			{
 				"value":"MCG -02-38-17",
-				"source":"7,8,9,10"
+				"source":"7,8,10,9"
 			},
 			{
 				"value":"MCG -02-38-016",
@@ -200,28 +190,44 @@
 			{
 				"value":"-10:10:31",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-10:10:31.0",
-				"source":"11"
+				"source":"11",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"44.06",
+				"source":"1,2,3,7",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"5.732",
+				"source":"1,11,14,2,3,7"
 			}
 		],
 		"hostra":[
 			{
 				"value":"14:49:31",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"14:49:31.00",
-				"source":"11"
+				"source":"11",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"28",
-				"source":"1,15,11",
+				"source":"1,11,14",
 				"kind":"host",
 				"unit":"Mpc",
 				"derived":true
@@ -230,20 +236,22 @@
 		"maxabsmag":[
 			{
 				"value":"-15",
-				"source":"1,15,11",
+				"source":"1,11,14",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.5",
-				"source":"1,9,10"
+				"source":"1,10,9",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1995/05/04",
-				"source":"1,9,10"
+				"source":"1,10,9",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -254,12 +262,7 @@
 			},
 			{
 				"value":"14:49:28.27",
-				"source":"7,8,9,10,11",
-				"unit":"nospace"
-			},
-			{
-				"value":"09:59:07.10",
-				"source":"2,13",
+				"source":"7,8,10,9,11",
 				"unit":"hours"
 			}
 		],
@@ -283,7 +286,7 @@
 				"time":"49841.5",
 				"u_time":"MJD",
 				"magnitude":"17.5",
-				"source":"9,10"
+				"source":"10,9"
 			}
 		],
 		"spectra":[

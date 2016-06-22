@@ -140,7 +140,7 @@
 		"comovingdist":[
 			{
 				"value":"50.38",
-				"source":"16,18,13",
+				"source":"13,16,18",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -177,7 +177,8 @@
 			{
 				"value":"0.0172",
 				"error":"0.0001",
-				"source":"17"
+				"source":"16,17",
+				"derived":true
 			}
 		],
 		"host":[
@@ -190,22 +191,38 @@
 			{
 				"value":"-36:50:37",
 				"source":"8",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-36:50:37.3",
-				"source":"12"
+				"source":"12",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"30.86",
+				"source":"1,10,11,12,16,2,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"7.452",
+				"source":"1,10,11,12,13,16,18,2,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"22:16:09",
 				"source":"8",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"22:16:09.16",
-				"source":"12"
+				"source":"12",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -220,20 +237,22 @@
 		"maxabsmag":[
 			{
 				"value":"-16",
-				"source":"16,12",
+				"source":"12,16",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.33",
-				"source":"16,5,4"
+				"source":"16,4,5",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"16,5,4"
+				"source":"16,4,5",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -15203,7 +15222,7 @@
 						"-3.247044687e-16"
 					]
 				],
-				"source":"5,14"
+				"source":"14,5"
 			},
 			{
 				"u_time":"MJD",
@@ -73773,7 +73792,7 @@
 						"0"
 					]
 				],
-				"source":"5,14"
+				"source":"14,5"
 			},
 			{
 				"u_time":"MJD",
@@ -138796,7 +138815,7 @@
 						"0"
 					]
 				],
-				"source":"5,14"
+				"source":"14,5"
 			},
 			{
 				"u_time":"MJD",
@@ -149270,7 +149289,7 @@
 						"3.943707052e-16"
 					]
 				],
-				"source":"5,14"
+				"source":"14,5"
 			},
 			{
 				"u_time":"MJD",
@@ -171813,7 +171832,7 @@
 						"2.188108978e-16"
 					]
 				],
-				"source":"5,14"
+				"source":"14,5"
 			},
 			{
 				"u_time":"MJD",
@@ -224155,7 +224174,7 @@
 						"0"
 					]
 				],
-				"source":"5,14"
+				"source":"14,5"
 			},
 			{
 				"u_time":"MJD",

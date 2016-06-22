@@ -124,13 +124,13 @@
 			},
 			{
 				"value":"Ib/c?",
-				"source":"12,11"
+				"source":"11,12"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"131.84",
-				"source":"14,16,10",
+				"source":"10,14,16",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -144,12 +144,12 @@
 			{
 				"value":"+39:17:32.64",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+39:17:32.44",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+39:17:32.60",
@@ -170,7 +170,7 @@
 		"discoverdate":[
 			{
 				"value":"1991/02/24",
-				"source":"5,6,7,8,9,12,11"
+				"source":"5,6,7,8,9,11,12"
 			}
 		],
 		"discoverer":[
@@ -187,13 +187,14 @@
 			{
 				"value":"0.0118",
 				"error":"0.0005",
-				"source":"15"
+				"source":"14,15",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"MCG +07-34-134",
-				"source":"5,6,7,8,12,11"
+				"source":"5,6,7,8,11,12"
 			},
 			{
 				"value":"PGC 58760",
@@ -204,38 +205,54 @@
 			{
 				"value":"+39:17:24.36",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+39:17:26",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+39:17:24.5",
-				"source":"9"
+				"source":"9",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"7.885",
+				"source":"1,14,2,4",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"4.893",
+				"source":"1,10,14,16,2,4"
 			}
 		],
 		"hostra":[
 			{
 				"value":"16:41:15.12",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"16:41:15",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"16:41:15.30",
-				"source":"9"
+				"source":"9",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"135.8",
-				"source":"14,16,10",
+				"source":"10,14,16",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -243,20 +260,22 @@
 		"maxabsmag":[
 			{
 				"value":"-17.665",
-				"source":"14,16,10",
+				"source":"10,14,16",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18",
-				"source":"14,7,8"
+				"source":"14,7,8",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1991/02/23",
-				"source":"14,7,8"
+				"source":"14,7,8",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -268,12 +287,12 @@
 			{
 				"value":"16:41:15.12",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"16:41:14.96",
 				"source":"5,9",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"16:41:15.03",
@@ -6561,7 +6580,7 @@
 						"0.0424320"
 					]
 				],
-				"source":"12,11"
+				"source":"11,12"
 			},
 			{
 				"u_time":"MJD",
@@ -19051,7 +19070,7 @@
 						"0.0415084511"
 					]
 				],
-				"source":"13,11"
+				"source":"11,13"
 			}
 		]
 	}

@@ -101,7 +101,7 @@
 		"alias":[
 			{
 				"value":"SN1999gb",
-				"source":"1,4,5,7,8,9,10,11,12"
+				"source":"1,4,5,7,8,10,9,11,12"
 			},
 			{
 				"value":"AAVSO 0803+34",
@@ -115,7 +115,7 @@
 			},
 			{
 				"value":"IIn",
-				"source":"1,3,4,7,8,9,10"
+				"source":"1,3,4,7,8,10,9"
 			}
 		],
 		"comovingdist":[
@@ -129,13 +129,13 @@
 		"dec":[
 			{
 				"value":"+33:57:29.8",
-				"source":"1,2,7,9,10,11",
+				"source":"1,2,7,10,9,11",
 				"unit":"degrees"
 			},
 			{
 				"value":"+33:57:29.88",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+33:57:29.81",
@@ -146,58 +146,75 @@
 		"discoverdate":[
 			{
 				"value":"1999/11/22",
-				"source":"7,8,9,10,11"
+				"source":"7,8,10,9,11"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"LOSS",
-				"source":"7,9,10"
+				"source":"7,10,9"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0462",
 				"error":"0.0003",
-				"source":"14"
+				"source":"13,14",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 2532",
-				"source":"7,8,9,10,11"
+				"source":"7,8,10,9,11"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+33:57:23.76",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+33:57:27",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+33:57:23.6",
-				"source":"11"
+				"source":"11",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"22.14",
+				"source":"1,10,11,13,2,4,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"8.142",
+				"source":"1,10,11,13,15,2,4,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"08:10:15.12",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"08:10:15",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"08:10:15.16",
-				"source":"11"
+				"source":"11",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -219,31 +236,34 @@
 		"maxappmag":[
 			{
 				"value":"15.8",
-				"source":"13,5,6"
+				"source":"13,5,6",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
-				"source":"13,5,6"
+				"source":"13,5,6",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1999/12/21",
-				"source":"13,5,6"
+				"source":"13,5,6",
+				"derived":true
 			}
 		],
 		"ra":[
 			{
 				"value":"08:10:13.70",
-				"source":"1,2,7,8,9,10,11",
+				"source":"1,2,7,8,10,9,11",
 				"unit":"hours"
 			},
 			{
 				"value":"08:10:13.68",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
@@ -385,7 +405,7 @@
 				"time":"51534.5",
 				"u_time":"MJD",
 				"magnitude":"15.9",
-				"source":"9,10"
+				"source":"10,9"
 			},
 			{
 				"time":"51543.21",

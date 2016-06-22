@@ -23,72 +23,72 @@
 				"reference":"Barbon et al. (2008)"
 			},
 			{
+				"name":"2004ApJ...607..665R",
+				"bibcode":"2004ApJ...607..665R",
+				"alias":"4",
+				"reference":"Riess et al. (2004)"
+			},
+			{
 				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
 				"bibcode":"1989A&AS...81..421B",
-				"alias":"4",
+				"alias":"5",
 				"secondary":true,
 				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il",
-				"alias":"5"
+				"alias":"6"
 			},
 			{
 				"name":"IAUC 6267",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06200/06267.html",
 				"bibcode":"1995IAUC.6267....2E",
-				"alias":"6",
+				"alias":"7",
 				"reference":"Eikenberry & Fazio (1995)"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"7",
+				"alias":"8",
 				"secondary":true
 			},
 			{
 				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"8",
+				"alias":"9",
 				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
 				"name":"NED-D",
 				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"9",
+				"alias":"10",
 				"secondary":true
 			},
 			{
 				"name":"2010arXiv1006.2112L",
 				"bibcode":"2010arXiv1006.2112L",
-				"alias":"10",
+				"alias":"11",
 				"reference":"Lorenzi (2010)"
 			},
 			{
 				"name":"2008ApJ...686..749K",
 				"bibcode":"2008ApJ...686..749K",
-				"alias":"11",
+				"alias":"12",
 				"reference":"Kowalski et al. (2008)"
 			},
 			{
 				"name":"2009ApJ...700.1097H",
 				"bibcode":"2009ApJ...700.1097H",
-				"alias":"12",
+				"alias":"13",
 				"reference":"Hicken et al. (2009)"
 			},
 			{
 				"name":"1998AJ....116.1009R",
 				"bibcode":"1998AJ....116.1009R",
-				"alias":"13",
-				"reference":"Riess et al. (1998)"
-			},
-			{
-				"name":"2004ApJ...607..665R",
-				"bibcode":"2004ApJ...607..665R",
 				"alias":"14",
-				"reference":"Riess et al. (2004)"
+				"reference":"Riess et al. (1998)"
 			},
 			{
 				"name":"WISeREP",
@@ -130,165 +130,175 @@
 		"alias":[
 			{
 				"value":"SN1995ap",
-				"source":"1,4,5,6,7,8,9,15,16"
+				"source":"1,4,5,6,7,8,9,10,15,16"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,3,4,5,6,7,8,15,16,13"
+				"source":"1,3,5,6,7,8,9,15,14,16"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"787",
-				"source":"10,9",
+				"source":"10,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"824",
-				"source":"11,9",
+				"source":"10,12",
 				"unit":"Mpc"
 			},
 			{
 				"value":"881",
-				"source":"12,9",
+				"source":"10,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"895",
-				"source":"13,9",
+				"source":"10,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"942",
-				"source":"14,9",
+				"source":"10,4",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"+00:41:43.4",
-				"source":"1,2,4,6,7,8",
+				"source":"1,2,5,7,8,9",
 				"unit":"degrees"
 			},
 			{
 				"value":"+00:41:43.40",
-				"source":"5",
+				"source":"6",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1995/11/18",
-				"source":"4,5,6,7,8,16,13"
+				"source":"5,6,7,8,9,14,16"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Kirshner et al.",
-				"source":"4"
+				"source":"5"
 			},
 			{
 				"value":"High-Z Supernova Search Team",
-				"source":"6,7"
+				"source":"7,8"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0798",
 				"error":"0.004",
-				"source":"18"
+				"source":"17,18",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"A031228+0041",
-				"source":"4"
+				"source":"5"
 			},
 			{
 				"value":"[K95] J031228.13+004143.4",
-				"source":"10,9,11,12,13,14,16"
+				"source":"10,11,12,13,14,4,16"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+00:41:43",
-				"source":"4",
-				"unit":"nospace"
+				"source":"5",
+				"unit":"degrees"
 			},
 			{
 				"value":"+00:41:43.0",
-				"source":"8"
+				"source":"9",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"1.991",
+				"source":"1,17,2,5,6,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"6.176",
+				"source":"1,10,11,17,2,4,5,6,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"03:12:28",
-				"source":"4",
-				"unit":"nospace"
+				"source":"5",
+				"unit":"hours"
 			},
 			{
 				"value":"03:12:28.00",
-				"source":"8"
+				"source":"9",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
-				"value":"933",
-				"source":"17,19,10,9",
+				"value":"1200",
+				"source":"17,19,4",
+				"kind":"spectroscopic",
 				"unit":"Mpc",
 				"derived":true
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-18.3",
-				"source":"17,19,10,9",
+				"value":"-19",
+				"source":"17,19,4",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"21.5",
-				"source":"17,6,7"
+				"source":"17,7,8",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1995/11/17",
-				"source":"17,6,7"
+				"source":"17,7,8",
+				"derived":true
 			}
 		],
 		"ra":[
 			{
 				"value":"03:12:28.13",
-				"source":"1,2,4,5,6,7,8",
+				"source":"1,2,5,6,7,8,9",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
-				"value":"0.186",
-				"source":"10,9"
-			},
-			{
-				"value":"0.195",
-				"source":"11,9"
-			},
-			{
-				"value":"0.213",
-				"source":"13,9"
-			},
-			{
-				"value":"0.225",
-				"source":"14,9"
+				"value":"0.23",
+				"source":"4",
+				"kind":"spectroscopic"
 			}
 		],
 		"velocity":[
 			{
-				"value":"50700",
-				"source":"17,10,9",
+				"value":"61000",
+				"source":"17,4",
+				"kind":"spectroscopic",
 				"unit":"km/s",
 				"derived":true
 			}
@@ -298,7 +308,7 @@
 				"time":"50038.5",
 				"u_time":"MJD",
 				"magnitude":"21.5",
-				"source":"6,7"
+				"source":"7,8"
 			}
 		],
 		"spectra":[
@@ -8447,7 +8457,7 @@
 						"-0.0195812"
 					]
 				],
-				"source":"16,13"
+				"source":"14,16"
 			}
 		]
 	}

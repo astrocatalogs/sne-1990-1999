@@ -96,7 +96,7 @@
 		"alias":[
 			{
 				"value":"SN1992ar",
-				"source":"1,5,6,7,8,9,10,11"
+				"source":"1,5,6,7,8,10,9,11"
 			}
 		],
 		"claimedtype":[
@@ -122,18 +122,18 @@
 			{
 				"value":"-44:38:53.81",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-44:39:00.0",
-				"source":"9,10",
+				"source":"10,9",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1992/07/27",
-				"source":"7,8,9,10"
+				"source":"7,8,10,9"
 			}
 		],
 		"discoverer":[
@@ -143,14 +143,15 @@
 			},
 			{
 				"value":"Roberto Antezana",
-				"source":"9,10"
+				"source":"10,9"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0118",
 				"error":"0.0007",
-				"source":"13"
+				"source":"12,13",
+				"derived":true
 			}
 		],
 		"host":[
@@ -163,22 +164,38 @@
 			{
 				"value":"-44:38:53",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-44:38:53.0",
-				"source":"11"
+				"source":"11",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"6.053",
+				"source":"1,11,12,2,7",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"15.89",
+				"source":"1,11,12,14,2,7"
 			}
 		],
 		"hostra":[
 			{
 				"value":"23:17:28",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"23:17:28.00",
-				"source":"11"
+				"source":"11",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -200,19 +217,22 @@
 		"maxappmag":[
 			{
 				"value":"21.05",
-				"source":"12,5,4"
+				"source":"12,4,5",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"12,5,4"
+				"source":"12,4,5",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1992/08/02",
-				"source":"12,5,4"
+				"source":"12,4,5",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -223,7 +243,7 @@
 			},
 			{
 				"value":"23:17:30.00",
-				"source":"9,10",
+				"source":"10,9",
 				"unit":"hours"
 			}
 		],
@@ -248,7 +268,7 @@
 				"time":"48829.5",
 				"u_time":"MJD",
 				"magnitude":"19.0",
-				"source":"9,10"
+				"source":"10,9"
 			},
 			{
 				"time":"48835.43",

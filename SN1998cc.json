@@ -95,7 +95,7 @@
 		"alias":[
 			{
 				"value":"SN1998cc",
-				"source":"2,5,7,8,9,10,11,12"
+				"source":"2,5,7,8,10,9,11,12"
 			}
 		],
 		"claimedtype":[
@@ -107,7 +107,7 @@
 		"comovingdist":[
 			{
 				"value":"60",
-				"source":"1,14,9,10",
+				"source":"1,10,14,9",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -115,7 +115,7 @@
 		"dec":[
 			{
 				"value":"+17:02:42.4",
-				"source":"2,3,7,9,10,11",
+				"source":"2,3,7,10,9,11",
 				"unit":"degrees"
 			},
 			{
@@ -127,20 +127,21 @@
 		"discoverdate":[
 			{
 				"value":"1998/05/15",
-				"source":"7,8,9,10,11"
+				"source":"7,8,10,9,11"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"LOSS",
-				"source":"7,9,10"
+				"source":"7,10,9"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0167",
 				"error":"0.0004",
-				"source":"13"
+				"source":"1,13",
+				"derived":true
 			}
 		],
 		"errors":[
@@ -173,29 +174,45 @@
 		"host":[
 			{
 				"value":"NGC 5172",
-				"source":"7,8,9,10,11"
+				"source":"7,8,10,9,11"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+17:03:06",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+17:03:06.3",
-				"source":"11"
+				"source":"11",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"24.05",
+				"source":"1,10,11,2,3,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"6.902",
+				"source":"1,10,11,14,2,3,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"13:29:19",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"13:29:19.15",
-				"source":"11"
+				"source":"11",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -217,32 +234,35 @@
 		"maxappmag":[
 			{
 				"value":"15.3",
-				"source":"1,5,6"
+				"source":"1,5,6",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"C",
-				"source":"1,5,6"
+				"source":"1,5,6",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1998/05/27",
-				"source":"1,5,6"
+				"source":"1,5,6",
+				"derived":true
 			}
 		],
 		"ra":[
 			{
 				"value":"13:29:19.31",
-				"source":"2,3,7,8,9,10,11",
+				"source":"2,3,7,8,10,9,11",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0136",
-				"source":"9,10"
+				"source":"10,9"
 			}
 		],
 		"velocity":[
@@ -279,7 +299,7 @@
 				"time":"50959.5",
 				"u_time":"MJD",
 				"magnitude":"15.3",
-				"source":"9,10"
+				"source":"10,9"
 			},
 			{
 				"time":"50960.14",

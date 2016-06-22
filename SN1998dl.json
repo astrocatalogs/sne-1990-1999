@@ -101,13 +101,13 @@
 		"alias":[
 			{
 				"value":"SN1998dl",
-				"source":"1,4,5,7,8,9,10,11,12"
+				"source":"1,4,5,7,8,10,9,11,12"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"4,8,9,10,11"
+				"source":"4,8,10,9,11"
 			},
 			{
 				"value":"II P",
@@ -131,11 +131,11 @@
 			{
 				"value":"-07:34:24.96",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"-07:34:25.10",
-				"source":"8,9,10",
+				"source":"8,10,9",
 				"unit":"degrees"
 			}
 		],
@@ -148,52 +148,69 @@
 		"discoverer":[
 			{
 				"value":"LOSS",
-				"source":"7,9,10"
+				"source":"7,10,9"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0229",
 				"error":"0.0002",
-				"source":"14"
+				"source":"13,14",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 1084",
-				"source":"7,8,9,10,11"
+				"source":"7,8,10,9,11"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-07:34:42.6",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"-07:34:42",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-07:34:43.0",
-				"source":"11"
+				"source":"11",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"29.29",
+				"source":"1,11,13,2,4,7,8",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"2.729",
+				"source":"1,11,13,15,2,4,7,8"
 			}
 		],
 		"hostra":[
 			{
 				"value":"02:45:59.904",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"02:46:00",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"02:45:59.93",
-				"source":"11"
+				"source":"11",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -208,26 +225,29 @@
 		"maxabsmag":[
 			{
 				"value":"-15.2",
-				"source":"13,11",
+				"source":"11,13",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"15.9",
-				"source":"13,5,6"
+				"source":"13,5,6",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"C",
-				"source":"13,5,6"
+				"source":"13,5,6",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1998/08/09",
-				"source":"13,5,6"
+				"source":"13,5,6",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -239,11 +259,11 @@
 			{
 				"value":"02:46:01.464",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"02:46:01.477",
-				"source":"9,10",
+				"source":"10,9",
 				"unit":"hours"
 			}
 		],

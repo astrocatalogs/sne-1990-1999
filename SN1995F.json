@@ -131,7 +131,7 @@
 		"alias":[
 			{
 				"value":"SN1995F",
-				"source":"1,4,7,8,9,10,11,12,14,15,16"
+				"source":"1,4,7,8,10,9,11,12,14,15,16"
 			},
 			{
 				"value":"AAVSO 0857+60B",
@@ -145,17 +145,17 @@
 			},
 			{
 				"value":"Ic",
-				"source":"8,9,10,11,12"
+				"source":"8,10,9,11,12"
 			},
 			{
 				"value":"Ib/c",
-				"source":"11,15,13"
+				"source":"11,13,15"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"22.3",
-				"source":"17,19,12",
+				"source":"12,17,19",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -163,7 +163,7 @@
 		"dec":[
 			{
 				"value":"+59:55:58.7",
-				"source":"1,2,7,9,10,11",
+				"source":"1,2,7,10,9,11",
 				"unit":"degrees"
 			},
 			{
@@ -181,42 +181,59 @@
 		"discoverer":[
 			{
 				"value":"Lane, Gray",
-				"source":"7,9,10"
+				"source":"7,10,9"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0311",
 				"error":"0.0003",
-				"source":"18"
+				"source":"17,18",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 2726",
-				"source":"7,8,9,10,11,15,13"
+				"source":"7,8,10,9,11,13,15"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+59:55:58",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+59:55:59.3",
-				"source":"11"
+				"source":"11",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"6.041",
+				"source":"1,10,11,17,2,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"0.6498",
+				"source":"1,10,11,12,17,19,2,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"09:04:57",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"09:04:56.46",
-				"source":"11"
+				"source":"11",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -231,32 +248,35 @@
 		"maxabsmag":[
 			{
 				"value":"-17",
-				"source":"17,11",
+				"source":"11,17",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"14.7",
-				"source":"17,4,5"
+				"source":"17,4,5",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"V",
-				"source":"17,4,5"
+				"source":"17,4,5",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1995/02/14",
-				"source":"17,4,5"
+				"source":"17,4,5",
+				"derived":true
 			}
 		],
 		"ra":[
 			{
 				"value":"09:04:57.40",
-				"source":"1,2,7,8,9,10,11",
+				"source":"1,2,7,8,10,9,11",
 				"unit":"hours"
 			}
 		],
@@ -279,7 +299,7 @@
 				"time":"49757.5",
 				"u_time":"MJD",
 				"magnitude":"14.7",
-				"source":"9,10"
+				"source":"10,9"
 			},
 			{
 				"time":"49762.04",
@@ -25794,7 +25814,7 @@
 						"0.451779"
 					]
 				],
-				"source":"15,13"
+				"source":"13,15"
 			},
 			{
 				"u_time":"MJD",
@@ -58724,7 +58744,7 @@
 						"0.4578360021"
 					]
 				],
-				"source":"16,13"
+				"source":"13,16"
 			},
 			{
 				"deredshifted":false,
@@ -105367,7 +105387,7 @@
 						"0.378340"
 					]
 				],
-				"source":"15,13"
+				"source":"13,15"
 			},
 			{
 				"u_time":"MJD",
@@ -137297,7 +137317,7 @@
 						"0.3709565103"
 					]
 				],
-				"source":"16,13"
+				"source":"13,16"
 			},
 			{
 				"deredshifted":false,
@@ -162381,7 +162401,7 @@
 						"0.0549353"
 					]
 				],
-				"source":"15,13"
+				"source":"13,15"
 			},
 			{
 				"u_time":"MJD",
@@ -191911,7 +191931,7 @@
 						"0.0549457483"
 					]
 				],
-				"source":"16,13"
+				"source":"13,16"
 			},
 			{
 				"deredshifted":false,
@@ -206590,7 +206610,7 @@
 						"-0.172770"
 					]
 				],
-				"source":"15,13"
+				"source":"13,15"
 			},
 			{
 				"u_time":"MJD",
@@ -235920,7 +235940,7 @@
 						"-0.2227520049"
 					]
 				],
-				"source":"16,13"
+				"source":"13,16"
 			}
 		]
 	}

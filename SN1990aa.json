@@ -114,7 +114,7 @@
 		"claimedtype":[
 			{
 				"value":"Ic",
-				"source":"1,3,4,5,6,7,8,11,10"
+				"source":"1,3,4,5,6,7,8,10,11"
 			},
 			{
 				"value":"Ib/c",
@@ -149,7 +149,7 @@
 		"discoverdate":[
 			{
 				"value":"1990/09/04",
-				"source":"4,5,6,7,8,11,10"
+				"source":"4,5,6,7,8,10,11"
 			}
 		],
 		"discoverer":[
@@ -166,7 +166,8 @@
 			{
 				"value":"0.0459",
 				"error":"0.0006",
-				"source":"14"
+				"source":"13,14",
+				"derived":true
 			}
 		],
 		"host":[
@@ -176,29 +177,45 @@
 			},
 			{
 				"value":"UGC 540",
-				"source":"5,6,7,8,11,10"
+				"source":"5,6,7,8,10,11"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+29:01:57",
 				"source":"4",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+29:01:56.3",
-				"source":"8"
+				"source":"8",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"78.75",
+				"source":"1,13,2,4",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"28.16",
+				"source":"1,13,15,2,4,8"
 			}
 		],
 		"hostra":[
 			{
 				"value":"00:52:58",
 				"source":"4",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"00:52:58.31",
-				"source":"8"
+				"source":"8",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -220,13 +237,15 @@
 		"maxappmag":[
 			{
 				"value":"17",
-				"source":"13,6,7"
+				"source":"13,6,7",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1990/09/03",
-				"source":"13,6,7"
+				"source":"13,6,7",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -12187,7 +12206,7 @@
 						"0.179659"
 					]
 				],
-				"source":"11,10"
+				"source":"10,11"
 			},
 			{
 				"u_time":"MJD",
@@ -35989,7 +36008,7 @@
 						"0.1853605062"
 					]
 				],
-				"source":"12,10"
+				"source":"10,12"
 			},
 			{
 				"deredshifted":false,
@@ -42248,7 +42267,7 @@
 						"0.203120"
 					]
 				],
-				"source":"11,10"
+				"source":"10,11"
 			},
 			{
 				"u_time":"MJD",
@@ -54738,7 +54757,7 @@
 						"0.2029625028"
 					]
 				],
-				"source":"12,10"
+				"source":"10,12"
 			},
 			{
 				"u_time":"MJD",
@@ -80668,7 +80687,7 @@
 						"0.1394660026"
 					]
 				],
-				"source":"12,10"
+				"source":"10,12"
 			},
 			{
 				"deredshifted":false,
@@ -92487,7 +92506,7 @@
 						"0.0322440"
 					]
 				],
-				"source":"11,10"
+				"source":"10,11"
 			},
 			{
 				"u_time":"MJD",
@@ -116089,7 +116108,7 @@
 						"0.008576899767"
 					]
 				],
-				"source":"12,10"
+				"source":"10,12"
 			}
 		]
 	}

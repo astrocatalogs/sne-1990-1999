@@ -79,10 +79,16 @@
 				"reference":"Pejcha & Prieto (2015)"
 			},
 			{
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"alias":"13",
+				"reference":"Planck Collaboration et al. (2015)"
+			},
+			{
 				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
 				"bibcode":"2012PASP..124..668Y",
-				"alias":"13",
+				"alias":"14",
 				"secondary":true,
 				"reference":"Yaron & Gal-Yam (2012)"
 			},
@@ -90,33 +96,33 @@
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"14",
+				"alias":"15",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"15",
+				"alias":"16",
 				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1995ad",
-				"source":"1,4,6,7,8,9,10,11,13"
+				"source":"1,4,6,7,8,9,10,11,14"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"1,3,6,7,8,9,10,13"
+				"source":"1,3,6,7,8,9,10,14"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"26.4",
-				"source":"12,11",
+				"source":"11,12",
 				"unit":"Mpc"
 			}
 		],
@@ -129,7 +135,7 @@
 			{
 				"value":"-23:40:29.1",
 				"source":"6,10",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-23:40:28.99",
@@ -157,35 +163,52 @@
 			{
 				"value":"0.0292",
 				"error":"0.0004",
-				"source":"15"
+				"source":"15,16",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 2139",
-				"source":"6,7,8,9,10,12,11"
+				"source":"6,7,8,9,10,11,12"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-23:40:21",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-23:40:20.7",
-				"source":"10"
+				"source":"10",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"29.17",
+				"source":"1,15,2,6,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"3.711",
+				"source":"1,11,12,13,15,2,6,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"06:01:08",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"06:01:08.01",
-				"source":"10"
+				"source":"10",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -200,26 +223,29 @@
 		"maxabsmag":[
 			{
 				"value":"-17",
-				"source":"14,10",
+				"source":"10,15",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"14.77",
-				"source":"14,4,5"
+				"source":"15,4,5",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"14,4,5"
+				"source":"15,4,5",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1995/09/29",
-				"source":"14,4,5"
+				"source":"15,4,5",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -231,13 +257,13 @@
 			{
 				"value":"06:01:06.11",
 				"source":"6,10",
-				"unit":"nospace"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.00597",
-				"source":"12,11"
+				"source":"11,12,13"
 			}
 		],
 		"velocity":[
@@ -8815,7 +8841,7 @@
 						"2.061036E-15"
 					]
 				],
-				"source":"5,13"
+				"source":"14,5"
 			},
 			{
 				"instrument":"ESO-3.6m - EFOSC2-3.6",
@@ -12724,7 +12750,7 @@
 						"1.066155"
 					]
 				],
-				"source":"5,13"
+				"source":"14,5"
 			},
 			{
 				"instrument":"ESO-3.6m - EFOSC2-3.6",
@@ -14753,7 +14779,7 @@
 						"1.472308E-15"
 					]
 				],
-				"source":"5,13"
+				"source":"14,5"
 			},
 			{
 				"instrument":"FLWO 1.5m - FAST",
@@ -22898,7 +22924,7 @@
 						"9.431465E-16"
 					]
 				],
-				"source":"5,13"
+				"source":"14,5"
 			},
 			{
 				"instrument":"FLWO 1.5m - FAST",
@@ -31043,7 +31069,7 @@
 						"3.185296E-16"
 					]
 				],
-				"source":"5,13"
+				"source":"14,5"
 			},
 			{
 				"instrument":"ESO-NTT - EFOSC2-NTT",
@@ -38164,7 +38190,7 @@
 						"2.134096E-16"
 					]
 				],
-				"source":"5,13"
+				"source":"14,5"
 			},
 			{
 				"instrument":"ESO-3.6m - EFOSC2-3.6",
@@ -42093,7 +42119,7 @@
 						"5.895287E-18"
 					]
 				],
-				"source":"5,13"
+				"source":"14,5"
 			},
 			{
 				"instrument":"FLWO 1.5m - FAST",
@@ -50374,7 +50400,7 @@
 						"-1.417238E-16"
 					]
 				],
-				"source":"5,13"
+				"source":"14,5"
 			},
 			{
 				"instrument":"ESO-NTT - EFOSC2-NTT",
@@ -53071,7 +53097,7 @@
 						"4.669757E-17"
 					]
 				],
-				"source":"5,13"
+				"source":"14,5"
 			},
 			{
 				"instrument":"FLWO 1.5m - FAST",
@@ -60996,7 +61022,7 @@
 						"-1.764487E-16"
 					]
 				],
-				"source":"5,13"
+				"source":"14,5"
 			},
 			{
 				"instrument":"ESO-3.6m - EFOSC2-3.6",
@@ -62985,7 +63011,7 @@
 						"3.239086E-18"
 					]
 				],
-				"source":"5,13"
+				"source":"14,5"
 			}
 		]
 	}

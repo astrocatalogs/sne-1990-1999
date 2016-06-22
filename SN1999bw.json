@@ -95,7 +95,7 @@
 		"alias":[
 			{
 				"value":"SN1999bw",
-				"source":"1,4,5,7,8,9,10,11"
+				"source":"1,4,5,7,8,10,9,11"
 			},
 			{
 				"value":"EQ J101948.8+453135",
@@ -117,7 +117,7 @@
 			},
 			{
 				"value":"IIn/LBV",
-				"source":"9,10"
+				"source":"10,9"
 			},
 			{
 				"value":"IIn",
@@ -135,13 +135,13 @@
 		"dec":[
 			{
 				"value":"+45:31:35.0",
-				"source":"1,2,7,9,10",
+				"source":"1,2,7,10,9",
 				"unit":"degrees"
 			},
 			{
 				"value":"+45:31:35.04",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+45:31:35.00",
@@ -158,44 +158,59 @@
 		"discoverer":[
 			{
 				"value":"LOSS",
-				"source":"7,9,10"
+				"source":"7,10,9"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0107",
 				"error":"0.0003",
-				"source":"13"
+				"source":"12,13",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 3198",
-				"source":"7,8,9,10"
+				"source":"7,8,10,9"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+45:32:59.28",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+45:32:59",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"148.5",
+				"source":"1,10,12,2,4,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"7.054",
+				"source":"1,10,12,14,2,4,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"10:19:54.96",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"10:19:55",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -217,31 +232,34 @@
 		"maxappmag":[
 			{
 				"value":"17.28",
-				"source":"12,5,6"
+				"source":"12,5,6",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"C",
-				"source":"12,5,6"
+				"source":"12,5,6",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1999/05/10",
-				"source":"12,5,6"
+				"source":"12,5,6",
+				"derived":true
 			}
 		],
 		"ra":[
 			{
 				"value":"10:19:46.81",
-				"source":"1,2,7,8,9,10",
+				"source":"1,2,7,8,10,9",
 				"unit":"hours"
 			},
 			{
 				"value":"10:19:46.8",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			}
 		],
 		"redshift":[

@@ -124,11 +124,11 @@
 		"alias":[
 			{
 				"value":"SN1997cy",
-				"source":"1,4,5,6,7,8,9,10,11,12,14,15"
+				"source":"1,4,5,6,7,8,10,9,11,12,14,15"
 			},
 			{
-				"value":"GRB 970514",
-				"source":"9,10"
+				"value":"GRB 970514A",
+				"source":"10,9"
 			}
 		],
 		"claimedtype":[
@@ -138,7 +138,7 @@
 			},
 			{
 				"value":"II",
-				"source":"8,9,10,11"
+				"source":"8,10,9,11"
 			},
 			{
 				"value":"II Pec",
@@ -148,7 +148,7 @@
 		"comovingdist":[
 			{
 				"value":"280",
-				"source":"16,18,9,10",
+				"source":"10,16,18,9",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -156,7 +156,7 @@
 		"dec":[
 			{
 				"value":"-61:42:57.5",
-				"source":"1,2,4,7,9,10,11",
+				"source":"1,2,4,7,10,9,11",
 				"unit":"degrees"
 			},
 			{
@@ -168,7 +168,7 @@
 		"discoverdate":[
 			{
 				"value":"1997/07/16",
-				"source":"4,7,8,9,10,11"
+				"source":"4,7,8,10,9,11"
 			}
 		],
 		"discoverer":[
@@ -178,14 +178,15 @@
 			},
 			{
 				"value":"Mount Stromlo",
-				"source":"9,10"
+				"source":"10,9"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0186",
 				"error":"0.0006",
-				"source":"17"
+				"source":"16,17",
+				"derived":true
 			}
 		],
 		"host":[
@@ -203,28 +204,44 @@
 			{
 				"value":"-61:42:57",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-61:42:57.0",
-				"source":"11"
+				"source":"11",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"12.91",
+				"source":"1,10,11,16,2,4,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"16.47",
+				"source":"1,10,11,16,18,2,4,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"04:32:54",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"04:32:54.00",
-				"source":"11"
+				"source":"11",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"298",
-				"source":"16,18,9,10",
+				"source":"10,16,18,9",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -232,32 +249,35 @@
 		"maxabsmag":[
 			{
 				"value":"-19.4",
-				"source":"16,18,9,10",
+				"source":"10,16,18,9",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.01",
-				"source":"16,6,5"
+				"source":"16,5,6",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"16,6,5"
+				"source":"16,5,6",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1997/08/10",
-				"source":"16,6,5"
+				"source":"16,5,6",
+				"derived":true
 			}
 		],
 		"ra":[
 			{
 				"value":"04:32:54.86",
-				"source":"1,2,7,8,9,10,11",
+				"source":"1,2,7,8,10,9,11",
 				"unit":"hours"
 			},
 			{
@@ -269,7 +289,7 @@
 		"redshift":[
 			{
 				"value":"0.0642",
-				"source":"9,10"
+				"source":"10,9"
 			}
 		],
 		"velocity":[
@@ -16120,7 +16140,7 @@
 						"1.469533342e-16"
 					]
 				],
-				"source":"14,13"
+				"source":"13,14"
 			},
 			{
 				"u_time":"MJD",
@@ -27866,7 +27886,7 @@
 						"1.719213112e-16"
 					]
 				],
-				"source":"14,13"
+				"source":"13,14"
 			},
 			{
 				"u_time":"MJD",
@@ -43368,7 +43388,7 @@
 						"0"
 					]
 				],
-				"source":"14,13"
+				"source":"13,14"
 			},
 			{
 				"u_time":"MJD",
@@ -50926,7 +50946,7 @@
 						"1.873671125e-17"
 					]
 				],
-				"source":"14,13"
+				"source":"13,14"
 			},
 			{
 				"u_time":"MJD",
@@ -58120,7 +58140,7 @@
 						"1.495363546e-17"
 					]
 				],
-				"source":"14,13"
+				"source":"13,14"
 			},
 			{
 				"u_time":"MJD",
@@ -66258,7 +66278,7 @@
 						"7.725737881e-17"
 					]
 				],
-				"source":"14,13"
+				"source":"13,14"
 			},
 			{
 				"u_time":"MJD",
@@ -74508,7 +74528,7 @@
 						"-3.26510289e-19"
 					]
 				],
-				"source":"14,13"
+				"source":"13,14"
 			},
 			{
 				"u_time":"MJD",
@@ -82162,7 +82182,7 @@
 						"7.830927131e-18"
 					]
 				],
-				"source":"14,13"
+				"source":"13,14"
 			},
 			{
 				"u_time":"MJD",
@@ -86096,7 +86116,7 @@
 						"3.776065021e-18"
 					]
 				],
-				"source":"14,13"
+				"source":"13,14"
 			}
 		]
 	}

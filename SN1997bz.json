@@ -147,7 +147,7 @@
 			{
 				"value":"+01:11:21.48",
 				"source":"5",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+01:11:21.52",
@@ -175,7 +175,8 @@
 			{
 				"value":"0.0329",
 				"error":"0.0006",
-				"source":"16"
+				"source":"15,16",
+				"derived":true
 			}
 		],
 		"host":[
@@ -197,32 +198,48 @@
 			{
 				"value":"+01:11:22.2",
 				"source":"5",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+01:11:21",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+01:11:21.0",
-				"source":"10"
+				"source":"10",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"0.7159",
+				"source":"1,10,15,2,4,5,6,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"0.4415",
+				"source":"1,10,15,17,2,4,5,6,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"11:22:25.44",
 				"source":"5",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"11:22:25",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"11:22:25.00",
-				"source":"10"
+				"source":"10",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -244,19 +261,22 @@
 		"maxappmag":[
 			{
 				"value":"19.53",
-				"source":"15,4"
+				"source":"15,4",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"V",
-				"source":"15,4"
+				"source":"15,4",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1997/05/06",
-				"source":"15,4"
+				"source":"15,4",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -273,7 +293,7 @@
 			{
 				"value":"11:22:25.44",
 				"source":"5",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
@@ -13604,7 +13624,7 @@
 						"2.5149514e-17"
 					]
 				],
-				"source":"13,12,14"
+				"source":"12,13,14"
 			},
 			{
 				"deredshifted":false,
@@ -25205,7 +25225,7 @@
 						"-2.8216024e-17"
 					]
 				],
-				"source":"13,12,14"
+				"source":"12,13,14"
 			}
 		]
 	}

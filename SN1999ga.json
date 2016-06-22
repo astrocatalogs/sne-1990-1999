@@ -122,7 +122,7 @@
 		"comovingdist":[
 			{
 				"value":"21.6",
-				"source":"13,15,11",
+				"source":"11,13,15",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -164,7 +164,8 @@
 			{
 				"value":"0.1734",
 				"error":"0.0023",
-				"source":"14"
+				"source":"13,14",
+				"derived":true
 			}
 		],
 		"host":[
@@ -177,22 +178,38 @@
 			{
 				"value":"-69:31:50",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-69:31:50.6",
-				"source":"10"
+				"source":"10",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"142.9",
+				"source":"1,10,13,2,6,7",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"14.89",
+				"source":"1,10,11,13,15,2,6,7"
 			}
 		],
 		"hostra":[
 			{
 				"value":"07:36:24",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"07:36:23.84",
-				"source":"10"
+				"source":"10",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -207,26 +224,29 @@
 		"maxabsmag":[
 			{
 				"value":"-16",
-				"source":"13,10",
+				"source":"10,13",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"15.6",
-				"source":"13,4,5"
+				"source":"13,4,5",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"C",
-				"source":"13,4,5"
+				"source":"13,4,5",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1999/11/24",
-				"source":"13,4,5"
+				"source":"13,4,5",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -7701,7 +7721,7 @@
 						"0."
 					]
 				],
-				"source":"12,11"
+				"source":"11,12"
 			},
 			{
 				"instrument":"Danish-1.54m - DFOSC",
@@ -16788,7 +16808,7 @@
 						"2.809333E-17"
 					]
 				],
-				"source":"12,11"
+				"source":"11,12"
 			},
 			{
 				"instrument":"ESO-3.6m - EFOSC2-3.6",
@@ -20867,7 +20887,7 @@
 						"2.509808E-17"
 					]
 				],
-				"source":"12,11"
+				"source":"11,12"
 			},
 			{
 				"instrument":"ESO-3.6m - EFOSC2-3.6",
@@ -24926,7 +24946,7 @@
 						"6.756939E-19"
 					]
 				],
-				"source":"12,11"
+				"source":"11,12"
 			}
 		]
 	}

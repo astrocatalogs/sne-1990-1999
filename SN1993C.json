@@ -104,7 +104,7 @@
 		"comovingdist":[
 			{
 				"value":"56.22",
-				"source":"11,13,4,10",
+				"source":"10,11,13,4",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -118,7 +118,7 @@
 			{
 				"value":"+14:56:11.24",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+14:56:11.51",
@@ -151,7 +151,8 @@
 			{
 				"value":"0.031",
 				"error":"0.0009",
-				"source":"12"
+				"source":"11,12",
+				"derived":true
 			}
 		],
 		"host":[
@@ -164,28 +165,44 @@
 			{
 				"value":"+14:55:20",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+14:55:21.7",
-				"source":"9"
+				"source":"9",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"54.32",
+				"source":"1,11,2,5,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"14.62",
+				"source":"1,10,11,13,2,4,5,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"09:40:25",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"09:40:24.06",
-				"source":"9"
+				"source":"9",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"56.93",
-				"source":"11,13,4,10",
+				"source":"10,11,13,4",
 				"kind":"heliocentric",
 				"unit":"Mpc",
 				"derived":true
@@ -194,20 +211,22 @@
 		"maxabsmag":[
 			{
 				"value":"-15.78",
-				"source":"11,13,4,10",
+				"source":"10,11,13,4",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18",
-				"source":"11,7,8"
+				"source":"11,7,8",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1993/01/26",
-				"source":"11,7,8"
+				"source":"11,7,8",
+				"derived":true
 			}
 		],
 		"ra":[

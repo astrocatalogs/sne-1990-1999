@@ -102,7 +102,7 @@
 		"alias":[
 			{
 				"value":"SN1998en",
-				"source":"1,4,5,7,8,9,10,11,12"
+				"source":"1,4,5,7,8,10,9,11,12"
 			}
 		],
 		"claimedtype":[
@@ -118,7 +118,7 @@
 		"comovingdist":[
 			{
 				"value":"93.8",
-				"source":"13,15,4,12",
+				"source":"12,13,15,4",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -126,7 +126,7 @@
 		"dec":[
 			{
 				"value":"+50:40:30.0",
-				"source":"1,2,7,9,10,11",
+				"source":"1,2,7,10,9,11",
 				"unit":"degrees"
 			},
 			{
@@ -138,54 +138,71 @@
 		"discoverdate":[
 			{
 				"value":"1998/10/30",
-				"source":"7,8,9,10,11,4"
+				"source":"7,8,10,9,11,4"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"LOSS",
-				"source":"7,9,10"
+				"source":"7,10,9"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.06",
 				"error":"0.0009",
-				"source":"14"
+				"source":"13,14",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"UGC 3645",
-				"source":"4,7,8,9,10,11"
+				"source":"4,7,8,10,9,11"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+50:40:50",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+50:40:49.1",
-				"source":"11"
+				"source":"11",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"24.56",
+				"source":"1,10,11,13,2,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"10.94",
+				"source":"1,10,11,12,13,15,2,4,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"07:04:01",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"07:04:01.08",
-				"source":"11"
+				"source":"11",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"95.8",
-				"source":"13,15,4,12",
+				"source":"12,13,15,4",
 				"kind":"heliocentric",
 				"unit":"Mpc",
 				"derived":true
@@ -194,26 +211,28 @@
 		"maxabsmag":[
 			{
 				"value":"-16.5",
-				"source":"13,15,4,12",
+				"source":"12,13,15,4",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.4",
-				"source":"13,9,10"
+				"source":"10,13,9",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1998/10/29",
-				"source":"13,9,10"
+				"source":"10,13,9",
+				"derived":true
 			}
 		],
 		"ra":[
 			{
 				"value":"07:04:00.05",
-				"source":"1,2,7,8,9,10,11",
+				"source":"1,2,7,8,10,9,11",
 				"unit":"hours"
 			}
 		],
@@ -237,7 +256,7 @@
 				"time":"51115.5",
 				"u_time":"MJD",
 				"magnitude":"18.4",
-				"source":"9,10"
+				"source":"10,9"
 			},
 			{
 				"time":"51141.13",
