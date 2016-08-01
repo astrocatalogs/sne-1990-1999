@@ -66,12 +66,20 @@
 				"alias":"10"
 			},
 			{
+				"name":"WISeREP",
+				"bibcode":"2012PASP..124..668Y",
+				"reference":"Yaron & Gal-Yam (2012)",
+				"secondary":true,
+				"url":"http://wiserep.weizmann.ac.il/",
+				"alias":"11"
+			},
+			{
 				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
 				"bibcode":"2012MNRAS.425.1789S",
 				"reference":"Silverman et al. (2012)",
 				"secondary":true,
 				"url":"http://heracles.astro.berkeley.edu/sndb/info",
-				"alias":"11"
+				"alias":"12"
 			},
 			{
 				"name":"SUSPECT",
@@ -79,7 +87,7 @@
 				"reference":"Richardson et al. (2001)",
 				"secondary":true,
 				"url":"https://www.nhn.ou.edu/~suspect/",
-				"alias":"12"
+				"alias":"13"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -87,7 +95,7 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"13"
+				"alias":"14"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
@@ -95,19 +103,19 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)",
 				"secondary":true,
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"14"
+				"alias":"15"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1990aa",
-				"source":"2,7,8,9,11,12,13,14"
+				"source":"2,7,8,9,11,12,13,14,15"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ic",
-				"source":"2,4,5,7,8,9,11,13,14"
+				"source":"2,4,5,7,8,9,12,14,15"
 			},
 			{
 				"value":"Ib/c",
@@ -126,7 +134,7 @@
 			{
 				"value":"+29:01.1",
 				"u_value":"degrees",
-				"source":"6,13"
+				"source":"6,14"
 			},
 			{
 				"value":"+29:01:09.0",
@@ -142,13 +150,13 @@
 		"discoverdate":[
 			{
 				"value":"1990/09/04",
-				"source":"2,5,7,8,9,11,14"
+				"source":"2,5,7,8,9,12,15"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Berkeley Automated SNe Search",
-				"source":"14"
+				"source":"15"
 			},
 			{
 				"value":"Saul Perlmutter",
@@ -166,18 +174,18 @@
 		"host":[
 			{
 				"value":"MCG +05-03-16",
-				"source":"14"
+				"source":"15"
 			},
 			{
 				"value":"UGC 540",
-				"source":"2,5,7,8,9,11"
+				"source":"2,5,7,8,9,12"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+29:01:57",
 				"u_value":"degrees",
-				"source":"14"
+				"source":"15"
 			},
 			{
 				"value":"+29:01:56.3",
@@ -190,20 +198,20 @@
 				"value":"78.75",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"6,10,13,14"
+				"source":"6,10,14,15"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"28.16",
-				"source":"1,2,6,10,13,14"
+				"source":"1,2,6,10,14,15"
 			}
 		],
 		"hostra":[
 			{
 				"value":"00:52:58",
 				"u_value":"hours",
-				"source":"14"
+				"source":"15"
 			},
 			{
 				"value":"00:52:58.31",
@@ -245,7 +253,7 @@
 			{
 				"value":"00:52:54",
 				"u_value":"hours",
-				"source":"6,13"
+				"source":"6,14"
 			},
 			{
 				"value":"00:52:54.9",
@@ -270,7 +278,7 @@
 				"value":"4973",
 				"kind":"host",
 				"u_value":"km/s",
-				"source":"14"
+				"source":"15"
 			}
 		],
 		"photometry":[
@@ -12199,7 +12207,7 @@
 						"0.179659"
 					]
 				],
-				"source":"5,11"
+				"source":"5,12"
 			},
 			{
 				"time":"48161",
@@ -36002,7 +36010,7 @@
 						"0.1853605062"
 					]
 				],
-				"source":"5,12"
+				"source":"5,13"
 			},
 			{
 				"time":"48184",
@@ -42261,7 +42269,7 @@
 						"0.203120"
 					]
 				],
-				"source":"5,11"
+				"source":"5,12"
 			},
 			{
 				"time":"48184",
@@ -54752,7 +54760,7 @@
 						"0.2029625028"
 					]
 				],
-				"source":"5,12"
+				"source":"5,13"
 			},
 			{
 				"time":"48223",
@@ -80683,7 +80691,7 @@
 						"0.1394660026"
 					]
 				],
-				"source":"5,12"
+				"source":"5,13"
 			},
 			{
 				"time":"48279",
@@ -92502,7 +92510,7 @@
 						"0.0322440"
 					]
 				],
-				"source":"5,11"
+				"source":"5,12"
 			},
 			{
 				"time":"48279",
@@ -116105,7 +116113,7 @@
 						"0.008576899767"
 					]
 				],
-				"source":"5,12"
+				"source":"5,13"
 			}
 		]
 	}
