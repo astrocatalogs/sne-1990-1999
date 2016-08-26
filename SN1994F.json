@@ -97,7 +97,7 @@
 		"alias":[
 			{
 				"value":"SN1994F",
-				"source":"2,8,9,10,11,13,14"
+				"source":"2,7,8,9,10,11,13,14"
 			}
 		],
 		"claimedtype":[
@@ -218,23 +218,30 @@
 		],
 		"maxabsmag":[
 			{
-				"value":"-19.4",
+				"value":"-19.3",
 				"derived":true,
 				"source":"1,12,14"
 			}
 		],
 		"maxappmag":[
 			{
-				"value":"22",
+				"value":"22.13",
 				"derived":true,
-				"source":"8,10,12"
+				"source":"7,12"
+			}
+		],
+		"maxband":[
+			{
+				"value":"R",
+				"derived":true,
+				"source":"7,12"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"1994/01/08",
+				"value":"1994/01/13",
 				"derived":true,
-				"source":"8,10,12"
+				"source":"7,12"
 			}
 		],
 		"ra":[
@@ -270,10 +277,82 @@
 		],
 		"photometry":[
 			{
+				"time":"48735.45",
+				"band":"R",
+				"magnitude":"23.44",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"7"
+			},
+			{
 				"time":"49360.5",
 				"magnitude":"22.0",
 				"u_time":"MJD",
 				"source":"8,10"
+			},
+			{
+				"time":"49361.78",
+				"band":"R",
+				"e_magnitude":"0.262",
+				"magnitude":"22.4",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"source":"7"
+			},
+			{
+				"time":"49365.67",
+				"band":"R",
+				"e_magnitude":"0.08212",
+				"magnitude":"22.13",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"source":"7"
+			},
+			{
+				"time":"49386.8",
+				"band":"R",
+				"e_magnitude":"0.1015",
+				"magnitude":"23.27",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"source":"7"
+			},
+			{
+				"time":"49396.95",
+				"band":"R",
+				"e_magnitude":"0.3023",
+				"magnitude":"24.3",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"source":"7"
+			},
+			{
+				"time":"49399.79",
+				"band":"R",
+				"e_magnitude":"0.229",
+				"magnitude":"24.1",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"source":"7"
+			},
+			{
+				"time":"49809.55",
+				"band":"R",
+				"magnitude":"24.23",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"7"
+			},
+			{
+				"time":"50138.68",
+				"band":"R",
+				"magnitude":"23.81",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"7"
 			}
 		]
 	}

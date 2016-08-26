@@ -115,7 +115,7 @@
 		"alias":[
 			{
 				"value":"SN1997am",
-				"source":"2,9,11,12,13,14,16,17"
+				"source":"2,8,9,11,12,13,14,16,17"
 			}
 		],
 		"claimedtype":[
@@ -246,23 +246,30 @@
 		],
 		"maxabsmag":[
 			{
-				"value":"-19",
+				"value":"-19.9",
 				"derived":true,
 				"source":"1,9,15"
 			}
 		],
 		"maxappmag":[
 			{
-				"value":"22.9",
+				"value":"21.99",
 				"derived":true,
-				"source":"11,13,15"
+				"source":"8,15"
+			}
+		],
+		"maxband":[
+			{
+				"value":"R",
+				"derived":true,
+				"source":"8,15"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"1997/03/04",
+				"value":"1997/03/06",
 				"derived":true,
-				"source":"11,13,15"
+				"source":"8,15"
 			}
 		],
 		"ra":[
@@ -298,10 +305,226 @@
 		],
 		"photometry":[
 			{
+				"time":"50490.79",
+				"band":"R",
+				"e_magnitude":"0.04853",
+				"magnitude":"22.89",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"source":"8"
+			},
+			{
+				"time":"50490.82",
+				"band":"I",
+				"magnitude":"23.86",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"8"
+			},
+			{
 				"time":"50511.5",
 				"magnitude":"22.9",
 				"u_time":"MJD",
 				"source":"11,13"
+			},
+			{
+				"time":"50513.73",
+				"band":"R",
+				"e_magnitude":"0.037351",
+				"magnitude":"21.99",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"source":"8"
+			},
+			{
+				"time":"50513.77",
+				"band":"I",
+				"e_magnitude":"0.2189",
+				"magnitude":"22.57",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"source":"8"
+			},
+			{
+				"time":"50514.72",
+				"band":"R",
+				"e_magnitude":"0.066917",
+				"magnitude":"22.135",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"source":"8"
+			},
+			{
+				"time":"50514.76",
+				"band":"I",
+				"e_magnitude":"0.122",
+				"magnitude":"22.7",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"source":"8"
+			},
+			{
+				"time":"50517.75",
+				"band":"R",
+				"e_magnitude":"0.052234",
+				"magnitude":"22.135",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"source":"8"
+			},
+			{
+				"time":"50518.76",
+				"band":"I",
+				"e_magnitude":"0.251",
+				"magnitude":"22.8",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"source":"8"
+			},
+			{
+				"time":"50518.81",
+				"band":"R",
+				"e_magnitude":"0.055357",
+				"magnitude":"22.215",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"source":"8"
+			},
+			{
+				"time":"50519.62",
+				"band":"R",
+				"e_magnitude":"0.049787",
+				"magnitude":"22.215",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"source":"8"
+			},
+			{
+				"time":"50520.6",
+				"band":"I",
+				"e_magnitude":"0.3",
+				"magnitude":"24",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"source":"8"
+			},
+			{
+				"time":"50521.86",
+				"band":"R",
+				"e_magnitude":"0.054852",
+				"magnitude":"22.397",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"source":"8"
+			},
+			{
+				"time":"50521.87",
+				"band":"I",
+				"e_magnitude":"0.726",
+				"magnitude":"24.2",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"source":"8"
+			},
+			{
+				"time":"50545.71",
+				"band":"I",
+				"magnitude":"23.52",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"8"
+			},
+			{
+				"time":"50545.73",
+				"band":"R",
+				"e_magnitude":"0.1651",
+				"magnitude":"23.88",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"source":"8"
+			},
+			{
+				"time":"50550.47",
+				"band":"R",
+				"e_magnitude":"0.111",
+				"magnitude":"23.96",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"source":"8"
+			},
+			{
+				"time":"50573.51",
+				"band":"R",
+				"e_magnitude":"0.6024",
+				"magnitude":"24.8",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"source":"8"
+			},
+			{
+				"time":"50573.53",
+				"band":"I",
+				"magnitude":"22.86",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"8"
+			},
+			{
+				"time":"50574.6",
+				"band":"I",
+				"magnitude":"23.81",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"8"
+			},
+			{
+				"time":"50574.64",
+				"band":"R",
+				"e_magnitude":"0.242",
+				"magnitude":"24.8",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"source":"8"
+			},
+			{
+				"time":"50872.55",
+				"band":"R",
+				"e_magnitude":"0.7526",
+				"magnitude":"25.52",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"source":"8"
+			},
+			{
+				"time":"50895.63",
+				"band":"R",
+				"magnitude":"24.67",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"8"
+			},
+			{
+				"time":"50900.7",
+				"band":"R",
+				"magnitude":"24.78",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"8"
+			},
+			{
+				"time":"50904.61",
+				"band":"R",
+				"magnitude":"25.5",
+				"survey":"SCP",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"8"
 			}
 		]
 	}
