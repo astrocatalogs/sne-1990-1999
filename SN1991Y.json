@@ -1,50 +1,43 @@
 {
 	"SN1991Y":{
-		"schema":"https://github.com/astrocatalogs/astrocats/blob/aaf96e3b3fbcf703610b756295a7120ec1ecc3f7/OSC-JSON-format.md",
+		"schema":"https://github.com/astrocatalogs/supernovae/blob//SCHEMA.md",
 		"name":"SN1991Y",
 		"sources":[
-			{
-				"name":"2013Ap.....56..153A",
-				"bibcode":"2013Ap.....56..153A",
-				"reference":"Aramyan et al. (2013)",
-				"url":"http://adsabs.harvard.edu/abs/2013Ap.....56..153A",
-				"alias":"8"
-			},
 			{
 				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
 				"reference":"Lennarz, Altmann, & Wiebusch (2012)",
-				"alias":"2"
+				"alias":"1"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
 				"reference":"Schlafly & Finkbeiner (2011)",
-				"alias":"3"
+				"alias":"2"
 			},
 			{
 				"name":"1991IAUC.5259....1M",
 				"bibcode":"1991IAUC.5259....1M",
 				"reference":"Mueller et al. (1991)",
-				"alias":"4"
+				"alias":"3"
 			},
 			{
 				"name":"IAUC 5259",
 				"bibcode":"1991IAUC.5259....3P",
 				"reference":"Pearce et al. (1991)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05200/05259.html",
-				"alias":"5"
+				"alias":"4"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il/",
-				"alias":"6"
+				"alias":"5"
 			},
 			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"7"
+				"alias":"6"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -52,7 +45,7 @@
 				"reference":"Guillochon, Parrent, & Margutti (2016)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"8"
+				"alias":"7"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -60,7 +53,7 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"9"
+				"alias":"8"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
@@ -68,52 +61,52 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)",
 				"secondary":true,
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"10"
+				"alias":"9"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1991Y",
-				"source":"2,5,6,7,8,9,10"
+				"source":"1,4,5,6,7,8,9"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia?",
-				"source":"8"
+				"source":"7"
 			}
 		],
 		"dec":[
 			{
 				"value":"+57:18.8",
 				"u_value":"degrees",
-				"source":"4,9"
+				"source":"3,8"
 			},
 			{
 				"value":"+57:18:48.0",
 				"u_value":"degrees",
-				"source":"5,7"
+				"source":"4,6"
 			},
 			{
 				"value":"+57:19:07.0",
 				"u_value":"degrees",
-				"source":"2"
+				"source":"1"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1991/04/17",
-				"source":"2,5,6,7,10"
+				"source":"1,4,5,6,9"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Mueller",
-				"source":"10"
+				"source":"9"
 			},
 			{
 				"value":"Jean Mueller",
-				"source":"5,7"
+				"source":"4,6"
 			}
 		],
 		"ebv":[
@@ -121,25 +114,25 @@
 				"value":"0.0262",
 				"derived":true,
 				"e_value":"0.0009",
-				"source":"3,8"
+				"source":"2,7"
 			}
 		],
 		"host":[
 			{
 				"value":"A171436+5719",
-				"source":"10"
+				"source":"9"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+57:19",
 				"u_value":"degrees",
-				"source":"10"
+				"source":"9"
 			},
 			{
 				"value":"+57:19:00.0",
 				"u_value":"degrees",
-				"source":"2"
+				"source":"1"
 			}
 		],
 		"hostoffsetang":[
@@ -147,50 +140,50 @@
 				"value":"46.57",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"4,8,9,10"
+				"source":"3,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"17:14:36",
 				"u_value":"hours",
-				"source":"10"
+				"source":"9"
 			},
 			{
 				"value":"17:14:36.00",
 				"u_value":"hours",
-				"source":"2"
+				"source":"1"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19",
 				"derived":true,
-				"source":"5,7,8"
+				"source":"4,6,7"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1991/04/16",
 				"derived":true,
-				"source":"5,7,8"
+				"source":"4,6,7"
 			}
 		],
 		"ra":[
 			{
 				"value":"17:14:33",
 				"u_value":"hours",
-				"source":"4,9"
+				"source":"3,8"
 			},
 			{
 				"value":"17:14:33.6",
 				"u_value":"hours",
-				"source":"5,7"
+				"source":"4,6"
 			},
 			{
 				"value":"17:14:36.00",
 				"u_value":"hours",
-				"source":"2"
+				"source":"1"
 			}
 		],
 		"photometry":[
@@ -198,7 +191,7 @@
 				"time":"48362.5",
 				"magnitude":"19.0",
 				"u_time":"MJD",
-				"source":"5,7"
+				"source":"4,6"
 			}
 		]
 	}
