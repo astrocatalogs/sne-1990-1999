@@ -22,40 +22,34 @@
 				"alias":"3"
 			},
 			{
-				"name":"2008yCat....1.2024B",
-				"bibcode":"2008yCat....1.2024B",
-				"reference":"Barbon et al. (2008)",
-				"alias":"4"
-			},
-			{
 				"name":"2003ApJ...594....1T",
 				"bibcode":"2003ApJ...594....1T",
 				"reference":"Tonry et al. (2003)",
-				"alias":"5"
+				"alias":"4"
 			},
 			{
 				"name":"IAUC 7346",
 				"bibcode":"2000IAUC.7346....2C",
 				"reference":"Cappellaro et al. (2000)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07300/0712.html#Item1",
-				"alias":"6"
+				"alias":"5"
 			},
 			{
 				"name":"1999IAUC.7312Q...1T",
 				"bibcode":"1999IAUC.7312Q...1T",
 				"reference":"Tonry et al. (1999)",
-				"alias":"7"
+				"alias":"6"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il/",
-				"alias":"8"
+				"alias":"7"
 			},
 			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"9"
+				"alias":"8"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -63,7 +57,7 @@
 				"reference":"Guillochon, Parrent, & Margutti (2016)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"10"
+				"alias":"9"
 			},
 			{
 				"name":"WISeREP",
@@ -71,7 +65,7 @@
 				"reference":"Yaron & Gal-Yam (2012)",
 				"secondary":true,
 				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"11"
+				"alias":"10"
 			},
 			{
 				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
@@ -79,7 +73,7 @@
 				"reference":"Silverman et al. (2012)",
 				"secondary":true,
 				"url":"http://heracles.astro.berkeley.edu/sndb/info",
-				"alias":"12"
+				"alias":"11"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -87,7 +81,7 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"13"
+				"alias":"12"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
@@ -95,23 +89,19 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)",
 				"secondary":true,
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"14"
+				"alias":"13"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1999fp",
-				"source":"2,6,8,9,11,12,13,14"
+				"source":"2,5,7,8,10,11,12,13"
 			}
 		],
 		"claimedtype":[
 			{
-				"value":"II",
-				"source":"2,4,8,13,14"
-			},
-			{
 				"value":"II?",
-				"source":"5,6,9,12"
+				"source":"4,11"
 			}
 		],
 		"comovingdist":[
@@ -119,35 +109,35 @@
 				"value":"1400",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,10,14"
+				"source":"1,2,9,13"
 			}
 		],
 		"dec":[
 			{
 				"value":"+04:21:46.4",
 				"u_value":"degrees",
-				"source":"2,6,7,9,13,14"
+				"source":"2,5,6,8,12,13"
 			},
 			{
 				"value":"+04:21:46.40",
 				"u_value":"degrees",
-				"source":"8"
+				"source":"7"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1999/11/03",
-				"source":"2,5,6,8,9,12,14"
+				"source":"2,4,5,7,8,11,13"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"HZSST",
-				"source":"14"
+				"source":"13"
 			},
 			{
 				"value":"High Z Supernova Search",
-				"source":"6,9"
+				"source":"5,8"
 			}
 		],
 		"ebv":[
@@ -155,24 +145,24 @@
 				"value":"0.2072",
 				"derived":true,
 				"e_value":"0.0082",
-				"source":"3,10"
+				"source":"3,9"
 			}
 		],
 		"host":[
 			{
 				"value":"A041502+0421",
-				"source":"14"
+				"source":"13"
 			},
 			{
 				"value":"H-ZSNS J041502.59+042146.4",
-				"source":"5,12"
+				"source":"4,11"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+04:21:46",
 				"u_value":"degrees",
-				"source":"14"
+				"source":"13"
 			},
 			{
 				"value":"+04:21:46.0",
@@ -185,20 +175,20 @@
 				"value":"8.859",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"2,6,7,8,9,10,13,14"
+				"source":"2,5,6,7,8,9,12,13"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"44.87",
-				"source":"1,2,6,7,8,9,10,13,14"
+				"source":"1,2,5,6,7,8,9,12,13"
 			}
 		],
 		"hostra":[
 			{
 				"value":"04:15:02",
 				"u_value":"hours",
-				"source":"14"
+				"source":"13"
 			},
 			{
 				"value":"04:15:02.00",
@@ -208,58 +198,56 @@
 		],
 		"lumdist":[
 			{
-				"value":"1900",
+				"value":"1850",
 				"derived":true,
-				"kind":"host",
 				"u_value":"Mpc",
-				"source":"1,2,10,14"
+				"source":"1,2,9,13"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-17",
+				"value":"-17.2",
 				"derived":true,
-				"source":"1,2,10,14"
+				"source":"1,2,9,13"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"24.1",
 				"derived":true,
-				"source":"6,9,10"
+				"source":"5,8,9"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1999/11/02",
 				"derived":true,
-				"source":"6,9,10"
+				"source":"5,8,9"
 			}
 		],
 		"ra":[
 			{
 				"value":"04:15:02.59",
 				"u_value":"hours",
-				"source":"2,6,7,8,9,13,14"
+				"source":"2,5,6,7,8,12,13"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.34",
 				"kind":"host",
-				"source":"2,14"
+				"source":"2,13"
 			},
 			{
 				"value":"0.34",
-				"source":"6,9"
+				"source":"5,8"
 			}
 		],
 		"velocity":[
 			{
 				"value":"85000",
-				"kind":"host",
 				"u_value":"km/s",
-				"source":"10"
+				"source":"9"
 			}
 		],
 		"photometry":[
@@ -267,7 +255,7 @@
 				"time":"51484.5",
 				"magnitude":"24.1",
 				"u_time":"MJD",
-				"source":"6,9"
+				"source":"5,8"
 			}
 		],
 		"spectra":[
@@ -4608,7 +4596,7 @@
 						"-0.00899618"
 					]
 				],
-				"source":"5,12"
+				"source":"4,11"
 			}
 		]
 	}

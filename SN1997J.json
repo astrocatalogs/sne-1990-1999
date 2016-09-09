@@ -22,40 +22,34 @@
 				"alias":"3"
 			},
 			{
-				"name":"2008yCat....1.2024B",
-				"bibcode":"2008yCat....1.2024B",
-				"reference":"Barbon et al. (2008)",
-				"alias":"4"
-			},
-			{
 				"name":"2008ApJ...686..749K",
 				"bibcode":"2008ApJ...686..749K",
 				"reference":"Kowalski et al. (2008)",
-				"alias":"5"
+				"alias":"4"
 			},
 			{
 				"name":"1997IAUC.6540Q...1S",
 				"bibcode":"1997IAUC.6540Q...1S",
 				"reference":"Supernova Cosmology Project et al. (1997)",
-				"alias":"6"
+				"alias":"5"
 			},
 			{
 				"name":"IAUC 6540",
 				"bibcode":"1997IAUC.6540....1K",
 				"reference":"Supernova Cosmology Project et al. (1997)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06500/06540.html",
-				"alias":"7"
+				"alias":"6"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il/",
-				"alias":"8"
+				"alias":"7"
 			},
 			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"9"
+				"alias":"8"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -63,7 +57,7 @@
 				"reference":"Guillochon, Parrent, & Margutti (2016)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"10"
+				"alias":"9"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -71,7 +65,7 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"11"
+				"alias":"10"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
@@ -79,23 +73,19 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)",
 				"secondary":true,
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"12"
+				"alias":"11"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1997J",
-				"source":"2,5,7,8,9,11,12"
+				"source":"2,4,6,7,8,10,11"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,4,8,11,12"
-			},
-			{
-				"value":"Ia?",
-				"source":"7,9"
+				"source":"2"
 			}
 		],
 		"comovingdist":[
@@ -103,35 +93,35 @@
 				"value":"2330",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,10,12"
+				"source":"1,9,11"
 			}
 		],
 		"dec":[
 			{
 				"value":"+09:33:11.4",
 				"u_value":"degrees",
-				"source":"2,6,7,9,11,12"
+				"source":"2,5,6,8,10,11"
 			},
 			{
 				"value":"+09:33:11.41",
 				"u_value":"degrees",
-				"source":"8"
+				"source":"7"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1997/01/05",
-				"source":"2,7,8,9,12"
+				"source":"2,6,7,8,11"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"SCP",
-				"source":"12"
+				"source":"11"
 			},
 			{
 				"value":"Supernova Cosmology Project",
-				"source":"7,9"
+				"source":"6,8"
 			}
 		],
 		"ebv":[
@@ -139,20 +129,20 @@
 				"value":"0.0327",
 				"derived":true,
 				"e_value":"0.0009",
-				"source":"3,10"
+				"source":"3,9"
 			}
 		],
 		"host":[
 			{
 				"value":"A074117+0933",
-				"source":"12"
+				"source":"11"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+09:33:11",
 				"u_value":"degrees",
-				"source":"12"
+				"source":"11"
 			},
 			{
 				"value":"+09:33:11.0",
@@ -165,20 +155,20 @@
 				"value":"12.46",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"2,6,7,8,9,10,11,12"
+				"source":"2,5,6,7,8,9,10,11"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"86.94",
-				"source":"1,2,6,7,8,9,10,11,12"
+				"source":"1,2,5,6,7,8,9,10,11"
 			}
 		],
 		"hostra":[
 			{
 				"value":"07:41:17",
 				"u_value":"hours",
-				"source":"12"
+				"source":"11"
 			},
 			{
 				"value":"07:41:17.00",
@@ -188,61 +178,59 @@
 		],
 		"lumdist":[
 			{
-				"value":"3770",
+				"value":"3775",
 				"derived":true,
-				"kind":"host",
 				"u_value":"Mpc",
-				"source":"1,10,12"
+				"source":"1,9,11"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-19.9",
+				"value":"-19.93",
 				"derived":true,
-				"source":"1,10,12"
+				"source":"1,9,11"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"22.95",
 				"derived":true,
-				"source":"5,10"
+				"source":"4,9"
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
 				"derived":true,
-				"source":"5,10"
+				"source":"4,9"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1997/01/06",
 				"derived":true,
-				"source":"5,10"
+				"source":"4,9"
 			}
 		],
 		"ra":[
 			{
 				"value":"07:41:17.83",
 				"u_value":"hours",
-				"source":"2,6,7,8,9,11,12"
+				"source":"2,5,6,7,8,10,11"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.619",
 				"kind":"host",
-				"source":"12"
+				"source":"11"
 			}
 		],
 		"velocity":[
 			{
 				"value":"134000",
-				"kind":"host",
 				"u_value":"km/s",
-				"source":"10"
+				"source":"9"
 			}
 		],
 		"photometry":[
@@ -253,7 +241,7 @@
 				"magnitude":"24.7",
 				"survey":"SCP",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50040.83",
@@ -262,7 +250,7 @@
 				"magnitude":"24.63",
 				"survey":"SCP",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50431.77",
@@ -271,7 +259,7 @@
 				"magnitude":"24.9",
 				"survey":"SCP",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50453.72",
@@ -280,7 +268,7 @@
 				"magnitude":"23.04",
 				"survey":"SCP",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50454.64",
@@ -289,7 +277,7 @@
 				"magnitude":"22.95",
 				"survey":"SCP",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50457.88",
@@ -298,7 +286,7 @@
 				"magnitude":"23.21",
 				"survey":"SCP",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50457.91",
@@ -307,7 +295,7 @@
 				"magnitude":"23.3",
 				"survey":"SCP",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50458.84",
@@ -316,7 +304,7 @@
 				"magnitude":"23.17",
 				"survey":"SCP",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50458.9",
@@ -325,7 +313,7 @@
 				"magnitude":"23.3",
 				"survey":"SCP",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50462.63",
@@ -334,7 +322,7 @@
 				"magnitude":"23.07",
 				"survey":"SCP",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50464.82",
@@ -343,7 +331,7 @@
 				"magnitude":"23.17",
 				"survey":"SCP",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50464.85",
@@ -352,7 +340,7 @@
 				"magnitude":"23",
 				"survey":"SCP",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50482.73",
@@ -361,7 +349,7 @@
 				"magnitude":"24.49",
 				"survey":"SCP",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50489.6",
@@ -370,7 +358,7 @@
 				"magnitude":"23.9",
 				"survey":"SCP",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50489.63",
@@ -379,7 +367,7 @@
 				"magnitude":"24.1",
 				"survey":"SCP",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50513.56",
@@ -388,7 +376,7 @@
 				"magnitude":"24.49",
 				"survey":"SCP",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50514.54",
@@ -397,7 +385,7 @@
 				"magnitude":"24.36",
 				"survey":"SCP",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50514.55",
@@ -406,7 +394,7 @@
 				"magnitude":"24",
 				"survey":"SCP",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50517.54",
@@ -415,7 +403,7 @@
 				"magnitude":"24.19",
 				"survey":"SCP",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50867.7",
@@ -424,7 +412,7 @@
 				"survey":"SCP",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"5"
+				"source":"4"
 			}
 		]
 	}
