@@ -157,6 +157,13 @@
 				"source":"13"
 			}
 		],
+		"hostcomovingdist":[
+			{
+				"value":"640",
+				"derived":true,
+				"source":"1,2,10,13"
+			}
+		],
 		"hostdec":[
 			{
 				"value":"+39:59:13",
@@ -167,6 +174,13 @@
 				"value":"+39:59:13.0",
 				"u_value":"degrees",
 				"source":"2"
+			}
+		],
+		"hostlumdist":[
+			{
+				"value":"736",
+				"derived":true,
+				"source":"1,2,10,13"
 			}
 		],
 		"hostoffsetang":[
@@ -195,6 +209,18 @@
 				"source":"2"
 			}
 		],
+		"hostredshift":[
+			{
+				"value":"0.15",
+				"source":"2,13"
+			}
+		],
+		"hostvelocity":[
+			{
+				"value":"42000",
+				"source":"10"
+			}
+		],
 		"lumdist":[
 			{
 				"value":"741.6",
@@ -205,7 +231,7 @@
 		],
 		"maxabsmag":[
 			{
-				"value":"-19.55",
+				"value":"-19.4",
 				"derived":true,
 				"source":"1,7,9,10"
 			}
@@ -259,8 +285,17 @@
 		],
 		"redshift":[
 			{
+				"value":"0.15",
+				"kind":"host",
+				"source":"2"
+			},
+			{
 				"value":"0.151",
 				"source":"7,9"
+			},
+			{
+				"value":"0.15",
+				"source":"11"
 			}
 		],
 		"velocity":[

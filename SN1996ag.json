@@ -82,12 +82,6 @@
 				"source":"2,4,6,7,8,10,11"
 			}
 		],
-		"claimedtype":[
-			{
-				"value":"Ia?",
-				"source":"4"
-			}
-		],
 		"comovingdist":[
 			{
 				"value":"600",
@@ -147,6 +141,13 @@
 				"source":"2"
 			}
 		],
+		"hostcomovingdist":[
+			{
+				"value":"600",
+				"derived":true,
+				"source":"1,2,9,11"
+			}
+		],
 		"hostdec":[
 			{
 				"value":"-43:41:50",
@@ -157,6 +158,13 @@
 				"value":"-43:41:50.0",
 				"u_value":"degrees",
 				"source":"2"
+			}
+		],
+		"hostlumdist":[
+			{
+				"value":"683",
+				"derived":true,
+				"source":"1,2,9,11"
 			}
 		],
 		"hostoffsetang":[
@@ -185,6 +193,18 @@
 				"source":"2"
 			}
 		],
+		"hostredshift":[
+			{
+				"value":"0.14",
+				"source":"2,11"
+			}
+		],
+		"hostvelocity":[
+			{
+				"value":"39000",
+				"source":"9"
+			}
+		],
 		"lumdist":[
 			{
 				"value":"683",
@@ -195,7 +215,7 @@
 		],
 		"maxabsmag":[
 			{
-				"value":"-19.6",
+				"value":"-19.4",
 				"derived":true,
 				"source":"1,4,9"
 			}

@@ -10,39 +10,39 @@
 				"alias":"1"
 			},
 			{
+				"name":"2016A&A...594A..13P",
+				"bibcode":"2016A&A...594A..13P",
+				"reference":"Planck Collaboration et al. (2016)",
+				"alias":"2"
+			},
+			{
 				"name":"2014ApJ...786...67A",
 				"bibcode":"2014ApJ...786...67A",
 				"reference":"Anderson et al. (2014)",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"2014AJ....148..107R",
 				"bibcode":"2014AJ....148..107R",
 				"reference":"Rodríguez, Clocchiatti, & Hamuy (2014)",
-				"alias":"3"
+				"alias":"4"
 			},
 			{
 				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
 				"reference":"Lennarz, Altmann, & Wiebusch (2012)",
-				"alias":"4"
+				"alias":"5"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
 				"reference":"Schlafly & Finkbeiner (2011)",
-				"alias":"5"
+				"alias":"6"
 			},
 			{
 				"name":"2009ApJ...694.1067P",
 				"bibcode":"2009ApJ...694.1067P",
 				"reference":"Poznanski et al. (2009)",
-				"alias":"6"
-			},
-			{
-				"name":"2008yCat....1.2024B",
-				"bibcode":"2008yCat....1.2024B",
-				"reference":"Barbon et al. (2008)",
 				"alias":"7"
 			},
 			{
@@ -128,7 +128,7 @@
 		"alias":[
 			{
 				"value":"SN1999eg",
-				"source":"1,2,4,9,11,12,13,14,15,17,18,19"
+				"source":"1,3,5,9,11,12,13,14,15,17,18,19"
 			},
 			{
 				"value":"AAVSO 0247+25",
@@ -138,30 +138,26 @@
 		"claimedtype":[
 			{
 				"value":"II P",
-				"source":"1,17"
-			},
-			{
-				"value":"II",
-				"source":"4,7,9,11,13,18,19"
+				"source":"17"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"89.9498",
 				"u_value":"Mpc",
-				"source":"3,14"
+				"source":"4,14"
 			},
 			{
 				"value":"98.6279",
 				"u_value":"Mpc",
-				"source":"3,14"
+				"source":"4,14"
 			}
 		],
 		"dec":[
 			{
 				"value":"+25:29:24.2",
 				"u_value":"degrees",
-				"source":"4,8,9,13,18,19"
+				"source":"5,8,9,13,18,19"
 			},
 			{
 				"value":"+25:29:24.36",
@@ -177,7 +173,7 @@
 		"discoverdate":[
 			{
 				"value":"1999/10/04",
-				"source":"4,9,11,13,19"
+				"source":"5,9,11,13,19"
 			}
 		],
 		"discoverer":[
@@ -195,13 +191,20 @@
 				"value":"0.0993",
 				"derived":true,
 				"e_value":"0.0025",
-				"source":"5,16"
+				"source":"6,16"
 			}
 		],
 		"host":[
 			{
 				"value":"IC 1861",
-				"source":"1,3,4,6,9,11,13,14,19"
+				"source":"1,4,5,7,9,11,13,14,19"
+			}
+		],
+		"hostcomovingdist":[
+			{
+				"value":"97",
+				"derived":true,
+				"source":"2,5,16"
 			}
 		],
 		"hostdec":[
@@ -213,7 +216,14 @@
 			{
 				"value":"+25:29:25.0",
 				"u_value":"degrees",
-				"source":"4"
+				"source":"5"
+			}
+		],
+		"hostlumdist":[
+			{
+				"value":"99",
+				"derived":true,
+				"source":"2,5,16"
 			}
 		],
 		"hostoffsetang":[
@@ -221,13 +231,13 @@
 				"value":"21.41",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"4,8,9,11,13,16,18,19"
+				"source":"5,8,9,11,13,16,18,19"
 			}
 		],
 		"hostoffsetdist":[
 			{
-				"value":"9.139",
-				"source":"1,3,4,8,9,11,13,14,16,18,19"
+				"value":"9.132",
+				"source":"1,4,5,8,9,11,13,14,16,18,19"
 			}
 		],
 		"hostra":[
@@ -239,7 +249,20 @@
 			{
 				"value":"02:53:06.96",
 				"u_value":"hours",
-				"source":"4"
+				"source":"5"
+			}
+		],
+		"hostredshift":[
+			{
+				"value":"0.022",
+				"source":"5"
+			}
+		],
+		"hostvelocity":[
+			{
+				"value":"6570",
+				"kind":"host",
+				"source":"19"
 			}
 		],
 		"lumdist":[
@@ -248,14 +271,14 @@
 				"e_value":"6",
 				"kind":"host",
 				"u_value":"Mpc",
-				"source":"4"
+				"source":"5"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-17.1",
 				"derived":true,
-				"source":"4,16"
+				"source":"5,16"
 			}
 		],
 		"maxappmag":[
@@ -283,7 +306,7 @@
 			{
 				"value":"-16.2",
 				"derived":true,
-				"source":"4,16"
+				"source":"5,16"
 			}
 		],
 		"maxvisualappmag":[
@@ -311,7 +334,7 @@
 			{
 				"value":"02:53:08.39",
 				"u_value":"hours",
-				"source":"4,8,9,11,13,18,19"
+				"source":"5,8,9,11,13,18,19"
 			},
 			{
 				"value":"02:53:08.4",
@@ -320,6 +343,12 @@
 			}
 		],
 		"redshift":[
+			{
+				"value":"0.02236",
+				"e_value":"1e-05",
+				"kind":"heliocentric",
+				"source":"1"
+			},
 			{
 				"value":"0.02166",
 				"e_value":"1e-05",
@@ -419,7 +448,7 @@
 				"magnitude":"18.209",
 				"system":"Landolt",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"51467.246",
@@ -429,7 +458,7 @@
 				"magnitude":"18.250",
 				"system":"Landolt",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"51467.25",
@@ -547,7 +576,7 @@
 				"magnitude":"18.314",
 				"system":"Landolt",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"51471.26",
@@ -585,7 +614,7 @@
 				"magnitude":"18.358",
 				"system":"Landolt",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"51472.22",
@@ -703,7 +732,7 @@
 				"magnitude":"18.548",
 				"system":"Landolt",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"51479.23",
@@ -741,7 +770,7 @@
 				"magnitude":"18.611",
 				"system":"Landolt",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"51481.22",
@@ -859,7 +888,7 @@
 				"magnitude":"18.717",
 				"system":"Landolt",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"51486.25",
@@ -897,7 +926,7 @@
 				"magnitude":"18.706",
 				"system":"Landolt",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"51487.3",
@@ -941,7 +970,7 @@
 				"magnitude":"18.713",
 				"system":"Landolt",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"51489.29",
@@ -1059,7 +1088,7 @@
 				"magnitude":"18.751",
 				"system":"Landolt",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"51490.21",
@@ -1137,7 +1166,7 @@
 				"magnitude":"18.812",
 				"system":"Landolt",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"51493.22",
@@ -1216,7 +1245,7 @@
 				"magnitude":"18.980",
 				"system":"Landolt",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"51508.17",
@@ -1334,7 +1363,7 @@
 				"magnitude":"18.948",
 				"system":"Landolt",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"51509.22",
