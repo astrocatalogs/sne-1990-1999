@@ -141,8 +141,16 @@
 		],
 		"claimedtype":[
 			{
+				"value":"Ic",
+				"source":"2,3,18,19"
+			},
+			{
 				"value":"Ib",
-				"source":"7,16"
+				"source":"3,7,8,10,12,16"
+			},
+			{
+				"value":"Ib/c",
+				"source":"15"
 			}
 		],
 		"comovingdist":[
@@ -271,30 +279,23 @@
 		],
 		"maxabsmag":[
 			{
-				"value":"-15",
+				"value":"-16",
 				"derived":true,
 				"source":"3,14"
 			}
 		],
 		"maxappmag":[
 			{
-				"value":"15.99",
+				"value":"15",
 				"derived":true,
-				"source":"9,13,14"
-			}
-		],
-		"maxband":[
-			{
-				"value":"R",
-				"derived":true,
-				"source":"9,13,14"
+				"source":"8,12,14"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"1998/02/23",
+				"value":"1997/11/01",
 				"derived":true,
-				"source":"9,13,14"
+				"source":"8,12,14"
 			}
 		],
 		"maxvisualabsmag":[
@@ -347,6 +348,12 @@
 			}
 		],
 		"photometry":[
+			{
+				"time":"50753.5",
+				"magnitude":"15.0",
+				"u_time":"MJD",
+				"source":"8,12"
+			},
 			{
 				"time":"50759.11",
 				"band":"B",
