@@ -76,18 +76,12 @@
 				"alias":"12"
 			},
 			{
-				"name":"NED-D",
-				"secondary":true,
-				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"13"
-			},
-			{
 				"name":"The Open Supernova Catalog",
 				"bibcode":"2017ApJ...835...64G",
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"14"
+				"alias":"13"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -95,6 +89,14 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"14"
+			},
+			{
+				"name":"NED-D v13.1.0",
+				"bibcode":"1991ASSL..171...89H",
+				"reference":"Helou et al. (1991)",
+				"secondary":true,
+				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
 				"alias":"15"
 			},
 			{
@@ -109,42 +111,42 @@
 		"alias":[
 			{
 				"value":"SN1997G",
-				"source":"2,8,10,11,12,13,15,16"
+				"source":"2,8,10,11,12,14,15,16"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,7,10,11,12,15,16"
+				"source":"2,7,10,11,12,14,16"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"2140",
 				"u_value":"Mpc",
-				"source":"4,13"
+				"source":"4,15"
 			},
 			{
 				"value":"3230",
 				"u_value":"Mpc",
-				"source":"5,13"
+				"source":"5,15"
 			},
 			{
 				"value":"4240",
 				"u_value":"Mpc",
-				"source":"8,13"
+				"source":"8,15"
 			},
 			{
 				"value":"4810",
 				"u_value":"Mpc",
-				"source":"6,13"
+				"source":"6,15"
 			}
 		],
 		"dec":[
 			{
 				"value":"-03:16:04.0",
 				"u_value":"degrees",
-				"source":"2,9,10,12,15,16"
+				"source":"2,9,10,12,14,16"
 			},
 			{
 				"value":"-03:16:04.01",
@@ -173,7 +175,7 @@
 				"value":"0.0366",
 				"derived":true,
 				"e_value":"0.0009",
-				"source":"3,14"
+				"source":"3,13"
 			}
 		],
 		"host":[
@@ -183,14 +185,14 @@
 			},
 			{
 				"value":"H-ZSNS J045830.23-031604.0",
-				"source":"4,5,6,8,13"
+				"source":"4,5,6,8,15"
 			}
 		],
 		"hostcomovingdist":[
 			{
 				"value":"2760",
 				"derived":true,
-				"source":"1,14,16"
+				"source":"1,13,16"
 			}
 		],
 		"hostdec":[
@@ -209,7 +211,7 @@
 			{
 				"value":"4871",
 				"derived":true,
-				"source":"1,14,16"
+				"source":"1,13,16"
 			}
 		],
 		"hostoffsetang":[
@@ -217,7 +219,7 @@
 				"value":"3.444",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"2,9,10,11,12,14,15,16"
+				"source":"2,9,10,11,12,13,14,16"
 			}
 		],
 		"hostoffsetdist":[
@@ -247,7 +249,7 @@
 		"hostvelocity":[
 			{
 				"value":"154000",
-				"source":"14"
+				"source":"13"
 			}
 		],
 		"lumdist":[
@@ -255,70 +257,70 @@
 				"value":"4871",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,14,16"
+				"source":"1,13,16"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-18.82",
 				"derived":true,
-				"source":"1,14,16"
+				"source":"1,13,16"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"24",
 				"derived":true,
-				"source":"8,14"
+				"source":"8,13"
 			}
 		],
 		"maxband":[
 			{
 				"value":"I",
 				"derived":true,
-				"source":"8,14"
+				"source":"8,13"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1997/01/10",
 				"derived":true,
-				"source":"8,14"
+				"source":"8,13"
 			}
 		],
 		"maxvisualabsmag":[
 			{
 				"value":"-19.44",
 				"derived":true,
-				"source":"1,14,16"
+				"source":"1,13,16"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"24",
 				"derived":true,
-				"source":"8,14"
+				"source":"8,13"
 			}
 		],
 		"maxvisualband":[
 			{
 				"value":"R",
 				"derived":true,
-				"source":"8,14"
+				"source":"8,13"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"1997/01/05",
 				"derived":true,
-				"source":"8,14"
+				"source":"8,13"
 			}
 		],
 		"ra":[
 			{
 				"value":"04:58:30.23",
 				"u_value":"hours",
-				"source":"2,9,10,11,12,15,16"
+				"source":"2,9,10,11,12,14,16"
 			}
 		],
 		"redshift":[
@@ -329,14 +331,14 @@
 			},
 			{
 				"value":"0.763",
-				"source":"4,5,6,8,13"
+				"source":"4,5,6,8,15"
 			}
 		],
 		"velocity":[
 			{
 				"value":"154000",
 				"u_value":"km/s",
-				"source":"14"
+				"source":"13"
 			}
 		],
 		"photometry":[

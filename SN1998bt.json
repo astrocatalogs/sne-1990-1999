@@ -4,46 +4,52 @@
 		"name":"SN1998bt",
 		"sources":[
 			{
+				"name":"2016A&A...594A..13P",
+				"bibcode":"2016A&A...594A..13P",
+				"reference":"Planck Collaboration et al. (2016)",
+				"alias":"1"
+			},
+			{
 				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
 				"reference":"Lennarz, Altmann, & Wiebusch (2012)",
-				"alias":"1"
+				"alias":"2"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
 				"reference":"Schlafly & Finkbeiner (2011)",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"2008yCat.2283....0B",
 				"bibcode":"2008yCat.2283....0B",
 				"reference":"Barbon et al. (2008)",
-				"alias":"3"
+				"alias":"4"
 			},
 			{
 				"name":"2004A&A...415..863G",
 				"bibcode":"2004A&A...415..863G",
 				"reference":"Germany et al. (2004)",
-				"alias":"4"
+				"alias":"5"
 			},
 			{
 				"name":"IAUC 6893",
 				"bibcode":"1998IAUC.6893....2O",
 				"reference":"Omodaka, Maeda, & Mochizuki (1998)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06800/06893.html",
-				"alias":"5"
+				"alias":"6"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il/",
-				"alias":"6"
+				"alias":"7"
 			},
 			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"7"
+				"alias":"8"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -51,7 +57,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"8"
+				"alias":"9"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -59,7 +65,15 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"9"
+				"alias":"10"
+			},
+			{
+				"name":"NED-D",
+				"bibcode":"1991ASSL..171...89H",
+				"reference":"Helou et al. (1991)",
+				"secondary":true,
+				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
+				"alias":"11"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
@@ -67,47 +81,55 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)",
 				"secondary":true,
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"10"
+				"alias":"12"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1998bt",
-				"source":"1,4,5,6,7,9,10"
+				"source":"2,5,6,7,8,10,12"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"nIa",
-				"source":"4"
+				"source":"5"
+			}
+		],
+		"comovingdist":[
+			{
+				"value":"140",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,9,11"
 			}
 		],
 		"dec":[
 			{
 				"value":"-26:46:55.7",
 				"u_value":"degrees",
-				"source":"1,3,4,5,7,9,10"
+				"source":"2,4,5,6,8,10,12"
 			},
 			{
 				"value":"-26:46:55.70",
 				"u_value":"degrees",
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1998/03/10",
-				"source":"1,4,5,6,7,10"
+				"source":"2,5,6,7,8,12"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"MSACSST",
-				"source":"10"
+				"source":"12"
 			},
 			{
 				"value":"Mount Stromlo",
-				"source":"5,7"
+				"source":"6,8"
 			}
 		],
 		"ebv":[
@@ -115,30 +137,44 @@
 				"value":"0.048",
 				"derived":true,
 				"e_value":"0.0012",
-				"source":"2,8"
+				"source":"3,9"
 			}
 		],
 		"host":[
 			{
 				"value":"Abell 1736",
 				"kind":"cluster",
-				"source":"4"
+				"source":"5"
 			},
 			{
 				"value":"A132541-2646",
-				"source":"10"
+				"source":"12"
+			}
+		],
+		"hostcomovingdist":[
+			{
+				"value":"140",
+				"derived":true,
+				"source":"1,9,11"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-26:46:55",
 				"u_value":"degrees",
-				"source":"10"
+				"source":"12"
 			},
 			{
 				"value":"-26:46:55.0",
 				"u_value":"degrees",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"hostlumdist":[
+			{
+				"value":"150",
+				"derived":true,
+				"source":"1,9,11"
 			}
 		],
 		"hostoffsetang":[
@@ -146,68 +182,124 @@
 				"value":"12.47",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"1,3,4,5,6,7,8,9,10"
+				"source":"2,4,5,6,7,8,9,10,12"
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"8.193",
+				"source":"1,2,4,5,6,7,8,9,10,11,12"
 			}
 		],
 		"hostra":[
 			{
 				"value":"13:25:41",
 				"u_value":"hours",
-				"source":"10"
+				"source":"12"
 			},
 			{
 				"value":"13:25:41.00",
 				"u_value":"hours",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"hostredshift":[
+			{
+				"value":"0.033",
+				"derived":true,
+				"source":"1,11"
+			}
+		],
+		"hostvelocity":[
+			{
+				"value":"9700",
+				"source":"9"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"150",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,9,11"
+			}
+		],
+		"maxabsmag":[
+			{
+				"value":"-16.4",
+				"derived":true,
+				"source":"1,9,11"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19.47",
 				"derived":true,
-				"source":"4,8"
+				"source":"5,9"
 			}
 		],
 		"maxband":[
 			{
 				"value":"RM",
 				"derived":true,
-				"source":"4,8"
+				"source":"5,9"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1998/04/18",
 				"derived":true,
-				"source":"4,8"
+				"source":"5,9"
+			}
+		],
+		"maxvisualabsmag":[
+			{
+				"value":"-16.4",
+				"derived":true,
+				"source":"1,9,11"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"19.47",
 				"derived":true,
-				"source":"4,8"
+				"source":"5,9"
 			}
 		],
 		"maxvisualband":[
 			{
 				"value":"RM",
 				"derived":true,
-				"source":"4,8"
+				"source":"5,9"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"1998/04/18",
 				"derived":true,
-				"source":"4,8"
+				"source":"5,9"
 			}
 		],
 		"ra":[
 			{
 				"value":"13:25:41.93",
 				"u_value":"hours",
-				"source":"1,3,4,5,6,7,9,10"
+				"source":"2,4,5,6,7,8,10,12"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.033",
+				"derived":true,
+				"kind":"host",
+				"source":"1,11"
+			}
+		],
+		"velocity":[
+			{
+				"value":"9700",
+				"u_value":"km/s",
+				"source":"9"
 			}
 		],
 		"photometry":[
@@ -220,7 +312,7 @@
 				"magnitude":"21.137",
 				"telescope":"MSSSO 1.3m",
 				"u_time":"MJD",
-				"source":"4"
+				"source":"5"
 			},
 			{
 				"time":"50867.32",
@@ -231,7 +323,7 @@
 				"magnitude":"21.308",
 				"telescope":"MSSSO 1.3m",
 				"u_time":"MJD",
-				"source":"4"
+				"source":"5"
 			},
 			{
 				"time":"50882.31",
@@ -242,7 +334,7 @@
 				"magnitude":"19.954",
 				"telescope":"MSSSO 1.3m",
 				"u_time":"MJD",
-				"source":"4"
+				"source":"5"
 			},
 			{
 				"time":"50882.31",
@@ -253,7 +345,7 @@
 				"magnitude":"20.280",
 				"telescope":"MSSSO 1.3m",
 				"u_time":"MJD",
-				"source":"4"
+				"source":"5"
 			},
 			{
 				"time":"50909.30",
@@ -264,7 +356,7 @@
 				"magnitude":"19.832",
 				"telescope":"MSSSO 1.3m",
 				"u_time":"MJD",
-				"source":"4"
+				"source":"5"
 			},
 			{
 				"time":"50921.26",
@@ -275,7 +367,7 @@
 				"magnitude":"19.466",
 				"telescope":"MSSSO 1.3m",
 				"u_time":"MJD",
-				"source":"4"
+				"source":"5"
 			},
 			{
 				"time":"50921.26",
@@ -286,7 +378,7 @@
 				"magnitude":"20.034",
 				"telescope":"MSSSO 1.3m",
 				"u_time":"MJD",
-				"source":"4"
+				"source":"5"
 			},
 			{
 				"time":"50933.16",
@@ -297,7 +389,7 @@
 				"magnitude":"19.696",
 				"telescope":"MSSSO 1.3m",
 				"u_time":"MJD",
-				"source":"4"
+				"source":"5"
 			},
 			{
 				"time":"50933.16",
@@ -308,7 +400,7 @@
 				"magnitude":"20.192",
 				"telescope":"MSSSO 1.3m",
 				"u_time":"MJD",
-				"source":"4"
+				"source":"5"
 			},
 			{
 				"time":"50951.10",
@@ -319,7 +411,7 @@
 				"magnitude":"20.207",
 				"telescope":"MSSSO 1.3m",
 				"u_time":"MJD",
-				"source":"4"
+				"source":"5"
 			},
 			{
 				"time":"50951.10",
@@ -330,7 +422,7 @@
 				"magnitude":"21.160",
 				"telescope":"MSSSO 1.3m",
 				"u_time":"MJD",
-				"source":"4"
+				"source":"5"
 			},
 			{
 				"time":"50974.06",
@@ -341,7 +433,7 @@
 				"telescope":"MSSSO 1.3m",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"4"
+				"source":"5"
 			},
 			{
 				"time":"50974.06",
@@ -352,7 +444,7 @@
 				"telescope":"MSSSO 1.3m",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"4"
+				"source":"5"
 			}
 		]
 	}
