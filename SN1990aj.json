@@ -72,19 +72,19 @@
 				"alias":"11"
 			},
 			{
-				"name":"WISeREP",
-				"bibcode":"2012PASP..124..668Y",
-				"reference":"Yaron & Gal-Yam (2012)",
-				"secondary":true,
-				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"12"
-			},
-			{
 				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
 				"bibcode":"2012MNRAS.425.1789S",
 				"reference":"Silverman et al. (2012)",
 				"secondary":true,
 				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"alias":"12"
+			},
+			{
+				"name":"WISeREP",
+				"bibcode":"2012PASP..124..668Y",
+				"reference":"Yaron & Gal-Yam (2012)",
+				"secondary":true,
+				"url":"http://wiserep.weizmann.ac.il/",
 				"alias":"13"
 			},
 			{
@@ -128,12 +128,12 @@
 				"source":"2,8,9,10"
 			},
 			{
-				"value":"Ib/c",
-				"source":"12"
+				"value":"Ib/Ic",
+				"source":"6,12"
 			},
 			{
-				"value":"Ib/Ic",
-				"source":"6,13"
+				"value":"Ib/c",
+				"source":"13"
 			}
 		],
 		"comovingdist":[
@@ -141,7 +141,7 @@
 				"value":"23.62",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,11,12"
+				"source":"1,11,13"
 			}
 		],
 		"dec":[
@@ -164,7 +164,7 @@
 		"discoverdate":[
 			{
 				"value":"1990/12/18",
-				"source":"2,6,8,9,10,13,16"
+				"source":"2,6,8,9,10,12,16"
 			}
 		],
 		"discoverer":[
@@ -188,7 +188,7 @@
 		"host":[
 			{
 				"value":"NGC 1640",
-				"source":"2,6,8,9,10,13,16"
+				"source":"2,6,8,9,10,12,16"
 			}
 		],
 		"hostcomovingdist":[
@@ -228,7 +228,7 @@
 		"hostoffsetdist":[
 			{
 				"value":"5.967",
-				"source":"1,7,11,12,15,16"
+				"source":"1,7,11,13,15,16"
 			}
 		],
 		"hostra":[
@@ -322,7 +322,7 @@
 		"redshift":[
 			{
 				"value":"0.005344",
-				"source":"12"
+				"source":"13"
 			}
 		],
 		"velocity":[
@@ -22719,7 +22719,7 @@
 						"1.803547E-17"
 					]
 				],
-				"source":"4,12"
+				"source":"4,13"
 			},
 			{
 				"time":"48309.0",
@@ -36082,7 +36082,7 @@
 						"6.074581E-17"
 					]
 				],
-				"source":"4,12"
+				"source":"4,13"
 			},
 			{
 				"time":"48325",
@@ -54988,7 +54988,7 @@
 						"0.0142788"
 					]
 				],
-				"source":"6,13"
+				"source":"6,12"
 			}
 		]
 	}
