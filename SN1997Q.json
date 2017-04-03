@@ -28,46 +28,34 @@
 				"alias":"4"
 			},
 			{
-				"name":"2008yCat....1.2024B",
-				"bibcode":"2008yCat....1.2024B",
-				"reference":"Barbon et al. (2008)",
-				"alias":"5"
-			},
-			{
 				"name":"2008ApJ...686..749K",
 				"bibcode":"2008ApJ...686..749K",
 				"reference":"Kowalski et al. (2008)",
-				"alias":"6"
+				"alias":"5"
 			},
 			{
 				"name":"2004ApJ...607..665R",
 				"bibcode":"2004ApJ...607..665R",
 				"reference":"Riess et al. (2004)",
-				"alias":"7"
-			},
-			{
-				"name":"1997IAUC.6540Q...1S",
-				"bibcode":"1997IAUC.6540Q...1S",
-				"reference":"Supernova Cosmology Project et al. (1997)",
-				"alias":"8"
+				"alias":"6"
 			},
 			{
 				"name":"IAUC 6540",
 				"bibcode":"1997IAUC.6540....1K",
 				"reference":"Supernova Cosmology Project et al. (1997)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06500/06540.html",
-				"alias":"9"
+				"alias":"7"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il/",
-				"alias":"10"
+				"alias":"8"
 			},
 			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"11"
+				"alias":"9"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -75,15 +63,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"12"
-			},
-			{
-				"name":"SIMBAD astronomical database",
-				"bibcode":"2000A&AS..143....9W",
-				"reference":"Wenger et al. (2000)",
-				"secondary":true,
-				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"13"
+				"alias":"10"
 			},
 			{
 				"name":"NED-D v13.1.0",
@@ -91,7 +71,7 @@
 				"reference":"Helou et al. (1991)",
 				"secondary":true,
 				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"14"
+				"alias":"11"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
@@ -99,64 +79,64 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)",
 				"secondary":true,
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"15"
+				"alias":"12"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1997Q",
-				"source":"2,6,7,9,10,11,13,14,15"
+				"source":"2,5,6,7,8,9,11,12"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,5,9,10,11,13,15"
+				"source":"2,7,8,9,12"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"654",
 				"u_value":"Mpc",
-				"source":"6,14"
+				"source":"5,11"
 			},
 			{
 				"value":"1130",
 				"u_value":"Mpc",
-				"source":"4,14"
+				"source":"4,11"
 			},
 			{
 				"value":"1740",
 				"u_value":"Mpc",
-				"source":"7,14"
+				"source":"6,11"
 			}
 		],
 		"dec":[
 			{
 				"value":"-03:58:36.9",
 				"u_value":"degrees",
-				"source":"2,8,9,11,13,15"
+				"source":"2,7,9,12"
 			},
 			{
 				"value":"-03:58:36.91",
 				"u_value":"degrees",
-				"source":"10"
+				"source":"8"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1997/01/06",
-				"source":"2,9,10,11,15"
+				"source":"2,7,8,9,12"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"SCP",
-				"source":"15"
+				"source":"12"
 			},
 			{
 				"value":"Supernova Cosmology Project",
-				"source":"9,11"
+				"source":"7,9"
 			}
 		],
 		"ebv":[
@@ -164,31 +144,31 @@
 				"value":"0.0255",
 				"derived":true,
 				"e_value":"0.0006",
-				"source":"3,12"
+				"source":"3,10"
 			}
 		],
 		"host":[
 			{
 				"value":"A105651-0358",
-				"source":"15"
+				"source":"12"
 			},
 			{
 				"value":"H-ZSNS J105651.48-035836.9",
-				"source":"4,6,7,14"
+				"source":"4,5,6,11"
 			}
 		],
 		"hostcomovingdist":[
 			{
 				"value":"1700",
 				"derived":true,
-				"source":"1,2,12,15"
+				"source":"1,2,10,12"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-03:58:36",
 				"u_value":"degrees",
-				"source":"15"
+				"source":"12"
 			},
 			{
 				"value":"-03:58:36.0",
@@ -200,7 +180,7 @@
 			{
 				"value":"2440",
 				"derived":true,
-				"source":"1,2,12,15"
+				"source":"1,2,10,12"
 			}
 		],
 		"hostoffsetang":[
@@ -208,20 +188,20 @@
 				"value":"7.239",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"2,8,9,10,11,12,13,15"
+				"source":"2,7,8,9,10,12"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"16.05",
-				"source":"2,6,7,8,9,10,11,12,13,14,15"
+				"source":"2,5,6,7,8,9,10,11,12"
 			}
 		],
 		"hostra":[
 			{
 				"value":"10:56:51",
 				"u_value":"hours",
-				"source":"15"
+				"source":"12"
 			},
 			{
 				"value":"10:56:51.00",
@@ -232,13 +212,13 @@
 		"hostredshift":[
 			{
 				"value":"0.43",
-				"source":"2,15"
+				"source":"2,12"
 			}
 		],
 		"hostvelocity":[
 			{
 				"value":"100000",
-				"source":"12"
+				"source":"10"
 			}
 		],
 		"lumdist":[
@@ -246,93 +226,93 @@
 				"value":"2440",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,7,12"
+				"source":"1,6,10"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-19.5",
 				"derived":true,
-				"source":"1,7,12"
+				"source":"1,6,10"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"22",
 				"derived":true,
-				"source":"6,12"
+				"source":"5,10"
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
 				"derived":true,
-				"source":"6,12"
+				"source":"5,10"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1997/01/06",
 				"derived":true,
-				"source":"6,12"
+				"source":"5,10"
 			}
 		],
 		"maxvisualabsmag":[
 			{
 				"value":"-19.9",
 				"derived":true,
-				"source":"1,7,12"
+				"source":"1,6,10"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"22",
 				"derived":true,
-				"source":"6,12"
+				"source":"5,10"
 			}
 		],
 		"maxvisualband":[
 			{
 				"value":"R",
 				"derived":true,
-				"source":"6,12"
+				"source":"5,10"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"1997/01/06",
 				"derived":true,
-				"source":"6,12"
+				"source":"5,10"
 			}
 		],
 		"ra":[
 			{
 				"value":"10:56:51.48",
 				"u_value":"hours",
-				"source":"2,8,9,10,11,13,15"
+				"source":"2,7,8,9,12"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.43",
 				"kind":"spectroscopic",
-				"source":"7"
+				"source":"6"
 			},
 			{
 				"value":"0.43",
 				"kind":"host",
-				"source":"2,15"
+				"source":"2,12"
 			},
 			{
 				"value":"0.44",
-				"source":"4,6,7,14"
+				"source":"4,5,6,11"
 			}
 		],
 		"velocity":[
 			{
 				"value":"100000",
 				"u_value":"km/s",
-				"source":"12"
+				"source":"10"
 			}
 		],
 		"photometry":[
@@ -348,7 +328,7 @@
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
-				"source":"6"
+				"source":"5"
 			},
 			{
 				"time":"50432.82",
@@ -361,7 +341,7 @@
 				"survey":"SCP",
 				"u_time":"MJD",
 				"zeropoint":"30.0",
-				"source":"6"
+				"source":"5"
 			},
 			{
 				"time":"50454.81",
@@ -374,7 +354,7 @@
 				"survey":"SCP",
 				"u_time":"MJD",
 				"zeropoint":"30.0",
-				"source":"6"
+				"source":"5"
 			},
 			{
 				"time":"50459.82",
@@ -387,7 +367,7 @@
 				"survey":"SCP",
 				"u_time":"MJD",
 				"zeropoint":"30.0",
-				"source":"6"
+				"source":"5"
 			},
 			{
 				"time":"50461.83",
@@ -400,7 +380,7 @@
 				"survey":"SCP",
 				"u_time":"MJD",
 				"zeropoint":"30.0",
-				"source":"6"
+				"source":"5"
 			},
 			{
 				"time":"50462.79",
@@ -413,7 +393,7 @@
 				"survey":"SCP",
 				"u_time":"MJD",
 				"zeropoint":"30.0",
-				"source":"6"
+				"source":"5"
 			},
 			{
 				"time":"50467.91",
@@ -426,7 +406,7 @@
 				"survey":"SCP",
 				"u_time":"MJD",
 				"zeropoint":"30.0",
-				"source":"6"
+				"source":"5"
 			},
 			{
 				"time":"50480.8",
@@ -439,7 +419,7 @@
 				"survey":"SCP",
 				"u_time":"MJD",
 				"zeropoint":"30.0",
-				"source":"6"
+				"source":"5"
 			},
 			{
 				"time":"50480.82",
@@ -452,7 +432,7 @@
 				"survey":"SCP",
 				"u_time":"MJD",
 				"zeropoint":"30.0",
-				"source":"6"
+				"source":"5"
 			},
 			{
 				"time":"50489.83",
@@ -466,7 +446,7 @@
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
-				"source":"6"
+				"source":"5"
 			},
 			{
 				"time":"50489.86",
@@ -479,7 +459,7 @@
 				"survey":"SCP",
 				"u_time":"MJD",
 				"zeropoint":"30.0",
-				"source":"6"
+				"source":"5"
 			},
 			{
 				"time":"50513.73",
@@ -492,7 +472,7 @@
 				"survey":"SCP",
 				"u_time":"MJD",
 				"zeropoint":"30.0",
-				"source":"6"
+				"source":"5"
 			},
 			{
 				"time":"50513.76",
@@ -506,7 +486,7 @@
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
-				"source":"6"
+				"source":"5"
 			},
 			{
 				"time":"50514.71",
@@ -519,7 +499,7 @@
 				"survey":"SCP",
 				"u_time":"MJD",
 				"zeropoint":"30.0",
-				"source":"6"
+				"source":"5"
 			},
 			{
 				"time":"50514.76",
@@ -533,7 +513,7 @@
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
-				"source":"6"
+				"source":"5"
 			},
 			{
 				"time":"50517.75",
@@ -546,7 +526,7 @@
 				"survey":"SCP",
 				"u_time":"MJD",
 				"zeropoint":"30.0",
-				"source":"6"
+				"source":"5"
 			},
 			{
 				"time":"50518.75",
@@ -560,7 +540,7 @@
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
-				"source":"6"
+				"source":"5"
 			},
 			{
 				"time":"50518.8",
@@ -573,7 +553,7 @@
 				"survey":"SCP",
 				"u_time":"MJD",
 				"zeropoint":"30.0",
-				"source":"6"
+				"source":"5"
 			},
 			{
 				"time":"50573.6",
@@ -587,7 +567,7 @@
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
-				"source":"6"
+				"source":"5"
 			},
 			{
 				"time":"50573.6",
@@ -600,7 +580,7 @@
 				"survey":"SCP",
 				"u_time":"MJD",
 				"zeropoint":"30.0",
-				"source":"6"
+				"source":"5"
 			},
 			{
 				"time":"50872.57",
@@ -614,7 +594,7 @@
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
-				"source":"6"
+				"source":"5"
 			},
 			{
 				"time":"50873.73",
@@ -628,7 +608,7 @@
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
-				"source":"6"
+				"source":"5"
 			},
 			{
 				"time":"50895.62",
@@ -642,7 +622,7 @@
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
-				"source":"6"
+				"source":"5"
 			},
 			{
 				"time":"50896.59",
@@ -656,7 +636,7 @@
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
-				"source":"6"
+				"source":"5"
 			},
 			{
 				"time":"50899.69",
@@ -670,7 +650,7 @@
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
-				"source":"6"
+				"source":"5"
 			},
 			{
 				"time":"50904.65",
@@ -684,7 +664,7 @@
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
-				"source":"6"
+				"source":"5"
 			}
 		]
 	}
