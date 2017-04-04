@@ -28,22 +28,28 @@
 				"alias":"4"
 			},
 			{
+				"name":"1996IAUC.6492R...1M",
+				"bibcode":"1996IAUC.6492R...1M",
+				"reference":"Mount Stromlo Abell Cluster Supernova SEARCH Team & Soria (1996)",
+				"alias":"5"
+			},
+			{
 				"name":"IAUC 6492",
 				"bibcode":"1996IAUC.6492....3R",
 				"reference":"Rabinowitz (1996)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06400/06492.html",
-				"alias":"5"
+				"alias":"6"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il/",
-				"alias":"6"
+				"alias":"7"
 			},
 			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"7"
+				"alias":"8"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -51,7 +57,15 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"8"
+				"alias":"9"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"reference":"Wenger et al. (2000)",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"10"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
@@ -59,13 +73,13 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)",
 				"secondary":true,
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"9"
+				"alias":"11"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1996bm",
-				"source":"2,4,5,6,7,9"
+				"source":"2,4,6,7,8,10,11"
 			}
 		],
 		"claimedtype":[
@@ -79,35 +93,35 @@
 				"value":"697",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,4,8"
+				"source":"1,4,9"
 			}
 		],
 		"dec":[
 			{
 				"value":"-63:44:44.6",
 				"u_value":"degrees",
-				"source":"2,4,5,7,9"
+				"source":"2,4,5,6,8,10,11"
 			},
 			{
 				"value":"-63:44:44.59",
 				"u_value":"degrees",
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1996/10/04",
-				"source":"2,4,5,6,7,9"
+				"source":"2,4,6,7,8,11"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"MSACSST",
-				"source":"9"
+				"source":"11"
 			},
 			{
 				"value":"Mount Stromlo",
-				"source":"5,7"
+				"source":"6,8"
 			}
 		],
 		"ebv":[
@@ -115,7 +129,7 @@
 				"value":"0.0176",
 				"derived":true,
 				"e_value":"0.0007",
-				"source":"3,8"
+				"source":"3,9"
 			}
 		],
 		"host":[
@@ -126,7 +140,7 @@
 			},
 			{
 				"value":"A004440-6344",
-				"source":"9"
+				"source":"11"
 			},
 			{
 				"value":"APMUKS(BJ) B004232.89-640111.5",
@@ -137,7 +151,7 @@
 			{
 				"value":"-63:44:44",
 				"u_value":"degrees",
-				"source":"9"
+				"source":"11"
 			},
 			{
 				"value":"-63:44:44.0",
@@ -150,20 +164,20 @@
 				"value":"5.672",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"2,4,5,6,7,8,9"
+				"source":"2,4,5,6,7,8,9,10,11"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"16.47",
-				"source":"1,2,4,5,6,7,8,9"
+				"source":"1,2,4,5,6,7,8,9,10,11"
 			}
 		],
 		"hostra":[
 			{
 				"value":"00:44:40",
 				"u_value":"hours",
-				"source":"9"
+				"source":"11"
 			},
 			{
 				"value":"00:44:40.00",
@@ -176,70 +190,70 @@
 				"value":"811.9",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,4,8"
+				"source":"1,4,9"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-18.87",
 				"derived":true,
-				"source":"1,4,8"
+				"source":"1,4,9"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"20.51",
 				"derived":true,
-				"source":"4,8"
+				"source":"4,9"
 			}
 		],
 		"maxband":[
 			{
 				"value":"RM",
 				"derived":true,
-				"source":"4,8"
+				"source":"4,9"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1996/10/10",
 				"derived":true,
-				"source":"4,8"
+				"source":"4,9"
 			}
 		],
 		"maxvisualabsmag":[
 			{
 				"value":"-18.58",
 				"derived":true,
-				"source":"1,4,8"
+				"source":"1,4,9"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"20.97",
 				"derived":true,
-				"source":"4,8"
+				"source":"4,9"
 			}
 		],
 		"maxvisualband":[
 			{
 				"value":"B",
 				"derived":true,
-				"source":"4,8"
+				"source":"4,9"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"1996/10/13",
 				"derived":true,
-				"source":"4,8"
+				"source":"4,9"
 			}
 		],
 		"ra":[
 			{
 				"value":"00:44:40.85",
 				"u_value":"hours",
-				"source":"2,4,5,6,7,9"
+				"source":"2,4,5,6,7,8,10,11"
 			}
 		],
 		"redshift":[
@@ -253,7 +267,7 @@
 			{
 				"value":"45200",
 				"u_value":"km/s",
-				"source":"8"
+				"source":"9"
 			}
 		],
 		"photometry":[

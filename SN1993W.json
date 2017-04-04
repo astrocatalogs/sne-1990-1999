@@ -22,28 +22,40 @@
 				"alias":"3"
 			},
 			{
+				"name":"2008yCat.2283....0B",
+				"bibcode":"2008yCat.2283....0B",
+				"reference":"Barbon et al. (2008)",
+				"alias":"4"
+			},
+			{
+				"name":"2008yCat....1.2024B",
+				"bibcode":"2008yCat....1.2024B",
+				"reference":"Barbon et al. (2008)",
+				"alias":"5"
+			},
+			{
 				"name":"IAUC 5848",
 				"bibcode":"1993IAUC.5848....2P",
 				"reference":"Pollas, Elst, & Albanese (1993)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05800/05848.html",
-				"alias":"4"
+				"alias":"6"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il/",
-				"alias":"5"
+				"alias":"7"
 			},
 			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"6"
+				"alias":"8"
 			},
 			{
 				"name":"Superfit",
 				"secondary":true,
 				"url":"http://www.dahowell.com/superfit.html",
-				"alias":"7"
+				"alias":"9"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -51,7 +63,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"8"
+				"alias":"10"
 			},
 			{
 				"name":"WISeREP",
@@ -59,7 +71,15 @@
 				"reference":"Yaron & Gal-Yam (2012)",
 				"secondary":true,
 				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"9"
+				"alias":"11"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"reference":"Wenger et al. (2000)",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"12"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
@@ -67,19 +87,19 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)",
 				"secondary":true,
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"10"
+				"alias":"13"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1993W",
-				"source":"2,4,5,6,7,9,10"
+				"source":"2,6,7,8,9,11,12,13"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"2,4,5,6,9,10"
+				"source":"2,5,6,7,8,11,12,13"
 			}
 		],
 		"comovingdist":[
@@ -87,45 +107,45 @@
 				"value":"79",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,8"
+				"source":"1,2,10"
 			}
 		],
 		"dec":[
 			{
+				"value":"-03:02:25.7",
+				"u_value":"degrees",
+				"source":"2,4,12"
+			},
+			{
 				"value":"-03:02:25.67",
 				"u_value":"degrees",
-				"source":"10"
+				"source":"13"
 			},
 			{
 				"value":"-03:02:25.80",
 				"u_value":"degrees",
-				"source":"5"
+				"source":"7"
 			},
 			{
 				"value":"-03:02:25.8",
 				"u_value":"degrees",
-				"source":"4,6"
-			},
-			{
-				"value":"-03:02:25.7",
-				"u_value":"degrees",
-				"source":"2"
+				"source":"6,8"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1993/08/18",
-				"source":"2,4,5,6,10"
+				"source":"2,6,7,8,13"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Pollas",
-				"source":"10"
+				"source":"13"
 			},
 			{
 				"value":"Christian Pollas",
-				"source":"4,6"
+				"source":"6,8"
 			}
 		],
 		"ebv":[
@@ -133,13 +153,13 @@
 				"value":"0.0402",
 				"derived":true,
 				"e_value":"0.0007",
-				"source":"3,8"
+				"source":"3,10"
 			}
 		],
 		"host":[
 			{
 				"value":"A232940-0302",
-				"source":"10"
+				"source":"13"
 			},
 			{
 				"value":"2MASXJ23294017-302181",
@@ -150,14 +170,14 @@
 			{
 				"value":"79",
 				"derived":true,
-				"source":"1,2,8"
+				"source":"1,2,10"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-03:02:25",
 				"u_value":"degrees",
-				"source":"10"
+				"source":"13"
 			},
 			{
 				"value":"-03:02:25.0",
@@ -169,28 +189,28 @@
 			{
 				"value":"80.8",
 				"derived":true,
-				"source":"1,2,8"
+				"source":"1,2,10"
 			}
 		],
 		"hostoffsetang":[
 			{
-				"value":"0.7339",
+				"value":"0.7614",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"2,8,10"
+				"source":"2,4,10,12,13"
 			}
 		],
 		"hostoffsetdist":[
 			{
-				"value":"0.2761",
-				"source":"1,2,8,10"
+				"value":"0.2865",
+				"source":"1,2,4,10,12,13"
 			}
 		],
 		"hostra":[
 			{
 				"value":"23:29:40",
 				"u_value":"hours",
-				"source":"10"
+				"source":"13"
 			},
 			{
 				"value":"23:29:40.00",
@@ -208,7 +228,7 @@
 			{
 				"value":"5400",
 				"kind":"host",
-				"source":"10"
+				"source":"13"
 			}
 		],
 		"lumdist":[
@@ -216,21 +236,21 @@
 				"value":"80.8",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,8"
+				"source":"1,2,10"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-18.5",
 				"derived":true,
-				"source":"1,2,8"
+				"source":"1,2,10"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"16",
 				"derived":true,
-				"source":"4,6,8"
+				"source":"6,8,10"
 			}
 		],
 		"maxdate":[
@@ -243,33 +263,33 @@
 			{
 				"value":"-18.5",
 				"derived":true,
-				"source":"1,2,8"
+				"source":"1,2,10"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"16",
 				"derived":true,
-				"source":"4,6,8"
+				"source":"6,8,10"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"1993/08/17",
 				"derived":true,
-				"source":"4,6,8"
+				"source":"6,8,10"
 			}
 		],
 		"ra":[
 			{
 				"value":"23:29:40.02",
 				"u_value":"hours",
-				"source":"2,10"
+				"source":"2,4,12,13"
 			},
 			{
 				"value":"23:29:40.07",
 				"u_value":"hours",
-				"source":"4,5,6"
+				"source":"6,7,8"
 			}
 		],
 		"redshift":[
@@ -280,7 +300,7 @@
 			},
 			{
 				"value":"0.018",
-				"source":"9"
+				"source":"11"
 			}
 		],
 		"velocity":[
@@ -288,7 +308,7 @@
 				"value":"5400",
 				"kind":"host",
 				"u_value":"km/s",
-				"source":"10"
+				"source":"13"
 			}
 		],
 		"photometry":[
@@ -296,7 +316,7 @@
 				"time":"49216.5",
 				"magnitude":"16.0",
 				"u_time":"MJD",
-				"source":"4,6"
+				"source":"6,8"
 			}
 		],
 		"spectra":[
@@ -4224,7 +4244,7 @@
 						"4.684665E-17"
 					]
 				],
-				"source":"7"
+				"source":"9"
 			},
 			{
 				"time":"49237",
@@ -18638,7 +18658,7 @@
 						"1.40968"
 					]
 				],
-				"source":"7"
+				"source":"9"
 			},
 			{
 				"time":"49315",
@@ -33212,7 +33232,7 @@
 						"0.247181"
 					]
 				],
-				"source":"7"
+				"source":"9"
 			}
 		]
 	}

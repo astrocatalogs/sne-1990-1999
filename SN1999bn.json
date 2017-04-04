@@ -34,28 +34,40 @@
 				"alias":"5"
 			},
 			{
+				"name":"2008yCat....1.2024B",
+				"bibcode":"2008yCat....1.2024B",
+				"reference":"Barbon et al. (2008)",
+				"alias":"6"
+			},
+			{
 				"name":"2008ApJ...686..749K",
 				"bibcode":"2008ApJ...686..749K",
 				"reference":"Kowalski et al. (2008)",
-				"alias":"6"
+				"alias":"7"
+			},
+			{
+				"name":"1999IAUC.7136Q...1K",
+				"bibcode":"1999IAUC.7136Q...1K",
+				"reference":"Kim et al. (1999)",
+				"alias":"8"
 			},
 			{
 				"name":"IAUC 7136",
 				"bibcode":"1999IAUC.7136....3N",
 				"reference":"Nakamura, Hale, & Pearce (1999)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07100/07136.html#Item1",
-				"alias":"7"
+				"alias":"9"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il/",
-				"alias":"8"
+				"alias":"10"
 			},
 			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"9"
+				"alias":"11"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -63,7 +75,15 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"10"
+				"alias":"12"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"reference":"Wenger et al. (2000)",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"13"
 			},
 			{
 				"name":"NED-D v13.1.0",
@@ -71,7 +91,7 @@
 				"reference":"Helou et al. (1991)",
 				"secondary":true,
 				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"11"
+				"alias":"14"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
@@ -79,64 +99,64 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)",
 				"secondary":true,
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"12"
+				"alias":"15"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1999bn",
-				"source":"2,6,7,8,9,11,12"
+				"source":"2,7,9,10,11,13,14,15"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,7,8,9,12"
+				"source":"2,6,9,10,11,13,15"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"399",
 				"u_value":"Mpc",
-				"source":"4,11"
+				"source":"4,14"
 			},
 			{
 				"value":"563",
 				"u_value":"Mpc",
-				"source":"6,11"
+				"source":"7,14"
 			},
 			{
 				"value":"604",
 				"u_value":"Mpc",
-				"source":"5,11"
+				"source":"5,14"
 			}
 		],
 		"dec":[
 			{
 				"value":"-11:26:38.4",
 				"u_value":"degrees",
-				"source":"2,7,9,12"
+				"source":"2,8,9,11,13,15"
 			},
 			{
 				"value":"-11:26:38.40",
 				"u_value":"degrees",
-				"source":"8"
+				"source":"10"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1999/03/17",
-				"source":"2,7,8,9,12"
+				"source":"2,9,10,11,15"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"EROS,SCP",
-				"source":"12"
+				"source":"15"
 			},
 			{
 				"value":"Supernova Cosmology Project",
-				"source":"7,9"
+				"source":"9,11"
 			}
 		],
 		"ebv":[
@@ -144,31 +164,31 @@
 				"value":"0.048",
 				"derived":true,
 				"e_value":"0.0032",
-				"source":"3,10"
+				"source":"3,12"
 			}
 		],
 		"host":[
 			{
 				"value":"A115700-1126",
-				"source":"12"
+				"source":"15"
 			},
 			{
 				"value":"EROS J115700.46-112638.6",
-				"source":"4,5,6,11"
+				"source":"4,5,7,14"
 			}
 		],
 		"hostcomovingdist":[
 			{
 				"value":"520",
 				"derived":true,
-				"source":"1,2,10,12"
+				"source":"1,2,12,15"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-11:26:38",
 				"u_value":"degrees",
-				"source":"12"
+				"source":"15"
 			},
 			{
 				"value":"-11:26:38.0",
@@ -180,7 +200,7 @@
 			{
 				"value":"578",
 				"derived":true,
-				"source":"1,2,10,12"
+				"source":"1,2,12,15"
 			}
 		],
 		"hostoffsetang":[
@@ -188,20 +208,20 @@
 				"value":"5.894",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"2,7,8,9,10,12"
+				"source":"2,8,9,10,11,12,13,15"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"10.18",
-				"source":"2,4,7,8,9,10,11,12"
+				"source":"2,4,8,9,10,11,12,13,14,15"
 			}
 		],
 		"hostra":[
 			{
 				"value":"11:57:00",
 				"u_value":"hours",
-				"source":"12"
+				"source":"15"
 			},
 			{
 				"value":"11:57:00.00",
@@ -212,13 +232,13 @@
 		"hostredshift":[
 			{
 				"value":"0.12",
-				"source":"2,12"
+				"source":"2,15"
 			}
 		],
 		"hostvelocity":[
 			{
 				"value":"34000",
-				"source":"10"
+				"source":"12"
 			}
 		],
 		"lumdist":[
@@ -226,88 +246,88 @@
 				"value":"578",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,10,12"
+				"source":"1,2,12,15"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-19.2",
 				"derived":true,
-				"source":"1,2,10,12"
+				"source":"1,2,12,15"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19.48",
 				"derived":true,
-				"source":"6,10"
+				"source":"7,12"
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
 				"derived":true,
-				"source":"6,10"
+				"source":"7,12"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1999/03/24",
 				"derived":true,
-				"source":"6,10"
+				"source":"7,12"
 			}
 		],
 		"maxvisualabsmag":[
 			{
 				"value":"-19",
 				"derived":true,
-				"source":"1,2,10,12"
+				"source":"1,2,12,15"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"19.81",
 				"derived":true,
-				"source":"6,10"
+				"source":"7,12"
 			}
 		],
 		"maxvisualband":[
 			{
 				"value":"B",
 				"derived":true,
-				"source":"6,10"
+				"source":"7,12"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"1999/03/20",
 				"derived":true,
-				"source":"6,10"
+				"source":"7,12"
 			}
 		],
 		"ra":[
 			{
 				"value":"11:57:00.40",
 				"u_value":"hours",
-				"source":"2,7,8,9,12"
+				"source":"2,8,9,10,11,13,15"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.12",
 				"kind":"host",
-				"source":"2,12"
+				"source":"2,15"
 			},
 			{
 				"value":"0.12",
-				"source":"4,5,6,7,9,11"
+				"source":"4,5,7,9,11,14"
 			}
 		],
 		"velocity":[
 			{
 				"value":"34000",
 				"u_value":"km/s",
-				"source":"10"
+				"source":"12"
 			}
 		],
 		"photometry":[
@@ -315,7 +335,7 @@
 				"time":"51253.5",
 				"magnitude":"19.6",
 				"u_time":"MJD",
-				"source":"7,9"
+				"source":"9,11"
 			},
 			{
 				"time":"51257.08",
@@ -324,7 +344,7 @@
 				"magnitude":"19.811",
 				"telescope":"YALO",
 				"u_time":"MJD",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"time":"51257.08",
@@ -333,7 +353,7 @@
 				"magnitude":"19.567",
 				"telescope":"YALO",
 				"u_time":"MJD",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"time":"51257.08",
@@ -342,7 +362,7 @@
 				"magnitude":"19.618",
 				"telescope":"YALO",
 				"u_time":"MJD",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"time":"51257.08",
@@ -351,7 +371,7 @@
 				"magnitude":"19.647",
 				"telescope":"YALO",
 				"u_time":"MJD",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"time":"51261.21",
@@ -360,7 +380,7 @@
 				"magnitude":"19.898",
 				"telescope":"DANISH 1m",
 				"u_time":"MJD",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"time":"51261.21",
@@ -369,7 +389,7 @@
 				"magnitude":"19.477",
 				"telescope":"DANISH 1m",
 				"u_time":"MJD",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"time":"51261.21",
@@ -378,7 +398,7 @@
 				"magnitude":"19.637",
 				"telescope":"DANISH 1m",
 				"u_time":"MJD",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"time":"51262.24",
@@ -387,7 +407,7 @@
 				"magnitude":"19.876",
 				"telescope":"YALO",
 				"u_time":"MJD",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"time":"51262.24",
@@ -396,7 +416,7 @@
 				"magnitude":"19.59",
 				"telescope":"YALO",
 				"u_time":"MJD",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"time":"51262.24",
@@ -405,7 +425,7 @@
 				"magnitude":"19.64",
 				"telescope":"YALO",
 				"u_time":"MJD",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"time":"51262.24",
@@ -414,7 +434,7 @@
 				"magnitude":"19.701",
 				"telescope":"YALO",
 				"u_time":"MJD",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"time":"51265.17",
@@ -423,7 +443,7 @@
 				"magnitude":"20.058",
 				"telescope":"YALO",
 				"u_time":"MJD",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"time":"51265.17",
@@ -432,7 +452,7 @@
 				"magnitude":"19.779",
 				"telescope":"YALO",
 				"u_time":"MJD",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"time":"51301.18",
@@ -441,7 +461,7 @@
 				"magnitude":"21.896",
 				"telescope":"DANISH 1m",
 				"u_time":"MJD",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"time":"51301.18",
@@ -450,7 +470,7 @@
 				"magnitude":"20.541",
 				"telescope":"DANISH 1m",
 				"u_time":"MJD",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"time":"51301.18",
@@ -459,7 +479,7 @@
 				"magnitude":"20.912",
 				"telescope":"DANISH 1m",
 				"u_time":"MJD",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"time":"51301.18",
@@ -468,7 +488,7 @@
 				"magnitude":"22.163",
 				"telescope":"DANISH 1m",
 				"u_time":"MJD",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"time":"51305.16",
@@ -477,7 +497,7 @@
 				"magnitude":"23.175",
 				"telescope":"DANISH 1m",
 				"u_time":"MJD",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"time":"51305.16",
@@ -486,7 +506,7 @@
 				"magnitude":"20.696",
 				"telescope":"DANISH 1m",
 				"u_time":"MJD",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"time":"51305.16",
@@ -495,7 +515,7 @@
 				"magnitude":"21.254",
 				"telescope":"DANISH 1m",
 				"u_time":"MJD",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"time":"51305.16",
@@ -504,7 +524,7 @@
 				"magnitude":"22.321",
 				"telescope":"DANISH 1m",
 				"u_time":"MJD",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"time":"51312.12",
@@ -513,7 +533,7 @@
 				"magnitude":"22.697",
 				"telescope":"DANISH 1m",
 				"u_time":"MJD",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"time":"51312.12",
@@ -522,7 +542,7 @@
 				"magnitude":"22.325",
 				"telescope":"DANISH 1m",
 				"u_time":"MJD",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"time":"51337.35",
@@ -531,7 +551,7 @@
 				"magnitude":"21.915",
 				"telescope":"CFHT",
 				"u_time":"MJD",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"time":"51337.35",
@@ -540,7 +560,7 @@
 				"magnitude":"22.217",
 				"telescope":"CFHT",
 				"u_time":"MJD",
-				"source":"6"
+				"source":"7"
 			}
 		]
 	}
