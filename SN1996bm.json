@@ -4,132 +4,91 @@
 		"name":"SN1996bm",
 		"sources":[
 			{
-				"name":"2016A&A...594A..13P",
-				"bibcode":"2016A&A...594A..13P",
-				"reference":"Planck Collaboration et al. (2016)",
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
 				"alias":"1"
 			},
 			{
-				"name":"2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"reference":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"1996IAUC.6492R...1M",
 				"alias":"2"
 			},
 			{
-				"name":"2011ApJ...737..103S",
-				"bibcode":"2011ApJ...737..103S",
-				"reference":"Schlafly & Finkbeiner (2011)",
+				"bibcode":"2008yCat....1.2024B",
 				"alias":"3"
 			},
 			{
-				"name":"2004A&A...415..863G",
 				"bibcode":"2004A&A...415..863G",
-				"reference":"Germany et al. (2004)",
 				"alias":"4"
 			},
 			{
-				"name":"1996IAUC.6492R...1M",
-				"bibcode":"1996IAUC.6492R...1M",
-				"reference":"Mount Stromlo Abell Cluster Supernova SEARCH Team & Soria (1996)",
+				"name":"Asiago Supernova Catalogue",
+				"bibcode":"1989A&AS...81..421B",
+				"secondary":true,
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
 				"alias":"5"
-			},
-			{
-				"name":"IAUC 6492",
-				"bibcode":"1996IAUC.6492....3R",
-				"reference":"Rabinowitz (1996)",
-				"url":"http://www.cbat.eps.harvard.edu/iauc/06400/06492.html",
-				"alias":"6"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il/",
-				"alias":"7"
+				"alias":"6"
 			},
 			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"7"
+			},
+			{
+				"name":"IAUC 6492",
+				"bibcode":"1996IAUC.6492....3R",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06400/06492.html",
 				"alias":"8"
-			},
-			{
-				"name":"The Open Supernova Catalog",
-				"bibcode":"2017ApJ...835...64G",
-				"reference":"Guillochon et al. (2017)",
-				"secondary":true,
-				"url":"https://sne.space",
-				"alias":"9"
-			},
-			{
-				"name":"SIMBAD astronomical database",
-				"bibcode":"2000A&AS..143....9W",
-				"reference":"Wenger et al. (2000)",
-				"secondary":true,
-				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"10"
-			},
-			{
-				"name":"Asiago Supernova Catalogue",
-				"bibcode":"1989A&AS...81..421B",
-				"reference":"Barbon, Cappellaro, & Turatto (1989)",
-				"secondary":true,
-				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"11"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1996bm",
-				"source":"2,4,6,7,8,10,11"
+				"source":"1,4,5,6,7,8"
 			}
 		],
 		"claimedtype":[
 			{
+				"value":"?",
+				"source":"1,3,5"
+			},
+			{
 				"value":"nIa",
 				"source":"4"
-			}
-		],
-		"comovingdist":[
-			{
-				"value":"697",
-				"derived":true,
-				"u_value":"Mpc",
-				"source":"1,4,9"
 			}
 		],
 		"dec":[
 			{
 				"value":"-63:44:44.6",
 				"u_value":"degrees",
-				"source":"2,4,5,6,8,10,11"
+				"source":"1,2,4,5,7,8"
 			},
 			{
 				"value":"-63:44:44.59",
 				"u_value":"degrees",
-				"source":"7"
+				"source":"6"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1996/10/04",
-				"source":"2,4,6,7,8,11"
+				"source":"4,5,6,7,8"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"MSACSST",
-				"source":"11"
+				"source":"5"
 			},
 			{
 				"value":"Mount Stromlo",
-				"source":"6,8"
-			}
-		],
-		"ebv":[
-			{
-				"value":"0.0176",
-				"derived":true,
-				"e_value":"0.0007",
-				"source":"3,9"
+				"source":"7,8"
 			}
 		],
 		"host":[
@@ -140,120 +99,28 @@
 			},
 			{
 				"value":"A004440-6344",
-				"source":"11"
-			},
-			{
-				"value":"APMUKS(BJ) B004232.89-640111.5",
-				"source":"2"
+				"source":"5"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-63:44:44",
 				"u_value":"degrees",
-				"source":"11"
-			},
-			{
-				"value":"-63:44:44.0",
-				"u_value":"degrees",
-				"source":"2"
-			}
-		],
-		"hostoffsetang":[
-			{
-				"value":"5.672",
-				"derived":true,
-				"u_value":"arcseconds",
-				"source":"2,4,5,6,7,8,9,10,11"
-			}
-		],
-		"hostoffsetdist":[
-			{
-				"value":"16.47",
-				"source":"1,2,4,5,6,7,8,9,10,11"
+				"source":"5"
 			}
 		],
 		"hostra":[
 			{
 				"value":"00:44:40",
 				"u_value":"hours",
-				"source":"11"
-			},
-			{
-				"value":"00:44:40.00",
-				"u_value":"hours",
-				"source":"2"
-			}
-		],
-		"lumdist":[
-			{
-				"value":"811.9",
-				"derived":true,
-				"u_value":"Mpc",
-				"source":"1,4,9"
-			}
-		],
-		"maxabsmag":[
-			{
-				"value":"-18.87",
-				"derived":true,
-				"source":"1,4,9"
-			}
-		],
-		"maxappmag":[
-			{
-				"value":"20.51",
-				"derived":true,
-				"source":"4,9"
-			}
-		],
-		"maxband":[
-			{
-				"value":"RM",
-				"derived":true,
-				"source":"4,9"
-			}
-		],
-		"maxdate":[
-			{
-				"value":"1996/10/10",
-				"derived":true,
-				"source":"4,9"
-			}
-		],
-		"maxvisualabsmag":[
-			{
-				"value":"-18.58",
-				"derived":true,
-				"source":"1,4,9"
-			}
-		],
-		"maxvisualappmag":[
-			{
-				"value":"20.97",
-				"derived":true,
-				"source":"4,9"
-			}
-		],
-		"maxvisualband":[
-			{
-				"value":"B",
-				"derived":true,
-				"source":"4,9"
-			}
-		],
-		"maxvisualdate":[
-			{
-				"value":"1996/10/13",
-				"derived":true,
-				"source":"4,9"
+				"source":"5"
 			}
 		],
 		"ra":[
 			{
 				"value":"00:44:40.85",
 				"u_value":"hours",
-				"source":"2,4,5,6,7,8,10,11"
+				"source":"1,2,4,5,6,7,8"
 			}
 		],
 		"redshift":[
@@ -263,20 +130,13 @@
 				"source":"4"
 			}
 		],
-		"velocity":[
-			{
-				"value":"45200",
-				"u_value":"km/s",
-				"source":"9"
-			}
-		],
 		"photometry":[
 			{
 				"time":"50327.24",
-				"band":"RM",
-				"e_lower_magnitude":"1.426",
+				"band":"VM",
+				"e_lower_magnitude":"0.908",
 				"instrument":"MaCHO",
-				"magnitude":"23.572",
+				"magnitude":"23.132",
 				"telescope":"MSSSO 1.3m",
 				"u_time":"MJD",
 				"upperlimit":true,
@@ -284,10 +144,10 @@
 			},
 			{
 				"time":"50327.24",
-				"band":"VM",
-				"e_lower_magnitude":"0.908",
+				"band":"RM",
+				"e_lower_magnitude":"1.426",
 				"instrument":"MaCHO",
-				"magnitude":"23.132",
+				"magnitude":"23.572",
 				"telescope":"MSSSO 1.3m",
 				"u_time":"MJD",
 				"upperlimit":true,
@@ -306,17 +166,6 @@
 			},
 			{
 				"time":"50360.17",
-				"band":"RM",
-				"e_lower_magnitude":"0.116",
-				"e_upper_magnitude":"0.130",
-				"instrument":"MaCHO",
-				"magnitude":"20.593",
-				"telescope":"MSSSO 1.3m",
-				"u_time":"MJD",
-				"source":"4"
-			},
-			{
-				"time":"50360.17",
 				"band":"VM",
 				"e_lower_magnitude":"0.069",
 				"e_upper_magnitude":"0.074",
@@ -327,12 +176,12 @@
 				"source":"4"
 			},
 			{
-				"time":"50366.15",
+				"time":"50360.17",
 				"band":"RM",
-				"e_lower_magnitude":"0.179",
-				"e_upper_magnitude":"0.215",
+				"e_lower_magnitude":"0.116",
+				"e_upper_magnitude":"0.130",
 				"instrument":"MaCHO",
-				"magnitude":"20.508",
+				"magnitude":"20.593",
 				"telescope":"MSSSO 1.3m",
 				"u_time":"MJD",
 				"source":"4"
@@ -344,6 +193,17 @@
 				"e_upper_magnitude":"0.177",
 				"instrument":"MaCHO",
 				"magnitude":"21.034",
+				"telescope":"MSSSO 1.3m",
+				"u_time":"MJD",
+				"source":"4"
+			},
+			{
+				"time":"50366.15",
+				"band":"RM",
+				"e_lower_magnitude":"0.179",
+				"e_upper_magnitude":"0.215",
+				"instrument":"MaCHO",
+				"magnitude":"20.508",
 				"telescope":"MSSSO 1.3m",
 				"u_time":"MJD",
 				"source":"4"
@@ -370,22 +230,22 @@
 			},
 			{
 				"time":"50369.05",
-				"band":"RM",
-				"e_lower_magnitude":"0.211",
-				"e_upper_magnitude":"0.262",
+				"band":"VM",
+				"e_lower_magnitude":"0.150",
+				"e_upper_magnitude":"0.174",
 				"instrument":"MaCHO",
-				"magnitude":"20.662",
+				"magnitude":"20.981",
 				"telescope":"MSSSO 1.3m",
 				"u_time":"MJD",
 				"source":"4"
 			},
 			{
 				"time":"50369.05",
-				"band":"VM",
-				"e_lower_magnitude":"0.150",
-				"e_upper_magnitude":"0.174",
+				"band":"RM",
+				"e_lower_magnitude":"0.211",
+				"e_upper_magnitude":"0.262",
 				"instrument":"MaCHO",
-				"magnitude":"20.981",
+				"magnitude":"20.662",
 				"telescope":"MSSSO 1.3m",
 				"u_time":"MJD",
 				"source":"4"
@@ -402,16 +262,6 @@
 			},
 			{
 				"time":"50369.64",
-				"band":"I",
-				"e_lower_magnitude":"0.226",
-				"e_upper_magnitude":"0.285",
-				"magnitude":"21.430",
-				"telescope":"CTIO",
-				"u_time":"MJD",
-				"source":"4"
-			},
-			{
-				"time":"50369.64",
 				"band":"V",
 				"e_lower_magnitude":"0.046",
 				"e_upper_magnitude":"0.048",
@@ -421,13 +271,12 @@
 				"source":"4"
 			},
 			{
-				"time":"50384.06",
-				"band":"RM",
-				"e_lower_magnitude":"0.355",
-				"e_upper_magnitude":"0.531",
-				"instrument":"MaCHO",
-				"magnitude":"21.205",
-				"telescope":"MSSSO 1.3m",
+				"time":"50369.64",
+				"band":"I",
+				"e_lower_magnitude":"0.226",
+				"e_upper_magnitude":"0.285",
+				"magnitude":"21.430",
+				"telescope":"CTIO",
 				"u_time":"MJD",
 				"source":"4"
 			},
@@ -438,6 +287,17 @@
 				"e_upper_magnitude":"0.250",
 				"instrument":"MaCHO",
 				"magnitude":"21.180",
+				"telescope":"MSSSO 1.3m",
+				"u_time":"MJD",
+				"source":"4"
+			},
+			{
+				"time":"50384.06",
+				"band":"RM",
+				"e_lower_magnitude":"0.355",
+				"e_upper_magnitude":"0.531",
+				"instrument":"MaCHO",
+				"magnitude":"21.205",
 				"telescope":"MSSSO 1.3m",
 				"u_time":"MJD",
 				"source":"4"
@@ -462,6 +322,12 @@
 				"telescope":"CTIO",
 				"u_time":"MJD",
 				"source":"4"
+			},
+			{
+				"time":"50359.5",
+				"magnitude":"20.5",
+				"u_time":"MJD",
+				"source":"7,8"
 			}
 		]
 	}

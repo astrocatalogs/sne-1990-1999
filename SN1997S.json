@@ -4,654 +4,489 @@
 		"name":"SN1997S",
 		"sources":[
 			{
-				"name":"2016A&A...594A..13P",
-				"bibcode":"2016A&A...594A..13P",
-				"reference":"Planck Collaboration et al. (2016)",
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
 				"alias":"1"
 			},
 			{
-				"name":"2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"reference":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"1997IAUC.6540Q...1S",
 				"alias":"2"
 			},
 			{
-				"name":"2011ApJ...737..103S",
-				"bibcode":"2011ApJ...737..103S",
-				"reference":"Schlafly & Finkbeiner (2011)",
+				"bibcode":"2008yCat....1.2024B",
 				"alias":"3"
 			},
 			{
-				"name":"2008yCat....1.2024B",
-				"bibcode":"2008yCat....1.2024B",
-				"reference":"Barbon et al. (2008)",
+				"bibcode":"2008ApJ...686..749K",
 				"alias":"4"
 			},
 			{
-				"name":"2008ApJ...686..749K",
-				"bibcode":"2008ApJ...686..749K",
-				"reference":"Kowalski et al. (2008)",
+				"name":"Asiago Supernova Catalogue",
+				"bibcode":"1989A&AS...81..421B",
+				"secondary":true,
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
 				"alias":"5"
-			},
-			{
-				"name":"1997IAUC.6540Q...1S",
-				"bibcode":"1997IAUC.6540Q...1S",
-				"reference":"Supernova Cosmology Project et al. (1997)",
-				"alias":"6"
-			},
-			{
-				"name":"IAUC 6540",
-				"bibcode":"1997IAUC.6540....1K",
-				"reference":"Supernova Cosmology Project et al. (1997)",
-				"url":"http://www.cbat.eps.harvard.edu/iauc/06500/06540.html",
-				"alias":"7"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il/",
-				"alias":"8"
+				"alias":"6"
 			},
 			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"9"
+				"alias":"7"
 			},
 			{
-				"name":"The Open Supernova Catalog",
-				"bibcode":"2017ApJ...835...64G",
-				"reference":"Guillochon et al. (2017)",
-				"secondary":true,
-				"url":"https://sne.space",
-				"alias":"10"
-			},
-			{
-				"name":"SIMBAD astronomical database",
-				"bibcode":"2000A&AS..143....9W",
-				"reference":"Wenger et al. (2000)",
-				"secondary":true,
-				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"11"
-			},
-			{
-				"name":"Asiago Supernova Catalogue",
-				"bibcode":"1989A&AS...81..421B",
-				"reference":"Barbon, Cappellaro, & Turatto (1989)",
-				"secondary":true,
-				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"12"
+				"name":"IAUC 6540",
+				"bibcode":"1997IAUC.6540....1K",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06500/06540.html",
+				"alias":"8"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1997S",
-				"source":"2,5,7,8,9,11,12"
+				"source":"1,4,5,6,7,8"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,4,7,8,9,11,12"
-			}
-		],
-		"comovingdist":[
-			{
-				"value":"2310",
-				"derived":true,
-				"u_value":"Mpc",
-				"source":"1,10,12"
+				"source":"1,3,5,6,7,8"
 			}
 		],
 		"dec":[
 			{
 				"value":"-03:45:46.9",
 				"u_value":"degrees",
-				"source":"2,6,7,9,11,12"
+				"source":"1,2,5,7,8"
 			},
 			{
 				"value":"-03:45:46.91",
 				"u_value":"degrees",
-				"source":"8"
+				"source":"6"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1997/01/06",
-				"source":"2,7,8,9,12"
+				"source":"5,6,7,8"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"SCP",
-				"source":"12"
+				"source":"5"
 			},
 			{
 				"value":"Supernova Cosmology Project",
-				"source":"7,9"
-			}
-		],
-		"ebv":[
-			{
-				"value":"0.0283",
-				"derived":true,
-				"e_value":"0.0012",
-				"source":"3,10"
+				"source":"7,8"
 			}
 		],
 		"host":[
 			{
 				"value":"A105751-0345",
-				"source":"12"
-			}
-		],
-		"hostcomovingdist":[
-			{
-				"value":"2310",
-				"derived":true,
-				"source":"1,10,12"
+				"source":"5"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-03:45:46",
 				"u_value":"degrees",
-				"source":"12"
-			},
-			{
-				"value":"-03:45:46.0",
-				"u_value":"degrees",
-				"source":"2"
-			}
-		],
-		"hostlumdist":[
-			{
-				"value":"3723",
-				"derived":true,
-				"source":"1,10,12"
-			}
-		],
-		"hostoffsetang":[
-			{
-				"value":"8.877",
-				"derived":true,
-				"u_value":"arcseconds",
-				"source":"2,6,7,8,9,10,11,12"
-			}
-		],
-		"hostoffsetdist":[
-			{
-				"value":"61.67",
-				"source":"1,2,6,7,8,9,10,11,12"
+				"source":"5"
 			}
 		],
 		"hostra":[
 			{
 				"value":"10:57:51",
 				"u_value":"hours",
-				"source":"12"
-			},
-			{
-				"value":"10:57:51.00",
-				"u_value":"hours",
-				"source":"2"
+				"source":"5"
 			}
 		],
 		"hostredshift":[
 			{
 				"value":"0.612",
-				"source":"12"
-			}
-		],
-		"hostvelocity":[
-			{
-				"value":"133000",
-				"source":"10"
-			}
-		],
-		"lumdist":[
-			{
-				"value":"3723",
-				"derived":true,
-				"u_value":"Mpc",
-				"source":"1,10,12"
-			}
-		],
-		"maxabsmag":[
-			{
-				"value":"-20.34",
-				"derived":true,
-				"source":"1,10,12"
-			}
-		],
-		"maxappmag":[
-			{
-				"value":"22",
-				"derived":true,
-				"source":"5,10"
-			}
-		],
-		"maxband":[
-			{
-				"value":"I",
-				"derived":true,
-				"source":"5,10"
-			}
-		],
-		"maxdate":[
-			{
-				"value":"1997/02/10",
-				"derived":true,
-				"source":"5,10"
-			}
-		],
-		"maxvisualabsmag":[
-			{
-				"value":"-19.85",
-				"derived":true,
-				"source":"1,10,12"
-			}
-		],
-		"maxvisualappmag":[
-			{
-				"value":"23",
-				"derived":true,
-				"source":"5,10"
-			}
-		],
-		"maxvisualband":[
-			{
-				"value":"R",
-				"derived":true,
-				"source":"5,10"
-			}
-		],
-		"maxvisualdate":[
-			{
-				"value":"1997/01/06",
-				"derived":true,
-				"source":"5,10"
+				"source":"5"
 			}
 		],
 		"ra":[
 			{
 				"value":"10:57:51.59",
 				"u_value":"hours",
-				"source":"2,6,7,8,9,11,12"
+				"source":"1,2,5,6,7,8"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.612",
 				"kind":"host",
-				"source":"12"
-			},
-			{
-				"value":"0.61",
-				"kind":"host",
-				"source":"2"
-			}
-		],
-		"velocity":[
-			{
-				"value":"133000",
-				"u_value":"km/s",
-				"source":"10"
+				"source":"5"
 			}
 		],
 		"photometry":[
 			{
 				"time":"50431.85",
 				"band":"R",
-				"counts":"99.0",
-				"e_counts":"57.0",
+				"countrate":"99.0",
+				"e_countrate":"57.0",
 				"e_upper_magnitude":"0.25",
 				"magnitude":"24",
 				"survey":"SCP",
-				"u_time":"MJD",
+				"u_time":"s^-1",
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
-				"source":"5"
-			},
-			{
-				"time":"50432.82",
-				"band":"R",
-				"counts":"110.0",
-				"e_counts":"58.0",
-				"e_upper_magnitude":"0.25",
-				"magnitude":"24",
-				"survey":"SCP",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"upperlimitsigma":"3.0",
-				"zeropoint":"30.0",
-				"source":"5"
-			},
-			{
-				"time":"50454.82",
-				"band":"R",
-				"counts":"650.0",
-				"e_counts":"40.0",
-				"e_lower_magnitude":"0.00",
-				"e_upper_magnitude":"0.00",
-				"magnitude":"23",
-				"survey":"SCP",
-				"u_time":"MJD",
-				"zeropoint":"30.0",
-				"source":"5"
-			},
-			{
-				"time":"50459.01",
-				"band":"R",
-				"counts":"550.0",
-				"e_counts":"45.0",
-				"e_lower_magnitude":"0.00",
-				"e_upper_magnitude":"0.25",
-				"magnitude":"23",
-				"survey":"SCP",
-				"u_time":"MJD",
-				"zeropoint":"30.0",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50459.04",
 				"band":"I",
-				"counts":"580.0",
-				"e_counts":"220.0",
+				"countrate":"580.0",
+				"e_countrate":"220.0",
 				"e_upper_magnitude":"0.25",
 				"magnitude":"23",
 				"survey":"SCP",
-				"u_time":"MJD",
+				"u_time":"s^-1",
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
-				"source":"5"
+				"source":"4"
 			},
 			{
-				"time":"50462.82",
+				"time":"50432.82",
 				"band":"R",
-				"counts":"680.0",
-				"e_counts":"40.0",
-				"e_lower_magnitude":"0.00",
+				"countrate":"110.0",
+				"e_countrate":"58.0",
 				"e_upper_magnitude":"0.25",
-				"magnitude":"23",
+				"magnitude":"24",
 				"survey":"SCP",
-				"u_time":"MJD",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
-				"source":"5"
-			},
-			{
-				"time":"50465.82",
-				"band":"R",
-				"counts":"590.0",
-				"e_counts":"72.0",
-				"e_lower_magnitude":"0.25",
-				"e_upper_magnitude":"0.00",
-				"magnitude":"23",
-				"survey":"SCP",
-				"u_time":"MJD",
-				"zeropoint":"30.0",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50465.96",
 				"band":"I",
-				"counts":"370.0",
-				"e_counts":"360.0",
+				"countrate":"370.0",
+				"e_countrate":"360.0",
 				"e_upper_magnitude":"0.25",
 				"magnitude":"22",
 				"survey":"SCP",
-				"u_time":"MJD",
+				"u_time":"s^-1",
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
-				"source":"5"
+				"source":"4"
+			},
+			{
+				"time":"50454.82",
+				"band":"R",
+				"countrate":"650.0",
+				"e_countrate":"40.0",
+				"e_lower_magnitude":"0.00",
+				"e_upper_magnitude":"0.00",
+				"magnitude":"23",
+				"survey":"SCP",
+				"u_time":"s^-1",
+				"zeropoint":"30.0",
+				"source":"4"
 			},
 			{
 				"time":"50466.92",
 				"band":"I",
-				"counts":"730.0",
-				"e_counts":"230.0",
+				"countrate":"730.0",
+				"e_countrate":"230.0",
 				"e_lower_magnitude":"0.50",
 				"e_upper_magnitude":"0.25",
 				"magnitude":"23",
 				"survey":"SCP",
-				"u_time":"MJD",
+				"u_time":"s^-1",
 				"zeropoint":"30.0",
-				"source":"5"
+				"source":"4"
 			},
 			{
-				"time":"50480.83",
+				"time":"50459.01",
 				"band":"R",
-				"counts":"220.0",
-				"e_counts":"30.0",
+				"countrate":"550.0",
+				"e_countrate":"45.0",
 				"e_lower_magnitude":"0.00",
 				"e_upper_magnitude":"0.25",
-				"magnitude":"24",
+				"magnitude":"23",
 				"survey":"SCP",
-				"u_time":"MJD",
+				"u_time":"s^-1",
 				"zeropoint":"30.0",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50480.86",
 				"band":"I",
-				"counts":"430.0",
-				"e_counts":"92.0",
+				"countrate":"430.0",
+				"e_countrate":"92.0",
 				"e_lower_magnitude":"0.25",
 				"e_upper_magnitude":"0.25",
 				"magnitude":"24",
 				"survey":"SCP",
-				"u_time":"MJD",
+				"u_time":"s^-1",
 				"zeropoint":"30.0",
-				"source":"5"
+				"source":"4"
 			},
 			{
-				"time":"50489.76",
+				"time":"50462.82",
 				"band":"R",
-				"counts":"240.0",
-				"e_counts":"33.0",
-				"e_lower_magnitude":"0.25",
-				"e_upper_magnitude":"0.00",
-				"magnitude":"24",
+				"countrate":"680.0",
+				"e_countrate":"40.0",
+				"e_lower_magnitude":"0.00",
+				"e_upper_magnitude":"0.25",
+				"magnitude":"23",
 				"survey":"SCP",
-				"u_time":"MJD",
+				"u_time":"s^-1",
 				"zeropoint":"30.0",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50489.79",
 				"band":"I",
-				"counts":"950.0",
-				"e_counts":"120.0",
+				"countrate":"950.0",
+				"e_countrate":"120.0",
 				"e_lower_magnitude":"0.25",
 				"e_upper_magnitude":"0.00",
 				"magnitude":"22",
 				"survey":"SCP",
-				"u_time":"MJD",
+				"u_time":"s^-1",
 				"zeropoint":"30.0",
-				"source":"5"
+				"source":"4"
 			},
 			{
-				"time":"50513.74",
+				"time":"50465.82",
 				"band":"R",
-				"counts":"41.0",
-				"e_counts":"30.0",
-				"e_upper_magnitude":"0.25",
-				"magnitude":"25",
+				"countrate":"590.0",
+				"e_countrate":"72.0",
+				"e_lower_magnitude":"0.25",
+				"e_upper_magnitude":"0.00",
+				"magnitude":"23",
 				"survey":"SCP",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"upperlimitsigma":"3.0",
+				"u_time":"s^-1",
 				"zeropoint":"30.0",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50513.78",
 				"band":"I",
-				"counts":"450.0",
-				"e_counts":"180.0",
+				"countrate":"450.0",
+				"e_countrate":"180.0",
 				"e_upper_magnitude":"0.25",
 				"magnitude":"23",
 				"survey":"SCP",
-				"u_time":"MJD",
+				"u_time":"s^-1",
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
-				"source":"5"
+				"source":"4"
 			},
 			{
-				"time":"50514.73",
+				"time":"50480.83",
 				"band":"R",
-				"counts":"68.0",
-				"e_counts":"61.0",
+				"countrate":"220.0",
+				"e_countrate":"30.0",
+				"e_lower_magnitude":"0.00",
 				"e_upper_magnitude":"0.25",
 				"magnitude":"24",
 				"survey":"SCP",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"upperlimitsigma":"3.0",
+				"u_time":"s^-1",
 				"zeropoint":"30.0",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50514.77",
 				"band":"I",
-				"counts":"640.0",
-				"e_counts":"110.0",
+				"countrate":"640.0",
+				"e_countrate":"110.0",
 				"e_lower_magnitude":"0.25",
 				"e_upper_magnitude":"0.25",
 				"magnitude":"23",
 				"survey":"SCP",
-				"u_time":"MJD",
+				"u_time":"s^-1",
 				"zeropoint":"30.0",
-				"source":"5"
+				"source":"4"
 			},
 			{
-				"time":"50517.76",
+				"time":"50489.76",
 				"band":"R",
-				"counts":"41.0",
-				"e_counts":"35.0",
-				"e_upper_magnitude":"0.25",
-				"magnitude":"25",
+				"countrate":"240.0",
+				"e_countrate":"33.0",
+				"e_lower_magnitude":"0.25",
+				"e_upper_magnitude":"0.00",
+				"magnitude":"24",
 				"survey":"SCP",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"upperlimitsigma":"3.0",
+				"u_time":"s^-1",
 				"zeropoint":"30.0",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50518.77",
 				"band":"I",
-				"counts":"400.0",
-				"e_counts":"150.0",
+				"countrate":"400.0",
+				"e_countrate":"150.0",
 				"e_upper_magnitude":"0.25",
 				"magnitude":"23",
 				"survey":"SCP",
-				"u_time":"MJD",
+				"u_time":"s^-1",
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
-				"source":"5"
+				"source":"4"
+			},
+			{
+				"time":"50513.74",
+				"band":"R",
+				"countrate":"41.0",
+				"e_countrate":"30.0",
+				"e_upper_magnitude":"0.25",
+				"magnitude":"25",
+				"survey":"SCP",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"30.0",
+				"source":"4"
+			},
+			{
+				"time":"50514.73",
+				"band":"R",
+				"countrate":"68.0",
+				"e_countrate":"61.0",
+				"e_upper_magnitude":"0.25",
+				"magnitude":"24",
+				"survey":"SCP",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"30.0",
+				"source":"4"
+			},
+			{
+				"time":"50517.76",
+				"band":"R",
+				"countrate":"41.0",
+				"e_countrate":"35.0",
+				"e_upper_magnitude":"0.25",
+				"magnitude":"25",
+				"survey":"SCP",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"30.0",
+				"source":"4"
 			},
 			{
 				"time":"50518.82",
 				"band":"R",
-				"counts":"51.0",
-				"e_counts":"46.0",
+				"countrate":"51.0",
+				"e_countrate":"46.0",
 				"e_upper_magnitude":"0.50",
 				"magnitude":"25",
 				"survey":"SCP",
-				"u_time":"MJD",
+				"u_time":"s^-1",
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50573.67",
 				"band":"R",
-				"counts":"89.0",
-				"e_counts":"45.0",
+				"countrate":"89.0",
+				"e_countrate":"45.0",
 				"e_upper_magnitude":"0.25",
 				"magnitude":"25",
 				"survey":"SCP",
-				"u_time":"MJD",
+				"u_time":"s^-1",
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50574.56",
 				"band":"R",
-				"counts":"77.0",
-				"e_counts":"56.0",
+				"countrate":"77.0",
+				"e_countrate":"56.0",
 				"e_upper_magnitude":"0.25",
 				"magnitude":"24",
 				"survey":"SCP",
-				"u_time":"MJD",
+				"u_time":"s^-1",
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50872.56",
 				"band":"R",
-				"counts":"3.3",
-				"e_counts":"59.0",
+				"countrate":"3.3",
+				"e_countrate":"59.0",
 				"e_upper_magnitude":"0.25",
 				"magnitude":"24",
 				"survey":"SCP",
-				"u_time":"MJD",
+				"u_time":"s^-1",
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50873.56",
 				"band":"R",
-				"counts":"16.0",
-				"e_counts":"66.0",
+				"countrate":"16.0",
+				"e_countrate":"66.0",
 				"e_upper_magnitude":"0.25",
 				"magnitude":"24",
 				"survey":"SCP",
-				"u_time":"MJD",
+				"u_time":"s^-1",
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50895.54",
 				"band":"R",
-				"counts":"66.0",
-				"e_counts":"59.0",
+				"countrate":"66.0",
+				"e_countrate":"59.0",
 				"e_upper_magnitude":"0.25",
 				"magnitude":"24",
 				"survey":"SCP",
-				"u_time":"MJD",
+				"u_time":"s^-1",
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"time":"50896.59",
 				"band":"R",
-				"counts":"110.0",
-				"e_counts":"54.0",
+				"countrate":"110.0",
+				"e_countrate":"54.0",
 				"e_upper_magnitude":"0.25",
 				"magnitude":"24",
 				"survey":"SCP",
-				"u_time":"MJD",
+				"u_time":"s^-1",
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
-				"source":"5"
+				"source":"4"
+			},
+			{
+				"time":"50453.5",
+				"magnitude":"23.6",
+				"u_time":"MJD",
+				"source":"7,8"
 			}
 		]
 	}
