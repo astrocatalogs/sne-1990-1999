@@ -55,18 +55,22 @@
 				"bibcode":"1991IAUC.5247....2B",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05200/05247.html",
 				"alias":"10"
+			},
+			{
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"11"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1991U",
-				"source":"1,10,4,5,7,8,9"
+				"source":"1,10,11,4,5,7,8,9"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,10,3,7,8,9"
+				"source":"1,10,11,3,7,8,9"
 			}
 		],
 		"dec":[
@@ -78,7 +82,7 @@
 			{
 				"value":"-26:06:28.7",
 				"u_value":"degrees",
-				"source":"10,7,9"
+				"source":"10,11,7,9"
 			},
 			{
 				"value":"-26:06:28.69",
@@ -105,7 +109,7 @@
 		"host":[
 			{
 				"value":"IC 4232",
-				"source":"10,7,8,9"
+				"source":"10,11,7,8,9"
 			}
 		],
 		"hostdec":[
@@ -113,6 +117,11 @@
 				"value":"-26:06:39",
 				"u_value":"degrees",
 				"source":"7"
+			},
+			{
+				"value":"-26:06:33.8",
+				"u_value":"degrees",
+				"source":"11"
 			}
 		],
 		"hostra":[
@@ -120,6 +129,17 @@
 				"value":"13:23:22",
 				"u_value":"hours",
 				"source":"7"
+			},
+			{
+				"value":"13:23:22.39",
+				"u_value":"hours",
+				"source":"11"
+			}
+		],
+		"hostredshift":[
+			{
+				"value":"0.031",
+				"source":"11"
 			}
 		],
 		"hostvelocity":[
@@ -129,10 +149,19 @@
 				"source":"7"
 			}
 		],
+		"lumdist":[
+			{
+				"value":"118",
+				"e_value":"2",
+				"kind":"host",
+				"u_value":"Mpc",
+				"source":"11"
+			}
+		],
 		"maxdate":[
 			{
 				"value":"1991/04/09",
-				"source":"7"
+				"source":"11,7"
 			}
 		],
 		"ra":[
@@ -144,7 +173,7 @@
 			{
 				"value":"13:23:22.20",
 				"u_value":"hours",
-				"source":"10,7,8,9"
+				"source":"10,11,7,8,9"
 			}
 		],
 		"redshift":[

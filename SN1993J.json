@@ -93,12 +93,16 @@
 				"bibcode":"1993IAUC.5731....1R",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05700/05731.html",
 				"alias":"19"
+			},
+			{
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"20"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1993J",
-				"source":"1,16,17,18,19,5,6"
+				"source":"1,16,17,18,19,20,5,6"
 			},
 			{
 				"value":"EQ 0951+692",
@@ -149,6 +153,10 @@
 			{
 				"value":"IIb",
 				"source":"1,16,17,18,19,3,5"
+			},
+			{
+				"value":"II",
+				"source":"20"
 			}
 		],
 		"dec":[
@@ -171,12 +179,17 @@
 				"value":"+69:01:13.0",
 				"u_value":"degrees",
 				"source":"18,19"
+			},
+			{
+				"value":"+69:01:13.4",
+				"u_value":"degrees",
+				"source":"20"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1993/03/28",
-				"source":"17,18,19"
+				"source":"17,18,19,20"
 			}
 		],
 		"discoverer":[
@@ -192,7 +205,7 @@
 		"host":[
 			{
 				"value":"NGC 3031",
-				"source":"16,17,5"
+				"source":"16,17,20,5"
 			},
 			{
 				"value":"M81",
@@ -204,6 +217,11 @@
 				"value":"+69:03:55",
 				"u_value":"degrees",
 				"source":"16"
+			},
+			{
+				"value":"+69:03:55.8",
+				"u_value":"degrees",
+				"source":"20"
 			}
 		],
 		"hostra":[
@@ -211,6 +229,17 @@
 				"value":"09:55:33",
 				"u_value":"hours",
 				"source":"16"
+			},
+			{
+				"value":"09:55:33.12",
+				"u_value":"hours",
+				"source":"20"
+			}
+		],
+		"hostredshift":[
+			{
+				"value":"-0.00012",
+				"source":"20"
 			}
 		],
 		"hostvelocity":[
@@ -220,10 +249,19 @@
 				"source":"16"
 			}
 		],
+		"lumdist":[
+			{
+				"value":"2.9",
+				"e_value":"0.4",
+				"kind":"host",
+				"u_value":"Mpc",
+				"source":"20"
+			}
+		],
 		"maxdate":[
 			{
 				"value":"1993/03/30",
-				"source":"16"
+				"source":"16,20"
 			}
 		],
 		"ra":[
@@ -235,12 +273,19 @@
 			{
 				"value":"09:55:24.95",
 				"u_value":"hours",
-				"source":"16"
+				"source":"16,20"
 			},
 			{
 				"value":"09:55:25.00",
 				"u_value":"hours",
 				"source":"17,18,19"
+			}
+		],
+		"redshift":[
+			{
+				"value":"-0.00012",
+				"kind":"host",
+				"source":"20"
 			}
 		],
 		"velocity":[

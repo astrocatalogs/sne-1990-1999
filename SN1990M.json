@@ -49,12 +49,16 @@
 				"bibcode":"1990IAUC.5033....5B",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05000/05033.html",
 				"alias":"9"
+			},
+			{
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"10"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1990M",
-				"source":"1,2,5,6,7,8,9"
+				"source":"1,10,2,5,6,7,8,9"
 			},
 			{
 				"value":"2MASS J14112938-0502369",
@@ -68,7 +72,7 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,4,6,7,8,9"
+				"source":"10,2,4,6,7,8,9"
 			}
 		],
 		"dec":[
@@ -91,12 +95,17 @@
 				"value":"-05:02:36.0",
 				"u_value":"degrees",
 				"source":"8,9"
+			},
+			{
+				"value":"-05:02:35.9",
+				"u_value":"degrees",
+				"source":"10"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1990/06/15",
-				"source":"6,7,8,9"
+				"source":"10,6,7,8,9"
 			}
 		],
 		"discoverer":[
@@ -118,7 +127,7 @@
 		"host":[
 			{
 				"value":"NGC 5493",
-				"source":"5,6,7,8,9"
+				"source":"10,5,6,7,8,9"
 			}
 		],
 		"hostdec":[
@@ -126,6 +135,11 @@
 				"value":"-05:02:39",
 				"u_value":"degrees",
 				"source":"6"
+			},
+			{
+				"value":"-05:02:36.9",
+				"u_value":"degrees",
+				"source":"10"
 			}
 		],
 		"hostra":[
@@ -133,6 +147,17 @@
 				"value":"14:11:29",
 				"u_value":"hours",
 				"source":"6"
+			},
+			{
+				"value":"14:11:29.39",
+				"u_value":"hours",
+				"source":"10"
+			}
+		],
+		"hostredshift":[
+			{
+				"value":"0.009",
+				"source":"10"
 			}
 		],
 		"hostvelocity":[
@@ -140,6 +165,21 @@
 				"value":"2627",
 				"kind":"host",
 				"source":"6"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"38",
+				"e_value":"14",
+				"kind":"host",
+				"u_value":"Mpc",
+				"source":"10"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"1990/06/15",
+				"source":"10"
 			}
 		],
 		"ra":[
@@ -151,7 +191,7 @@
 			{
 				"value":"14:11:29.22",
 				"u_value":"hours",
-				"source":"6"
+				"source":"10,6"
 			},
 			{
 				"value":"14:11:29.30",

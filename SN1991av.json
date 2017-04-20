@@ -41,12 +41,16 @@
 				"bibcode":"1991IAUC.5338....2M",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05300/05338.html",
 				"alias":"7"
+			},
+			{
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"8"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1991av",
-				"source":"1,4,5,6,7"
+				"source":"1,4,5,6,7,8"
 			},
 			{
 				"value":"2MASS J21560171+0059543",
@@ -60,7 +64,7 @@
 			},
 			{
 				"value":"II",
-				"source":"5,6,7"
+				"source":"5,6,7,8"
 			}
 		],
 		"dec":[
@@ -83,12 +87,17 @@
 				"value":"+00:59:54.0",
 				"u_value":"degrees",
 				"source":"6,7"
+			},
+			{
+				"value":"+00:59:59.0",
+				"u_value":"degrees",
+				"source":"8"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1991/09/04",
-				"source":"5,6,7"
+				"source":"5,6,7,8"
 			}
 		],
 		"discoverer":[
@@ -112,6 +121,11 @@
 				"value":"+00:59:54",
 				"u_value":"degrees",
 				"source":"4"
+			},
+			{
+				"value":"+00:59:54.0",
+				"u_value":"degrees",
+				"source":"8"
 			}
 		],
 		"hostra":[
@@ -119,12 +133,23 @@
 				"value":"21:56:01",
 				"u_value":"hours",
 				"source":"4"
+			},
+			{
+				"value":"21:56:01.00",
+				"u_value":"hours",
+				"source":"8"
+			}
+		],
+		"hostredshift":[
+			{
+				"value":"0.025",
+				"source":"8"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"1991/09",
-				"source":"4"
+				"value":"1991/09/04",
+				"source":"8"
 			}
 		],
 		"ra":[
@@ -142,6 +167,18 @@
 				"value":"21:56:01.70",
 				"u_value":"hours",
 				"source":"5,6,7"
+			},
+			{
+				"value":"21:56:02.23",
+				"u_value":"hours",
+				"source":"8"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.025",
+				"kind":"host",
+				"source":"8"
 			}
 		],
 		"photometry":[

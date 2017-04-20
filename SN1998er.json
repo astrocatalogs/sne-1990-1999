@@ -25,12 +25,16 @@
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il/",
 				"alias":"4"
+			},
+			{
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"5"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1998er",
-				"source":"1,3,4"
+				"source":"1,3,4,5"
 			},
 			{
 				"value":"MACHO 28.11278.2048",
@@ -45,7 +49,7 @@
 			{
 				"value":"-71:14:13.5",
 				"u_value":"degrees",
-				"source":"1,2,3"
+				"source":"1,2,3,5"
 			},
 			{
 				"value":"-71:14:13.49",
@@ -56,7 +60,7 @@
 		"discoverdate":[
 			{
 				"value":"1998/11/03",
-				"source":"3,4"
+				"source":"3,4,5"
 			}
 		],
 		"discoverer":[
@@ -69,6 +73,10 @@
 			{
 				"value":"GH09-02",
 				"source":"3"
+			},
+			{
+				"value":"GH9-2",
+				"source":"5"
 			}
 		],
 		"hostdec":[
@@ -76,6 +84,11 @@
 				"value":"-71:14:18",
 				"u_value":"degrees",
 				"source":"3"
+			},
+			{
+				"value":"-71:14:18.0",
+				"u_value":"degrees",
+				"source":"5"
 			}
 		],
 		"hostra":[
@@ -83,13 +96,27 @@
 				"value":"05:50:19",
 				"u_value":"hours",
 				"source":"3"
+			},
+			{
+				"value":"05:50:19.00",
+				"u_value":"hours",
+				"source":"5"
 			}
 		],
 		"ra":[
 			{
 				"value":"05:50:16.87",
 				"u_value":"hours",
-				"source":"1,2,3,4"
+				"source":"1,2,3,4,5"
+			}
+		],
+		"photometry":[
+			{
+				"time":"51120.0",
+				"band":"V",
+				"magnitude":"18.6",
+				"u_time":"MJD",
+				"source":"5"
 			}
 		]
 	}

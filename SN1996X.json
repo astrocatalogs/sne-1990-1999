@@ -74,12 +74,16 @@
 				"bibcode":"1996IAUC.6380....3H",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06300/06380.html#Item1",
 				"alias":"14"
+			},
+			{
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"15"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1996X",
-				"source":"1,11,12,13,14,2,5,7"
+				"source":"1,11,12,13,14,15,2,5,7"
 			},
 			{
 				"value":"AAVSO 1312-26",
@@ -89,14 +93,14 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"11,12,13,14,2,4"
+				"source":"11,12,13,14,15,2,4"
 			}
 		],
 		"dec":[
 			{
 				"value":"-26:50:45.3",
 				"u_value":"degrees",
-				"source":"11,13,14,2,3"
+				"source":"11,13,14,15,2,3"
 			},
 			{
 				"value":"-26:50:45.31",
@@ -107,7 +111,7 @@
 		"discoverdate":[
 			{
 				"value":"1996/04/12",
-				"source":"12,13,14"
+				"source":"12,13,14,15"
 			}
 		],
 		"discoverer":[
@@ -123,7 +127,7 @@
 		"host":[
 			{
 				"value":"NGC 5061",
-				"source":"11,12,13,14"
+				"source":"11,12,13,14,15"
 			}
 		],
 		"hostdec":[
@@ -131,6 +135,11 @@
 				"value":"-26:50:13",
 				"u_value":"degrees",
 				"source":"11"
+			},
+			{
+				"value":"-26:50:13.4",
+				"u_value":"degrees",
+				"source":"15"
 			}
 		],
 		"hostra":[
@@ -138,6 +147,17 @@
 				"value":"13:18:05",
 				"u_value":"hours",
 				"source":"11"
+			},
+			{
+				"value":"13:18:05.12",
+				"u_value":"hours",
+				"source":"15"
+			}
+		],
+		"hostredshift":[
+			{
+				"value":"0.0068",
+				"source":"15"
 			}
 		],
 		"hostvelocity":[
@@ -147,17 +167,33 @@
 				"source":"11"
 			}
 		],
+		"lumdist":[
+			{
+				"value":"21",
+				"e_value":"1",
+				"kind":"host",
+				"u_value":"Mpc",
+				"source":"15"
+			}
+		],
 		"maxdate":[
 			{
 				"value":"1996/04/18",
-				"source":"11"
+				"source":"11,15"
 			}
 		],
 		"ra":[
 			{
 				"value":"13:18:01.13",
 				"u_value":"hours",
-				"source":"11,12,13,14,2,3"
+				"source":"11,12,13,14,15,2,3"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.0068",
+				"kind":"host",
+				"source":"15"
 			}
 		],
 		"velocity":[

@@ -55,12 +55,16 @@
 				"bibcode":"1999IAUC.7288....3G",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07200/07288.html#Item1",
 				"alias":"10"
+			},
+			{
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"11"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1999el",
-				"source":"1,10,4,7,8,9"
+				"source":"1,10,11,4,7,8,9"
 			},
 			{
 				"value":"2MASS J20371802+6606118",
@@ -75,6 +79,10 @@
 			{
 				"value":"IIn",
 				"source":"1,10,3,7,8,9"
+			},
+			{
+				"value":"II",
+				"source":"11"
 			}
 		],
 		"dec":[
@@ -86,7 +94,7 @@
 			{
 				"value":"+66:06:11.5",
 				"u_value":"degrees",
-				"source":"10,7,9"
+				"source":"10,11,7,9"
 			},
 			{
 				"value":"+66:06:11.48",
@@ -97,7 +105,7 @@
 		"discoverdate":[
 			{
 				"value":"1999/10/20",
-				"source":"7,8"
+				"source":"11,7,8"
 			}
 		],
 		"discoverer":[
@@ -113,7 +121,7 @@
 		"host":[
 			{
 				"value":"NGC 6951",
-				"source":"10,7,8,9"
+				"source":"10,11,7,8,9"
 			}
 		],
 		"hostdec":[
@@ -121,6 +129,11 @@
 				"value":"+66:06:20",
 				"u_value":"degrees",
 				"source":"7"
+			},
+			{
+				"value":"+66:06:20.3",
+				"u_value":"degrees",
+				"source":"11"
 			}
 		],
 		"hostra":[
@@ -128,6 +141,17 @@
 				"value":"20:37:14",
 				"u_value":"hours",
 				"source":"7"
+			},
+			{
+				"value":"20:37:14.12",
+				"u_value":"hours",
+				"source":"11"
+			}
+		],
+		"hostredshift":[
+			{
+				"value":"0.0047",
+				"source":"11"
 			}
 		],
 		"hostvelocity":[
@@ -135,6 +159,21 @@
 				"value":"1331",
 				"kind":"host",
 				"source":"7"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"24",
+				"e_value":"2",
+				"kind":"host",
+				"u_value":"Mpc",
+				"source":"11"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"1999/11/08",
+				"source":"11"
 			}
 		],
 		"ra":[
@@ -146,7 +185,14 @@
 			{
 				"value":"20:37:17.72",
 				"u_value":"hours",
-				"source":"10,7,8,9"
+				"source":"10,11,7,8,9"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.0047",
+				"kind":"host",
+				"source":"11"
 			}
 		],
 		"velocity":[

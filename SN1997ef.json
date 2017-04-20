@@ -80,12 +80,16 @@
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
 				"alias":"16"
+			},
+			{
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"17"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1997ef",
-				"source":"1,12,14,15,16,4,5,6,8"
+				"source":"1,12,14,15,16,17,4,5,6,8"
 			}
 		],
 		"claimedtype":[
@@ -95,22 +99,26 @@
 			},
 			{
 				"value":"Ic Pec",
-				"source":"14,4"
+				"source":"14,17,4"
 			},
 			{
 				"value":"Ib",
-				"source":"15"
+				"source":"15,17"
 			},
 			{
 				"value":"Ic",
 				"source":"12,16"
+			},
+			{
+				"value":"Ib/c Pec",
+				"source":"17"
 			}
 		],
 		"dec":[
 			{
 				"value":"+49:33:41.3",
 				"u_value":"degrees",
-				"source":"1,14,2"
+				"source":"1,14,17,2"
 			},
 			{
 				"value":"+49:33:40.32",
@@ -131,7 +139,7 @@
 		"discoverdate":[
 			{
 				"value":"1997/11/25",
-				"source":"12,14,15,16"
+				"source":"12,14,15,16,17"
 			}
 		],
 		"discoverer":[
@@ -147,7 +155,7 @@
 		"host":[
 			{
 				"value":"UGC 4107",
-				"source":"12,14,15,16"
+				"source":"12,14,15,16,17"
 			}
 		],
 		"hostdec":[
@@ -160,6 +168,11 @@
 				"value":"+49:34:04",
 				"u_value":"degrees",
 				"source":"14"
+			},
+			{
+				"value":"+49:34:03.1",
+				"u_value":"degrees",
+				"source":"17"
 			}
 		],
 		"hostra":[
@@ -172,6 +185,11 @@
 				"value":"07:57:02",
 				"u_value":"hours",
 				"source":"14"
+			},
+			{
+				"value":"07:57:01.86",
+				"u_value":"hours",
+				"source":"17"
 			}
 		],
 		"hostredshift":[
@@ -187,11 +205,17 @@
 				"source":"14"
 			}
 		],
+		"maxdate":[
+			{
+				"value":"1997/12/09",
+				"source":"17"
+			}
+		],
 		"ra":[
 			{
 				"value":"07:57:02.87",
 				"u_value":"hours",
-				"source":"1,14,15,2"
+				"source":"1,14,15,17,2"
 			},
 			{
 				"value":"07:57:02.88",
@@ -209,6 +233,11 @@
 				"value":"0.01168",
 				"kind":"host",
 				"source":"4"
+			},
+			{
+				"value":"0.012",
+				"kind":"host",
+				"source":"17"
 			}
 		],
 		"velocity":[

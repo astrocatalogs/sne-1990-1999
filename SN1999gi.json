@@ -59,12 +59,16 @@
 				"bibcode":"1999IAUC.7329....3M",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07300/07329.html#Item1",
 				"alias":"11"
+			},
+			{
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"12"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1999gi",
-				"source":"1,10,11,4,5,8,9"
+				"source":"1,10,11,12,4,5,8,9"
 			},
 			{
 				"value":"d",
@@ -82,14 +86,14 @@
 			},
 			{
 				"value":"II",
-				"source":"10,11,9"
+				"source":"10,11,12,9"
 			}
 		],
 		"dec":[
 			{
 				"value":"+41:26:28.2",
 				"u_value":"degrees",
-				"source":"1,2,8"
+				"source":"1,12,2,8"
 			},
 			{
 				"value":"+41:26:28.21",
@@ -105,7 +109,7 @@
 		"discoverdate":[
 			{
 				"value":"1999/12/09",
-				"source":"10,11,9"
+				"source":"10,11,12,9"
 			}
 		],
 		"discoverer":[
@@ -127,7 +131,7 @@
 		"host":[
 			{
 				"value":"NGC 3184",
-				"source":"10,11,8,9"
+				"source":"10,11,12,8,9"
 			}
 		],
 		"hostdec":[
@@ -135,6 +139,11 @@
 				"value":"+41:25:28",
 				"u_value":"degrees",
 				"source":"8"
+			},
+			{
+				"value":"+41:25:27.9",
+				"u_value":"degrees",
+				"source":"12"
 			}
 		],
 		"hostra":[
@@ -142,12 +151,17 @@
 				"value":"10:18:17",
 				"u_value":"hours",
 				"source":"8"
+			},
+			{
+				"value":"10:18:16.98",
+				"u_value":"hours",
+				"source":"12"
 			}
 		],
 		"hostredshift":[
 			{
 				"value":"0.002",
-				"source":"4"
+				"source":"12,4"
 			}
 		],
 		"hostvelocity":[
@@ -157,17 +171,26 @@
 				"source":"8"
 			}
 		],
+		"lumdist":[
+			{
+				"value":"11",
+				"e_value":"1",
+				"kind":"host",
+				"u_value":"Mpc",
+				"source":"12"
+			}
+		],
 		"maxdate":[
 			{
 				"value":"1999/12/13",
-				"source":"8"
+				"source":"12,8"
 			}
 		],
 		"ra":[
 			{
 				"value":"10:18:16.66",
 				"u_value":"hours",
-				"source":"1,2,8,9"
+				"source":"1,12,2,8,9"
 			},
 			{
 				"value":"10:18:16.62",
@@ -179,6 +202,11 @@
 			{
 				"value":"0.0018",
 				"source":"10,11"
+			},
+			{
+				"value":"0.002",
+				"kind":"host",
+				"source":"12"
 			}
 		],
 		"velocity":[

@@ -74,18 +74,22 @@
 				"bibcode":"1993IAUC.5879....3Z",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05800/05879.html",
 				"alias":"14"
+			},
+			{
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"15"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1993ac",
-				"source":"1,11,12,13,14,4,5,6,7,9"
+				"source":"1,11,12,13,14,15,4,5,6,7,9"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,11,12,13,14,3"
+				"source":"1,11,12,13,14,15,3"
 			},
 			{
 				"value":"Ia-HV",
@@ -96,7 +100,7 @@
 			{
 				"value":"+63:22:07.1",
 				"u_value":"degrees",
-				"source":"1,2"
+				"source":"1,15,2"
 			},
 			{
 				"value":"+63:22:07.09",
@@ -117,7 +121,7 @@
 		"discoverdate":[
 			{
 				"value":"1993/10/13",
-				"source":"12,13,14"
+				"source":"12,13,14,15"
 			}
 		],
 		"discoverer":[
@@ -143,7 +147,7 @@
 			},
 			{
 				"value":"PGC 17787",
-				"source":"11"
+				"source":"11,15"
 			}
 		],
 		"hostdec":[
@@ -151,6 +155,11 @@
 				"value":"+63:21:33",
 				"u_value":"degrees",
 				"source":"11"
+			},
+			{
+				"value":"+63:21:32.9",
+				"u_value":"degrees",
+				"source":"15"
 			}
 		],
 		"hostra":[
@@ -158,6 +167,17 @@
 				"value":"05:46:25",
 				"u_value":"hours",
 				"source":"11"
+			},
+			{
+				"value":"05:46:24.55",
+				"u_value":"hours",
+				"source":"15"
+			}
+		],
+		"hostredshift":[
+			{
+				"value":"0.049",
+				"source":"15"
 			}
 		],
 		"hostvelocity":[
@@ -167,17 +187,26 @@
 				"source":"11"
 			}
 		],
+		"lumdist":[
+			{
+				"value":"204",
+				"e_value":"26",
+				"kind":"host",
+				"u_value":"Mpc",
+				"source":"15"
+			}
+		],
 		"maxdate":[
 			{
 				"value":"1993/10/10",
-				"source":"11"
+				"source":"11,15"
 			}
 		],
 		"ra":[
 			{
 				"value":"05:46:23.58",
 				"u_value":"hours",
-				"source":"1,11,2"
+				"source":"1,11,15,2"
 			},
 			{
 				"value":"05:46:23.55",
@@ -195,6 +224,11 @@
 				"value":"0.049",
 				"kind":"spectroscopic",
 				"source":"6"
+			},
+			{
+				"value":"0.049",
+				"kind":"host",
+				"source":"15"
 			}
 		],
 		"velocity":[

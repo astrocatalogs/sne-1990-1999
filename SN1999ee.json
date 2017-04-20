@@ -65,12 +65,16 @@
 				"bibcode":"1999IAUC.7272....3F",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07200/07272.html#Item1",
 				"alias":"12"
+			},
+			{
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"13"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1999ee",
-				"source":"1,10,11,12,4,6,7,9"
+				"source":"1,10,11,12,13,4,6,7,9"
 			},
 			{
 				"value":"AAVSO 2210-37",
@@ -80,7 +84,7 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,10,11,12,3,6,9"
+				"source":"1,10,11,12,13,3,6,9"
 			}
 		],
 		"dec":[
@@ -92,7 +96,7 @@
 			{
 				"value":"-36:50:39.7",
 				"u_value":"degrees",
-				"source":"11,12,9"
+				"source":"11,12,13,9"
 			},
 			{
 				"value":"-36:50:39.70",
@@ -103,7 +107,7 @@
 		"discoverdate":[
 			{
 				"value":"1999/10/07",
-				"source":"10,11,12"
+				"source":"10,11,12,13"
 			}
 		],
 		"discoverer":[
@@ -125,7 +129,7 @@
 		"host":[
 			{
 				"value":"IC 5179",
-				"source":"10,11,12,4,6,9"
+				"source":"10,11,12,13,4,6,9"
 			}
 		],
 		"hostdec":[
@@ -133,6 +137,11 @@
 				"value":"-36:50:37",
 				"u_value":"degrees",
 				"source":"9"
+			},
+			{
+				"value":"-36:50:37.3",
+				"u_value":"degrees",
+				"source":"13"
 			}
 		],
 		"hostra":[
@@ -140,6 +149,17 @@
 				"value":"22:16:09",
 				"u_value":"hours",
 				"source":"9"
+			},
+			{
+				"value":"22:16:09.16",
+				"u_value":"hours",
+				"source":"13"
+			}
+		],
+		"hostredshift":[
+			{
+				"value":"0.011",
+				"source":"13"
 			}
 		],
 		"hostvelocity":[
@@ -149,10 +169,19 @@
 				"source":"9"
 			}
 		],
+		"lumdist":[
+			{
+				"value":"41",
+				"e_value":"2",
+				"kind":"host",
+				"u_value":"Mpc",
+				"source":"13"
+			}
+		],
 		"maxdate":[
 			{
 				"value":"1999/10/18",
-				"source":"9"
+				"source":"13,9"
 			}
 		],
 		"ra":[
@@ -164,7 +193,7 @@
 			{
 				"value":"22:16:10.00",
 				"u_value":"hours",
-				"source":"10,11,12,9"
+				"source":"10,11,12,13,9"
 			}
 		],
 		"redshift":[

@@ -45,25 +45,29 @@
 				"bibcode":"1998IAUC.6881....1G",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06800/06881.html",
 				"alias":"8"
+			},
+			{
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"9"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1998be",
-				"source":"1,4,5,6,7,8"
+				"source":"1,4,5,6,7,8,9"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,3,5,6,7,8"
+				"source":"1,3,5,6,7,8,9"
 			}
 		],
 		"dec":[
 			{
 				"value":"+02:02:40.4",
 				"u_value":"degrees",
-				"source":"1,2,5,7,8"
+				"source":"1,2,5,7,8,9"
 			},
 			{
 				"value":"+02:02:40.42",
@@ -74,7 +78,7 @@
 		"discoverdate":[
 			{
 				"value":"1998/03/22",
-				"source":"5,6,7,8"
+				"source":"5,6,7,8,9"
 			}
 		],
 		"discoverer":[
@@ -98,6 +102,11 @@
 				"value":"+02:02:40",
 				"u_value":"degrees",
 				"source":"5"
+			},
+			{
+				"value":"+02:02:40.0",
+				"u_value":"degrees",
+				"source":"9"
 			}
 		],
 		"hostra":[
@@ -105,19 +114,24 @@
 				"value":"13:46:20",
 				"u_value":"hours",
 				"source":"5"
+			},
+			{
+				"value":"13:46:20.00",
+				"u_value":"hours",
+				"source":"9"
 			}
 		],
 		"hostredshift":[
 			{
 				"value":"0.64",
-				"source":"5"
+				"source":"5,9"
 			}
 		],
 		"ra":[
 			{
 				"value":"13:46:20.89",
 				"u_value":"hours",
-				"source":"1,2,5,6,7,8"
+				"source":"1,2,5,6,7,8,9"
 			}
 		],
 		"redshift":[
@@ -125,6 +139,11 @@
 				"value":"0.644",
 				"kind":"spectroscopic",
 				"source":"4"
+			},
+			{
+				"value":"0.64",
+				"kind":"host",
+				"source":"9"
 			}
 		],
 		"photometry":[

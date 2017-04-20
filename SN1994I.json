@@ -93,12 +93,16 @@
 				"bibcode":"1994IAUC.5961....2H",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/05900/05961.html",
 				"alias":"19"
+			},
+			{
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"20"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1994I",
-				"source":"1,16,17,18,19,4,6,7"
+				"source":"1,16,17,18,19,20,4,6,7"
 			},
 			{
 				"value":"AAVSO 1325+47",
@@ -108,7 +112,7 @@
 		"claimedtype":[
 			{
 				"value":"Ic",
-				"source":"1,16,17,3,4,6"
+				"source":"1,16,17,20,3,4,6"
 			},
 			{
 				"value":"Ic?",
@@ -130,12 +134,17 @@
 				"value":"+47:11:31.7",
 				"u_value":"degrees",
 				"source":"18,19"
+			},
+			{
+				"value":"+47:11:30.5",
+				"u_value":"degrees",
+				"source":"20"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1994/04/02",
-				"source":"17,18,19"
+				"source":"17,18,19,20"
 			}
 		],
 		"discoverer":[
@@ -151,7 +160,7 @@
 		"host":[
 			{
 				"value":"NGC 5194",
-				"source":"16,17,6"
+				"source":"16,17,20,6"
 			},
 			{
 				"value":"M51",
@@ -163,6 +172,11 @@
 				"value":"+47:11:43",
 				"u_value":"degrees",
 				"source":"16"
+			},
+			{
+				"value":"+47:11:42.7",
+				"u_value":"degrees",
+				"source":"20"
 			}
 		],
 		"hostra":[
@@ -170,6 +184,17 @@
 				"value":"13:29:53",
 				"u_value":"hours",
 				"source":"16"
+			},
+			{
+				"value":"13:29:52.71",
+				"u_value":"hours",
+				"source":"20"
+			}
+		],
+		"hostredshift":[
+			{
+				"value":"0.0015",
+				"source":"20"
 			}
 		],
 		"hostvelocity":[
@@ -179,10 +204,19 @@
 				"source":"16"
 			}
 		],
+		"lumdist":[
+			{
+				"value":"6.1",
+				"e_value":"0.9",
+				"kind":"host",
+				"u_value":"Mpc",
+				"source":"20"
+			}
+		],
 		"maxdate":[
 			{
 				"value":"1994/04/09",
-				"source":"16"
+				"source":"16,20"
 			}
 		],
 		"ra":[
@@ -195,6 +229,11 @@
 				"value":"13:29:54.01",
 				"u_value":"hours",
 				"source":"17,18,19"
+			},
+			{
+				"value":"13:29:54.07",
+				"u_value":"hours",
+				"source":"20"
 			}
 		],
 		"redshift":[
@@ -202,6 +241,11 @@
 				"value":"0.0015",
 				"kind":"heliocentric",
 				"source":"6"
+			},
+			{
+				"value":"0.0015",
+				"kind":"host",
+				"source":"20"
 			}
 		],
 		"velocity":[

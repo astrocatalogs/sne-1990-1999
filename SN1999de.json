@@ -37,12 +37,16 @@
 				"bibcode":"1999IAUC.7227....2A",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07200/07227.html#Item1",
 				"alias":"6"
+			},
+			{
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"7"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1999de",
-				"source":"1,3,4,5,6"
+				"source":"1,3,4,5,6,7"
 			},
 			{
 				"value":"WOOTS J002228+232356",
@@ -59,7 +63,7 @@
 			{
 				"value":"+23:23:56.2",
 				"u_value":"degrees",
-				"source":"1,2,3,5,6"
+				"source":"1,2,3,5,6,7"
 			},
 			{
 				"value":"+23:23:56.18",
@@ -70,7 +74,7 @@
 		"discoverdate":[
 			{
 				"value":"1999/07/11",
-				"source":"3,4,5,6"
+				"source":"3,4,5,6,7"
 			}
 		],
 		"discoverer":[
@@ -94,6 +98,11 @@
 				"value":"+23:23:56",
 				"u_value":"degrees",
 				"source":"3"
+			},
+			{
+				"value":"+23:23:56.0",
+				"u_value":"degrees",
+				"source":"7"
 			}
 		],
 		"hostra":[
@@ -101,13 +110,31 @@
 				"value":"00:22:28",
 				"u_value":"hours",
 				"source":"3"
+			},
+			{
+				"value":"00:22:28.00",
+				"u_value":"hours",
+				"source":"7"
+			}
+		],
+		"hostredshift":[
+			{
+				"value":"0.13",
+				"source":"7"
 			}
 		],
 		"ra":[
 			{
 				"value":"00:22:28.20",
 				"u_value":"hours",
-				"source":"1,2,3,4,5,6"
+				"source":"1,2,3,4,5,6,7"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.13",
+				"kind":"host",
+				"source":"7"
 			}
 		],
 		"photometry":[

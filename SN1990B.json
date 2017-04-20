@@ -67,22 +67,26 @@
 				"bibcode":"1990IAUC.4949....2S",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/04900/04949.html",
 				"alias":"13"
+			},
+			{
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"14"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1990B",
-				"source":"1,10,11,12,13,4,5,6"
+				"source":"1,10,11,12,13,14,4,5,6"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ic",
-				"source":"1,10,3,5"
+				"source":"1,10,14,3,5"
 			},
 			{
 				"value":"Ib",
-				"source":"11,12,13,4"
+				"source":"11,12,13,14,4"
 			}
 		],
 		"dec":[
@@ -110,12 +114,17 @@
 				"value":"+11:14:30.1",
 				"u_value":"degrees",
 				"source":"12,13"
+			},
+			{
+				"value":"+11:14:29.8",
+				"u_value":"degrees",
+				"source":"14"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1990/01/20",
-				"source":"11,12,13"
+				"source":"11,12,13,14"
 			}
 		],
 		"discoverer":[
@@ -131,7 +140,7 @@
 		"host":[
 			{
 				"value":"NGC 4568",
-				"source":"10,11,12,13"
+				"source":"10,11,12,13,14"
 			}
 		],
 		"hostdec":[
@@ -144,6 +153,11 @@
 				"value":"+11:14:15",
 				"u_value":"degrees",
 				"source":"10"
+			},
+			{
+				"value":"+11:14:19.7",
+				"u_value":"degrees",
+				"source":"14"
 			}
 		],
 		"hostra":[
@@ -156,6 +170,11 @@
 				"value":"12:36:35",
 				"u_value":"hours",
 				"source":"10"
+			},
+			{
+				"value":"12:36:34.31",
+				"u_value":"hours",
+				"source":"14"
 			}
 		],
 		"hostredshift":[
@@ -171,10 +190,19 @@
 				"source":"10"
 			}
 		],
+		"lumdist":[
+			{
+				"value":"24",
+				"e_value":"2",
+				"kind":"host",
+				"u_value":"Mpc",
+				"source":"14"
+			}
+		],
 		"maxdate":[
 			{
 				"value":"1990/01/18",
-				"source":"10"
+				"source":"10,14"
 			}
 		],
 		"ra":[
@@ -191,7 +219,7 @@
 			{
 				"value":"12:36:33.83",
 				"u_value":"hours",
-				"source":"10"
+				"source":"10,14"
 			},
 			{
 				"value":"12:36:33.87",
@@ -204,6 +232,11 @@
 				"value":"0.00744",
 				"kind":"host",
 				"source":"4"
+			},
+			{
+				"value":"0.0075",
+				"kind":"host",
+				"source":"14"
 			}
 		],
 		"velocity":[

@@ -41,18 +41,26 @@
 				"bibcode":"1996IAUC.6409....2L",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06400/06409.html#Item1",
 				"alias":"7"
+			},
+			{
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"8"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1996ae",
-				"source":"1,4,5,6,7"
+				"source":"1,4,5,6,7,8"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"IIn",
 				"source":"1,3,4,5,6,7"
+			},
+			{
+				"value":"II",
+				"source":"8"
 			}
 		],
 		"dec":[
@@ -70,12 +78,17 @@
 				"value":"+03:31:46.31",
 				"u_value":"degrees",
 				"source":"5"
+			},
+			{
+				"value":"+03:31:46.0",
+				"u_value":"degrees",
+				"source":"8"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1996/05/21",
-				"source":"4,5,6,7"
+				"source":"4,5,6,7,8"
 			}
 		],
 		"discoverer":[
@@ -91,7 +104,7 @@
 		"host":[
 			{
 				"value":"NGC 5775",
-				"source":"4,5,6,7"
+				"source":"4,5,6,7,8"
 			}
 		],
 		"hostdec":[
@@ -99,6 +112,11 @@
 				"value":"+03:32:40",
 				"u_value":"degrees",
 				"source":"4"
+			},
+			{
+				"value":"+03:32:40.1",
+				"u_value":"degrees",
+				"source":"8"
 			}
 		],
 		"hostra":[
@@ -106,6 +124,17 @@
 				"value":"14:53:58",
 				"u_value":"hours",
 				"source":"4"
+			},
+			{
+				"value":"14:53:57.61",
+				"u_value":"hours",
+				"source":"8"
+			}
+		],
+		"hostredshift":[
+			{
+				"value":"0.0056",
+				"source":"8"
 			}
 		],
 		"hostvelocity":[
@@ -115,11 +144,27 @@
 				"source":"4"
 			}
 		],
+		"lumdist":[
+			{
+				"value":"26",
+				"e_value":"9",
+				"kind":"host",
+				"u_value":"Mpc",
+				"source":"8"
+			}
+		],
 		"ra":[
 			{
 				"value":"14:53:59.81",
 				"u_value":"hours",
-				"source":"1,2,4,5,6,7"
+				"source":"1,2,4,5,6,7,8"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.0056",
+				"kind":"host",
+				"source":"8"
 			}
 		],
 		"velocity":[
