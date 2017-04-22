@@ -1,0 +1,71 @@
+{
+	"GRB 980322A":{
+		"schema":"https://github.com/astrocatalogs/supernovae/blob/a0bc0b9/SCHEMA.md",
+		"name":"GRB 980322A",
+		"sources":[
+			{
+				"name":"2011ApJ...737..103S",
+				"bibcode":"2011ApJ...737..103S",
+				"reference":"Schlafly & Finkbeiner (2011)",
+				"alias":"1"
+			},
+			{
+				"name":"BATSE Catalog",
+				"bibcode":"1999ApJS..122..465P",
+				"reference":"Paciesas et al. (1999)",
+				"url":"http://gammaray.nsstc.nasa.gov/batse/grb/catalog/",
+				"alias":"2"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2017ApJ...835...64G",
+				"reference":"Guillochon et al. (2017)",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"3"
+			}
+		],
+		"alias":[
+			{
+				"value":"GRB 980322A",
+				"source":"2"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"LGRB",
+				"source":"2"
+			}
+		],
+		"dec":[
+			{
+				"value":"+61:42:00",
+				"e_value":"7884",
+				"u_value":"degrees",
+				"source":"2"
+			}
+		],
+		"discoverdate":[
+			{
+				"value":"1998/03/22",
+				"source":"2"
+			}
+		],
+		"ebv":[
+			{
+				"value":"1.1933",
+				"derived":true,
+				"e_value":"0.0814",
+				"source":"1,3"
+			}
+		],
+		"ra":[
+			{
+				"value":"02:16:07.2",
+				"e_value":"7884",
+				"u_value":"hours",
+				"source":"2"
+			}
+		]
+	}
+}

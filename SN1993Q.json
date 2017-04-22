@@ -4,113 +4,175 @@
 		"name":"SN1993Q",
 		"sources":[
 			{
-				"name":"Asiago Supernova Catalogue",
-				"bibcode":"1989A&AS...81..421B",
-				"secondary":true,
-				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"name":"2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"reference":"Lennarz, Altmann, & Wiebusch (2012)",
 				"alias":"1"
+			},
+			{
+				"name":"2011ApJ...737..103S",
+				"bibcode":"2011ApJ...737..103S",
+				"reference":"Schlafly & Finkbeiner (2011)",
+				"alias":"2"
+			},
+			{
+				"name":"IAUC 5809",
+				"bibcode":"1993IAUC.5809....2B",
+				"reference":"Benetti et al. (1993)",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/05800/05809.html",
+				"alias":"3"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il/",
-				"alias":"2"
+				"alias":"4"
 			},
 			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3"
-			},
-			{
-				"name":"IAUC 5809",
-				"bibcode":"1993IAUC.5809....2B",
-				"url":"http://www.cbat.eps.harvard.edu/iauc/05800/05809.html",
-				"alias":"4"
-			},
-			{
-				"bibcode":"2012A&A...538A.120L",
 				"alias":"5"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2017ApJ...835...64G",
+				"reference":"Guillochon et al. (2017)",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"6"
+			},
+			{
+				"name":"Asiago Supernova Catalogue",
+				"bibcode":"1989A&AS...81..421B",
+				"reference":"Barbon, Cappellaro, & Turatto (1989)",
+				"secondary":true,
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"7"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1993Q",
-				"source":"1,2,3,4,5"
+				"source":"1,3,4,5,7"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2,3,4,5"
+				"source":"1,3,4,5,7"
 			}
 		],
 		"dec":[
 			{
 				"value":"-42:47:33.4",
 				"u_value":"degrees",
-				"source":"1,3,4,5"
+				"source":"1,3,5,7"
 			},
 			{
 				"value":"-42:47:33.40",
 				"u_value":"degrees",
-				"source":"2"
+				"source":"4"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1993/05/28",
-				"source":"1,2,3,4,5"
+				"source":"1,3,4,5,7"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"McNaught",
-				"source":"1"
+				"source":"7"
 			},
 			{
 				"value":"Robert McNaught",
-				"source":"3,4"
+				"source":"3,5"
+			}
+		],
+		"ebv":[
+			{
+				"value":"0.0389",
+				"derived":true,
+				"e_value":"0.0009",
+				"source":"2,6"
 			}
 		],
 		"host":[
 			{
 				"value":"A203546-4247",
-				"source":"1"
+				"source":"7"
 			},
 			{
 				"value":"PGC 557964",
-				"source":"5"
+				"source":"1"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-42:47:33",
 				"u_value":"degrees",
-				"source":"1"
+				"source":"7"
 			},
 			{
 				"value":"-42:47:33.0",
 				"u_value":"degrees",
-				"source":"5"
+				"source":"1"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"10.35",
+				"derived":true,
+				"u_value":"arcseconds",
+				"source":"1,3,4,5,6,7"
 			}
 		],
 		"hostra":[
 			{
 				"value":"20:35:46",
 				"u_value":"hours",
-				"source":"1"
+				"source":"7"
 			},
 			{
 				"value":"20:35:46.00",
 				"u_value":"hours",
-				"source":"5"
+				"source":"1"
+			}
+		],
+		"maxappmag":[
+			{
+				"value":"19",
+				"derived":true,
+				"source":"3,5,6"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"1993/05/27",
+				"derived":true,
+				"source":"3,5,6"
+			}
+		],
+		"maxvisualappmag":[
+			{
+				"value":"19",
+				"derived":true,
+				"source":"3,5,6"
+			}
+		],
+		"maxvisualdate":[
+			{
+				"value":"1993/05/27",
+				"derived":true,
+				"source":"3,5,6"
 			}
 		],
 		"ra":[
 			{
 				"value":"20:35:46.94",
 				"u_value":"hours",
-				"source":"1,2,3,4,5"
+				"source":"1,3,4,5,7"
 			}
 		],
 		"photometry":[
@@ -118,7 +180,7 @@
 				"time":"49134.5",
 				"magnitude":"19.0",
 				"u_time":"MJD",
-				"source":"3,4"
+				"source":"3,5"
 			}
 		]
 	}
