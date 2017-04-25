@@ -1,6 +1,6 @@
 {
 	"SN1997N":{
-		"schema":"https://github.com/astrocatalogs/supernovae/blob/a0bc0b9/SCHEMA.md",
+		"schema":"https://github.com/astrocatalogs/supernovae/blob/5d080fc/SCHEMA.md",
 		"name":"SN1997N",
 		"sources":[
 			{
@@ -241,44 +241,58 @@
 		],
 		"maxabsmag":[
 			{
-				"value":"-18.4",
+				"value":"-19.6",
 				"derived":true,
 				"source":"1,7,12"
 			}
 		],
 		"maxappmag":[
 			{
-				"value":"21.2",
+				"value":"20",
 				"derived":true,
-				"source":"9,11,12"
+				"source":"6,12"
+			}
+		],
+		"maxband":[
+			{
+				"value":"R",
+				"derived":true,
+				"source":"6,12"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"1997/01/04",
+				"value":"1997/01/05",
 				"derived":true,
-				"source":"9,11,12"
+				"source":"6,12"
 			}
 		],
 		"maxvisualabsmag":[
 			{
-				"value":"-18.6",
+				"value":"-19.8",
 				"derived":true,
 				"source":"1,7,12"
 			}
 		],
 		"maxvisualappmag":[
 			{
-				"value":"21.2",
+				"value":"20",
 				"derived":true,
-				"source":"9,11,12"
+				"source":"6,12"
+			}
+		],
+		"maxvisualband":[
+			{
+				"value":"R",
+				"derived":true,
+				"source":"6,12"
 			}
 		],
 		"maxvisualdate":[
 			{
-				"value":"1997/01/04",
+				"value":"1997/01/05",
 				"derived":true,
-				"source":"9,11,12"
+				"source":"6,12"
 			}
 		],
 		"ra":[
@@ -320,7 +334,8 @@
 				"e_upper_magnitude":"0.300",
 				"magnitude":"24.4",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
@@ -334,7 +349,8 @@
 				"e_upper_magnitude":"0.25",
 				"magnitude":"24",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
@@ -348,7 +364,8 @@
 				"e_upper_magnitude":"0.25",
 				"magnitude":"24",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
@@ -362,7 +379,8 @@
 				"e_upper_magnitude":"0.25",
 				"magnitude":"24",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
@@ -376,7 +394,8 @@
 				"e_upper_magnitude":"0.300",
 				"magnitude":"24.8",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
@@ -390,7 +409,8 @@
 				"e_upper_magnitude":"0.300",
 				"magnitude":"23.8",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
@@ -404,7 +424,8 @@
 				"e_upper_magnitude":"0.325",
 				"magnitude":"24.2",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
@@ -418,7 +439,8 @@
 				"e_upper_magnitude":"0.25",
 				"magnitude":"25",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
@@ -433,7 +455,8 @@
 				"e_upper_magnitude":"0.00",
 				"magnitude":"21",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"zeropoint":"30.0",
 				"source":"6"
 			},
@@ -446,15 +469,10 @@
 				"e_upper_magnitude":"0.00",
 				"magnitude":"21",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"zeropoint":"30.0",
 				"source":"6"
-			},
-			{
-				"time":"50452.5",
-				"magnitude":"21.2",
-				"u_time":"MJD",
-				"source":"9,11"
 			},
 			{
 				"time":"50453.79",
@@ -465,7 +483,8 @@
 				"e_upper_magnitude":"0.00",
 				"magnitude":"20",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"zeropoint":"30.0",
 				"source":"6"
 			},
@@ -478,7 +497,8 @@
 				"e_upper_magnitude":"0.00",
 				"magnitude":"20",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"zeropoint":"30.0",
 				"source":"6"
 			},
@@ -491,7 +511,8 @@
 				"e_upper_magnitude":"0.00",
 				"magnitude":"21",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"zeropoint":"30.0",
 				"source":"6"
 			},
@@ -504,7 +525,8 @@
 				"e_upper_magnitude":"0.00",
 				"magnitude":"21",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"zeropoint":"30.0",
 				"source":"6"
 			},
@@ -517,7 +539,8 @@
 				"e_upper_magnitude":"0.25",
 				"magnitude":"21",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"zeropoint":"30.0",
 				"source":"6"
 			},
@@ -530,7 +553,8 @@
 				"e_upper_magnitude":"0.00",
 				"magnitude":"21",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"zeropoint":"30.0",
 				"source":"6"
 			},
@@ -543,7 +567,8 @@
 				"e_upper_magnitude":"0.25",
 				"magnitude":"21",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"zeropoint":"30.0",
 				"source":"6"
 			},
@@ -556,7 +581,8 @@
 				"e_upper_magnitude":"0.00",
 				"magnitude":"21",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"zeropoint":"30.0",
 				"source":"6"
 			},
@@ -569,7 +595,8 @@
 				"e_upper_magnitude":"0.25",
 				"magnitude":"21",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"zeropoint":"30.0",
 				"source":"6"
 			},
@@ -582,7 +609,8 @@
 				"e_upper_magnitude":"0.00",
 				"magnitude":"22",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"zeropoint":"30.0",
 				"source":"6"
 			},
@@ -595,7 +623,8 @@
 				"e_upper_magnitude":"0.00",
 				"magnitude":"22",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"zeropoint":"30.0",
 				"source":"6"
 			},
@@ -608,7 +637,8 @@
 				"e_upper_magnitude":"0.00",
 				"magnitude":"22",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"zeropoint":"30.0",
 				"source":"6"
 			},
@@ -621,7 +651,8 @@
 				"e_upper_magnitude":"0.25",
 				"magnitude":"22",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"zeropoint":"30.0",
 				"source":"6"
 			},
@@ -634,7 +665,8 @@
 				"e_upper_magnitude":"0.00",
 				"magnitude":"23",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"zeropoint":"30.0",
 				"source":"6"
 			},
@@ -647,7 +679,8 @@
 				"e_upper_magnitude":"0.00",
 				"magnitude":"22",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"zeropoint":"30.0",
 				"source":"6"
 			},
@@ -660,7 +693,8 @@
 				"e_upper_magnitude":"0.00",
 				"magnitude":"22",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"zeropoint":"30.0",
 				"source":"6"
 			},
@@ -673,7 +707,8 @@
 				"e_upper_magnitude":"0.00",
 				"magnitude":"23",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"zeropoint":"30.0",
 				"source":"6"
 			},
@@ -686,7 +721,8 @@
 				"e_upper_magnitude":"0.00",
 				"magnitude":"23",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"zeropoint":"30.0",
 				"source":"6"
 			},
@@ -698,7 +734,8 @@
 				"e_upper_magnitude":"0.25",
 				"magnitude":"23",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
@@ -713,7 +750,8 @@
 				"e_upper_magnitude":"0.25",
 				"magnitude":"24",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"zeropoint":"30.0",
 				"source":"6"
 			},
@@ -725,7 +763,8 @@
 				"e_upper_magnitude":"0.50",
 				"magnitude":"25",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
@@ -739,7 +778,8 @@
 				"e_upper_magnitude":"0.25",
 				"magnitude":"25",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
@@ -753,7 +793,8 @@
 				"e_upper_magnitude":"0.325",
 				"magnitude":"25.0",
 				"survey":"SCP",
-				"u_time":"s^-1",
+				"u_countrate":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"30.0",
