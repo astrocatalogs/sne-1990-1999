@@ -28,41 +28,59 @@
 				"alias":"4"
 			},
 			{
+				"name":"2005ApJ...629..933C",
+				"bibcode":"2005ApJ...629..933C",
+				"reference":"Chandra et al. (2005)",
+				"alias":"5"
+			},
+			{
 				"name":"2003yCat.2246....0C",
 				"bibcode":"2003yCat.2246....0C",
 				"reference":"Cutri et al. (2003)",
-				"alias":"5"
+				"alias":"6"
+			},
+			{
+				"name":"2000MNRAS.319.1154F",
+				"bibcode":"2000MNRAS.319.1154F",
+				"reference":"Fox et al. (2000)",
+				"alias":"7"
 			},
 			{
 				"name":"IAUC 6170",
 				"bibcode":"1995IAUC.6170....2R",
 				"reference":"Roussel-Dupre (1995)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/06100/06170.html",
-				"alias":"6"
+				"alias":"8"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il/",
-				"alias":"7"
+				"alias":"9"
 			},
 			{
 				"name":"CfA Supernova Archive",
 				"acknowledgment":"This research has made use of the CfA Supernova Archive, which is funded in part by the National Science Foundation through grant AST 0907903.",
 				"secondary":true,
 				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
-				"alias":"8"
+				"alias":"10"
 			},
 			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"9"
+				"alias":"11"
+			},
+			{
+				"name":"SNaX",
+				"secondary":true,
+				"url":"http://kronos.uchicago.edu/snax/",
+				"alias":"12"
 			},
 			{
 				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
 				"secondary":true,
 				"url":"http://dau.itep.ru/sn/node/72",
-				"alias":"10"
+				"alias":"13"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -70,7 +88,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"11"
+				"alias":"14"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -78,7 +96,7 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"12"
+				"alias":"15"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
@@ -86,21 +104,21 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)",
 				"secondary":true,
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"13"
+				"alias":"16"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1995N",
-				"source":"2,6,7,8,9,10,12,13"
+				"source":"2,8,9,10,11,12,13,15,16"
 			},
 			{
 				"value":"2MASS J14492829-1010140",
-				"source":"12"
+				"source":"15"
 			},
 			{
 				"value":"X-2",
-				"source":"12"
+				"source":"15"
 			}
 		],
 		"claimedtype":[
@@ -110,48 +128,53 @@
 			},
 			{
 				"value":"IIn",
-				"source":"4,6,7,9,12,13"
+				"source":"4,8,9,11,12,15,16"
 			}
 		],
 		"comovingdist":[
 			{
-				"value":"27",
+				"value":"27.3",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,11"
+				"source":"1,12,14"
 			}
 		],
 		"dec":[
 			{
 				"value":"-10:10:14.0",
 				"u_value":"degrees",
-				"source":"5,12"
+				"source":"6,15"
 			},
 			{
 				"value":"-10:10:15.4",
 				"u_value":"degrees",
-				"source":"2,6,9,13"
+				"source":"2,8,11,16"
 			},
 			{
 				"value":"-10:10:15.38",
 				"u_value":"degrees",
-				"source":"7"
+				"source":"9"
+			},
+			{
+				"value":"+14:49:28.29",
+				"u_value":"degrees",
+				"source":"6,12"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1995/05/05",
-				"source":"2,6,7,9,13"
+				"source":"2,8,9,11,16"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Pollas",
-				"source":"13"
+				"source":"16"
 			},
 			{
 				"value":"Christian Pollas",
-				"source":"6,9"
+				"source":"8,11"
 			}
 		],
 		"ebv":[
@@ -159,7 +182,7 @@
 				"value":"0.0991",
 				"derived":true,
 				"e_value":"0.0017",
-				"source":"3,11"
+				"source":"3,14"
 			}
 		],
 		"errors":[
@@ -169,28 +192,38 @@
 				"value":"Sternberg Astronomical Institute Supernova Light Curve Catalogue"
 			}
 		],
+		"explosiondate":[
+			{
+				"value":"1994/07/04",
+				"source":"5,12"
+			}
+		],
 		"host":[
 			{
 				"value":"MCG -02-38-17",
-				"source":"6,7,9,13"
+				"source":"8,9,11,16"
 			},
 			{
 				"value":"MCG -02-38-016",
 				"source":"2"
+			},
+			{
+				"value":"MCG -02-38-017",
+				"source":"12"
 			}
 		],
 		"hostcomovingdist":[
 			{
 				"value":"27",
 				"derived":true,
-				"source":"1,2,11"
+				"source":"1,2,14"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-10:10:31",
 				"u_value":"degrees",
-				"source":"13"
+				"source":"16"
 			},
 			{
 				"value":"-10:10:31.0",
@@ -202,7 +235,7 @@
 			{
 				"value":"27.6",
 				"derived":true,
-				"source":"1,2,11"
+				"source":"1,2,14"
 			}
 		],
 		"hostoffsetang":[
@@ -210,20 +243,20 @@
 				"value":"43.47",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"5,11,12,13"
+				"source":"6,12,14,15,16"
 			}
 		],
 		"hostoffsetdist":[
 			{
-				"value":"5.655",
-				"source":"1,2,5,11,12,13"
+				"value":"5.718",
+				"source":"1,6,12,14,15,16"
 			}
 		],
 		"hostra":[
 			{
 				"value":"14:49:31",
 				"u_value":"hours",
-				"source":"13"
+				"source":"16"
 			},
 			{
 				"value":"14:49:31.00",
@@ -241,76 +274,74 @@
 			{
 				"value":"1856",
 				"kind":"host",
-				"source":"13"
+				"source":"16"
 			}
 		],
 		"lumdist":[
 			{
-				"value":"27.6",
-				"derived":true,
+				"value":"24",
 				"u_value":"Mpc",
-				"source":"1,2,11"
+				"source":"5,12"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-14.7",
+				"value":"-14.4",
 				"derived":true,
-				"source":"1,2,11"
+				"source":"5,12,14"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.5",
 				"derived":true,
-				"source":"6,9,11"
+				"source":"8,11,14"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1995/05/04",
 				"derived":true,
-				"source":"6,9,11"
+				"source":"8,11,14"
 			}
 		],
 		"maxvisualabsmag":[
 			{
-				"value":"-14.7",
+				"value":"-14.4",
 				"derived":true,
-				"source":"1,2,11"
+				"source":"5,12,14"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"17.5",
 				"derived":true,
-				"source":"6,9,11"
+				"source":"8,11,14"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"1995/05/04",
 				"derived":true,
-				"source":"6,9,11"
+				"source":"8,11,14"
 			}
 		],
 		"ra":[
 			{
 				"value":"14:49:28.29",
 				"u_value":"hours",
-				"source":"5,12"
+				"source":"6,12,15"
 			},
 			{
 				"value":"14:49:28.27",
 				"u_value":"hours",
-				"source":"2,6,7,9,13"
+				"source":"2,8,9,11,16"
 			}
 		],
 		"redshift":[
 			{
-				"value":"0.0062",
-				"kind":"host",
-				"source":"2"
+				"value":"0.00617",
+				"source":"12"
 			}
 		],
 		"velocity":[
@@ -318,7 +349,7 @@
 				"value":"1856",
 				"kind":"host",
 				"u_value":"km/s",
-				"source":"13"
+				"source":"16"
 			}
 		],
 		"photometry":[
@@ -326,7 +357,277 @@
 				"time":"49841.5",
 				"magnitude":"17.5",
 				"u_time":"MJD",
-				"source":"6,9"
+				"source":"8,11"
+			},
+			{
+				"time":"50296.0",
+				"e_lower_flux":"8.0E-14",
+				"e_upper_flux":"8.0E-14",
+				"energy":[
+					"0.1",
+					"2.4"
+				],
+				"flux":"8.90E-13",
+				"instrument":"ROSAT HRI",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"source":"7,12"
+			},
+			{
+				"time":"50296.0",
+				"e_lower_flux":"1.00E-13",
+				"e_upper_flux":"1.00E-13",
+				"energy":[
+					"0.5",
+					"7.0"
+				],
+				"flux":"1.100E-12",
+				"instrument":"ROSAT HRI",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"source":"7,12"
+			},
+			{
+				"time":"50296.0",
+				"e_lower_flux":"5.0E-14",
+				"e_upper_flux":"5.0E-14",
+				"energy":[
+					"0.1",
+					"2.4"
+				],
+				"flux":"6.30E-13",
+				"instrument":"ROSAT HRI",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"source":"7,12"
+			},
+			{
+				"time":"50296.0",
+				"e_lower_flux":"9.0E-14",
+				"e_upper_flux":"9.0E-14",
+				"energy":[
+					"0.5",
+					"7.0"
+				],
+				"flux":"9.90E-13",
+				"instrument":"ROSAT HRI",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"source":"7,12"
+			},
+			{
+				"time":"50677.0",
+				"e_lower_flux":"6.0E-14",
+				"e_upper_flux":"6.0E-14",
+				"energy":[
+					"0.1",
+					"2.4"
+				],
+				"flux":"6.30E-13",
+				"instrument":"ROSAT HRI",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"source":"7,12"
+			},
+			{
+				"time":"50677.0",
+				"e_lower_flux":"8.0E-14",
+				"e_upper_flux":"8.0E-14",
+				"energy":[
+					"0.5",
+					"7.0"
+				],
+				"flux":"7.80E-13",
+				"instrument":"ROSAT HRI",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"source":"7,12"
+			},
+			{
+				"time":"50677.0",
+				"e_lower_flux":"5.0E-14",
+				"e_upper_flux":"5.0E-14",
+				"energy":[
+					"0.1",
+					"2.4"
+				],
+				"flux":"4.50E-13",
+				"instrument":"ROSAT HRI",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"source":"7,12"
+			},
+			{
+				"time":"50677.0",
+				"e_lower_flux":"7.0E-14",
+				"e_upper_flux":"7.0E-14",
+				"energy":[
+					"0.5",
+					"7.0"
+				],
+				"flux":"7.00E-13",
+				"instrument":"ROSAT HRI",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"source":"7,12"
+			},
+			{
+				"time":"50833.0",
+				"e_lower_flux":"6.0E-14",
+				"e_upper_flux":"6.0E-14",
+				"energy":[
+					"0.5",
+					"7.0"
+				],
+				"flux":"1.220E-12",
+				"instrument":"ASCA SIS",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"source":"7,12"
+			},
+			{
+				"time":"50833.0",
+				"e_lower_flux":"4.0E-14",
+				"e_upper_flux":"4.0E-14",
+				"energy":[
+					"0.1",
+					"2.4"
+				],
+				"flux":"8.60E-13",
+				"instrument":"ASCA GIS",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"source":"7,12"
+			},
+			{
+				"time":"50833.0",
+				"e_lower_flux":"7.0E-14",
+				"e_upper_flux":"7.0E-14",
+				"energy":[
+					"0.5",
+					"7.0"
+				],
+				"flux":"1.400E-12",
+				"instrument":"ASCA GIS",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"source":"7,12"
+			},
+			{
+				"time":"50833.0",
+				"e_lower_flux":"5.0E-14",
+				"e_upper_flux":"5.0E-14",
+				"energy":[
+					"0.1",
+					"2.4"
+				],
+				"flux":"1.050E-12",
+				"instrument":"ASCA SIS",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"source":"7,12"
+			},
+			{
+				"time":"50833.0",
+				"e_lower_flux":"7.0E-14",
+				"e_upper_flux":"7.0E-14",
+				"energy":[
+					"0.5",
+					"7.0"
+				],
+				"flux":"1.320E-12",
+				"instrument":"ASCA SIS",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"source":"7,12"
+			},
+			{
+				"time":"50833.0",
+				"e_lower_flux":"6.0E-14",
+				"e_upper_flux":"6.0E-14",
+				"energy":[
+					"0.1",
+					"2.4"
+				],
+				"flux":"1.150E-12",
+				"instrument":"ASCA GIS",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"source":"7,12"
+			},
+			{
+				"time":"50833.0",
+				"e_lower_flux":"8.0E-14",
+				"e_upper_flux":"8.0E-14",
+				"energy":[
+					"0.5",
+					"7.0"
+				],
+				"flux":"1.520E-12",
+				"instrument":"ASCA GIS",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"source":"7,12"
+			},
+			{
+				"time":"50833.0",
+				"e_lower_flux":"4.0E-14",
+				"e_upper_flux":"4.0E-14",
+				"energy":[
+					"0.1",
+					"2.4"
+				],
+				"flux":"7.50E-13",
+				"instrument":"ASCA SIS",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"source":"7,12"
+			},
+			{
+				"time":"53091.0",
+				"e_lower_flux":"2.50E-14",
+				"e_upper_flux":"2.50E-14",
+				"energy":[
+					"0.5",
+					"7.0"
+				],
+				"flux":"1.050E-13",
+				"instrument":"Chandra ACIS",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"source":"5,12"
+			},
+			{
+				"time":"53091.0",
+				"e_lower_flux":"2.0E-14",
+				"e_upper_flux":"2.0E-14",
+				"energy":[
+					"0.1",
+					"2.4"
+				],
+				"flux":"9.0E-14",
+				"instrument":"Chandra ACIS",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"source":"5,12"
 			}
 		],
 		"spectra":[
@@ -10962,7 +11263,7 @@
 						"1.6600318e-17"
 					]
 				],
-				"source":"8"
+				"source":"10"
 			},
 			{
 				"time":"50159.0",
@@ -23261,7 +23562,7 @@
 						"3.5657629e-17"
 					]
 				],
-				"source":"8"
+				"source":"10"
 			},
 			{
 				"time":"50253.0",
@@ -34616,7 +34917,7 @@
 						"4.4459906e-17"
 					]
 				],
-				"source":"8"
+				"source":"10"
 			},
 			{
 				"time":"51993.0",
@@ -45831,7 +46132,7 @@
 						"-2.23921e-18"
 					]
 				],
-				"source":"8"
+				"source":"10"
 			}
 		]
 	}

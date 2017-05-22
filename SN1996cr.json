@@ -28,28 +28,40 @@
 				"alias":"4"
 			},
 			{
+				"name":"2008ApJ...688.1210B",
+				"bibcode":"2008ApJ...688.1210B",
+				"reference":"Bauer et al. (2008)",
+				"alias":"5"
+			},
+			{
 				"name":"IAUC 8823",
 				"bibcode":"2007IAUC.8823....2B",
 				"reference":"Bauer & Mattila (2007)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/08800/08823.html#Item2",
-				"alias":"5"
+				"alias":"6"
 			},
 			{
 				"name":"2001ApJ...557..180S",
 				"bibcode":"2001ApJ...557..180S",
 				"reference":"Smith & Wilson (2001)",
-				"alias":"6"
+				"alias":"7"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il/",
-				"alias":"7"
+				"alias":"8"
 			},
 			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"8"
+				"alias":"9"
+			},
+			{
+				"name":"SNaX",
+				"secondary":true,
+				"url":"http://kronos.uchicago.edu/snax/",
+				"alias":"10"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -57,7 +69,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"9"
+				"alias":"11"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -65,7 +77,7 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"10"
+				"alias":"12"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
@@ -73,37 +85,37 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)",
 				"secondary":true,
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"11"
+				"alias":"13"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1996cr",
-				"source":"2,5,7,8,10,11"
+				"source":"2,6,8,9,10,12,13"
 			},
 			{
 				"value":"CXOU J141310.0-652044",
-				"source":"10"
+				"source":"12"
 			},
 			{
 				"value":"CG X-2",
-				"source":"10"
+				"source":"12"
 			},
 			{
 				"value":"U42",
-				"source":"10"
+				"source":"12"
 			},
 			{
 				"value":"Circinus ULX2",
-				"source":"10"
+				"source":"12"
 			},
 			{
 				"value":"J141310.05-652044.8",
-				"source":"10"
+				"source":"12"
 			},
 			{
 				"value":"F",
-				"source":"10"
+				"source":"12"
 			}
 		],
 		"claimedtype":[
@@ -113,48 +125,53 @@
 			},
 			{
 				"value":"IIn",
-				"source":"4,5,7,8,10,11"
+				"source":"4,6,8,9,10,12,13"
 			}
 		],
 		"comovingdist":[
 			{
-				"value":"6.2",
+				"value":"6.411",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,5,8,9"
+				"source":"1,10,11"
 			}
 		],
 		"dec":[
 			{
 				"value":"-65:20:44.8",
 				"u_value":"degrees",
-				"source":"6,10"
+				"source":"7,12"
 			},
 			{
 				"value":"-65:20:44.4",
 				"u_value":"degrees",
-				"source":"2,5,8,11"
+				"source":"2,6,9,13"
 			},
 			{
 				"value":"-65:20:44.41",
 				"u_value":"degrees",
-				"source":"7"
+				"source":"8"
+			},
+			{
+				"value":"+14:13:10.05",
+				"u_value":"degrees",
+				"source":"7,10"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1996/03/16",
-				"source":"2,5,7,8,11"
+				"source":"2,6,8,9,13"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Bauer",
-				"source":"11"
+				"source":"13"
 			},
 			{
 				"value":"Columbia Astrophysics Laboratory",
-				"source":"5,8"
+				"source":"6,9"
 			}
 		],
 		"ebv":[
@@ -162,27 +179,37 @@
 				"value":"0.9961",
 				"derived":true,
 				"e_value":"0.1522",
-				"source":"3,9"
+				"source":"3,11"
+			}
+		],
+		"explosiondate":[
+			{
+				"value":"1995/09/07",
+				"source":"5,10"
 			}
 		],
 		"host":[
 			{
 				"value":"ESO 97-G13",
-				"source":"2,5,7,8,11"
+				"source":"2,6,8,9,13"
+			},
+			{
+				"value":"ESO 097-13",
+				"source":"10"
 			}
 		],
 		"hostcomovingdist":[
 			{
 				"value":"6.6",
 				"derived":true,
-				"source":"1,2,9"
+				"source":"1,2,11"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-65:20:20",
 				"u_value":"degrees",
-				"source":"11"
+				"source":"13"
 			},
 			{
 				"value":"-65:20:20.2",
@@ -194,7 +221,7 @@
 			{
 				"value":"6.65",
 				"derived":true,
-				"source":"1,2,9"
+				"source":"1,2,11"
 			}
 		],
 		"hostoffsetang":[
@@ -202,20 +229,20 @@
 				"value":"24.8",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"6,9,10,11"
+				"source":"7,10,11,12,13"
 			}
 		],
 		"hostoffsetdist":[
 			{
-				"value":"0.744",
-				"source":"1,5,6,8,9,10,11"
+				"value":"0.77",
+				"source":"1,7,10,11,12,13"
 			}
 		],
 		"hostra":[
 			{
 				"value":"14:13:10",
 				"u_value":"hours",
-				"source":"11"
+				"source":"13"
 			},
 			{
 				"value":"14:13:09.89",
@@ -233,7 +260,7 @@
 			{
 				"value":"380",
 				"kind":"host",
-				"source":"11"
+				"source":"13"
 			}
 		],
 		"lumdist":[
@@ -249,65 +276,60 @@
 			{
 				"value":"-11.5",
 				"derived":true,
-				"source":"2,9"
+				"source":"2,11"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"16.6",
 				"derived":true,
-				"source":"5,8,9"
+				"source":"6,9,11"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1996/03/18",
 				"derived":true,
-				"source":"5,8,9"
+				"source":"6,9,11"
 			}
 		],
 		"maxvisualabsmag":[
 			{
 				"value":"-11.5",
 				"derived":true,
-				"source":"2,9"
+				"source":"2,11"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"16.6",
 				"derived":true,
-				"source":"5,8,9"
+				"source":"6,9,11"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"1996/03/18",
 				"derived":true,
-				"source":"5,8,9"
+				"source":"6,9,11"
 			}
 		],
 		"ra":[
 			{
 				"value":"14:13:10.05",
 				"u_value":"hours",
-				"source":"6,10"
+				"source":"7,10,12"
 			},
 			{
 				"value":"14:13:10.01",
 				"u_value":"hours",
-				"source":"2,5,7,8,11"
+				"source":"2,6,8,9,13"
 			}
 		],
 		"redshift":[
 			{
-				"value":"0.0015",
-				"kind":"host",
-				"source":"2"
-			},
-			{
-				"value":"0.0014",
-				"source":"5,8"
+				"value":"0.001449",
+				"source":"10"
 			}
 		],
 		"velocity":[
@@ -315,15 +337,262 @@
 				"value":"380",
 				"kind":"host",
 				"u_value":"km/s",
-				"source":"11"
+				"source":"13"
 			}
 		],
 		"photometry":[
 			{
+				"time":"49974.0",
+				"e_lower_flux":"0E-15",
+				"e_upper_flux":"0E-15",
+				"energy":[
+					"0.5",
+					"2.0"
+				],
+				"flux":"2.30E-13",
+				"instrument":"ROSAT HRI",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"5,10"
+			},
+			{
+				"time":"50131.0",
+				"e_lower_flux":"0E-15",
+				"e_upper_flux":"0E-15",
+				"energy":[
+					"0.5",
+					"2.0"
+				],
+				"flux":"9.30E-13",
+				"instrument":"ROSAT HRI",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"5,10"
+			},
+			{
 				"time":"50160.5",
 				"magnitude":"16.6",
 				"u_time":"MJD",
-				"source":"5,8"
+				"source":"6,9"
+			},
+			{
+				"time":"50339.0",
+				"e_lower_flux":"0E-15",
+				"e_upper_flux":"0E-15",
+				"energy":[
+					"0.5",
+					"2.0"
+				],
+				"flux":"4.40E-13",
+				"instrument":"ROSAT HRI",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"5,10"
+			},
+			{
+				"time":"50510.0",
+				"e_lower_flux":"0E-15",
+				"e_upper_flux":"0E-15",
+				"energy":[
+					"0.5",
+					"2.0"
+				],
+				"flux":"8.0E-14",
+				"instrument":"ROSAT HRI",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"5,10"
+			},
+			{
+				"time":"50677.0",
+				"e_lower_flux":"0E-15",
+				"e_upper_flux":"0E-15",
+				"energy":[
+					"0.5",
+					"2.0"
+				],
+				"flux":"5.0E-14",
+				"instrument":"ROSAT HRI",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"5,10"
+			},
+			{
+				"time":"50885.0",
+				"e_lower_flux":"0E-15",
+				"e_upper_flux":"0E-15",
+				"energy":[
+					"0.5",
+					"2.0"
+				],
+				"flux":"5.10E-13",
+				"instrument":"BeppoSAX",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"5,10"
+			},
+			{
+				"time":"51559.0",
+				"e_lower_flux":"1.60E-13",
+				"e_upper_flux":"1.60E-13",
+				"energy":[
+					"0.5",
+					"2.0"
+				],
+				"flux":"6.20E-13",
+				"instrument":"Chandra ACIS-S",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"source":"5,10"
+			},
+			{
+				"time":"51617.0",
+				"e_lower_flux":"9.0E-14",
+				"e_upper_flux":"9.0E-14",
+				"energy":[
+					"0.5",
+					"2.0"
+				],
+				"flux":"4.50E-13",
+				"instrument":"Chandra ACIS-S",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"source":"5,10"
+			},
+			{
+				"time":"51617.0",
+				"e_lower_flux":"1.00E-13",
+				"e_upper_flux":"1.00E-13",
+				"energy":[
+					"0.5",
+					"2.0"
+				],
+				"flux":"5.10E-13",
+				"instrument":"Chandra ACIS-S",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"source":"5,10"
+			},
+			{
+				"time":"51710.0",
+				"e_lower_flux":"9.0E-14",
+				"e_upper_flux":"9.0E-14",
+				"energy":[
+					"0.5",
+					"2.0"
+				],
+				"flux":"4.30E-13",
+				"instrument":"Chandra HETGS",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"source":"5,10"
+			},
+			{
+				"time":"51916.0",
+				"e_lower_flux":"0E-15",
+				"e_upper_flux":"0E-15",
+				"energy":[
+					"0.5",
+					"2.0"
+				],
+				"flux":"2.920E-12",
+				"instrument":"BeppoSAX",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"5,10"
+			},
+			{
+				"time":"52031.0",
+				"e_lower_flux":"1.10E-13",
+				"e_upper_flux":"1.10E-13",
+				"energy":[
+					"0.5",
+					"2.0"
+				],
+				"flux":"5.30E-13",
+				"instrument":"Chandra ACIS-S",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"source":"5,10"
+			},
+			{
+				"time":"52127.0",
+				"e_lower_flux":"2.0E-14",
+				"e_upper_flux":"2.0E-14",
+				"energy":[
+					"0.5",
+					"2.0"
+				],
+				"flux":"6.10E-13",
+				"instrument":"XMM-Newton",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"source":"5,10"
+			},
+			{
+				"time":"53158.0",
+				"e_lower_flux":"1.20E-13",
+				"e_upper_flux":"1.20E-13",
+				"energy":[
+					"0.5",
+					"2.0"
+				],
+				"flux":"8.80E-13",
+				"instrument":"Chandra HETGS",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"source":"5,10"
+			},
+			{
+				"time":"53337.0",
+				"e_lower_flux":"1.10E-13",
+				"e_upper_flux":"1.10E-13",
+				"energy":[
+					"0.5",
+					"2.0"
+				],
+				"flux":"9.30E-13",
+				"instrument":"Chandra HETGS",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"source":"5,10"
+			},
+			{
+				"time":"54184.0",
+				"e_lower_flux":"2.80E-13",
+				"e_upper_flux":"2.80E-13",
+				"energy":[
+					"0.5",
+					"2.0"
+				],
+				"flux":"1.240E-12",
+				"instrument":"Swift XRT",
+				"u_energy":"keV",
+				"u_flux":"ergs/s/cm^2",
+				"u_time":"MJD",
+				"source":"5,10"
 			}
 		]
 	}
