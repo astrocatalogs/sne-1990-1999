@@ -41,25 +41,21 @@
 				"alias":"6"
 			},
 			{
-				"name":"VSNET 2001",
-				"alias":"7"
-			},
-			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il/",
-				"alias":"8"
+				"alias":"7"
 			},
 			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"9"
+				"alias":"8"
 			},
 			{
 				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
 				"secondary":true,
 				"url":"http://dau.itep.ru/sn/node/72",
-				"alias":"10"
+				"alias":"9"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -67,7 +63,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"11"
+				"alias":"10"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -75,7 +71,7 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"12"
+				"alias":"11"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
@@ -83,19 +79,19 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)",
 				"secondary":true,
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"13"
+				"alias":"12"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1999cz",
-				"source":"2,6,8,9,10,12,13"
+				"source":"2,6,7,8,9,11,12"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ic",
-				"source":"2,4,6,9,12,13"
+				"source":"2,4,6,8,11,12"
 			}
 		],
 		"comovingdist":[
@@ -103,35 +99,35 @@
 				"value":"32",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,11"
+				"source":"1,2,10"
 			}
 		],
 		"dec":[
 			{
 				"value":"-27:24:04.5",
 				"u_value":"degrees",
-				"source":"2,5,6,9,12,13"
+				"source":"2,5,6,8,11,12"
 			},
 			{
 				"value":"-27:24:04.50",
 				"u_value":"degrees",
-				"source":"8"
+				"source":"7"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1999/06/21",
-				"source":"2,8,13"
+				"source":"2,7,12"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Williams, Woodings",
-				"source":"13"
+				"source":"12"
 			},
 			{
 				"value":"Perth Astronomical Research Group",
-				"source":"6,9"
+				"source":"6,8"
 			}
 		],
 		"ebv":[
@@ -139,27 +135,27 @@
 				"value":"0.0551",
 				"derived":true,
 				"e_value":"0.0006",
-				"source":"3,11"
+				"source":"3,10"
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 5078",
-				"source":"2,6,8,9,13"
+				"source":"2,6,7,8,12"
 			}
 		],
 		"hostcomovingdist":[
 			{
 				"value":"32",
 				"derived":true,
-				"source":"1,2,11"
+				"source":"1,2,10"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-27:24:32",
 				"u_value":"degrees",
-				"source":"13"
+				"source":"12"
 			},
 			{
 				"value":"-27:24:35.8",
@@ -171,7 +167,7 @@
 			{
 				"value":"32",
 				"derived":true,
-				"source":"1,2,11"
+				"source":"1,2,10"
 			}
 		],
 		"hostoffsetang":[
@@ -179,20 +175,20 @@
 				"value":"33.76",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"2,5,6,8,9,11,12,13"
+				"source":"2,5,6,7,8,10,11,12"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"5.2",
-				"source":"1,2,5,6,8,9,11,12,13"
+				"source":"1,2,5,6,7,8,10,11,12"
 			}
 		],
 		"hostra":[
 			{
 				"value":"13:19:50",
 				"u_value":"hours",
-				"source":"13"
+				"source":"12"
 			},
 			{
 				"value":"13:19:50.04",
@@ -210,7 +206,7 @@
 			{
 				"value":"2157",
 				"kind":"host",
-				"source":"13"
+				"source":"12"
 			}
 		],
 		"lumdist":[
@@ -218,70 +214,56 @@
 				"value":"32",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,11"
+				"source":"1,2,10"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-16.5",
 				"derived":true,
-				"source":"1,2,11"
+				"source":"1,2,10"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"16",
 				"derived":true,
-				"source":"7,10,11"
-			}
-		],
-		"maxband":[
-			{
-				"value":"C",
-				"derived":true,
-				"source":"7,10,11"
+				"source":"6,8,10"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"1999/06/21",
+				"value":"1999/06/11",
 				"derived":true,
-				"source":"7,10,11"
+				"source":"6,8,10"
 			}
 		],
 		"maxvisualabsmag":[
 			{
 				"value":"-16.5",
 				"derived":true,
-				"source":"1,2,11"
+				"source":"1,2,10"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"16",
 				"derived":true,
-				"source":"7,10,11"
-			}
-		],
-		"maxvisualband":[
-			{
-				"value":"C",
-				"derived":true,
-				"source":"7,10,11"
+				"source":"6,8,10"
 			}
 		],
 		"maxvisualdate":[
 			{
-				"value":"1999/06/21",
+				"value":"1999/06/11",
 				"derived":true,
-				"source":"7,10,11"
+				"source":"6,8,10"
 			}
 		],
 		"ra":[
 			{
 				"value":"13:19:48.53",
 				"u_value":"hours",
-				"source":"2,5,6,8,9,12,13"
+				"source":"2,5,6,7,8,11,12"
 			}
 		],
 		"redshift":[
@@ -296,7 +278,7 @@
 				"value":"2157",
 				"kind":"host",
 				"u_value":"km/s",
-				"source":"13"
+				"source":"12"
 			}
 		],
 		"photometry":[
@@ -304,14 +286,7 @@
 				"time":"51340.5",
 				"magnitude":"16.0",
 				"u_time":"MJD",
-				"source":"6,9"
-			},
-			{
-				"time":"51350.53",
-				"band":"C",
-				"magnitude":"16",
-				"u_time":"MJD",
-				"source":"7,10"
+				"source":"6,8"
 			}
 		]
 	}
