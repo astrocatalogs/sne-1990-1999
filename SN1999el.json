@@ -52,32 +52,28 @@
 				"alias":"8"
 			},
 			{
-				"name":"VSNET 2001",
-				"alias":"9"
-			},
-			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il/",
-				"alias":"10"
+				"alias":"9"
 			},
 			{
 				"name":"CfA Supernova Archive",
 				"acknowledgment":"This research has made use of the CfA Supernova Archive, which is funded in part by the National Science Foundation through grant AST 0907903.",
 				"secondary":true,
 				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
-				"alias":"11"
+				"alias":"10"
 			},
 			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"12"
+				"alias":"11"
 			},
 			{
 				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
 				"secondary":true,
 				"url":"http://dau.itep.ru/sn/node/72",
-				"alias":"13"
+				"alias":"12"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -85,7 +81,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"14"
+				"alias":"13"
 			},
 			{
 				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
@@ -93,7 +89,7 @@
 				"reference":"Silverman et al. (2012)",
 				"secondary":true,
 				"url":"http://heracles.astro.berkeley.edu/sndb/info",
-				"alias":"15"
+				"alias":"14"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -101,7 +97,7 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"16"
+				"alias":"15"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
@@ -109,27 +105,27 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)",
 				"secondary":true,
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"17"
+				"alias":"16"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1999el",
-				"source":"3,8,10,11,12,13,15,16,17"
+				"source":"3,7,8,9,10,11,12,14,15,16"
 			},
 			{
 				"value":"2MASS J20371802+6606118",
-				"source":"16"
+				"source":"15"
 			},
 			{
 				"value":"AAVSO 2036+65",
-				"source":"16"
+				"source":"15"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"IIn",
-				"source":"1,5,8,10,12,15,16,17"
+				"source":"1,5,8,9,11,14,15,16"
 			},
 			{
 				"value":"II",
@@ -141,40 +137,40 @@
 				"value":"21",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"2,3,14"
+				"source":"2,3,13"
 			}
 		],
 		"dec":[
 			{
 				"value":"+66:06:11.9",
 				"u_value":"degrees",
-				"source":"6,16"
+				"source":"6,15"
 			},
 			{
 				"value":"+66:06:11.5",
 				"u_value":"degrees",
-				"source":"3,8,12,17"
+				"source":"3,8,11,16"
 			},
 			{
 				"value":"+66:06:11.48",
 				"u_value":"degrees",
-				"source":"10"
+				"source":"9"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1999/10/20",
-				"source":"1,3,10,15,17"
+				"source":"1,3,9,14,16"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"BAOSS",
-				"source":"17"
+				"source":"16"
 			},
 			{
 				"value":"BAO",
-				"source":"8,12"
+				"source":"8,11"
 			}
 		],
 		"ebv":[
@@ -182,27 +178,27 @@
 				"value":"0.3174",
 				"derived":true,
 				"e_value":"0.0088",
-				"source":"4,14"
+				"source":"4,13"
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 6951",
-				"source":"1,3,8,10,12,15,17"
+				"source":"1,3,8,9,11,14,16"
 			}
 		],
 		"hostcomovingdist":[
 			{
 				"value":"21",
 				"derived":true,
-				"source":"2,3,14"
+				"source":"2,3,13"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+66:06:20",
 				"u_value":"degrees",
-				"source":"17"
+				"source":"16"
 			},
 			{
 				"value":"+66:06:20.3",
@@ -214,7 +210,7 @@
 			{
 				"value":"20.9",
 				"derived":true,
-				"source":"2,3,14"
+				"source":"2,3,13"
 			}
 		],
 		"hostoffsetang":[
@@ -222,20 +218,20 @@
 				"value":"25.79",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"6,14,16,17"
+				"source":"6,13,15,16"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"2.613",
-				"source":"2,3,6,14,16,17"
+				"source":"2,3,6,13,15,16"
 			}
 		],
 		"hostra":[
 			{
 				"value":"20:37:14",
 				"u_value":"hours",
-				"source":"17"
+				"source":"16"
 			},
 			{
 				"value":"20:37:14.12",
@@ -253,7 +249,7 @@
 			{
 				"value":"1331",
 				"kind":"host",
-				"source":"17"
+				"source":"16"
 			}
 		],
 		"lumdist":[
@@ -267,23 +263,23 @@
 		],
 		"maxabsmag":[
 			{
-				"value":"-17.9",
+				"value":"-19.2",
 				"derived":true,
-				"source":"3,14"
+				"source":"3,13"
 			}
 		],
 		"maxappmag":[
 			{
-				"value":"13.99",
+				"value":"12.68",
 				"derived":true,
-				"source":"7,13,14"
+				"source":"7,13"
 			}
 		],
 		"maxband":[
 			{
-				"value":"I",
+				"value":"K",
 				"derived":true,
-				"source":"7,13,14"
+				"source":"7,13"
 			}
 		],
 		"maxdate":[
@@ -296,40 +292,40 @@
 			{
 				"value":"-16.3",
 				"derived":true,
-				"source":"3,14"
+				"source":"3,13"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"15.64",
 				"derived":true,
-				"source":"7,13,14"
+				"source":"7,13"
 			}
 		],
 		"maxvisualband":[
 			{
 				"value":"B",
 				"derived":true,
-				"source":"7,13,14"
+				"source":"7,13"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"1999/11/07",
 				"derived":true,
-				"source":"7,13,14"
+				"source":"7,13"
 			}
 		],
 		"ra":[
 			{
 				"value":"20:37:18.03",
 				"u_value":"hours",
-				"source":"6,16"
+				"source":"6,15"
 			},
 			{
 				"value":"20:37:17.72",
 				"u_value":"hours",
-				"source":"3,8,10,12,17"
+				"source":"3,8,9,11,16"
 			}
 		],
 		"redshift":[
@@ -344,1017 +340,1316 @@
 				"value":"1331",
 				"kind":"host",
 				"u_value":"km/s",
-				"source":"17"
+				"source":"16"
 			}
 		],
 		"photometry":[
 			{
+				"time":"51476.81",
+				"band":"H",
+				"e_magnitude":"0.05",
+				"instrument":"SWIRCAM",
+				"magnitude":"13.3",
+				"telescope":"AZT-24",
+				"u_time":"MJD",
+				"source":"7"
+			},
+			{
+				"time":"51476.81",
+				"band":"J",
+				"e_magnitude":"0.03",
+				"instrument":"SWIRCAM",
+				"magnitude":"13.69",
+				"telescope":"AZT-24",
+				"u_time":"MJD",
+				"source":"7"
+			},
+			{
+				"time":"51476.81",
+				"band":"K",
+				"e_magnitude":"0.09",
+				"instrument":"SWIRCAM",
+				"magnitude":"12.7",
+				"telescope":"AZT-24",
+				"u_time":"MJD",
+				"source":"7"
+			},
+			{
+				"time":"51478.75",
+				"band":"H",
+				"e_magnitude":"0.08",
+				"instrument":"SWIRCAM",
+				"magnitude":"13.25",
+				"telescope":"AZT-25",
+				"u_time":"MJD",
+				"source":"7"
+			},
+			{
+				"time":"51478.75",
+				"band":"J",
+				"e_magnitude":"0.08",
+				"instrument":"SWIRCAM",
+				"magnitude":"13.62",
+				"telescope":"AZT-25",
+				"u_time":"MJD",
+				"source":"7"
+			},
+			{
+				"time":"51478.75",
+				"band":"K",
+				"e_magnitude":"0.08",
+				"instrument":"SWIRCAM",
+				"magnitude":"12.68",
+				"telescope":"AZT-25",
+				"u_time":"MJD",
+				"source":"7"
+			},
+			{
 				"time":"51478.92",
 				"band":"B",
+				"e_magnitude":"0.06",
 				"magnitude":"15.87",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51478.92",
 				"band":"I",
+				"e_magnitude":"0.03",
 				"magnitude":"14.35",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51478.92",
 				"band":"R",
+				"e_magnitude":"0.04",
 				"magnitude":"14.71",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
-				"time":"51479.29",
-				"band":"C",
-				"magnitude":"14.9",
+				"time":"51479.78",
+				"band":"H",
+				"e_magnitude":"0.09",
+				"instrument":"SWIRCAM",
+				"magnitude":"13.28",
+				"telescope":"AZT-26",
 				"u_time":"MJD",
-				"source":"9,13"
-			},
-			{
-				"time":"51479.75",
-				"band":"C",
-				"magnitude":"15",
-				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
 			},
 			{
 				"time":"51479.95",
 				"band":"B",
+				"e_magnitude":"0.03",
 				"magnitude":"15.87",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51479.95",
 				"band":"I",
+				"e_magnitude":"0.02",
 				"magnitude":"14.31",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51479.95",
 				"band":"R",
+				"e_magnitude":"0.04",
 				"magnitude":"14.68",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
-				"time":"51480.12",
-				"band":"V",
-				"magnitude":"15.1",
+				"time":"51480.87",
+				"band":"H",
+				"e_magnitude":"0.09",
+				"instrument":"SWIRCAM",
+				"magnitude":"13.29",
+				"telescope":"AZT-27",
 				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
 			},
 			{
-				"time":"51480.98",
-				"band":"R",
-				"magnitude":"14.99",
+				"time":"51480.87",
+				"band":"J",
+				"e_magnitude":"0.08",
+				"instrument":"SWIRCAM",
+				"magnitude":"13.58",
+				"telescope":"AZT-27",
 				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
+			},
+			{
+				"time":"51480.87",
+				"band":"K",
+				"e_magnitude":"0.09",
+				"instrument":"SWIRCAM",
+				"magnitude":"12.75",
+				"telescope":"AZT-27",
+				"u_time":"MJD",
+				"source":"7"
 			},
 			{
 				"time":"51481.08",
 				"band":"R",
+				"e_magnitude":"0.02",
 				"magnitude":"14.69",
+				"telescope":"Tonantzintla",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
-				"time":"51482.83",
-				"band":"C",
-				"magnitude":"14.8",
+				"time":"51482.91",
+				"band":"H",
+				"e_magnitude":"0.06",
+				"instrument":"SWIRCAM",
+				"magnitude":"13.25",
+				"telescope":"AZT-28",
 				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
 			},
 			{
-				"time":"51482.84",
-				"band":"C",
-				"magnitude":"14.6",
+				"time":"51482.91",
+				"band":"J",
+				"e_magnitude":"0.1",
+				"instrument":"SWIRCAM",
+				"magnitude":"13.55",
+				"telescope":"AZT-28",
 				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
 			},
 			{
-				"time":"51482.85",
-				"band":"C",
-				"magnitude":"14.8",
+				"time":"51483.81",
+				"band":"H",
+				"e_magnitude":"0.08",
+				"instrument":"SWIRCAM",
+				"magnitude":"13.08",
+				"telescope":"AZT-29",
 				"u_time":"MJD",
-				"source":"9,13"
-			},
-			{
-				"time":"51482.92",
-				"band":"C",
-				"magnitude":"14.7",
-				"u_time":"MJD",
-				"source":"9,13"
-			},
-			{
-				"time":"51482.97",
-				"band":"C",
-				"magnitude":"14.5",
-				"u_time":"MJD",
-				"source":"9,13"
-			},
-			{
-				"time":"51483.75",
-				"band":"C",
-				"magnitude":"14.3",
-				"u_time":"MJD",
-				"source":"9,13"
-			},
-			{
-				"time":"51483.92",
-				"band":"C",
-				"magnitude":"15.1",
-				"u_time":"MJD",
-				"source":"9,13"
-			},
-			{
-				"time":"51484.32",
-				"band":"C",
-				"magnitude":"14.9",
-				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
 			},
 			{
 				"time":"51484.81",
 				"band":"B",
+				"e_magnitude":"0.03",
 				"magnitude":"15.83",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51484.81",
 				"band":"I",
+				"e_magnitude":"0.03",
 				"magnitude":"14.22",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51484.81",
 				"band":"R",
+				"e_magnitude":"0.03",
 				"magnitude":"14.6",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51484.91",
-				"band":"C",
-				"magnitude":"14.5",
+				"band":"H",
+				"e_magnitude":"0.07",
+				"instrument":"SWIRCAM",
+				"magnitude":"13.28",
+				"telescope":"AZT-30",
 				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
+			},
+			{
+				"time":"51484.91",
+				"band":"J",
+				"e_magnitude":"0.08",
+				"instrument":"SWIRCAM",
+				"magnitude":"13.55",
+				"telescope":"AZT-30",
+				"u_time":"MJD",
+				"source":"7"
 			},
 			{
 				"time":"51485.75",
 				"band":"B",
+				"e_magnitude":"0.06",
 				"magnitude":"15.82",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51485.75",
 				"band":"I",
+				"e_magnitude":"0.02",
 				"magnitude":"14.25",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51485.75",
 				"band":"R",
+				"e_magnitude":"0.06",
 				"magnitude":"14.56",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
-				"time":"51485.87",
-				"band":"V",
-				"magnitude":"14.45",
+				"time":"51485.85",
+				"band":"J",
+				"e_magnitude":"0.06",
+				"instrument":"SWIRCAM",
+				"magnitude":"13.51",
+				"telescope":"AZT-31",
 				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
 			},
 			{
 				"time":"51486.0",
 				"band":"B",
+				"e_magnitude":"0.05",
 				"magnitude":"15.73",
+				"telescope":"TNG",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51486.0",
 				"band":"I",
+				"e_magnitude":"0.05",
 				"magnitude":"14.19",
+				"telescope":"TNG",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51486.0",
 				"band":"R",
+				"e_magnitude":"0.03",
 				"magnitude":"14.65",
+				"telescope":"TNG",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51486.0",
 				"band":"U",
+				"e_magnitude":"0.05",
 				"magnitude":"15.7",
+				"telescope":"TNG",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51486.0",
 				"band":"V",
+				"e_magnitude":"0.04",
 				"magnitude":"15.11",
+				"telescope":"TNG",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51486.02",
 				"band":"R",
+				"e_magnitude":"0.02",
 				"magnitude":"14.59",
+				"telescope":"Tonantzintla",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51486.07",
 				"band":"R",
+				"e_magnitude":"0.2",
 				"magnitude":"14.59",
+				"telescope":"Cananea",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51486.07",
 				"band":"V",
+				"e_magnitude":"0.03",
 				"magnitude":"15.04",
+				"telescope":"Cananea",
 				"u_time":"MJD",
-				"source":"7,13"
-			},
-			{
-				"time":"51486.77",
-				"band":"C",
-				"magnitude":"14.7",
-				"u_time":"MJD",
-				"source":"9,13"
-			},
-			{
-				"time":"51487.5",
-				"band":"C",
-				"magnitude":"14.5",
-				"u_time":"MJD",
-				"source":"9,13"
-			},
-			{
-				"time":"51487.94",
-				"band":"C",
-				"magnitude":"15",
-				"u_time":"MJD",
-				"source":"9,13"
-			},
-			{
-				"time":"51489.8",
-				"band":"C",
-				"magnitude":"14.8",
-				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
 			},
 			{
 				"time":"51489.98",
 				"band":"B",
+				"e_magnitude":"0.06",
 				"magnitude":"15.64",
+				"telescope":"Asiago",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51489.98",
 				"band":"I",
+				"e_magnitude":"0.03",
 				"magnitude":"13.99",
+				"telescope":"Asiago",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51489.98",
 				"band":"R",
+				"e_magnitude":"0.04",
 				"magnitude":"14.52",
+				"telescope":"Asiago",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51489.98",
 				"band":"U",
+				"e_magnitude":"0.03",
 				"magnitude":"15.65",
+				"telescope":"Asiago",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51489.98",
 				"band":"V",
+				"e_magnitude":"0.02",
 				"magnitude":"14.98",
+				"telescope":"Asiago",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51490.07",
 				"band":"R",
+				"e_magnitude":"0.04",
 				"magnitude":"14.48",
+				"telescope":"Cananea",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51490.07",
 				"band":"V",
+				"e_magnitude":"0.02",
 				"magnitude":"14.92",
+				"telescope":"Cananea",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
-				"time":"51490.75",
-				"band":"C",
-				"magnitude":"14.77",
+				"time":"51491.82",
+				"band":"H",
+				"e_magnitude":"0.15",
+				"instrument":"SWIRCAM",
+				"magnitude":"13.18",
+				"telescope":"AZT-32",
 				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
 			},
 			{
-				"time":"51490.81",
-				"band":"C",
-				"magnitude":"14.9",
+				"time":"51491.82",
+				"band":"J",
+				"e_magnitude":"0.06",
+				"instrument":"SWIRCAM",
+				"magnitude":"13.46",
+				"telescope":"AZT-32",
 				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
 			},
 			{
-				"time":"51491.42",
-				"band":"C",
-				"magnitude":"14.56",
+				"time":"51492.78",
+				"band":"H",
+				"e_magnitude":"0.09",
+				"instrument":"SWIRCAM",
+				"magnitude":"13.4",
+				"telescope":"AZT-33",
 				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
 			},
 			{
-				"time":"51491.72",
-				"band":"C",
-				"magnitude":"14.65",
+				"time":"51492.78",
+				"band":"J",
+				"e_magnitude":"0.08",
+				"instrument":"SWIRCAM",
+				"magnitude":"13.53",
+				"telescope":"AZT-33",
 				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
 			},
 			{
-				"time":"51491.73",
-				"band":"R",
-				"magnitude":"14.71",
+				"time":"51492.78",
+				"band":"K",
+				"e_magnitude":"0.06",
+				"instrument":"SWIRCAM",
+				"magnitude":"12.94",
+				"telescope":"AZT-33",
 				"u_time":"MJD",
-				"source":"9,13"
-			},
-			{
-				"time":"51491.74",
-				"band":"V",
-				"magnitude":"14.79",
-				"u_time":"MJD",
-				"source":"9,13"
-			},
-			{
-				"time":"51491.95",
-				"band":"C",
-				"magnitude":"14.7",
-				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
 			},
 			{
 				"time":"51493.1",
 				"band":"R",
+				"e_magnitude":"0.04",
 				"magnitude":"14.55",
+				"telescope":"Tonantzintla",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
-				"time":"51495.48",
-				"band":"C",
-				"magnitude":"14.8",
+				"time":"51494.0",
+				"band":"J",
+				"e_magnitude":"0.07",
+				"instrument":"SWIRCAM",
+				"magnitude":"13.43",
+				"telescope":"AZT-34",
 				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
 			},
 			{
-				"time":"51496.72",
-				"band":"R",
-				"magnitude":"14.2",
+				"time":"51494.7",
+				"band":"H",
+				"e_magnitude":"0.08",
+				"instrument":"SWIRCAM",
+				"magnitude":"13.36",
+				"telescope":"AZT-35",
 				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
 			},
 			{
-				"time":"51497.8",
-				"band":"C",
-				"magnitude":"14.7",
+				"time":"51494.7",
+				"band":"J",
+				"e_magnitude":"0.07",
+				"instrument":"SWIRCAM",
+				"magnitude":"13.54",
+				"telescope":"AZT-35",
 				"u_time":"MJD",
-				"source":"9,13"
-			},
-			{
-				"time":"51497.88",
-				"band":"C",
-				"magnitude":"15.1",
-				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
 			},
 			{
 				"time":"51498.18",
 				"band":"R",
+				"e_magnitude":"0.02",
 				"magnitude":"14.55",
+				"telescope":"Tonantzintla",
 				"u_time":"MJD",
-				"source":"7,13"
-			},
-			{
-				"time":"51501.72",
-				"band":"C",
-				"magnitude":"14.9",
-				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
 			},
 			{
 				"time":"51505.71",
 				"band":"B",
+				"e_magnitude":"0.06",
 				"magnitude":"16.41",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51505.71",
 				"band":"I",
+				"e_magnitude":"0.03",
 				"magnitude":"14.46",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51505.71",
 				"band":"R",
+				"e_magnitude":"0.06",
 				"magnitude":"14.86",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
-				"time":"51505.72",
-				"band":"C",
-				"magnitude":"15",
+				"time":"51505.95",
+				"band":"H",
+				"e_magnitude":"0.07",
+				"instrument":"SWIRCAM",
+				"magnitude":"13.52",
+				"telescope":"AZT-36",
 				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
 			},
 			{
-				"time":"51505.73",
-				"band":"R",
-				"magnitude":"14.8",
+				"time":"51505.95",
+				"band":"J",
+				"e_magnitude":"0.07",
+				"instrument":"SWIRCAM",
+				"magnitude":"13.73",
+				"telescope":"AZT-36",
 				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
 			},
 			{
-				"time":"51506.75",
-				"band":"C",
-				"magnitude":"15",
+				"time":"51505.95",
+				"band":"K",
+				"e_magnitude":"0.05",
+				"instrument":"SWIRCAM",
+				"magnitude":"13.17",
+				"telescope":"AZT-36",
 				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
 			},
 			{
-				"time":"51507.74",
-				"band":"C",
-				"magnitude":"15.2",
+				"time":"51506.73",
+				"band":"J",
+				"e_magnitude":"0.07",
+				"instrument":"SWIRCAM",
+				"magnitude":"13.72",
+				"telescope":"AZT-37",
 				"u_time":"MJD",
-				"source":"9,13"
-			},
-			{
-				"time":"51507.76",
-				"band":"R",
-				"magnitude":"14.7",
-				"u_time":"MJD",
-				"source":"9,13"
-			},
-			{
-				"time":"51508.75",
-				"band":"R",
-				"magnitude":"15.1",
-				"u_time":"MJD",
-				"source":"9,13"
-			},
-			{
-				"time":"51508.99",
-				"band":"C",
-				"magnitude":"14.79",
-				"u_time":"MJD",
-				"source":"9,13"
-			},
-			{
-				"time":"51509.81",
-				"band":"C",
-				"magnitude":"14.8",
-				"u_time":"MJD",
-				"source":"9,13"
-			},
-			{
-				"time":"51510.75",
-				"band":"R",
-				"magnitude":"15.2",
-				"u_time":"MJD",
-				"source":"9,13"
-			},
-			{
-				"time":"51511.86",
-				"band":"C",
-				"magnitude":"15.1",
-				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
 			},
 			{
 				"time":"51513.09",
 				"band":"R",
+				"e_magnitude":"0.1",
 				"magnitude":"15.08",
+				"telescope":"Tonantzintla",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51513.75",
 				"band":"B",
+				"e_magnitude":"0.06",
 				"magnitude":"16.76",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
+			},
+			{
+				"time":"51513.75",
+				"band":"H",
+				"e_magnitude":"0.09",
+				"instrument":"SWIRCAM",
+				"magnitude":"13.77",
+				"telescope":"AZT-38",
+				"u_time":"MJD",
+				"source":"7"
+			},
+			{
+				"time":"51513.75",
+				"band":"J",
+				"e_magnitude":"0.1",
+				"instrument":"SWIRCAM",
+				"magnitude":"13.85",
+				"telescope":"AZT-38",
+				"u_time":"MJD",
+				"source":"7"
+			},
+			{
+				"time":"51513.75",
+				"band":"K",
+				"e_magnitude":"0.06",
+				"instrument":"SWIRCAM",
+				"magnitude":"13.3",
+				"telescope":"AZT-38",
+				"u_time":"MJD",
+				"source":"7"
 			},
 			{
 				"time":"51513.75",
 				"band":"R",
+				"e_magnitude":"0.04",
 				"magnitude":"15.2",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
-			},
-			{
-				"time":"51514.76",
-				"band":"C",
-				"magnitude":"15.3",
-				"u_time":"MJD",
-				"source":"9,13"
-			},
-			{
-				"time":"51515.98",
-				"band":"C",
-				"magnitude":"15.5",
-				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
 			},
 			{
 				"time":"51516.03",
 				"band":"R",
+				"e_magnitude":"0.02",
 				"magnitude":"15.13",
+				"telescope":"Tonantzintla",
 				"u_time":"MJD",
-				"source":"7,13"
-			},
-			{
-				"time":"51516.04",
-				"band":"R",
-				"magnitude":"16",
-				"u_time":"MJD",
-				"source":"9,13"
-			},
-			{
-				"time":"51517.77",
-				"band":"C",
-				"magnitude":"16",
-				"u_time":"MJD",
-				"source":"9,13"
-			},
-			{
-				"time":"51517.81",
-				"band":"C",
-				"magnitude":"15.4",
-				"u_time":"MJD",
-				"source":"9,13"
-			},
-			{
-				"time":"51518.76",
-				"band":"C",
-				"magnitude":"15.5",
-				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
 			},
 			{
 				"time":"51519.71",
 				"band":"B",
+				"e_magnitude":"0.04",
 				"magnitude":"17.14",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51519.71",
 				"band":"I",
+				"e_magnitude":"0.02",
 				"magnitude":"14.85",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51519.71",
 				"band":"R",
+				"e_magnitude":"0.08",
 				"magnitude":"15.51",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51520.73",
 				"band":"B",
+				"e_magnitude":"0.06",
 				"magnitude":"17.17",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51520.73",
 				"band":"I",
+				"e_magnitude":"0.03",
 				"magnitude":"15.01",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51520.73",
 				"band":"R",
+				"e_magnitude":"0.06",
 				"magnitude":"15.58",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
-				"time":"51520.76",
-				"band":"C",
-				"magnitude":"15.3",
+				"time":"51520.75",
+				"band":"J",
+				"e_magnitude":"0.05",
+				"instrument":"SWIRCAM",
+				"magnitude":"13.96",
+				"telescope":"AZT-39",
 				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
+			},
+			{
+				"time":"51520.75",
+				"band":"K",
+				"e_magnitude":"0.07",
+				"instrument":"SWIRCAM",
+				"magnitude":"13.49",
+				"telescope":"AZT-39",
+				"u_time":"MJD",
+				"source":"7"
 			},
 			{
 				"time":"51522.04",
 				"band":"R",
+				"e_magnitude":"0.03",
 				"magnitude":"15.33",
+				"telescope":"Tonantzintla",
 				"u_time":"MJD",
-				"source":"7,13"
-			},
-			{
-				"time":"51530.75",
-				"band":"R",
-				"magnitude":"16.6",
-				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
 			},
 			{
 				"time":"51530.79",
 				"band":"B",
+				"e_magnitude":"0.08",
 				"magnitude":"17.52",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51530.79",
 				"band":"R",
+				"e_magnitude":"0.1",
 				"magnitude":"16.03",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
-				"time":"51543.78",
-				"band":"C",
-				"magnitude":"16.4",
+				"time":"51531.21",
+				"band":"H",
+				"e_magnitude":"0.09",
+				"instrument":"SWIRCAM",
+				"magnitude":"14.24",
+				"telescope":"AZT-40",
 				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
 			},
 			{
-				"time":"51544.4",
-				"band":"C",
-				"magnitude":"15.23",
+				"time":"51531.78",
+				"band":"J",
+				"e_magnitude":"0.08",
+				"instrument":"SWIRCAM",
+				"magnitude":"14.24",
+				"telescope":"AZT-41",
 				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
 			},
 			{
-				"time":"51545.81",
-				"band":"C",
-				"magnitude":"15.6",
+				"time":"51531.78",
+				"band":"K",
+				"e_magnitude":"0.08",
+				"instrument":"SWIRCAM",
+				"magnitude":"13.91",
+				"telescope":"AZT-41",
 				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
+			},
+			{
+				"time":"51547.71",
+				"band":"J",
+				"e_magnitude":"0.04",
+				"instrument":"SWIRCAM",
+				"magnitude":"14.88",
+				"telescope":"AZT-42",
+				"u_time":"MJD",
+				"source":"7"
+			},
+			{
+				"time":"51547.71",
+				"band":"K",
+				"e_magnitude":"0.05",
+				"instrument":"SWIRCAM",
+				"magnitude":"14.4",
+				"telescope":"AZT-42",
+				"u_time":"MJD",
+				"source":"7"
+			},
+			{
+				"time":"51548.72",
+				"band":"J",
+				"e_magnitude":"0.03",
+				"instrument":"SWIRCAM",
+				"magnitude":"14.92",
+				"telescope":"AZT-43",
+				"u_time":"MJD",
+				"source":"7"
+			},
+			{
+				"time":"51548.72",
+				"band":"K",
+				"e_magnitude":"0.06",
+				"instrument":"SWIRCAM",
+				"magnitude":"14.47",
+				"telescope":"AZT-43",
+				"u_time":"MJD",
+				"source":"7"
+			},
+			{
+				"time":"51549.74",
+				"band":"H",
+				"e_magnitude":"0.15",
+				"instrument":"SWIRCAM",
+				"magnitude":"14.75",
+				"telescope":"AZT-44",
+				"u_time":"MJD",
+				"source":"7"
+			},
+			{
+				"time":"51549.74",
+				"band":"J",
+				"e_magnitude":"0.04",
+				"instrument":"SWIRCAM",
+				"magnitude":"14.99",
+				"telescope":"AZT-44",
+				"u_time":"MJD",
+				"source":"7"
+			},
+			{
+				"time":"51549.74",
+				"band":"K",
+				"e_magnitude":"0.04",
+				"instrument":"SWIRCAM",
+				"magnitude":"14.53",
+				"telescope":"AZT-44",
+				"u_time":"MJD",
+				"source":"7"
 			},
 			{
 				"time":"51560.75",
 				"band":"B",
+				"e_magnitude":"0.3",
 				"magnitude":"19.44",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51560.75",
 				"band":"R",
+				"e_magnitude":"0.2",
 				"magnitude":"17.54",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51569.77",
 				"band":"B",
+				"e_magnitude":"0.2",
 				"magnitude":"19.67",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51569.77",
 				"band":"I",
+				"e_magnitude":"0.07",
 				"magnitude":"17.54",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51569.77",
 				"band":"R",
+				"e_magnitude":"0.2",
 				"magnitude":"18.4",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51570.75",
 				"band":"R",
+				"e_magnitude":"0.14",
 				"magnitude":"18.46",
+				"telescope":"Asiago",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51570.75",
 				"band":"V",
+				"e_magnitude":"0.26",
 				"magnitude":"18.94",
+				"telescope":"Asiago",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51571.74",
 				"band":"B",
+				"e_magnitude":"0.2",
 				"magnitude":"19.83",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51571.74",
 				"band":"I",
+				"e_magnitude":"0.08",
 				"magnitude":"17.64",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51571.74",
 				"band":"R",
-				"magnitude":"17.3",
-				"u_time":"MJD",
-				"source":"9,13"
-			},
-			{
-				"time":"51571.74",
-				"band":"R",
+				"e_magnitude":"0.2",
 				"magnitude":"18.69",
+				"telescope":"TNT",
 				"u_time":"MJD",
-				"source":"7,13"
-			},
-			{
-				"time":"51571.81",
-				"band":"C",
-				"magnitude":"16.7",
-				"u_time":"MJD",
-				"source":"9,13"
-			},
-			{
-				"time":"51571.85",
-				"band":"C",
-				"magnitude":"17.1",
-				"u_time":"MJD",
-				"source":"9,13"
-			},
-			{
-				"time":"51571.87",
-				"band":"R",
-				"magnitude":"17.22",
-				"u_time":"MJD",
-				"source":"9,13"
-			},
-			{
-				"time":"51573.77",
-				"band":"R",
-				"magnitude":"18",
-				"u_time":"MJD",
-				"source":"9,13"
-			},
-			{
-				"time":"51574.77",
-				"band":"R",
-				"magnitude":"18",
-				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
 			},
 			{
 				"time":"51574.79",
 				"band":"B",
+				"e_magnitude":"0.2",
 				"magnitude":"20.19",
+				"telescope":"Asiago",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51574.79",
 				"band":"I",
+				"e_magnitude":"0.22",
 				"magnitude":"17.53",
+				"telescope":"Asiago",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51574.79",
 				"band":"R",
+				"e_magnitude":"0.18",
 				"magnitude":"18.25",
+				"telescope":"Asiago",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51574.79",
 				"band":"V",
+				"e_magnitude":"0.25",
 				"magnitude":"19.19",
+				"telescope":"Asiago",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
+			},
+			{
+				"time":"51575.74",
+				"band":"H",
+				"e_magnitude":"0.3",
+				"instrument":"SWIRCAM",
+				"magnitude":"16.6",
+				"telescope":"AZT-45",
+				"u_time":"MJD",
+				"source":"7"
+			},
+			{
+				"time":"51575.74",
+				"band":"J",
+				"e_magnitude":"0.3",
+				"instrument":"SWIRCAM",
+				"magnitude":"17.2",
+				"telescope":"AZT-45",
+				"u_time":"MJD",
+				"source":"7"
+			},
+			{
+				"time":"51575.74",
+				"band":"K",
+				"e_magnitude":"0.2",
+				"instrument":"SWIRCAM",
+				"magnitude":"16",
+				"telescope":"AZT-45",
+				"u_time":"MJD",
+				"source":"7"
 			},
 			{
 				"time":"51584.8",
 				"band":"B",
+				"e_magnitude":"0.16",
 				"magnitude":"20.27",
+				"telescope":"Asiago",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51584.8",
 				"band":"I",
+				"e_magnitude":"0.16",
 				"magnitude":"17.78",
+				"telescope":"Asiago",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51584.8",
 				"band":"R",
+				"e_magnitude":"0.24",
 				"magnitude":"18.42",
+				"telescope":"Asiago",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51584.8",
 				"band":"V",
+				"e_magnitude":"0.16",
 				"magnitude":"19.22",
+				"telescope":"Asiago",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
+			},
+			{
+				"time":"51585.21",
+				"band":"H",
+				"e_magnitude":"0.4",
+				"instrument":"SWIRCAM",
+				"magnitude":"16.6",
+				"telescope":"AZT-46",
+				"u_time":"MJD",
+				"source":"7"
+			},
+			{
+				"time":"51585.21",
+				"band":"J",
+				"e_magnitude":"0.5",
+				"instrument":"SWIRCAM",
+				"magnitude":"17.5",
+				"telescope":"AZT-46",
+				"u_time":"MJD",
+				"source":"7"
 			},
 			{
 				"time":"51604.0",
 				"band":"B",
+				"e_magnitude":"0.3",
 				"magnitude":"20.97",
+				"telescope":"TNG",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51604.0",
 				"band":"I",
+				"e_magnitude":"0.1",
 				"magnitude":"18.03",
+				"telescope":"TNG",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51604.0",
 				"band":"R",
+				"e_magnitude":"0.15",
 				"magnitude":"18.89",
+				"telescope":"TNG",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51604.0",
 				"band":"U",
+				"e_magnitude":"0.4",
 				"magnitude":"21.27",
+				"telescope":"TNG",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51604.0",
 				"band":"V",
+				"e_magnitude":"0.25",
 				"magnitude":"19.52",
+				"telescope":"TNG",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51605.0",
 				"band":"R",
+				"e_magnitude":"0.3",
 				"magnitude":"19.27",
+				"telescope":"TNG",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
-				"time":"51609.21",
-				"band":"R",
-				"magnitude":"17.4",
+				"time":"51605.0",
+				"band":"V",
+				"magnitude":"19.17",
+				"telescope":"TNG",
 				"u_time":"MJD",
-				"source":"9,13"
+				"upperlimit":true,
+				"source":"7"
 			},
 			{
-				"time":"51612.17",
-				"band":"R",
-				"magnitude":"17.3",
+				"time":"51624.09",
+				"band":"H",
+				"e_magnitude":"0.5",
+				"instrument":"SWIRCAM",
+				"magnitude":"17.6",
+				"telescope":"AZT-47",
 				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
 			},
 			{
-				"time":"51619.11",
-				"band":"C",
+				"time":"51624.09",
+				"band":"J",
+				"e_magnitude":"0.6",
+				"instrument":"SWIRCAM",
 				"magnitude":"17.7",
+				"telescope":"AZT-47",
 				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
 			},
 			{
-				"time":"51643.81",
-				"band":"C",
-				"magnitude":"16.93",
+				"time":"51624.09",
+				"band":"K",
+				"e_magnitude":"0.6",
+				"instrument":"SWIRCAM",
+				"magnitude":"16.4",
+				"telescope":"AZT-47",
 				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
 			},
 			{
 				"time":"51690.0",
 				"band":"B",
+				"e_magnitude":"0.15",
 				"magnitude":"21.54",
+				"telescope":"TNG",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51690.0",
 				"band":"I",
+				"e_magnitude":"0.15",
 				"magnitude":"18.91",
+				"telescope":"TNG",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51690.0",
 				"band":"R",
+				"e_magnitude":"0.1",
 				"magnitude":"19.83",
+				"telescope":"TNG",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51690.0",
 				"band":"U",
+				"e_magnitude":"0.2",
 				"magnitude":"21.44",
+				"telescope":"TNG",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51690.0",
 				"band":"V",
+				"e_magnitude":"0.1",
 				"magnitude":"20.49",
+				"telescope":"TNG",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
+			},
+			{
+				"time":"51691.12",
+				"band":"H",
+				"e_magnitude":"0.5",
+				"instrument":"ARNICA",
+				"magnitude":"17.84",
+				"telescope":"TNG",
+				"u_time":"MJD",
+				"source":"7"
+			},
+			{
+				"time":"51691.12",
+				"band":"J",
+				"e_magnitude":"0.4",
+				"instrument":"ARNICA",
+				"magnitude":"18.31",
+				"telescope":"TNG",
+				"u_time":"MJD",
+				"source":"7"
+			},
+			{
+				"time":"51691.12",
+				"band":"K",
+				"e_magnitude":"0.25",
+				"instrument":"ARNICA",
+				"magnitude":"16.43",
+				"telescope":"TNG",
+				"u_time":"MJD",
+				"source":"7"
 			},
 			{
 				"time":"51698.04",
 				"band":"B",
+				"e_magnitude":"0.4",
 				"magnitude":"21.44",
+				"telescope":"Asiago",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51698.04",
 				"band":"I",
+				"e_magnitude":"0.25",
 				"magnitude":"18.9",
+				"telescope":"Asiago",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51698.04",
 				"band":"R",
+				"e_magnitude":"0.3",
 				"magnitude":"19.81",
+				"telescope":"Asiago",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51698.04",
 				"band":"V",
+				"e_magnitude":"0.3",
 				"magnitude":"20.45",
+				"telescope":"Asiago",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51699.05",
 				"band":"B",
+				"e_magnitude":"0.3",
 				"magnitude":"21.42",
+				"telescope":"Asiago",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51699.05",
 				"band":"R",
+				"e_magnitude":"0.3",
 				"magnitude":"19.77",
+				"telescope":"Asiago",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
 				"time":"51699.05",
 				"band":"V",
+				"e_magnitude":"0.3",
 				"magnitude":"20.56",
+				"telescope":"Asiago",
 				"u_time":"MJD",
-				"source":"7,13"
+				"source":"7"
 			},
 			{
-				"time":"51732.32",
-				"band":"R",
-				"magnitude":"17.5",
+				"time":"51892.84",
+				"band":"J",
+				"e_magnitude":"0.5",
+				"instrument":"NICS",
+				"magnitude":"20.01",
+				"telescope":"TNG",
 				"u_time":"MJD",
-				"source":"9,13"
+				"source":"7"
+			},
+			{
+				"time":"51892.84",
+				"band":"K",
+				"e_magnitude":"0.5",
+				"instrument":"NICS",
+				"magnitude":"17.4",
+				"telescope":"TNG",
+				"u_time":"MJD",
+				"source":"7"
 			}
 		],
 		"spectra":[
@@ -11558,7 +11853,7 @@
 						"1.61667e-15"
 					]
 				],
-				"source":"11"
+				"source":"10"
 			},
 			{
 				"time":"51485.0",
@@ -21760,7 +22055,7 @@
 						"2.13874e-15"
 					]
 				],
-				"source":"11"
+				"source":"10"
 			},
 			{
 				"time":"51486.0",
@@ -31962,7 +32257,7 @@
 						"2.01449e-15"
 					]
 				],
-				"source":"11"
+				"source":"10"
 			},
 			{
 				"time":"51487",
@@ -46141,7 +46436,7 @@
 						"2.43845"
 					]
 				],
-				"source":"1,15"
+				"source":"1,14"
 			},
 			{
 				"time":"51490.0",
@@ -56343,7 +56638,7 @@
 						"2.31987e-15"
 					]
 				],
-				"source":"11"
+				"source":"10"
 			},
 			{
 				"time":"51520.0",
@@ -66545,7 +66840,7 @@
 						"1.58598e-15"
 					]
 				],
-				"source":"11"
+				"source":"10"
 			},
 			{
 				"time":"51695.0",
@@ -76695,7 +76990,7 @@
 						"1.2352e-16"
 					]
 				],
-				"source":"11"
+				"source":"10"
 			}
 		]
 	}

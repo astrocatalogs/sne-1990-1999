@@ -100,15 +100,15 @@
 				"alias":"16"
 			},
 			{
-				"name":"2004ApJ...607..665R",
-				"bibcode":"2004ApJ...607..665R",
-				"reference":"Riess et al. (2004)",
-				"alias":"17"
-			},
-			{
 				"name":"2004MNRAS.349.1344A",
 				"bibcode":"2004MNRAS.349.1344A",
 				"reference":"Altavilla et al. (2004)",
+				"alias":"17"
+			},
+			{
+				"name":"2004ApJ...607..665R",
+				"bibcode":"2004ApJ...607..665R",
+				"reference":"Riess et al. (2004)",
 				"alias":"18"
 			},
 			{
@@ -204,7 +204,7 @@
 		"alias":[
 			{
 				"value":"SN1996bo",
-				"source":"3,4,17,22,23,24,25,26,28,29,30,31"
+				"source":"3,4,17,18,22,23,24,25,26,28,29,30,31"
 			},
 			{
 				"value":"AAVSO 0143+11",
@@ -230,7 +230,7 @@
 			{
 				"value":"57.1",
 				"u_value":"Mpc",
-				"source":"17,30"
+				"source":"18,30"
 			},
 			{
 				"value":"59.2",
@@ -341,7 +341,7 @@
 			},
 			{
 				"value":"NGC 0673",
-				"source":"2,6,7,9,11,12,13,14,15,16,17,30"
+				"source":"2,6,7,9,11,12,13,14,15,16,18,30"
 			}
 		],
 		"hostcomovingdist":[
@@ -381,7 +381,7 @@
 		"hostoffsetdist":[
 			{
 				"value":"2.698",
-				"source":"4,6,7,9,11,12,13,14,15,17,21,27,29,30,31"
+				"source":"4,6,7,9,11,12,13,14,15,18,21,27,29,30,31"
 			}
 		],
 		"hostra":[
@@ -488,7 +488,7 @@
 		"redshift":[
 			{
 				"value":"0.01728",
-				"source":"6,7,9,11,12,13,14,15,17,30"
+				"source":"6,7,9,11,12,13,14,15,18,30"
 			}
 		],
 		"velocity":[
@@ -509,23 +509,29 @@
 			{
 				"time":"50380.15",
 				"band":"B",
+				"e_magnitude":"0.03",
 				"magnitude":"16.33",
+				"telescope":"Dutch 0.91m",
 				"u_time":"MJD",
-				"source":"18,26"
+				"source":"17"
 			},
 			{
 				"time":"50380.15",
 				"band":"R",
+				"e_magnitude":"0.03",
 				"magnitude":"15.79",
+				"telescope":"Dutch 0.91m",
 				"u_time":"MJD",
-				"source":"18,26"
+				"source":"17"
 			},
 			{
 				"time":"50380.15",
 				"band":"V",
+				"e_magnitude":"0.03",
 				"magnitude":"16.05",
+				"telescope":"Dutch 0.91m",
 				"u_time":"MJD",
-				"source":"18,26"
+				"source":"17"
 			},
 			{
 				"time":"50381.2",
@@ -1002,37 +1008,47 @@
 			{
 				"time":"50406.14",
 				"band":"B",
+				"e_magnitude":"0.08",
 				"magnitude":"17.81",
+				"telescope":"Dutch 0.91m",
 				"u_time":"MJD",
-				"source":"18,26"
+				"source":"17"
 			},
 			{
 				"time":"50406.14",
 				"band":"I",
+				"e_magnitude":"0.04",
 				"magnitude":"16.09",
+				"telescope":"Dutch 0.91m",
 				"u_time":"MJD",
-				"source":"18,26"
+				"source":"17"
 			},
 			{
 				"time":"50406.14",
 				"band":"R",
+				"e_magnitude":"0.03",
 				"magnitude":"16.21",
+				"telescope":"Dutch 0.91m",
 				"u_time":"MJD",
-				"source":"18,26"
+				"source":"17"
 			},
 			{
 				"time":"50406.14",
 				"band":"U",
+				"e_magnitude":"0.08",
 				"magnitude":"18.46",
+				"telescope":"Dutch 0.91m",
 				"u_time":"MJD",
-				"source":"18,26"
+				"source":"17"
 			},
 			{
 				"time":"50406.14",
 				"band":"V",
+				"e_magnitude":"0.04",
 				"magnitude":"16.6",
+				"telescope":"Dutch 0.91m",
 				"u_time":"MJD",
-				"source":"18,26"
+				"source":"17"
 			},
 			{
 				"time":"50412.2",

@@ -124,15 +124,15 @@
 				"alias":"20"
 			},
 			{
-				"name":"2004ApJ...607..665R",
-				"bibcode":"2004ApJ...607..665R",
-				"reference":"Riess et al. (2004)",
-				"alias":"21"
-			},
-			{
 				"name":"2004MNRAS.349.1344A",
 				"bibcode":"2004MNRAS.349.1344A",
 				"reference":"Altavilla et al. (2004)",
+				"alias":"21"
+			},
+			{
+				"name":"2004ApJ...607..665R",
+				"bibcode":"2004ApJ...607..665R",
+				"reference":"Riess et al. (2004)",
 				"alias":"22"
 			},
 			{
@@ -266,7 +266,7 @@
 		"alias":[
 			{
 				"value":"SN1994M",
-				"source":"4,5,21,30,32,33,34,35,37,38,39,40,41"
+				"source":"4,5,21,22,30,32,33,34,35,37,38,39,40,41"
 			},
 			{
 				"value":"AAVSO 1226+01",
@@ -322,7 +322,7 @@
 			{
 				"value":"102",
 				"u_value":"Mpc",
-				"source":"21,40"
+				"source":"22,40"
 			},
 			{
 				"value":"107",
@@ -434,7 +434,7 @@
 		"host":[
 			{
 				"value":"NGC 4493",
-				"source":"2,3,5,6,8,9,10,12,13,15,16,17,18,19,20,21,24,26,27,28,30,32,34,40,41"
+				"source":"2,3,5,6,8,9,10,12,13,15,16,17,18,19,20,22,24,26,27,28,30,32,34,40,41"
 			}
 		],
 		"hostcomovingdist":[
@@ -474,7 +474,7 @@
 		"hostoffsetdist":[
 			{
 				"value":"10.34",
-				"source":"2,5,6,8,9,10,13,15,16,17,18,19,21,26,27,29,30,32,34,36,39,40,41"
+				"source":"2,5,6,8,9,10,13,15,16,17,18,19,22,26,27,29,30,32,34,36,39,40,41"
 			}
 		],
 		"hostra":[
@@ -576,7 +576,7 @@
 		"redshift":[
 			{
 				"value":"0.02316",
-				"source":"2,6,8,9,10,13,15,16,17,18,19,21,26,27,40"
+				"source":"2,6,8,9,10,13,15,16,17,18,19,22,26,27,40"
 			}
 		],
 		"velocity":[
@@ -831,30 +831,42 @@
 			{
 				"time":"49486.06",
 				"band":"B",
+				"e_magnitude":"0.01",
+				"instrument":"EFOSC2",
 				"magnitude":"17.28",
+				"telescope":"MPG/ESO 2.2m",
 				"u_time":"MJD",
-				"source":"22,35"
+				"source":"21"
 			},
 			{
 				"time":"49486.06",
 				"band":"I",
+				"e_magnitude":"0.01",
+				"instrument":"EFOSC2",
 				"magnitude":"17.25",
+				"telescope":"MPG/ESO 2.2m",
 				"u_time":"MJD",
-				"source":"22,35"
+				"source":"21"
 			},
 			{
 				"time":"49486.06",
 				"band":"R",
+				"e_magnitude":"0.01",
+				"instrument":"EFOSC2",
 				"magnitude":"16.83",
+				"telescope":"MPG/ESO 2.2m",
 				"u_time":"MJD",
-				"source":"22,35"
+				"source":"21"
 			},
 			{
 				"time":"49486.06",
 				"band":"V",
+				"e_magnitude":"0.01",
+				"instrument":"EFOSC2",
 				"magnitude":"16.84",
+				"telescope":"MPG/ESO 2.2m",
 				"u_time":"MJD",
-				"source":"22,35"
+				"source":"21"
 			},
 			{
 				"time":"49486.33",

@@ -94,15 +94,15 @@
 				"alias":"15"
 			},
 			{
-				"name":"2004ApJ...607..665R",
-				"bibcode":"2004ApJ...607..665R",
-				"reference":"Riess et al. (2004)",
-				"alias":"16"
-			},
-			{
 				"name":"2004MNRAS.349.1344A",
 				"bibcode":"2004MNRAS.349.1344A",
 				"reference":"Altavilla et al. (2004)",
+				"alias":"16"
+			},
+			{
+				"name":"2004ApJ...607..665R",
+				"bibcode":"2004ApJ...607..665R",
+				"reference":"Riess et al. (2004)",
 				"alias":"17"
 			},
 			{
@@ -210,7 +210,7 @@
 		"alias":[
 			{
 				"value":"SN1995bd",
-				"source":"3,16,23,24,25,26,27,29,30,31,32"
+				"source":"3,16,17,23,24,25,26,27,29,30,31,32"
 			}
 		],
 		"claimedtype":[
@@ -266,7 +266,7 @@
 			{
 				"value":"65.4",
 				"u_value":"Mpc",
-				"source":"16,31"
+				"source":"17,31"
 			},
 			{
 				"value":"66.6",
@@ -325,7 +325,7 @@
 		"host":[
 			{
 				"value":"UGC 3151",
-				"source":"2,3,6,7,9,10,12,13,14,15,16,20,23,24,26,31,32"
+				"source":"2,3,6,7,9,10,12,13,14,15,17,20,23,24,26,31,32"
 			}
 		],
 		"hostcomovingdist":[
@@ -365,7 +365,7 @@
 		"hostoffsetdist":[
 			{
 				"value":"6.337",
-				"source":"3,6,16,22,23,24,26,28,30,31,32"
+				"source":"3,6,17,22,23,24,26,28,30,31,32"
 			}
 		],
 		"hostra":[
@@ -468,11 +468,11 @@
 			{
 				"value":"0.0152",
 				"kind":"spectroscopic",
-				"source":"16"
+				"source":"17"
 			},
 			{
 				"value":"0.0146",
-				"source":"6,7,9,12,13,14,15,16,20,31"
+				"source":"6,7,9,12,13,14,15,17,20,31"
 			},
 			{
 				"value":"0.0155",
@@ -924,16 +924,22 @@
 			{
 				"time":"50100.17",
 				"band":"B",
+				"e_magnitude":"0.01",
+				"instrument":"EFOSC2",
 				"magnitude":"18.19",
+				"telescope":"MPG/ESO 2.2m",
 				"u_time":"MJD",
-				"source":"17,27"
+				"source":"16"
 			},
 			{
 				"time":"50100.17",
 				"band":"V",
+				"e_magnitude":"0.01",
+				"instrument":"EFOSC2",
 				"magnitude":"17.12",
+				"telescope":"MPG/ESO 2.2m",
 				"u_time":"MJD",
-				"source":"17,27"
+				"source":"16"
 			},
 			{
 				"time":"50101.11",
