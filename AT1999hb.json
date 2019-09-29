@@ -11,8 +11,14 @@
 			},
 			{
 				"name":"Transient Name Server",
-				"url":"https://wis-tns.weizmann.ac.il/",
+				"url":"https://wis-tns.weizmann.ac.il/object/1999hb",
 				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"secondary":true,
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -20,19 +26,19 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"3"
+				"alias":"4"
 			}
 		],
 		"alias":[
 			{
 				"value":"AT1999hb",
-				"source":"2"
+				"source":"2,3"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Candidate",
-				"source":"3"
+				"source":"4"
 			}
 		],
 		"comovingdist":[
@@ -40,88 +46,26 @@
 				"value":"360",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"dec":[
 			{
 				"value":"-00:58:18.49",
 				"u_value":"degrees",
-				"source":"2"
+				"source":"2,3"
 			}
 		],
 		"discoverdate":[
 			{
-				"value":"1999/03/22.288449",
-				"source":"2"
+				"value":"1999/03/22",
+				"source":"2,3"
 			}
 		],
 		"discoverer":[
 			{
-				"value":"None",
-				"source":"2"
-			}
-		],
-		"host":[
-			{
-				"value":"SDSS J115121.08-005813.8",
-				"source":"2"
-			}
-		],
-		"hostcomovingdist":[
-			{
-				"value":"360",
-				"derived":true,
-				"source":"1,2,3"
-			}
-		],
-		"hostdec":[
-			{
-				"value":"-00:58:13.8",
-				"derived":true,
-				"u_value":"degrees",
-				"source":"3"
-			}
-		],
-		"hostlumdist":[
-			{
-				"value":"390",
-				"derived":true,
-				"source":"1,2,3"
-			}
-		],
-		"hostoffsetang":[
-			{
-				"value":"6.939",
-				"derived":true,
-				"u_value":"arcseconds",
+				"value":"Galaxy Zoo",
 				"source":"2,3"
-			}
-		],
-		"hostoffsetdist":[
-			{
-				"value":"11.18",
-				"source":"1,2,3"
-			}
-		],
-		"hostra":[
-			{
-				"value":"11:51:21.08",
-				"derived":true,
-				"u_value":"hours",
-				"source":"3"
-			}
-		],
-		"hostredshift":[
-			{
-				"value":"0.083",
-				"source":"2"
-			}
-		],
-		"hostvelocity":[
-			{
-				"value":"24000",
-				"source":"3"
 			}
 		],
 		"lumdist":[
@@ -129,28 +73,77 @@
 				"value":"390",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
+			}
+		],
+		"maxabsmag":[
+			{
+				"value":"-17.2",
+				"derived":true,
+				"source":"1,2,3,4"
+			}
+		],
+		"maxappmag":[
+			{
+				"value":"20.7",
+				"derived":true,
+				"source":"2,3,4"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"1999/03/21",
+				"derived":true,
+				"source":"2,3,4"
+			}
+		],
+		"maxvisualabsmag":[
+			{
+				"value":"-17.3",
+				"derived":true,
+				"source":"1,2,3,4"
+			}
+		],
+		"maxvisualappmag":[
+			{
+				"value":"20.7",
+				"derived":true,
+				"source":"2,3,4"
+			}
+		],
+		"maxvisualdate":[
+			{
+				"value":"1999/03/21",
+				"derived":true,
+				"source":"2,3,4"
 			}
 		],
 		"ra":[
 			{
 				"value":"11:51:21.421",
 				"u_value":"hours",
-				"source":"2"
+				"source":"2,3"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.083",
-				"kind":"host",
-				"source":"2"
+				"source":"2,3"
 			}
 		],
 		"velocity":[
 			{
 				"value":"24000",
 				"u_value":"km/s",
-				"source":"3"
+				"source":"4"
+			}
+		],
+		"photometry":[
+			{
+				"time":"51258.5",
+				"magnitude":"20.7",
+				"u_time":"MJD",
+				"source":"2,3"
 			}
 		]
 	}
