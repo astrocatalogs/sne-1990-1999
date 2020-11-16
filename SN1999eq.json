@@ -35,15 +35,10 @@
 				"alias":"5"
 			},
 			{
-				"name":"Transient Name Server",
-				"url":"https://wis-tns.weizmann.ac.il/",
-				"alias":"6"
-			},
-			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"7"
+				"alias":"6"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -51,7 +46,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"8"
+				"alias":"7"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -59,7 +54,7 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"9"
+				"alias":"8"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
@@ -67,23 +62,23 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)",
 				"secondary":true,
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"10"
+				"alias":"9"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1999eq",
-				"source":"2,5,6,7,9,10"
+				"source":"2,5,6,8,9"
 			},
 			{
 				"value":"2MASS J01192272-0336199",
-				"source":"9"
+				"source":"8"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"2,5,6,7,10"
+				"source":"2,5,6,9"
 			}
 		],
 		"comovingdist":[
@@ -91,40 +86,35 @@
 				"value":"200",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,5,7,8"
+				"source":"1,5,6,7"
 			}
 		],
 		"dec":[
 			{
 				"value":"-03:36:20.0",
 				"u_value":"degrees",
-				"source":"4,9"
+				"source":"4,8"
 			},
 			{
 				"value":"-03:36:19.8",
 				"u_value":"degrees",
-				"source":"2,5,7,10"
-			},
-			{
-				"value":"-03:36:19.80",
-				"u_value":"degrees",
-				"source":"6"
+				"source":"2,5,6,9"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1999/10/03",
-				"source":"2,5,7,10"
+				"source":"2,5,6,9"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"NGSST",
-				"source":"10"
+				"source":"9"
 			},
 			{
 				"value":"Nearby Galaxy Supernova Search",
-				"source":"5,7"
+				"source":"5,6"
 			}
 		],
 		"ebv":[
@@ -132,13 +122,13 @@
 				"value":"0.039",
 				"derived":true,
 				"e_value":"0.0015",
-				"source":"3,8"
+				"source":"3,7"
 			}
 		],
 		"host":[
 			{
 				"value":"A011922-0336",
-				"source":"10"
+				"source":"9"
 			},
 			{
 				"value":"2MASXJ01192270-336200",
@@ -149,14 +139,14 @@
 			{
 				"value":"200",
 				"derived":true,
-				"source":"1,2,8"
+				"source":"1,2,7"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-03:36:19",
 				"u_value":"degrees",
-				"source":"10"
+				"source":"9"
 			},
 			{
 				"value":"-03:36:19.0",
@@ -168,7 +158,7 @@
 			{
 				"value":"230",
 				"derived":true,
-				"source":"1,2,8"
+				"source":"1,2,7"
 			}
 		],
 		"hostoffsetang":[
@@ -176,20 +166,20 @@
 				"value":"10.82",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"4,8,9,10"
+				"source":"4,7,8,9"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"9.992",
-				"source":"1,4,5,7,8,9,10"
+				"source":"1,4,5,6,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"01:19:22",
 				"u_value":"hours",
-				"source":"10"
+				"source":"9"
 			},
 			{
 				"value":"01:19:22.00",
@@ -207,7 +197,7 @@
 			{
 				"value":"15000",
 				"kind":"host",
-				"source":"10"
+				"source":"9"
 			}
 		],
 		"lumdist":[
@@ -215,66 +205,61 @@
 				"value":"230",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,5,7,8"
+				"source":"1,5,6,7"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-18",
 				"derived":true,
-				"source":"1,5,7,8"
+				"source":"1,5,6,7"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19",
 				"derived":true,
-				"source":"5,7,8"
+				"source":"5,6,7"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1999/10/02",
 				"derived":true,
-				"source":"5,7,8"
+				"source":"5,6,7"
 			}
 		],
 		"maxvisualabsmag":[
 			{
 				"value":"-18",
 				"derived":true,
-				"source":"1,5,7,8"
+				"source":"1,5,6,7"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"19",
 				"derived":true,
-				"source":"5,7,8"
+				"source":"5,6,7"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"1999/10/02",
 				"derived":true,
-				"source":"5,7,8"
+				"source":"5,6,7"
 			}
 		],
 		"ra":[
 			{
 				"value":"01:19:22.72",
 				"u_value":"hours",
-				"source":"4,9"
+				"source":"4,8"
 			},
 			{
 				"value":"01:19:22.70",
 				"u_value":"hours",
-				"source":"2,5,7,10"
-			},
-			{
-				"value":"01:19:22.699",
-				"u_value":"hours",
-				"source":"6"
+				"source":"2,5,6,9"
 			}
 		],
 		"redshift":[
@@ -285,7 +270,7 @@
 			},
 			{
 				"value":"0.05",
-				"source":"5,7"
+				"source":"5,6"
 			}
 		],
 		"velocity":[
@@ -293,7 +278,7 @@
 				"value":"15000",
 				"kind":"host",
 				"u_value":"km/s",
-				"source":"10"
+				"source":"9"
 			}
 		],
 		"photometry":[
@@ -301,7 +286,7 @@
 				"time":"51453.5",
 				"magnitude":"19.0",
 				"u_time":"MJD",
-				"source":"5,7"
+				"source":"5,6"
 			}
 		]
 	}

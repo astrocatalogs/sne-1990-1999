@@ -35,22 +35,17 @@
 				"alias":"5"
 			},
 			{
-				"name":"Transient Name Server",
-				"url":"https://wis-tns.weizmann.ac.il/",
-				"alias":"6"
-			},
-			{
 				"name":"CfA Supernova Archive",
 				"acknowledgment":"This research has made use of the CfA Supernova Archive, which is funded in part by the National Science Foundation through grant AST 0907903.",
 				"secondary":true,
 				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
-				"alias":"7"
+				"alias":"6"
 			},
 			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"8"
+				"alias":"7"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -58,7 +53,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"9"
+				"alias":"8"
 			},
 			{
 				"name":"WISeREP",
@@ -66,7 +61,7 @@
 				"reference":"Yaron & Gal-Yam (2012)",
 				"secondary":true,
 				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"10"
+				"alias":"9"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -74,7 +69,7 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"11"
+				"alias":"10"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
@@ -82,21 +77,21 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)",
 				"secondary":true,
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"12"
+				"alias":"11"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1998cf",
-				"source":"2,5,6,7,8,10,11,12"
+				"source":"2,5,6,7,9,10,11"
 			},
 			{
 				"value":"GPM 165.797295+27.972535",
-				"source":"11"
+				"source":"10"
 			},
 			{
 				"value":"2MASS J11031122+2758212",
-				"source":"11"
+				"source":"10"
 			}
 		],
 		"comovingdist":[
@@ -104,40 +99,35 @@
 				"value":"23",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,9"
+				"source":"1,2,8"
 			}
 		],
 		"dec":[
 			{
 				"value":"+27:58:21.3",
 				"u_value":"degrees",
-				"source":"4,11"
+				"source":"4,10"
 			},
 			{
 				"value":"+27:58:21.0",
 				"u_value":"degrees",
-				"source":"2,5,8,12"
-			},
-			{
-				"value":"+27:58:21.00",
-				"u_value":"degrees",
-				"source":"6"
+				"source":"2,5,7,11"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1998/03/31",
-				"source":"2,5,8,12"
+				"source":"2,5,7,11"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Emsellem, Clayton, Gordon",
-				"source":"12"
+				"source":"11"
 			},
 			{
 				"value":"Eric Emsellem",
-				"source":"5,8"
+				"source":"5,7"
 			}
 		],
 		"ebv":[
@@ -145,27 +135,27 @@
 				"value":"0.0228",
 				"derived":true,
 				"e_value":"0.0002",
-				"source":"3,9"
+				"source":"3,8"
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 3504",
-				"source":"2,5,6,8,12"
+				"source":"2,5,7,11"
 			}
 		],
 		"hostcomovingdist":[
 			{
 				"value":"23",
 				"derived":true,
-				"source":"1,2,9"
+				"source":"1,2,8"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+27:58:25",
 				"u_value":"degrees",
-				"source":"12"
+				"source":"11"
 			},
 			{
 				"value":"+27:58:20.5",
@@ -177,7 +167,7 @@
 			{
 				"value":"22.7",
 				"derived":true,
-				"source":"1,2,9"
+				"source":"1,2,8"
 			}
 		],
 		"hostoffsetang":[
@@ -185,20 +175,20 @@
 				"value":"4.793",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"4,9,11,12"
+				"source":"4,8,10,11"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"0.5317",
-				"source":"1,2,4,9,11,12"
+				"source":"1,2,4,8,10,11"
 			}
 		],
 		"hostra":[
 			{
 				"value":"11:03:11",
 				"u_value":"hours",
-				"source":"12"
+				"source":"11"
 			},
 			{
 				"value":"11:03:11.15",
@@ -216,7 +206,7 @@
 			{
 				"value":"1518",
 				"kind":"host",
-				"source":"12"
+				"source":"11"
 			}
 		],
 		"lumdist":[
@@ -232,59 +222,54 @@
 			{
 				"value":"-15.7",
 				"derived":true,
-				"source":"2,9"
+				"source":"2,8"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"15",
 				"derived":true,
-				"source":"5,8,9"
+				"source":"5,7,8"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1998/03/30",
 				"derived":true,
-				"source":"5,8,9"
+				"source":"5,7,8"
 			}
 		],
 		"maxvisualabsmag":[
 			{
 				"value":"-15.7",
 				"derived":true,
-				"source":"2,9"
+				"source":"2,8"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"15",
 				"derived":true,
-				"source":"5,8,9"
+				"source":"5,7,8"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"1998/03/30",
 				"derived":true,
-				"source":"5,8,9"
+				"source":"5,7,8"
 			}
 		],
 		"ra":[
 			{
 				"value":"11:03:11.23",
 				"u_value":"hours",
-				"source":"4,11"
+				"source":"4,10"
 			},
 			{
 				"value":"11:03:11.21",
 				"u_value":"hours",
-				"source":"2,5,8,12"
-			},
-			{
-				"value":"11:03:11.210",
-				"u_value":"hours",
-				"source":"6"
+				"source":"2,5,7,11"
 			}
 		],
 		"redshift":[
@@ -295,7 +280,7 @@
 			},
 			{
 				"value":"0.0051",
-				"source":"10"
+				"source":"9"
 			}
 		],
 		"velocity":[
@@ -303,7 +288,7 @@
 				"value":"1518",
 				"kind":"host",
 				"u_value":"km/s",
-				"source":"12"
+				"source":"11"
 			}
 		],
 		"photometry":[
@@ -311,7 +296,7 @@
 				"time":"50902.5",
 				"magnitude":"15.0",
 				"u_time":"MJD",
-				"source":"5,8"
+				"source":"5,7"
 			}
 		],
 		"spectra":[
@@ -10515,7 +10500,7 @@
 						"2.721e-15"
 					]
 				],
-				"source":"7"
+				"source":"6"
 			}
 		]
 	}

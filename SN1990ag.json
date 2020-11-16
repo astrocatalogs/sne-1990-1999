@@ -47,15 +47,10 @@
 				"alias":"7"
 			},
 			{
-				"name":"Transient Name Server",
-				"url":"https://wis-tns.weizmann.ac.il/",
-				"alias":"8"
-			},
-			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"9"
+				"alias":"8"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -63,7 +58,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"10"
+				"alias":"9"
 			},
 			{
 				"name":"WISeREP",
@@ -71,7 +66,7 @@
 				"reference":"Yaron & Gal-Yam (2012)",
 				"secondary":true,
 				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"11"
+				"alias":"10"
 			},
 			{
 				"name":"SUSPECT",
@@ -79,7 +74,7 @@
 				"reference":"Richardson et al. (2001)",
 				"secondary":true,
 				"url":"https://www.nhn.ou.edu/~suspect/",
-				"alias":"12"
+				"alias":"11"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -87,7 +82,7 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"13"
+				"alias":"12"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
@@ -95,37 +90,37 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)",
 				"secondary":true,
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"14"
+				"alias":"13"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1990ag",
-				"source":"3,7,8,9,11,12,13,14"
+				"source":"3,7,8,10,11,12,13"
 			},
 			{
 				"value":"Gaiadr1 892664353533213184",
-				"source":"13"
+				"source":"12"
 			},
 			{
 				"value":"GSC 02457-02244",
-				"source":"13"
+				"source":"12"
 			},
 			{
 				"value":"2MASS J07324908+3253515",
-				"source":"13"
+				"source":"12"
 			},
 			{
 				"value":"TYC 2457-2244-1",
-				"source":"13"
+				"source":"12"
 			},
 			{
 				"value":"UCAC2 43264237",
-				"source":"13"
+				"source":"12"
 			},
 			{
 				"value":"UCAC3 246-91213",
-				"source":"13"
+				"source":"12"
 			}
 		],
 		"claimedtype":[
@@ -135,11 +130,11 @@
 			},
 			{
 				"value":"II Pec",
-				"source":"5,13,14"
+				"source":"5,12,13"
 			},
 			{
 				"value":"II P",
-				"source":"7,8,9"
+				"source":"7,8"
 			}
 		],
 		"comovingdist":[
@@ -147,29 +142,24 @@
 				"value":"240",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"2,3,10"
+				"source":"2,3,9"
 			}
 		],
 		"dec":[
 			{
 				"value":"+32:53:51.555",
 				"u_value":"degrees",
-				"source":"1,13"
+				"source":"1,12"
 			},
 			{
 				"value":"+32:54:15.17",
 				"u_value":"degrees",
-				"source":"14"
-			},
-			{
-				"value":"+32:54:15.30",
-				"u_value":"degrees",
-				"source":"8"
+				"source":"13"
 			},
 			{
 				"value":"+32:54:15.3",
 				"u_value":"degrees",
-				"source":"7,9"
+				"source":"7,8"
 			},
 			{
 				"value":"+32:54:15.2",
@@ -180,17 +170,17 @@
 		"discoverdate":[
 			{
 				"value":"1990/11/26",
-				"source":"3,7,9,14"
+				"source":"3,7,8,13"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Pollas",
-				"source":"14"
+				"source":"13"
 			},
 			{
 				"value":"Christian Pollas",
-				"source":"7,9"
+				"source":"7,8"
 			}
 		],
 		"ebv":[
@@ -198,27 +188,27 @@
 				"value":"0.0499",
 				"derived":true,
 				"e_value":"0.0012",
-				"source":"4,10"
+				"source":"4,9"
 			}
 		],
 		"host":[
 			{
 				"value":"A073249+3254",
-				"source":"14"
+				"source":"13"
 			}
 		],
 		"hostcomovingdist":[
 			{
 				"value":"240",
 				"derived":true,
-				"source":"2,3,10"
+				"source":"2,3,9"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+32:54:26",
 				"u_value":"degrees",
-				"source":"14"
+				"source":"13"
 			},
 			{
 				"value":"+32:54:26.0",
@@ -230,7 +220,7 @@
 			{
 				"value":"249",
 				"derived":true,
-				"source":"2,3,10"
+				"source":"2,3,9"
 			}
 		],
 		"hostoffsetang":[
@@ -238,20 +228,20 @@
 				"value":"34.46",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"1,10,13,14"
+				"source":"1,9,12,13"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"38.04",
-				"source":"1,2,3,10,13,14"
+				"source":"1,2,3,9,12,13"
 			}
 		],
 		"hostra":[
 			{
 				"value":"07:32:49",
 				"u_value":"hours",
-				"source":"14"
+				"source":"13"
 			},
 			{
 				"value":"07:32:49.00",
@@ -269,7 +259,7 @@
 			{
 				"value":"16200",
 				"kind":"host",
-				"source":"14"
+				"source":"13"
 			}
 		],
 		"lumdist":[
@@ -277,71 +267,66 @@
 				"value":"249",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"2,3,10"
+				"source":"2,3,9"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-17.9",
 				"derived":true,
-				"source":"2,3,10"
+				"source":"2,3,9"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19",
 				"derived":true,
-				"source":"7,9,10"
+				"source":"7,8,9"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1990/11/25",
 				"derived":true,
-				"source":"7,9,10"
+				"source":"7,8,9"
 			}
 		],
 		"maxvisualabsmag":[
 			{
 				"value":"-18",
 				"derived":true,
-				"source":"2,3,10"
+				"source":"2,3,9"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"19",
 				"derived":true,
-				"source":"7,9,10"
+				"source":"7,8,9"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"1990/11/25",
 				"derived":true,
-				"source":"7,9,10"
+				"source":"7,8,9"
 			}
 		],
 		"ra":[
 			{
 				"value":"07:32:49.0890",
 				"u_value":"hours",
-				"source":"1,13"
+				"source":"1,12"
 			},
 			{
 				"value":"07:32:49.35",
 				"u_value":"hours",
-				"source":"3,14"
-			},
-			{
-				"value":"07:32:49.361",
-				"u_value":"hours",
-				"source":"8"
+				"source":"3,13"
 			},
 			{
 				"value":"07:32:49.36",
 				"u_value":"hours",
-				"source":"7,9"
+				"source":"7,8"
 			}
 		],
 		"redshift":[
@@ -356,7 +341,7 @@
 				"value":"16200",
 				"kind":"host",
 				"u_value":"km/s",
-				"source":"14"
+				"source":"13"
 			}
 		],
 		"photometry":[
@@ -364,7 +349,7 @@
 				"time":"48220.5",
 				"magnitude":"19.0",
 				"u_time":"MJD",
-				"source":"7,9"
+				"source":"7,8"
 			}
 		],
 		"spectra":[
@@ -5005,7 +4990,7 @@
 						"3.368076961e-17"
 					]
 				],
-				"source":"6,12"
+				"source":"6,11"
 			}
 		]
 	}

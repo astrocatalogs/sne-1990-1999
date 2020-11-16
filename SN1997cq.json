@@ -41,22 +41,17 @@
 				"alias":"6"
 			},
 			{
-				"name":"Transient Name Server",
-				"url":"https://wis-tns.weizmann.ac.il/",
-				"alias":"7"
-			},
-			{
 				"name":"CfA Supernova Archive",
 				"acknowledgment":"This research has made use of the CfA Supernova Archive, which is funded in part by the National Science Foundation through grant AST 0907903.",
 				"secondary":true,
 				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
-				"alias":"8"
+				"alias":"7"
 			},
 			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"9"
+				"alias":"8"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -64,7 +59,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"10"
+				"alias":"9"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -72,7 +67,7 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"11"
+				"alias":"10"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
@@ -80,13 +75,13 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)",
 				"secondary":true,
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"12"
+				"alias":"11"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1997cq",
-				"source":"2,6,7,8,9,11,12"
+				"source":"2,6,7,8,10,11"
 			}
 		],
 		"claimedtype":[
@@ -96,7 +91,7 @@
 			},
 			{
 				"value":"IIn",
-				"source":"4,6,7,9,11,12"
+				"source":"4,6,8,10,11"
 			}
 		],
 		"comovingdist":[
@@ -104,35 +99,30 @@
 				"value":"140",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,6,9,10"
+				"source":"1,6,8,9"
 			}
 		],
 		"dec":[
 			{
 				"value":"+39:45:20.3",
 				"u_value":"degrees",
-				"source":"2,5,6,9,11,12"
-			},
-			{
-				"value":"+39:45:20.30",
-				"u_value":"degrees",
-				"source":"7"
+				"source":"2,5,6,8,10,11"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1997/06/02",
-				"source":"2,6,9,12"
+				"source":"2,6,8,11"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"McDOSST",
-				"source":"12"
+				"source":"11"
 			},
 			{
 				"value":"McDonald Observatory Supernova Search Team",
-				"source":"6,9"
+				"source":"6,8"
 			}
 		],
 		"ebv":[
@@ -140,27 +130,27 @@
 				"value":"0.0084",
 				"derived":true,
 				"e_value":"0.0005",
-				"source":"3,10"
+				"source":"3,9"
 			}
 		],
 		"host":[
 			{
 				"value":"UGC 10420",
-				"source":"2,12"
+				"source":"2,11"
 			}
 		],
 		"hostcomovingdist":[
 			{
 				"value":"140",
 				"derived":true,
-				"source":"1,2,10"
+				"source":"1,2,9"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+39:46:00",
 				"u_value":"degrees",
-				"source":"12"
+				"source":"11"
 			},
 			{
 				"value":"+39:45:59.5",
@@ -172,7 +162,7 @@
 			{
 				"value":"145",
 				"derived":true,
-				"source":"1,2,10"
+				"source":"1,2,9"
 			}
 		],
 		"hostoffsetang":[
@@ -180,20 +170,20 @@
 				"value":"39.73",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"2,5,6,9,10,11,12"
+				"source":"2,5,6,8,9,10,11"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"26.13",
-				"source":"1,2,5,6,9,10,11,12"
+				"source":"1,2,5,6,8,9,10,11"
 			}
 		],
 		"hostra":[
 			{
 				"value":"16:29:51",
 				"u_value":"hours",
-				"source":"12"
+				"source":"11"
 			},
 			{
 				"value":"16:29:51.05",
@@ -211,7 +201,7 @@
 			{
 				"value":"9605",
 				"kind":"host",
-				"source":"12"
+				"source":"11"
 			}
 		],
 		"lumdist":[
@@ -227,54 +217,49 @@
 			{
 				"value":"-16.45",
 				"derived":true,
-				"source":"2,10"
+				"source":"2,9"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19.2",
 				"derived":true,
-				"source":"6,9,10"
+				"source":"6,8,9"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1997/06/01",
 				"derived":true,
-				"source":"6,9,10"
+				"source":"6,8,9"
 			}
 		],
 		"maxvisualabsmag":[
 			{
 				"value":"-16.48",
 				"derived":true,
-				"source":"2,10"
+				"source":"2,9"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"19.2",
 				"derived":true,
-				"source":"6,9,10"
+				"source":"6,8,9"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"1997/06/01",
 				"derived":true,
-				"source":"6,9,10"
+				"source":"6,8,9"
 			}
 		],
 		"ra":[
 			{
 				"value":"16:29:50.86",
 				"u_value":"hours",
-				"source":"2,5,6,9,11,12"
-			},
-			{
-				"value":"16:29:50.861",
-				"u_value":"hours",
-				"source":"7"
+				"source":"2,5,6,8,10,11"
 			}
 		],
 		"redshift":[
@@ -285,7 +270,7 @@
 			},
 			{
 				"value":"0.032",
-				"source":"6,9"
+				"source":"6,8"
 			}
 		],
 		"velocity":[
@@ -293,7 +278,7 @@
 				"value":"9605",
 				"kind":"host",
 				"u_value":"km/s",
-				"source":"12"
+				"source":"11"
 			}
 		],
 		"photometry":[
@@ -301,7 +286,7 @@
 				"time":"50600.5",
 				"magnitude":"19.2",
 				"u_time":"MJD",
-				"source":"6,9"
+				"source":"6,8"
 			}
 		],
 		"spectra":[
@@ -10817,7 +10802,7 @@
 						"4.3986753e-17"
 					]
 				],
-				"source":"8"
+				"source":"7"
 			}
 		]
 	}
