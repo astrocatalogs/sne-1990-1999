@@ -117,23 +117,28 @@
 				"alias":"19"
 			},
 			{
+				"name":"Transient Name Server",
+				"url":"https://www.wis-tns.org/",
+				"alias":"20"
+			},
+			{
 				"name":"CfA Supernova Archive",
 				"acknowledgment":"This research has made use of the CfA Supernova Archive, which is funded in part by the National Science Foundation through grant AST 0907903.",
 				"secondary":true,
 				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
-				"alias":"20"
+				"alias":"21"
 			},
 			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"21"
+				"alias":"22"
 			},
 			{
 				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
 				"secondary":true,
 				"url":"http://dau.itep.ru/sn/node/72",
-				"alias":"22"
+				"alias":"23"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -141,7 +146,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"23"
+				"alias":"24"
 			},
 			{
 				"name":"WISeREP",
@@ -149,7 +154,7 @@
 				"reference":"Yaron & Gal-Yam (2012)",
 				"secondary":true,
 				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"24"
+				"alias":"25"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -157,7 +162,7 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"25"
+				"alias":"26"
 			},
 			{
 				"name":"NED-D v13.1.0",
@@ -165,7 +170,7 @@
 				"reference":"Helou et al. (1991)",
 				"secondary":true,
 				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"26"
+				"alias":"27"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
@@ -173,78 +178,83 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)",
 				"secondary":true,
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"27"
+				"alias":"28"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1996ai",
-				"source":"3,4,17,20,21,22,24,25,26,27"
+				"source":"3,4,17,20,21,22,23,25,26,27,28"
 			},
 			{
 				"value":"AAVSO 1306+37",
-				"source":"25"
+				"source":"26"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"3,4,8,17,21,25,27"
+				"source":"3,4,8,17,20,22,26,28"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"13.7",
 				"u_value":"Mpc",
-				"source":"14,26"
+				"source":"14,27"
 			},
 			{
 				"value":"14.1",
 				"u_value":"Mpc",
-				"source":"13,26"
+				"source":"13,27"
 			},
 			{
 				"value":"15.5",
 				"u_value":"Mpc",
-				"source":"7,26"
+				"source":"7,27"
 			},
 			{
 				"value":"16.5",
 				"u_value":"Mpc",
-				"source":"9,26"
+				"source":"9,27"
 			},
 			{
 				"value":"16.9",
 				"u_value":"Mpc",
-				"source":"12,26"
+				"source":"12,27"
 			},
 			{
 				"value":"34.6",
 				"u_value":"Mpc",
-				"source":"10,26"
+				"source":"10,27"
 			}
 		],
 		"dec":[
 			{
 				"value":"+37:03:35.4",
 				"u_value":"degrees",
-				"source":"4,16,17,21,25,27"
+				"source":"4,16,17,22,26,28"
+			},
+			{
+				"value":"+37:03:35.39",
+				"u_value":"degrees",
+				"source":"20"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1996/06/16",
-				"source":"3,4,17,21"
+				"source":"3,4,17,20,22"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Bottari",
-				"source":"27"
+				"source":"28"
 			},
 			{
 				"value":"Claudio Bottari",
-				"source":"17,21"
+				"source":"17,22"
 			}
 		],
 		"ebv":[
@@ -252,27 +262,27 @@
 				"value":"0.0122",
 				"derived":true,
 				"e_value":"0.0001",
-				"source":"6,23"
+				"source":"6,24"
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 5005",
-				"source":"2,3,4,7,9,10,12,13,14,17,21,26,27"
+				"source":"2,3,4,7,9,10,12,13,14,17,20,22,27,28"
 			}
 		],
 		"hostcomovingdist":[
 			{
 				"value":"14",
 				"derived":true,
-				"source":"1,4,23"
+				"source":"1,4,24"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+37:03:29",
 				"u_value":"degrees",
-				"source":"27"
+				"source":"28"
 			},
 			{
 				"value":"+37:03:33.5",
@@ -284,7 +294,7 @@
 			{
 				"value":"14.2",
 				"derived":true,
-				"source":"1,4,23"
+				"source":"1,4,24"
 			}
 		],
 		"hostoffsetang":[
@@ -292,20 +302,20 @@
 				"value":"26.29",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"4,16,17,21,23,25,27"
+				"source":"4,16,17,22,24,26,28"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"1.741",
-				"source":"3,4,14,16,17,21,23,25,26,27"
+				"source":"3,4,14,16,17,22,24,26,27,28"
 			}
 		],
 		"hostra":[
 			{
 				"value":"13:10:56",
 				"u_value":"hours",
-				"source":"27"
+				"source":"28"
 			},
 			{
 				"value":"13:10:56.29",
@@ -323,7 +333,7 @@
 			{
 				"value":"992",
 				"kind":"host",
-				"source":"27"
+				"source":"28"
 			}
 		],
 		"lumdist":[
@@ -339,62 +349,67 @@
 			{
 				"value":"-17.2",
 				"derived":true,
-				"source":"4,23"
+				"source":"4,24"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"13.5",
 				"derived":true,
-				"source":"19,22,23"
+				"source":"19,23,24"
 			}
 		],
 		"maxband":[
 			{
 				"value":"I",
 				"derived":true,
-				"source":"19,22,23"
+				"source":"19,23,24"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1996/06/21",
-				"source":"4,27"
+				"source":"4,28"
 			}
 		],
 		"maxvisualabsmag":[
 			{
 				"value":"-14.2",
 				"derived":true,
-				"source":"4,23"
+				"source":"4,24"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"16.5",
 				"derived":true,
-				"source":"19,22,23"
+				"source":"19,23,24"
 			}
 		],
 		"maxvisualband":[
 			{
 				"value":"B",
 				"derived":true,
-				"source":"19,22,23"
+				"source":"19,23,24"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"1996/06/20",
 				"derived":true,
-				"source":"19,22,23"
+				"source":"19,23,24"
 			}
 		],
 		"ra":[
 			{
 				"value":"13:10:58.13",
 				"u_value":"hours",
-				"source":"4,16,17,21,25,27"
+				"source":"4,16,17,22,26,28"
+			},
+			{
+				"value":"13:10:58.130",
+				"u_value":"hours",
+				"source":"20"
 			}
 		],
 		"redshift":[
@@ -405,12 +420,12 @@
 			},
 			{
 				"value":"0.00316",
-				"source":"7,10,12,13,26"
+				"source":"7,10,12,13,27"
 			},
 			{
 				"value":"0.00373",
 				"derived":true,
-				"source":"1,9,26"
+				"source":"1,9,27"
 			}
 		],
 		"velocity":[
@@ -418,7 +433,7 @@
 				"value":"992",
 				"kind":"host",
 				"u_value":"km/s",
-				"source":"27"
+				"source":"28"
 			}
 		],
 		"photometry":[
@@ -426,21 +441,21 @@
 				"time":"50249.5",
 				"magnitude":"14.5",
 				"u_time":"MJD",
-				"source":"17,21"
+				"source":"17,22"
 			},
 			{
 				"time":"50250.86",
 				"band":"V",
 				"magnitude":"14.5",
 				"u_time":"MJD",
-				"source":"18,22"
+				"source":"18,23"
 			},
 			{
 				"time":"50250.88",
 				"band":"V",
 				"magnitude":"14.5",
 				"u_time":"MJD",
-				"source":"18,22"
+				"source":"18,23"
 			},
 			{
 				"time":"50253.5",
@@ -449,7 +464,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"16.95",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50253.5",
@@ -458,7 +473,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"13.98",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50253.5",
@@ -467,7 +482,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"14.52",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50253.5",
@@ -476,42 +491,42 @@
 				"e_magnitude":"0.02",
 				"magnitude":"15.30",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50254.0",
 				"band":"B",
 				"magnitude":"16.5",
 				"u_time":"MJD",
-				"source":"19,22"
+				"source":"19,23"
 			},
 			{
 				"time":"50254.0",
 				"band":"I",
 				"magnitude":"13.5",
 				"u_time":"MJD",
-				"source":"19,22"
+				"source":"19,23"
 			},
 			{
 				"time":"50254.0",
 				"band":"R",
 				"magnitude":"14.5",
 				"u_time":"MJD",
-				"source":"19,22"
+				"source":"19,23"
 			},
 			{
 				"time":"50254.0",
 				"band":"V",
 				"magnitude":"15",
 				"u_time":"MJD",
-				"source":"19,22"
+				"source":"19,23"
 			},
 			{
 				"time":"50254.3",
 				"band":"V",
 				"magnitude":"15.2",
 				"u_time":"MJD",
-				"source":"18,22"
+				"source":"18,23"
 			},
 			{
 				"time":"50254.5",
@@ -520,7 +535,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"16.97",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50254.5",
@@ -529,7 +544,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"14.02",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50254.5",
@@ -538,7 +553,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"14.50",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50254.5",
@@ -547,14 +562,14 @@
 				"e_magnitude":"0.02",
 				"magnitude":"15.29",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50254.91",
 				"band":"V",
 				"magnitude":"13.8",
 				"u_time":"MJD",
-				"source":"18,22"
+				"source":"18,23"
 			},
 			{
 				"time":"50255.5",
@@ -563,7 +578,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"16.97",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50255.5",
@@ -572,7 +587,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"14.47",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50255.5",
@@ -581,7 +596,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"15.27",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50256.5",
@@ -590,7 +605,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"17.01",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50256.5",
@@ -599,7 +614,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"14.48",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50256.5",
@@ -608,7 +623,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"15.27",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50257.5",
@@ -617,7 +632,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"17.00",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50257.5",
@@ -626,7 +641,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"14.09",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50257.5",
@@ -635,7 +650,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"14.49",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50257.5",
@@ -644,7 +659,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"15.23",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50258.5",
@@ -653,7 +668,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"17.04",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50258.5",
@@ -662,7 +677,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"14.18",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50258.5",
@@ -671,7 +686,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"14.51",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50258.5",
@@ -680,7 +695,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"15.29",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50259.5",
@@ -689,7 +704,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"17.06",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50259.5",
@@ -698,7 +713,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"14.19",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50259.5",
@@ -707,7 +722,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"14.53",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50259.5",
@@ -716,7 +731,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"15.26",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50273.5",
@@ -725,7 +740,7 @@
 				"e_magnitude":"0.05",
 				"magnitude":"18.17",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50273.5",
@@ -734,7 +749,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"14.53",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50273.5",
@@ -743,7 +758,7 @@
 				"e_magnitude":"0.03",
 				"magnitude":"15.15",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50273.5",
@@ -752,7 +767,7 @@
 				"e_magnitude":"0.11",
 				"magnitude":"16.03",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50275.5",
@@ -761,7 +776,7 @@
 				"e_magnitude":"0.09",
 				"magnitude":"15.33",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50277.5",
@@ -770,7 +785,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"14.52",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50277.5",
@@ -779,7 +794,7 @@
 				"e_magnitude":"0.03",
 				"magnitude":"15.16",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50277.5",
@@ -788,7 +803,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"15.96",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50280.5",
@@ -797,7 +812,7 @@
 				"e_magnitude":"0.05",
 				"magnitude":"18.99",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50280.5",
@@ -806,7 +821,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"15.24",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50280.5",
@@ -815,7 +830,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"16.40",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50281.5",
@@ -824,7 +839,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"18.99",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50281.5",
@@ -833,7 +848,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"15.26",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50281.5",
@@ -842,7 +857,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"16.43",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50282.5",
@@ -851,7 +866,7 @@
 				"e_magnitude":"0.05",
 				"magnitude":"19.13",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50282.5",
@@ -860,7 +875,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"14.34",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50282.5",
@@ -869,7 +884,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"15.30",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50282.5",
@@ -878,7 +893,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"16.36",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50284.5",
@@ -887,7 +902,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"14.51",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50284.5",
@@ -896,7 +911,7 @@
 				"e_magnitude":"0.05",
 				"magnitude":"15.30",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50284.5",
@@ -905,7 +920,7 @@
 				"e_magnitude":"0.03",
 				"magnitude":"16.37",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50294.5",
@@ -914,7 +929,7 @@
 				"e_magnitude":"0.14",
 				"magnitude":"20.15",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50294.5",
@@ -923,7 +938,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"15.04",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50294.5",
@@ -932,7 +947,7 @@
 				"e_magnitude":"0.03",
 				"magnitude":"16.02",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			},
 			{
 				"time":"50294.5",
@@ -941,7 +956,7 @@
 				"e_magnitude":"0.03",
 				"magnitude":"17.11",
 				"u_time":"MJD",
-				"source":"15,20"
+				"source":"15,21"
 			}
 		],
 		"spectra":[
@@ -22477,7 +22492,7 @@
 						"3.666441e-15"
 					]
 				],
-				"source":"5,11,20"
+				"source":"5,11,21"
 			},
 			{
 				"time":"50254.17",
@@ -35609,7 +35624,7 @@
 						"1.0201803e-16"
 					]
 				],
-				"source":"5,11,20"
+				"source":"5,11,21"
 			},
 			{
 				"time":"50255",
@@ -58761,7 +58776,7 @@
 						"7.6790543e-17"
 					]
 				],
-				"source":"5,11,20"
+				"source":"5,11,21"
 			},
 			{
 				"time":"50256",
@@ -97802,7 +97817,7 @@
 						"1.4170070e-16"
 					]
 				],
-				"source":"5,11,20"
+				"source":"5,11,21"
 			},
 			{
 				"time":"50259.26",
@@ -110944,7 +110959,7 @@
 						"7.9855324e-17"
 					]
 				],
-				"source":"5,11,20"
+				"source":"5,11,21"
 			},
 			{
 				"time":"50270.23",
@@ -124091,7 +124106,7 @@
 						"5.1098981e-17"
 					]
 				],
-				"source":"5,11,20"
+				"source":"5,11,21"
 			},
 			{
 				"time":"50277",
@@ -145033,7 +145048,7 @@
 						"6.1865966e-17"
 					]
 				],
-				"source":"5,11,20"
+				"source":"5,11,21"
 			},
 			{
 				"time":"50305",

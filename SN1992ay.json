@@ -41,10 +41,15 @@
 				"alias":"6"
 			},
 			{
+				"name":"Transient Name Server",
+				"url":"https://www.wis-tns.org/",
+				"alias":"7"
+			},
+			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"7"
+				"alias":"8"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -52,7 +57,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"8"
+				"alias":"9"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -60,7 +65,7 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"9"
+				"alias":"10"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
@@ -68,13 +73,13 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)",
 				"secondary":true,
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"10"
+				"alias":"11"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1992ay",
-				"source":"2,6,7,9,10"
+				"source":"2,6,7,8,10,11"
 			}
 		],
 		"claimedtype":[
@@ -84,11 +89,11 @@
 			},
 			{
 				"value":"IIn",
-				"source":"4,9,10"
+				"source":"4,10,11"
 			},
 			{
 				"value":"II P",
-				"source":"6,7"
+				"source":"6,7,8"
 			}
 		],
 		"comovingdist":[
@@ -96,40 +101,45 @@
 				"value":"270",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,8"
+				"source":"1,2,9"
 			}
 		],
 		"dec":[
 			{
 				"value":"-46:24:00.6",
 				"u_value":"degrees",
-				"source":"5,9"
+				"source":"5,10"
 			},
 			{
 				"value":"-46:24:07",
 				"u_value":"degrees",
-				"source":"10"
+				"source":"11"
+			},
+			{
+				"value":"-46:24:06.98",
+				"u_value":"degrees",
+				"source":"7"
 			},
 			{
 				"value":"-46:24:07.0",
 				"u_value":"degrees",
-				"source":"2,6,7"
+				"source":"2,6,8"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1992/09/20",
-				"source":"2,6,7,10"
+				"source":"2,6,7,8,11"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Antezana",
-				"source":"10"
+				"source":"11"
 			},
 			{
 				"value":"Roberto Antezana",
-				"source":"6,7"
+				"source":"6,8"
 			}
 		],
 		"ebv":[
@@ -137,27 +147,27 @@
 				"value":"0.01",
 				"derived":true,
 				"e_value":"0.0003",
-				"source":"3,8"
+				"source":"3,9"
 			}
 		],
 		"host":[
 			{
 				"value":"A043019-4624",
-				"source":"10"
+				"source":"11"
 			}
 		],
 		"hostcomovingdist":[
 			{
 				"value":"270",
 				"derived":true,
-				"source":"1,2,8"
+				"source":"1,2,9"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-46:24:07",
 				"u_value":"degrees",
-				"source":"10"
+				"source":"11"
 			},
 			{
 				"value":"-46:24:07.0",
@@ -169,7 +179,7 @@
 			{
 				"value":"287",
 				"derived":true,
-				"source":"1,2,8"
+				"source":"1,2,9"
 			}
 		],
 		"hostoffsetang":[
@@ -177,20 +187,20 @@
 				"value":"9.134",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"5,8,9,10"
+				"source":"5,9,10,11"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"11.26",
-				"source":"1,2,5,8,9,10"
+				"source":"1,2,5,9,10,11"
 			}
 		],
 		"hostra":[
 			{
 				"value":"04:30:19",
 				"u_value":"hours",
-				"source":"10"
+				"source":"11"
 			},
 			{
 				"value":"04:30:19.00",
@@ -208,7 +218,7 @@
 			{
 				"value":"18600",
 				"kind":"host",
-				"source":"10"
+				"source":"11"
 			}
 		],
 		"lumdist":[
@@ -216,66 +226,71 @@
 				"value":"287",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,8"
+				"source":"1,2,9"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-18.7",
 				"derived":true,
-				"source":"1,2,8"
+				"source":"1,2,9"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.5",
 				"derived":true,
-				"source":"6,7,8"
+				"source":"6,8,9"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1992/09/19",
 				"derived":true,
-				"source":"6,7,8"
+				"source":"6,8,9"
 			}
 		],
 		"maxvisualabsmag":[
 			{
 				"value":"-18.8",
 				"derived":true,
-				"source":"1,2,8"
+				"source":"1,2,9"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"18.5",
 				"derived":true,
-				"source":"6,7,8"
+				"source":"6,8,9"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"1992/09/19",
 				"derived":true,
-				"source":"6,7,8"
+				"source":"6,8,9"
 			}
 		],
 		"ra":[
 			{
 				"value":"04:30:19.63",
 				"u_value":"hours",
-				"source":"5,9"
+				"source":"5,10"
 			},
 			{
 				"value":"04:30:19.0",
 				"u_value":"hours",
-				"source":"10"
+				"source":"11"
+			},
+			{
+				"value":"04:30:19.099",
+				"u_value":"hours",
+				"source":"7"
 			},
 			{
 				"value":"04:30:19.10",
 				"u_value":"hours",
-				"source":"6,7"
+				"source":"6,8"
 			},
 			{
 				"value":"04:30:19.00",
@@ -295,7 +310,7 @@
 				"value":"18600",
 				"kind":"host",
 				"u_value":"km/s",
-				"source":"10"
+				"source":"11"
 			}
 		],
 		"photometry":[
@@ -303,7 +318,7 @@
 				"time":"48884.5",
 				"magnitude":"18.5",
 				"u_time":"MJD",
-				"source":"6,7"
+				"source":"6,8"
 			}
 		]
 	}

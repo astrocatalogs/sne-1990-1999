@@ -29,10 +29,15 @@
 				"alias":"4"
 			},
 			{
+				"name":"Transient Name Server",
+				"url":"https://www.wis-tns.org/",
+				"alias":"5"
+			},
+			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"5"
+				"alias":"6"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -40,7 +45,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"6"
+				"alias":"7"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -48,7 +53,7 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"7"
+				"alias":"8"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
@@ -56,46 +61,51 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)",
 				"secondary":true,
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"8"
+				"alias":"9"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN1992S",
-				"source":"1,4,5,7,8"
+				"source":"1,4,5,6,8,9"
 			}
 		],
 		"dec":[
 			{
 				"value":"+31:02:59.8",
 				"u_value":"degrees",
-				"source":"3,7"
+				"source":"3,8"
 			},
 			{
 				"value":"+31:03:00.0",
 				"u_value":"degrees",
-				"source":"1,8"
+				"source":"1,9"
+			},
+			{
+				"value":"+31:02:59.89",
+				"u_value":"degrees",
+				"source":"5"
 			},
 			{
 				"value":"+31:02:59.9",
 				"u_value":"degrees",
-				"source":"4,5"
+				"source":"4,6"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1992/04/09",
-				"source":"1,4,5,8"
+				"source":"1,4,5,6,9"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Mueller",
-				"source":"8"
+				"source":"9"
 			},
 			{
 				"value":"Jean Mueller",
-				"source":"4,5"
+				"source":"4,6"
 			}
 		],
 		"ebv":[
@@ -103,13 +113,13 @@
 				"value":"0.0132",
 				"derived":true,
 				"e_value":"0.0004",
-				"source":"2,6"
+				"source":"2,7"
 			}
 		],
 		"host":[
 			{
 				"value":"A141742+3103",
-				"source":"8"
+				"source":"9"
 			},
 			{
 				"value":"PGC 1929383",
@@ -120,7 +130,7 @@
 			{
 				"value":"+31:03:00",
 				"u_value":"degrees",
-				"source":"8"
+				"source":"9"
 			},
 			{
 				"value":"+31:03:00.0",
@@ -133,14 +143,14 @@
 				"value":"5.786",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"3,4,5,6,7,8"
+				"source":"3,4,6,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"14:17:42",
 				"u_value":"hours",
-				"source":"8"
+				"source":"9"
 			},
 			{
 				"value":"14:17:42.00",
@@ -152,40 +162,45 @@
 			{
 				"value":"18.5",
 				"derived":true,
-				"source":"4,5,6"
+				"source":"4,6,7"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"1992/04/08",
 				"derived":true,
-				"source":"4,5,6"
+				"source":"4,6,7"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"18.5",
 				"derived":true,
-				"source":"4,5,6"
+				"source":"4,6,7"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"1992/04/08",
 				"derived":true,
-				"source":"4,5,6"
+				"source":"4,6,7"
 			}
 		],
 		"ra":[
 			{
 				"value":"14:17:42.45",
 				"u_value":"hours",
-				"source":"3,4,5,7"
+				"source":"3,4,6,8"
 			},
 			{
 				"value":"14:17:42.46",
 				"u_value":"hours",
-				"source":"1,8"
+				"source":"1,9"
+			},
+			{
+				"value":"14:17:42.449",
+				"u_value":"hours",
+				"source":"5"
 			}
 		],
 		"photometry":[
@@ -193,7 +208,7 @@
 				"time":"48720.5",
 				"magnitude":"18.5",
 				"u_time":"MJD",
-				"source":"4,5"
+				"source":"4,6"
 			}
 		]
 	}
